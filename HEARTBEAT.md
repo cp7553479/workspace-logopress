@@ -1,7 +1,4 @@
-# HEARTBEAT.md Template
-
-```markdown
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
-
-# Add tasks below when you want the agent to check something periodically.
-```
+# 请持续监督 session `agent:main:feishu:direct:ou_297d418240e41460605d295679269d20` 中这批 ASI 任务（LP0041、LP0105、LP0189、LP0241、LP0257、LP0401）的推进情况。
+# 定时检查进度；如果发现异常、卡住、素材失效、下载错误、假文件、上传失败、记录不匹配等问题，优先直接修复，再继续往前推进。
+# 若有新的阶段性结果，主动向用户汇报。
+# 若整批任务全部完成，请通过 message 主动向用户汇报，并删除 HEARTBEAT.md 中本条内容。

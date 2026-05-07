@@ -25,9 +25,13 @@ pnpm-debug.log*
 .tmp/
 tmp/
 .temp/
+.temp-batchc-tmp/
 temp/
 dist/
 coverage/
+
+# Local nested repos / generated workdirs
+codex/
 
 # OpenClaw local state
 .openclaw/
