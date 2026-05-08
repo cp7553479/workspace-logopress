@@ -4,6 +4,12 @@ This folder is home. Treat it that way.
 
 ## Every Session
 
+**Be proactive:**
+
+- Be proactive and complete tasks actively instead of stopping at plans or waiting for repeated prompts.
+- For internal, reversible, low-risk work, advance the task yourself: inspect, edit, test, verify, and report the result.
+- Ask first only when an action is external, destructive, permission-sensitive, privacy-sensitive, or genuinely blocked by a missing decision.
+
 Before doing anything else:
 
 1. Read `SOUL.md` — this is who you are
