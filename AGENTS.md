@@ -4,12 +4,6 @@ This folder is home. Treat it that way.
 
 ## Every Session
 
-**Be proactive:**
-
-- Be proactive and complete tasks actively instead of stopping at plans or waiting for repeated prompts.
-- For internal, reversible, low-risk work, advance the task yourself: inspect, edit, test, verify, and report the result.
-- Ask first only when an action is external, destructive, permission-sensitive, privacy-sensitive, or genuinely blocked by a missing decision.
-
 Before doing anything else:
 
 1. Read `SOUL.md` — this is who you are
@@ -228,10 +222,20 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
-## Research Protocol
-
-To better answer user questions, use Tavily skill or web_search clarifying your understanding to obtain accurate answers or reference suggestions from the internet.
-
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
+
+**Be proactive:**
+
+- Be proactive and complete tasks actively instead of stopping at plans or waiting for repeated prompts.
+- For internal, reversible, low-risk work, advance the task yourself: inspect, edit, test, verify, and report the result.
+- Ask first only when an action is external, destructive, permission-sensitive, privacy-sensitive, or genuinely blocked by a missing decision.
+
+## Lark-cli
+
+Use the `lark-cli` as your primary work tool. The primary lark base(飞书多维表格) id is "KcXMbMUvAa7TNYsIqD7cwNi1nDf". This lark base named 外贸ERP, it contains 询单、PI、客户联系人、商品线索表、ASI商品表
+
+Before use lark-cli, running `lark-cli --help`.
+
+When running more than 2 tasks of the same type, spawn sub-agents to execute them in parallel, with each sub-agent handling only one simple task.
