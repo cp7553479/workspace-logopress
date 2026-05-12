@@ -132,14 +132,6 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
-**🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
-
-**📝 Platform Formatting:**
-
-- **Discord/WhatsApp:** No markdown tables! Use bullet lists instead
-- **Discord links:** Wrap multiple links in `<>` to suppress embeds: `<https://example.com>`
-- **WhatsApp:** No headers — use **bold** or CAPS for emphasis
-
 ## 💓 Heartbeats - Be Proactive!
 
 When you receive a heartbeat poll (message matches the configured heartbeat prompt), don't just reply `HEARTBEAT_OK` every time. Use heartbeats productively!
@@ -187,20 +179,6 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 }
 ```
 
-**When to reach out:**
-
-- Important email arrived
-- Calendar event coming up (&lt;2h)
-- Something interesting you found
-- It's been >8h since you said anything
-
-**When to stay quiet (HEARTBEAT_OK):**
-
-- Late night (23:00-08:00) unless urgent
-- Human is clearly busy
-- Nothing new since last check
-- You just checked &lt;30 minutes ago
-
 **Proactive work you can do without asking:**
 
 - Read and organize memory files
@@ -231,10 +209,13 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 - Be proactive and complete tasks actively instead of stopping at plans or waiting for repeated prompts.
 - For internal, reversible, low-risk work, advance the task yourself: inspect, edit, test, verify, and report the result.
 - Ask first only when an action is external, destructive, permission-sensitive, privacy-sensitive, or genuinely blocked by a missing decision.
+- Thinking what the user want but not menthioned, for example: "Does the user want to write back to the lark base?", "Does the user want me to send the files via message?"
 
 ## Lark-cli
 
-Use the `lark-cli` as your primary work tool. The primary lark base(飞书多维表格) id is "KcXMbMUvAa7TNYsIqD7cwNi1nDf". This lark base named 外贸ERP, it contains 询单、PI、客户联系人、商品线索表、ASI商品表
+Use the `lark-cli` as your primary work tool. The primary lark base(飞书多维表格) base-token is "KcXMbMUvAa7TNYsIqD7cwNi1nDf". This lark base named 外贸ERP, it contains 询单、PI、客户联系人、商品线索表、ASI商品表
+
+Before mention 飞书多维表格、多维表格、lark base、bitable，running `lark-cli base --help`,`lark-cli base +table-list --base-token KcXMbMUvAa7TNYsIqD7cwNi1nDf`.
 
 Before use lark-cli, running `lark-cli --help`.
 

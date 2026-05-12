@@ -5,7 +5,11 @@ description: 在飞书商品线索表里生成并回填商品白底图。Use whe
 
 # Generate White Background
 
-为 `商品线索表` 中的商品生成白底主图，并把结果写回 `白底图` 字段。
+为 `商品线索表` 中的商品生成白底主图，并把结果写回 `白底图` 字段。若有多个产品，可以派生多个subagent分别阅读本skill，然后处理指定产品。如果使用codex生成图片，让codex先阅读本skill再生成图片。
+
+**注意：**
+以下 base-token、table-id、view-id、field-id 均为示例值，请根据实际情况替换成实际值，先读取表结构，再思考下一步。
+请使用`message` tool输出你的思考，充分与用户沟通。
 
 ## Inputs
 
@@ -27,8 +31,6 @@ description: 在飞书商品线索表里生成并回填商品白底图。Use whe
 ## Process
 
 ### 1. 先读真实字段结构
-
-目标表固定为：
 
 - Base Token: `KcXMbMUvAa7TNYsIqD7cwNi1nDf`
 - Table ID: `tblsVUTaYTcvp8F5`
@@ -132,7 +134,7 @@ lark-cli api GET /open-apis/drive/v1/medias/batch_get_tmp_download_url \
 - `sessions_spawn`
 - `runtime: "acp"`
 - `agentId: "codex"`
-- `streamTo: "parent"`（等同于 sendToParent）
+- `streamTo: "parent"`
 
 推荐参数形态：
 
