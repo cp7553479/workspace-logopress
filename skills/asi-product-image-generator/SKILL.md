@@ -123,6 +123,23 @@ lark-cli base +record-upload-attachment \
 <workspace>/temp/<产品编号>_asi_<record_id>/
 ```
 
+### ACP Codex 生图调用示例
+
+> `streamTo` 必须写成固定值 `"parent"`，不要替换成具体 channel、chat_id、sessionKey 或其他值。
+
+```json
+{
+  "runtime": "acp",
+  "agentId": "codex",
+  "mode": "run",
+  "streamTo": "parent",
+  "cwd": "<workspace>/temp/<产品编号>_asi_<record_id>",
+  "task": "You are in the dedicated ASI product image folder for <产品编号>: <workspace>/temp/<产品编号>_asi_<record_id>. First read ./AGENTS.md and follow it. Use built-in image generation capability only. Do not use scripts, PIL, ImageMagick, SVG/canvas, local compositing, or programmatic editing to create the final image.\n\nImage type: <首图/场景图/卖点图/功能图/尺寸图/材质工艺图/SKU图>.\nReference image 1: <参考图1绝对路径>, this reference is <用途>.\nReference image 2: <参考图2绝对路径>, this reference is <用途>.\nOptional logo reference: <Logo文件绝对路径>, this is the required logo asset for main image only.\n\nGenerate requirements: <英文提示词：必须包含商品细节、图片类型、1:1比例、是否要文案、是否禁止Logo、禁止项>.\n\nSave/copy the final generated image exactly to: <workspace>/temp/<产品编号>_asi_<record_id>/outputs/<输出文件名>.png.",
+  "runTimeoutSeconds": 900,
+  "timeoutSeconds": 1200
+}
+```
+
 ## 生成商品套图工作流程
 
 当前商品必须按以下主链路执行：

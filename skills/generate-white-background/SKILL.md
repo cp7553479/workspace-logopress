@@ -127,14 +127,14 @@ lark-cli api GET /open-apis/drive/v1/medias/batch_get_tmp_download_url \
 
 注意：`rev` 以当前原始 record 返回值为准，不要硬编码旧值。
 
-### 6. 使用 `sessions_spawn` + ACPX + Codex + `sendToParent` 生成白底图
+### 6. 使用 `sessions_spawn` + ACPX + Codex + `streamTo: "parent"` 生成白底图
 
 生成白底图时，保留这条方法链路：
 
 - `sessions_spawn`
 - `runtime: "acp"`
 - `agentId: "codex"`
-- `streamTo: "parent"`
+- `streamTo: "parent"`（`parent` 是固定字符串值，不要替换成 channel、chat_id、sessionKey 或其他值）
 
 推荐参数形态：
 
@@ -153,6 +153,8 @@ lark-cli api GET /open-apis/drive/v1/medias/batch_get_tmp_download_url \
 - 输出最终文件路径
 
 示例：
+
+> `streamTo` 必须写成固定值 `"parent"`，不要替换成具体 channel、chat_id、sessionKey 或其他值。
 
 ```json
 {
