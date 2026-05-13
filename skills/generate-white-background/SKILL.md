@@ -5,7 +5,7 @@ description: 在飞书商品线索表里生成并回填商品白底图。Use whe
 
 # Generate White Background
 
-为 `商品线索表` 中的商品生成白底主图，并把结果写回 `白底图` 字段。若有多个产品，可以派生多个subagent分别阅读本skill，然后处理指定产品。如果使用codex生成图片，让codex先阅读本skill再生成图片。
+为 `商品线索表` 中的商品生成白底主图，并把结果写回 `白底图` 字段。若有多个产品，可以派生多个subagent分别阅读本skill，然后处理指定产品。
 
 **注意：**
 以下 base-token、table-id、view-id、field-id 均为示例值，请根据实际情况替换成实际值，先读取表结构，再思考下一步。
@@ -25,7 +25,7 @@ description: 在飞书商品线索表里生成并回填商品白底图。Use whe
 ## Output
 
 1. 本地下载的参考图文件。
-2. ACP Codex 生成的白底图文件，或明确的阻塞说明。
+2. 使用生图工具/技能生成的白底图文件，或明确的阻塞说明。
 3. 已回填到 Base `白底图` 字段的附件记录。
 
 ## Process
@@ -114,7 +114,7 @@ lark-cli api GET \
 lark-cli api GET /open-apis/drive/v1/medias/<file_token>/download \
   --as user \
   --params '{"extra":"{"bitablePerm":{"tableId":"tblsVUTaYTcvp8F5","rev":61527}}"}' \
-  --output ./tmp/reference.jpg
+  --output <workspace>/temp/<产品编号>_asi_<record_id>/reference.jpg
 ```
 
 或先取临时下载链接：
@@ -127,51 +127,22 @@ lark-cli api GET /open-apis/drive/v1/medias/batch_get_tmp_download_url \
 
 注意：`rev` 以当前原始 record 返回值为准，不要硬编码旧值。
 
-### 6. 使用 `sessions_spawn` + ACPX + Codex + `streamTo: "parent"` 生成白底图
+### 6. 使用合适的生图工具/技能生成白底图
 
-生成白底图时，保留这条方法链路：
+生成白底图时，使用合适的生图工具/技能生成图片，传入参考图，编写生图指令。
 
-- `sessions_spawn`
-- `runtime: "acp"`
-- `agentId: "codex"`
-- `streamTo: "parent"`（`parent` 是固定字符串值，不要替换成 channel、chat_id、sessionKey 或其他值）
-
-推荐参数形态：
-
-- `mode: "run"`
-- `thread: false`
-- `cwd` 指向当前 workspace
-
-任务要求要写清楚：
+生图指令必须写清楚：
 
 - 输入参考图本地路径
-- 输出到 `tmp/`
+- 输出到 `<workspace>/temp/<产品编号>_asi_<record_id>`
 - 纯白背景
 - 专业棚拍灯光
 - 专业电商主图视角
 - 保留主体形状与颜色
+- 移除参考图里的 Logo、品牌字样、印刷图案、水印或可见标识
 - 输出最终文件路径
 
-示例：
-
-> `streamTo` 必须写成固定值 `"parent"`，不要替换成具体 channel、chat_id、sessionKey 或其他值。
-
-```json
-{
-  "runtime": "acp",
-  "agentId": "codex",
-  "mode": "run",
-  "thread": false,
-  "streamTo": "parent",
-  "cwd": "<workspace>",
-  "task": "Use the local reference image at <reference_image_path>. Create a clean e-commerce main image on a pure white background, preserving the product shape and colors, with professional studio lighting and a professional product listing angle. Save the final image into <output_dir> and report the exact output path."
-}
-```
-
-若 ACP Codex 返回当前环境**没有可用生图/修图能力**：
-
-- 明确告诉用户这是 ACP Codex 当前环境能力限制
-- 不要伪造结果
+如果当前环境的生图工具/技能不可用、无法真实产出图片文件，或输出质量不达标，必须明确告诉用户阻塞点，不要伪造结果。
 
 ### 7. 验证输出文件
 
@@ -184,8 +155,8 @@ lark-cli api GET /open-apis/drive/v1/medias/batch_get_tmp_download_url \
 例如：
 
 ```bash
-file ./tmp/output.jpg
-ls -l ./tmp/output.jpg
+file <workspace>/temp/<产品编号>_asi_<record_id>/output.jpg
+ls -l <workspace>/temp/<产品编号>_asi_<record_id>/output.jpg
 ```
 
 ### 8. 上传到 `白底图` 字段
@@ -195,7 +166,7 @@ ls -l ./tmp/output.jpg
 不要用 `record-upsert` 伪造附件值；使用：
 
 ```bash
-cd /root/.openclaw/workspace-oss/tmp && \
+cd /<workspace>/temp/<产品编号>_asi_<record_id> && \
 lark-cli base +record-upload-attachment \
   --base-token KcXMbMUvAa7TNYsIqD7cwNi1nDf \
   --table-id tblsVUTaYTcvp8F5 \
@@ -231,7 +202,7 @@ lark-cli base +record-upload-attachment \
 
 - 用的是哪条记录
 - 参考图是否下载成功
-- ACP Codex 是否成功产出
+- 生图工具/技能是否成功产出
 - 图片是否已通过 `message` 发给用户
 - `白底图` 是否上传成功
 - 若失败，失败点在哪一步
@@ -249,19 +220,9 @@ lark-cli base +record-upload-attachment \
 3. 先检查 record 当前 `白底图` 是否已有附件；若已有，先问用户是新增、覆盖还是跳过。
 4. 读取原始 Bitable record，提取 `file_token + extra.bitablePerm`。
 5. 下载参考图到本地目录。
-6. 用 `sessions_spawn` + ACPX + Codex + `streamTo: "parent"` 生成白底图。
+6. 使用合适的生图工具/技能生成白底图，传入参考图，编写生图指令。
 7. 用 `message` 把白底图图片文件发给用户。
 8. 用 `+record-upload-attachment` 上传到 `白底图`。
-
-### Example 2
-
-用户说：`要用 acp codex 生图`。
-
-执行规则：
-
-- 使用 `sessions_spawn` 调起 ACP Codex。
-- 保留 `streamTo: "parent"`。
-- 若 ACP 环境明确无可用生图工具，直接说明阻塞。
 
 ## Troubleshooting
 
@@ -277,11 +238,6 @@ lark-cli base +record-upload-attachment \
 
 处理：先 `cd` 到目标目录，再传 `./filename`。
 
-### ACP Codex 启动了，但没有生图结果
-
-原因：当前 ACP 环境没有暴露可用的 image generation/editing 能力。
-
-处理：明确告诉用户这是 ACP Codex 环境限制；除非用户明确允许，不要自动换链路。
 
 ## Reference
 
