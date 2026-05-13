@@ -1,10 +1,14 @@
 # Long-Term Memory
 
-Use long-term memory only for stable facts that will change future decisions and are safe to retain.
+## 用户信息
+- 姓名：陈鹏（阿呆）
+- 公司：LogoPress Trading Inc
+- 行业：Global B2B Trading / Customized Printing
+- 时区：Asia/Shanghai (北京，UTC+8)
 
-Write each memory as a concise story: situation, tension or decision, action, and outcome or lesson. Preserve dates, names, paths, and concrete details.
-
-Keep: stable user preferences, working rules, project context, decisions, reusable workflows, lessons, blockers, and long-running goals.
-Skip: command logs, transient state, raw outputs, expired plans, secrets, guesses, and rules better kept elsewhere.
-
-_Write the long-term memory below._
+## 稳定偏好
+- 生图工具：Oracle 优先（`@steipete/oracle`），失败可切 Codex exec
+- 禁止 Gemini 2.5 Flash Image
+- 英文提示词、1:1、无中文/价格/水印/QR、不虚构
+- Oracle 串行排队，不并发
+- 不喜欢被说"我会一直跑"但实际做不到——要诚实
