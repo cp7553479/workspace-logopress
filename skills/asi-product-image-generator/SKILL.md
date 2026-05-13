@@ -79,8 +79,8 @@ lark-cli base +record-upload-attachment \
 1. 所有提示词必须为英文。
 2. 图片中严禁出现任何中文字符；所有文字必须使用英文，或由中文准确翻译成自然英文。
 3. 图片中严禁出现任何价格、货币符号、折扣、优惠、促销文案或其他与价格相关的信息。
-4. 图片中严禁出现任何厂商或平台水印、二维码、多余标记或多余 Logo。
-5. 首图必须带产品 Logo；除首图外，其他图片默认不要 Logo。
+4. 图片中严禁出现任何二维码、水印、厂家信息、厂商名称、供应商信息、平台信息、联系方式、网址、厂商或平台标识、多余标记或多余 Logo。
+5. 首图必须带指定产品 Logo；除首图外，其他图片默认不要 Logo。
 6. 不允许虚构素材中不存在的颜色、款式、结构、尺寸、材质、功能、接口、配件或 SKU。
 7. 不写兼容逻辑，不写回退逻辑；不满足条件的图片类型直接跳过。
 8. 每张图片的 Prompt 都必须明确要求输出比例为 `1:1`。
@@ -120,7 +120,7 @@ lark-cli base +record-upload-attachment \
 - 当前商品编号、record_id、Base token、table id
 - 当前商品可确认的产品描述、材质、尺寸、颜色/SKU
 - 本商品的参考图清单及用途
-- 全局硬约束：1:1、英文提示词、禁止中文、禁止价格/折扣/二维码/水印、禁止虚构 SKU/结构/材质
+- 全局硬约束：1:1、英文提示词、禁止中文、禁止价格/折扣/二维码/水印/厂家信息/厂商标识/供应商信息/平台信息/联系方式/网址、禁止虚构 SKU/结构/材质
 - 各图片类型是否需要 Logo：首图必须 Logo；其他图默认不要 Logo
 - 输出文件必须保存到本商品 `outputs/` 目录
 - 禁止使用脚本/PIL/ImageMagick/SVG/canvas/本地合成来生成最终图片，除非用户明确要求
@@ -393,7 +393,7 @@ SKU 识别规则：
 5. 必须明确是否禁止 Logo。
 6. 必须明确输出风格为专业、高转化、好看的北美电商图片 / Amazon-style ecommerce image。
 7. 必须明确要求比例为 `1:1`。
-8. 必须注入统一硬约束，禁止中文、价格、水印、二维码、额外 Logo、虚构信息。
+8. 必须注入统一硬约束，禁止中文、价格、水印、二维码、厂家信息、厂商名称、供应商信息、平台信息、联系方式、网址、额外 Logo、虚构信息。
 9. 禁止使用脚本、图像处理代码、透视贴图、局部覆盖、程序合成等方式人为拼接或合成最终图片；所有最终交付图片必须通过生图 skill / 生图能力直接生成。
 10. 当需要优化图片、编辑图片、修正图片、不满意重做时，必须通过“调整提示词 + 使用生图 skill 重新生成图片”的方式处理，禁止通过脚本或程序局部修改已有图片。
 
@@ -404,7 +404,7 @@ SKU 识别规则：
 ### 通用核心约束
 
 ```text
-Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no watermarks, no price info. All text in English. Do not invent unsupported details. Ratio 1:1.
+Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no extra logos, no price info. All text in English. Do not invent unsupported details. Ratio 1:1.
 ```
 
 说明：

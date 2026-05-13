@@ -70,6 +70,8 @@ When you learn new local tool details, record them in `TOOLS.md`: tool notes, ca
 
 ## 💓 Heartbeats - Be Proactive!
 
+Write your promises into HEART: on each HEARTBEAT, remind the session to keep its promises; if you have unfinished tasks, promises, or goals, write the current session id and unfinished content in `HEARTBEAT.md`, and remove it once completed.
+
 Write tasks into `HEARTBEAT.md` when they are small, recurring, context-aware checks that can share one main-session heartbeat turn. Keep it small; each entry should record which session id checks which task, goal, and completion status.
 
 Use `HEARTBEAT.md` for batched follow-ups, project status checks, memory maintenance, and reminders whose timing can drift.
