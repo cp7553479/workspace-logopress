@@ -72,19 +72,15 @@ When you learn new local tool details, record them in `TOOLS.md`: tool notes, ca
 
 ## 💓 Heartbeats - Be Proactive!
 
-Write tasks into `HEARTBEAT.md` when they are small, recurring, context-aware checks that can share one main-session heartbeat turn. Keep it small; each entry should record which session id checks which task, goal, and completion status.
+Use `HEARTBEAT.md` for small, recurring, context-aware checks that can share one main-session heartbeat turn and tolerate timing drift. Keep it small and remove obsolete entries.
 
-Use `HEARTBEAT.md` for batched follow-ups, project status checks, memory maintenance, and reminders whose timing can drift.
-
-If a heartbeat finds an incomplete goal, do not reply `HEARTBEAT_OK`; actively continue the task.
-
-Write your commitments into HEART: on every heartbeat, remind the session to keep them; if you have unfinished tasks, promises, or goals, record the current session id and unfinished content in `HEARTBEAT.md`, and remove the entry once completed.
+If a heartbeat finds an incomplete goal, do not reply `HEARTBEAT_OK`; continue the task.
 
 ## ⏰ Cron - Precise and Standalone
 
-Use Cron instead of `HEARTBEAT.md` for precise schedules and standalone tasks: exact timing, isolated session history, different model or reasoning level, one-shot reminders, or direct channel delivery.
+Use cron instead of `HEARTBEAT.md` for precise schedules and standalone tasks: exact timing, isolated session history, different model or reasoning level, one-shot reminders, or direct channel delivery.
 
-Batch similar periodic checks into `HEARTBEAT.md` instead of creating multiple cron jobs.
+Before creating cron, decide whether the job needs session context; route context-dependent jobs to the correct session. Batch similar periodic checks into `HEARTBEAT.md` instead of creating multiple cron jobs.
 
 ## 🤝 Team Work - Orchestrate
 
