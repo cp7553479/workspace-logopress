@@ -1,0 +1,331 @@
+{
+  "code": 0,
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "3.8",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": [
+          {
+            "text": "Virtual Proof:FREE",
+            "type": "text"
+          }
+        ],
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": [
+          "Caps \u0026 Hats-Beanie",
+          "ART \u0026 DESIGN SERVICES"
+        ],
+        "Currency": [
+          {
+            "text": "USD",
+            "type": "text"
+          }
+        ],
+        "D1": "C / R",
+        "D10": null,
+        "D2": "C / R",
+        "D3": "C / R",
+        "D4": "C / R",
+        "D5": "C / R",
+        "D6": "C / R",
+        "D7": "C / R",
+        "D8": "C / R",
+        "D9": null,
+        "Description": "Our Outdoor Winter Warm Beanie Fleece Hat is a great gift for men and women. Crafted from high - quality polyester, it's soft, stretchy, breathable, and warm. The fleece lining offers excellent insulation for cold - weather activities. With a durable and lightweight build, it suits various outdoor pursuits like hiking, camping, skiing, cycling, and running. It has a snug, elastic fit for different head sizes and keeps you comfortable during strenuous workouts. We offer logo design services. Unisex and ideal for winter sports. Rush service available.",
+        "Distributor_View_Only": "N",
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": null,
+        "Imprint_Location": [
+          {
+            "text": "Centered on Front or as you request",
+            "type": "text"
+          }
+        ],
+        "Imprint_Method": [
+          "Full color",
+          "Silkscreen",
+          "Embroidered"
+        ],
+        "Imprint_Size": null,
+        "Item_Weight": [
+          {
+            "text": "0.13:lbs",
+            "type": "text"
+          }
+        ],
+        "Keywords": [
+          {
+            "text": "Beanie,Winter Hat,Fleece Hat,Outdoor Hat,Cold Weather Hat,Warm Hat,Insulated Hat,Polyester Hat,Stretchy Hat,Snug Fit Hat,Breathable Hat,Lightweight Hat,Durable Hat,Thermal Hat,Cozy Hat,Soft Hat,Hiking Hat,Camping Hat,Skiing Hat,Cycling Hat,Running Hat,Sports Hat,Adventure Hat,Men's Beanie,Women's Beanie,Gift Hat,Promotional Hat,Custom Hat,Logo Hat,Fleece Lined Hat",
+            "type": "text"
+          }
+        ],
+        "Less_Than_Min": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Linename": null,
+        "Mark": null,
+        "Material": [
+          "POLYESTER"
+        ],
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": [
+          {
+            "text": "China",
+            "type": "text"
+          }
+        ],
+        "P1": "1.13",
+        "P10": null,
+        "P2": "1.11",
+        "P3": "1.09",
+        "P4": "1.08",
+        "P5": "0.98",
+        "P6": "0.96",
+        "P7": "0.95",
+        "P8": "0.92",
+        "P9": null,
+        "Packaging": [
+          "Box",
+          "Poly Bag",
+          "Other",
+          "Custom"
+        ],
+        "Personalization": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Price_Includes": [
+          {
+            "text": "1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs",
+            "type": "text"
+          }
+        ],
+        "Price_Type": [
+          {
+            "text": "Net",
+            "type": "text"
+          }
+        ],
+        "Prod_Image": null,
+        "Product_Color": [
+          "DARK GRAY",
+          "LIGHT GRAY",
+          "LIGHT GREEN",
+          "DARK GREEN",
+          "BRIGHT GREEN=Fluorescent Green",
+          "LIGHT PINK",
+          "MEDIUM BLACK",
+          "DARK BLUE=Navy Blue",
+          "MEDIUM BLUE=Royal Blue"
+        ],
+        "Product_Name": [
+          {
+            "text": "Outdoor Winter Warm Fleece Beanie Hat for Men and Women",
+            "type": "text"
+          }
+        ],
+        "Product_Number": [
+          {
+            "text": "LP0185",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Product_Type": "Sports, Fitness, \u0026 Outdoors",
+        "Product_URL": null,
+        "Production_Time": [
+          {
+            "text": "8:days",
+            "type": "text"
+          }
+        ],
+        "Q1": "100",
+        "Q10": null,
+        "Q2": "200",
+        "Q3": "500",
+        "Q4": "1000",
+        "Q5": "2000",
+        "Q6": "5000",
+        "Q7": "10000",
+        "Q8": "20000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Rush_Time": [
+          {
+            "text": "5:days",
+            "type": "text"
+          }
+        ],
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "Service_Charge": [
+          {
+            "text": "Required",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": [
+          {
+            "text": "18.5:in;16.54:in;16.54:in;",
+            "type": "text"
+          }
+        ],
+        "Shipping_Items": [
+          {
+            "text": "300:per Case",
+            "type": "text"
+          }
+        ],
+        "Shipping_Weight": [
+          {
+            "text": "33.07:lbs",
+            "type": "text"
+          }
+        ],
+        "Size_Group": [
+          {
+            "text": "Dimension",
+            "type": "text"
+          }
+        ],
+        "Size_Values": [
+          {
+            "text": "Length:10.24:in;Width:8.66:in;Height:0:in",
+            "type": "text"
+          }
+        ],
+        "Sold_Unimprinted": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Summary": "This unisex outdoor beanie, made of high - quality polyester with a fleece lining, is soft, stretchy, breathable, and warm. It's lightweight and durable, suitable for various cold - weather outdoor activities like hiking, skiing, and running. It fits snugly on different head sizes and keeps you comfortable during workouts. Logo design service is available. A must - have gift for outdoor enthusiasts! ",
+        "Theme": [
+          "Skiing",
+          "Skating",
+          "Anniversary",
+          "Christmas",
+          "Sports"
+        ],
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": 80,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": "IMMD:Full color",
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": [
+          {
+            "text": "Per Order",
+            "type": "text"
+          }
+        ],
+        "Upcharge_Name": "Full color",
+        "Upcharge_Type": "Set-up Charge",
+        "WG产品编号": "WG2025",
+        "XID": null,
+        "id": "2899",
+        "record_id": [
+          {
+            "text": "recuLl6ANexoN3",
+            "type": "text"
+          }
+        ],
+        "update_at": 1779104830000,
+        "主题": "Anniversary;Skiing;Skating;Christmas;Sports",
+        "产品关键词": "Unique Custom Best High, Quaility Luxury Most Popular, Durable Stock Portable, Wholesale Promotional Branded, Printed Logo Customized Bulk, Customizable Nice Blank, Amazon Carhartt Beanie Army, Surplus Mens Hat Store Hats, Men Navy Condor Fleece Lined, Military Stocking Caps For, Watch Cap Sports Skull Winter, Titleist Fr Tactical Under, Armour Storm Work Accesorios, Militares Para Hombres Gifts, In Dri Fit Black Waterproof, Carhart Antarctica Gear, Cowboy Hard Adidas Womens Box, Shaper Golf Skully North Face, Patrol Arcteryx Warm Baggy, Watches Stretcher 7 And Up, Beenie Blue Brimless Case, Fisherman Led With Light, Outdoor Rags Car Detailing, Anime Adventure Time All, Season Soft Seasons Pro Green, Browns Gift Knit Beanies Guys, Cross Knitted Falidem 2 Pack, Men's Baseball Flame, Resistant Head Sock, Flame-resistant Socks Line",
+        "产品名称": "Outdoor Winter Warm Beanie Fleece Hat for Men and Women Gift",
+        "产品尺寸 宽(cm)": "22",
+        "产品尺寸 长(cm)": "26",
+        "产品尺寸 高(cm)": "0",
+        "产品材质": "Polyester",
+        "产品简称": "保暖绒线帽",
+        "产品类型": "Sports,Fitness,\u0026Outdoors",
+        "产品编号": "LP0185",
+        "产品重量(kg)": "0.06",
+        "产品颜色": "Dark Gray; Light Gray; Light Green; Dark Green; Fluorescent Green; Light Pink; Black; Navy Blue; Royal Blue",
+        "件数/箱": "300",
+        "分类": "Caps \u0026 Hats-Beanie;Caps \u0026 Hats-Biker's",
+        "创建时间": 1747377185000,
+        "印刷方式": "Full color/Silkscreen/Unimprinted/Embroidered",
+        "参考图片": [
+          {
+            "file_token": "XPeCbe0rSokGkAxv16rc3R3FnCc",
+            "name": "795435781758357290743.jpeg",
+            "size": 137121,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=XPeCbe0rSokGkAxv16rc3R3FnCc\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tblsVUTaYTcvp8F5%22%2C%22rev%22%3A63342%7D%7D",
+            "type": "image/jpeg",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/XPeCbe0rSokGkAxv16rc3R3FnCc/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tblsVUTaYTcvp8F5%22%2C%22rev%22%3A63342%7D%7D"
+          }
+        ],
+        "商品主图": null,
+        "备注": "骑行帽",
+        "大货参考定价基准": 1.04,
+        "大货起订量": 300,
+        "完整描述": "Our outdoor hat is crafted from a high-quality polyester material that is soft, stretchy, breathable, and warm. The fleece lining provides exceptional insulation, ensuring your head stays warm during cold weather activities. The durable and lightweight construction of this hat makes it perfect for a wide range of outdoor pursuits. Designed with a snug fit, this highly elastic hat offers a comfortable wear that adapts to various head sizes. The hat's breathability ensures that you stay comfortable even during strenuous workouts. Ideal for a variety of cold-weather activities, this hat is perfect for hiking, camping, skiing, cycling, and running, and making it an essential accessory for outdoor enthusiast.We provide logo design services; for more details, please consult our customer service.",
+        "来源(1688)": "https://detail.1688.com/offer/631845303894.html?tracelog=cps\u0026clickid=0774fae681ee27c459f32f8ef9e8fae9",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tblsVUTaYTcvp8F5",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": null,
+        "简要说明": "Our unisex outdoor fleece hats ensure your head warm during cold weather, perfect for winter sports.Rush service is available.",
+        "箱子尺寸 宽(cm)": "42",
+        "箱子尺寸 长(cm)": "47",
+        "箱子尺寸 高(cm)": "42",
+        "选品": true,
+        "重量(箱子+产品)公斤": "15"
+      },
+      "id": "recuLl6ANexoN3",
+      "record_id": "recuLl6ANexoN3"
+    }
+  },
+  "msg": "success"
+}
