@@ -1,0 +1,109 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP0180",
+        "A4 Reusable Plastic Snap Closure File Folders with Pocket",
+        "塑料文件夹",
+        "Our durable A4 plastic file folder with a pocket offer secure and organized storage for your papers. Rush service is available.",
+        "Crafted from premium, thickened PP (polypropylene) material, these file folders are designed for durability and long-lasting use. The plastic construction ensures that your documents are protected from daily wear and tear, while the material's natural resistance to water provides an added layer of security. These file folders feature a convenient snap closure, ensuring that your documents are securely held in place. The transparent design allows for easy visibility of the contents, making it simple to locate and retrieve your files quickly. Additionally, the external label pocket provides extra storage space for business cards, or other small items. They are suitable for use by students, teachers, office workers who needs a reliable way to keep their paperwork organized.",
+        "Polypropylene",
+        "purple;yellow;blue;green;pink;clear",
+        33,
+        25,
+        0,
+        [
+          {
+            "file_token": "IIcqbN7jkoO4vdx0BwCcAyqznPg",
+            "name": "-15503943051758357210705.jpeg",
+            "size": 48665
+          }
+        ],
+        null,
+        null,
+        "recuLl5biMJ7H5",
+        null,
+        "These A4 reusable plastic file folders are made of premium, thickened PP material for durability. Their snap closure secures documents, and the transparent design enables easy visibility. The water - resistant material protects against wear. An external label pocket offers extra storage for small items. Ideal for students, teachers, and office workers, they provide secure and organized paper storage. Rush service available. ",
+        "These A4 reusable plastic snap closure file folders with pockets are crafted from premium, thickened PP (polypropylene) material for durability. The plastic construction protects documents from daily wear and tear, and its water - resistant nature adds security. The convenient snap closure keeps documents in place, and the transparent design allows easy visibility of contents for quick retrieval. There's an external label pocket for business cards or small items. Suitable for students, teachers, and office workers, these folders offer secure and organized storage for papers. Rush service is available.",
+        "MEDIUM PURPLE MEDIUM YELLOW MEDIUM BLUE MEDIUM GREEN MEDIUM PINK CLEAR",
+        "Length:12.99:in;Width:9.84:in;Height:0:in",
+        [
+          "POLYPROPYLENE"
+        ],
+        "Full Color=Full Color Silkscreen=Silkscreen",
+        "5\"x4\" , custom size"
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fld8ifVx8f",
+      "fldVQEfx44",
+      "fldwtQtwf5",
+      "fldUUI8Hki",
+      "flds2DArkf",
+      "fldoQQU5d4",
+      "fldmImxGsM",
+      "fldoThqxSN",
+      "fldFAy8Xes",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fldfwWSmG4",
+      "fldFUn3tmf",
+      "fldGsjKgab",
+      "flddjjhYcZ",
+      "fld79bHuho",
+      "fldxXvE22W",
+      "fldus4D5q3",
+      "fldtqMyrQn",
+      "fldActooR0"
+    ],
+    "fields": [
+      "产品编号",
+      "产品名称",
+      "产品简称",
+      "简要说明",
+      "完整描述",
+      "产品材质",
+      "产品颜色",
+      "产品尺寸 长(cm)",
+      "产品尺寸 宽(cm)",
+      "产品尺寸 高(cm)",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "record_id",
+      "Tradename",
+      "Summary",
+      "Description",
+      "Product_Color",
+      "Size_Values",
+      "Material",
+      "Imprint_Method",
+      "Imprint_Size"
+    ],
+    "has_more": false,
+    "query_context": {
+      "field_scope": "selected_fields",
+      "record_scope": "all_records",
+      "search_scope": "fldHb6xDKX(产品编号)"
+    },
+    "record_id_list": [
+      "recuLl5biMJ7H5"
+    ]
+  },
+  "_notice": {
+    "skills": {
+      "current": "",
+      "message": "lark-cli skills not installed, run: lark-cli update",
+      "target": "1.0.28"
+    },
+    "update": {
+      "current": "1.0.28",
+      "latest": "1.0.32",
+      "message": "lark-cli 1.0.32 available, current 1.0.28, run: lark-cli update"
+    }
+  }
+}
