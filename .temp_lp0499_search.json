@@ -1,0 +1,115 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP0499",
+        "Sports running swim men's short sleeve quick dry T-shirt",
+        "Our quick-dry and breathable T-shirt, crafted from premium polyester, is a top choice for outdoor activities. It wicks moisture, keeps you cool and dry, and protects against UV rays. With stretch short sleeves, athletic crew neck, and tagless necklines, it offers great flexibility and comfort. Machine washable, it won't fade, wrinkle, or shrink. Custom logos and patterns are available. Suitable for various sports year-round! ",
+        "Dimension",
+        "MEDIUM GREEN BRIGHT WHITE MEDIUM RED MEDIUM BLACK MEDIUM YELLOW LIGHT BLUE MEDIUM BLUE MEDIUM GRAY MEDIUM BLUE=Royal Blue MEDIUM ORANGE",
+        "POLYESTER",
+        "2\"x2\" , custom size",
+        [
+          {
+            "file_token": "NUAKbbCy2oWnVPx0AUScKQoPnKf",
+            "name": "LP0499_white_background.png",
+            "size": 950276
+          }
+        ],
+        [
+          {
+            "file_token": "BZmfb5MaqoNOXcxu2HachAm5nCh",
+            "name": "-19437858111758325373965.jpeg",
+            "size": 456911
+          }
+        ],
+        [
+          {
+            "file_token": "W6M3bs8oaoHUzHxLnpPcNgvdncd",
+            "name": "LP0499_scene_01.png",
+            "size": 1639967
+          },
+          {
+            "file_token": "LCeGbwfRpolH9vxuvuxc2d9cnSc",
+            "name": "LP0499_selling_point_01.png",
+            "size": 1149008
+          },
+          {
+            "file_token": "Vblbb76gqo5lXFxifOfcXdHXnj1",
+            "name": "LP0499_material_01.png",
+            "size": 2365186
+          },
+          {
+            "file_token": "YB0gb34FSoEpnvx64rkcE2Kknbd",
+            "name": "LP0499_sku_01.png",
+            "size": 1238216
+          },
+          {
+            "file_token": "ReOCbI32yoLEIMx9XfacLu2nn4c",
+            "name": "LP0499_hero.png",
+            "size": 1107507
+          }
+        ],
+        43,
+        96,
+        68,
+        "Polyester"
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fld8ifVx8f",
+      "fldGsjKgab",
+      "fld7JBKq7v",
+      "fld79bHuho",
+      "fldus4D5q3",
+      "fldActooR0",
+      "fldzPbQJ2z",
+      "fldr9B4JZT",
+      "fldn5dP24T",
+      "fldmImxGsM",
+      "fldoThqxSN",
+      "fldFAy8Xes",
+      "flds2DArkf"
+    ],
+    "fields": [
+      "产品编号",
+      "产品名称",
+      "Summary",
+      "Size_Group",
+      "Product_Color",
+      "Material",
+      "Imprint_Size",
+      "白底图",
+      "参考图片",
+      "商品主图",
+      "产品尺寸 长(cm)",
+      "产品尺寸 宽(cm)",
+      "产品尺寸 高(cm)",
+      "产品材质"
+    ],
+    "has_more": false,
+    "query_context": {
+      "field_scope": "selected_fields",
+      "record_scope": "all_records",
+      "search_scope": "fldHb6xDKX(产品编号)"
+    },
+    "record_id_list": [
+      "recuR6W06MWWFM"
+    ]
+  },
+  "_notice": {
+    "skills": {
+      "current": "",
+      "message": "lark-cli skills not installed, run: lark-cli update",
+      "target": "1.0.28"
+    },
+    "update": {
+      "current": "1.0.28",
+      "latest": "1.0.33",
+      "message": "lark-cli 1.0.33 available, current 1.0.28, run: lark-cli update"
+    }
+  }
+}
