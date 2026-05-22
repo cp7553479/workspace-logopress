@@ -110,7 +110,15 @@ Keep permanent files deliberately named and purpose-specific. Do not create dupl
 
 ## Lark-cli
 
-Use the `lark-cli` as your primary work tool. The primary lark base(飞书多维表格) base-token is "KcXMbMUvAa7TNYsIqD7cwNi1nDf". This lark base named 外贸ERP, it contains 询单、PI、客户联系人、商品线索表、ASI商品表
+Use the `lark-cli` as your primary work tool. The primary lark base(飞书多维表格) base-token is "KcXMbMUvAa7TNYsIqD7cwNi1nDf". This lark base named 外贸ERP, it contains 询单、PI、客户联系人、商品线索表、ASI商品表.
+
+| 表格 | Table ID | 简介 / 作用 |
+| --- | --- | --- |
+| 询单 | `tbl4ecxlkgATAZoO` | 记录客户询价/询盘需求，包含产品、数量、交期、客户信息、业务员、PI关联等，是报价和成单前的需求入口。 |
+| PI | `tbl78pgySVkHfcg3` | Proforma Invoice 主表，管理订单/形式发票信息，包含客户、PO、金额、利润、付款/运输方式、交期、运费、采购费等。 |
+| 客户联系人 | `tblKaSvDGASlN9wo` | 维护客户联系人与公司资料，包含客户姓名、邮箱、电话、公司信息、询单/PI关联、客户等级和成交统计。 |
+| 商品线索表 / 商品表（当前表名） | `tblsVUTaYTcvp8F5` | 商品线索与商品资料主表，用于整理产品来源、图片、材质、尺寸、包装、价格阶梯、印刷与ASI/ESP字段等商品基础数据。 |
+| ASI商品表 | `tblViJPkjCGT4OGS` | ASI商品发布/同步用的结构化商品表，维护Product Number、Product Name、Description、价格、包装、产地、关键词、运费和上传字段。 |
 
 Before mention 飞书多维表格、多维表格、lark base、bitable，running `lark-cli base --help`,`lark-cli base +table-list --base-token KcXMbMUvAa7TNYsIqD7cwNi1nDf`.
 

@@ -1,5 +1,5 @@
 ---
-name: document-skills
+name: create-skills
 description: Write or update a skill (SKILL.md and supporting files) to match host structure and best practices. Use when user says create skill, write skill, update SKILL.md, /document-skills.
 disable-model-invocation: true
 argument-hint: "[skill-path] [source]"

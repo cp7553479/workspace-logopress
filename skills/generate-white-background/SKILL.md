@@ -9,6 +9,7 @@ description: 在飞书商品线索表里生成并回填商品白底图。Use whe
 
 **注意：**
 以下 base-token、table-id、view-id、field-id 均为示例值，请根据实际情况替换成实际值，先读取表结构，再思考下一步。
+如果未声明base token或无法准确定位表格请直接询问用户。
 请使用`message` tool输出你的思考，充分与用户沟通。
 
 ## Inputs
@@ -33,15 +34,15 @@ description: 在飞书商品线索表里生成并回填商品白底图。Use whe
 
 ### 1. 先读真实字段结构
 
-- Base Token: `KcXMbMUvAa7TNYsIqD7cwNi1nDf`
-- Table ID: `tblsVUTaYTcvp8F5`
+- Base Token: `<your base token>`
+- Table ID: `<your table id>`
 
 先执行：
 
 ```bash
 lark-cli base +field-list \
-  --base-token KcXMbMUvAa7TNYsIqD7cwNi1nDf \
-  --table-id tblsVUTaYTcvp8F5 \
+  --base-token <your base token> \
+  --table-id <your table id> \
   --offset 0 \
   --limit 200
 ```
@@ -82,7 +83,7 @@ lark-cli base +field-list \
 
 ```bash
 lark-cli api GET \
-  /open-apis/bitable/v1/apps/KcXMbMUvAa7TNYsIqD7cwNi1nDf/tables/tblsVUTaYTcvp8F5/records/<record_id> \
+  /open-apis/bitable/v1/apps/<your base token>/tables/<your table id>/records/<record_id> \
   --as user
 ```
 
@@ -97,7 +98,7 @@ lark-cli api GET \
 重点：Base 附件的下载经常需要
 
 ```json
-{"bitablePerm":{"tableId":"tblsVUTaYTcvp8F5","rev":<rev>}}
+{"bitablePerm":{"tableId":"<your table id>","rev":<rev>}}
 ```
 
 ### 5. 下载参考图时，带上 `extra.bitablePerm`
@@ -114,7 +115,7 @@ lark-cli api GET \
 ```bash
 lark-cli api GET /open-apis/drive/v1/medias/<file_token>/download \
   --as user \
-  --params '{"extra":"{"bitablePerm":{"tableId":"tblsVUTaYTcvp8F5","rev":61527}}"}' \
+  --params '{"extra":"{"bitablePerm":{"tableId":"<your table id>","rev":<rev>}}"}' \
   --output <workspace>/temp/<产品编号>_asi_<record_id>/reference.jpg
 ```
 
@@ -123,7 +124,7 @@ lark-cli api GET /open-apis/drive/v1/medias/<file_token>/download \
 ```bash
 lark-cli api GET /open-apis/drive/v1/medias/batch_get_tmp_download_url \
   --as user \
-  --params '{"file_tokens":"<file_token>","extra":"{"bitablePerm":{"tableId":"tblsVUTaYTcvp8F5","rev":61527}}"}'
+  --params '{"file_tokens":"<file_token>","extra":"{"bitablePerm":{"tableId":"<your table id>","rev":<rev>}}"}'
 ```
 
 注意：`rev` 以当前原始 record 返回值为准，不要硬编码旧值。
@@ -170,8 +171,8 @@ ls -l <workspace>/temp/<产品编号>_asi_<record_id>/output.jpg
 ```bash
 cd /<workspace>/temp/<产品编号>_asi_<record_id> && \
 lark-cli base +record-upload-attachment \
-  --base-token KcXMbMUvAa7TNYsIqD7cwNi1nDf \
-  --table-id tblsVUTaYTcvp8F5 \
+  --base-token <your base token> \
+  --table-id <your table id> \
   --record-id <record_id> \
   --field-id "白底图" \
   --file ./output.jpg \
@@ -244,6 +245,6 @@ lark-cli base +record-upload-attachment \
 ## Reference
 
 - 当前表：`商品线索表`
-- Base Token: `KcXMbMUvAa7TNYsIqD7cwNi1nDf`
-- Table ID: `tblsVUTaYTcvp8F5`
+- Base Token: `<your base token>`
+- Table ID: `<your table id>`
 - 附件下载关键经验：**Base 原始 record 响应比 `+record-get` 更完整，`extra.bitablePerm` 要从这里取。**
