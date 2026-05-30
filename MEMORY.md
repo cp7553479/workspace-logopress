@@ -34,3 +34,12 @@
 
 <!-- openclaw-memory-promotion:memory:memory/2026-05-14.md:66:66 -->
 - Need to identify from latest view data. Previously found 15 products with empty 商品主图. Already processed some. Remaining candidates include: [score=0.904 recalls=0 avg=0.620 source=memory/2026-05-14.md:66-66]
+
+## Promoted From Short-Term Memory (2026-05-28)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-13.md:2:2 -->
+- 2026-05-13: 用户提示 ACP 后续用 `mode: run` 时加 `thread: true` 进行（若当前工具 schema 支持）。 [score=0.861 recalls=0 avg=0.620 source=memory/2026-05-13.md:2-2]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-13.md:4:4 -->
+- 2026-05-13: 用户更正 ACP 启动偏好：应使用 `runtime: "acp"`, `agentId: "codex"`, `mode: "session"`, `thread: true`（若工具/版本支持）。 [score=0.861 recalls=0 avg=0.620 source=memory/2026-05-13.md:4-4]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-13.md:6:6 -->
+- 2026-05-13: 用户指出我在子任务/上传完成后没有主动及时汇报。以后长任务完成并验收后必须主动发最终结果；不要等用户追问。收到 subagent 完成通知后立即接续：查产物→验图→上传/验表→主动汇报。 [score=0.861 recalls=0 avg=0.620 source=memory/2026-05-13.md:6-6]

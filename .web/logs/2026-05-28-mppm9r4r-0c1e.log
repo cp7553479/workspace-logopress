@@ -1,0 +1,32 @@
+[2026-05-28T14:57:09.531Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon spiral notebook sticky notes pen holder product image examples ecommerce",
+    "limit": "3",
+    "vendor": []
+  }
+}
+
+[2026-05-28T14:57:09.531Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon spiral notebook sticky notes pen holder product image examples ecommerce",
+    "max_results": 3,
+    "include_answer": false
+  }
+}
+
+[2026-05-28T14:57:11.647Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon spiral notebook sticky notes pen holder product image examples ecommerce\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/small-spiral-notebook-pen-holder/s?k=small+spiral+notebook+with+pen+holder\",\"title\":\"Small Spiral Notebook With Pen Holder - Amazon.com\",\"content\":\"Ncozwo Small Spiral Notebook with Pen A5 Lined Notepad With Sticky Notes Mini Notebooks Set For Work Study And Notes(4.5 * 5.5Inch, 3 Pack) · Unknown Binding.\",\"score\":0.999984,\"raw_content\":null},{\"url\":\"https://www.amazon.com/spiral-notebook-sticky-notes/s?k=spiral+notebook+with+sticky+notes&page=2\",\"title\":\"Spiral Notebook With Sticky Notes - Amazon.com\",\"content\":\"30 Pack Spiral Notebook and Pen Set, Lined Small Notebook with Pen Sticky Notes Steno Pads Pocket Mini Journals Bulk Notebooks for Business Office School\",\"score\":0.9999641,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Sticky-Notes-Multi-Color-Self-Stick-Reminders/dp/B0GMQ98JJH\",\"title\":\"Pocket Spiral Sticky Notes Notebook with Pen Holder, Multi-Color ...\",\"content\":\"Pocket Spiral Sticky Notes Notebook with Pen Holder, Multi-Color Self-Stick Notes for Quick Messages and Reminders, 4.1\\\"x5.3\\\", Compact & Portable, Green\",\"score\":0.99992967,\"raw_content\":null}],\"response_time\":1.07,\"request_id\":\"ff744b0d-bd05-44e4-a2a4-39e590d4922d\"}"
+}
+

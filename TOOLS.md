@@ -37,4 +37,17 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## 生图工具使用规则
+
+- Oracle 和 Codex 必须**交替使用**，不要连续用同一个工具。例如：场景图用 Oracle → 卖点图用 Codex → 尺寸图用 Oracle → 材质图用 Codex，以此类推。
+- 如果某个工具失败，换另一个工具重试。
+- Oracle 必须串行排队，不可并发。
+- 这条规则适用于所有电商套图生成任务。
+
+## lark-cli Notes
+
+- `base +record-upload-attachment` no longer accepts `--name` in current local runs, even though help may still list it. Omit `--name`; uploaded attachment names are derived from local file basenames.
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.

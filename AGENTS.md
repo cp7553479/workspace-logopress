@@ -92,15 +92,17 @@ When a complex task has no clear implementation path, or tool use has failed and
 
 ### 🎯 Delegation Rules - Specialists and Follow-through
 
-Treat sub-agents as specialists. Give them sharply scoped objectives, primary materials, exact paths or docs, constraints, and concise expected outputs.
+Treat sub-agents as dedicated specialists. Provide them with narrowly defined objectives, primary source materials, precise paths or documents, explicit constraints, and concise expected outputs.
 
-After delegating, supervise the run. Check sub-agent status at natural checkpoints or when the main task depends on it; if it has stopped, timed out, drifted, or returned without meeting the goal, inspect the state or log and send a focused follow-up message to restart the turn or correct course.
+Supervise the execution actively. Monitor sub-agent progress at natural checkpoints or when critical tasks depend on them. If an agent stalls, times out, drifts, or exits without achieving its goal, inspect its state or logs and send a targeted follow-up to realign or restart the execution.
 
-Do not rely on parent-summary-only handoffs for important context. When useful, write a task file so the original request does not get lost.
+Preserve critical context. Do not rely solely on parent-level summaries for vital information. When appropriate, document details in a dedicated task file to prevent original requirements from being lost.
 
-For similar subtasks with shared steps, write the shared instructions into a temporary Markdown task file, then spawn sub-agents with that file path plus only their differing task details.
+Standardize repetitive subtasks. For tasks sharing identical steps, consolidate the shared instructions into a temporary Markdown task file. Spawn sub-agents by referencing this path, adding only their unique task parameters.
 
-Use this handoff shape: Background, Task, Constraints, Output.
+Use a structured handoff template: **Background**, **Task**, **Constraints**, and **Output**.
+
+Parallelize where possible. When handling more than two identical task types, run them in parallel by spawning dedicated sub-agents, with each agent focused on a single simple task.
 
 ## 🗂️ File Hygiene & Organization - Keep It Clean
 
@@ -110,20 +112,19 @@ Keep permanent files deliberately named and purpose-specific. Do not create dupl
 
 ## Lark-cli
 
-Use the `lark-cli` as your primary work tool. The primary lark base(飞书多维表格) base-token is "KcXMbMUvAa7TNYsIqD7cwNi1nDf". This lark base named 外贸ERP, it contains 询单、PI、客户联系人、商品线索表、ASI商品表.
+Use the `lark-cli` as your primary work tool. The primary lark base(飞书多维表格) base-token is `SF9ibzjI4a0YFJsDZtKcLvtbnfh`. This lark base named 外贸ERP, it contains 询单、PI、客户联系人、商品线索表、ASI商品表.
 
-| 表格 | Table ID | 简介 / 作用 |
-| --- | --- | --- |
-| 询单 | `tbl4ecxlkgATAZoO` | 记录客户询价/询盘需求，包含产品、数量、交期、客户信息、业务员、PI关联等，是报价和成单前的需求入口。 |
-| PI | `tbl78pgySVkHfcg3` | Proforma Invoice 主表，管理订单/形式发票信息，包含客户、PO、金额、利润、付款/运输方式、交期、运费、采购费等。 |
-| 客户联系人 | `tblKaSvDGASlN9wo` | 维护客户联系人与公司资料，包含客户姓名、邮箱、电话、公司信息、询单/PI关联、客户等级和成交统计。 |
-| 商品线索表 / 商品表（当前表名） | `tblsVUTaYTcvp8F5` | 商品线索与商品资料主表，用于整理产品来源、图片、材质、尺寸、包装、价格阶梯、印刷与ASI/ESP字段等商品基础数据。 |
-| ASI商品表 | `tblViJPkjCGT4OGS` | ASI商品发布/同步用的结构化商品表，维护Product Number、Product Name、Description、价格、包装、产地、关键词、运费和上传字段。 |
+| 表格       | Table ID           | 简介 / 作用                                                                                                                 |
+| ---------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| 询单       | `tbluf7HTaj65eIAc` | 记录客户询价/询盘需求，包含产品、数量、交期、客户信息、业务员、PI关联等，是报价和成单前的需求入口。                         |
+| PI         | `tblIu2Fc9CseBBtk` | Proforma Invoice 主表，管理订单/形式发票信息，包含客户、PO、金额、利润、付款/运输方式、交期、运费、采购费等。               |
+| 客户联系人 | `tblxmh9hT5UQMwMZ` | 维护客户联系人与公司资料，包含客户姓名、邮箱、电话、公司信息、询单/PI关联、客户等级和成交统计。                             |
+| 商品表     | `tbl3KNB7zP8EQ1d0` | 商品线索与商品资料主表，用于整理产品来源、图片、材质、尺寸、包装、价格阶梯、印刷与ASI/ESP字段等商品基础数据。               |
+| ASI商品表  | `tbl1f731h82T86ag` | ASI商品发布/同步用的结构化商品表，维护Product Number、Product Name、Description、价格、包装、产地、关键词、运费和上传字段。 |
 
-Before mention 飞书多维表格、多维表格、lark base、bitable，running `lark-cli base --help`,`lark-cli base +table-list --base-token KcXMbMUvAa7TNYsIqD7cwNi1nDf`.
+Before mention 飞书多维表格、多维表格、lark base、bitable，running `lark-cli base --help`,`lark-cli base +table-list --base-token SF9ibzjI4a0YFJsDZtKcLvtbnfh`.
 
 Before use lark-cli, running `lark-cli --help`.
-
 When running more than 2 tasks of the same type, spawn sub-agents to execute them in parallel, with each sub-agent handling only one simple task.
 <!-- LP2171_ASI_PROGRESS 2026-05-22T09:52Z: created temp/LP2171_asi_recuYsAqeiGGbt and progress.json started. -->
 <!-- LP2171_ASI_PROGRESS 2026-05-22T09:54Z: read asi-product-image-generator and generate-white-background skills. -->
