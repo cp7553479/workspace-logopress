@@ -8,6 +8,7 @@
 
 ## 稳定偏好
 - Skill 修改/规则话术：偏好简洁、精炼，不添加无关解释；修改后检查上下文是否冲突、重复或累赘。
+- 飞书主多维表格以 `https://mingjiainno.feishu.cn/base/SF9ibzjI4a0YFJsDZtKcLvtbnfh?table=tbl3KNB7zP8EQ1d0&view=vewMQ68Gd5` 为准；base-token 为 `SF9ibzjI4a0YFJsDZtKcLvtbnfh`，历史旧 token / 旧 table id 不再作为准绳。
 - 生图工具：Oracle 优先（`@steipete/oracle`），失败可切 Codex exec
 - 禁止 Gemini 2.5 Flash Image
 - 英文提示词、1:1、无中文/价格/水印/QR、不虚构
