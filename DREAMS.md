@@ -332,4 +332,32 @@ ASI image generation queue status - 02:06 Asia/Shanghai: Active user goal: conti
 
 白底图补齐任务完成: 3个仅缺白底图的产品已全部完成：; LP0116 (recuLl103mFLrw): file_token `ZJekbFd2SoPawIxwmJRcjDUmnef`; LP0118 (recuLl16wFO9WV): file_token `OOe5bJuQNoCnGSx3yDdc2JR2nCg`; LP0409 (recuQNM1wbfG6K): file_token `KWeNb8hzoopWX7xKrH5cjIEEnKW`
 
+
+---
+
+*May 31, 2026 at 3:00 AM GMT+8*
+
+ASI image generation queue status - 02:06 Asia/Shanghai: Active user goal: continue generating ASI ecommerce product image sets for selected Feishu 商品表 products using multi-agent workflow; max 2 subagents at a time; each subagent handles exactly 1 product; each subagent timeout 1
+
+
+---
+
+*May 31, 2026 at 3:00 AM GMT+8*
+
+ASI image delivery correction - 10:32 Asia/Shanghai: Trigger: 用户提醒“生成好的图片你要发给我，记得及时UPDATE plan”。; Lesson: 每个商品完成后不能只说已上传/已完成；父级复核通过后必须用 OpenClaw `message` 工具把该商品生成好的图片发给用户，再更新 plan 并派下一个商品。; Next rule: ASI 单品流程固定为：subagent 完成事件 -> 父级验本地 PNG + 飞书字段 -> 通过 `message` 发生成图给用户 -> `upda
+
+
+---
+
+*May 31, 2026 at 3:00 AM GMT+8*
+
+Session: 2026-05-24 10:47:53 GMT+8: **Session Key**: agent:global-trading-product:feishu:global-trading-product:direct:ou_61123e30e1c1bfd2d0d31af923d4982d; **Session ID**: 1bc5c0df-63b5-4c6b-b2a3-ac7cf745f5f0; **Source**: feishu
+
+
+---
+
+*June 1, 2026 at 3:00 AM GMT+8*
+
+Session: 2026-05-30 21:17:46 GMT+8: **Session Key**: agent:global-trading-product:feishu:global-trading-product:direct:ou_61123e30e1c1bfd2d0d31af923d4982d; **Session ID**: 48c341af-c34a-474a-b53e-cc6a750b5fe6; **Source**: feishu
+
 <!-- openclaw:dreaming:diary:end -->

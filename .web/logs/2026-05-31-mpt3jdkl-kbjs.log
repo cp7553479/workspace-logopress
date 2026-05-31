@@ -1,0 +1,32 @@
+[2026-05-31T01:23:50.518Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon waist bag fanny pack product image examples selling point dimensions material",
+    "limit": "5",
+    "vendor": []
+  }
+}
+
+[2026-05-31T01:23:50.518Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon waist bag fanny pack product image examples selling point dimensions material",
+    "max_results": 5,
+    "include_answer": false
+  }
+}
+
+[2026-05-31T01:23:52.560Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon waist bag fanny pack product image examples selling point dimensions material\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/Fashion-Adjustable-Travel-Sports-Running/dp/B0BRJFSD3B\",\"title\":\"Amazon.com: Fanny Packs Waist Pack for Women, Fashion Waist Bag with Adjustable Strap for Travel Sports Running : Sports & Outdoors\",\"content\":\"# Amazon.com: Fanny Packs Waist Pack for Women, Fashion Waist Bag with Adjustable Strap for Travel Sports Running : Sports & Outdoors. *   Image 12: Fanny Packs Waist Pack for Women, Fashion Waist Bag with Adjustable Strap for Travel Sports Running. 2.   Image 35: Capolo Fanny Packs for Women Fashion Waist Packs Bag with Adjustable Strap and 4 Zipper Pockets Waterproof Everywhere CrossboCapolo Fanny Packs for Women Fashion Waist Packs Bag with Adjustable Strap and 4 Zipper Pockets Waterproof Everywhere Crossbody Belt Bag for Workout Running Travelling(Black)_4.5 out of 5 stars_ 6,210  _Amazon's Choice_  50% off Limited time deal   $8.99$8.99 List:$17.99  Get it as soon as **Wednesday, Jun 3**  FREE Shipping on orders over $35 shipped by Amazon. 5.   Image 32: BAGSMART Fanny Packs for Women Two Way Zipper Belt Bag with Adjustable Strap, Puffy Fashion Waist Packs for Traveling WorkoutBAGSMART Fanny Packs for Women Two Way Zipper Belt Bag with Adjustable Strap, Puffy Fashion Waist Packs for Traveling Workout, Brown_4.3 out of 5 stars_ 150  $10.99$10.99  Get it as soon as **Wednesday, Jun 3**  FREE Shipping on orders over $35 shipped by Amazon.\",\"score\":0.74318707,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Large-Fanny-Pack-Women-Men/dp/B0BCKBSB8C\",\"title\":\"Large Fanny Pack for Women Men - Syican Waist bag with 3-Zipper ...\",\"content\":\"Measurements. Size, Large. Strap Length, 47 Inches. Item Dimensions L x W x H · 13.86\\\"L x 6.57\\\"W x 0.6\\\"H · Item Weight, 223 Grams ; Features & Specs. Water\",\"score\":0.6783488,\"raw_content\":null},{\"url\":\"https://www.amazon.com/multi-pocket-waist-bag/s?k=multi+pocket+waist+bag\",\"title\":\"Multi Pocket Waist Bag - Amazon.com\",\"content\":\"WATERFLY 3L Large Fanny Pack, 180° Opening Hip Pouch with Multi-Pockets, Anti-Theft RFID Blocking Waist Bag for Women Men Traveling Hiking Daily Use · 200+\",\"score\":0.52612424,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Fashion-Waist-Packs-8-9/s?keywords=Fashion+Waist+Packs&rh=n%3A2477385011%2Cp_n_g-101014931078111%3A119068461011&c=ts&ts_id=2477385011\",\"title\":\"8 To 9.9 In / Fashion Waist Packs / Luggage & Travel Gear\",\"content\":\"RAINSMORE Fanny Packs for Women, Leather Belt Bag Waterproof Everywhere Crossbody Waist Pack with Adjustable.\",\"score\":0.51457167,\"raw_content\":null},{\"url\":\"https://www.amazon.com/BAGS-USA-MFG-Compartment-Durable/dp/B00UPY7O1E\",\"title\":\"Fanny Pack Large Triple Compartment, Waist bag, Durable Made in ...\",\"content\":\"Great bag for running or walking ,small trips or everyday use. this is U.S Made nylon fabric that last for years very abrasive and water resistant machine\",\"score\":0.48074743,\"raw_content\":null}],\"response_time\":1.06,\"request_id\":\"afff005d-eaba-45ca-928d-191c3ccd87b3\"}"
+}
+
