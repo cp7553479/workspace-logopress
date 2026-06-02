@@ -374,4 +374,25 @@ Conversation Summary: `AGENTS.md` 已按 `local` 版本为准，提交到 `main`
 
 ASI image generation queue status - 02:06 Asia/Shanghai: Active user goal: continue generating ASI ecommerce product image sets for selected Feishu 商品表 products using multi-agent workflow; max 2 subagents at a time; each subagent handles exactly 1 product; each subagent timeout 1
 
+
+---
+
+*June 2, 2026 at 3:00 AM GMT+8*
+
+Session: 2026-05-30 21:17:46 GMT+8: **Session Key**: agent:global-trading-product:feishu:global-trading-product:direct:ou_61123e30e1c1bfd2d0d31af923d4982d; **Session ID**: 48c341af-c34a-474a-b53e-cc6a750b5fe6; **Source**: feishu
+
+
+---
+
+*June 2, 2026 at 3:00 AM GMT+8*
+
+Conversation Summary: `AGENTS.md` 已按 `local` 版本为准，提交到 `main`：`4d0d136 chore: prefer local AGENTS instructions`。验证过 `AGENTS.md` 与 `local` 无差异，`origin/main` 已同步。
+
+
+---
+
+*June 2, 2026 at 3:00 AM GMT+8*
+
+ASI image generation queue status - 02:06 Asia/Shanghai: Active user goal: continue generating ASI ecommerce product image sets for selected Feishu 商品表 products using multi-agent workflow; max 2 subagents at a time; each subagent handles exactly 1 product; each subagent timeout 1
+
 <!-- openclaw:dreaming:diary:end -->
