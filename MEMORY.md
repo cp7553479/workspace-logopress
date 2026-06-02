@@ -62,3 +62,14 @@
 
 <!-- openclaw-memory-promotion:memory:memory/2026-05-25-0903.md:9:10 -->
 - assistant: LP0899 完成了但输出显示它派生了7个并行子任务后就结束了（3m58s），图片可能还没生成完。让我检查实际状态。 assistant: Now let me check which of our target 42 products still need images. I can see: [score=0.889 recalls=0 avg=0.620 source=memory/2026-05-25-0903.md:9-10]
+
+## Promoted From Short-Term Memory (2026-06-03)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-05-26-1808.md:9:12 -->
+- assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] assistant: [assistant turn failed before producing content] [score=0.899 recalls=0 avg=0.620 source=memory/2026-05-26-1808.md:9-12]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-26-1808.md:13:14 -->
+- assistant: [assistant turn failed before producing content] user: Conversation info (untrusted metadata): [score=0.899 recalls=0 avg=0.620 source=memory/2026-05-26-1808.md:13-14]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-26-1808.md:17:20 -->
+- "chat_id": "user:ou_61123e30e1c1bfd2d0d31af923d4982d", "message_id": "om_x100b6e79dc7978a0c430f70aca7d9e2", "sender_id": "ou_61123e30e1c1bfd2d0d31af923d4982d", "sender": "陈鹏", [score=0.899 recalls=0 avg=0.620 source=memory/2026-05-26-1808.md:17-20]
+<!-- openclaw-memory-promotion:memory:memory/2026-05-26-1808.md:21:21 -->
+- "timestamp": "Tue 2026-05-26 07:20 GMT+8" [score=0.899 recalls=0 avg=0.620 source=memory/2026-05-26-1808.md:21-21]
