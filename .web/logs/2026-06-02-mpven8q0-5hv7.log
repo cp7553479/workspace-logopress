@@ -1,0 +1,32 @@
+[2026-06-01T16:10:18.985Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon insulated lunch bag ecommerce image examples mesh pockets leakproof",
+    "limit": "5",
+    "vendor": []
+  }
+}
+
+[2026-06-01T16:10:18.985Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon insulated lunch bag ecommerce image examples mesh pockets leakproof",
+    "max_results": 5,
+    "include_answer": false
+  }
+}
+
+[2026-06-01T16:10:21.099Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon insulated lunch bag ecommerce image examples mesh pockets leakproof\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/insulated-lunch-bag/s?k=insulated+lunch+bag\",\"title\":\"Insulated Lunch Bag - Amazon.com\",\"content\":\"Insulated Lunch Box for Men & Women - Leak-Proof Cooler Lunch Bag with 4 Pockets, Adjustable Strap, Ideal for Work, Picnic, Travel - Medium, Black, 10.2\\\"×6.9\\\"×\",\"score\":0.99997604,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Insulated-Cooler-Portable-Carrying-Outdoor/dp/B07YKWSXQX\",\"title\":\"Insulated Lunch Bag, Leakproof Portable Box for Women Men Boys ...\",\"content\":\"Small Size Large Capacity Lunch Bag. 1 main zippered pocket for plenty of food. 1 inner mesh pocket to store cutlery, tissues, etc.\",\"score\":0.9999603,\"raw_content\":null},{\"url\":\"https://www.amazon.com/leakproof-lunch-bag/s?k=leakproof+lunch+bag\",\"title\":\"Leakproof Lunch Bag - Amazon.com\",\"content\":\"HOTOR Insulated Lunch Box for Men & Women - Leak-Proof Cooler Lunch Bag with 4 Pockets, Adjustable Strap, Ideal for Work, Picnic, Travel - Medium, Black, 10.2\\\"×\",\"score\":0.9999546,\"raw_content\":null},{\"url\":\"https://www.amazon.com/lunch-box-mesh-pocket/s?k=lunch+box+with+mesh+pocket\",\"title\":\"Lunch Box With Mesh Pocket - Amazon.com\",\"content\":\"FlowFly Insulated Reusable Lunch Bag Adult Large Lunch Box for Women and Men with Adjustable Shoulder Strap,Front Zipper Pocket and Dual Large Mesh Side Pockets\",\"score\":0.9999521,\"raw_content\":null},{\"url\":\"https://www.amazon.com/mesh-lunch-bag/s?k=mesh+lunch+bag\",\"title\":\"Mesh Lunch Bag - Amazon.com\",\"content\":\"NATURAL STYLE 2 PACK Mesh Drawstring Backpack Bag, Multifunction Mesh Bag for Swimming, Athletic Gym, Clothes, Beach, Swim (Black) · 200+ bought in past month.\",\"score\":0.9998148,\"raw_content\":null}],\"response_time\":1.21,\"request_id\":\"db536ec9-a0f1-4ded-ac03-2b464b315591\"}"
+}
+

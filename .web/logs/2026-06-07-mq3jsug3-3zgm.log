@@ -1,0 +1,32 @@
+[2026-06-07T08:56:47.907Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon neck gaiter face cover ecommerce infographic product image example",
+    "limit": "3",
+    "vendor": []
+  }
+}
+
+[2026-06-07T08:56:47.907Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon neck gaiter face cover ecommerce infographic product image example",
+    "max_results": 3,
+    "include_answer": false
+  }
+}
+
+[2026-06-07T08:56:49.768Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon neck gaiter face cover ecommerce infographic product image example\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/Illustration-Neck-Gaiter-Breathable-Protection/dp/B0DFYD7Y79\",\"title\":\"Scarf for Men Women Giraffe Art Illustration Neck Gaiter Breathable ...\",\"content\":\"Product Summary: Scarf for Men Women Giraffe Art Illustration Neck Gaiter Breathable Bandana Warmer Balaclava Windproof Face Mask Sun Protection Headwear Head\",\"score\":0.52612424,\"raw_content\":null},{\"url\":\"https://www.amazon.com/YHPHRTA-Custom-Gaiter-Personalized-Protection/dp/B0D8SP13VN\",\"title\":\"Custom Neck Gaiter Face Cover Personalized Mask Sports Scarf ...\",\"content\":\"✓CUSTOM NECK GAITER: Pick your favorite color. Click \\\"Customize Now\\\" to upload your image or enter text. There are many styles of fonts. Move freely on the\",\"score\":0.46818325,\"raw_content\":null},{\"url\":\"https://www.amazon.com/live/video/0c6ba9c9ab3549bb8d55691961c35e0a?ref_=dp_vse_rvc_0\",\"title\":\"Watch A Closer Look At TICOON Neck Gaiter Face Cover Scarf on ...\",\"content\":\"Discover versatile TICONN neck gaiters: super stretchy, warm for snowmobiling & more! ReviewBase shows multiple wear styles.\",\"score\":0.459586,\"raw_content\":null}],\"response_time\":0.94,\"request_id\":\"904e16de-7b82-4d56-b0b1-5314ce3a17f8\"}"
+}
+

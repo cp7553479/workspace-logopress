@@ -37,18 +37,21 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
-## 生图工具使用规则
-- Oracle 必须使用 `--browser-manual-login` 模式（`--engine browser --browser-manual-login`）
-
-- Oracle 和 Codex 必须**交替使用**，不要连续用同一个工具。例如：场景图用 Oracle → 卖点图用 Codex → 尺寸图用 Oracle → 材质图用 Codex，以此类推。
-- 如果某个工具失败，换另一个工具重试。
-- Oracle 必须串行排队，不可并发。
-- 这条规则适用于所有电商套图生成任务。
-
 ## lark-cli Notes
 
 - `base +record-upload-attachment` no longer accepts `--name` in current local runs, even though help may still list it. Omit `--name`; uploaded attachment names are derived from local file basenames.
+- `base +record-upload-attachment --file` may reject absolute paths as unsafe. `cd` to the output directory and pass `--file ./filename.png`.
+- In some local runs, `base +record-upload-attachment` also rejects `--json` and `--format` even when help lists them. Use the default output form and redirect/tee it if an upload receipt needs to be saved.
 - When uploading multiple files to the same Base attachment field, run `base +record-upload-attachment` serially. Parallel uploads can race and leave only part of the appended attachment list; if that happens, repair with the raw record update using the full intended attachment array.
+
+## OpenClaw Plugin Notes
+
+- `session-auto-continue` lives at `~/.openclaw/extensions/session-auto-continue`. It is an OpenClaw hook-only extension that keeps sessions running until final assistant text contains `SESSION_OK`.
+- Verify it with `npm test` in that directory and `openclaw plugins inspect session-auto-continue --runtime --json`.
+
+## Feishu message tool notes
+
+- In this OpenClaw Feishu channel, sending a local image with `message(action="send", media=...)` or `image=...` may produce a text-only message. Use `filePath` with a normal `message`, for example `message(action="send", message="说明", filePath="/abs/path/image.png")`; receipt should show `kind:"media"`.
 
 ---
 
