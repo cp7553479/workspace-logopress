@@ -1,0 +1,32 @@
+[2026-06-07T07:19:44.943Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon car detailing brush kit product infographic ecommerce image examples",
+    "limit": "5",
+    "vendor": []
+  }
+}
+
+[2026-06-07T07:19:44.943Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon car detailing brush kit product infographic ecommerce image examples",
+    "max_results": 5,
+    "include_answer": false
+  }
+}
+
+[2026-06-07T07:19:47.537Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon car detailing brush kit product infographic ecommerce image examples\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/live/video/077ab075557c4abf96c806919a514c93?ref_=dp_vse_rvc_2\",\"title\":\"Watch Unboxing this detailing brush kit! on Amazon Live\",\"content\":\"Unboxing: 26-piece car detailing kit with drill attachments! Izhar rebollar reveals versatile brushes for deep cleaning interiors, exteriors & more.\",\"score\":0.9999118,\"raw_content\":null},{\"url\":\"https://www.youtube.com/watch?v=piWoP2b-S2U\",\"title\":\"The Best Detailing Brushes Pt 2- Amazon Edition\",\"content\":\"In this video I will be presenting and recommending a set of amazing auto detailing brushes you can get from Amazon at a great price.\",\"score\":0.9998727,\"raw_content\":null},{\"url\":\"https://www.amazon.com/live/video/0ba27edeb3f244a5aaec742c1285abf3?ref_=dp_vse_rvc_3\",\"title\":\"Watch 26Pcs Car Detailing Brush Set ...\",\"content\":\"Shop with expert advice from NIKCOSMK in their latest video 26Pcs Car Detailing Brush Set, Car Detailing Kit.\",\"score\":0.9995005,\"raw_content\":null},{\"url\":\"https://www.tiktok.com/@mcguiresmobiledetailing/video/7114003402862087470\",\"title\":\"Best Automotive Detail Brushes on Amazon - Complete Set\",\"content\":\"Discover the best automotive detail brushes on Amazon for effective car detailing. Learn how to use soft and porous hair brushes for optimal\",\"score\":0.9994253,\"raw_content\":null},{\"url\":\"https://us.amazon.com/gp/most-wished-for/automotive/15718671\",\"title\":\"Amazon.com Most Wished For: Items customers added to Wish Lists and registries most often in Cleaning Brushes & Dusters\",\"content\":\"AOCISKA Car Interior Detailing Brush,Soft Bristle Cleaning Brush Car Detailing Brush Dusting Brush,Car Interior Cleaning Tool. Qydipclin 45Pcs Car Detailing Kit, Car Detailing Brush Set, Car Wash Cleaning Kit, Car Detailing Brushes, Professional Car Ca. oesee Professional 4 Pack Long Handle Wheel Brush Kit for Cleaning Wheel and Tire- 2X Soft Wheel Cleaning Brush, Detailing Br. Magic Window Track Cleaner, 2025 Upgraded Handheld Cleaning Brush Set, for Window Slides Grooves, Tile Grout Lines, Shutter S. TTRCB 27Pcs Car Detailing Kit, Car Cleaning Kit, Car Detailing Brush Set, Drill Brush Set, Car Detailing Brushes, Car Wash Ki. Dickno 2PCS Car Interior Dust Brush, Soft Scratch Free Auto Detailing Brushes, Universal Vehicle Interior Cleaning Tool for A. MVEQRRN 6pcs Car Detailing Brush Set-2pcs Boars Hair Car Detailing Brushes,2pcs Ultra Soft No Scratch Detailing Brush for Air. TEUOPIOE Car Interior Cleaning Brush, Car Duster Interior,Car Detailing Brush Dusting Brush,Car Interior Cleaning Tool, Auto.\",\"score\":0.99939287,\"raw_content\":null}],\"response_time\":1.6,\"request_id\":\"f9fbf1c2-aed9-4889-832d-18c7a23ba9ee\"}"
+}
+

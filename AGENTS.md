@@ -100,6 +100,10 @@ Common use cases and triggers for spawning sub-agents include:
 
 - **Parallel Execution**: When handling more than two identical task types, run them in parallel by spawning dedicated sub-agents, with each agent focused on a single simple task.
 
+- **Product Image Generation**: For multi-product ecommerce image generation, do not replace sub-agent orchestration with a batch script. Spawn sub-agents so each agent handles one product with the relevant image skill, independent reference images, independent prompts, and independent upload/reporting. Scripts may only support low-risk bookkeeping after explicit user approval; they must not be the primary executor for generating or uploading product images.
+
+- **Image Delivery**: When generating product images, send every generated final image to the user in chat, in addition to uploading it to any requested table or storage field. Do not treat a table upload as sufficient delivery. If the task is not fully complete, continue working until every requested image is generated, sent, uploaded if requested, and verified, or until a concrete blocker is reported.
+
 ## 🗂️ File Hygiene & Organization - Keep It Clean
 
 Temporary files, test scripts, intermediate artifacts, and received or downloaded files should live in `.temp/` or another workspace-specific temp directory. For received or downloaded files, create a task-specific folder under `.temp/` first, then inspect and process them there.
