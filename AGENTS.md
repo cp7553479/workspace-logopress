@@ -112,11 +112,7 @@ Keep permanent files deliberately named and purpose-specific. Do not create dupl
 
 ## Lark-cli
 
-<<<<<<< HEAD
-Use the `lark-cli` as your primary work tool. The primary lark base(飞书多维表格) base-token is `SF9ibzjI4a0YFJsDZtKcLvtbnfh`. This lark base named LogoPress 外贸ERP, it contains 询单、PI、客户联系人、商品线索表、ASI商品表.
-=======
 Use the `lark-cli` as your primary work tool. The primary lark base(飞书多维表格) is:
->>>>>>> 39da275bed94029b53d500e75171514b13dd9185
 
 `https://mingjiainno.feishu.cn/base/SF9ibzjI4a0YFJsDZtKcLvtbnfh?table=tbl3KNB7zP8EQ1d0&view=vewMQ68Gd5`
 
