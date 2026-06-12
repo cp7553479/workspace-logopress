@@ -1,0 +1,32 @@
+[2026-06-10T07:14:19.683Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon touchscreen winter gloves listing image examples selling point infographic material detail SKU chart",
+    "limit": "3",
+    "vendor": []
+  }
+}
+
+[2026-06-10T07:14:19.685Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon touchscreen winter gloves listing image examples selling point infographic material detail SKU chart",
+    "max_results": 3,
+    "include_answer": false
+  }
+}
+
+[2026-06-10T07:14:22.883Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon touchscreen winter gloves listing image examples selling point infographic material detail SKU chart\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.reviewed.com/tech/best-right-now/the-best-touchscreen-gloves\",\"title\":\"6 Best Touchscreen Gloves of 2026 - Reviewed\",\"content\":\"Dell revives the XPS 14 and it mostly nails it:strip_exif():no_upscale():format(webp):quality(1)/1776704866748/xps-hero.jpeg). These are the best touchscreen gloves money can buy.:strip_exif():no_upscale():format(webp):quality(72)/1577132542259/HERO.jpg). # The Best Touchscreen Gloves of 2026. Reviewed's mission is to help you buy the best stuff and get the most out of what you already own. Our team of product experts thoroughly vet every product we recommend to help you cut through the clutter and find what you need. Product image of Harrms Touchscreen Leather Knitted Cuff Gloves:strip_exif():no_upscale():format(webp):quality(72):fill(ffffff)/1576247588431/Harrms.jpg). If you like leather and insulation, this glove offers touchscreen capability on all ten fingers. Product image of The North Face Etip Gloves:strip_exif():no_upscale():format(webp):quality(1):fill(ffffff)/1569858508831/The-North-Face.jpg). The North Face gloves offer touchscreen capability on all fingers and great grip in wet weather but the long-term use might be short. Product image of Achiou Winter Knit Gloves:strip_exif():no_upscale():format(webp):quality(1):fill(ffffff)/1569859386838/Achiou.jpg). Product image of Ozero Winter Gloves with Sensitive Touchscreen Fingers:strip_exif():no_upscale():format(webp):quality(1):fill(ffffff)/1569871582362/Ozero.jpg). Product image of Warmen Touchscreen Cashmere Blend-Lined Gloves:strip_exif():no_upscale():format(webp):quality(1):fill(ffffff)/1576246372054/Warmen.jpg). Product image of Ozero Winter Gloves with Sensitive Touchscreen Fingers:strip_exif():no_upscale():format(webp):quality(1)/1569871582362/Ozero.jpg). These are the best touchscreen gloves:strip_exif():no_upscale():format(webp):quality(1)/attachment/76eac1efd75a4f3a/DSC_1553.jpg).\",\"score\":0.6721816,\"raw_content\":null},{\"url\":\"https://shopping.yahoo.com/style/accessories/article/best-touchscreen-gloves-201733998.html\",\"title\":\"The 8 best touchscreen gloves for winter 2026, tested and ...\",\"content\":\"The 8 best touchscreen gloves for winter 2026, tested and approved. Materials: Nylon, acrylic, copper, spandex\",\"score\":0.5357549,\"raw_content\":null},{\"url\":\"https://us.amazon.com/Best-Sellers-Men's-Gloves-Mittens/zgbs/fashion/7072331011\",\"title\":\"Amazon Best Sellers: Best Men's Gloves & Mittens\",\"content\":\"# Amazon Best Sellers. TRENDOUX Winter Gloves for Men Women - Upgraded Touch Screen Cold Weather Thermal Warm Knit Glove for Running Driving Hiking. Achiou Winter Gloves, Glove for Men Women, Upgraded Touch Screen Texting Warm Running with Thermal Soft Knit Lining. Carhartt Men's Waterproof Insulated Knit Cuff Glove. FEWTUR Winter Waterproof Gloves for Women and Men - Thermal Gloves with Touchscreen Fingers, Warm Gloves for Running, Bike an. CHENMEI Winter Gloves for Men Women-Warm TouchScreen Cold Weather Gloves,Wool Knit Thermal Adults Gloves for Driving Texting. TRENDOUX Merino Wool Winter Gloves: Touch Screen Knitted Gloves Warm Thin Non-slip Glove for Men Women Driving Running Gift. ONEREED 2 Pairs Fingerless Gloves for Women Men Driving Cycling Half Finger Winter Warm Touchscreen Black Knit Gloves for Wor. M&H Since 1978 Driving Gloves for Men - Mens Leather Car Gloves. TRENDOUX 100% Merino Wool Gloves for Women Men - Winter Touchscreen Thermal Warm Gloves for Driving Running Texting Gift. Leather Gloves for Men Genuine Lambskin, Gloves for Men Warm Wool Lined Anti-Slip, Winter Gloves Touchscreen Driving.\",\"score\":0.49318945,\"raw_content\":null}],\"response_time\":1.94,\"request_id\":\"482661a1-5d7c-4e12-9e59-3749262386d2\"}"
+}
+

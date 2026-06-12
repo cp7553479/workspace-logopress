@@ -1,0 +1,32 @@
+[2026-06-09T18:25:42.850Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon bamboo wood pen case gift box product images",
+    "limit": "5",
+    "vendor": []
+  }
+}
+
+[2026-06-09T18:25:42.851Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon bamboo wood pen case gift box product images",
+    "max_results": 5,
+    "include_answer": false
+  }
+}
+
+[2026-06-09T18:25:44.473Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon bamboo wood pen case gift box product images\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/SUPVOX-7-5X2-8X1-2-Organizer-Supplies-Materials/dp/B07ZVNP9F6\",\"title\":\"SUPVOX Simple Bamboo Box with Sliding Lid, Light Yellow Wood ...\",\"content\":\"SUPVOX Simple Bamboo Box with Sliding Lid, Light Yellow Wood Jewelry Gift Box, 7.48x2.83x1.18 Inch, Vintage Design for Pencil, Watch, and Art Supplies Storage.\",\"score\":0.77487355,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Asukohu-Display-Desktop-Stationery-Organiser/dp/B0CBBNX2MZ\",\"title\":\"Amazon.com: Asukohu Pen holder Wooden Pencil Case Box Single ...\",\"content\":\"This bamboo single pen case with a foldable flip cover is the perfect choice for oneself or as a gift · Made of quality wood, this pen holder is not only durable\",\"score\":0.76951396,\"raw_content\":null},{\"url\":\"https://www.amazon.com/-/zh_TW/dp/B01LY562J0\",\"title\":\"Amazon.com: Natural Creative Handcrafted Bamboo Pen Holder ...\",\"content\":\"Natural Creative Handcrafted Bamboo Pen Holder Expandable Durable Bamboo Pen Case Foldable Storage Box Durable Protective Bamboo Wood Box Vintage Style Gift\",\"score\":0.76300776,\"raw_content\":null},{\"url\":\"https://www.amazon.ie/Natural-Handmade-Souvenirs-Business-Birthday/dp/B0D4M5RCDL\",\"title\":\"Empty Wooden Pen Case, Bamboo Gift Box, Natural, Handmade, for ...\",\"content\":\"BEST GIFT A perfect gift for writers, colleagues, businessmen and loved ones. Material: This box is naturally made of bamboo wood. It is lightweight and has\",\"score\":0.76279575,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Executive-Gift-Shoppe-Personalized-Ballpoint/dp/B00L8DKTRW\",\"title\":\"Executive Gift Shoppe | Personalized Bamboo Wood Pen & Case ...\",\"content\":\"The bamboo material paired with gold accents gives it a distinctive, professional look, while the twist mechanism ensures smooth operation. The personalization\",\"score\":0.7482976,\"raw_content\":null}],\"response_time\":0.68,\"request_id\":\"ff45438a-3da0-4e29-b820-f91f9b24a4b3\"}"
+}
+

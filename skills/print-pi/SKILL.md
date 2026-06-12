@@ -173,7 +173,7 @@ wb.save(dst)
 >     f.write(buf.getvalue())
 > ```
 
-### 4. 调用message工具发送文件给用户
+### 4. 发送文件给用户
 
 ```
 message(action="send", channel="feishu", filePath="<path>", caption="...")

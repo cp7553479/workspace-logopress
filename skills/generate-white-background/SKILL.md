@@ -10,7 +10,7 @@ description: 在飞书商品线索表里生成并回填商品白底图。Use whe
 **注意：**
 以下 base-token、table-id、view-id、field-id 均为示例值，请根据实际情况替换成实际值，先读取表结构，再思考下一步。
 如果未声明base token或无法准确定位表格请直接询问用户。
-请使用`message` tool输出你的思考，充分与用户沟通。
+请回复用户，充分与用户沟通。
 
 ## Inputs
 

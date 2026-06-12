@@ -10,56 +10,44 @@
 - Skill 修改/规则话术：偏好简洁、精炼，不添加无关解释；修改后检查上下文是否冲突、重复或累赘。
 - 创建或改写 Skill 时，`SKILL.md` 应以说明文为主，保持抽象、普适、可复用；不要硬编码 baseId、tableId、文件路径等具体值，示例命令使用占位符。
 - 飞书主多维表格以 `https://mingjiainno.feishu.cn/base/SF9ibzjI4a0YFJsDZtKcLvtbnfh?table=tbl3KNB7zP8EQ1d0&view=vewMQ68Gd5` 为准；base-token 为 `SF9ibzjI4a0YFJsDZtKcLvtbnfh`，历史旧 token / 旧 table id 不再作为准绳。
-- 生图工具：Oracle 优先（`@steipete/oracle`），失败可切 Codex exec
+- 商品/电商生图工具规则：subagent 必须阅读当前可用的生图 skill，并按该 skill/tool 当前推荐的最新、最适合商品图的生图模型生成图片；handoff 可明确允许 Oracle 生图，但不要把 Oracle 或其他具体服务写成唯一方式。
+- 商品图生图路径策略：2026-06-12 用户更正，后续派发商品图 subagent 时，handoff 必须明确要求使用 Oracle 生图；不要默认改用 Codex 生图。每张图仍需记录实际使用路径和失败证据；如 Oracle 遇到额度、登录、页面异常、网络或认证问题，按当前商品图恢复规则记录阻塞或等待后重试。
+- ASI 首图 Logo 规则：如果参考图商品本身有 logo，首图 prompt 必须要求替换为 Logo 图片文件上的 logo，或替换为不含任何图形标记的纯文字 `YOUR LOGO`，不得保留参考图商品原有 logo 图案。
+- ASI 商品图前置规则：后续派发商品图 subagent 时，handoff 必须要求先用 `参考图片` 字段原始图生成一张干净无 logo 商品参考图，去掉产品上的原有 logo/sample logo/品牌图案/示例印刷/平台厂家标记；生成后必须上传回并替换当前记录 `参考图片` 字段里的原始图片，回读确认旧原图已移除；后续白底图和 ASI 套图必须基于这张已回填的干净参考图生成，不能直接用原始参考图片生成套图。
+- 后续商品/电商生图任务必须由 subagent 执行；主会话每次只能派生一个商品生图 subagent，等完成、阻塞或恢复点明确后再派下一个。
+- 2026-06-10 用户再次明确纠正：商品/电商生图批量任务每次仅允许同时派生一个 subagent；处理完一个商品之后再派生下一个 subagent。心跳或恢复逻辑发现已有商品图 subagent 运行时，只能监督当前商品、停止重复会话或记录阻塞，不能启动新商品。
 - 禁止 Gemini 2.5 Flash Image
 - 英文提示词、1:1、无中文/价格/水印/QR、不虚构
-- Oracle 串行排队，不并发
+- 商品/电商生图串行排队，不并发；禁止脚本、贴图、局部覆盖、透视变换或程序合成最终图片。
 - 不喜欢被说"我会一直跑"但实际做不到——要诚实
 - 长批量任务偏好：及时使用 `update_plan` 记录当前任务状态，并把关键进度、阻塞、恢复点及时写入记忆，避免中断后丢失上下文。
 - 商品/电商生图交付偏好：生成好的图片必须在飞书聊天里逐张发给用户，不能只上传到表格；如果用户说有图片没收到，要重新发送缺失图片并确认媒体回执。
+- 长期 ASI 商品图监控偏好：不要依赖 `HEARTBEAT.md`；使用 cron 定时任务周期性唤醒并投递到当前飞书私聊 session。当前 ASI 监控 cron 为 `asi-subagent-watch-current-session`，每 30 分钟运行一次，sessionTarget 固定到 `agent:global-trading-product:feishu:global-trading-product:direct:ou_61123e30e1c1bfd2d0d31af923d4982d`。
 
-## Promoted From Short-Term Memory (2026-06-08)
+## Promoted From Short-Term Memory (2026-06-11)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-06-03.md:5:8 -->
-- LP0686 首图 Logo 修正: Context: ASI 套图批量任务中，用户指出 LP0686 首图 Logo 不对。; Trigger: 旧首图和第一次 AI 重生成图没有严格使用 `LOGO-BK.png` 的原始 LogoPress 图形。; Actions: 重新阅读 ASI 生图 skill；确认浅色水壶应使用黑色 `LOGO-BK.png`；用本地精确合成把原始 Logo 文件覆盖到首图印刷区；移除飞书 `商品主图` 字段里的旧首图并上传新首图。; Outcome: 最终验表 `白底图=1`、`商品主图=5`，新首图文件为 `LP0686_hero_main_logo_exact_v2.png`，已发给用户。 [score=0.879 recalls=0 avg=0.620 source=memory/2026-06-03.md:5-8]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-03.md:9:9 -->
-- LP0686 首图 Logo 修正: Lesson: 首图 Logo 不能只靠 prompt 让模型“照着生成”；如模型没有完全复刻指定 Logo 文件，应直接用原始 Logo 文件精确合成或后处理，避免错误 Logo 上传。 [score=0.879 recalls=0 avg=0.620 source=memory/2026-06-03.md:9-9]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-30-2118-2.md:18:21 -->
-- Conversation Summary: **白底图生成**：完成了 LP0241/LP0257/LP0401 的白底图，以及 LP0041/LP0105/LP0189 的 ASI 主图; **上传问题**：`lark-cli base +record-upload-attachment` 会追加而非替换附件，OpenAPI 也标记附件字段只读; **Skill 规则收紧**：白底图 skill 明确禁止脚本合成/本地拼接，必须用 image_gen 生成; **LP0041 素材图**：生成了物料信息图（第二版，去掉额外卖点文字） [score=0.859 recalls=0 avg=0.620 source=memory/2026-05-30-2118-2.md:18-21]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-30-2118.md:3:5 -->
-- Session: 2026-05-30 21:18:05 GMT+8: **Session Key**: agent:main:feishu:group:oc_ec473251e4d81e5d4285a200b5e704e7; **Session ID**: 649f8f9a-cc90-4b1d-aa0b-580b01c2194b; **Source**: feishu [score=0.859 recalls=0 avg=0.620 source=memory/2026-05-30-2118.md:3-5]
-<!-- openclaw-memory-promotion:memory:memory/2026-05-31.md:23:23 -->
-- 飞书主 Base 切换确认: >>>>>>> 39da275bed94029b53d500e75171514b13dd9185 [score=0.859 recalls=0 avg=0.620 source=memory/2026-05-31.md:23-23]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-03-0950.md:12:14 -->
-- Conversation Summary: 旧错误首图 `LP0686_hero_main.png` 已从商品主图移除; 新首图 `LP0686_hero_main_logo_exact_v2.png` 已上传; 飞书最终验表：白底图 1，商品主图 5 [score=0.851 recalls=0 avg=0.620 source=memory/2026-06-03-0950.md:12-14]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-03-0950.md:17:18 -->
-- Conversation Summary: 我也更新了 progress 和 plan。LP0729 仍在运行中，后面继续按队列处理。 assistant: LP0686 首图已修正并替换完成：旧错图已移除，新首图已上传，飞书验表仍是白底图 1、商品主图 5。新首图也已发给你。 [score=0.851 recalls=0 avg=0.620 source=memory/2026-06-03-0950.md:17-18]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-03-0950.md:20:23 -->
-- Conversation Summary: 我已更新 progress、plan，并记录了这次 Logo 修正教训。LP0729 继续运行中。 assistant: LP0729 完成，我需要验表、检查首图 Logo 是否正确、发图给用户，然后继续下一条。 assistant: Base verified: LP0729 has 白底图=1, 商品主图=6. Now let me check the hero image for correct logo before sending. assistant: Image analysis not available. Let me send the hero image to the user and they can flag if the logo is wrong like they did for LP0686. Let me send all images now. [score=0.851 recalls=0 avg=0.620 source=memory/2026-06-03-0950.md:20-23]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-03-0950.md:24:27 -->
-- Conversation Summary: assistant: LP0729 完成！飞书验表：白底图 1 张、商品主图 6 张（含 SKU 图）。 请检查首图 Logo 是否正确。 assistant: LP0729_white_background_sku_v2.png assistant: LP0729_white_background_sku_v2.png [score=0.851 recalls=0 avg=0.620 source=memory/2026-06-03-0950.md:24-27]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-03-0950.md:3:5 -->
-- Session: 2026-06-03 09:50:42 GMT+8: **Session Key**: agent:global-trading-product:feishu:global-trading-product:direct:ou_61123e30e1c1bfd2d0d31af923d4982d; **Session ID**: c416f419-d12b-4ee0-969d-e2c51913ffff; **Source**: webchat [score=0.851 recalls=0 avg=0.620 source=memory/2026-06-03-0950.md:3-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-05.md:26:28 -->
+- Preference: Skill Writing Style: Context: User requested a new skill for syncing ASI/ESP upload results back to ASI商品表.; Evidence: User said generated skills should make `SKILL.md` primarily explanatory, abstract, universal, and reusable, without hardcoded baseId, tableId, or file paths; examples should use placeholders.; Lesson: When creating or updating skills, write durable instructions in reusable prose first and keep concrete command examples parameterized with placeholders. [score=0.862 recalls=0 avg=0.620 source=memory/2026-06-05.md:26-28]
 
-## Promoted From Short-Term Memory (2026-06-09)
+## Promoted From Short-Term Memory (2026-06-12)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-06-03-0950.md:9:11 -->
-- Conversation Summary: assistant: 收到，我重新按 skill 的首图 Logo 规则处理 LP0686：只重做首图，不动其它图。先复核原首图和 Logo 文件要求，再重新生成、上传替换/追加，并把新首图发你。 assistant: LP0686_hero_main_logo_exact_v2.png assistant: LP0686 首图已按 skill 修好： [score=0.871 recalls=0 avg=0.620 source=memory/2026-06-03-0950.md:9-11]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-03.md:13:16 -->
-- LP0474 首图完成: User request: `LP0474生成首图`.; Product: International portable power outlets travel plug adapter; record_id `recuQUIlEIktPa` in 商品表.; Assets: 白底图 `LP0474_white_background.png`; existing 商品主图 details `LP0474_scene.png`, `LP0474_selling_point.png`, `LP0474_size.png`, `LP0474_material_process.png`.; Output: generated `temp/LP0474_asi_recuQUIlEIktPa/outputs/LP0474_hero_main.png` (PNG 1254x1254, ~1.2MB), sent to user via Feishu, uploaded to `商品主图`. [score=0.871 recalls=0 avg=0.620 source=memory/2026-06-03.md:13-16]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-03.md:17:17 -->
-- LP0474 首图完成: Verification: 商品主图 field had 5 attachments after upload, including `LP0474_hero_main.png`; 白底图 remained 1 attachment. [score=0.871 recalls=0 avg=0.620 source=memory/2026-06-03.md:17-17]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-03.md:21:24 -->
-- LP0824 首图完成: User request: `LP0824生成首图`.; Product: Large iridescent beach stadium travel handbag clear tote bag; record_id `recuSr4b7XMiSE` in 商品表.; Product facts used: colors Black/Silver/White; material PVC; size `14.57 x 11.42 x 3.94 inch`. Do not invent extra colors/styles.; Assets: 白底图 `LP0824-white-background.png`; existing 商品主图 details `LP0824-scene.png`, `LP0824-selling-point.png`, `LP0824-size.png`, `LP0824-material.png`, `LP0824-sku.png`. [score=0.871 recalls=0 avg=0.620 source=memory/2026-06-03.md:21-24]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-03.md:25:26 -->
-- LP0824 首图完成: Output: generated `temp/LP0824_asi_recuSr4b7XMiSE/outputs/LP0824_hero_main.png` (PNG 1254x1254, ~1.6MB), sent to user via Feishu, uploaded to `商品主图`.; Verification: 商品主图 field had 6 attachments after upload, including `LP0824_hero_main.png`; 白底图 remained 1 attachment. [score=0.871 recalls=0 avg=0.620 source=memory/2026-06-03.md:25-26]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-04.md:13:15 -->
-- 长任务自动停止排查: Context: 用户问为什么每次运行 1-2 小时左右就自动停止、不继续运行。; Evidence: OpenClaw 配置里 `tools.exec.timeoutSec=1800`，单个 exec 工具最多约 30 分钟；Oracle 浏览器生图自身常提示最长可运行约 1 小时。最近 ASI 任务轨迹显示北京时间约 00:37 继续、01:34 `session.ended`，属于当前 turn 完成后结束，不是常驻后台 worker 自动续跑。; Lesson: 普通 Feishu 对话 turn 不能被当作“会一直后台跑”的任务。跨小时 ASI 批量任务要显式拆分为可恢复队列，并用 cron、heartbeat、后台 session 或分批交付来续跑；若没有这些机制，完成一次回复或遇到工具阻塞/等待确认后就会停止。 [score=0.851 recalls=0 avg=0.620 source=memory/2026-06-04.md:13-15]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-04.md:19:21 -->
-- Turn 结束不是压缩直接杀掉: Context: 用户进一步怀疑“一个 turn 为什么这么短；是不是 Codex harness 压缩后就结束 turn”。; Evidence: 轨迹里每轮顺序是 `context.compiled -> prompt.submitted -> tool.call/tool.result... -> model.completed -> session.ended`；最近 `model.completed` 记录显示 `timedOut=false`、`yieldDetected=false`、`aborted=false`，随后 `session.ended status=success`。OpenClaw 配置为 `agents.defaults.compaction.mode=safeguard`、`plugins.slots.contextEngine=lossless-claw`，但未发现“压缩后结束 turn”的配置或日志证据。`openclaw status` 显示当前 direct session 约 `199k/272k`，有上下文压力但未满。; Lesson: 当前证据更支持“模型认为已完成/主动 final 后 harness 正常收尾”，而不是“compaction 自动杀 turn”。长任务中应避免过早 final/停问，或用后台/队列机制让后续步骤明确存在。 [score=0.851 recalls=0 avg=0.620 source=memory/2026-06-04.md:19-21]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-04.md:25:27 -->
-- Turn 结束表述更正：不要把 completed 等同 stop: Context: 用户追问“模型为什么会发出 stop？真的是模型发 stop 的原因吗？”; Evidence: 重新检查 raw trajectory 后，只能看到 `model.completed`、`timedOut=false`、`aborted=false`、`yieldDetected=false`、`promptError=null`，没有看到原始 API 的 `finish_reason: stop` 字段。; Lesson: 以后排查 turn 结束时，不能把 OpenClaw 轨迹里的 `model.completed` 直接说成“模型发了 stop”。更准确说法是：模型响应正常完成且没有继续产生 tool call，runtime 因此结束 turn。若要证明 API-level stop，需要找到原始响应里的 finish/stop reason。 [score=0.851 recalls=0 avg=0.620 source=memory/2026-06-04.md:25-27]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-04.md:31:34 -->
-- Finalize Guard 设计偏好: Context: 用户想研究 OpenClaw 是否能在一个 turn 准备结束时再让 LLM 自检：如果确实该结束则输出 `SESSION_OK`，否则继续任务；并希望清理该检查提示，避免污染上下文。; Evidence: 已查到 OpenClaw plugin typed hook 中存在 `before_agent_finalize`，返回值支持 `action: "revise"` 与 `retry.instruction`，适合在自然 final 被接受前请求模型再跑一轮；这比“结束后再开一轮”更干净。hook 事件可提供 `sessionKey/sessionId/turnId/cwd/transcriptPath/lastAssistantMessage/messages/stopHookActive` 等。; User preference: 用户坚决不同意写 ASI 专用、progress.json 专用或特定任务规则；核心思想应保持由 LLM 自己判断是否真的该结束。若存在 `update_plan` 且有未完成任务，可作为提示给 LLM，但不要把特定业务 pending 文件作为硬判断。; User preference: 不要把“不要 ASI 专用规则”等负规则写进正式文件，也不要在插件代码里写 ASI、progress.json、特定任务相关注释或判断。正式代码应保持通用 final... [score=0.851 recalls=0 avg=0.620 source=memory/2026-06-04.md:31-34]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-05-0049.md:13:13 -->
-- Conversation Summary: assistant: 测试结果如下： [score=0.851 recalls=0 avg=0.620 source=memory/2026-06-05-0049.md:13-13]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-07-2128.md:13:16 -->
+- Conversation Summary: assistant: LP0384_selling_point_v2.png assistant: LP0384_material_detail.png assistant: LP0384_sku.png assistant: LP0383_white_background.png [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07-2128.md:13-16]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-07-2128.md:17:20 -->
+- Conversation Summary: assistant: LP0383_hero.png assistant: LP0383_scene.png assistant: LP0383_selling_point.png assistant: LP0383_size.png [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07-2128.md:17-20]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-07-2128.md:21:24 -->
+- Conversation Summary: assistant: LP0383_material_detail.png user: [message_id: om_x100b6d6342ddd0a0c357745609fc25b] 陈鹏: 请从之前的checkpoint查找上一次任务的进度。上次你已经做到LP0393了，然后继续之后的任务。 assistant: 我先去查上一轮 checkpoint 和任务记录，确认 LP0393 之后要接着做什么，再继续执行。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07-2128.md:21-24]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-07-2128.md:3:5 -->
+- Session: 2026-06-07 21:28:02 GMT+8: **Session Key**: agent:global-trading-product:feishu:global-trading-product:direct:ou_61123e30e1c1bfd2d0d31af923d4982d; **Session ID**: a912c478-25b2-4585-91c6-b98b8a427854; **Source**: feishu [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07-2128.md:3-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-07-2128.md:9:12 -->
+- Conversation Summary: assistant: LP0386_material_detail.png assistant: LP0384_white_background.png assistant: LP0384_hero.png assistant: LP0384_scene.png [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07-2128.md:9-12]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:14:15 -->
+- ASI 图片规则更新: 已修正 `asi-product-image-generator` skill：首图不得包含尺寸图/尺寸示意，右侧小图也不能展示尺寸；首图除产品本身可见信息和按要求合成的 Logo 示意外，不出现额外文字、标题、标签、尺寸数字、尺寸线或尺寸标注。; 用户此前明确纠正：ASI 图片任务不能用本地脚本批量生成/拼图替代 skill 流程；脚本只能做低风险查询、验表、整理。生图必须按 skill 的单品/单图流程执行。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07.md:14-15]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:18:19 -->
+- ASI XID 同步 Skill: 创建并应用了 `asi-xid-sync` skill，用于从 Excel/CSV 按 `Product_Number` 回填 ASI 商品表的 `XID` 和 `Prod_Image`。; 最近一次处理 CSV：成功回填 334 个产品；`XID` 核验 334 个，`Prod_Image` 核验 327 个；未匹配 `LP0003`、`LP0002`。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07.md:18-19]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:22:24 -->
+- 报价记录: 用户询问 `LP0028, 200个` 报价。已按报价 skill 查商品详情与阶梯价：LP0028，数量 200，对应 Q2=200，单价 USD 1.33/pcs，合计 USD 266.00。; 商品：Thick Reusable Paper Gift Bags with Satin Ribbon Handles；箱规：32 × 27 × 22 cm，4 kg/箱，50 pcs/箱；1688价 RMB 3.5；1688链接 `https://detail.1688.com/offer/827330565391.html?kj_agent_plugin=aibuy`。; 已生成并发送报价表 `2026-06-05-LP0028-200.xlsx`。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07.md:22-24]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:4:7 -->
+- ASI / 商品主图批量任务: 用户要求：从飞书主 Base `SF9ibzjI4a0YFJsDZtKcLvtbnfh` 的 `商品表` 中挑 100 个 `商品主图` 为空且有 `参考图片` 的商品，使用 `asi-product-image-generator` skill，持续生成 ASI 商品套图；每次启动 2 个 Codex native subagent，直到 100 个商品主图全部完成。; 用户补充要求：生图时 Codex 与 Oracle 交替使用；Oracle 必须串行，不并发；及时 update plan / 进度。; 当前批次已筛出 100 个目标商品，并开始按队列处理。已完成并交付/上传核验的商品包括：LP0290、LP0326、LP0328、LP0337。; LP0326：`recuLlfsIm3OXi`，生成白底图 + 6 张商品主图（hero/scene/selling point/size/material/SKU），已上传到 `白底图` 和 `商品主图`，已发送图片，record-get 核验通过。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07.md:4-7]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:8:11 -->
+- ASI / 商品主图批量任务: LP0290：`recuLlcDJ5KeXW`，已有白底图；生成并上传 6 张商品主图，已发送图片，record-get 核验通过。; LP0337：`recuLlfY50iXJ8`，生成并上传 5 张商品主图（main/scene/selling point/dimensions/material），SKU 因只有一个确认颜色/SKU 跳过；子任务无发图权限，父任务已补发 5 张图，record-get 核验通过。; 最新可见进度：LP0338、LP0340 已作为两个并行 subagent 在跑；队列下一位 LP0343。若恢复任务，先检查 `.temp/asi_100_empty_main/progress.json`、当前 active subagents / sessions，以及 Oracle lock/process，再补启动缺口，始终最多 2 个并行。; 重要操作习惯：子任务完成后必须先验收输出、补发未发送图片、record-get 核验 `商品主图` 非空，再把进度标为完成并启动下一个商品，避免批量任务中断。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07.md:8-11]

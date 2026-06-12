@@ -48,10 +48,11 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 - `session-auto-continue` lives at `~/.openclaw/extensions/session-auto-continue`. It is an OpenClaw hook-only extension that keeps sessions running until final assistant text contains `SESSION_OK`.
 - Verify it with `npm test` in that directory and `openclaw plugins inspect session-auto-continue --runtime --json`.
+- Cron error `isolated agent setup timed out before runner start` means the run failed before the agent turn actually started. For pinned long Feishu sessions, likely causes are Gateway/runner startup overload, huge session context, or session-lane/context-maintenance backlog; do not assume the cron payload itself ran and failed. Check `openclaw cron get <id>`, `openclaw cron runs --id <id>`, Gateway CPU, and whether successful runs show very high token/context usage.
 
-## Feishu message tool notes
+## Feishu User Reply Notes
 
-- In this OpenClaw Feishu channel, sending a local image with `message(action="send", media=...)` or `image=...` may produce a text-only message. Use `filePath` with a normal `message`, for example `message(action="send", message="说明", filePath="/abs/path/image.png")`; receipt should show `kind:"media"`.
+- In this OpenClaw Feishu channel, when replying to the user with a local image, `media=...` or `image=...` may produce a text-only message. Use `filePath` in the visible reply, for example `message(action="send", message="说明", filePath="/abs/path/image.png")`; receipt should show `kind:"media"`.
 
 ---
 
