@@ -11,7 +11,8 @@
 - 创建或改写 Skill 时，`SKILL.md` 应以说明文为主，保持抽象、普适、可复用；不要硬编码 baseId、tableId、文件路径等具体值，示例命令使用占位符。
 - 飞书主多维表格以 `https://mingjiainno.feishu.cn/base/SF9ibzjI4a0YFJsDZtKcLvtbnfh?table=tbl3KNB7zP8EQ1d0&view=vewMQ68Gd5` 为准；base-token 为 `SF9ibzjI4a0YFJsDZtKcLvtbnfh`，历史旧 token / 旧 table id 不再作为准绳。
 - 商品/电商生图工具规则：subagent 必须阅读当前可用的生图 skill，并按该 skill/tool 当前推荐的最新、最适合商品图的生图模型生成图片；handoff 可明确允许 Oracle 生图，但不要把 Oracle 或其他具体服务写成唯一方式。
-- 商品图生图路径策略：2026-06-12 用户更正，后续派发商品图 subagent 时，handoff 必须明确要求使用 Oracle 生图；不要默认改用 Codex 生图。每张图仍需记录实际使用路径和失败证据；如 Oracle 遇到额度、登录、页面异常、网络或认证问题，按当前商品图恢复规则记录阻塞或等待后重试。
+- 商品图生图路径策略：2026-06-12 用户更正，后续派发商品图 subagent 时，handoff 必须明确要求优先使用 Oracle 生图，可交替使用 Oracle ChatGPT 和 Oracle Gemini；只有 ChatGPT 与 Gemini 两条 Oracle 路径都遇到问题或失败后，才切换 Codex 生图。每张图仍需记录实际使用路径和失败证据；如 Oracle 遇到额度、登录、页面异常、网络或认证问题，按当前商品图恢复规则记录阻塞或等待后重试。
+- 商品图 subagent 派发偏好：每次派生 subagent 时，要尽量把任务需求描述清楚，或写入产品专用 handoff 文档；明确要求 subagent 先阅读该 handoff 文档、共享 worker instructions 和相关生图 skill 后再执行。
 - ASI 首图 Logo 规则：如果参考图商品本身有 logo，首图 prompt 必须要求替换为 Logo 图片文件上的 logo，或替换为不含任何图形标记的纯文字 `YOUR LOGO`，不得保留参考图商品原有 logo 图案。
 - ASI 商品图前置规则：后续派发商品图 subagent 时，handoff 必须要求先用 `参考图片` 字段原始图生成一张干净无 logo 商品参考图，去掉产品上的原有 logo/sample logo/品牌图案/示例印刷/平台厂家标记；生成后必须上传回并替换当前记录 `参考图片` 字段里的原始图片，回读确认旧原图已移除；后续白底图和 ASI 套图必须基于这张已回填的干净参考图生成，不能直接用原始参考图片生成套图。
 - 后续商品/电商生图任务必须由 subagent 执行；主会话每次只能派生一个商品生图 subagent，等完成、阻塞或恢复点明确后再派下一个。
@@ -51,3 +52,10 @@
 - ASI / 商品主图批量任务: 用户要求：从飞书主 Base `SF9ibzjI4a0YFJsDZtKcLvtbnfh` 的 `商品表` 中挑 100 个 `商品主图` 为空且有 `参考图片` 的商品，使用 `asi-product-image-generator` skill，持续生成 ASI 商品套图；每次启动 2 个 Codex native subagent，直到 100 个商品主图全部完成。; 用户补充要求：生图时 Codex 与 Oracle 交替使用；Oracle 必须串行，不并发；及时 update plan / 进度。; 当前批次已筛出 100 个目标商品，并开始按队列处理。已完成并交付/上传核验的商品包括：LP0290、LP0326、LP0328、LP0337。; LP0326：`recuLlfsIm3OXi`，生成白底图 + 6 张商品主图（hero/scene/selling point/size/material/SKU），已上传到 `白底图` 和 `商品主图`，已发送图片，record-get 核验通过。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07.md:4-7]
 <!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:8:11 -->
 - ASI / 商品主图批量任务: LP0290：`recuLlcDJ5KeXW`，已有白底图；生成并上传 6 张商品主图，已发送图片，record-get 核验通过。; LP0337：`recuLlfY50iXJ8`，生成并上传 5 张商品主图（main/scene/selling point/dimensions/material），SKU 因只有一个确认颜色/SKU 跳过；子任务无发图权限，父任务已补发 5 张图，record-get 核验通过。; 最新可见进度：LP0338、LP0340 已作为两个并行 subagent 在跑；队列下一位 LP0343。若恢复任务，先检查 `.temp/asi_100_empty_main/progress.json`、当前 active subagents / sessions，以及 Oracle lock/process，再补启动缺口，始终最多 2 个并行。; 重要操作习惯：子任务完成后必须先验收输出、补发未发送图片、record-get 核验 `商品主图` 非空，再把进度标为完成并启动下一个商品，避免批量任务中断。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07.md:8-11]
+
+## Promoted From Short-Term Memory (2026-06-13)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:27:27 -->
+- Heartbeat: `HEARTBEAT.md` 检查时为空，已保持为空。 [score=0.814 recalls=0 avg=0.620 source=memory/2026-06-07.md:27-27]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-09.md:5:8 -->
+- 01:11 生图交付纠偏: Context: ASI 套图批量任务中，LP2045 已生成并上传到 Base，用户指出“刚刚生成的图片也发给我”，并要求以后生成图片必须发给他。; Trigger: 图片交付标准不应只以 Base 上传完成为准，用户实际需要在飞书聊天里直接收到图片。; Actions: 重新发送 LP2045 的 12 张本地终稿图片，逐张使用 `message(filePath=...)`，回执均为媒体图片消息；同时把稳定偏好写入 `MEMORY.md`，不写入 `TOOLS.md`。; Lesson: 商品/电商生图任务的完成条件必须包含“发给用户本人并确认媒体回执”，上传表格只是归档步骤，不等于交付。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-09.md:5-8]
