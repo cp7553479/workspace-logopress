@@ -116,7 +116,7 @@ lark-cli api GET \
 lark-cli api GET /open-apis/drive/v1/medias/<file_token>/download \
   --as user \
   --params '{"extra":"{"bitablePerm":{"tableId":"<your table id>","rev":<rev>}}"}' \
-  --output <workspace>/temp/<产品编号>_asi_<record_id>/reference.jpg
+  --output <workspace>/.temp/<产品编号>_asi_<record_id>/reference.jpg
 ```
 
 或先取临时下载链接：
@@ -136,7 +136,7 @@ lark-cli api GET /open-apis/drive/v1/medias/batch_get_tmp_download_url \
 生图指令必须写清楚：
 
 - 输入参考图本地路径
-- 输出到 `<workspace>/temp/<产品编号>_asi_<record_id>`
+- 输出到 `<workspace>/.temp/<产品编号>_asi_<record_id>`
 - 纯白背景
 - 专业棚拍灯光
 - 专业电商主图视角
@@ -158,8 +158,8 @@ lark-cli api GET /open-apis/drive/v1/medias/batch_get_tmp_download_url \
 例如：
 
 ```bash
-file <workspace>/temp/<产品编号>_asi_<record_id>/output.jpg
-ls -l <workspace>/temp/<产品编号>_asi_<record_id>/output.jpg
+file <workspace>/.temp/<产品编号>_asi_<record_id>/output.jpg
+ls -l <workspace>/.temp/<产品编号>_asi_<record_id>/output.jpg
 ```
 
 ### 8. 上传到 `白底图` 字段
@@ -169,7 +169,7 @@ ls -l <workspace>/temp/<产品编号>_asi_<record_id>/output.jpg
 不要用 `record-upsert` 伪造附件值；使用：
 
 ```bash
-cd /<workspace>/temp/<产品编号>_asi_<record_id> && \
+cd /<workspace>/.temp/<产品编号>_asi_<record_id> && \
 lark-cli base +record-upload-attachment \
   --base-token <your base token> \
   --table-id <your table id> \

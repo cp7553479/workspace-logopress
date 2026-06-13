@@ -44,12 +44,6 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - In some local runs, `base +record-upload-attachment` also rejects `--json` and `--format` even when help lists them. Use the default output form and redirect/tee it if an upload receipt needs to be saved.
 - When uploading multiple files to the same Base attachment field, run `base +record-upload-attachment` serially. Parallel uploads can race and leave only part of the appended attachment list; if that happens, repair with the raw record update using the full intended attachment array.
 
-## OpenClaw Plugin Notes
-
-- `session-auto-continue` lives at `~/.openclaw/extensions/session-auto-continue`. It is an OpenClaw hook-only extension that keeps sessions running until final assistant text contains `SESSION_OK`.
-- Verify it with `npm test` in that directory and `openclaw plugins inspect session-auto-continue --runtime --json`.
-- Cron error `isolated agent setup timed out before runner start` means the run failed before the agent turn actually started. For pinned long Feishu sessions, likely causes are Gateway/runner startup overload, huge session context, or session-lane/context-maintenance backlog; do not assume the cron payload itself ran and failed. Check `openclaw cron get <id>`, `openclaw cron runs --id <id>`, Gateway CPU, and whether successful runs show very high token/context usage.
-
 ## Feishu User Reply Notes
 
 - In this OpenClaw Feishu channel, when replying to the user with a local image, `media=...` or `image=...` may produce a text-only message. Use `filePath` in the visible reply, for example `message(action="send", message="说明", filePath="/abs/path/image.png")`; receipt should show `kind:"media"`.
