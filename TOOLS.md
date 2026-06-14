@@ -2,52 +2,19 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-## What Goes Here
+## Credentials (`~/.openclaw/.env`)
+- LLM Keys: `GEMINI_API_KEY`, `OPENROUTER_API_KEY`, `XAI_API_KEY`
 
-Things like:
+## Local CLIs
+- `openclaw`, `lark-cli`
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+## Spawnable Agents
+- Spawn `customer-intent-insight` when analyzing customer intent, queries, or extracting structured requirements.
+- Spawn `catalog-maker` when generating catalogs, styling PDFs, or formatting Notion catalog pages.
+- Spawn `website-maker` when building, compiling, or deploying websites from product data.
+- Spawn `takewaypack` when handling takeaway package workflows, pricing, or templates.
+- Spawn `main` for general coordination or fallback routing outside specific domains.
 
-## Examples
-
-```markdown
-### Cameras
-
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
-
----
-
-## lark-cli Notes
-
-- `base +record-upload-attachment` no longer accepts `--name` in current local runs, even though help may still list it. Omit `--name`; uploaded attachment names are derived from local file basenames.
-- `base +record-upload-attachment --file` may reject absolute paths as unsafe. `cd` to the output directory and pass `--file ./filename.png`.
-- In some local runs, `base +record-upload-attachment` also rejects `--json` and `--format` even when help lists them. Use the default output form and redirect/tee it if an upload receipt needs to be saved.
-- When uploading multiple files to the same Base attachment field, run `base +record-upload-attachment` serially. Parallel uploads can race and leave only part of the appended attachment list; if that happens, repair with the raw record update using the full intended attachment array.
-
-## Feishu User Reply Notes
-
-- In this OpenClaw Feishu channel, when replying to the user with a local image, `media=...` or `image=...` may produce a text-only message. Use `filePath` in the visible reply, for example `message(action="send", message="说明", filePath="/abs/path/image.png")`; receipt should show `kind:"media"`.
-
----
-
-Add whatever helps you do your job. This is your cheat sheet.
+## Tips & Notes
+- **lark-cli uploads**: Do not use `--name`, use relative paths for `--file` (e.g., `./file.png`), and upload serially to avoid race conditions.
+- **Feishu image replies**: Use `filePath="/path/to/img.png"` inside `message(action="send", ...)` to ensure images render correctly.
