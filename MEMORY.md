@@ -25,34 +25,6 @@
 - 商品/电商生图交付偏好：生成好的图片必须在飞书聊天里逐张发给用户，不能只上传到表格；如果用户说有图片没收到，要重新发送缺失图片并确认媒体回执。
 - 长期 ASI 商品图监控偏好：不要依赖 `HEARTBEAT.md`；使用 cron 定时任务周期性唤醒并投递到当前飞书私聊 session。当前 ASI 监控 cron 为 `asi-subagent-watch-current-session`，每 30 分钟运行一次，sessionTarget 固定到 `agent:global-trading-product:feishu:global-trading-product:direct:ou_61123e30e1c1bfd2d0d31af923d4982d`。
 
-## Promoted From Short-Term Memory (2026-06-11)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-06-05.md:26:28 -->
-- Preference: Skill Writing Style: Context: User requested a new skill for syncing ASI/ESP upload results back to ASI商品表.; Evidence: User said generated skills should make `SKILL.md` primarily explanatory, abstract, universal, and reusable, without hardcoded baseId, tableId, or file paths; examples should use placeholders.; Lesson: When creating or updating skills, write durable instructions in reusable prose first and keep concrete command examples parameterized with placeholders. [score=0.862 recalls=0 avg=0.620 source=memory/2026-06-05.md:26-28]
-
-## Promoted From Short-Term Memory (2026-06-12)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-06-07-2128.md:13:16 -->
-- Conversation Summary: assistant: LP0384_selling_point_v2.png assistant: LP0384_material_detail.png assistant: LP0384_sku.png assistant: LP0383_white_background.png [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07-2128.md:13-16]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-07-2128.md:17:20 -->
-- Conversation Summary: assistant: LP0383_hero.png assistant: LP0383_scene.png assistant: LP0383_selling_point.png assistant: LP0383_size.png [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07-2128.md:17-20]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-07-2128.md:21:24 -->
-- Conversation Summary: assistant: LP0383_material_detail.png user: [message_id: om_x100b6d6342ddd0a0c357745609fc25b] 陈鹏: 请从之前的checkpoint查找上一次任务的进度。上次你已经做到LP0393了，然后继续之后的任务。 assistant: 我先去查上一轮 checkpoint 和任务记录，确认 LP0393 之后要接着做什么，再继续执行。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07-2128.md:21-24]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-07-2128.md:3:5 -->
-- Session: 2026-06-07 21:28:02 GMT+8: **Session Key**: agent:global-trading-product:feishu:global-trading-product:direct:ou_61123e30e1c1bfd2d0d31af923d4982d; **Session ID**: a912c478-25b2-4585-91c6-b98b8a427854; **Source**: feishu [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07-2128.md:3-5]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-07-2128.md:9:12 -->
-- Conversation Summary: assistant: LP0386_material_detail.png assistant: LP0384_white_background.png assistant: LP0384_hero.png assistant: LP0384_scene.png [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07-2128.md:9-12]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:14:15 -->
-- ASI 图片规则更新: 已修正 `asi-product-image-generator` skill：首图不得包含尺寸图/尺寸示意，右侧小图也不能展示尺寸；首图除产品本身可见信息和按要求合成的 Logo 示意外，不出现额外文字、标题、标签、尺寸数字、尺寸线或尺寸标注。; 用户此前明确纠正：ASI 图片任务不能用本地脚本批量生成/拼图替代 skill 流程；脚本只能做低风险查询、验表、整理。生图必须按 skill 的单品/单图流程执行。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07.md:14-15]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:18:19 -->
-- ASI XID 同步 Skill: 创建并应用了 `asi-xid-sync` skill，用于从 Excel/CSV 按 `Product_Number` 回填 ASI 商品表的 `XID` 和 `Prod_Image`。; 最近一次处理 CSV：成功回填 334 个产品；`XID` 核验 334 个，`Prod_Image` 核验 327 个；未匹配 `LP0003`、`LP0002`。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07.md:18-19]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:22:24 -->
-- 报价记录: 用户询问 `LP0028, 200个` 报价。已按报价 skill 查商品详情与阶梯价：LP0028，数量 200，对应 Q2=200，单价 USD 1.33/pcs，合计 USD 266.00。; 商品：Thick Reusable Paper Gift Bags with Satin Ribbon Handles；箱规：32 × 27 × 22 cm，4 kg/箱，50 pcs/箱；1688价 RMB 3.5；1688链接 `https://detail.1688.com/offer/827330565391.html?kj_agent_plugin=aibuy`。; 已生成并发送报价表 `2026-06-05-LP0028-200.xlsx`。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07.md:22-24]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:4:7 -->
-- ASI / 商品主图批量任务: 用户要求：从飞书主 Base `SF9ibzjI4a0YFJsDZtKcLvtbnfh` 的 `商品表` 中挑 100 个 `商品主图` 为空且有 `参考图片` 的商品，使用 `asi-product-image-generator` skill，持续生成 ASI 商品套图；每次启动 2 个 Codex native subagent，直到 100 个商品主图全部完成。; 用户补充要求：生图时 Codex 与 Oracle 交替使用；Oracle 必须串行，不并发；及时 update plan / 进度。; 当前批次已筛出 100 个目标商品，并开始按队列处理。已完成并交付/上传核验的商品包括：LP0290、LP0326、LP0328、LP0337。; LP0326：`recuLlfsIm3OXi`，生成白底图 + 6 张商品主图（hero/scene/selling point/size/material/SKU），已上传到 `白底图` 和 `商品主图`，已发送图片，record-get 核验通过。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07.md:4-7]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:8:11 -->
-- ASI / 商品主图批量任务: LP0290：`recuLlcDJ5KeXW`，已有白底图；生成并上传 6 张商品主图，已发送图片，record-get 核验通过。; LP0337：`recuLlfY50iXJ8`，生成并上传 5 张商品主图（main/scene/selling point/dimensions/material），SKU 因只有一个确认颜色/SKU 跳过；子任务无发图权限，父任务已补发 5 张图，record-get 核验通过。; 最新可见进度：LP0338、LP0340 已作为两个并行 subagent 在跑；队列下一位 LP0343。若恢复任务，先检查 `.temp/asi_100_empty_main/progress.json`、当前 active subagents / sessions，以及当前文件/进程证据，再补启动缺口，始终最多 2 个并行。; 重要操作习惯：子任务完成后必须先验收输出、补发未发送图片、record-get 核验 `商品主图` 非空，再把进度标为完成并启动下一个商品，避免批量任务中断。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-07.md:8-11]
-
 ## Promoted From Short-Term Memory (2026-06-13)
 
 <!-- openclaw-memory-promotion:memory:memory/2026-06-07.md:27:27 -->
@@ -64,3 +36,18 @@
 
 <!-- openclaw-memory-promotion:memory:memory/2026-06-09.md:12:15 -->
 - 17:01 ASI 生图执行边界纠偏: Context: LP0924 重试中，subagent 超时后 main session 接手并直接调用 Codex/生图工具补齐部分 ASI 图片。; Trigger: 用户明确纠正：“main session 不要自己生图，只能派生多个 subagent 去给指定产品使用 skill 生成 ASI 套图”。; Actions: 承认越界；将 main session 只能编排、复核、记录和回读核验，不能直接生图/补图/修图的规则写入 `AGENTS.md`、`MEMORY.md` 和 `asi-product-image-generator` skill。; Lesson: ASI 商品图片缺失、失败、超时或部分完成时，main session 必须重新派生只处理该产品的新 subagent，而不是亲自补图。 [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-09.md:12-15]
+
+## Promoted From Short-Term Memory (2026-06-15)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-06-10.md:11:14 -->
+- LP0927 Current Image/Base State: LP0927 has 4 generated white-background images for supported colors `natural`, `dark brown`, `white`, and `black`; these were uploaded to the Base `白底图` field and read back as verified.; Those 4 LP0927 white-background images were sent to the user in Feishu as media messages.; LP0927 `商品主图` remains empty; main images were not completed before the pause.; Prior Oracle blocker encountered for LP0927: `--model "5.2 Thinking"` failed because the ChatGPT picker only showed `Instant`, `Thinking• Standard`, `Pro• Standard`, `Configure...`; `--model "Thinking"` normalized to `GPT-5.2 Thinking` and failed;... [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-10.md:11-14]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-10.md:17:17 -->
+- Skill/Oracle Clarification: User asked whether the image-generation skill says Oracle image generation must only use Oracle to launch ChatGPT image generation. The answer given: the skill/memory preference requires Oracle priority and forbids Gemini 2.5 Flash Image, but it is not necessarily worded as “only Oracle may launch ChatGPT image generation” unless the specific skill file says so. Future changes should keep wording concise and avoid overclaiming. [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-10.md:17-17]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-10.md:21:24 -->
+- Product Image Batch Pause / Resume State: 2026-06-10 19:06 Asia/Shanghai: User requested product image task pause. Already-started LP0927 work was first allowed to finish only started work, then user clarified to stop subagents too and wait 5 hours.; HEARTBEAT.md was updated to pause until `2026-06-10 23:07 Asia/Shanghai`; at that time the assistant should first clean/modify the HEARTBEAT.md pause block, then resume work.; User rule reaffirmed: for product/e-commerce image generation, run only one product subagent at a time. Do not start a second product subagent while one is active.... [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-10.md:21-24]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-10.md:25:25 -->
+- Product Image Batch Pause / Resume State: Until `2026-06-10 23:07 Asia/Shanghai`, do not start, retry, continue, upload, or send any new product image generation outputs. [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-10.md:25-25]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-10.md:4:7 -->
+- Product Image Batch Pause / Resume State: 2026-06-10 19:06 Asia/Shanghai: User requested product image task pause. Already-started LP0927 work was first allowed to finish only started work, then user clarified to stop subagents too and wait 5 hours.; HEARTBEAT.md was updated to pause until `2026-06-10 23:07 Asia/Shanghai`; at that time the assistant should first clean/modify the HEARTBEAT.md pause block, then resume work.; User rule reaffirmed: for product/e-commerce image generation, run only one product subagent at a time. Do not start a second product subagent while one is active.... [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-10.md:4-7]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-10.md:8:8 -->
+- Product Image Batch Pause / Resume State: Until `2026-06-10 23:07 Asia/Shanghai`, do not start, retry, continue, upload, or send any new product image generation outputs. [score=0.812 recalls=0 avg=0.620 source=memory/2026-06-10.md:8-8]
