@@ -36,5 +36,6 @@ codex/
 # OpenClaw local state
 .openclaw/
 .clawhub/
+HEARTBEAT.md
 state/
 memory/.dreams/
