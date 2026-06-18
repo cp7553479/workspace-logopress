@@ -25,25 +25,25 @@
 - 商品/电商生图交付偏好：生成好的图片必须在飞书聊天里逐张发给用户，不能只上传到表格；如果用户说有图片没收到，要重新发送缺失图片并确认媒体回执。
 - 长期 ASI 商品图监控偏好：不要依赖 `HEARTBEAT.md`；使用 cron 定时任务周期性唤醒并投递到当前飞书私聊 session。当前 ASI 监控 cron 为 `asi-subagent-watch-current-session`，每 30 分钟运行一次，sessionTarget 固定到 `agent:global-trading-product:feishu:global-trading-product:direct:ou_61123e30e1c1bfd2d0d31af923d4982d`。
 
-## Promoted From Short-Term Memory (2026-06-17)
+## Promoted From Short-Term Memory (2026-06-18)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-06-13.md:19:19 -->
-- ASI image queue update - 00:25: Context: LP1559 subagent completed and parent reviewed the result. [score=0.833 recalls=0 avg=0.620 source=memory/2026-06-13.md:19-19]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-12-1218.md:13:16 -->
-- Conversation Summary: assistant: LP2575_dimension_chart_codex.png assistant: LP2575_selling_point_oracle_chatgpt.png assistant: LP2575_material_detail_codex.png assistant: LP2575_dimension_chart_codex.png [score=0.832 recalls=0 avg=0.620 source=memory/2026-06-12-1218.md:13-16]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-12-1218.md:17:20 -->
-- Conversation Summary: assistant: LP2575_material_detail_codex.png assistant: LP2575 已完成收口：5 张商品主图已上传、回读核验并全部发给你；参考图片 1 张、白底图 1 张、商品主图 5 张，无重复。SKU 图因只有 custom color 且没有确认多 SKU，已跳过。进度表已标记 completed，当前 running=0、retry_queue=0；HEARTBEAT.md 已按规则清空。 assistant: LP2575 已完成：5 张主图已发，Base 已核验无重复；进度表 completed，当前 running=0，HEARTBEAT.md 已清空。 assistant: LP2575_material_detail_codex.png [score=0.832 recalls=0 avg=0.620 source=memory/2026-06-12-1218.md:17-20]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-12-1218.md:21:24 -->
-- Conversation Summary: user: [message_id: om_x100b6d82ff4288b8c3635954383ff06] 陈鹏: ⚠️ Cron job "asi-subagent-watch-current-session" failed: cron: isolated agent setup timed out before runner start ⚠️ Cron job "asi-subagent-watch-current-session" failed: GatewayTransportError: gateway timeout after 10000ms Gateway target: ws://127.0.0.1:18789 [score=0.832 recalls=0 avg=0.620 source=memory/2026-06-12-1218.md:21-24]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-12-1218.md:25:28 -->
-- Conversation Summary: Source: local loopback Config: /Users/vincent/.openclaw/openclaw.json Bind: loopback ⚠️ Cron job "asi-subagent-watch-current-session" failed: cron: isolated agent setup timed out before runner start [score=0.832 recalls=0 avg=0.620 source=memory/2026-06-12-1218.md:25-28]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-12-1218.md:3:5 -->
-- Session: 2026-06-12 12:18:39 GMT+8: **Session Key**: agent:global-trading-product:main; **Session ID**: c23f2cdc-3b02-42d0-914e-b259d962eb17; **Source**: feishu [score=0.832 recalls=0 avg=0.620 source=memory/2026-06-12-1218.md:3-5]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-12-1218.md:9:12 -->
-- Conversation Summary: assistant: LP2575_lifestyle_scene_codex.png assistant: LP2575_hero_main_codex_LOGO-BK.png assistant: LP2575_selling_point_oracle_chatgpt.png assistant: LP2575_lifestyle_scene_codex.png [score=0.832 recalls=0 avg=0.620 source=memory/2026-06-12-1218.md:9-12]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-12-1235.md:3:5 -->
-- Session: 2026-06-12 12:35:37 GMT+8: **Session Key**: agent:global-trading-product:main; **Session ID**: 866bd676-5332-4f5a-a16b-fbf7762f53cb; **Source**: feishu [score=0.832 recalls=0 avg=0.620 source=memory/2026-06-12-1235.md:3-5]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-12-1255.md:3:5 -->
-- Session: 2026-06-12 12:55:34 GMT+8: **Session Key**: agent:global-trading-product:main; **Session ID**: 1eb054dc-b31a-4f18-9e0f-a144edb27c82; **Source**: feishu [score=0.832 recalls=0 avg=0.620 source=memory/2026-06-12-1255.md:3-5]
-<!-- openclaw-memory-promotion:memory:memory/2026-06-12-1255.md:9:11 -->
-- Conversation Summary: user: [message_id: om_x100b6d8cb5064cb4c38b7ca82e3f360] 陈鹏: 筛选商品表的Mark字段是 有询单 的并且商品主图是没有图片文件的商品，分别生成asi商品套图，需要每个商品派生独立subagent处理，派生时要求写清楚任务要求，要求使用oracle的chagpt和gemini交替生图，只有在出错时才使用codex生图，并且下一张图片还要先测试一下oracle是否已恢复只有ORACLE还没恢复才使用codex生图。先将 参考图片 的图片使用生图工具消除商品上的logo图案（保留“YOUR LOGO"文字），替换掉参考图片上的图片文件（替换非新增），然后使用新生成的参考图片继续进行asi商品套图的生图任务（阅读具体的skill）。记住你每次只能同时派生2个subagent，每个subagent只能处理一个产品，新的产品需要新的subagent来处理，你需要在HEARTBEAT.md里面写下检查任务进度和subagent状态，长时间无响应的subagent要发消息催促一下，记录你的任务要求进度和状态进memory/，随时更新update_plan。 assistant: 收到。我先读取商品表/图片生成相关流程，筛出符合条件的商品，然后按每次最多 2 个子任务推进；同时会把进度写入 HEARTBEAT.md 和 memory。 [score=0.832 recalls=0 avg=0.620 source=memory/2026-06-12-1255.md:9-11]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-11-1527.md:13:16 -->
+- Conversation Summary: User text: [Feishu oc_ec473251e4d81e5d4285a200b5e704e7:ou_ff32a73eb197d17bb99c7e56e2d0c052 Tue 2026-06-09 06:12:55 GMT+8] 王桂彬: /root/.openclaw/media/inbound/d9fc6689-e04d-49f4-93aa-e34658f4cc4d.jpg Description: A black waterproof roll-top dry bag/pouch with a buckle closure, branded “World Nomads Travel Insurance,” lying on a light gray tiled floor. [score=0.834 recalls=0 avg=0.620 source=memory/2026-06-11-1527.md:13-16]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-11-1527.md:17:20 -->
+- Conversation Summary: assistant: NO_REPLY user: 将这张图生成灰色的不带logo的正面图 assistant: dry-bag-grey-front-no-logo-from-user-ref---b506d00b-e8d4-47ad-aca6-7cd8a6b95eba.png assistant: NO_REPLY [score=0.834 recalls=0 avg=0.620 source=memory/2026-06-11-1527.md:17-20]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-11-1527.md:21:24 -->
+- Conversation Summary: user: 将前面这张图生成灰色的不带logo的正面图 assistant: dry-bag-grey-front-no-logo-from-user-ref---b506d00b-e8d4-47ad-aca6-7cd8a6b95eba.png assistant: NO_REPLY user: LP0586，请根据首图生成Asi套图并上传到飞书多维表格 [score=0.834 recalls=0 avg=0.620 source=memory/2026-06-11-1527.md:21-24]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-11-1527.md:25:27 -->
+- Conversation Summary: assistant: LP0586-white-background-no-logo.png, LP0586-asi-final-hero-logo.png, LP0586-asi-lifestyle-scene.png, LP0586-asi-selling-playback-modes.png, LP0586-asi-material-detail.jpg, LP0586-asi-dimensions.png assistant: NO_REPLY user: LP0923，LP0927，LP0928使用subagent阅读skill生成ASI首图上传到飞书多维表格商品表里。 [score=0.834 recalls=0 avg=0.620 source=memory/2026-06-11-1527.md:25-27]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-11-1527.md:3:5 -->
+- Session: 2026-06-11 15:27:47 GMT+8: **Session Key**: agent:main:feishu:group:oc_ec473251e4d81e5d4285a200b5e704e7; **Session ID**: b9077fdb-adcb-4491-b1fc-9f02ec64c3b6; **Source**: feishu [score=0.834 recalls=0 avg=0.620 source=memory/2026-06-11-1527.md:3-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-11-1527.md:9:12 -->
+- Conversation Summary: user: 给我一张LP0223的灰色的不带logo的正面图 assistant: LP0223-grey-front-no-logo---fd35160a-58ea-42de-9316-2c21f58a4c6d.jpg assistant: NO_REPLY user: [Image] [score=0.834 recalls=0 avg=0.620 source=memory/2026-06-11-1527.md:9-12]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-12.md:13:14 -->
+- 2026-06-12 12:49 CST - New ASI has-inquiry missing-main queue: LP1277 `recuYsAdUpxzmv`: session `agent:global-trading-product:subagent:7844b231-c091-4e6b-af1b-fb7633f1510d`, run `10ad75a5-fa49-4fe2-a3b9-9dedd72e2c1a`.; LP1356 `recuYsAdUp4j8c`: session `agent:global-trading-product:subagent:7f8fc6fa-7c10-4785-845a-d2f4c0db7fa6`, run `39fa8069-3d11-48d7-b8f6-01557b844d6a`. [score=0.834 recalls=0 avg=0.620 source=memory/2026-06-12.md:13-14]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-12.md:15:15 -->
+- 2026-06-12 12:49 CST - New ASI has-inquiry missing-main queue: Current batch state is also recorded in `.temp/asi_has_inquiry_manifest/current_batch_20260612_1300.md`. Do not spawn a third product until one of these completes, blocks, or clearly exits. [score=0.834 recalls=0 avg=0.620 source=memory/2026-06-12.md:15-15]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-12.md:16:19 -->
+- 2026-06-12 12:49 CST - New ASI has-inquiry missing-main queue: User-specific operating rule for this run: at most 2 product-image subagents active at the same time; each subagent handles exactly one product. New products require new subagents.; Required pre-step per product: use the original `参考图片` only to generate a clean no-logo reference image; remove product logo artwork/logo patterns, brand marks, sample logos, imprints, manufacturer/platform marks, QR/watermark/contact/URL while preserving the exact real product. If the reference contains the plain text `YOUR LOGO`, keep that text.... [score=0.834 recalls=0 avg=0.620 source=memory/2026-06-12.md:16-19]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-12.md:20:23 -->
+- 2026-06-12 12:49 CST - New ASI has-inquiry missing-main queue: 2026-06-12 13:08 CST clarification: `HEARTBEAT.md` should be a compact event reminder for what to inspect, not a duplicate task history. Keep detailed product rules, worker handoffs, and status history in memory/progress/handoff files; keep heartbeat prompts short and pointer-based.; 2026-06-12 13:15 CST correction: do not hard-code current product numbers such as LP1277/LP1356 into heartbeat prompts for a queue task.... [score=0.834 recalls=0 avg=0.620 source=memory/2026-06-12.md:20-23]
