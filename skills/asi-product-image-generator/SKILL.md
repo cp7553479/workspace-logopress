@@ -148,7 +148,7 @@ lark-cli base +record-upload-attachment \
 7. 确认当前商品的产品描述、素材清单、干净参考图路径、`参考图片` 字段替换回读结果、参考图映射、生成计划与跳过原因。
 8. 按图片类型规则判断当前商品需要生成哪些图。
 9. 为每一张待生成图片单独编写英文 Prompt（可使用webSearch搜索类似产品的文案参考案例）。
-10. 先生成场景图、卖点图、尺寸图、材质工艺图、SKU 图等；首图必须最后生成，并使用干净无 logo 参考图、白底图、已生成的场景/卖点/材质/功能图以及 Logo 文件作为参考。SKU 图仅可作为判断底部 SKU 展示的辅助参考，不得作为首图右侧小图；尺寸图只能作为独立图片，不作为首图构图元素。
+10. 先生成场景图、卖点图、尺寸图、材质工艺图、SKU 图等；首图必须最后生成，并使用干净无 logo 参考图、白底图、已生成的场景/卖点/材质/功能图以及 Logo 文件作为参考。若商品存在多个可靠 SKU/颜色，首图底部必须展示全部可靠 SKU/颜色；SKU 图可作为判断首图底部 SKU 展示的辅助参考，但不得作为首图右侧小图；尺寸图只能作为独立图片，不作为首图构图元素。
 11. 当前商品完成后，update_plan 中记录任务状态、已生成文件、Prompt 记录与跳过原因。
 
 ## 商品内调用规则
@@ -163,13 +163,13 @@ lark-cli base +record-upload-attachment \
 ### 1. 首图
 
 首图为必做项，但首图需要放在最后来生成，因为可以将生成好的场景图、细节图、功能图等加入到生成首图的参考图中来生成首图。
-首图为一张组合图片，包含产品主体的白底图，并可根据素材情况加入最多三个右侧小图；小图只能展示场景图、细节图、功能图或卖点图。多 SKU 只能在底部作为商品颜色/款式小图展示，不能作为右侧小图。首图不得包含尺寸图或尺寸示意。
+首图为一张组合图片，包含产品主体的白底图，并可根据素材情况加入最多三个右侧小图；小图只能展示场景图、细节图、功能图或卖点图。如果商品存在多个可靠 SKU/颜色，多 SKU 必须在底部作为商品颜色/款式小图展示，且必须覆盖全部可靠 SKU/颜色；多 SKU 不能作为右侧小图。首图不得包含尺寸图或尺寸示意。
 
 要求：
 
 - 主体占画面约 `80%`
 - 左侧最大区域展示包含 Logo 的产品主体
-- 若存在多个 SKU，可在底部展示其他 SKU 商品图
+- 若存在多个可靠 SKU/颜色，必须在底部展示全部可靠 SKU/颜色商品图；不得遗漏、重复或新增无依据 SKU/颜色
 - 右侧最多三个圆形小图，整体约占画面 `20%` 以内；小图可以展示使用场景、产品细节、功能图或卖点图
 - 如果可用的场景/细节/功能素材不足，右侧小图可以少于三个，甚至不展示
 - 右侧小图不得展示多 SKU 图、SKU 色卡、尺寸图、尺寸线、尺寸数字或尺寸示意
@@ -180,7 +180,7 @@ lark-cli base +record-upload-attachment \
 - 生成首图的英文 Prompt 必须明确写入实际 Logo 文件名，并说明使用该 Logo 文件印在首图产品主体的可印刷位置上。例如：`Use LOGO-BK.png logo file and print it on the printable area of the main product in the hero image.` 或 `Use LOGO-WT.png logo file and print it on the printable area of the main product in the hero image.`
 - 首图必须用指定 Logo 文件替换参考图上的 logo、sample logo、`YOUR LOGO`、示例印刷、品牌字样或平台/厂商标识；不得保留、复刻、叠加或并存参考图原有 logo/印刷。
 - 生成首图的英文 Prompt 必须加入同义硬约束：如果参考图商品上有 logo，必须替换成 Logo 图片文件上的 logo，或替换成不含任何图形标记的纯文字 `YOUR LOGO`；不要出现参考图商品本身的 logo 图案。建议英文句：`If the product in the reference image has a logo, replace it with the logo from the logo image file, or with plain text "YOUR LOGO" without any graphic mark; do not show the product's original logo pattern from the reference image.`
-- 如果商品存在多个 SKU，底部可展示其他 SKU；如果只有单 SKU，则不展示额外 SKU。
+- 如果商品存在多个可靠 SKU/颜色，底部必须展示全部可靠 SKU/颜色；如果只有单 SKU，则不展示额外 SKU。若生图结果未完整展示全部可靠 SKU/颜色，必须拒绝该首图并重试；若受参考图证据或模型能力限制无法可靠展示全部 SKU/颜色，必须报告阻塞，不得接受不完整首图。
 - 如果参考图片上的商品本身印有logo，那也需要替换成logo文件上的logo，而不能使用参考图片商品上面本身的logo。
 
 Logo 文件：
