@@ -61,9 +61,9 @@ lark-cli base +record-get \
 
 ### 4. 复制报价模板
 
-复制 `quotation/询价模版.xlsx`，在 `quotation/` 目录下生成一份新文件。
+复制 skill 内置模板 `skills/quotation/templates/询价模版.xlsx`，在 workspace 的 `quotation/` 目录下生成一份新文件。
 
-- 模板文件：`quotation/询价模版.xlsx`
+- 模板文件：`skills/quotation/templates/询价模版.xlsx`（skill 目录内 `templates/询价模版.xlsx`）
 - 新文件名格式：`<YYYY-MM-DD>-<商品编号>-<需求量>`
 
 ```example
@@ -71,7 +71,7 @@ python3 - <<'PY'
 from pathlib import Path
 import shutil
 
-src = Path('quotation/询价模版.xlsx')
+src = Path('skills/quotation/templates/询价模版.xlsx')
 dst = Path('quotation/<YYYY-MM-DD>-<商品编号>-<需求量>.xlsx')
 shutil.copyfile(src, dst)
 print(dst)
