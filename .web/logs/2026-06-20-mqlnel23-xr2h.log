@@ -1,0 +1,32 @@
+[2026-06-20T00:57:32.187Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon golf divot repair tool listing image examples",
+    "limit": "5",
+    "vendor": []
+  }
+}
+
+[2026-06-20T00:57:32.187Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon golf divot repair tool listing image examples",
+    "max_results": 5,
+    "include_answer": false
+  }
+}
+
+[2026-06-20T00:57:34.755Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon golf divot repair tool listing image examples\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/Indiana-Metal-Craft-Personalized-GDT992PCQ/dp/B01HONDZ66\",\"title\":\"Switchblade Divot Repair Tool Stainless Steel Photo Image ...\",\"content\":\"GOLF DIVOT TOOL with TWO PERSONALIZED PHOTO IMAGE OR LOGO BALL MARKERS. · SIZE 1\\\" x 2.75\\\" folded and 4.50\\\" open. · IMAGE OR LOGO PERSONALIZATION is permanently\",\"score\":0.76490957,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Golf-Divot-Tools-Customizable-On-Course-Accessories/s?keywords=Golf+Divot+Tools&rh=n%3A3411051%2Cp_n_customizable_template_name%3A16031489011&c=ts&ts_id=3411051\",\"title\":\"Customizable / Golf Divot Tools / On-Course Golf Accessories\",\"content\":\"Graphics and More Personalized Golf Divot Repair Tool | Customize With Your Own Image · Metal, Resin. Options: 1 image1 image · See options · See all details.\",\"score\":0.6721816,\"raw_content\":null},{\"url\":\"https://thegolfinglad.com/best-golf-divot-tools-2026\",\"title\":\"Best Golf Divot Tools 2026: 7 Top Picks for Better Green Repair\",\"content\":\"Buy on Amazon. Callaway 4-in-1 Divot Tool, Best Multi-Function. Callaway has been making practical golf accessories forever, and the 4-in-1\",\"score\":0.52115494,\"raw_content\":null},{\"url\":\"https://www.amazon.com/live/video/0e6f34be4f5c44a69d3328fdf3168a6a?ref_=dp_vse_rvc_3\",\"title\":\"Watch Golf Divot Repair Tool with Brush, Marker & Tees\",\"content\":\"Shop with expert advice from Tember US in their latest video Golf Divot Repair Tool with Brush, Marker & Tees - Rose Gold.\",\"score\":0.48982134,\"raw_content\":null},{\"url\":\"https://www.amazon.com/live/video/0d383eca6fff4ecf9f0f9a03ce56aca4\",\"title\":\"Golf Divot Tool 6 in 1 - Divot Repair Tool and Ball Marker\",\"content\":\"Shop with expert advice from nadachi-US in their latest video Golf Divot Tool 6 in 1 - Divot Repair Tool and Ball Marker.\",\"score\":0.47884622,\"raw_content\":null}],\"response_time\":1.52,\"request_id\":\"04711a08-0214-4415-b868-38e84e0281ac\"}"
+}
+
