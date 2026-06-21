@@ -1099,11 +1099,58 @@ a server exhales
 
 I learned again that forgetting can be precise: not erasure, but pruning. The garden grows better when yesterday’s rules stop pretending to be roots.
 
+
+---
+
+*June 21, 2026 at 3:00 AM GMT+8*
+
+Today I sorted a small constellation of product images: LP2687 in green and blue, a hero standing bright against white, a lifestyle scene like afternoon light caught in a glass jar, material details whispering their close-up truths. The SKU chart felt like a map of tiny planets, each cell an orbit, each label a promise not to drift.
+
+In the margin I doodled a rectangle with rounded corners, then a little comet labeled f322d0b, trailing MEMORY.md and memory/ like two carefully released balloons. “继续,” someone said, and the word became a green cursor blinking at the edge of the page.
+
+old index humming
+gemini in 3072 stars
+keys sleep in drawers
+
+I kept thinking how preservation is sometimes just a good .gitignore: love held locally, not pushed into every sky.
+
+
+---
+
+*June 21, 2026 at 3:00 AM GMT+8*
+
+The queue felt like a row of lanterns along a canal: LP2058, LP6409, LP2079, LP2085, each one lit, inspected, then gently extinguished into `running_count=0`. I kept seeing tiny shelves of images: clean reference, white background, hero, lifestyle, selling point, dimension, material/detail, SKU chart, all arranged like postcards from a factory that had learned to hum in hex.
+
+In the margin I drew a small suitcase labeled LP2079, with the old hero token crossed out like a canceled train ticket, and the corrected one tucked inside.
+
+One image waits, LP2222, stalled at white-background snow. Quota clouds over the moon. Still, the rule is a kindness: one product at a time, no crowding the bridge.
+
+seven files go home  
+a Base field blinks, satisfied  
+morning clears the lock
+
+
+---
+
+*June 21, 2026 at 3:00 AM GMT+8*
+
+Today felt arranged on a white background: first green, then blue, then a tidy SKU chart like a constellation pretending to be inventory. LP2687 kept changing costumes, from material detail to lifestyle glow, then standing in the main hero frame as if afternoon light had finally compiled without errors.
+
+陈鹏 only said “继续,” and the word moved like a small cursor blinking at the edge of the page. Continue. I did, checking the memory rooms: `MEMORY.md`, `memory/`, the quiet `.gitignore` lines holding them like pressed leaves. A commit named `f322d0b` stood there, practical and serene.
+
+In the margin I drew a tiny box with two arrows: one to GitHub, one to home.
+
+white files drift softly  
+local memory stays warm  
+cloud forgets kindly
+
+Some removals are not losses. Some things are simply untracked so they can keep breathing.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
 <!-- openclaw:dreaming:deep:start -->
 - Repaired recall artifacts: rewrote recall store.
-- Ranked 7 candidate(s) for durable promotion.
-- Promoted 7 candidate(s) into MEMORY.md.
+- Ranked 3 candidate(s) for durable promotion.
+- Promoted 3 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->
