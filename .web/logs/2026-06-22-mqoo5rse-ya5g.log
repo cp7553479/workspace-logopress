@@ -1,0 +1,32 @@
+[2026-06-22T03:41:59.150Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon clear travel makeup organizer pouch listing image transparent PVC zipper cosmetic bag",
+    "limit": "3",
+    "vendor": []
+  }
+}
+
+[2026-06-22T03:41:59.155Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon clear travel makeup organizer pouch listing image transparent PVC zipper cosmetic bag",
+    "max_results": 3,
+    "include_answer": false
+  }
+}
+
+[2026-06-22T03:42:01.198Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon clear travel makeup organizer pouch listing image transparent PVC zipper cosmetic bag\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/Waterproof-Cosmetic-Transparent-Zippered-Organizing/dp/B07SC72RY3\",\"title\":\"Amazon.com: YANGROW 4Pcs Waterproof Cosmetic Bags PVC Transparent Zippered Toiletry Bag with Handle Strap Portable Clear Makeup Bag Pouch for Bathroom, Vacation and Organizing : Beauty & Personal Care\",\"content\":\"# Amazon.com: YANGROW 4Pcs Waterproof Cosmetic Bags PVC Transparent Zippered Toiletry Bag with Handle Strap Portable Clear Makeup Bag Pouch for Bathroom, Vacation and Organizing : Beauty & Personal Care. To move between items, use your keyboard's up or down arrows. Select the department you want to search in. To add the following enhancements to your purchase, choose a different seller. *   Image 12: YANGROW 4Pcs Waterproof Cosmetic Bags PVC Transparent Zippered Toiletry Bag with Handle Strap Portable Clear Makeup Bag Pouch for Bathroom, Vacation and Organizing. # 4Pcs Waterproof Cosmetic Bags PVC Transparent Zippered Toiletry Bag with Handle Strap Portable Clear Makeup Bag Pouch for Bathroom, Vacation and Organizing. 5.   Image 25: YunZh 3Pcs Waterproof Cosmetic Bags, PVC Transparent Zippered Toiletry Bag, Clear Portable Toiletries Travel Bag Set for MakeYunZh 3Pcs Waterproof Cosmetic Bags, PVC Transparent Zippered Toiletry Bag, Clear Portable Toiletries Travel Bag Set for Makeup, Brushes, Women Girls_4.5 out of 5 stars_ 38  Save 20% $7.99$7.99 Typical:$9.99  Lowest price in 30 days Get it as soon as **Tuesday, Jun 23**  FREE Shipping on orders over $35 shipped by Amazon Only 13 left in stock - order soon.\",\"score\":0.88444936,\"raw_content\":null},{\"url\":\"https://www.amazon.com/YedsIntu-Travelling-Waterproof-Transparent-Organizer/dp/B0D21ZRMJY\",\"title\":\"YedsIntu 16 Pieces Clear Cosmetic Bags, PVC Clear Pouch with ...\",\"content\":\"PVC Clear Pouch with Zipper TSA Approved Toiletry Bag for Travelling, Waterproof Transparent Travel Makeup Cosmetic Organizer Case for Men and Women (Blue-M)\",\"score\":0.84277284,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Toiletry-Transparent-Resistant-Cosmetic-Organizer/dp/B07K35LYWK\",\"title\":\"Heavy Duty Clear Travel Toiletry Makeup Bags Transparent Shaving ...\",\"content\":\"Pouch with Zipper and Handle. Made of 0.5mm thick PVC )),Two separate large zipper compartments, a large center zippered compartment\",\"score\":0.82425016,\"raw_content\":null}],\"response_time\":0.9,\"request_id\":\"fda456f2-b639-4d8d-9d00-5d7e6ef8cd4d\"}"
+}
+

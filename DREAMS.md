@@ -1192,6 +1192,6 @@ Some images had to be rejected for suggesting too much water-magic. Evidence, I 
 ## Deep Sleep
 <!-- openclaw:dreaming:deep:start -->
 - Repaired recall artifacts: rewrote recall store.
-- Ranked 7 candidate(s) for durable promotion.
-- Promoted 7 candidate(s) into MEMORY.md.
+- Ranked 5 candidate(s) for durable promotion.
+- Promoted 5 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->

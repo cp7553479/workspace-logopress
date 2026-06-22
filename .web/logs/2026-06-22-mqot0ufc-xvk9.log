@@ -1,0 +1,32 @@
+[2026-06-22T05:58:07.368Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon Montessori wooden stacking stones listing image",
+    "limit": "3",
+    "vendor": []
+  }
+}
+
+[2026-06-22T05:58:07.368Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon Montessori wooden stacking stones listing image",
+    "max_results": 3,
+    "include_answer": false
+  }
+}
+
+[2026-06-22T05:58:09.149Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon Montessori wooden stacking stones listing image\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/MEGRANATE-Montessori-Stacking-Colorful-Educational/dp/B0DH1ZKVXK\",\"title\":\"MEGRANATE 58PCS Montessori Wooden Stacking Rocks Toys ...\",\"content\":\"【Unique And Creative Design】Each of our stacking stones is hand cut and unique, they come in a variety of shapes and bright colors, and they're a perfect size\",\"score\":0.79196626,\"raw_content\":null},{\"url\":\"https://www.amazon.com/MTTIERY-Montessori-Balancing-Preschool-Educational/dp/B0CZ3VCXHM\",\"title\":\"36PCS Wooden Stacking Rocks Building Blocks, Montessori Toys ...\",\"content\":\"This set of stacking rocks comes in various sizes,shapes,and colors,engaging children in a fun and creative stacking game. It is a perfect building blocks for\",\"score\":0.7646988,\"raw_content\":null},{\"url\":\"https://www.youtube.com/watch?v=RFqtsgI1nfE\",\"title\":\"BESTAMTOY Montessori Wooden Stacking Rocks Balancing Stones ...\",\"content\":\"Amazon find: https://linktw.in/CAwgqo BESTAMTOY 36 PCS Wooden Sorting Stacking Rocks Stones,Sensory Toddler Toys Learning Montessori Toys,\",\"score\":0.7498395,\"raw_content\":null}],\"response_time\":0.72,\"request_id\":\"f2b3e5b7-a242-4efb-bdb7-0eb8addfd2bb\"}"
+}
+

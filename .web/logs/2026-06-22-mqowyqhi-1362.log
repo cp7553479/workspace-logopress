@@ -1,0 +1,32 @@
+[2026-06-22T07:48:27.414Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon passport holder RFID blocking wallet card slots listing images examples",
+    "limit": "5",
+    "vendor": []
+  }
+}
+
+[2026-06-22T07:48:27.415Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon passport holder RFID blocking wallet card slots listing images examples",
+    "max_results": 5,
+    "include_answer": false
+  }
+}
+
+[2026-06-22T07:48:29.341Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon passport holder RFID blocking wallet card slots listing images examples\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/Best-Sellers-Passport-Wallets/zgbs/fashion/673133011\",\"title\":\"Amazon Best Sellers: Best Passport Wallets\",\"content\":\"TOPBAG Passport Holder Family, Women Rfid Blocking Passport Wallet, Travel Document Organizer for Premium Wallets, Waterproof Passport Holders Bag for Women & Men Traveling, Credit Cards Case. TOPBAG Passport Holder Family, Women Rfid Blocking Passport Wallet, Travel Document Organizer for Premium Wallets, Waterproof. Passport Holder Family RFID Travel Document Organizer for Women Waterproof Passport Wallet Men Portable Case for Cards, Boarding Pass, ID, Money, Tickets with Zipper. Passport Holder Family RFID Travel Document Organizer for Women Waterproof Passport Wallet Men Portable Case for Cards, Board. BOACAY Travel Document Organizer with RFID, Family Passport Holder, Wallet for Women & Men, Portable & Waterproof Case for Ca. BOACAY Travel Document Organizer with RFID, Family Passport Holder, Wallet for Women & Men, Portable & Waterproof Case for Cards, Boarding Pass, Money. ALLIVE Passport Holder for Travel, Genuine Leather Passport Holder with AirTag Hidden, Rfid Passport Cover Travel Wallet for. ALLIVE Passport Holder for Travel, Genuine Leather Passport Holder with AirTag Slot for Women and Men, Passport Cover Wallet.\",\"score\":0.7159213,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Passport-Wallets-Photo-Travel-Accessories/s?keywords=Passport+Wallets&rh=n%3A673133011%2Cp_n_g-1003322172111%3A23949381011&c=ts&ts_id=673133011\",\"title\":\"Photo / Passport Wallets / Travel Accessories - Amazon.com\",\"content\":\"Passport Wallet - Travel Document Holder w/RFID Blocking – Full Grain Leather – Bifold compact zip around Wallet with Credit Card Slots for Women and Men, black\",\"score\":0.69622743,\"raw_content\":null},{\"url\":\"https://www.mic.com/shopping/the-9-best-rfid-passport-wallets-82392942\",\"title\":\"The 9 best RFID passport wallets - Mic\",\"content\":\"RFID-blocking passport wallets on Amazon. RFID-blocking wallet still has three card slots, a passport slot, and a money pocket. This passport\",\"score\":0.6152965,\"raw_content\":null},{\"url\":\"https://www.amazon.com/live/video/0782226a4dc94c219b51d059fa9169b4\",\"title\":\"Travel Passport Wallet holder with RFID Blocking - Amazon.com\",\"content\":\"Shop with expert advice from J.E.B. Finds. in their latest video Travel Passport Wallet holder with RFID Blocking.\",\"score\":0.46191534,\"raw_content\":null},{\"url\":\"https://www.youtube.com/watch?v=m04iA5JvYJU\",\"title\":\"Best Passport Holder Review | RFID Travel Wallet with Tracker Slot\",\"content\":\"Today I'm reviewing this passport holder https://geni.us/K7hS3 (Amazon affiliate link) I picked up for my wife's passport.\",\"score\":0.45507812,\"raw_content\":null}],\"response_time\":0.85,\"request_id\":\"4bece98b-9c78-4385-bcfd-9f5dca0a64c2\"}"
+}
+
