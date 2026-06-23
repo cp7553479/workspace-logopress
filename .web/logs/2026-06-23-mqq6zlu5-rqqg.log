@@ -1,0 +1,32 @@
+[2026-06-23T05:16:50.382Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon outdoor waterproof camping blanket main image color variants",
+    "limit": "3",
+    "vendor": []
+  }
+}
+
+[2026-06-23T05:16:50.382Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon outdoor waterproof camping blanket main image color variants",
+    "max_results": 3,
+    "include_answer": false
+  }
+}
+
+[2026-06-23T05:16:52.308Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon outdoor waterproof camping blanket main image color variants\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/ZAZE-Blanket-Waterproof-80x80Checkered-Blankets/dp/B08HJ5C4QW\",\"title\":\"Amazon.com: ZAZE Picnic Blanket Extra Large Waterproof, 80''x80 ...\",\"content\":\"Color, Red and White, Pink and White, Blue and White, Green and White ... Genovega Waterproof Picnic Blanket Beach Outdoor Camping Mat Rug Extra Large\",\"score\":0.7646988,\"raw_content\":null},{\"url\":\"https://us.amazon.com/outdoor-camping-blanket-waterproof/s?k=outdoor+camping+blanket+waterproof\",\"title\":\"Outdoor Camping Blanket Waterproof - Amazon.com\",\"content\":\"Outdoor Puffy Camping Blanket, Lightweight Down Alternative Printed Large Ultra Warm Quilt Waterproof for Traveling Picnic Beach Party Cold Weather (Green\",\"score\":0.7636429,\"raw_content\":null},{\"url\":\"https://www.amazon.com/PortableAnd-Waterproof-Outdoor-Blanket-Travelling/dp/B07FCVLK6Y\",\"title\":\"Amazon.com: PortableAnd Picnic Blankets, 3 Layer Soft Fleece ...\",\"content\":\"3 Layer Soft Fleece Blanket for Beach,Camping on Grass, Waterproof, Sandproof, Best Gift for Couple & Families, Black and Gray Checkered\",\"score\":0.7099254,\"raw_content\":null}],\"response_time\":0.82,\"request_id\":\"f2c96a5e-06d7-406d-a8a0-88b48c75035f\"}"
+}
+

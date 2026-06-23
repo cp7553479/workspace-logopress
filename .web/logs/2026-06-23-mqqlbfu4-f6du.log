@@ -1,0 +1,32 @@
+[2026-06-23T11:57:57.100Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon travel skincare spa gift set tote bag listing images material dimensions lifestyle infographic",
+    "limit": "5",
+    "vendor": []
+  }
+}
+
+[2026-06-23T11:57:57.101Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon travel skincare spa gift set tote bag listing images material dimensions lifestyle infographic",
+    "max_results": 5,
+    "include_answer": false
+  }
+}
+
+[2026-06-23T11:57:59.670Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon travel skincare spa gift set tote bag listing images material dimensions lifestyle infographic\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/Hydrating-Skincare-Essentials-Cleanser-Sunscreen/dp/B0D3V34526\",\"title\":\"Hydrating Skin Care Set Travel Kit, Gifts for Women and Teenage ...\",\"content\":\"【Skin Care Set Travel Kit】This 4-piece travel size face skin care set contains facial cleanser, facial cream, facial serum, sunscreen.Hydrating & moisturizing\",\"score\":0.4221955,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Gift-Box-Women-Birthday-Christmas/dp/B08K98YX12\",\"title\":\"Amazon.com : Gift Box for Women - Care Package With Spa Skin ...\",\"content\":\"Bella & Bear Spa Gift Set for Girls & Teens – Over $90 Value Beauty Mystery Box – 10–12 Full & Travel Size Bath, Body & Skincare – Birthday & Holiday Gift.\",\"score\":0.41108778,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Hydrating-Skincare-Essentials-Friendly-Routine/dp/B0DLP2LL86\",\"title\":\"Hydrating Skin Care Set Travel Kit,4 Piece Skincare Essentials Set ...\",\"content\":\"【Skin Care Set Travel Kit】This 4-piece travel size face skin care set contains facial cleanser, facial cream, facial serum, sunscreen.\",\"score\":0.38720417,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Travel-Skincare-Containers-Set-Moisturizers/dp/B0D155CTDK\",\"title\":\"11 Piece Travel Skincare Containers Set - TSA Approved Toiletry ...\",\"content\":\"Includes All Airplane Travel Essentials: 1x TSA-friendly clear travel toiletry bag, 2 x airless pump bottles , 2 x glass dropper bottles, 4x glass travel\",\"score\":0.36296973,\"raw_content\":null},{\"url\":\"https://www.amazon.com/live/video/0488392a7c8944da9d2b39ca39d1b769\",\"title\":\"Watch Luxury Spa Gift Bag for Women on Amazon Live\",\"content\":\"Shop with expert advice from SPA-DAZHE-US in their latest video Luxury Spa Gift Bag for Women.\",\"score\":0.29939237,\"raw_content\":null}],\"response_time\":1.5,\"request_id\":\"44a9bd77-146a-4390-addc-9929812cdb7d\"}"
+}
+

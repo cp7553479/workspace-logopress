@@ -1,0 +1,32 @@
+[2026-06-23T05:06:49.906Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon foldable wireless mouse listing image main image color variants",
+    "limit": "3",
+    "vendor": []
+  }
+}
+
+[2026-06-23T05:06:49.907Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon foldable wireless mouse listing image main image color variants",
+    "max_results": 3,
+    "include_answer": false
+  }
+}
+
+[2026-06-23T05:06:52.130Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon foldable wireless mouse listing image main image color variants\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/RURALMEOW-Wireless-Foldable-Folding-Microsoft/dp/B0FGNT9VH5\",\"title\":\"Wireless Mouse Foldable Folding Mice for Microsoft Laptop PC Mac\",\"content\":\"Brand. RURALMEOW · Color. black · Connectivity Technology. USB · Special Feature. Soundless · Movement Detection Technology. Laser · Hand Orientation. Ambidextrous.\",\"score\":0.752468,\"raw_content\":null},{\"url\":\"https://www.amazon.com/live/video/0552f88a5fb94d0bb79b57632c753bf5?ref_=vse_cards_9\",\"title\":\"Watch Folding Wireless Mouse on Amazon Live\",\"content\":\"Beginning of dialog window. Escape will cancel and close the window. Text. Color. White, Black, Red, Green, Blue, Yellow, Magenta, Cyan. Transparency.\",\"score\":0.7213709,\"raw_content\":null},{\"url\":\"https://sellercentral.amazon.co.uk/help/hub/reference/external/G8HQAHPDXA9ANPH4\",\"title\":\"Image variants - Amazon Seller Central\",\"content\":\"Usually, it is a colour sample image for use on detail pages that offer multiple versions of the product. If a SWCH does not exist, the MAIN image will be used\",\"score\":0.4224814,\"raw_content\":null}],\"response_time\":1.03,\"request_id\":\"c91fe781-eae5-48f7-9c88-a7ed3ac9574a\"}"
+}
+

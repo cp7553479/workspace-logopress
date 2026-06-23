@@ -1,0 +1,32 @@
+[2026-06-23T10:26:44.487Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon clear ice cube maker whiskey cocktail listing image examples",
+    "limit": "5",
+    "vendor": []
+  }
+}
+
+[2026-06-23T10:26:44.488Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon clear ice cube maker whiskey cocktail listing image examples",
+    "max_results": 5,
+    "include_answer": false
+  }
+}
+
+[2026-06-23T10:26:46.495Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon clear ice cube maker whiskey cocktail listing image examples\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/Clear-Ice-Cube-Maker-Easy-Release/dp/B0FMJ95K86\",\"title\":\"Clear Ice Cube Maker - I Did That - Funny Stainless Steel ...\",\"content\":\"NATURAL FREEZING TECHNOLOGY — The whiskey ice mold simulates natural freezing to eliminate bubbles, producing flawless clear ice. Elevate your bar with this\",\"score\":0.580091,\"raw_content\":null},{\"url\":\"https://www.whiskeyandwatches.com/blog/make-your-own-clear-ice-cubes\",\"title\":\"How to make clear ice cubes\",\"content\":\"IMG_5023~photo-full.jpg. It might be a little bit of overkill… but a crystal clear ice cube looks really great in a whiskey glass or cocktail.\",\"score\":0.575517,\"raw_content\":null},{\"url\":\"https://www.youtube.com/watch?v=EJa85BDN-ZI\",\"title\":\"Top 5 best Ice Ball Makers on Amazon 2025\",\"content\":\"Top 5 best Ice Ball Makers on Amazon 2025 | Clear Ice Cube Molds for Whiskey & Cocktails · Comments.\",\"score\":0.5117904,\"raw_content\":null},{\"url\":\"https://www.facebook.com/22words/posts/turn-your-home-drinks-into-bar-looking-pours-with-these-crystal-clear-ice-cubest/1379312760903016\",\"title\":\"Turn your home drinks into bar-looking pours with these ...\",\"content\":\"True Cubes Clear Ice Maker, Clear Ice Cube Mold - 4 Ice Cube Tray for Whiskey, Cocktails and Drinks - BPA-free Silicone Crystal Clear Ice\",\"score\":0.4391465,\"raw_content\":null},{\"url\":\"https://www.liquor.com/best-ice-cube-trays-4843160\",\"title\":\"The 6 Best Ice Cube Trays, Tested & Reviewed\",\"content\":\"There are crystal clear spheres for whiskey lovers and crushed ice trays for tiki-style or tropical cocktails, as well as trays for everyday ice and ice\",\"score\":0.38678718,\"raw_content\":null}],\"response_time\":0.93,\"request_id\":\"3fd09f94-fad3-46cf-922b-6e88933cc94a\"}"
+}
+
