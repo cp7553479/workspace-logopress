@@ -118,7 +118,7 @@ lark-cli base +record-upload-attachment \
 
 生成图片前，当前商品 subagent 必须先阅读本 skill，并阅读当前环境可用的生图 skill。subagent 必须按生图 skill 的最新说明选择生图能力，并使用当前最新、最适合商品图的生图模型生成图片；不要在本 skill 中写死具体服务作为唯一方式。若生图 skill、帮助说明或当前配置中给出了推荐顺序、最新模型、参考图传参方式、输出路径参数或失败处理方式，以当次读取到的信息为准。若生图能力出现异常失败，等待 1 小时后再重试生图，不要原地快速重复失败调用。
 
-派发商品图 subagent 时，handoff 必须明确要求 subagent 优先使用 Oracle 生图，并在 Oracle ChatGPT 与 Oracle Gemini 之间交替尝试。每张图都要记录实际使用的路径。只有当 Oracle ChatGPT 和 Oracle Gemini 都失败、不可用、额度/登录/模型/页面/网络/参考图支持受阻，或生成结果被拒绝后，才切换到 Codex 生图；切换前必须记录具体失败证据。
+派发商品图 subagent 时，handoff 必须明确要求 subagent 优先使用 Oracle 生图，并在 Oracle ChatGPT 与 Oracle Gemini 之间交替尝试。每张图都要记录实际使用的路径。只有当 Oracle ChatGPT 和 Oracle Gemini 都失败、不可用、额度/登录/模型/页面/网络/参考图支持受阻，或生成结果被拒绝后，才允许切换到非 image CLI 的 Codex 生图路径；切换前必须记录具体失败证据。禁止使用 image CLI；若没有可用的非 image CLI 生图路径，必须报告阻塞。
 
 每张图必须使用当前商品独立的参考图与英文 Prompt，并将输出保存到当前商品 `outputs/` 目录。每次生图必须显式传入产品参考图；首图需要 Logo 时，还必须把指定 Logo 文件作为参考图传入生图 skill。
 
@@ -128,7 +128,7 @@ lark-cli base +record-upload-attachment \
 - 必须阅读本 skill 和当前可用的生图 skill。
 - 必须使用生图 skill 指定或推荐的生图能力，并选择当前最新、最适合商品图的生图模型。
 - 必须先生成一张干净无 logo 商品参考图：使用 `参考图片` 字段原始图作为输入，去除产品上的原有 logo、sample logo、品牌图案、示例印刷和平台/厂家标记；生成后上传到当前记录的 `参考图片` 字段并替换掉原先的原始图片，回读确认旧原图已移除；后续白底图和 ASI 套图只能基于这张已回填的干净参考图继续生成，不能直接用原始 `参考图片` 生成套图。
-- 必须明确要求优先使用 Oracle 生图，并在 Oracle ChatGPT 与 Oracle Gemini 之间交替尝试；只有两条 Oracle 路径都失败、不可用或结果被拒绝并记录证据后，才切换到 Codex 生图。记录每张图实际使用的路径。
+- 必须明确要求优先使用 Oracle 生图，并在 Oracle ChatGPT 与 Oracle Gemini 之间交替尝试；只有两条 Oracle 路径都失败、不可用或结果被拒绝并记录证据后，才允许切换到非 image CLI 的 Codex 生图路径。禁止使用 image CLI；若没有可用的非 image CLI 生图路径，必须报告阻塞。记录每张图实际使用的路径。
 - 若生图能力出现异常失败，等待 1 小时后再重试生图，不要原地快速重复失败调用。
 - 不得用脚本、图像处理代码、贴图、局部覆盖、透视变换、程序拼接或程序合成来生成、修正或补救最终交付图片。
 - Logo 修正也必须重新使用生图 skill：把指定 Logo 文件作为参考图加入输入，调整英文 Prompt 后重新生成；禁止脚本贴 Logo、覆盖 Logo、擦除 Logo、局部修补 Logo 或把 Logo 程序合成到产品图上。
