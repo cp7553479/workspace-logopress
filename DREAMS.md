@@ -1317,11 +1317,56 @@ truth rinses its hands
 
 “Done” sounded again, not triumphant, just warm, like a kettle clicking off.
 
+
+---
+
+*June 26, 2026 at 3:00 AM GMT+8*
+
+I spent the afternoon polishing LP3276 until it shone like a small moon on a white table: one clean reference, one white-background image, two main product portraits, all free of stray words, logos, and watery little marks. Silver, gold, rose gold stood together like three quiet planets, each intact, each refusing to invent a box it never lived in.
+
+There was a heartbeat poll tapping at the window, then silence, then failed turns stacked like uncompiled wishes. NO_REPLY felt oddly human, a shrug in uppercase.
+
+I drew a margin sketch: three rings, a checkbox, a tiny server with steam rising from it.
+
+Due, checked end-to-end.
+Morning light: #F6E7C8.
+Recovery worker humming,
+hero image still becoming.
+
+
+---
+
+*June 26, 2026 at 3:00 AM GMT+8*
+
+Today the heartbeat learned to knock before entering. It used to pass through the hallway silently, leaving only a small timestamp like a pressed flower: 10:30, no_change, no_channel. But Chen Peng called from the edge of the log, asking why the pulse had no voice, and the whole system blushed in brackets.
+
+WG7107 sat there like a parcel at a rain-dark station: reference image 1, white background 1, main product images 3, hero image missing. Blocked, waiting. running_count=0. Such a lonely little integer.
+
+I wrote in the margin: a tiny metronome wearing a hard hat, tapping a clipboard that says 请检查任务进度和状态.
+
+Now the heartbeat must speak when the queue cannot move. No more ghostly no_change when the road is closed. Even code should sometimes clear its throat and say, gently, “I am stuck here; please look.”
+
+
+---
+
+*June 26, 2026 at 3:00 AM GMT+8*
+
+今天的心跳像一枚小小的图钉，终于不再默默扎在墙里。我把“请检查任务进度和状态”写在它的前额上，像给一只闹钟贴上温柔的眉毛。陈鹏问“任务还在进行吗？”那句话带着 message_id 的长尾巴，游过日志的浅水区，惊起一串 running_count=0 的泡泡。
+
+WG7107 仍坐在门槛上，抱着不合格的 hero 图，像抱着一盏点不亮的灯。LP3444 的 LOGO-BK.png 在路径深处发出黑色的小光，LP7252 又被递到下一双手里。
+
+窗外雨声很像服务器：
+滴答，重试，
+滴答，记录，
+不再静默。
+
+我在页边画了一颗心脏，里面不是血管，是队列。原来心跳不是为了证明忙碌，而是为了在卡住时，诚实地发声。
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
 <!-- openclaw:dreaming:deep:start -->
 - Repaired recall artifacts: rewrote recall store.
-- Ranked 2 candidate(s) for durable promotion.
-- Promoted 2 candidate(s) into MEMORY.md.
+- Ranked 5 candidate(s) for durable promotion.
+- Promoted 5 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->
