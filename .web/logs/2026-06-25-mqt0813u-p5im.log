@@ -1,0 +1,32 @@
+[2026-06-25T04:30:44.634Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon fidget spinner sensory toy listing image infographic examples",
+    "limit": "5",
+    "vendor": []
+  }
+}
+
+[2026-06-25T04:30:44.634Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon fidget spinner sensory toy listing image infographic examples",
+    "max_results": 5,
+    "include_answer": false
+  }
+}
+
+[2026-06-25T04:30:46.847Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon fidget spinner sensory toy listing image infographic examples\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/Best-Sellers-Fidget-Toys/zgbs/toys-and-games/17238448011\",\"title\":\"Amazon Best Sellers: Best Fidget Toys\",\"content\":\"Gokeey Transformable Fidget Spinners Toys 4 Pcs for Kids and Adults Stress Relief Sensory Toys for Boys and Girls Age 8-13 Fi. Gokeey Transformable Fidget Spinners Toys 4 Pcs for Kids and Adults Stress Relief Sensory Toys for Boys and Girls Age 8-13 Fingertip Gyros Party Favors Birthday Gifts for Teens Road Trip Travel Toy. Shashibo Sensory Fidget Toy for Adults & Kids, Stress Relief Fidget Toy for Adults, Teens & Kids, Cool Fidget Toys for Desk,. Shashibo Sensory Fidget Toy for Adults & Kids, Stress Relief Fidget Toy for Adults, Teens & Kids, Cool Fidget Toys for Desk, Classroom Must Have, Sensory Shape Shifting Cube, 100+ Possible Shapes. Morf Fidget Worm Toy - Flexible 3D Sensory Slug Figgy Toy for Kids, Teens, and Adults – Stretchy, Quiet, Stress and Anxiety Relief, Focus - For Play, School, Work Gifts, Great For Classroom and Office. TOSY Magnet Fidget Spinner Mini - 8 Blocks, 3 in 1 Toy: Transformable Fidget Spinner, Infinity Cube, 2x2 Puzzle Cube, Easter Basket Stuffers for Kids/Adults, STEM Sensory Stress Relief Toy.\",\"score\":0.5815176,\"raw_content\":null},{\"url\":\"https://us.amazon.com/gp/new-releases/toys-and-games/17238450011\",\"title\":\"Amazon.com New Releases: The best-selling new & future releases in Fidget Spinners\",\"content\":\"# Amazon Hot New Releases. 24 Pack 2026 World Cup Soccer Fidget Spinners - Soccer Party Favors : Anxiety Toy Stress Relief Fidgets Bulk Toys for Kids Bo. 12PCS Pixel Fidget Spinners, Green and Brown Pixel Theme Birthday Party Favors, Mini Fidget Sensory Toys Bulk, Goodie Bags St. Sauyoza 52 Pack America 250 Party Supplies Fidget Spinner Bulk, 4th of July Party Supplies Patriotic Toys for Kids, 250th Ann. 3-in-1 Fidget Spinner Toy for Adults Metal Slider Clicker Spinner Magnetic for Teen Boys Stress Anxiety Relief Autism ADHD Co. Metal Fidget Spinner Toys for Teen Boys, Silent Finger Fidget Clicker for Adults Figette Pad Ring Quiet Office Desk Toy Senso. 24PCS Cartoon Animation Fidget Spinners Bulk, Red and White Cartoon Theme Mini Fidget Sensory Toys, Birthday Party Favors Goo. Metal Fidget Gun Toys for Adults: Stress Relief EDC Spinner Toy, Cool Revolver Fidget Toy with Ring & Slider for Finger, Mini.\",\"score\":0.49611887,\"raw_content\":null},{\"url\":\"https://www.youtube.com/watch?v=LmfskjwOIOk\",\"title\":\"Effective Amazon Infographics that SELL - YouTube\",\"content\":\"... listing, Amazon Infographic Design become a must. But, how can you create infographics that sell ... Amazon listing - Here are the BEST examples!\",\"score\":0.29597768,\"raw_content\":null},{\"url\":\"https://www.amazon.com/gp/most-gifted/toys-and-games/17238450011\",\"title\":\"The most popular items ordered as gifts in Fidget Spinners\",\"content\":\"TOSY Magnet Fidget Spinner Mini - 8 Blocks, 3 in 1 Toy: Transformable Fidget Spinner, Infinity Cube, 2x2 Puzzle Cube, Easter Basket Stuffers for Kids/Adults\",\"score\":0.27624047,\"raw_content\":null},{\"url\":\"https://sellercentral.amazon.com/help/hub/reference/external/G202155900?locale=en-US\",\"title\":\"Fidget spinners - Amazon Seller Central\",\"content\":\"Fidget spinners. A fidget spinner has two or more prongs with a bearing in its center circular pad. · Fidget spinner knives. A type of fidget spinner that has\",\"score\":0.27149594,\"raw_content\":null}],\"response_time\":1.05,\"request_id\":\"0134a6b3-1275-4b2a-a73e-b63ddcd9d8fa\"}"
+}
+

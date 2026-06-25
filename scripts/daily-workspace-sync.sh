@@ -15,6 +15,7 @@ WORKTREE_ROOT="$HOME/.openclaw/tmp/workspace-logopress-main-sync"
 RUN_ID="$(date +%Y%m%d-%H%M%S)"
 TMP_BRANCH="cron-main-merge-$RUN_ID"
 WT="$WORKTREE_ROOT/$RUN_ID"
+LARGE_FILE_LIMIT_BYTES="${OPENCLAW_SYNC_LARGE_FILE_LIMIT_BYTES:-20971520}"
 
 mkdir -p "$LOG_DIR" "$WORKTREE_ROOT"
 exec > >(tee -a "$LOG_FILE") 2>&1
@@ -60,6 +61,91 @@ commit_time_for_path() {
   local ts
   ts="$(git log -1 --format=%ct "$ref" -- "$path" 2>/dev/null || true)"
   echo "${ts:-0}"
+}
+
+file_size_bytes() {
+  local path="$1"
+  local size
+  if [[ ! -f "$path" ]]; then
+    echo 0
+    return 0
+  fi
+  size="$(stat -f%z -- "$path" 2>/dev/null || stat -c%s -- "$path" 2>/dev/null || echo 0)"
+  if [[ "$size" =~ ^[0-9]+$ ]]; then
+    echo "$size"
+  else
+    echo 0
+  fi
+}
+
+array_contains() {
+  local needle="$1"
+  shift
+  local item
+  for item in "$@"; do
+    [[ "$item" == "$needle" ]] && return 0
+  done
+  return 1
+}
+
+add_local_exclude() {
+  local path="$1"
+  local exclude_file
+  local pattern="/$path"
+  exclude_file="$(git rev-parse --git-path info/exclude)"
+  mkdir -p "$(dirname "$exclude_file")"
+  touch "$exclude_file"
+  if ! grep -Fxq "# OpenClaw sync local large-file excludes" "$exclude_file"; then
+    printf '\n# OpenClaw sync local large-file excludes\n' >> "$exclude_file"
+  fi
+  if ! grep -Fxq "$pattern" "$exclude_file"; then
+    printf '%s\n' "$pattern" >> "$exclude_file"
+  fi
+}
+
+prepare_large_file_exclusions() {
+  LARGE_FILE_PATHSPECS=()
+  local untracked_large=()
+  local tracked_large=()
+  local path size
+
+  while IFS= read -r -d '' path; do
+    [[ -f "$path" ]] || continue
+    size="$(file_size_bytes "$path")"
+    if (( size > LARGE_FILE_LIMIT_BYTES )); then
+      untracked_large+=("$path")
+      add_local_exclude "$path"
+    fi
+  done < <(git ls-files --others --exclude-standard -z)
+
+  while IFS= read -r -d '' path; do
+    [[ -f "$path" ]] || continue
+    size="$(file_size_bytes "$path")"
+    if (( size > LARGE_FILE_LIMIT_BYTES )) && ! array_contains "$path" ${tracked_large[@]+"${tracked_large[@]}"}; then
+      tracked_large+=("$path")
+    fi
+  done < <(git diff --name-only -z)
+
+  while IFS= read -r -d '' path; do
+    [[ -f "$path" ]] || continue
+    size="$(file_size_bytes "$path")"
+    if (( size > LARGE_FILE_LIMIT_BYTES )) && ! array_contains "$path" ${tracked_large[@]+"${tracked_large[@]}"}; then
+      tracked_large+=("$path")
+    fi
+  done < <(git diff --cached --name-only -z)
+
+  if ((${#untracked_large[@]} > 0)); then
+    echo "Excluding untracked files >20MB via .git/info/exclude: ${untracked_large[*]}"
+  fi
+
+  if ((${#tracked_large[@]} > 0)); then
+    echo "Skipping tracked/staged files >20MB for this sync; handle manually or with Git LFS: ${tracked_large[*]}"
+    git restore --staged -- "${tracked_large[@]}" 2>/dev/null || git reset -q HEAD -- "${tracked_large[@]}" || true
+    for path in "${tracked_large[@]}"; do
+      add_local_exclude "$path"
+      LARGE_FILE_PATHSPECS+=(":(exclude)$path")
+    done
+  fi
 }
 
 # Resolve active merge conflicts file-by-file by latest commit time.
@@ -134,8 +220,13 @@ fi
 git fetch "$REMOTE" "$MAIN_BRANCH"
 git fetch "$REMOTE" "$LOCAL_BRANCH" || true
 
-# Save all workspace changes before pulling main so uncommitted work participates in conflict policy.
-git add -A
+# Save workspace changes before pulling main. Files above 20MB are skipped so they do not block the rest of the sync.
+prepare_large_file_exclusions
+if ((${#LARGE_FILE_PATHSPECS[*]} > 0)); then
+  git add -A -- . "${LARGE_FILE_PATHSPECS[@]}"
+else
+  git add -A -- .
+fi
 if ! git diff --cached --quiet; then
   git commit -m "chore: daily workspace snapshot $(date '+%Y-%m-%d %H:%M:%S %Z')"
 else

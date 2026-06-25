@@ -1,0 +1,32 @@
+[2026-06-24T23:30:04.024Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon Moscow Mule copper mug listing images material size infographic",
+    "limit": "5",
+    "vendor": []
+  }
+}
+
+[2026-06-24T23:30:04.024Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon Moscow Mule copper mug listing images material size infographic",
+    "max_results": 5,
+    "include_answer": false
+  }
+}
+
+[2026-06-24T23:30:06.886Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon Moscow Mule copper mug listing images material size infographic\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.thespruceeats.com/best-moscow-mule-mugs-4685366\",\"title\":\"The Best Moscow Mule Mugs for Your Happiest Hour Yet\",\"content\":\"# The 9 Best Moscow Mule Mugs. Image 3:  Moscow-Mix Moscow Mule Mugs on a yellow background:max_bytes(150000):strip_icc():format(webp)/the-best-moscow-mule-mugs-tout-e85a2e262ea34d459eda534a190b19e9.jpg). “The great thing about a Moscow Mule is how easy it is to make and enjoy,\\\" saysHarry Jamison, general manager of a.kitchen+bar. The copper material takes on the temperature of the drink, keeping your libation ice-cold, even on the hottest of summer days. A standard copper Moscow Mule mug is made entirely of copper with a round bowl and handle to keep your hand from freezing. Moscow-Mix Moscow Mule Copper Mugs at Amazon$50. Kamojo Moscow Mule Copper Mugs at Amazon$35. Advanced Mixology Moscow Mule Copper Mugs at Amazon$50. Krown Kitchen Moscow Mule Copper Mugs at Amazon$30. ### Moscow-Mix Moscow Mule Copper Mugs. Image 5: Moscow-Mix Moscow Mule Mugs:max_bytes(150000):strip_icc():format(webp)/moscow-mix-moscow-mule-mugs-8e8e338b3eb44afd8e8be7dfa578f6c4.jpg). The mugs hold a generous 16 ounces—more than enough room for a double Moscow Mule if you so please—and each is crafted from 100 percent food-grade copper that's heated, tempered, formed, hammered, and polished by hand, and then finished with a tarnish-resistant coating on both the inside and outside.\",\"score\":0.7817479,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Pack-18oz-Embossed-Copper-Moscow/dp/B079R9G96H\",\"title\":\"4 Pack - 18oz Embossed Logo, Copper Moscow Mule Mugs\",\"content\":\"Brand. Paykoc Imports · Material. Copper · Capacity. 1.1 Pounds · Style. Modern · Theme. Logo,Solid · Included Components. Handle.\",\"score\":0.73207545,\"raw_content\":null},{\"url\":\"https://www.foodandwine.com/best-moscow-mule-mugs-11791192\",\"title\":\"The 6 Best Moscow Mule Mugs, According to Our Tests\",\"content\":\"Handmade Copper Moscow Mule Mug, Set of 2 ($89 at Amazon). We loved the size and smooth, tightly rolled rim on this Moscow Mule mug. However\",\"score\":0.58721006,\"raw_content\":null},{\"url\":\"https://coppermugs.com/blogs/copper-mugs/the-8-best-moscow-mule-mugs-for-2021\",\"title\":\"The 8 Best Moscow Mule Mugs for 2021\",\"content\":\"Add these 14 oz tumblers to your tablescape for a modern, eye-catching aesthetic. Product Specifications. Material 100% pure copper. Style Cylindrical Tumbler.\",\"score\":0.507251,\"raw_content\":null},{\"url\":\"https://advancedmixology.com/blogs/art-of-mixology/how-to-choose-a-copper-mug\",\"title\":\"What To Look For When Buying Moscow Mule Mugs?\",\"content\":\"Things to Consider When You Buy Moscow Mule Copper Mugs · Material · Kinds of Lined Copper Mugs · Finish · Size / Capacity · Sturdy Handle · Design.\",\"score\":0.41905406,\"raw_content\":null}],\"response_time\":1.79,\"request_id\":\"add16ba5-c9f8-4111-8a11-9f69170459db\"}"
+}
+
