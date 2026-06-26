@@ -3,10 +3,13 @@
 # logopress workspace daily sync (方案 A)
 #
 # 语义：macmini 分支是「本地最新版本」的权威轨迹；main 是它的镜像。
-#   - 每轮：拉取远端 main → 在 macmini 上 add/commit 本地改动 → 在 macmini 上
-#     合并 main（冲突以 macmini 本地最新为准，保留最新版）→ main ff 到 macmini。
+#   - 每轮：在 macmini 上 add/commit 本地改动（含未跟踪文件）→ 拉取远端
+#     main → 在 macmini 上合并 main（冲突以 macmini 本地最新为准）→ main ff 到 macmini。
 #   - macmini 始终等于本地最新状态；main 随其齐平。被覆盖的冲突版本仍可在
 #     `git log macmini` / `git log main` 的历史提交里翻到。
+#
+# 关键顺序：先把本地改动提交进 macmini（让工作区变干净），再去 fetch/pull
+# 远端 main。否则未跟踪文件会让 `git pull` 因「工作区会被覆盖」而中止。
 #
 # 设计要点：
 #   * GIT_TERMINAL_PROMPT=0 — 避免凭据提示卡住 cron 运行；推送通过全局
@@ -31,30 +34,18 @@ MAX_BYTES=$((20 * 1024 * 1024))   # 20MB
 
 echo "[sync] start at $(date -u +%FT%TZ) in $(pwd)"
 
-# 1) 拉取远端最新，并使本地 main 与 origin/main 一致
+# 1) 确保 macmini 分支存在（不存在则从 main 派生）并切过去
 git fetch --all --prune
-git checkout main
-git pull --ff-only "$ORIGIN" main
-
-# 2) 确保 macmini 分支存在（不存在则从 main 派生）
 if ! git show-ref --verify --quiet refs/heads/macmini; then
   echo "[sync] creating local macmini branch from main"
-  git branch macmini main
+  git branch macmini origin/main
 fi
-
-# 切到 macmini，并同步到 main 的最新基线（macmini 是本次工作分支）
 git checkout macmini
-if git merge --ff-only main 2>/dev/null; then
-  : # macmini 可快进到 main
-else
-  echo "[sync] macmini cannot ff to main; resetting macmini onto main"
-  git reset --hard main
-fi
 
-# 3) 暂存所有变更（含未跟踪文件），尊重 .gitignore（*.log 等已被忽略）
+# 2) 暂存所有本地变更（含未跟踪文件），尊重 .gitignore（*.log 等已被忽略）
 git add -A
 
-# 4) 排除超过 20MB 的文件：扫描暂存区，过大者移出暂存区
+# 3) 排除超过 20MB 的文件：扫描暂存区，过大者移出暂存区
 large_files=()
 while IFS= read -r staged_line; do
   # staged_line 形如: <mode> <sha> <stage>\t<path>
@@ -75,20 +66,19 @@ if [ "${#large_files[@]}" -gt 0 ]; then
   printf '%s\n' "${large_files[@]}" | tr '\n' '\0' | xargs -0 -r git reset -q --
 fi
 
-# 5) 提交（仅当有暂存变更）
+# 4) 提交本地改动（仅当有暂存变更）——此时工作区变干净
 if git diff --cached --quiet; then
   echo "[sync] nothing to commit"
 else
   git commit -m "chore(logopress): auto-sync $(date -u +%FT%TZ)"
 fi
 
-# 6) 推送 macmini 到 GitHub（首次会创建远端 macmini 分支）
-git push -u "$ORIGIN" macmini
-
-# 7) 方案 A：macmini 作为「本地最新版本」的权威轨迹。
-#    在 macmini 上合并 main（而非反过来），冲突以 macmini 为准（保留本地最新版）。
-#    这样 macmini 始终等于本地最新状态；main 随后 fast-forward 到 macmini，二者齐平。
+# 5) 把本地 main 对齐到远端 main 最新（此时工作区干净，pull 不会被未跟踪文件阻塞）
+git checkout main
+git pull --ff-only "$ORIGIN" main
 git checkout macmini
+
+# 6) 方案 A：在 macmini 上合并 main（而非反过来），冲突以 macmini 本地最新为准。
 if git merge --no-ff main -m "merge: pull main updates into macmini (local-latest)"; then
   : # 干净合并
 else
@@ -98,9 +88,11 @@ else
   git add -A
   git commit --no-edit
 fi
-git push "$ORIGIN" macmini
 
-# 8) main 直接对齐 macmini（此时 macmini 已是最新版本，main fast-forward 即可）
+# 7) 推送 macmini（本地最新版本的权威轨迹）
+git push -u "$ORIGIN" macmini
+
+# 8) main 直接对齐 macmini（macmini 已是最新版本，main fast-forward 即可）
 git checkout main
 git merge --ff-only macmini
 git push "$ORIGIN" main
