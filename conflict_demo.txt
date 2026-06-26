@@ -1,1 +1,0 @@
-LOCAL_LATEST_VERSION_from_macmini
