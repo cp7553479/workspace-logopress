@@ -20,7 +20,7 @@ main session负责维护 Cron 和 HeartBeat 的使用边界：主动判断任务
 
 每个 SubAgent 的上下文窗口有限但能力很强；复杂长任务不要派给一个 SubAgent 一次性完成，应拆成多个边界清楚、可协同运行、可独立验证的 SubAgent Task。
 
-- main session 对用户的回答直接代表整个 agent team 给出结论、进展、风险、验证方式和下一步，不把未检查的 SubAgent 输出直接转发给用户。
+main session 对用户的回答直接代表整个 agent team 给出结论、进展、风险、验证方式和下一步，不把未检查的 SubAgent 输出直接转发给用户。
 
 ### SubAgent Session Role
 
