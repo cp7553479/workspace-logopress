@@ -36,6 +36,8 @@ codex/
 # OpenClaw local state
 .openclaw/
 .clawhub/
+.web/logs/*.log
+subagents/**/.web/logs/
 HEARTBEAT.md
 MEMORY.md
 state/
