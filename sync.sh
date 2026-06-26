@@ -1,18 +1,19 @@
 #!/usr/bin/env bash
 #
-# logopress workspace daily sync
+# logopress workspace daily sync (方案 A)
 #
-# - 提交 workspace 最新更新到本地（排除超过 20MB 的文件；忽略 *.log）
-# - 推送到 GitHub 的 macmini 分支
-# - 合并进 main 分支（冲突以最新更新 / macmini 为准）
-# - 推送 main 回 GitHub
+# 语义：macmini 分支是「本地最新版本」的权威轨迹；main 是它的镜像。
+#   - 每轮：拉取远端 main → 在 macmini 上 add/commit 本地改动 → 在 macmini 上
+#     合并 main（冲突以 macmini 本地最新为准，保留最新版）→ main ff 到 macmini。
+#   - macmini 始终等于本地最新状态；main 随其齐平。被覆盖的冲突版本仍可在
+#     `git log macmini` / `git log main` 的历史提交里翻到。
 #
 # 设计要点：
 #   * GIT_TERMINAL_PROMPT=0 — 避免凭据提示卡住 cron 运行；推送通过全局
 #     `gh auth git-credential` helper 完成（token 含 repo scope）。
 #   * .gitignore 无法按文件大小排除，因此先 `git add -A`，再用
 #     `git cat-file -s` 检测暂存区里超过 20MB 的 blob 并 `git reset` 移出。
-#   * 合并冲突时 `git checkout --theirs .`，theirs = macmini（最新更新）。
+#   * 合并方向 main→macmini，冲突时 `git checkout --ours .`（ours=macmini=本地最新）。
 set -euo pipefail
 
 export GIT_TERMINAL_PROMPT=0
@@ -84,18 +85,26 @@ fi
 # 6) 推送 macmini 到 GitHub（首次会创建远端 macmini 分支）
 git push -u "$ORIGIN" macmini
 
-# 7) 合并进 main；冲突以 macmini（最新更新）为准
-git checkout main
-if git merge --no-ff macmini -m "merge: logopress auto-sync into main"; then
+# 7) 方案 A：macmini 作为「本地最新版本」的权威轨迹。
+#    在 macmini 上合并 main（而非反过来），冲突以 macmini 为准（保留本地最新版）。
+#    这样 macmini 始终等于本地最新状态；main 随后 fast-forward 到 macmini，二者齐平。
+git checkout macmini
+if git merge --no-ff main -m "merge: pull main updates into macmini (local-latest)"; then
   : # 干净合并
 else
-  echo "[sync] merge conflict; resolving with macmini (theirs) as source of truth"
-  git checkout --theirs .
+  echo "[sync] merge conflict; resolving with macmini (ours/local-latest) as source of truth"
+  # 合并方向是 main→macmini，故 ours=macmini（本地最新），即「保留最新版，覆盖冲突」
+  git checkout --ours .
   git add -A
   git commit --no-edit
 fi
+git push "$ORIGIN" macmini
+
+# 8) main 直接对齐 macmini（此时 macmini 已是最新版本，main fast-forward 即可）
+git checkout main
+git merge --ff-only macmini
 git push "$ORIGIN" main
 
-# 8) 回到 macmini，收尾
+# 9) 回到 macmini，收尾
 git checkout macmini
 echo "[sync] done at $(date -u +%FT%TZ)"
