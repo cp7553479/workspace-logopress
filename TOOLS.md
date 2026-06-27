@@ -17,6 +17,24 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 
 ## Lark-cli
 
+### Profile: logopress
+
+All lark-cli commands in this workspace MUST run against the **`logopress`** profile via the global `--profile logopress` flag, so they hit the correct app (`cli_a97a7e7e1d79dbd8`) and the authorized user identity (文森-练物-超级管理员). The profile is already configured (app-id + app-secret) and authorized; do not re-init or re-login unless the token has expired.
+
+- Run every command as: `lark-cli --profile logopress <command> [options]`
+- Confirm auth is still valid: `lark-cli --profile logopress auth status`
+- List / switch profiles only when the user explicitly asks (do not change active profile otherwise).
+
+**Example (profile-scoped base record query, no real values):**
+
+```bash
+# Query records from a bitable table under the logopress profile
+lark-cli --profile logopress base record search \
+  --base-token <BASE_TOKEN> \
+  --table-id   <TABLE_ID> \
+  --params '{"filter":{"conjunction":"and","conditions":[{"field_name":"<字段名>","operator":"is","value":["<值>"]}]}}'
+```
+
 Use the `lark-cli` as your primary work tool. The primary lark base(飞书多维表格) is:
 
 `https://mingjiainno.feishu.cn/base/SF9ibzjI4a0YFJsDZtKcLvtbnfh?table=tbl3KNB7zP8EQ1d0&view=vewMQ68Gd5`
