@@ -24,6 +24,7 @@ All lark-cli commands in this workspace MUST run against the **`logopress`** pro
 - Run every command as: `lark-cli --profile logopress <command> [options]`
 - Confirm auth is still valid: `lark-cli --profile logopress auth status`
 - List / switch profiles only when the user explicitly asks (do not change active profile otherwise).
+- In OpenClaw gateway sessions, `lark-cli` reads the workspace config at `~/.lark-cli/openclaw/config.json`; outside OpenClaw it may read `~/.lark-cli/config.json`. If `logopress` appears missing in an agent session, first compare `lark-cli profile list` with the OpenClaw environment and a clean environment, then restore/sync the `logopress` entry from OpenClaw's Feishu account config or run `lark-cli config bind` as appropriate. Do not switch to another profile.
 
 **Example (profile-scoped base record query, no real values):**
 
