@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Long-Term Memory
 
 
@@ -37,3 +38,8 @@
 - Conversation Summary: 如果产品参考图上原本有 logo / sample logo / 示例印刷 / 品牌字样，首图必须用指定 Logo 替换，不能保留原 logo。; Logo 必须由生图模型自然生成在商品的 **可印刷区域**，禁止后期脚本贴图或程序合成。; 还特别写了：首图 Logo 是带有 `YOUR LOGO` 字样的 LogoPress logo 示意，`YOUR LOGO` 不能省略，要写进 prompt。 [score=0.825 recalls=0 avg=0.620 source=memory/2026-06-22-0946.md:49-51]
 <!-- openclaw-memory-promotion:memory:memory/2026-06-22-0946.md:53:56 -->
 - Conversation Summary: 所以结论是：**有规定，首图必须在商品可印 logo 的位置印上指定 LogoPress logo。** assistant: Context overflow: prompt too large for the model. Try /reset (or /new) to start a fresh session, or use a larger-context model. assistant: white_background_oracle_gemini35_flash.png, asi_hero_main_oracle_gemini35_flash_retry.png assistant: NO_REPLY [score=0.807 recalls=0 avg=0.620 source=memory/2026-06-22-0946.md:53-56]
+=======
+# MEMORY.md
+
+- ASI ecommerce image batches for `商品表` must be orchestrated by the main session as a product queue. One subagent handles exactly one product; parallel subagents must process different products, with the chosen Oracle/Codex route written in each task requirement rather than in the skill. Keep Base writeback verification and user delivery under main-session review, and maintain `.temp/asi-image-task/status.md` and `HEARTBEAT.md` for recovery.
+>>>>>>> origin/main
