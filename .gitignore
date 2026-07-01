@@ -77,6 +77,7 @@ codex/
 # OpenClaw local state
 .openclaw/
 .clawhub/
+HEARTBEAT.md
 .web/logs/*.log
 subagents/**/.web/logs/
 state/
