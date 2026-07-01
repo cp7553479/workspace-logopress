@@ -80,3 +80,4 @@ codex/
 .web/logs/*.log
 subagents/**/.web/logs/
 state/
+HEARTBEAT.md
