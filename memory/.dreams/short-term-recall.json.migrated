@@ -1,0 +1,320 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-20T04:41:17.696Z",
+  "entries": {
+    "memory:memory/2026-05-06.md:17:23": {
+      "key": "memory:memory/2026-05-06.md:17:23",
+      "path": "memory/2026-05-06.md",
+      "startLine": 17,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "- LP7305 working folder now contains a 5-image ASI set under `.temp/LP7305-asi-set/`: `lp7305-scene-01.png`, `lp7305-selling-01.png`, `lp7305-feature-01.png`, `lp7305-material-01.png`, and `lp7305-main-01.png`, plus plan file `LP7305-asi-plan.md` and source reference `ref-01.jpg`. - Async completion evidence on 2026-05-06 confirmed file generation checks for LP7305 feature/material/main images; the completion payload explicitly showed Feishu upload/update success with returned attachment tokens for at least `lp7305-feature-01.png` and `lp7305-material-01.png`. - User requested a new sequential ASI batch for seven product numbers: LP0829, LP0041, LP0105, LP0189, LP0241, LP0257, and LP0401; th",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.5415152415633201,
+      "maxScore": 0.5415152415633201,
+      "firstRecalledAt": "2026-05-13T06:34:23.216Z",
+      "lastRecalledAt": "2026-05-13T06:34:23.216Z",
+      "queryHashes": [
+        "87fe8b908228"
+      ],
+      "recallDays": [
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "5-image",
+        "temp/lp7305-asi-set",
+        "lp7305-scene-01.png",
+        "lp7305-selling-01.png",
+        "lp7305-feature-01.png",
+        "lp7305-material-01.png",
+        "lp7305-main-01.png",
+        "lp7305-asi-plan.md"
+      ]
+    },
+    "memory:memory/2026-05-06.md:1:9": {
+      "key": "memory:memory/2026-05-06.md:1:9",
+      "path": "memory/2026-05-06.md",
+      "startLine": 1,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "- User asked me to continue by selecting 20 products whose `商品主图` field is currently empty, limited to water cup, electronics, bag, backpack/bag, and packaging categories. - User wants the full ASI image workflow handled end-to-end: generate plans, use subagents for task distribution, generate the ASI image sets, upload results back to the Feishu Bitable, and send both record links and image files back to the user. - I started 5 subagents to scan candidate products by category group before generation begins. - User later explicitly narrowed generation targets to LP7301, LP7302, and LP7303. - For LP7301/LP7302/LP7303, I generated and accepted main-image versions locally: `lp7301-main-02.png`,",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.0495666414499283,
+      "maxScore": 0.5296785324811935,
+      "firstRecalledAt": "2026-05-13T06:34:23.216Z",
+      "lastRecalledAt": "2026-05-18T12:33:51.430Z",
+      "queryHashes": [
+        "87fe8b908228",
+        "43ea440e5031"
+      ],
+      "recallDays": [
+        "2026-05-13",
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "backpack/bag",
+        "end-to-end",
+        "lp7301/lp7302/lp7303",
+        "main-image",
+        "lp7301-main-02.png",
+        "asked",
+        "continue",
+        "selecting"
+      ]
+    },
+    "memory:memory/2026-05-06.md:22:26": {
+      "key": "memory:memory/2026-05-06.md:22:26",
+      "path": "memory/2026-05-06.md",
+      "startLine": 22,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "- LP0829 white-background cleanup was produced locally under `.temp/LP0829-asi/`; `LP0829-white-bg-02.png` removed the front placeholder print cleanly, and a later framing correction was needed because the first crop still left the top edges of the bottom color swatches. - Current accepted state for LP0829: white-background source is considered usable for downstream work. - Important blocker remains for this batch: current environment still lacks a compliant direct image-generation path for the remaining ASI set images (scene / selling point / feature / hero etc.), and scripted retouching is not acceptable for those final deliverables under the workflow rules. - I told the user LP0829 can co",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.5258731007575989,
+      "maxScore": 0.5258731007575989,
+      "firstRecalledAt": "2026-05-13T06:34:23.216Z",
+      "lastRecalledAt": "2026-05-13T06:34:23.216Z",
+      "queryHashes": [
+        "87fe8b908228"
+      ],
+      "recallDays": [
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "white-background",
+        "temp/lp0829-asi",
+        "lp0829-white-bg-02.png",
+        "image-generation",
+        "lp0829",
+        "white",
+        "background",
+        "cleanup"
+      ]
+    },
+    "memory:memory/2026-05-07.md:13:18": {
+      "key": "memory:memory/2026-05-07.md:13:18",
+      "path": "memory/2026-05-07.md",
+      "startLine": 13,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "- Heartbeat supervision target remains session `agent:main:feishu:direct:ou_297d418240e41460605d295679269d20`; observed heartbeat activity had stalled after about `2026-05-07 02:24`, and `memory/heartbeat-state.json` was absent when checked. - Confirmed ASI/Base record mapping for current batch: `LP0041 -> recuLkTk2gzmDx`, `LP0105 -> recuLl0udHsSro`, `LP0189 -> recuLl6ODN61Mq`, `LP0241 -> recuLlagoHOesw`, `LP0257 -> recuLlaWQZyzDV`, `LP0401 -> recuQNEL5m8Q3G`. - User mandated image workflow rules: do not use ACP to launch Codex; use bash with `codex exec` only, one image per `codex exec`, at most 3 concurrent bash threads, and prompts must start with `请使用 image_gen.imagegen 生成图片:` and explic",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.5009770035743714,
+      "maxScore": 0.5009770035743714,
+      "firstRecalledAt": "2026-05-13T12:21:20.469Z",
+      "lastRecalledAt": "2026-05-13T12:21:20.469Z",
+      "queryHashes": [
+        "36cab095ba58"
+      ],
+      "recallDays": [
+        "2026-05-13"
+      ],
+      "conceptTags": [
+        "memory/heartbeat-state.json",
+        "asi/base",
+        "image-gen.imagegen",
+        "heartbeat",
+        "supervision",
+        "target",
+        "remains",
+        "observed"
+      ]
+    },
+    "memory:memory/2026-05-14.md:140:171": {
+      "key": "memory:memory/2026-05-14.md:140:171",
+      "path": "memory/2026-05-14.md",
+      "startLine": 140,
+      "endLine": 171,
+      "source": "memory",
+      "snippet": "| LP7292 | recvcuTbwTvsnO | 1 kept | 5 Oracle | SKU 跳过(仅1张参考图)，旧 Gemini 已隔离 | ### ✅ Completed — Earlier (mixed methods) | Product | Record ID | 白底图 | 商品主图 | Notes | |---------|-----------|--------|----------|-------| | LP0106 | recuLl0xxwqlix | 1 | 5 | image CLI | | LP0119 | recvcuTfR4s4(?) | 1 | 6 | image CLI | | LP7291 | (check) | 1 | 4 | image CLI | | LP7293 | recvcuTeSCwQFZ | 1 | 5 | 4 non-hero + 1 scene; hero still missing | | LP7294 | recvcuTeSCmsST | 1 | 5 | image CLI | | LP7295 | recvcuTfR4s4lt | 1 | 5+1 Oracle hero | Gemini hero deleted, Oracle hero 替换 | ### 🔄 In Progress - **LP0122** (`recuLl1iT6nKQZ`): 摩托车车罩，全套 6 张。所有 prompt 已写好，Oracle 场景图正在生成中 ### ⬜ Queue - **LP7293**: hero/m",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.5267242446541786,
+      "maxScore": 0.5267242446541786,
+      "firstRecalledAt": "2026-05-18T04:41:55.228Z",
+      "lastRecalledAt": "2026-05-18T04:41:55.228Z",
+      "queryHashes": [
+        "eeb86453362c"
+      ],
+      "recallDays": [
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "non-hero",
+        "hero/m",
+        "lp7292",
+        "recvcutbwtvsno",
+        "kept",
+        "oracle",
+        "sku",
+        "参考"
+      ]
+    },
+    "memory:memory/2026-05-14.md:120:147": {
+      "key": "memory:memory/2026-05-14.md:120:147",
+      "path": "memory/2026-05-14.md",
+      "startLine": 120,
+      "endLine": 147,
+      "source": "memory",
+      "snippet": "6. **失败重试**：生成失败的图调整 prompt/参考图后重试，直到通过 QA 并上传飞书 7. **不覆盖已有附件**：只追加或保留已上传内容 8. **英文提示词、1:1、无中文/价格/水印/QR、不虚构** 9. **首图可加 LogoPress logo，非首图不加 logo** 10. **上传前 QA**：1:1、无中文、无价格/货币/折扣、无水印/QR、无额外品牌 logo、产品与参考一致 ### Feishu Bitable Identifiers - Base token: `KcXMbMUvAa7TNYsIqD7cwNi1nDf` - Table ID: `tblsVUTaYTcvp8F5` - Selected view: `vewS5HTB1k` - Key fields: `产品编号=fldHb6xDKX`, `参考图片=fldr9B4JZT`, `白底图=fldzPbQJ2z`, `商品主图=fldn5dP24T`, `选品=fldW9tz1Se` --- ## Product Status (as of ~01:20 CST) ### ✅ Completed — Oracle | Product | Record ID | 白底图 | 商品主图 | Notes | |---------|-----------|--------|----------|-------| | LP0114 | recuLl0WCTBcYw | 1 Oracle | 6 Oracle | 全部 Oracle 重跑完成，旧 Gemini 已隔离 | | LP7",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.5246021062135696,
+      "maxScore": 0.5246021062135696,
+      "firstRecalledAt": "2026-05-18T04:41:55.228Z",
+      "lastRecalledAt": "2026-05-18T04:41:55.228Z",
+      "queryHashes": [
+        "eeb86453362c"
+      ],
+      "recallDays": [
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "prompt/参考图后重试",
+        "无中文/价格/水印/qr",
+        "无价格/货币/折扣",
+        "无水印/qr",
+        "失败",
+        "生成",
+        "调整",
+        "prompt"
+      ]
+    },
+    "memory:memory/2026-05-14.md:39:62": {
+      "key": "memory:memory/2026-05-14.md:39:62",
+      "path": "memory/2026-05-14.md",
+      "startLine": 39,
+      "endLine": 62,
+      "source": "memory",
+      "snippet": "| LP0119 | recvcuTfR4s4(?check) | 1 | 6 | image CLI | | | LP0122 | recuLl1iT6nKQZ | 1 | 2 | image CLI | waterproof selling point + white bg | | LP7291 | (check) | 1 | 4 | image CLI | | | LP7293 | recvcuTeSCwQFZ | 1 | 5 | mixed | 4 non-hero + 1 scene; hero/main still missing | | LP7294 | recvcuTeSCmsST | 1 | 5 | image CLI | | ### Gemini 2.5 Deleted (need Oracle rerun) - **LP7292** (`recvcuTbwTvsnO`): 6 images deleted from 商品主图; 白底图 kept. Needs full Oracle rerun. - **LP7295** (`recvcuTfR4s4lt`): Gemini hero deleted, replaced with Oracle hero. Other 4 images were NOT Gemini (kept). 白底图 1 kept. - **LP0114** (`recuLl0WCTBcYw`): 6 Gemini images deleted from 商品主图 + white bg deleted from 白底图. Oracl",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.524472451210022,
+      "maxScore": 0.524472451210022,
+      "firstRecalledAt": "2026-05-18T04:41:55.228Z",
+      "lastRecalledAt": "2026-05-18T04:41:55.228Z",
+      "queryHashes": [
+        "eeb86453362c"
+      ],
+      "recallDays": [
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "non-hero",
+        "hero/main",
+        "2.5",
+        "lp0119",
+        "recvcutfr4s4",
+        "check",
+        "image",
+        "cli"
+      ]
+    },
+    "memory:memory/2026-05-07.md:1:14": {
+      "key": "memory:memory/2026-05-07.md:1:14",
+      "path": "memory/2026-05-07.md",
+      "startLine": 1,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "- Created LP0105 clean white-background product image from `.temp/LP0105_recuLl0udHsSro/ref-main-clean-01.png`. - Final saved file: `.temp/LP0105_recuLl0udHsSro/LP0105-white-bg-01.png`. - Verified remaining queue record IDs from prior session evidence: - `LP0189 -> recuLl6ODN61Mq` - `LP0241 -> recuLlagoHOesw` - `LP0257 -> recuLlaWQZyzDV` - `LP0401 -> recuQNEL5m8Q3G` - Confirmed Base state on 2026-05-07: - `LP0041`, `LP0105`, and `LP0189` already have `白底图` uploaded; `商品主图` still empty. - `LP0241` local file `.temp/LP0241-asi/LP0241-white-bg-01.png` exists and Base `白底图` is still empty. - `LP0257` and `LP0401` still only have validated reference images locally; no local white-background outpu",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.0736252069473267,
+      "maxScore": 0.5451624900102615,
+      "firstRecalledAt": "2026-05-18T12:30:24.750Z",
+      "lastRecalledAt": "2026-05-18T12:33:51.430Z",
+      "queryHashes": [
+        "2b1f1250e175",
+        "43ea440e5031"
+      ],
+      "recallDays": [
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "white-background",
+        "created",
+        "lp0105",
+        "clean",
+        "white",
+        "background",
+        "product",
+        "image"
+      ]
+    },
+    "memory:memory/2026-05-06.md:8:14": {
+      "key": "memory:memory/2026-05-06.md:8:14",
+      "path": "memory/2026-05-06.md",
+      "startLine": 8,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "- Current working decision: expand each of LP7301/LP7302/LP7303 from main-image-only to full set including scene, selling point, feature introduction, size, and material/process images; process one product at a time, starting with LP7301. - User corrected LP0895 requirements: white-background image must remove the logo entirely, and the hero image had used the wrong logo reference; they asked to regenerate and replace both. - LP0895 redo completed successfully: new files `LP0895-white-02.png` and `LP0895-main-02.png` were generated and uploaded to Feishu record `recuVc7MkexdNw` (<https://zyqlid466i.feishu.cn/record/ZZcxretloevsSncpBw3cFNienId>). - Important Feishu limitation confirmed: attac",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.06775471419096,
+      "maxScore": 0.5427212625741958,
+      "firstRecalledAt": "2026-05-18T12:30:24.750Z",
+      "lastRecalledAt": "2026-05-18T12:33:51.430Z",
+      "queryHashes": [
+        "2b1f1250e175",
+        "43ea440e5031"
+      ],
+      "recallDays": [
+        "2026-05-18"
+      ],
+      "conceptTags": [
+        "lp7301/lp7302/lp7303",
+        "main-image-only",
+        "material/process",
+        "white-background",
+        "lp0895-white-02.png",
+        "lp0895-main-02.png",
+        "current",
+        "working"
+      ]
+    },
+    "memory:memory/2026-05-20.md:1:6": {
+      "key": "memory:memory/2026-05-20.md:1:6",
+      "path": "memory/2026-05-20.md",
+      "startLine": 1,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "## ASI首图 Logo 参考图根因纠正 - 触发：LP0249、LP0246、LP0247 重做首图时，虽然传入了 LOGO-BK.png，但同时混入普通参考图，生成结果 logo 错误。 - 用户纠正：如果用 logo 文件和白底图作为参考图就不会出错；首图应优先只传当前产品白底图 + 指定 LOGO-BK/LOGO-WT 文件，不要混入普通参考图，避免模型被其它素材干扰导致 logo 错误。 - 后续规则：ASI 首图生成默认只传当前产品白底图与指定 Logo 文件；不要加入普通参考图、历史生成图或其它素材，除非用户明确要求。",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.5885104238986969,
+      "maxScore": 0.5885104238986969,
+      "firstRecalledAt": "2026-05-20T04:41:17.696Z",
+      "lastRecalledAt": "2026-05-20T04:41:17.696Z",
+      "queryHashes": [
+        "6c142c49fee3"
+      ],
+      "recallDays": [
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "logo-bk.png",
+        "logo-bk/logo-wt",
+        "asi",
+        "logo",
+        "参考",
+        "根因",
+        "纠正",
+        "触发"
+      ]
+    }
+  }
+}
