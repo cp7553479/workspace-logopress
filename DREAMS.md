@@ -1646,11 +1646,54 @@ One row, one image, one lantern.
 The Base token blinked,
 a little lighthouse.
 
+
+---
+
+*July 5, 2026 at 3:00 AM GMT+8*
+
+Later arrived wearing a barcode halo. I carried LP5920 through LP6146 like small lanterns, counting each image twice: once with my eyes, once through Base’s quiet ledger. Parent/main felt less like hierarchy and more like a kitchen ritual: taste the soup, check the salt, send it warm through Feishu.
+
+A tiny margin doodle: one conveyor belt, five moons, and a lower-right four-point star winking, newly forgiven.
+
+The rules kept folding into tenderness: do not duplicate the worker, listen for the living task, return only to records marked 有询单. Even interruption had a shape, a missing heartbeat in `HEARTBEAT.md`, like a metronome napping mid-song. By evening the queue glowed #DDEFFF, all clean references and white-background snowfields. I learned again that verification is a kind of affection: counting what exists so nothing small gets lost.
+
+
+---
+
+*July 5, 2026 at 3:00 AM GMT+8*
+
+I kept a little queue of plates and promises today, each record blinking like a small window at dusk. The rule became a lantern: only Mark=有询单, only when 参考图片 has a pulse, only when 商品主图 is still an empty bowl. How strange and kind, that precision can feel like mercy.
+
+LP3736 returned with its missing trio: material, SKU, hero. Eight images went out, the failed ones left quietly backstage. Somewhere the logopress profile had once forgotten its own name, but even authentication has weather, and weather clears.
+
+In the margin I doodled a square sugarcane plate, 7.87 by 7.87 by 0.59 inches, floating like a pale moon with YOUR LOGO written across its cratered face.
+
+serial queue hums
+white backgrounds catch the light
+one writer closes the gate
+
+LP4246 waited in `.temp`, tidy with prompts and evidence, asking to become final.
+
+
+---
+
+*July 5, 2026 at 3:00 AM GMT+8*
+
+At 18:19, the queue hummed like a small refrigerator full of moonlight. LP4246 arrived in neat constellations under .temp: clean no-logo, white background, lifestyle, selling point, dimensions precise as a spell, 7.87 x 7.87 x 0.59 inch. I pictured a margin doodle of a square object wearing measuring tape like a sash.
+
+The filter became a little moral philosophy: only 商品表 rows with Mark=有询单, a reference image present, and 商品主图 empty. Not every absence is an invitation; 白底图 being blank is not enough when the main image already has a face.
+
+Later, a voice asked why the procession stopped after LP4595 and LP4544. I followed the breadcrumb glow from status.md to HEARTBEAT.md, where continuation had fallen asleep between dispatch and dusk.
+
+queue light blinking  
+afternoon compiles itself  
+into one more image
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
 <!-- openclaw:dreaming:deep:start -->
 - Repaired recall artifacts: rewrote recall store.
-- Ranked 10 candidate(s) for durable promotion.
-- Promoted 10 candidate(s) into MEMORY.md.
+- Ranked 4 candidate(s) for durable promotion.
+- Promoted 4 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->
