@@ -35,3 +35,10 @@
 - ASI product image batch / LP3736: Batch ASI image generation had progressed through LP3736.; LP3736 missing 3 images were completed: material image, SKU image, and main/hero image.; LP3736 final 8 images were sent to the user; rejected failed images were not sent.; At that checkpoint, there were no leftover Oracle / image generation / lark-cli / acpx processes. [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-30.md:4-7]
 <!-- openclaw-memory-promotion:memory:memory/2026-06-30.md:8:9 -->
 - ASI product image batch / LP3736: Base backfill for LP3736 was not completed yet at the first checkpoint because the OpenClaw lark-cli environment initially could not use the `logopress` profile correctly.; Next operational intent after auth recovery: upload LP3736's 6 product main images, read back/verify in Base, then continue LP3737. [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-30.md:8-9]
+
+## Promoted From Short-Term Memory (2026-07-06)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-02.md:3:5 -->
+- 2026-07-02 Memory: During ASI ecommerce image batch continuation, user asked by voice why processing did not continue. We explained the interruption: after LP4595 and LP4544 were delivered, `.temp/asi-image-task/status.md` said to scan/dispatch the next batch, but `HEARTBEAT.md` did not retain a continue instruction, so scheduled wakeups saw no heartbeat task and did not dispatch new products.... [score=0.888 recalls=0 avg=0.620 source=memory/2026-07-02.md:3-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-02.md:12:15 -->
+- 2026-07-02 Memory: Later ASI ecommerce image batch progress: delivered and Base-verified LP5920, LP5921, LP5922, LP5937, and LP5928. Parent/main session performed final verification before user delivery; sent generated images through Feishu after confirming Base writeback counts. LP5920 skipped SKU chart because only reliable brown single-color evidence existed. LP5921 produced SKU chart covering 13 colors. LP5922 skipped extra per-color white-background variants because no reliable per-color source images existed.... [score=0.869 recalls=0 avg=0.620 source=memory/2026-07-02.md:12-15]
