@@ -1804,6 +1804,7 @@ A memory trace surfaced, but details were unavailable in this run.
 
 ## Deep Sleep
 <!-- openclaw:dreaming:deep:start -->
-- Ranked 3 candidate(s) for durable promotion.
-- Promoted 3 candidate(s) into MEMORY.md.
+- Repaired recall artifacts: rewrote recall store.
+- Ranked 9 candidate(s) for durable promotion.
+- Promoted 9 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->

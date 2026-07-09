@@ -28,19 +28,6 @@
 - 商品/电商生图水印提示词规则：生图 prompt 里禁止写任何关于右下角四角星水印的内容；该要求只作为审核标准传达给 subagent，审核时知道自然出现的右下角四角星水印可判合格即可。
 - 长期 ASI 商品图监控偏好：不要依赖 `HEARTBEAT.md`；使用 cron 定时任务周期性唤醒并投递到当前飞书私聊 session。当前 ASI 监控 cron 为 `asi-subagent-watch-current-session`，每 30 分钟运行一次，sessionTarget 固定到 `agent:global-trading-product:feishu:global-trading-product:direct:ou_61123e30e1c1bfd2d0d31af923d4982d`。
 
-## Promoted From Short-Term Memory (2026-07-08)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-07-04.md:13:14 -->
-- 2026-07-04 10:16 CST - Pre-compaction flush: 2026-07-04 11:38 Asia/Shanghai - LP4804 已完成父级复核并交付，accepted 7 张（clean no-logo Oracle ChatGPT、white background Oracle Gemini、selling points Oracle Gemini、dimension Oracle ChatGPT、material detail Oracle ChatGPT、hero logo Oracle ChatGPT、lifestyle home office Oracle ChatGPT），rejected 1 张（material/detail Oracle Gemini）；Base 回读 `参考图片=1`、`白底图=1`、`商品主图=5`。随后已按规则派出 exactly one 下一条 strict eligible 商品 subagent；最新 sessionKey 见 `.temp/asi-image-task/status.md` / `HEARTBEAT.md`，本次上下文中未保留可见 key。; 2026-07-04 11:38 Asia/Shanghai - 当前 ASI 队列固定规则仍然有效：筛选 live Base 中 `Mark=有询单`、`参考图片` 已存在、`商品主图`... [score=0.888 recalls=0 avg=0.620 source=memory/2026-07-04.md:13-14]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-04.md:3:6 -->
-- 2026-07-04 10:16 CST - Pre-compaction flush: Active task is the ongoing ASI image generation queue in Feishu direct conversation for account `logopress`. Continue processing 商品表 records where `Mark=有询单`, `参考图片` exists, and `商品主图` is empty; choose next product from live Base only after a lane is freed and parent-delivered.; Current strict process rules: one subagent per product; after each completed product, parent must verify local files, Base readback counts, accepted/rejected/skipped lists, and unsupported/duplicate outputs before sending images or spawning the next product.... [score=0.869 recalls=0 avg=0.620 source=memory/2026-07-04.md:3-6]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-04.md:7:7 -->
-- 2026-07-04 10:16 CST - Pre-compaction flush: Important behavioral reminder for resumes: do not start multiple product image subagents from the main session; if an active product subagent exists, monitor or parent-review it. If a subagent is stale/failed/completed-but-undelivered, inspect partial state and Base evidence before narrowed continuation. Do not treat exceptions as no task. [score=0.869 recalls=0 avg=0.620 source=memory/2026-07-04.md:7-7]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-04.md:17:20 -->
-- 2026-07-04 18:50 Asia/Shanghai - Pre-compaction flush: Active task remains the ASI 商品图队列 in Feishu direct conversation for account `logopress`: process live Base 商品表 records where `Mark=有询单`, `参考图片` exists, and `商品主图` is empty. After each parent-delivered product, scan live Base and dispatch exactly one next strict eligible product subagent.; Current hard process rules still apply: one subagent per product; parent must verify local files, Base readback counts, accepted/rejected/skipped lists, and unsupported/duplicate outputs before sending or dispatching next.... [score=0.837 recalls=0 avg=0.620 source=memory/2026-07-04.md:17-20]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-04.md:21:21 -->
-- 2026-07-04 18:50 Asia/Shanghai - Pre-compaction flush: Important resume instruction: if an active product subagent exists, monitor or parent-review it; do not spawn a duplicate. If a subagent is completed-but-undelivered, perform parent verification and send images before dispatching the next product. If stale/failed, inspect partial state and Base evidence, then do narrowed continuation only when appropriate. [score=0.837 recalls=0 avg=0.620 source=memory/2026-07-04.md:21-21]
-
 ## Promoted From Short-Term Memory (2026-07-09)
 
 <!-- openclaw-memory-promotion:memory:memory/2026-07-04.md:23:23 -->
@@ -58,3 +45,24 @@
 - Conversation Summary: assistant: LP4937_hero_gemini.png assistant: LP4937 已完成父级复核、回填确认和逐张交付；未采用 hero 草稿也已按原因发出。 [score=0.809 recalls=0 avg=0.620 source=memory/2026-07-06-0919.md:21-22]
 <!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:9:9 -->
 - Conversation Summary: assistant: 明白，刚才口径我修正了。 [score=0.809 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:9-9]
+
+## Promoted From Short-Term Memory (2026-07-10)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:21:24 -->
+- Conversation Summary: user: [OpenClaw heartbeat poll] user: [OpenClaw heartbeat poll] user: [OpenClaw heartbeat poll] user: [OpenClaw heartbeat poll] [score=0.880 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:21-24]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-06-0919.md:24:25 -->
+- Conversation Summary: 我已重新扫描 live Base：当前没有剩余符合 `Mark=有询单`、`参考图片` 已存在、`商品主图` 为空的商品，所以没有继续启动新的子任务。`HEARTBEAT.md` 已清空，避免后续空转。 assistant: Done. [score=0.848 recalls=0 avg=0.620 source=memory/2026-07-06-0919.md:24-25]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-06-0919.md:3:5 -->
+- Session: 2026-07-06 09:19:12 GMT+8: **Session Key**: agent:logopress:main; **Session ID**: 9cdab10d-7378-4edd-bc64-e9150306aae8; **Source**: feishu [score=0.848 recalls=0 avg=0.620 source=memory/2026-07-06-0919.md:3-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:12:15 -->
+- Conversation Summary: 总任务描述：从商品表筛选 `商品主图` 为空且 `参考图片` 有图的记录，按队列逐个生成 ASI 套图。; 全部任务要求：每个 subagent 只处理一个商品；先生成并回填干净无 logo 参考图；基于干净参考图生成套图；Oracle ChatGPT / Gemini 交替，禁用 Gemini 2.5 Flash Image；两条 Oracle 路径都失败后才 Codex；右下角四角星水印可判合格；英文 prompt，1:1，无中文/价格/QR，不虚构；合格图写回 `商品主图` 并逐张发给你。; 当前任务进度：已完成哪些商品、当前正在第几件、当前 subagent 状态、剩余队列怎么继续。; 当前商品计划：当前商品的 record_id / 产品编号 / 名称，以及接下来具体步骤。 [score=0.848 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:12-15]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:17:20 -->
+- Conversation Summary: 我已把这个要求写进 `.temp/asi-main-image-queue-20260706/HANDOFF.md` 和 `HEARTBEAT.md`。当前第二个 subagent 已经在跑，工具权限不允许我直接插话给它；如果它这次没有按新口径完整复述，我会在恢复/检查时补齐，并从下一个商品开始严格按这个格式执行。 user: [message_id: om_x100b6b854420388cc10536d740d57fd] 文森-练物-超级管理员: 允许同时处理两个产品分别两个subagent运行。一个subagent使用oracle，chatgpt/gemini交替生图（chatgpt优先且使用medium模型，gemini生成白底图），codex兜底，另一个subagent使用codex生图，oracle兜底。 user: [OpenClaw heartbeat poll] [score=0.848 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:17-20]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:3:5 -->
+- Session: 2026-07-06 14:29:49 GMT+8: **Session Key**: agent:logopress:main; **Session ID**: c51753ea-37f5-4ada-9159-323e42728602; **Source**: feishu [score=0.848 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:3-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:11:11 -->
+- Conversation Summary: 你要的“复述”是： [score=0.838 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:11-11]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:29:31 -->
+- Conversation Summary: user: [message_id: om_x100b6b802636fcb0c3ffaa5d74c7e9f] 文森-练物-超级管理员: 请继续任务 assistant: 继续任务已执行，并按你最新规则改成两个产品并行： [score=0.808 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:29-31]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:33:35 -->
+- Conversation Summary: 已核验完成：LP0394 已写回 8 张商品主图并发送；LP0398 已写回 7 张商品主图并发送。; 当前 Oracle 优先通道：LP0407 / recuQNGAa2MTCV，ChatGPT medium 优先，ChatGPT/Gemini 交替，白底图走 Gemini，Codex 兜底。; 当前 Codex 优先通道：LP0413 / recuQUCUOo3Gmh，Codex 优先，Oracle 兜底。 [score=0.807 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:33-35]
