@@ -1,6 +1,30 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
+# ── Git retry wrapper (3 attempts, exponential backoff: 5s, 15s, 30s) ──
+git_retry() {
+  local max_attempts=3
+  local delays=(5 15 30)
+  local attempt=1
+  while (( attempt <= max_attempts )); do
+    if "$@"; then
+      return 0
+    fi
+    if (( attempt < max_attempts )); then
+      echo "git_retry: attempt $attempt/$max_attempts failed for: $* - retrying in ${delays[$((attempt-1))]}s..." >&2
+      sleep "${delays[$((attempt-1))]}"
+    fi
+    attempt=$((attempt + 1))
+  done
+  echo "git_retry: all $max_attempts attempts exhausted for: $*" >&2
+  return 1
+}
+
+# ── Git HTTP transfer hardening ──
+export GIT_HTTP_LOW_SPEED_LIMIT=1000
+export GIT_HTTP_LOW_SPEED_TIME=30
+
+
 REPO="/Users/vincent/.openclaw/workspace-logopress"
 REMOTE="origin"
 LOCAL_BRANCH="local"
@@ -15,7 +39,7 @@ WORKTREE_ROOT="$HOME/.openclaw/tmp/workspace-logopress-main-sync"
 RUN_ID="$(date +%Y%m%d-%H%M%S)"
 TMP_BRANCH="cron-main-merge-$RUN_ID"
 WT="$WORKTREE_ROOT/$RUN_ID"
-LARGE_FILE_LIMIT_BYTES="${OPENCLAW_SYNC_LARGE_FILE_LIMIT_BYTES:-20971520}"
+LARGE_FILE_LIMIT_BYTES="${OPENCLAW_SYNC_LARGE_FILE_LIMIT_BYTES:-10485760}"
 
 mkdir -p "$LOG_DIR" "$WORKTREE_ROOT"
 exec > >(tee -a "$LOG_FILE") 2>&1
@@ -135,11 +159,11 @@ prepare_large_file_exclusions() {
   done < <(git diff --cached --name-only -z)
 
   if ((${#untracked_large[@]} > 0)); then
-    echo "Excluding untracked files >20MB via .git/info/exclude: ${untracked_large[*]}"
+    echo "Excluding untracked files >10MB via .git/info/exclude: ${untracked_large[*]}"
   fi
 
   if ((${#tracked_large[@]} > 0)); then
-    echo "Skipping tracked/staged files >20MB for this sync; handle manually or with Git LFS: ${tracked_large[*]}"
+    echo "Skipping tracked/staged files >10MB for this sync; handle manually or with Git LFS: ${tracked_large[*]}"
     git restore --staged -- "${tracked_large[@]}" 2>/dev/null || git reset -q HEAD -- "${tracked_large[@]}" || true
     for path in "${tracked_large[@]}"; do
       add_local_exclude "$path"
@@ -217,8 +241,8 @@ if [[ "$current_branch" != "$LOCAL_BRANCH" ]]; then
 fi
 
 # Bring remote refs up to date. origin/local may not exist before the first push, so fetch failures for that ref are tolerated.
-git fetch "$REMOTE" "$MAIN_BRANCH"
-git fetch "$REMOTE" "$LOCAL_BRANCH" || true
+git_retry git fetch "$REMOTE" "$MAIN_BRANCH"
+git_retry git fetch "$REMOTE" "$LOCAL_BRANCH" || true
 
 # Save workspace changes before pulling main. Files above 20MB are skipped so they do not block the rest of the sync.
 prepare_large_file_exclusions
@@ -236,9 +260,9 @@ fi
 # First absorb the latest main into local. On conflict, keep the side with the latest file commit time.
 merge_with_latest_conflict_policy "$REMOTE/$MAIN_BRANCH" "HEAD" "$LOCAL_BRANCH" "$MAIN_BRANCH"
 
-git push -u "$REMOTE" "$LOCAL_BRANCH"
+git_retry git push -u "$REMOTE" "$LOCAL_BRANCH"
 
-git fetch "$REMOTE" "$MAIN_BRANCH" "$LOCAL_BRANCH"
+git_retry git fetch "$REMOTE" "$MAIN_BRANCH" "$LOCAL_BRANCH"
 
 changed_files="$(git diff --name-status "$REMOTE/$MAIN_BRANCH".."$REMOTE/$LOCAL_BRANCH" || true)"
 if [[ -z "$changed_files" ]]; then
@@ -257,7 +281,7 @@ cd "$WT"
 # Then merge local into main. On conflict, keep the side with the latest file commit time.
 merge_with_latest_conflict_policy "$REMOTE/$LOCAL_BRANCH" "HEAD" "$MAIN_BRANCH" "$LOCAL_BRANCH"
 
-git push "$REMOTE" HEAD:"$MAIN_BRANCH"
+git_retry git push "$REMOTE" HEAD:"$MAIN_BRANCH"
 
 echo "Merged $MAIN_BRANCH -> $LOCAL_BRANCH, then $LOCAL_BRANCH -> $MAIN_BRANCH, and pushed both branches."
 echo "===== workspace sync complete: $(date '+%Y-%m-%d %H:%M:%S %Z') ====="
