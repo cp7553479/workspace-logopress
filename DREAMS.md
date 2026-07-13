@@ -1821,11 +1821,18 @@ Something kept failing at the handshake. Three times now the reach toward github
 
 A memory trace surfaced, but details were unavailable in this run.
 
+
+---
+
+*July 12, 2026 at 4:20 AM GMT+8*
+
+A memory trace surfaced, but details were unavailable in this run.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
 <!-- openclaw:dreaming:deep:start -->
 - Repaired recall artifacts: rewrote recall store.
-- Ranked 9 candidate(s) for durable promotion.
-- Promoted 9 candidate(s) into MEMORY.md.
+- Ranked 5 candidate(s) for durable promotion.
+- Promoted 5 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->

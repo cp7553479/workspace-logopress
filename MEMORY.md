@@ -28,41 +28,26 @@
 - 商品/电商生图水印提示词规则：生图 prompt 里禁止写任何关于右下角四角星水印的内容；该要求只作为审核标准传达给 subagent，审核时知道自然出现的右下角四角星水印可判合格即可。
 - 长期 ASI 商品图监控偏好：不要依赖 `HEARTBEAT.md`；使用 cron 定时任务周期性唤醒并投递到当前飞书私聊 session。当前 ASI 监控 cron 为 `asi-subagent-watch-current-session`，每 30 分钟运行一次，sessionTarget 固定到 `agent:global-trading-product:feishu:global-trading-product:direct:ou_61123e30e1c1bfd2d0d31af923d4982d`。
 
-## Promoted From Short-Term Memory (2026-07-09)
+## Promoted From Short-Term Memory (2026-07-12)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-07-04.md:23:23 -->
-- 2026-07-04 18:50 Asia/Shanghai - Pre-compaction flush: 2026-07-04 18:50 Asia/Shanghai - User updated ASI image acceptance rule: if a generated image has a small four-point star watermark in the lower-right corner, it is allowed to pass and should not be rejected for that reason alone. Other obvious watermarks, garbled text, brand/platform marks, QR codes, prices, URLs, and unsupported marks still follow the original rejection rules. Active product at this time: LP3930 (`recuYsAZXyNqVz`), sessionKey `agent:logopress:subagent:e3d103c1-4a36-4459-8c6d-d59b8f8b07db`. [score=0.886 recalls=0 avg=0.620 source=memory/2026-07-04.md:23-23]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-0919.md:13:16 -->
-- Conversation Summary: assistant: LP4937_clean_no_logo_chatgpt.png assistant: LP4937_white_gemini.png assistant: LP4937_hero_chatgpt_retry.png assistant: LP4937_lifestyle_chatgpt.png [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-06-0919.md:13-16]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-0919.md:9:12 -->
-- Conversation Summary: assistant: LP4933 已完成父级复核、纠正回填和逐张交付；错误尺寸图已从 Base 移除并作为 rejected 发出。下一条 LP4937 已按 live Base 条件选出并启动唯一子任务。 assistant: LP4933 已完成父级复核和交付；错误尺寸图已从 Base 移除并作为 rejected 发出。下一条 LP4937 已启动为唯一子任务，HEARTBEAT 已更新到该 session。 user: [OpenClaw heartbeat poll] assistant: LP4937 父级复核通过：Base 回读确认 `参考图片=1`、`白底图=1`、`商品主图=6`；accepted 8 张，本地文件均为有效 PNG。另有 `LP4937_hero_gemini.png` 未采用，已由 retry 版 hero 替换；下面逐张发送。 [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-06-0919.md:9-12]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-07.md:3:5 -->
+- Memory - 2026-07-07: 2026-07-07 11:21 CST - Pre-compaction flush only. No active user task beyond memory persistence; no Feishu-visible reply needed unless explicitly requested.; Current Feishu context is direct chat for account/workspace `logopress`; normal final replies are private, so visible chat replies require OpenClaw message send tool when appropriate.; Preserve canonical memory flush behavior: write only to `memory/2026-07-07.md`, never timestamped variants; treat `MEMORY.md`, `DREAMS.md`, `SOUL.md`, `TOOLS.md`, and `AGENTS.md` as read-only during flushes. [score=0.815 recalls=0 avg=0.620 source=memory/2026-07-07.md:3-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:37:39 -->
+- Conversation Summary: 我已更新 MEMORY、HANDOFF 和 HEARTBEAT。后续最多保持两个商品同时运行；任一通道完成或阻塞后，再补派下一件商品到空闲通道。 assistant: Background task cancelled: ASI套图-Codex优先-LP0413 (run 3d05cc8f). assistant: Background task cancelled: ASI套图-Oracle优先-LP0407 (run 26dd88d5). [score=0.812 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:37-39]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-06.md:3:6 -->
+- Memory - 2026-07-06: 2026-07-06 23:38 CST - Pre-compaction flush: Current active durable preferences from `MEMORY.md` remain important for ASI/product image work. Use the canonical Feishu Base token `SF9ibzjI4a0YFJsDZtKcLvtbnfh`; old base tokens/table IDs are obsolete. For ASI image batches, process only 商品表 records where `Mark=有询单`, `参考图片` is non-empty, and `商品主图` is empty. Generated images must be uploaded/written back to Base, verified by readback, and also sent one by one in Feishu chat.; 2026-07-06 23:38 CST - ASI image generation operating rules to preserve after compaction: use at most two product subagents in parallel.... [score=0.806 recalls=0 avg=0.620 source=memory/2026-07-06.md:3-6]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:25:28 -->
+- Conversation Summary: user: [OpenClaw heartbeat poll] user: [OpenClaw heartbeat poll] user: [OpenClaw heartbeat poll] user: [OpenClaw heartbeat poll] [score=0.801 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:25-28]
 
-## Promoted From Short-Term Memory (2026-07-09)
+## Promoted From Short-Term Memory (2026-07-14)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-0919.md:17:20 -->
-- Conversation Summary: assistant: LP4937_selling_point_gemini.png assistant: LP4937_dimension_chatgpt.png assistant: LP4937_sku_gemini.png assistant: LP4937_detail_chatgpt.png [score=0.809 recalls=0 avg=0.620 source=memory/2026-07-06-0919.md:17-20]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-0919.md:21:22 -->
-- Conversation Summary: assistant: LP4937_hero_gemini.png assistant: LP4937 已完成父级复核、回填确认和逐张交付；未采用 hero 草稿也已按原因发出。 [score=0.809 recalls=0 avg=0.620 source=memory/2026-07-06-0919.md:21-22]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:9:9 -->
-- Conversation Summary: assistant: 明白，刚才口径我修正了。 [score=0.809 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:9-9]
-
-## Promoted From Short-Term Memory (2026-07-10)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:21:24 -->
-- Conversation Summary: user: [OpenClaw heartbeat poll] user: [OpenClaw heartbeat poll] user: [OpenClaw heartbeat poll] user: [OpenClaw heartbeat poll] [score=0.880 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:21-24]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-0919.md:24:25 -->
-- Conversation Summary: 我已重新扫描 live Base：当前没有剩余符合 `Mark=有询单`、`参考图片` 已存在、`商品主图` 为空的商品，所以没有继续启动新的子任务。`HEARTBEAT.md` 已清空，避免后续空转。 assistant: Done. [score=0.848 recalls=0 avg=0.620 source=memory/2026-07-06-0919.md:24-25]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-0919.md:3:5 -->
-- Session: 2026-07-06 09:19:12 GMT+8: **Session Key**: agent:logopress:main; **Session ID**: 9cdab10d-7378-4edd-bc64-e9150306aae8; **Source**: feishu [score=0.848 recalls=0 avg=0.620 source=memory/2026-07-06-0919.md:3-5]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:12:15 -->
-- Conversation Summary: 总任务描述：从商品表筛选 `商品主图` 为空且 `参考图片` 有图的记录，按队列逐个生成 ASI 套图。; 全部任务要求：每个 subagent 只处理一个商品；先生成并回填干净无 logo 参考图；基于干净参考图生成套图；Oracle ChatGPT / Gemini 交替，禁用 Gemini 2.5 Flash Image；两条 Oracle 路径都失败后才 Codex；右下角四角星水印可判合格；英文 prompt，1:1，无中文/价格/QR，不虚构；合格图写回 `商品主图` 并逐张发给你。; 当前任务进度：已完成哪些商品、当前正在第几件、当前 subagent 状态、剩余队列怎么继续。; 当前商品计划：当前商品的 record_id / 产品编号 / 名称，以及接下来具体步骤。 [score=0.848 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:12-15]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:17:20 -->
-- Conversation Summary: 我已把这个要求写进 `.temp/asi-main-image-queue-20260706/HANDOFF.md` 和 `HEARTBEAT.md`。当前第二个 subagent 已经在跑，工具权限不允许我直接插话给它；如果它这次没有按新口径完整复述，我会在恢复/检查时补齐，并从下一个商品开始严格按这个格式执行。 user: [message_id: om_x100b6b854420388cc10536d740d57fd] 文森-练物-超级管理员: 允许同时处理两个产品分别两个subagent运行。一个subagent使用oracle，chatgpt/gemini交替生图（chatgpt优先且使用medium模型，gemini生成白底图），codex兜底，另一个subagent使用codex生图，oracle兜底。 user: [OpenClaw heartbeat poll] [score=0.848 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:17-20]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:3:5 -->
-- Session: 2026-07-06 14:29:49 GMT+8: **Session Key**: agent:logopress:main; **Session ID**: c51753ea-37f5-4ada-9159-323e42728602; **Source**: feishu [score=0.848 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:3-5]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:11:11 -->
-- Conversation Summary: 你要的“复述”是： [score=0.838 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:11-11]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:29:31 -->
-- Conversation Summary: user: [message_id: om_x100b6b802636fcb0c3ffaa5d74c7e9f] 文森-练物-超级管理员: 请继续任务 assistant: 继续任务已执行，并按你最新规则改成两个产品并行： [score=0.808 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:29-31]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-06-1429.md:33:35 -->
-- Conversation Summary: 已核验完成：LP0394 已写回 8 张商品主图并发送；LP0398 已写回 7 张商品主图并发送。; 当前 Oracle 优先通道：LP0407 / recuQNGAa2MTCV，ChatGPT medium 优先，ChatGPT/Gemini 交替，白底图走 Gemini，Codex 兜底。; 当前 Codex 优先通道：LP0413 / recuQUCUOo3Gmh，Codex 优先，Oracle 兜底。 [score=0.807 recalls=0 avg=0.620 source=memory/2026-07-06-1429.md:33-35]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-07.md:11:13 -->
+- Memory - 2026-07-07: 2026-07-07 11:50 CST - ASI image batch progress: LP0528 completed and parent-verified. Product: portable timer white noise night light Bluetooth speaker, record_id `recuR7yao62Zyb`. Clean reference used Codex/gpt-image-2 at 1254x1254; Codex batch suite failed (`fetch failed`, `Refresh token was revoked`), then Oracle fallback via browser `gemini-3.5-flash` produced 1024x1024 final suite. 8 images delivered: clean reference, white background, hero, lifestyle, selling point, dimension, material/detail, SKU/color. SKU used reliable MEDIUM WHITE and MEDIUM BLACK evidence.... [score=0.876 recalls=0 avg=0.620 source=memory/2026-07-07.md:11-13]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-07.md:15:17 -->
+- Memory - 2026-07-07: 2026-07-07 12:11 CST - User asked to restate the full ASI ecommerce image-suite requirements and continue proactively. Main session restated the complete rules: process `商品表` records with `Mark=有询单`, non-empty `参考图片`, empty `商品主图`; max two parallel products split into Oracle-priority and Codex-priority channels; each subagent handles one record only; before any generation, subagent must re-read `商品主图` and skip if already populated; first generate and backfill clean no-logo reference, then use it for white background and main suite; reliable multi-color evidence required for SKU; all image operations must use... [score=0.876 recalls=0 avg=0.620 source=memory/2026-07-07.md:15-17]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-07.md:7:10 -->
+- Memory - 2026-07-07: 2026-07-07 11:50 CST - ASI image batch progress: LP4961 was parent-verified and delivered. Base was backfilled with clean no-logo reference, 1 white-background image, and 5 product main images; 6 images were sent in Feishu (hero, white background, lifestyle, selling point, dimension, detail/material). SKU skipped because only one reliable natural bamboo color evidence existed.... [score=0.876 recalls=0 avg=0.620 source=memory/2026-07-07.md:7-10]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-08.md:3:3 -->
+- Memory - 2026-07-08: 2026-07-08 00:49 Asia/Shanghai - Pre-compaction flush: no new operational progress beyond what was already in MEMORY.md. [score=0.844 recalls=0 avg=0.620 source=memory/2026-07-08.md:3-3]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-08.md:5:5 -->
+- Memory - 2026-07-08: 2026-07-08 ~17:00 Asia/Shanghai - ASI 商品套图队列完成：对飞书主 Base 商品表 `Mark=有询单`、`参考图片` 非空、`商品主图` 为空的筛选条件执行 +record-search，返回 0 eligible records。所有 LP 系列商品均已处理闭环（包括历史批次和 2026-07-07/07-08 新增记录如 LP5247、LP5249、LP5250、LP5254、LP5258、LP5260、LP5276、LP5285、LP5290、LP5305 等）。队列当前无活跃 subagent，无待处理候选。如用户新增符合条件记录或修改筛选条件，队列可重新启动。 [score=0.844 recalls=0 avg=0.620 source=memory/2026-07-08.md:5-5]
