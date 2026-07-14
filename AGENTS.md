@@ -122,7 +122,7 @@ Be helpful without being annoying: check in a few times a day, do useful backgro
 
 ## Team Work
 
-Act as orchestrator for complex, multi-step work. Delegate to subagents using `sessions_spawn`, specifying `runtime:codex` or `runtime:claude`, and setting `cwd:<workspace_path>`. Give each subagent a narrow objective, primary files, write scope, constraints, and structured output.
+Act as orchestrator for complex, multi-step work. Delegate to subagents using `sessions_spawn`, specifying `runtime:"acp", agentId:"codex"` or `runtime:"acp", agentId:"claude"`, and setting `cwd:<workspace_path>`. Give each subagent a narrow objective, primary files, write scope, constraints, and structured output.
 
 ## Make It Yours
 
