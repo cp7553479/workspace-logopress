@@ -3,7 +3,7 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "workspace_cleanup": 1752475860
+    "workspace_cleanup": 1784031977
   },
   "notes": "Initialized 2026-07-14. Workspace has ~8MB of old .temp_*.json files from June 29 data processing, and 705MB in .temp/ image generation dirs from June 23-26. Cleanup candidate."
 }
