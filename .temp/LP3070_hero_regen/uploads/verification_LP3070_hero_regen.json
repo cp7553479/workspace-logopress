@@ -1,0 +1,28 @@
+{
+  "readback_file": ".temp/LP3070_hero_regen/uploads/readback_after.json",
+  "product": "LP3070",
+  "reference_tokens": [
+    "BNJlbTwuwoPkwcxS1LicwFoMngb"
+  ],
+  "white_tokens": [
+    "VR4FbTukNoI4nsxUrgic5iqXngd"
+  ],
+  "main_tokens": [
+    "TlFmbM6vtolfBexrbB2clGkKnq6",
+    "QpnKba8MAoPmihx0NScczAaBneg"
+  ],
+  "expected": {
+    "reference": "BNJlbTwuwoPkwcxS1LicwFoMngb",
+    "white": "VR4FbTukNoI4nsxUrgic5iqXngd",
+    "preserved_main": "TlFmbM6vtolfBexrbB2clGkKnq6",
+    "removed_old_hero": "Ez7xboKaVoXZvGxVvquckK4Innd",
+    "new_hero": "QpnKba8MAoPmihx0NScczAaBneg"
+  },
+  "verification": {
+    "reference_preserved": true,
+    "white_preserved": true,
+    "nonhero_main_preserved": true,
+    "old_hero_removed": true,
+    "new_hero_present": true
+  }
+}

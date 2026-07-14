@@ -1,0 +1,20 @@
+🧿 oracle 0.14.0 — Fine, I'll write the test for the AI too.
+Using Gemini web client for browser automation
+Browser model strategy is ignored for Gemini web runs.
+Session: image-type-amazon-style-ecommerce-35
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session image-type-amazon-style-ecommerce-35
+Launching browser mode (gemini-3.5-flash) with ~420 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Model selection evidence: requested=gemini-3.5-flash; resolved=(unavailable); status=unavailable; strategy=current; verified=no.
+Answer:
+http://googleusercontent.com/image_generation_content/295
+
+
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/LP3466_asi_recuYsANVG4xl1/outputs/LP3466_hero_logo.png*
+
+1m03s · gemini-3.5-flash[browser] · ↑420 ↓15 ↻0 Δ435
+files=7

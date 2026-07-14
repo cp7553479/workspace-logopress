@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "downloaded": [
+      {
+        "content_type": "image/jpeg",
+        "field_id": "fldr9B4JZT",
+        "file_token": "FnqnbsFpxoIqYIxWFDycB5senXd",
+        "name": "cleaned_reference_gemini_direct.jpg",
+        "record_id": "recuYsACVIzGFb",
+        "saved_path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP3166_hero_regen/references/cleaned_reference_gemini_direct.jpg",
+        "size": 406696,
+        "size_bytes": 406696
+      }
+    ]
+  }
+}

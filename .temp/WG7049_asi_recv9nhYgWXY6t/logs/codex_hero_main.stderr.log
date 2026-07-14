@@ -1,0 +1,18 @@
+codex-imagen: attached 6 reference image(s)
+codex-imagen: POST https://chatgpt.com/backend-api/codex/responses
+codex-imagen: model gpt-5.5
+codex-imagen: image model gpt-image-2
+codex-imagen: request accepted
+codex-imagen: image generation started
+codex-imagen: image generation running
+TypeError: terminated
+    at Fetch.onAborted (node:internal/deps/undici/undici:12141:53)
+    at Fetch.emit (node:events:508:28)
+    at Fetch.terminate (node:internal/deps/undici/undici:11300:14)
+    at Object.onError (node:internal/deps/undici/undici:12260:38)
+    at Request.onError (node:internal/deps/undici/undici:2754:31)
+    at Object.errorRequest (node:internal/deps/undici/undici:1641:17)
+    at TLSSocket.onHttpSocketClose (node:internal/deps/undici/undici:7173:14)
+    at TLSSocket.emit (node:events:520:35)
+    at node:net:346:12
+    at TCP.done (node:internal/tls/wrap:648:7)

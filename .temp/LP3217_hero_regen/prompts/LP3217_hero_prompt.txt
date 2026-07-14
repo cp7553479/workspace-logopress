@@ -1,0 +1,17 @@
+Create one new ASI ecommerce hero/main image for product LP3217, a retractable laptop keyboard cleaning brush with an ABS handle, soft black bristles, side slider, and black end caps. Use the attached product reference images to preserve the exact real product structure, proportions, materials, bristle shape, slider position, colors, and SKU evidence.
+
+Output a square 1:1 professional, beautiful, high-converting Amazon-style ecommerce hero image with a clean premium layout, strong visual hierarchy, balanced spacing, attractive lighting, polished commercial poster design, and no extra marketing text.
+
+Hero composition:
+- The largest left-side product should occupy about 80% of the visual emphasis and show the brush extended, cleanly lit on a white or very light premium background.
+- Use LOGO-WT.png logo file and print it naturally on the printable area of the main product in the hero image. The logo must be the supplied LogoPress / YOUR LOGO reference, and the visible text "YOUR LOGO" must not be omitted.
+- If the product in any reference image has a logo, sample logo, imprint, brand mark, manufacturer/platform mark, watermark, QR code, contact information, or URL, replace it with the logo from LOGO-WT.png or with plain text "YOUR LOGO" without any original graphic mark; do not show any original logo pattern from the reference image.
+- Include a bottom row showing all five verified color SKUs exactly once: grey, black, medium blue, light blue, and red. Do not invent any extra colors and do not omit any verified color.
+- You may include up to two small circular right-side inset images based on the attached detail/lifestyle references: one use-scene inset cleaning a laptop screen or keyboard, and one detail inset showing the soft bristles and retractable slider. Do not include a dimension diagram, dimension lines, dimension numbers, prices, discounts, labels, captions, or promotional claims.
+
+Hard constraints:
+- 1:1 aspect ratio.
+- English only if any text appears; no Chinese characters.
+- No prices, currency symbols, discounts, QR codes, watermarks, manufacturer information, supplier names, platform logos, contact information, URLs, or unrelated marks.
+- Do not change the real product structure, colors, material, accessories, size relationship, or retractable brush design.
+- Do not create a full image set; generate only this single hero/main image.

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "WG7067",
+        [
+          {
+            "file_token": "UT6obeDDnoUUCQxISe4cj4DRnuf",
+            "name": "19408368391769406193554.png",
+            "size": 1677242
+          }
+        ],
+        null,
+        null
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "产品编号",
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recv9nhU57zZXK"
+    ]
+  }
+}

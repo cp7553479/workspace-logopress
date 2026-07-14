@@ -1,0 +1,52 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        [
+          {
+            "file_token": "XVcdbIdEPoBMjxxO7NJcILNonSb",
+            "name": "LP3476_clean_no_logo.png",
+            "size": 1338981
+          }
+        ],
+        [
+          {
+            "file_token": "XbWGbp9ypolpcyxjRjjcYFObnAb",
+            "name": "LP3476_white_background.png",
+            "size": 658495
+          }
+        ],
+        null
+      ]
+    ],
+    "field_id_list": [
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "query_context": {
+      "field_scope": "selected_fields",
+      "record_scope": "all_records",
+      "search_scope": "fldHb6xDKX(产品编号)"
+    },
+    "record_id_list": [
+      "recuYsANVGLms1"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3389",
+        [
+          {
+            "file_token": "VBsxbW5QGorphzxp2DXcKYWQn3e",
+            "name": "LP3389_00_clean_no_logo_oracle_chatgpt.png",
+            "size": 1123600
+          }
+        ],
+        [
+          {
+            "file_token": "HRuQbFGucochJdxBJ8Ncyh3pnCh",
+            "name": "LP3389_01_white_background_oracle_gemini.png",
+            "size": 543698
+          },
+          {
+            "file_token": "JepBbzCw7omSAaxeX0Cc3qfsnCc",
+            "name": "LP3389_02_white_background_all_colors_oracle_gemini.png",
+            "size": 895755
+          }
+        ],
+        [
+          {
+            "file_token": "ILxobstrMoE4QqxbacXcnUfVnng",
+            "name": "LP3389_03_lifestyle_scene_codex.png",
+            "size": 2217423
+          },
+          {
+            "file_token": "AebkbejVXoHakdx3jn8cZt3Mnbf",
+            "name": "LP3389_04_selling_point_codex.png",
+            "size": 1683524
+          },
+          {
+            "file_token": "Oe6rbaMD1o66sTxCq5Tc9u6Wn2e",
+            "name": "LP3389_05_dimension_codex.png",
+            "size": 1005163
+          },
+          {
+            "file_token": "VtqubeTULo87lzx46aHcBlKBnBb",
+            "name": "LP3389_06_material_detail_codex.png",
+            "size": 1920070
+          },
+          {
+            "file_token": "FgiabKHC6oQzEjxxziIcYQpSn0e",
+            "name": "LP3389_08_hero_main_codex_LOGO-WT.png",
+            "size": 1766661
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "产品编号",
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsANVGFeyD"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

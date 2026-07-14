@@ -1,0 +1,11 @@
+Create a lifestyle ecommerce poster image for women's high-waist seamless workout shorts.
+
+Use the attached product reference images as the only source of truth for the shorts. The product must match the reference exactly: bright pink nylon seamless activewear shorts, high waistband, ribbed fabric texture, scrunch/glute contour seam, short leg length, stitched edges, and compression fit.
+
+Scene: a premium modern yoga and gym studio setting, with the shorts being worn during a natural workout pose such as stretching, yoga, cycling warm-up, or strength training. Show only a clean athletic crop needed to present the product; no face, no distracting tattoos, no readable body text.
+
+Visual style: professional, beautiful, high-converting Amazon-style ecommerce image, clean premium layout, strong visual hierarchy, attractive lighting, polished commercial poster design, modern typography. Lifestyle composition should look commercial and aspirational, not like a casual snapshot.
+
+Text: no headline text and no extra labels.
+
+Hard constraints: Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English if any appears, but prefer no visible text. Do not invent unsupported details. Ratio 1:1.

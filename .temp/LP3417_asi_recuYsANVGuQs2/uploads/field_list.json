@@ -1,0 +1,1354 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "fields": [
+      {
+        "description": "印刷工艺选项",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldtqMyrQn].LISTCOMBINE()",
+        "id": "fldtqMyrQn",
+        "name": "Imprint_Method",
+        "type": "formula"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldXAeAO3v].LISTCOMBINE()",
+        "id": "fldXAeAO3v",
+        "name": "Currency",
+        "type": "formula"
+      },
+      {
+        "description": "第1档加价代码",
+        "expression": "\"K/Z\"",
+        "id": "fld1ACyABj",
+        "name": "UD1",
+        "type": "formula"
+      },
+      {
+        "id": "fld7dfD9Vk",
+        "name": "Option_Name",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "1688采购价",
+        "id": "fld8TxZIL3",
+        "name": "1688价(元)",
+        "style": {
+          "percentage": false,
+          "precision": 2,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "商品是否含有液体/气体/电池/磁铁/木材等",
+        "id": "flde9cujLH",
+        "multiple": true,
+        "name": "运输风险提示",
+        "options": [
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "含液体"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "含气罐"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "含电池"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "含磁铁"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "含木材"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "description": "Net Price, Tier 2",
+        "id": "fldxZKHugn",
+        "name": "P2",
+        "style": {
+          "percentage": false,
+          "precision": 2,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldn5dP24T",
+        "name": "商品主图",
+        "type": "attachment"
+      },
+      {
+        "description": "第10档数量",
+        "id": "fldxWM3R4j",
+        "name": "Q10",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldByggP48",
+        "name": "Upcharge_Type",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "英文完整描述",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[flddjjhYcZ].LISTCOMBINE()",
+        "id": "flddjjhYcZ",
+        "name": "Description",
+        "type": "formula"
+      },
+      {
+        "id": "fldFxoXu2t",
+        "name": "产品重量(kg)",
+        "style": {
+          "percentage": false,
+          "precision": 3,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "id": "fld1rnue5i",
+        "name": "Option_Values",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldro7WO0M].LISTCOMBINE()",
+        "id": "fldro7WO0M",
+        "name": "Shipping_Items",
+        "type": "formula"
+      },
+      {
+        "description": "是否可无印刷售卖",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldyGrkDdC].LISTCOMBINE()",
+        "id": "fldyGrkDdC",
+        "name": "Sold_Unimprinted",
+        "type": "formula"
+      },
+      {
+        "description": "英寸尺寸值",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldxXvE22W].LISTCOMBINE()",
+        "id": "fldxXvE22W",
+        "name": "Size_Values",
+        "type": "formula"
+      },
+      {
+        "description": "第2档折扣代码",
+        "expression": "\"R\"",
+        "id": "fldaKhL9mW",
+        "name": "D2",
+        "type": "formula"
+      },
+      {
+        "id": "fldASbnxLS",
+        "name": "Base_Price_Criteria_1",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "id": "fldoQQU5d4",
+        "name": "产品颜色",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "Tier 1 Quantity for Tiered Pricing",
+        "id": "fld1s2z9s9",
+        "name": "Q1",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "第5档折扣代码",
+        "expression": "\"R\"",
+        "id": "fldoD6Tr6C",
+        "name": "D5",
+        "type": "formula"
+      },
+      {
+        "description": "报价包含内容",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldwvFXmyv].LISTCOMBINE()",
+        "id": "fldwvFXmyv",
+        "name": "Price_Includes",
+        "type": "formula"
+      },
+      {
+        "description": "整箱毛重(kg)",
+        "id": "fld9QTAxlL",
+        "name": "重量(箱子+产品)公斤",
+        "style": {
+          "percentage": false,
+          "precision": 1,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "LP+数字",
+        "id": "fldHb6xDKX",
+        "name": "产品编号",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "当前record_id",
+        "expression": "RECORD_ID()",
+        "id": "fldfwWSmG4",
+        "name": "record_id",
+        "type": "formula"
+      },
+      {
+        "description": "加急货期",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fld0Ma56Yx].LISTCOMBINE()",
+        "id": "fld0Ma56Yx",
+        "name": "Rush_Time",
+        "type": "formula"
+      },
+      {
+        "id": "fldFAy8Xes",
+        "name": "产品尺寸 高(cm)",
+        "style": {
+          "percentage": false,
+          "precision": 1,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldmImxGsM",
+        "name": "产品尺寸 长(cm)",
+        "style": {
+          "percentage": false,
+          "precision": 1,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldActooR0].LISTCOMBINE()",
+        "id": "fldActooR0",
+        "name": "Imprint_Size",
+        "type": "formula"
+      },
+      {
+        "description": "仅供参考的产品图片附件",
+        "id": "fldr9B4JZT",
+        "name": "参考图片",
+        "type": "attachment"
+      },
+      {
+        "id": "fldXoIwUty",
+        "name": "箱子尺寸 高(cm)",
+        "style": {
+          "percentage": false,
+          "precision": 1,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "按照货代大货起订量计算采购和运输成本，若想要达到30%毛利时的产品定价，作为P1或P2或P3参考值",
+        "expression": "ROUNDUP(((MAX(bitable::$table[tbl3KNB7zP8EQ1d0].$field[fld9RB8ycs]*bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldh6nJpXN]*bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldXoIwUty]/6000,bitable::$table[tbl3KNB7zP8EQ1d0].$field[fld9QTAxlL])/bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldM9LN4dw])*25+bitable::$table[tbl3KNB7zP8EQ1d0].$field[fld8TxZIL3])/0.7/7,2)",
+        "id": "fldGmb0jfi",
+        "name": "货代大货参考定价基准（30%毛利）",
+        "type": "formula"
+      },
+      {
+        "id": "fldPn9Nl6S",
+        "name": "Safety_Warnings",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "是否只能选一",
+        "id": "fldLnVOGWT",
+        "multiple": false,
+        "name": "Can_order_only_one",
+        "options": [
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "Y"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "N"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldARnVj2L].LISTCOMBINE()",
+        "id": "fldARnVj2L",
+        "name": "Shape",
+        "type": "formula"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldzPhFEWZ].LISTCOMBINE()",
+        "id": "fldzPhFEWZ",
+        "name": "Keywords",
+        "type": "formula"
+      },
+      {
+        "description": "Net Price, Tier 8",
+        "id": "fld8KnBQk0",
+        "name": "P8",
+        "style": {
+          "percentage": false,
+          "precision": 2,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldN01ULMK].LISTCOMBINE()",
+        "id": "fldN01ULMK",
+        "name": "Product_Sample",
+        "type": "formula"
+      },
+      {
+        "description": "第1档加价数量",
+        "expression": "1",
+        "id": "fldsMSMacu",
+        "name": "UQ1",
+        "type": "formula"
+      },
+      {
+        "description": "第9档数量",
+        "id": "fldSz0ZRkf",
+        "name": "Q9",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "第6档折扣代码",
+        "expression": "\"R\"",
+        "id": "fldgVhoTGu",
+        "name": "D6",
+        "type": "formula"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldgpI1cto].LISTCOMBINE()",
+        "id": "fldgpI1cto",
+        "name": "Imprint_Color",
+        "type": "formula"
+      },
+      {
+        "id": "fldsExhPlC",
+        "multiple": true,
+        "name": "Mark",
+        "options": [
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "1688下架了"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "子弹"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "重复产品"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "有询单"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fld1b67CPE].LISTCOMBINE()",
+        "id": "fld1b67CPE",
+        "name": "Origin",
+        "type": "formula"
+      },
+      {
+        "description": "第7档数量",
+        "id": "fldHROD0Dv",
+        "name": "Q7",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "是否需询价",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fld2cUJjNe].LISTCOMBINE()",
+        "id": "fld2cUJjNe",
+        "name": "QUR_Flag",
+        "type": "formula"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fld7JBKq7v].LISTCOMBINE()",
+        "id": "fld7JBKq7v",
+        "name": "Size_Group",
+        "type": "formula"
+      },
+      {
+        "description": "WG+数字；1688可提数字",
+        "id": "flddt0D3RE",
+        "name": "WG产品编号",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "id": "flds2DArkf",
+        "name": "产品材质",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fld21plSU3].LISTCOMBINE()",
+        "id": "fld21plSU3",
+        "name": "Product_Name",
+        "type": "formula"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldVNMjbpM].LISTCOMBINE()",
+        "id": "fldVNMjbpM",
+        "name": "Packaging",
+        "type": "formula"
+      },
+      {
+        "description": "下单是否必选",
+        "id": "fldnQcRvXG",
+        "multiple": false,
+        "name": "Req_for_order",
+        "options": [
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "Y"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "N"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "id": "fldh6nJpXN",
+        "name": "箱子尺寸 宽(cm)",
+        "style": {
+          "percentage": false,
+          "precision": 1,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "单个磅重",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldFTcJtwV].LISTCOMBINE()",
+        "id": "fldFTcJtwV",
+        "name": "Item_Weight",
+        "type": "formula"
+      },
+      {
+        "bidirectional": false,
+        "description": "父级商品记录",
+        "id": "fldMboSuRF",
+        "link_table": "tbl3KNB7zP8EQ1d0",
+        "name": "父记录",
+        "type": "link"
+      },
+      {
+        "description": "分销商仅查看",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldT2ZrX6l].LISTCOMBINE()",
+        "id": "fldT2ZrX6l",
+        "name": "Distributor_View_Only",
+        "type": "formula"
+      },
+      {
+        "id": "fldEP9IffW",
+        "name": "产品关键词",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "达到计费重15kg以上的产品数量，作为Q1或Q2或Q3参考值",
+        "expression": "ROUNDUP(15/(MAX(bitable::$table[tbl3KNB7zP8EQ1d0].$field[fld9RB8ycs]*bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldh6nJpXN]*bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldXoIwUty]/6000,bitable::$table[tbl3KNB7zP8EQ1d0].$field[fld9QTAxlL])/bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldM9LN4dw]),0)",
+        "id": "fldAAfbcQ8",
+        "name": "货代大货起订量标准",
+        "type": "formula"
+      },
+      {
+        "description": "第3档折扣代码",
+        "expression": "\"R\"",
+        "id": "fldqvvf48v",
+        "name": "D3",
+        "type": "formula"
+      },
+      {
+        "description": "产品图地址",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldUHf5JJl].LISTCOMBINE()",
+        "id": "fldUHf5JJl",
+        "name": "Prod_Image",
+        "type": "formula"
+      },
+      {
+        "description": "用于电商详情页产品介绍，完整描述产品特性、功能、卖点等任何从商家角度希望向顾客传达的信息",
+        "id": "fldUUI8Hki",
+        "name": "完整描述",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "第5档数量",
+        "id": "fld0umxN2O",
+        "name": "Q5",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldoThqxSN",
+        "name": "产品尺寸 宽(cm)",
+        "style": {
+          "percentage": false,
+          "precision": 1,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldzHXH84g].LISTCOMBINE()",
+        "id": "fldzHXH84g",
+        "name": "Artwork",
+        "type": "formula"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldXOe8f6N].LISTCOMBINE()",
+        "id": "fldXOe8f6N",
+        "name": "Product_URL",
+        "type": "formula"
+      },
+      {
+        "description": "第10档折扣代码",
+        "expression": "\"R\"",
+        "id": "fldWJ85o92",
+        "name": "D10",
+        "type": "formula"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldPHmxGIC].LISTCOMBINE()",
+        "id": "fldPHmxGIC",
+        "name": "Linename",
+        "type": "formula"
+      },
+      {
+        "id": "fldgjurf2j",
+        "name": "流程",
+        "reason": "field type is not supported yet",
+        "type": "not_support"
+      },
+      {
+        "description": "标准主题选项",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fld3REXwqM].LISTCOMBINE()",
+        "id": "fld3REXwqM",
+        "name": "Theme",
+        "type": "formula"
+      },
+      {
+        "expression": "IF(ISNULL(bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldbXeKNFw]),,IF(bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldByggP48]=\"Sample Charge\",\"Per Quantity\",\"Per Order\"))",
+        "id": "fldKC8RiGG",
+        "name": "Upcharge_Level",
+        "type": "formula"
+      },
+      {
+        "description": "产品编号镜像",
+        "expression": "bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldHb6xDKX]",
+        "id": "fldI24m9eT",
+        "name": "Product_Number",
+        "type": "formula"
+      },
+      {
+        "description": "Net Price, Tier 1",
+        "id": "fldwmqe9Pn",
+        "name": "P1",
+        "style": {
+          "percentage": false,
+          "precision": 2,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "Net Price, Tier 9",
+        "id": "fldmn9ttDj",
+        "name": "P9",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "内部ID",
+        "id": "flduZfKfEp",
+        "name": "id",
+        "style": {
+          "rules": [
+            {
+              "length": 3,
+              "type": "incremental_number"
+            }
+          ]
+        },
+        "type": "auto_number"
+      },
+      {
+        "description": "FOB发货地",
+        "expression": "IF(ISNULL(bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldMboSuRF]),\"Casper, WY 82601 USA\",)",
+        "id": "fld68LdXQu",
+        "name": "FOB Points",
+        "type": "formula"
+      },
+      {
+        "id": "fld5f3LV9i",
+        "name": "备注",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "第7档折扣代码",
+        "expression": "\"R\"",
+        "id": "fldRvl9f7Y",
+        "name": "D7",
+        "type": "formula"
+      },
+      {
+        "description": "外箱英寸尺寸",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldPg37pof].LISTCOMBINE()",
+        "id": "fldPg37pof",
+        "name": "Shipping_Dimensions",
+        "type": "formula"
+      },
+      {
+        "description": "标准材质选项",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldus4D5q3].LISTCOMBINE()",
+        "id": "fldus4D5q3",
+        "name": "Material",
+        "type": "formula"
+      },
+      {
+        "id": "fld8ifVx8f",
+        "name": "产品名称",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "常规货期",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldCpwefSu].LISTCOMBINE()",
+        "id": "fldCpwefSu",
+        "name": "Production_Time",
+        "type": "formula"
+      },
+      {
+        "description": "外箱磅重",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldmx9UF3M].LISTCOMBINE()",
+        "id": "fldmx9UF3M",
+        "name": "Shipping_Weight",
+        "type": "formula"
+      },
+      {
+        "description": "加印颜色说明",
+        "id": "fldXJnB4z5",
+        "name": "Additional_Color",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "id": "fld6YFlAS8",
+        "name": "产品类型",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "是否可低于起订量",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldnDQPgKN].LISTCOMBINE()",
+        "id": "fldnDQPgKN",
+        "name": "Less_Than_Min",
+        "type": "formula"
+      },
+      {
+        "description": "Net Price, Tier 3",
+        "id": "fldvbodMrv",
+        "name": "P3",
+        "style": {
+          "percentage": false,
+          "precision": 2,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "1688商品链接",
+        "id": "fldXcL0vwo",
+        "name": "来源(1688)",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "id": "fldaqaVMB1",
+        "name": "Base_Price_Name",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "Net Price, Tier 4",
+        "id": "fldYBHKBBA",
+        "name": "P4",
+        "style": {
+          "percentage": false,
+          "precision": 2,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldzPbQJ2z",
+        "name": "白底图",
+        "type": "attachment"
+      },
+      {
+        "description": "是否同步到ASI",
+        "id": "fldW9tz1Se",
+        "name": "选品",
+        "type": "checkbox"
+      },
+      {
+        "description": "第4档数量",
+        "id": "fld7k1NTWR",
+        "name": "Q4",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "产品描述的简化版",
+        "id": "fldwtQtwf5",
+        "name": "简要说明",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "id": "fldbXeKNFw",
+        "name": "Upcharge_Criteria_1",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "Net Price, Tier 6",
+        "id": "fldJhBDjXl",
+        "name": "P6",
+        "style": {
+          "percentage": false,
+          "precision": 2,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "第9档折扣代码",
+        "expression": "\"R\"",
+        "id": "fldsVglTJ9",
+        "name": "D9",
+        "type": "formula"
+      },
+      {
+        "description": "加印位置说明",
+        "id": "fldofh1j2X",
+        "name": "Additional_Location",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "营销场景或节假日的主题",
+        "id": "fldhpxIuni",
+        "name": "主题",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fld2tzS95g].LISTCOMBINE()",
+        "id": "fld2tzS95g",
+        "name": "Imprint_Location",
+        "type": "formula"
+      },
+      {
+        "description": "Net Price, Tier 7",
+        "id": "fldo0AW8eg",
+        "name": "P7",
+        "style": {
+          "percentage": false,
+          "precision": 2,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldvygM8tC].LISTCOMBINE()",
+        "id": "fldvygM8tC",
+        "name": "Price_Type",
+        "type": "formula"
+      },
+      {
+        "description": "是否支持当天出货",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldFg1TmeV].LISTCOMBINE()",
+        "id": "fldFg1TmeV",
+        "name": "Same_Day_Service",
+        "type": "formula"
+      },
+      {
+        "description": "服务费标记",
+        "expression": "IF(bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldByggP48]=\"Set-up Charge\",\"Required\",\"Optional\")",
+        "id": "fldmDyjS7W",
+        "name": "Service_Charge",
+        "type": "formula"
+      },
+      {
+        "id": "fldc0QD1Fs",
+        "name": "Base_Price_Criteria_2",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "英文简述",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldGsjKgab].LISTCOMBINE()",
+        "id": "fldGsjKgab",
+        "name": "Summary",
+        "type": "formula"
+      },
+      {
+        "id": "fldFByFGs0",
+        "multiple": false,
+        "name": "商品负责人",
+        "type": "user"
+      },
+      {
+        "description": "第1档加价值",
+        "expression": "SWITCH(bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldbXeKNFw],\"SMPL:Product Sample\",35,\"IMMD:Full color\",80,\"IMMD:Silkscreen\",50,\"IMMD:Laser Engraved\",50,\"IMMD:Embroidered\",80,\"IMMD:Foil Stamped\",50)",
+        "id": "fldlfnxPuH",
+        "name": "UP1",
+        "type": "formula"
+      },
+      {
+        "id": "fldVQEfx44",
+        "name": "产品简称",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "是否用于SEO",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldP02qwe6].LISTCOMBINE()",
+        "id": "fldP02qwe6",
+        "name": "SEO_FLG",
+        "type": "formula"
+      },
+      {
+        "description": "是否支持加急",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldVHcq4lR].LISTCOMBINE()",
+        "id": "fldVHcq4lR",
+        "name": "Rush_Service",
+        "type": "formula"
+      },
+      {
+        "description": "第2档数量",
+        "id": "fldmz23R4a",
+        "name": "Q2",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "第4档折扣代码",
+        "expression": "\"R\"",
+        "id": "fldXLsn91U",
+        "name": "D4",
+        "type": "formula"
+      },
+      {
+        "id": "fldDRGTKNF",
+        "name": "Upcharge_Name",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldCS8mxDV].LISTCOMBINE()",
+        "id": "fldCS8mxDV",
+        "name": "XID",
+        "type": "formula"
+      },
+      {
+        "description": "Net Price, Tier 5",
+        "id": "fldjDXiuGa",
+        "name": "P5",
+        "style": {
+          "percentage": false,
+          "precision": 2,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldY1KO5fj",
+        "multiple": false,
+        "name": "Option_Type",
+        "options": [
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "Product Option"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "Imprint Option"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "Shipping Option"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "id": "fldlBxqPgu",
+        "name": "分类",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "英文商品名",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldFUn3tmf].LISTCOMBINE()",
+        "id": "fldFUn3tmf",
+        "name": "Tradename",
+        "type": "formula"
+      },
+      {
+        "id": "fldQHW4iAm",
+        "name": "印刷方式",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "第1档折扣代码",
+        "expression": "\"R\"",
+        "id": "fldxuOjgNY",
+        "name": "D1",
+        "type": "formula"
+      },
+      {
+        "description": "标准分类选项",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldE5qklXh].LISTCOMBINE()",
+        "id": "fldE5qklXh",
+        "name": "Category",
+        "type": "formula"
+      },
+      {
+        "description": "装箱数，每箱装的产品数量",
+        "id": "fldM9LN4dw",
+        "name": "件数/箱",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "id": "fldU2Q4t4n",
+        "name": "Option_Additional_Info",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "description": "Net Price, Tier 10",
+        "id": "fld4RRasq8",
+        "name": "P10",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "第8档数量",
+        "id": "fldEk00C1U",
+        "name": "Q8",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "id": "fld9RB8ycs",
+        "name": "箱子尺寸 长(cm)",
+        "style": {
+          "percentage": false,
+          "precision": 1,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "第3档数量",
+        "id": "fldy4sRp6G",
+        "name": "Q3",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "第6档数量",
+        "id": "fldwnlMgOk",
+        "name": "Q6",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "description": "标准颜色选项",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fld79bHuho].LISTCOMBINE()",
+        "id": "fld79bHuho",
+        "name": "Product_Color",
+        "type": "formula"
+      },
+      {
+        "id": "fldCNg3j1l",
+        "name": "Upcharge_Criteria_2",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "id": "flddlselbP",
+        "name": "转ESP模板",
+        "reason": "field type is not supported yet",
+        "type": "not_support"
+      },
+      {
+        "description": "标准产品大类",
+        "dynamic_options_source": {
+          "field_id": "fldQ0pg4O9",
+          "table_id": "tblRC0xND13xs4l4"
+        },
+        "id": "fldaFGexbI",
+        "multiple": false,
+        "name": "Product_Type",
+        "options": [
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "Apparel \u0026 Outerwear"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "Automotive Accessories"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": " Awards \u0026 Trophies"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "Baby, Toddler, \u0026 Child Items"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "Bags \u0026 Luggage"
+          },
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": "Caps \u0026 Hats"
+          },
+          {
+            "hue": "Purple",
+            "lightness": "Lighter",
+            "name": "Drinkware"
+          },
+          {
+            "hue": "Green",
+            "lightness": "Lighter",
+            "name": "Electronics \u0026 Tech Products"
+          },
+          {
+            "hue": "Carmine",
+            "lightness": "Lighter",
+            "name": "Equipment and Business Services"
+          },
+          {
+            "hue": "Lime",
+            "lightness": "Lighter",
+            "name": "Food, Beverage, \u0026 Tobacco"
+          },
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "Health, Beauty \u0026 Wellness"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "Holiday \u0026 Religious Items"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "Home \u0026 Garden"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "Jewelry and Accessories"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "Key Chains"
+          },
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": "Kitchen \u0026 Dining"
+          },
+          {
+            "hue": "Purple",
+            "lightness": "Lighter",
+            "name": "Lanyards, Badges, \u0026 Badge Holders"
+          },
+          {
+            "hue": "Green",
+            "lightness": "Lighter",
+            "name": "Magnets \u0026 Buttons, Stickers \u0026 Decals"
+          },
+          {
+            "hue": "Carmine",
+            "lightness": "Lighter",
+            "name": "Other"
+          },
+          {
+            "hue": "Lime",
+            "lightness": "Lighter",
+            "name": "Party Supplies"
+          },
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "Pet Supplies"
+          },
+          {
+            "hue": "Orange",
+            "lightness": "Lighter",
+            "name": "Publications"
+          },
+          {
+            "hue": "Wathet",
+            "lightness": "Lighter",
+            "name": "School, Office, \u0026 Craft Supplies"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "Signs, Banners, Flags, \u0026 Displays"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "Sports, Fitness, \u0026 Outdoors"
+          },
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": "Storage \u0026 Organization"
+          },
+          {
+            "hue": "Purple",
+            "lightness": "Lighter",
+            "name": "Tools \u0026 Hardware"
+          },
+          {
+            "hue": "Green",
+            "lightness": "Lighter",
+            "name": "Toys, Games, \u0026 Novelties"
+          },
+          {
+            "hue": "Carmine",
+            "lightness": "Lighter",
+            "name": "Writing Instruments"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "description": "第8档折扣代码",
+        "expression": "\"R\"",
+        "id": "fldTbxZ0PF",
+        "name": "D8",
+        "type": "formula"
+      },
+      {
+        "description": "是否支持个性化",
+        "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fldg24QOCi].LISTCOMBINE()",
+        "id": "fldg24QOCi",
+        "name": "Personalization",
+        "type": "formula"
+      }
+    ],
+    "total": 134
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

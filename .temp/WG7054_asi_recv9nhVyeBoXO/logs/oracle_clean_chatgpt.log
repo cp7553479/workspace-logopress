@@ -1,0 +1,26 @@
+🧿 oracle 0.14.0 — Bottled prompt chaos, filtered answers.
+Session: wg7054-clean-reference
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session wg7054-clean-reference
+Launching browser mode (gpt-5.5) with ~305 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Browser control: launch visible Chrome; may focus/control the browser UI.
+[browser] Browser guidance: Manual-login mode may show the persistent Oracle Chrome profile for sign-in or automation.
+[browser] Browser guidance: Use --browser-hide-window, --browser-attach-running, or --remote-chrome to reduce desktop disruption.
+[browser] Acquired ChatGPT browser slot 042228c3 (3 max).
+[browser] Waiting for ChatGPT generated image response.
+[browser] No assistant download buttons found for button fallback.
+[browser] ChatGPT archive skipped (artifact-save-failed).
+[browser] Released ChatGPT browser slot 042228c3.
+[browser] Model selection evidence: requested=5.5 Medium; resolved=(unavailable); status=already-selected; strategy=current; verified=no.
+Answer:
+Processing product reference image
+
+Preview
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/WG7054_asi_recv9nhVyeBoXO/outputs/WG7054_clean_no_logo.png*
+
+1m56s · gpt-5.5[browser] · ↑305 ↓47 ↻0 Δ352
+files=1

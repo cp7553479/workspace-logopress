@@ -1,0 +1,254 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "9.5",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": null,
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": null,
+        "Currency": null,
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": null,
+        "Distributor_View_Only": null,
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": null,
+        "Imprint_Location": null,
+        "Imprint_Method": null,
+        "Imprint_Size": null,
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": null,
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": null,
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": null,
+        "P1": "2.96057142857142",
+        "P10": null,
+        "P2": "2.90674285714285",
+        "P3": "2.85291428571428",
+        "P4": "2.826",
+        "P5": "2.55685714285714",
+        "P6": "2.50302857142857",
+        "P7": "2.47611428571428",
+        "P8": "2.42228571428571",
+        "P9": null,
+        "Packaging": null,
+        "Personalization": null,
+        "Price_Includes": null,
+        "Price_Type": null,
+        "Prod_Image": null,
+        "Product_Color": null,
+        "Product_Name": null,
+        "Product_Number": [
+          {
+            "text": "WG7049",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": null,
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": null,
+        "Q1": "300",
+        "Q10": null,
+        "Q2": "500",
+        "Q3": "1000",
+        "Q4": "2000",
+        "Q5": "5000",
+        "Q6": "10000",
+        "Q7": "20000",
+        "Q8": "50000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": null,
+        "Rush_Time": null,
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": null,
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": null,
+        "Shipping_Items": null,
+        "Shipping_Weight": null,
+        "Size_Group": null,
+        "Size_Values": null,
+        "Sold_Unimprinted": null,
+        "Summary": null,
+        "Theme": null,
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG7049",
+        "XID": null,
+        "id": "7147",
+        "record_id": [
+          {
+            "text": "recv9nhYgWXY6t",
+            "type": "text"
+          }
+        ],
+        "主题": "Health \u0026 Fitness  \nSports  \nWellness  \nEntertainment\nVacations",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon 3 Levels Home Exercise,\r\nGym Yoga Women Long,\r\nResistance Band Walking Pad,\r\nWorkout Sets For Dumbbell Set,\r\nKettlebells Bands Rubber,\r\nWeights Pilates Equipment,\r\nWorking Out Selling Items,\r\nElderly Steppers At Fitness,\r\nAb Roller Ball Medicine Ring,\r\nWoman Theraband Speed Stretch,\r\nWomens 10 Lb Dumbbells Pair,\r\nCalisthenics With Handles,\r\nWork Blood Pressure Cuff,\r\nWrist Pull Up Assistance Kit,\r\nSoccer Training Trx,\r\nSuspension Elastic Sports,\r\nAccessories Loop The People,\r\nLimited Time Deals Of Day,\r\nIron Loops Stretching Strap,\r\nPlus Size Booty Leg Large,\r\nEssentials Guantes Para Mujer,\r\nAqua Sculpt Men Physical,\r\nTherapy Gymshark Ankle Straps,\r\nBack Extension Machine Better",
+        "产品名称": "3 levels home exercise gym yoga women long resistance band",
+        "产品尺寸 宽(cm)": "3",
+        "产品尺寸 长(cm)": "200",
+        "产品尺寸 高(cm)": "0",
+        "产品材质": "Polyester",
+        "产品简称": null,
+        "产品类型": "Sports,Fitness,\u0026Outdoors",
+        "产品编号": "WG7049",
+        "产品重量(kg)": null,
+        "产品颜色": "Light pink/light purple/dark purple/green/pink/purple/light gray/dark gray/black",
+        "件数/箱": "150",
+        "分类": "SPORTS EQUIPMENT \u0026 ACCESS/\nEXERCISE EQUIPMENT",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/Embroidered",
+        "参考图片": [
+          {
+            "file_token": "UcdFbmvAwoCZy2xUKCQc9k9ynXb",
+            "name": "-1649225851769406219182.png",
+            "size": 749643,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=UcdFbmvAwoCZy2xUKCQc9k9ynXb\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4964%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/UcdFbmvAwoCZy2xUKCQc9k9ynXb/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4964%7D%7D"
+          }
+        ],
+        "商品主图": null,
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "【0106修改起订量/价格/工期】\n健身用品-200*3CM长阻力带（另有套装组合，有需要可以联系客服）起订量300；\n8.5+200布标费 工期14-18天左右",
+        "完整描述": "Fabric resistance bands for working out help to exercise your glutes and legs. Long resistance bands for working out focus on the upper body, chest, shoulders, and back. The perfect 3-level cloth resistance bands work together to help you shape a beautiful figure and relieve pressure and fatigue effectively. The long exercise bands with resistance can be used as stretching bands, physical therapy bands, weight bands, cross-training bands, yoga bands, Pilates bands, etc. The most powerful fitness bands for women and men! You can put the stretch bands for exercise in your gym bag without taking up much space. Applicable for resistance training during travel, at home, in the gym, office, outdoors, etc. For 3 levels combination set , please contact customer service for details.",
+        "来源(1688)": "https://detail.1688.com/offer/677774494488.html?fromkv=cbuPcPlugin:imageSearchDrawerCard\u0026spm=a2639h.29135425.offerlist.i3\u0026source=action%23offerItem%3Borigin%23detail.1688.com\u0026amug_biz=oneself\u0026amug_fl_src=awakeId_982",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": null,
+        "简要说明": "Our long resistance bands comes with 3 levels, perfect for new athletes, fitness buffs, men and women. Rush service is available.",
+        "箱子尺寸 宽(cm)": "37",
+        "箱子尺寸 长(cm)": "53",
+        "箱子尺寸 高(cm)": "34",
+        "货代大货参考定价基准（30%毛利）": 2.83,
+        "货代大货起订量标准": 87,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "26"
+      },
+      "id": "recv9nhYgWXY6t",
+      "record_id": "recv9nhYgWXY6t"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

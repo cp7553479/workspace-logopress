@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsACVIDm7w": {
+        "fldn5dP24T": [
+          {
+            "file_token": "TlFmbM6vtolfBexrbB2clGkKnq6",
+            "name": "asi_function_detail_gemini.png",
+            "size": 1035905
+          },
+          {
+            "file_token": "QpnKba8MAoPmihx0NScczAaBneg",
+            "name": "LP3070_asi_hero_regen_gemini.png",
+            "size": 1241066
+          }
+        ]
+      }
+    }
+  }
+}

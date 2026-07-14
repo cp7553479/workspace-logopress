@@ -1,0 +1,12 @@
+🧿 oracle 0.14.0 — We QA the AI so you can ship the code.
+Using Gemini web client for browser automation
+Browser model strategy is ignored for Gemini web runs.
+Session: lp3426-sku-chart-gemini
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session lp3426-sku-chart-gemini
+Launching browser mode (gemini-3.5-flash) with ~225 tokens.
+This run can take up to an hour (usually ~10 minutes).
+ERROR: fetch failed
+User error (browser-automation): fetch failed

@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsBlcDpKN3": {
+        "fldn5dP24T": [
+          {
+            "file_token": "NDjkbxq6UoSkE5xzaLvckw3CnCd",
+            "name": "lifestyle_scene_oracle_chatgpt.png",
+            "size": 1674725
+          },
+          {
+            "file_token": "GxSvb5lBfojlYuxY5nRczQ1dnQc",
+            "name": "selling_point_oracle_chatgpt_retry.png",
+            "size": 1903087
+          },
+          {
+            "file_token": "CrGNbk9d0o8GO1xRSMocZWXHnAg",
+            "name": "dimension_chart_oracle_chatgpt.png",
+            "size": 1060268
+          },
+          {
+            "file_token": "By8jbbbfpodIWdx7lfXcOexmnbb",
+            "name": "material_detail_oracle_gemini.png",
+            "size": 903280
+          },
+          {
+            "file_token": "PULCblMNgowud0xgK58cjBgkn8N",
+            "name": "sku_color_chart_oracle_chatgpt.png",
+            "size": 1014356
+          },
+          {
+            "file_token": "SFzNbThZooENGkx5rRzcmcOZnSc",
+            "name": "hero_main_oracle_gemini_logo.png",
+            "size": 736140
+          },
+          {
+            "file_token": "BZAhbuSm9oIWmhx5Sf7cze4unrb",
+            "name": "LP5502_hero_main_oracle_gemini.png",
+            "size": 778780
+          }
+        ]
+      }
+    }
+  }
+}

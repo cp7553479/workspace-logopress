@@ -1,0 +1,9 @@
+Clean product reference image for ecommerce generation.
+
+Use the attached product reference image. Generate a new clean no-logo product reference image of the same collapsible silicone water bottle on a pure white background.
+
+Remove every visible logo, sample logo, placeholder imprint, brand mark, manufacturer/platform mark, QR code, watermark, contact information, and website URL from the product. In particular, remove the visible "YOUR LOGO" imprint from the bottle body and leave the printable area completely blank.
+
+Preserve the real product exactly: same collapsible silicone water bottle, same shape, same foldable accordion body, same lid and loop handle, same color set shown in the reference, same proportions, same material texture, same lighting direction, same shadows, same product angle, and the small color SKU swatches shown in the reference. Do not redesign the product. Do not invent unsupported colors, parts, accessories, or text.
+
+Professional, beautiful, high-converting Amazon-style ecommerce image, clean premium layout, strong visual hierarchy, attractive lighting, polished commercial poster design, modern typography. Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English. Do not invent unsupported details. Ratio 1:1.

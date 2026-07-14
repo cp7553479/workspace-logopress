@@ -1,0 +1,50 @@
+Uploading attachment: LP3892_hero_oracle_chatgpt.png -> record recuYsANVGKPjF field 商品主图
+Uploading attachment: LP3892_material_detail_oracle_chatgpt.png -> record recuYsANVGKPjF field 商品主图
+Uploading attachment: LP3892_lifestyle_v2_oracle_chatgpt.png -> record recuYsANVGKPjF field 商品主图
+Uploading attachment: LP3892_dimensions_oracle_chatgpt.png -> record recuYsANVGKPjF field 商品主图
+Uploading attachment: LP3892_sku_chart_v2_oracle_gemini.png -> record recuYsANVGKPjF field 商品主图
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsANVGKPjF": {
+        "fldn5dP24T": [
+          {
+            "file_token": "XwklbIa1gogw5zxOjbMca0VLnqf",
+            "name": "LP3892_hero_oracle_chatgpt.png",
+            "size": 1396443
+          },
+          {
+            "file_token": "Nk7vbl8aGolecDx8FoBcWL53nih",
+            "name": "LP3892_material_detail_oracle_chatgpt.png",
+            "size": 2391149
+          },
+          {
+            "file_token": "HVlobubL0oR3xVxP7vqcUD2Snqo",
+            "name": "LP3892_lifestyle_v2_oracle_chatgpt.png",
+            "size": 2299737
+          },
+          {
+            "file_token": "ORf6bmPhvoa34Mxf4SacztT9nVe",
+            "name": "LP3892_dimensions_oracle_chatgpt.png",
+            "size": 1097619
+          },
+          {
+            "file_token": "WICXb8OPNoka8wxIK5CcLGADnTb",
+            "name": "LP3892_sku_chart_v2_oracle_gemini.png",
+            "size": 753736
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

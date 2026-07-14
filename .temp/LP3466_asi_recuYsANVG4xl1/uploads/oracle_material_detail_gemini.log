@@ -1,0 +1,12 @@
+🧿 oracle 0.14.0 — Because vibes aren't a deliverable.
+Using Gemini web client for browser automation
+Browser model strategy is ignored for Gemini web runs.
+Session: image-type-amazon-style-ecommerce-31
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session image-type-amazon-style-ecommerce-31
+Launching browser mode (gemini-3.5-flash) with ~258 tokens.
+This run can take up to an hour (usually ~10 minutes).
+ERROR: terminated
+User error (browser-automation): terminated

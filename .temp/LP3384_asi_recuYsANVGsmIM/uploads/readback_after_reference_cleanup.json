@@ -1,0 +1,254 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "8",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": null,
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": null,
+        "Currency": null,
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": null,
+        "Distributor_View_Only": null,
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": null,
+        "Imprint_Location": null,
+        "Imprint_Method": null,
+        "Imprint_Size": null,
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": null,
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": null,
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": null,
+        "P1": "2.43",
+        "P10": null,
+        "P2": "2.15136",
+        "P3": "2.11152",
+        "P4": "2.0916",
+        "P5": "1.89239999999999",
+        "P6": "1.85256",
+        "P7": "1.83263999999999",
+        "P8": "1.7928",
+        "P9": null,
+        "Packaging": null,
+        "Personalization": null,
+        "Price_Includes": null,
+        "Price_Type": null,
+        "Prod_Image": null,
+        "Product_Color": null,
+        "Product_Name": null,
+        "Product_Number": [
+          {
+            "text": "LP3384",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": null,
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": null,
+        "Q1": "50",
+        "Q10": null,
+        "Q2": "100",
+        "Q3": "200",
+        "Q4": "500",
+        "Q5": "1000",
+        "Q6": "2000",
+        "Q7": "5000",
+        "Q8": "10000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": null,
+        "Rush_Time": null,
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": null,
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": null,
+        "Shipping_Items": null,
+        "Shipping_Weight": null,
+        "Size_Group": null,
+        "Size_Values": null,
+        "Sold_Unimprinted": null,
+        "Summary": null,
+        "Theme": null,
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG3417",
+        "XID": null,
+        "id": "3482",
+        "record_id": [
+          {
+            "text": "recuYsANVGsmIM",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary;Christmas;Vacations;Travel;Automotive",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Sunglass Holder For,\r\nCar Sunglasses Clip Visor,\r\nAutomotive Consoles \u0026,\r\nOrganizers Glasses Mens,\r\nAccessories Toyota Corolla,\r\nWomen Clips Cars St,\r\nChristopher Medal Gadgets,\r\nRange Rover Kuromi Honda,\r\nRebel 500 Handicap Placard,\r\nScat Pack Auto Portavasos,\r\nPara Carro Accesorios De,\r\nOrganization Jdm Kia Forte,\r\n2024 Exterior Crochet Lexus,\r\nStore Work Truck Interior 2,\r\nMen Organizer Girl Sun Cool,\r\nBronco Eyeglass Porta Lentes,\r\nGlass In Holders Accessory,\r\nStuff Lincoln Magnetic,\r\nLeather Mustang Gafas Suede,\r\nMultifunctional Yuoyar Jeep,\r\nPorsche Macan 1994 Wrangler,\r\nYj Crown Isuzu Dmax Mazda3,\r\nNissan Nv3500 Eyeglasses Case,\r\nTesla Essentials Photo 2011",
+        "产品名称": "Magnetic PU Leather Clip Sunglasses Holders for Car Visor",
+        "产品尺寸 宽(cm)": "9",
+        "产品尺寸 长(cm)": "4.5",
+        "产品尺寸 高(cm)": "7.5",
+        "产品材质": "Polyurethane (PUR or PU)",
+        "产品简称": null,
+        "产品类型": "Automotive Accessories",
+        "产品编号": "LP3384",
+        "产品重量(kg)": null,
+        "产品颜色": "black; red; beige; grey; light blue; yellow; brown; pink; white; burgundy",
+        "件数/箱": "500",
+        "分类": "EYEGLASS CASES \u0026 HOLDERS;AUTO ACCESSORIES",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "FwKZbUvJXo5bi9xYd6PcZyJhnDe",
+            "name": "LP3384_clean_no_logo_oracle_chatgpt.png",
+            "size": 1412779,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=FwKZbUvJXo5bi9xYd6PcZyJhnDe\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4974%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/FwKZbUvJXo5bi9xYd6PcZyJhnDe/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4974%7D%7D"
+          }
+        ],
+        "商品主图": null,
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "[\"眼镜及配件\"]",
+        "完整描述": "Experience the elegance and durability of our car sunglass holder, expertly crafted from premium PU leather. The soft clips ensure your visor and sunglasses remain scratch-free and intact, while the luxurious feel and long-lasting properties make these holders a great choice for any vehicle. Designed with a simple clip-on mechanism, our sunglass holders fit nearly every vehicle. Allowing for one-handed operation, you can quickly and easily access your sunglasses via the magnetic flap. No need to worry about your belongings suddenly falling out during use. The compact size saves space and does not interfere with the use of rearview mirrors. With a stylish look and various colors, our car sunglass holders not only keep your vehicle's interior neat and tidy, but also add a touch of style.",
+        "来源(1688)": "https://detail.1688.com/offer/664626684259.html?spm=a2639h.29135425.offerlist.i0\u0026source=action%23offerItem%3Borigin%23espweb.asicentral.com",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": null,
+        "简要说明": "Our PU leather car sunglass holder offers a secure magnetic flap to keep your car's interior organized. Rush service is available.",
+        "箱子尺寸 宽(cm)": "46",
+        "箱子尺寸 长(cm)": "46",
+        "箱子尺寸 高(cm)": "46",
+        "货代大货参考定价基准（30%毛利）": 2,
+        "货代大货起订量标准": 209,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "36"
+      },
+      "id": "recuYsANVGsmIM",
+      "record_id": "recuYsANVGsmIM"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3217",
+        [
+          {
+            "file_token": "MP0JbOfU4odGTlxTRKHcCQdCnMZ",
+            "name": "reference_cleaned_oracle.png",
+            "size": 1201549
+          }
+        ],
+        [
+          {
+            "file_token": "UtYnbxCvioOVhkxs3XYct0sOnLd",
+            "name": "LP3217_white_background.png",
+            "size": 790186
+          }
+        ],
+        [
+          {
+            "file_token": "T8oUbLMtZoGgidxT4pTcqUa9n7d",
+            "name": "LP3217_asi_detail.png",
+            "size": 1157160
+          },
+          {
+            "file_token": "X970bEmL9oai4wxiJ8QcZzYqnfc",
+            "name": "LP3217_asi_lifestyle_chatgpt_retry.png",
+            "size": 1626825
+          },
+          {
+            "file_token": "IKLWboHlgoO7j5x8Q9QcUojEnhc",
+            "name": "LP3217_hero_main_oracle_gemini_retry_LOGO-WT.png",
+            "size": 816119
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldI24m9eT",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "Product_Number",
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "query_context": {
+      "field_scope": "selected_fields",
+      "record_scope": "filtered_records"
+    },
+    "record_id_list": [
+      "recuYsACVIUO4i"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3202",
+        [
+          {
+            "file_token": "RLYbbwuHjopiFZx6sDicBKwHnCh",
+            "name": "cleaned_no_logo.png",
+            "size": 1149186
+          }
+        ],
+        [
+          {
+            "file_token": "RYSYbmzXAobfs2xKOh4cGe6ynnd",
+            "name": "white_background.png",
+            "size": 552074
+          }
+        ],
+        [
+          {
+            "file_token": "VfEsbEHZJoWNATxStq6cOnQIngd",
+            "name": "asi_lifestyle_desk_retry.png",
+            "size": 1765323
+          },
+          {
+            "file_token": "NNXIbXMXVoCY5bxoKvDcLxHonbc",
+            "name": "asi_usage_closeup_retry.png",
+            "size": 1735324
+          },
+          {
+            "file_token": "Sm7Mbpv3QoJfuExpHdNczjnGnLb",
+            "name": "LP3202_asi_hero_regen_oracle_chatgpt.png",
+            "size": 1222751
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldI24m9eT",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "Product_Number",
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsACVInTaO"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recv9nhKXHviX2": {
+        "fldn5dP24T": [
+          {
+            "file_token": "Ex5FbIAB5oknbhx6m0ycXXwYn1b",
+            "name": "WG7090_hero_logo.png",
+            "size": 1305819
+          },
+          {
+            "file_token": "ERvRb1jppodsTwx8gwvcs7LKnMc",
+            "name": "WG7090_scene_home_office.png",
+            "size": 1905841
+          },
+          {
+            "file_token": "RNbQb7l7do63DLxB58gc1VepnEf",
+            "name": "WG7090_selling_point.png",
+            "size": 851515
+          },
+          {
+            "file_token": "DIwDbR6IfoBKBMxm6SkcaxKmnCg",
+            "name": "WG7090_dimension.png",
+            "size": 1010188
+          },
+          {
+            "file_token": "DubLbI4h8ogqDbxi1ljcXzC0nce",
+            "name": "WG7090_material_detail.png",
+            "size": 740881
+          }
+        ]
+      }
+    }
+  }
+}

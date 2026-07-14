@@ -1,0 +1,7 @@
+Edit the provided product reference image into a clean no-logo product reference for ecommerce image generation.
+
+Keep the exact real product details from the reference image: the black round metal meat press with raised grid ribs, light wooden cylindrical handle, black handle brackets, visible screw ends, circular shape, proportions, lighting, shadows, and the small inset/variant views that show the same product family. Preserve the real black and silver/metal product variants shown in the reference; do not add any new colors, shapes, accessories, or product parts.
+
+Remove any visible logo artwork, sample logo, brand mark, imprint, manufacturer/platform mark, QR code, watermark, contact information, and URL from the product surfaces and from the image. Specifically remove the white sample logo graphic and "YOUR LOGO" text from the black product surface while keeping the metal surface texture and grid ribs natural and intact.
+
+The output should remain a clean product reference image on a white background, suitable for later Amazon-style ecommerce product image generation. Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English only if any text is unavoidable, but prefer no text. Do not invent unsupported details. Ratio 1:1.

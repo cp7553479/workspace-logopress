@@ -1,0 +1,7 @@
+Generate a professional white-background ecommerce product image for an A4 multifunctional business contract office document folder.
+
+Use the attached clean no-logo reference image as the only source of truth. Show the product clearly on a pure white background with professional studio lighting, realistic soft shadows, and a clean Amazon-style product listing composition. Preserve the real product structure: PU leather folder, open portfolio layout, interior pockets, card slots, ID window, center spine, stitched edges, metal clipboard clip, and the documented available colors: silver/gray, blue, brown, and black. Do not include unsupported colors.
+
+Create one clean white-background product image that is suitable as a Base white-background reference. The main product should be the gray/silver open folder, with a small neat bottom row of supported color variants only if it can be shown naturally from the reference evidence. No lifestyle background, no decorative objects.
+
+No logo, no sample logo, no brand mark, no imprint, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. Product must be 100% identical to reference in all details (shape, texture, parts). All text in English if any unavoidable text remains, but ideally no visible text. Do not invent unsupported details. Ratio 1:1.

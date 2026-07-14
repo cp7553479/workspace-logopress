@@ -1,0 +1,5 @@
+Image type: hero main image
+Route: Oracle ChatGPT, model 5.5 Medium / gpt-5.5 existing session lp7252-hero-image
+Output requested: outputs/hero_chatgpt.png
+Result: blocked for delivery after completed browser session
+Evidence: oracle session captured a generated image response but no hero_chatgpt.png and no image artifact existed under ~/.oracle/sessions/lp7252-hero-image/artifacts; transcript contained only “Thought for 2m 41s”.

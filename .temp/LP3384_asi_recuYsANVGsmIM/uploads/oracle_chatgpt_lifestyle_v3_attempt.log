@@ -1,0 +1,26 @@
+🧿 oracle 0.14.0 — Calm prompt, converged truths.
+Session: create-a-profession-beautiful-high-301
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session create-a-profession-beautiful-high-301
+Launching browser mode (gpt-5.5) with ~216 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Browser control: launch visible Chrome; may focus/control the browser UI.
+[browser] Browser guidance: Manual-login mode may show the persistent Oracle Chrome profile for sign-in or automation.
+[browser] Browser guidance: Use --browser-hide-window, --browser-attach-running, or --remote-chrome to reduce desktop disruption.
+[browser] Acquired ChatGPT browser slot 911172ee (3 max).
+[browser] Waiting for ChatGPT generated image response.
+[browser] Waiting for ChatGPT response - 30s elapsed; no thinking status detected yet.
+[browser] No assistant download buttons found for button fallback.
+[browser] Released ChatGPT browser slot 911172ee.
+ERROR: No images generated. Response text:
+Thinking
+Generating a more detailed image — hang tight.
+Preview
+file_0000000037cc7208917efbccd02343fc: fetch failed
+User error (browser-automation): No images generated. Response text:
+Thinking
+Generating a more detailed image — hang tight.
+Preview
+file_0000000037cc7208917efbccd02343fc: fetch failed

@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "downloaded": [
+      {
+        "content_type": "image/jpeg",
+        "field_id": "fldr9B4JZT",
+        "file_token": "ASOqbvbeXo6q9JxBh50c0FEVnMg",
+        "name": "14558817551772257655335.jpeg",
+        "record_id": "recvcuSN91rpv1",
+        "saved_path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP7244_asi_recvcuSN91rpv1/references/14558817551772257655335.jpeg",
+        "size": 479541,
+        "size_bytes": 479541
+      }
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

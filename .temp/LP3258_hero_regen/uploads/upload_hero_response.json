@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsACVIt4Py": {
+        "fldn5dP24T": [
+          {
+            "file_token": "GYfXb78bmoY7rNxLbKRcNKu9nmd",
+            "name": "white_background.png",
+            "size": 1115386
+          },
+          {
+            "file_token": "TV97bAy7koWgiwxAbLVc3GYmnYg",
+            "name": "asi_hero_main.png",
+            "size": 1508662
+          },
+          {
+            "file_token": "A1oTbIVYIoiHcexc8uIcpEKCngg",
+            "name": "LP3258_hero_main_oracle_chatgpt_LOGO-WT.png",
+            "size": 1826110
+          }
+        ]
+      }
+    }
+  }
+}

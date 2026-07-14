@@ -1,0 +1,22 @@
+Upload Log - LP3384 ASI Images
+Date: 2026-06-25
+Record ID: recuYsANVGsmIM
+Product Number: LP3384
+
+=== 商品主图 (8 images) ===
+1. LP3384_hero.png - token: XbyfbI0tzorZV2xwQ5JcZA4tnnc - size: 1181601
+2. LP3384_lifestyle_scene_oracle_chatgpt.png - token: TLkNbmtf2oVSGTx9MKXcUM23nBe - size: 2487536
+3. LP3384_lifestyle_scene_oracle_gemini_v2.png - token: QmrSb2RRqobLQlxHv1YcPahsn9e - size: 1464212
+4. LP3384_selling_point_01.png - token: K4Tdbf98FovULlxP5HfcyEqRn4f - size: 1288875
+5. LP3384_size_chart.png - token: RbaJba6Bko3WUMxmONectoq7nZb - size: 1451811
+6. LP3384_material_detail_oracle_gemini.png - token: PNg0bR7bnonM6Gxy3t1cHi3zncQ - size: 1148507
+7. LP3384_sku_sheet_01_oracle_chatgpt.png - token: BBk3bBfrWoYdsMx5Peic02DNnRf - size: 1631780
+8. LP3384_sku_sheet_02_oracle_gemini.png - token: Tuy9bdTEOo9bwuxcUA6cmMs0nDe - size: 1020556
+
+=== 参考图片 (1 file) - from previous run ===
+LP3384_clean_no_logo_oracle_chatgpt.png - token: FwKZbUvJXo5bi9xYd6PcZyJhnDe
+
+=== 白底图 (1 file) - from previous run ===
+LP3384_white_background_oracle_gemini.png - token: RJ4HbH7P5o92mxxHkcDc9GWLnYc
+
+=== Readback confirmed: 参考图片=1, 白底图=1, 商品主图=8 ===

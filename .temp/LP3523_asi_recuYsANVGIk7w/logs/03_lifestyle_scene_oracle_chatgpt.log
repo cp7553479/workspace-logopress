@@ -1,0 +1,27 @@
+🧿 oracle 0.14.0 — Less hallucination, more escalation.
+Using named browser profile default: /Users/vincent/.oracle/browser-profile
+Session: create-a-profession-amazon-style-42
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session create-a-profession-amazon-style-42
+Launching browser mode (gpt-5.5) with ~232 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Browser control: launch visible Chrome; may focus/control the browser UI.
+[browser] Browser guidance: Manual-login mode may show the persistent Oracle Chrome profile for sign-in or automation.
+[browser] Browser guidance: Use --browser-hide-window, --browser-attach-running, or --remote-chrome to reduce desktop disruption.
+[browser] Acquired ChatGPT browser slot c1f75de9 (3 max).
+[browser] Waiting for ChatGPT generated image response.
+[browser] Waiting for ChatGPT response - 30s elapsed; no thinking status detected yet.
+[browser] No assistant download buttons found for button fallback.
+[browser] Released ChatGPT browser slot c1f75de9.
+ERROR: No images generated. Response text:
+Thinking
+Generating a more detailed image — hang tight.
+Preview
+file_000000009c2471fa9b72159dcefd6a2b: fetch failed
+User error (browser-automation): No images generated. Response text:
+Thinking
+Generating a more detailed image — hang tight.
+Preview
+file_000000009c2471fa9b72159dcefd6a2b: fetch failed

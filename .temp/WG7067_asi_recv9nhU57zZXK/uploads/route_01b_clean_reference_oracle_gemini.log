@@ -1,0 +1,13 @@
+🧿 oracle 0.14.0 — We bring receipts; they bring excuses.
+Using Gemini web client for browser automation
+Session: wg7067-clean-strict
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session wg7067-clean-strict
+Launching browser mode (gemini-3.5-flash) with ~204 tokens.
+This run can take up to an hour (usually ~10 minutes).
+ERROR: No images generated. Response text:
+(empty response)
+User error (browser-automation): No images generated. Response text:
+(empty response)

@@ -1,0 +1,3 @@
+Rejected output: outputs/WG7072_sku_color_chart_v2.png
+Reason: Still repeats Grey and shows more than the seven supported color tiles. This violates the no duplicate / no extra SKU requirement.
+Action: Try one stronger Gemini image model for SKU. If it still cannot render exactly seven supported variants, skip SKU as blocked by model reliability.

@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsACVI67WY": {
+        "fldn5dP24T": [
+          {
+            "file_token": "FvfJbcjUKo9kM4xBN5mcZXK6nHb",
+            "name": "LP2996_sku_chart.png",
+            "size": 957092
+          },
+          {
+            "file_token": "MOB4bKHa6okN53xKZB5cWhHHnHg",
+            "name": "LP2996_dimension.png",
+            "size": 921054
+          },
+          {
+            "file_token": "WdYpblbGWoWQ4RxPsNnccgRenyf",
+            "name": "LP2996_material_detail.png",
+            "size": 2154567
+          },
+          {
+            "file_token": "OGA1bdSiIofAe4xurHOc04u3nxb",
+            "name": "LP2996_selling_point.png",
+            "size": 2764316
+          },
+          {
+            "file_token": "Ur1zb96Zeo0TB7xCsPncRYNZn8g",
+            "name": "LP2996_lifestyle_scene.png",
+            "size": 2454632
+          },
+          {
+            "file_token": "SQEPbkhKcoTAHex4L2icsBF1nSc",
+            "name": "LP2996_hero_main_attempt01_chatgpt.png",
+            "size": 1892273
+          }
+        ]
+      }
+    }
+  }
+}

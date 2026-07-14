@@ -1,0 +1,23 @@
+[2026-06-24T05:38:42.827Z] cli.command
+{
+  "command": "fetch",
+  "args": {
+    "urls": [
+      "http://rst.fujian.gov.cn/fw/xzzx/qtzl/202007/t20200716_5324025.htm"
+    ],
+    "waitUntil": "load",
+    "screenshot": false
+  }
+}
+
+[2026-06-24T05:38:42.828Z] http.request
+{
+  "url": "https://r.jina.ai/http://rst.fujian.gov.cn/fw/xzzx/qtzl/202007/t20200716_5324025.htm",
+  "method": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "Authorization": "Bearer j****"
+  },
+  "body": null
+}
+

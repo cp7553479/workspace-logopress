@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsANVGf0pF": {
+        "fldn5dP24T": [
+          {
+            "file_token": "I40YbAtgGo98WVxBedFcK54rnGh",
+            "name": "LP3440_scene_oracle_chatgpt.png",
+            "size": 2377225
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

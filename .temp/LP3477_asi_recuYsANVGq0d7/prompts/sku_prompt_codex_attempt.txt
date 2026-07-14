@@ -1,0 +1,9 @@
+Create a 1:1 Amazon-style ecommerce SKU color chart for the exact product in the attached reference images: a portable crossbody golf club grip practice case.
+
+Use only these six confirmed colors from the product record and reference evidence: Black, Blue, Red, Orange, Green, Pink. Do not add, remove, rename, or repeat colors.
+
+The product must remain 100% identical in structure for every color: an open-front tube-shaped/half-cylinder golf club holder, rounded cylindrical sleeve with visible front opening, top carry handle, long adjustable shoulder strap, clip hardware, stitched webbing, and compact practice/travel form. Do not change it into a rectangular shoulder bag, square bag, backpack, duffel, pouch, luggage, or any closed full-cylinder travel bag. Do not add zippers, pockets, extra compartments, wheels, bottle holders, panels, or accessories not visible in the reference. Only recolor the fabric body and strap to the six confirmed colors while preserving the same shape, materials, proportions, and hardware.
+
+Layout: clean premium 2-by-3 grid on a white or very light background, balanced spacing, no grid lines, professional, beautiful, high-converting Amazon-style ecommerce SKU chart design, modern English typography. Place one product per cell with a consistent English color label under each product: Black, Blue, Red, Orange, Green, Pink.
+
+No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info, no currency, no discounts, no promotional text. Do not invent unsupported details. Ratio 1:1.

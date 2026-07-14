@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        [
+          {
+            "file_token": "X7tKbmOEWooVNfxUi5Dc8N5mnef",
+            "name": "LP3402_clean_no_logo.png",
+            "size": 1246635
+          }
+        ],
+        [
+          {
+            "file_token": "TacWbzD49ow3tWxRW9ocyrocnYg",
+            "name": "LP3402_white_background.png",
+            "size": 766787
+          }
+        ],
+        null
+      ]
+    ],
+    "field_id_list": [
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsANVG6WnI"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

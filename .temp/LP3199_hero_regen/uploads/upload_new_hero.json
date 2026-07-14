@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsACVIHfSH": {
+        "fldn5dP24T": [
+          {
+            "file_token": "CHKSbqu64oGZYfxGTO9cqAOUnuf",
+            "name": "main_hero_codex.png",
+            "size": 1510517
+          },
+          {
+            "file_token": "UEdXblkjOoaNt0xs0SvcJPDkn5f",
+            "name": "main_lifestyle_codex.png",
+            "size": 2134490
+          },
+          {
+            "file_token": "ZoWtbjoUUogS6XxkitccOL12nVe",
+            "name": "LP3199_hero_oracle_chatgpt.png",
+            "size": 1439681
+          }
+        ]
+      }
+    }
+  }
+}

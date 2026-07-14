@@ -1,0 +1,2 @@
+Rejected SKU sheet 1 first Gemini output: correct labels but unsupported sparkle/decorative mark appeared on the gray shorts. Retrying with explicit no marks/no sparkle constraint.
+Rejected SKU sheet 1 Gemini retry: unsupported sparkle/decorative mark still appeared on the gray shorts. Oracle ChatGPT path failed with fetch failed; Oracle Gemini produced rejected marked outputs twice. Trying non-image-CLI Codex image fallback for SKU sheet 1.

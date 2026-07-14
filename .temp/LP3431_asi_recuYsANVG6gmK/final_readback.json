@@ -1,0 +1,64 @@
+{
+  "参考图片": [
+    {
+      "file_token": "KxsDbW5BXozwGDxpdeHcmeijnde",
+      "name": "LP3431_clean_no_logo.png",
+      "size": 1072353,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=KxsDbW5BXozwGDxpdeHcmeijnde&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/KxsDbW5BXozwGDxpdeHcmeijnde/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D"
+    }
+  ],
+  "白底图": [
+    {
+      "file_token": "OYZwbL2kSo2B6yxxTwCc50IPnHe",
+      "name": "LP3431_white_background.png",
+      "size": 1135609,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=OYZwbL2kSo2B6yxxTwCc50IPnHe&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/OYZwbL2kSo2B6yxxTwCc50IPnHe/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D"
+    }
+  ],
+  "商品主图": [
+    {
+      "file_token": "IjUPbpDSMovHYKxIZuwcZa3unHc",
+      "name": "LP3431_hero_main.png",
+      "size": 1262438,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=IjUPbpDSMovHYKxIZuwcZa3unHc&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/IjUPbpDSMovHYKxIZuwcZa3unHc/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D"
+    },
+    {
+      "file_token": "HWdYbsY3poWBm5xIYVEcMkHqnvg",
+      "name": "LP3431_lifestyle_scene.png",
+      "size": 2229271,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=HWdYbsY3poWBm5xIYVEcMkHqnvg&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/HWdYbsY3poWBm5xIYVEcMkHqnvg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D"
+    },
+    {
+      "file_token": "SktHb2IlLopxKcxUKvgcFLOnneo",
+      "name": "LP3431_selling_point.png",
+      "size": 1752197,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=SktHb2IlLopxKcxUKvgcFLOnneo&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/SktHb2IlLopxKcxUKvgcFLOnneo/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D"
+    },
+    {
+      "file_token": "R4anbPwtooDDwzxTQbEcmWYxnWe",
+      "name": "LP3431_size_diagram.png",
+      "size": 695211,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=R4anbPwtooDDwzxTQbEcmWYxnWe&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/R4anbPwtooDDwzxTQbEcmWYxnWe/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D"
+    },
+    {
+      "file_token": "JGbTbNxNtoo7Egx6TcycqNJlnzm",
+      "name": "LP3431_material_detail.png",
+      "size": 1819575,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=JGbTbNxNtoo7Egx6TcycqNJlnzm&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/JGbTbNxNtoo7Egx6TcycqNJlnzm/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5043%7D%7D"
+    }
+  ]
+}

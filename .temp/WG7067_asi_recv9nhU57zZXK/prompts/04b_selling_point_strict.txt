@@ -1,0 +1,9 @@
+Create a professional, beautiful, high-converting Amazon-style ecommerce selling point poster for the attached natural wood embossed rolling pin.
+
+Use the reference product exactly: Product must be 100% identical to reference in all details (shape, texture, parts, engraved cylinder pattern, handles, natural wood color, proportions). Make a clean premium layout with the rolling pin as the hero object and one supporting dough/cookie texture visual that demonstrates the engraved pattern. Use strong visual hierarchy, balanced spacing, attractive lighting, polished commercial poster design, and modern English typography.
+
+Allowed English text only: "Deep Engraved Pattern" and "Creates Decorative Dough Texture". Do not include any other text.
+
+Hard corner rule: all four corners must be plain poster background only. Do not add a sparkle icon, magic icon, star mark, corner badge, generated-image mark, watermark, signature, decorative symbol, logo, or any extra mark anywhere in the image.
+
+Do not include prices, discounts, QR codes, watermarks, manufacturer information, supplier information, platform marks, contact information, website URLs, or Chinese. Do not invent unsupported details. Ratio 1:1. Save as a PNG.

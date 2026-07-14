@@ -1,0 +1,20 @@
+🧿 oracle 0.14.0 — Short incantation, long provenance.
+Using Gemini web client for browser automation
+Browser model strategy is ignored for Gemini web runs.
+Session: create-a-profession-beautiful-high-323
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session create-a-profession-beautiful-high-323
+Launching browser mode (gemini-3.5-flash) with ~224 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Model selection evidence: requested=Gemini 3.5 Flash; resolved=(unavailable); status=unavailable; strategy=current; verified=no.
+Answer:
+http://googleusercontent.com/image_generation_content/295
+
+
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/LP3477_asi_recuYsANVGq0d7/outputs/LP3477_selling_point_oracle_gemini.png*
+
+35.2s · gemini-3.5-flash[browser] · ↑224 ↓15 ↻0 Δ239
+files=3

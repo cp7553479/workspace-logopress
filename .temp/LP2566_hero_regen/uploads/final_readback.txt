@@ -1,0 +1,167 @@
+`_record_id` is metadata for record operations, not a table field.
+
+- `_record_id`: recuYsACgfrEQl
+- `产品编号`: LP2566
+- `Rush_Time`: 5:days
+- `Q5`: 5000
+- `UD1`: K/Z
+- `Origin`: China
+- `Option_Values`: 
+- `Q1`: 200
+- `Product_Name`: High-Quality Silicone Stress Relief Press Bubble Bracelet for Kids
+- `QUR_Flag`: 
+- `Imprint_Location`: Centered on Front or as you request
+- `Theme`: 
+- `P10`: 
+- `备注`: []
+- `FOB Points`: Casper, WY 82601 USA
+- `产品类型`: Toys, Games,&Novelties
+- `Product_Color`: MEDIUM RED MEDIUM GREEN MEDIUM ORANGE MEDIUM YELLOW MEDIUM BLUE
+- `Option_Name`: 
+- `Size_Group`: Dimension
+- `Q4`: 2000
+- `产品名称`: Stress Relief Toys Silicone Press Bubble Bracelet for Kids
+- `P8`: 0.439521428571428
+- `1688价(元)`: 2
+- `重量(箱子+产品)公斤`: 15.5
+- `箱子尺寸 长(cm)`: 42
+- `货代大货起订量标准`: 968
+- `Imprint_Size`: 1" x 0.5" or custom size
+- `Product_Type`: 
+- `D2`: R
+- `Base_Price_Name`: 
+- `Shape`: 
+- `Base_Price_Criteria_...`: 
+- `Upcharge_Criteria_1`: 
+- `Upcharge_Type`: 
+- `Base_Price_Criteria_...`: 
+- `Upcharge_Criteria_2`: 
+- `Production_Time`: 8:days
+- `XID`: 
+- `Description`: Introducing our High-Quality Silicone Press Bubble Bracelet, a top-rated, popular sensory stress relief toy for kids. Made from premium, durable silicone, it's smooth, skin-friendly, and easy to clean, ensuring long-lasting use. The adjustable design fits various wrist sizes, suitable for children and even adults. Pressing the bubbles offers tactile stimulation, aiding anxiety relief and focus—ideal for kids with ADHD or anyone needing a calming tool in classrooms or at home. This versatile bracelet doubles as a fun toy and functional accessory, perfect for end-of-year student gifts, classroom rewards, party favors, or holiday presents like Christmas. It’s customizable with printed logos, making it great for wholesale, promotional events, or branded giveaways. Lightweight and portable, it’s easy to carry in bags or as a keychain companion. Available in bulk packs, it’s a must-have for sensory play, keeping kids engaged and relaxed.
+- `Upcharge_Name`: 
+- `WG产品编号`: WG2384
+- `Category`: Stress Relievers-General Toys-General
+- `运输风险提示`: 
+- `Q8`: 50000
+- `产品关键词`: Unique Custom Best High,
+Quaility Luxury Most Popular,
+Durable Stock Portable,
+Wholesale Promotional Branded,
+Printed Logo Customized Bulk,
+Customizable Nice Blank,
+Amazon Popit Pop Its Fidget,
+Toys For Kids Bracelet Enfant,
+End Of The Year Student Gifts,
+Students Keychain Barbie,
+Party Favors Mini It Cadeau,
+Pour Eleves Primaire Class,
+School Popits Push Gummy Pops,
+Ring Bracelets Valentines,
+Gift Toy Sensory Snap Beads,
+Girls Classroom Pack Word,
+Game Tubes Fidgets Toddler 24,
+3d Animals Animal,
+Favorsanimal Detective Packs,
+Bags Bubble Popper Space,
+Theme Kid Gytera Ideashop,
+Lightup Mochi Paw Patrol Boy,
+Loot Bag Fillers Poppits And,
+Puzzle Rainbow Siliconerubber,
+Inspirational Wristbands,
+Jelly Motivational Silly,
+Bandz Men I Heart,
+Boobiesbracelets Rubber,
+Silicone Wristband Livestrong,
+Airtags Teacher Baseball Fall
+- `产品尺寸 高(cm)`: 0
+- `商品负责人`: [{"id":"ou_5ad9230482a1bb972728bc07618ae587","name":"文森-练物-超级管理员"}]
+- `Same_Day_Service`: N
+- `Item_Weight`: 
+- `Tradename`: 
+- `record_id`: recuYsACgfrEQl
+- `产品重量(kg)`: 
+- `Personalization`: Y
+- `货代大货参考定价基准（30%毛利）`: 0.49
+- `Imprint_Color`: Standard Colors
+- `Summary`: High-Quality Silicone Press Bubble Bracelet: Sensory stress relief toy for kids, durable, adjustable, customizable. Ideal for student gifts, parties, promotional use.
+- `D6`: R
+- `箱子尺寸 宽(cm)`: 42
+- `主题`: Anniversary;Baby;Sustainable;Christmas;Entertainment
+- `Q7`: 20000
+- `Product_Number`: LP2566
+- `P5`: 0.48
+- `P6`: 0.46
+- `Upcharge_Level`: 
+- `分类`: BRACELETS;Toys-General
+- `UP1`: 
+- `Can_order_only_one`: 
+- `件数/箱`: 1000
+- `父记录`: 
+- `Service_Charge`: Optional
+- `产品尺寸 长(cm)`: 23.7
+- `P9`: 
+- `Shipping_Weight`: 34.17:lbs
+- `Q2`: 500
+- `Product_Sample`: Y
+- `商品主图`: [{"file_token":"TAXibBI1OoaxSDxnY4QcQ3ranHc","name":"LP2566_asi_lifestyle_wrist.png","size":1907844},{"file_token":"EwPgbp7taokX2jxMtpecAX3KnHh","name":"LP2566_asi_detail_closeup.png","size":852847},{"file_token":"A0EvbZsbyoDlTJxUyvVc2Mv4n7c","name":"LP2566_hero_main_oracle_chatgpt_LOGO-BK.png","size":1393864}]
+- `Less_Than_Min`: Y
+- `Req_for_order`: 
+- `P7`: 0.449288571428571
+- `D5`: R
+- `Additional_Location`: 
+- `产品颜色`: red; green; orange; yellow; blue
+- `产品尺寸 宽(cm)`: 2
+- `SEO_FLG`: 
+- `Shipping_Dimensions`: Length:16.54:in;Width:16.54:in;Height:16.54:in
+- `Linename`: 
+- `Safety_Warnings`: 
+- `印刷方式`: Full color/Silkscreen/Unimprinted/
+- `D3`: R
+- `参考图片`: [{"file_token":"WqWcbaqpro4f1lxzeS3cV4Vtnjc","name":"LP2566_cleaned_reference.png","size":1137611}]
+- `Shipping_Items`: 1000:per Case
+- `D7`: R
+- `产品材质`: Silicone
+- `Mark`: ["有询单"]
+- `UQ1`: 1
+- `D9`: R
+- `Q9`: 
+- `Distributor_View_Onl...`: N
+- `D8`: R
+- `Imprint_Method`: Full Color=Full Color Silkscreen=Silkscreen
+- `Option_Additional_In...`: 
+- `Prod_Image`: 
+- `Material`: SILICONE
+- `完整描述`: Introducing our High-Quality Silicone Bracelet, a fun and engaging sensory toy designed to provide a comfortable and calming experience. Made from premium silicone material, this bracelet is smooth to the touch, skin-friendly, and easy to clean, ensuring durability and hygiene. The adjustable length allows it to fit a variety of wrist sizes, making it suitable for both children and adults. Pressing the pop bracelet toy provides a tactile stimulus that can help alleviate anxiety and stress. It's an excellent tool for children with ADHD or anyone who needs a little extra focus and motivation in the classroom or at home. It is an ideal gift for kids, friends, and family members, and can be used as a classroom reward or a stress-relief tool to stimulate interest and provide endless fun.This vi
+- `id`: 2692
+- `P3`: 0.517658571428571
+- `Rush_Service`: Y
+- `Packaging`: Box Poly Bag Other Custom
+- `产品简称`: 
+- `Price_Type`: Net
+- `选品`: 
+- `D10`: R
+- `P1`: 0.54
+- `Q6`: 10000
+- `简要说明`: This vibrant pop press bracelet serves as a stress-relief tool, perfect for both children and adults. Rush service is available.
+- `Price_Includes`: 1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs
+- `Currency`: USD
+- `来源(1688)`: https://detail.1688.com/offer/690704091590.html?spm=a2639h.29135425.offerlist.i2&source=action%23offerItem%3Borigin%23espweb.asicentral.com
+- `Additional_Color`: 
+- `D4`: R
+- `Product_URL`: 
+- `箱子尺寸 高(cm)`: 42
+- `D1`: R
+- `Q10`: 
+- `Size_Values`: Length:9.33:in;Width:0.79:in;Height:0:in
+- `P2`: 0.527425714285714
+- `Option_Type`: 
+- `Q3`: 1000
+- `P4`: 0.512775
+- `Sold_Unimprinted`: Y
+- `Artwork`: Virtual Proof:FREE
+- `白底图`: [{"file_token":"Lwe6bfXjyop5Plxy9tOcOUhln4f","name":"LP2566_white_background.png","size":658573}]
+- `Keywords`: 
+
+Meta: count=1; has_more=false; ignored_fields=2
+Ignored fields: {"id":"flddlselbP","name":"转ESP模板","reason":"UNSUPPORTED: not_support field cannot be read through OpenAPI."}, {"id":"fldgjurf2j","name":"流程","reason":"UNSUPPORTED: not_support field cannot be read through OpenAPI."}

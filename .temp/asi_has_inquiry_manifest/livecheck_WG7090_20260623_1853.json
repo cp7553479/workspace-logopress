@@ -1,0 +1,64 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "WG7090",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "Y4tib8brpoywT3xarR0cybrDnGc",
+            "name": "11233081311769406134221.png",
+            "size": 157698
+          }
+        ],
+        null,
+        null,
+        "Home fitness limb trainer pedal equipment exercise bike",
+        null,
+        "This compact under-desk peddler bike trains quietly, fits anywhere, boosts fitnessjoy in every pedal.Rush service is available.",
+        "Sports,Fitness,\u0026Outdoors",
+        "white",
+        "Metal"
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldsExhPlC",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fld8ifVx8f",
+      "fldVQEfx44",
+      "fldwtQtwf5",
+      "fld6YFlAS8",
+      "fldoQQU5d4",
+      "flds2DArkf"
+    ],
+    "fields": [
+      "产品编号",
+      "Mark",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "产品名称",
+      "产品简称",
+      "简要说明",
+      "产品类型",
+      "产品颜色",
+      "产品材质"
+    ],
+    "has_more": false,
+    "query_context": {
+      "field_scope": "selected_fields",
+      "record_scope": "all_records",
+      "search_scope": "fldHb6xDKX(产品编号)"
+    },
+    "record_id_list": [
+      "recv9nhKXHviX2"
+    ]
+  }
+}

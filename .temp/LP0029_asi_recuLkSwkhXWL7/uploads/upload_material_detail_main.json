@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuLkSwkhXWL7": {
+        "fldn5dP24T": [
+          {
+            "file_token": "ZWxWbnnPYo3ogux1RRIc7ZFPnGd",
+            "name": "01.jpg",
+            "size": 408095
+          },
+          {
+            "file_token": "EikobpQ9WoXQJuxpIHVcpSTYnha",
+            "name": "02.jpg",
+            "size": 433321
+          },
+          {
+            "file_token": "CClMbRElzorfbKxIWqkcZqSJnhd",
+            "name": "03.jpg",
+            "size": 688917
+          },
+          {
+            "file_token": "EE0CbIwyDo1Iq2xweRJcp1wbnRd",
+            "name": "04.jpg",
+            "size": 320900
+          },
+          {
+            "file_token": "UCvRbbhfMoE1x5xwSxycUpg9nGb",
+            "name": "05.jpg",
+            "size": 356147
+          },
+          {
+            "file_token": "FXDAbJujeo41GOxR62UcdBNcnNg",
+            "name": "LP0029_material_detail_oracle_chatgpt.png",
+            "size": 1728671
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "16",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": null,
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": null,
+        "Currency": null,
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": null,
+        "Distributor_View_Only": null,
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": null,
+        "Imprint_Location": null,
+        "Imprint_Method": null,
+        "Imprint_Size": null,
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": null,
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": null,
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": null,
+        "P1": "6.72",
+        "P10": null,
+        "P2": "6.62",
+        "P3": "6.52",
+        "P4": "6.46",
+        "P5": "5.94",
+        "P6": "5.84",
+        "P7": "5.79",
+        "P8": "5.68",
+        "P9": null,
+        "Packaging": null,
+        "Personalization": null,
+        "Price_Includes": null,
+        "Price_Type": null,
+        "Prod_Image": null,
+        "Product_Color": null,
+        "Product_Name": null,
+        "Product_Number": [
+          {
+            "text": "WG7082",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": null,
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": null,
+        "Q1": "200",
+        "Q10": null,
+        "Q2": "500",
+        "Q3": "1000",
+        "Q4": "2000",
+        "Q5": "5000",
+        "Q6": "10000",
+        "Q7": "20000",
+        "Q8": "50000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": null,
+        "Rush_Time": null,
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": null,
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": null,
+        "Shipping_Items": null,
+        "Shipping_Weight": null,
+        "Size_Group": null,
+        "Size_Values": null,
+        "Sold_Unimprinted": null,
+        "Summary": null,
+        "Theme": null,
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG7082",
+        "XID": null,
+        "id": "7117",
+        "record_id": [
+          {
+            "text": "recv9nhPfrWSvE",
+            "type": "text"
+          }
+        ],
+        "主题": "Company Picnic/Anniversary/Mother's Day/Wellness/Birthday",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Cutting Board Set Of 3,\r\nTitanium Boards For Kitchen,\r\nDouble Sided \u0026 Food-grade Mat,\r\nMeat Fruit Vegetable Sus304,\r\nStainless Steel Sizes With,\r\nHandles Food Grade,\r\nDouble-sided 6 Household And,\r\nChopping Pure - Non-slip,\r\nDishwasher Safe Scratch,\r\nResistant Easy To Clean,\r\nHygienic Vegetables Fruits,\r\nAir Fryer Camping Essentials,\r\nHome Under Sink Organizer,\r\nNinja Appliances Cookware,\r\nUtensils Mixing Bowls,\r\nApartment Hexclad Charcuterie,\r\nWood Gadgets Cooking Sushi,\r\nMaking Kit Generic Glass Meal,\r\nPrep Containers Bamboo,\r\nAccessories Wooden Oven,\r\nThermometer Usa Wedding,\r\nRegistry Must Haves Epicurean,\r\nOxo Tivano New Non Toxic,\r\nTongs Decor Stove Top Covers",
+        "产品名称": "Kitchen double sided foodgrade stainless steel cutting board",
+        "产品尺寸 宽(cm)": "20",
+        "产品尺寸 长(cm)": "29",
+        "产品尺寸 高(cm)": "1",
+        "产品材质": "Stainless Steel",
+        "产品简称": null,
+        "产品类型": "Kitchen \u0026 Dining",
+        "产品编号": "WG7082",
+        "产品重量(kg)": null,
+        "产品颜色": "silver",
+        "件数/箱": "30",
+        "分类": "BOARDS/TOOLS-KITCHEN",
+        "印刷方式": "Full color/Laser Engraved/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "BqPtbssRJo70rsxE5GYcgb5wnLc",
+            "name": "15755740291769406162599.png",
+            "size": 422209,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=BqPtbssRJo70rsxE5GYcgb5wnLc\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4911%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/BqPtbssRJo70rsxE5GYcgb5wnLc/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4911%7D%7D"
+          }
+        ],
+        "商品主图": null,
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "【价格需调整】不锈钢菜板双面切菜板小号-200起订",
+        "完整描述": "Our stainless steel cutting boards, crafted from SUS304 with a brushed finish, offer rust-resistant durability for long-term use. The premium material ensures non-porous surfaces that prevent food particles from sticking, while the smooth texture allows quick cleaning and sanitizingideal for cutting meats, fruits, and vegetables. Designed with integrated carrying handles, these boards provide versatile food prep solutions, whether chopping ingredients on the counter or transferring dishes to the table. The sleek brushed finish adds a modern touch to any kitchen.Perfect for home cooks and professional chefs alike, these boards offer ample workspace for all meal prep needs. Available in different sizescontact our customer service for detailed specifications.",
+        "来源(1688)": "https://detail.1688.com/offer/849143975608.html?offerId=849143975608\u0026spm=a260k.home2025.recommendpart.233",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": null,
+        "简要说明": "This stainless steel cutting board with handles is rust-resistant, durable, and versatile for all foods.Rush service is available.",
+        "箱子尺寸 宽(cm)": "24",
+        "箱子尺寸 长(cm)": "34",
+        "箱子尺寸 高(cm)": "22",
+        "货代大货参考定价基准（30%毛利）": 5.62,
+        "货代大货起订量标准": 33,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "13.8"
+      },
+      "id": "recv9nhPfrWSvE",
+      "record_id": "recv9nhPfrWSvE"
+    }
+  }
+}

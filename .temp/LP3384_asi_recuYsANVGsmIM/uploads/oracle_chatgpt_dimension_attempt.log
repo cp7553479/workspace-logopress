@@ -1,0 +1,26 @@
+🧿 oracle 0.14.0 — We refactor the model's hubris before it hits prod.
+Session: create-a-clean-amazon-style-21
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session create-a-clean-amazon-style-21
+Launching browser mode (gpt-5.5) with ~162 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Browser control: launch visible Chrome; may focus/control the browser UI.
+[browser] Browser guidance: Manual-login mode may show the persistent Oracle Chrome profile for sign-in or automation.
+[browser] Browser guidance: Use --browser-hide-window, --browser-attach-running, or --remote-chrome to reduce desktop disruption.
+[browser] Acquired ChatGPT browser slot 69d67e20 (3 max).
+[browser] Waiting for ChatGPT generated image response.
+[browser] Waiting for ChatGPT response - 30s elapsed; no thinking status detected yet.
+[browser] No assistant download buttons found for button fallback.
+[browser] Released ChatGPT browser slot 69d67e20.
+ERROR: No images generated. Response text:
+Thinking
+Generating a more detailed image — hang tight.
+Preview
+file_00000000906c72089c1cfdc075f3c9f4: fetch failed
+User error (browser-automation): No images generated. Response text:
+Thinking
+Generating a more detailed image — hang tight.
+Preview
+file_00000000906c72089c1cfdc075f3c9f4: fetch failed

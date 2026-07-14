@@ -1,0 +1,23 @@
+[2026-06-24T05:38:42.764Z] cli.command
+{
+  "command": "fetch",
+  "args": {
+    "urls": [
+      "https://dzht.hzrs.hangzhou.gov.cn"
+    ],
+    "waitUntil": "load",
+    "screenshot": false
+  }
+}
+
+[2026-06-24T05:38:42.764Z] http.request
+{
+  "url": "https://r.jina.ai/http://dzht.hzrs.hangzhou.gov.cn",
+  "method": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "Authorization": "Bearer j****"
+  },
+  "body": null
+}
+

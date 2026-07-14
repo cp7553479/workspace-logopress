@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recv9nhU57zZXK": {
+        "fldn5dP24T": [
+          {
+            "file_token": "IkiCbssr9ozqaAxQzVrcGyQhnaf",
+            "name": "WG7067_hero_main.png",
+            "size": 2125234
+          },
+          {
+            "file_token": "Jjiyb2A9ZoOupux0gY0cLOiLnw3",
+            "name": "WG7067_lifestyle_scene_chatgpt.png",
+            "size": 2220293
+          },
+          {
+            "file_token": "NWCmb3DiMoVuRaxEHoqcx13Pnfh",
+            "name": "WG7067_selling_point_gemini.png",
+            "size": 1579727
+          },
+          {
+            "file_token": "KgVhbT36QohTedxwIYZcNARqnPc",
+            "name": "WG7067_dimensions.png",
+            "size": 328740
+          },
+          {
+            "file_token": "BZY8bhlK6o8xYtxJNSLcKcEdnnd",
+            "name": "WG7067_material_detail.png",
+            "size": 2215000
+          },
+          {
+            "file_token": "U5N2bZOR1oYWhqxKJvgcOeYLndg",
+            "name": "WG7067_material_detail_replacement_oracle_chatgpt.png",
+            "size": 2048500
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

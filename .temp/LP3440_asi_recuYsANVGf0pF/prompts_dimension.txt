@@ -1,0 +1,7 @@
+Image type: Amazon-style ecommerce dimension chart image.
+
+Use the attached white-background product image as the product source. Create a clean dimension diagram for the reusable neoprene travel tumbler carrier holder pouch/sleeve. Use only these verified dimensions converted from the product record: Height 7.28 inch, Width 2.76 inch, Depth 2.76 inch. Show a front view of the sleeve with simple accurate dimension arrows and labels. Use the labels exactly as English text: "Height 7.28 inch", "Width 2.76 inch", and "Depth 2.76 inch". Do not add any marketing copy, prices, discount text, brand names, URLs, contact information, or unsupported specifications.
+
+Keep the product 100% identical to the reference in all details: tapered cylindrical sleeve shape, open top, side handle, stitched seams, rounded bottom, neoprene fabric texture, proportions, and color. Prioritize clear accurate dimension labeling, clean white background, balanced spacing, crisp arrows, and readable English typography.
+
+Product must be 100% identical to reference in all details (shape, texture, parts). When a logo is required, follow the specified logo file; no logo is required for this image. No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English. Do not invent unsupported details. Ratio 1:1.

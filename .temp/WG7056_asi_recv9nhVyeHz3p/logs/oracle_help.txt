@@ -1,0 +1,268 @@
+Oracle CLI v0.14.0 — Prompt + files required — GPT-5.5 Pro/GPT-5.5 for tough questions with code/file context.
+
+Usage: oracle [options] [command] [prompt]
+
+One-shot GPT-5.5 Pro / GPT-5.5 / GPT-5.1 Codex tool for hard questions that
+benefit from large file context and server-side search.
+
+Arguments:
+  prompt                             Prompt text (shorthand for --prompt).
+
+Options:
+  -V, --version                      output the version number
+  -p, --prompt <text>                User prompt to send to the model.
+  --followup <sessionId|responseId>  Continue a stored ChatGPT browser
+                                     conversation or an OpenAI/Azure Responses
+                                     API run.
+  --followup-model <model>           For multi-model API sessions, choose which
+                                     model response to continue from.
+  -f, --file <paths...>              Files/directories or glob patterns to
+                                     attach (prefix with !pattern to exclude).
+                                     Oversized files are rejected automatically
+                                     (default cap: 1 MB; configurable via
+                                     ORACLE_MAX_FILE_SIZE_BYTES or
+                                     config.maxFileSizeBytes). (default: [])
+  --max-file-size-bytes <bytes>      Reject files larger than this many bytes.
+  --copy-markdown                    Copy the assembled markdown bundle to the
+                                     clipboard; pair with --render to print it
+                                     too. (default: false)
+  -s, --slug <words>                 Custom session slug (3-5 words).
+  -m, --model <model>                Model to target (gpt-5.5-pro default). Also
+                                     gpt-5.5, gpt-5.4-pro, gpt-5.4, gpt-5.1-pro,
+                                     gpt-5-pro, gpt-5.1, gpt-5.1-codex API-only,
+                                     gpt-5.2, gpt-5.2-instant, gpt-5.2-pro,
+                                     gemini-3.1-flash-lite, gemini-3.5-flash,
+                                     gemini-3.1-pro, legacy gemini-3-pro,
+                                     claude-4.6-sonnet, claude-4.1-opus, or
+                                     ChatGPT labels like "5.5 Pro" / "5.2
+                                     Thinking" for browser runs).
+  --models <models>                  Comma-separated API model list to query in
+                                     parallel (e.g.,
+                                     "gpt-5.5-pro,gemini-3-pro"). (default: [])
+  -e, --engine <mode>                Execution engine (api | browser). Browser
+                                     engine: GPT models automate ChatGPT; Gemini
+                                     models use a cookie-based client for
+                                     gemini.google.com. If omitted, oracle picks
+                                     api when OPENAI_API_KEY is set, otherwise
+                                     browser. (choices: "api", "browser")
+  --files-report                     Show token usage per attached file (also
+                                     prints automatically when files exceed the
+                                     token budget). (default: false)
+  -v, --verbose                      Enable verbose logging for all operations.
+                                     (default: false)
+  --notify                           Desktop notification when a session
+                                     finishes (default on unless CI/SSH).
+  --no-notify                        Disable desktop notifications.
+  --notify-sound                     Play a notification sound on completion
+                                     (default off).
+  --no-notify-sound                  Disable notification sounds.
+  --timeout <seconds|duration|auto>  Overall timeout before aborting the API
+                                     call (auto = 60m for Pro models, 120s
+                                     otherwise). (default: "auto")
+  --background                       Use Responses API background mode (create +
+                                     retrieve) for API runs.
+  --no-background                    Disable Responses API background mode.
+  --http-timeout <ms|s|m|h>          HTTP client timeout for API requests
+                                     (default 20m).
+  --zombie-timeout <ms|s|m|h>        Override stale-session cutoff used by
+                                     `oracle status` (default 60m).
+  --zombie-last-activity             Base stale-session detection on last log
+                                     activity instead of start time. (default:
+                                     false)
+  --dry-run [mode]                   Preview without calling the model (summary
+                                     | json | full). (choices: "summary",
+                                     "json", "full", default: false, preset:
+                                     "summary")
+  --route                            Print API provider route plan and exit.
+                                     (default: false)
+  --preflight                        Check API provider readiness for the
+                                     requested model(s) and exit. (default:
+                                     false)
+  --perf-trace                       Write CLI performance timing trace JSON (or
+                                     set ORACLE_PERF_TRACE=1/path). (default:
+                                     false)
+  --perf-trace-path <path>           Write CLI performance timing trace JSON to
+                                     an explicit path.
+  --render-markdown                  Print the assembled markdown bundle for
+                                     prompt + files and exit; pair with --copy
+                                     to put it on the clipboard. (default:
+                                     false)
+  --render                           Alias for --render-markdown. (default:
+                                     false)
+  --render-plain                     Render markdown without ANSI/highlighting
+                                     (use plain text even in a TTY). (default:
+                                     false)
+  --write-output <path>              Write only the final assistant message to
+                                     this file (overwrites; multi-model appends
+                                     .<model> before the extension).
+  --allow-partial                    Exit 0 for multi-model runs when at least
+                                     one model succeeds. (default: false)
+  --partial <mode>                   Multi-model failure policy (fail | ok).
+                                     (choices: "fail", "ok")
+  --verbose-render                   Show render/TTY diagnostics when replaying
+                                     sessions. (default: false)
+  --base-url <url>                   Override the OpenAI-compatible base URL for
+                                     API runs (e.g. LiteLLM proxy endpoint).
+  --provider <provider>              Choose API provider routing: auto, openai,
+                                     or azure. Use openai to ignore Azure
+                                     env/config. (choices: "auto", "openai",
+                                     "azure", default: "auto")
+  --no-azure                         Disable Azure OpenAI routing for this run
+                                     (same as --provider openai).
+  --azure-endpoint <url>             Azure OpenAI Endpoint (e.g.
+                                     https://resource.openai.azure.com/).
+  --azure-deployment <name>          Azure OpenAI Deployment Name.
+  --azure-api-version <version>      Azure OpenAI API Version.
+  --browser-cookie-path <path>       Explicit Chrome/Chromium cookie DB path for
+                                     session reuse.
+  --browser-attach-running           Attach to a running local browser session
+                                     instead of launching Chrome (defaults to
+                                     127.0.0.1:9222; combine with
+                                     --remote-chrome to hint a different
+                                     host:port).
+  --chatgpt-url <url>                Override the ChatGPT web URL (e.g.,
+                                     workspace/folder like
+                                     https://chatgpt.com/g/.../project; default
+                                     https://chatgpt.com/).
+  --browser-port <port>              Use a fixed Chrome DevTools port (helpful
+                                     on WSL firewalls).
+  --profile <name>                   Named manual-login browser profile: default
+                                     uses ~/.oracle/browser-profile; others use
+                                     ~/.oracle/browser-profiles/<name>.
+  --browser-model-strategy <mode>    ChatGPT model picker strategy: select
+                                     (default) switches to the requested model,
+                                     current keeps the active model, ignore
+                                     skips the picker entirely. (choices:
+                                     "select", "current", "ignore")
+  --browser-research <mode>          Browser research mode: deep activates
+                                     ChatGPT Deep Research. (choices: "off",
+                                     "deep")
+  --browser-archive <mode>           Archive completed ChatGPT browser
+                                     conversations after local artifacts are
+                                     saved (auto archives successful non-project
+                                     one-shots only). (choices: "auto",
+                                     "always", "never")
+  --browser-follow-up <prompt>       Submit an additional prompt in the same
+                                     ChatGPT browser conversation after the
+                                     initial answer; repeat for multi-turn
+                                     consults. (default: [])
+  --browser-attachments <mode>       How to deliver --file inputs in browser
+                                     mode: auto (default) pastes inline up to
+                                     ~60k chars then uploads; never always paste
+                                     inline; always always upload. (choices:
+                                     "auto", "never", "always", default: "auto")
+  --remote-chrome <host:port>        Connect to remote Chrome DevTools Protocol,
+                                     or when combined with
+                                     --browser-attach-running use this host:port
+                                     as the local attach hint.
+  --browser-tab <ref>                Reuse an existing ChatGPT tab by ref
+                                     (current, target id, full URL, or title
+                                     substring) instead of opening a new tab.
+  --remote-host <host:port>          Delegate browser runs to a remote `oracle
+                                     serve` instance.
+  --remote-token <token>             Access token for the remote `oracle serve`
+                                     instance.
+  --browser-inline-files             Alias for --browser-attachments never
+                                     (force pasting file contents inline).
+                                     (default: false)
+  --browser-bundle-files             Bundle all attachments into a single
+                                     archive before uploading. (default: false)
+  --browser-bundle-format <format>   Bundle format for browser uploads when
+                                     files are bundled: text (default) or zip.
+                                     (choices: "text", "zip", default: "text")
+  --youtube <url>                    YouTube video URL to analyze (Gemini
+                                     web/cookie mode only; uses your signed-in
+                                     Chrome cookies for gemini.google.com).
+  --generate-image <file>            Generate image and save to file (Gemini
+                                     browser mode; ChatGPT browser mode saves
+                                     downloadable image artifacts when present).
+  --edit-image <file>                Edit existing image (Gemini browser mode;
+                                     for ChatGPT attach source images with
+                                     --file and use --generate-image for
+                                     output).
+  --output <file>                    Output file path for image operations.
+  --aspect <ratio>                   Aspect ratio for image generation: 16:9,
+                                     1:1, 4:3, 3:4 (Gemini web/cookie mode
+                                     only).
+  --gemini-show-thoughts             Display Gemini thinking process (Gemini
+                                     web/cookie mode only). (default: false)
+  --retain-hours <hours>             Prune stored sessions older than this many
+                                     hours before running (set 0 to disable).
+  --force                            Force start a new session even if an
+                                     identical prompt is already running.
+                                     (default: false)
+  --debug-help                       Show the advanced/debug option set and
+                                     exit. (default: false)
+  --heartbeat <seconds>              Emit periodic in-progress updates (0 to
+                                     disable). (default: 30)
+  --wait
+  -h, --help                         display help for command
+
+Commands:
+  serve [options]                    Run Oracle browser automation as a remote
+                                     service for other machines.
+  profile                            Manage named manual-login browser profiles.
+  project-sources                    Manage ChatGPT Project Sources as explicit
+                                     shared project context.
+  bridge                             Bridge a Windows-hosted ChatGPT session to
+                                     Linux clients.
+  tui                                Launch the interactive terminal UI for
+                                     humans (no automation).
+  doctor [options]                   Diagnose Oracle API provider readiness and
+                                     routing.
+  docs                               Documentation maintenance utilities.
+  session [options] [id]             Attach to a stored session or list recent
+                                     sessions when no ID is provided.
+  status [options] [id]              List recent sessions (24h window by
+                                     default) or attach to a session when an ID
+                                     is provided.
+  restart [options] <id>             Re-run a stored session as a new session
+                                     (clones options).
+
+Tips
+• Required: always pass a prompt AND --file … (directories/globs are fine); Oracle cannot see your project otherwise.
+• Attach lots of source (whole directories beat single files) and keep total input under ~196k tokens.
+• Oracle starts empty—open with a short project briefing (stack, services, build steps), spell out the question and prior attempts, and why it matters; the more explanation and context you provide, the better the response will be.
+• Spell out the project + platform + version requirements (repo name, target OS/toolchain versions, API dependencies) so Oracle doesn’t guess defaults.
+• When comparing multiple repos/files, spell out each repo + path + role (e.g., “Project A SettingsView → apps/project-a/Sources/SettingsView.swift; Project B SettingsView → ../project-b/mac/...”) so the model knows exactly which file is which.
+• Best results: 6–30 sentences plus key source files; very short prompts often yield generic answers.
+• Oracle is one-shot by default. Continue saved API or ChatGPT browser sessions with --followup <sessionId|responseId>; use repeated --browser-follow-up for planned same-run ChatGPT turns.
+• Run --files-report to inspect token spend before hitting the API.
+• Non-preview runs spawn detached sessions (especially gpt-5.5-pro API). If the CLI times out, do not re-run — reattach with oracle session <slug> to resume/inspect the existing run.
+• Set a memorable 3–5 word slug via --slug "<words>" to keep session IDs tidy.
+• Finished sessions auto-hide preamble logs when reattached; raw timestamps remain in the saved log file.
+• Need hidden flags? Run oracle --help --verbose to list search/token/browser overrides.
+• If any Oracle session is already running, do not start new API runs. Attach to the existing browser session instead; only trigger API calls when you explicitly mean to.
+• Duplicate prompt guard: if the same prompt is already running, new runs are blocked unless you pass --force—prefer reattaching instead of spawning duplicates.
+
+Examples
+  oracle --render --copy --prompt "Review the TS data layer for schema drift" --file "src/**/*.ts,*/*.test.ts"
+    Build the bundle, print it, and copy it for manual paste into ChatGPT.
+
+  oracle --prompt "Cross-check the data layer assumptions" --models gpt-5.2-pro,gemini-3-pro --file "src/**/*.ts"
+    Run multiple API models in one go and aggregate cost/usage.
+
+  oracle status --hours 72 --limit 50
+    Show sessions from the last 72h (capped at 50 entries).
+
+  oracle session <sessionId>
+    Attach to a running/completed session and stream the saved transcript.
+
+  oracle --prompt "Ship review" --slug "release-readiness-audit"
+    Encourage the model to hand you a 3–5 word slug and pass it along with --slug.
+
+  oracle --prompt "Tabs frozen: compare Project A SettingsView (apps/project-a/Sources/SettingsView.swift) vs Project B SettingsView (../project-b/mac/App/Presentation/Views/SettingsView.swift)" --file apps/project-a/Sources/SettingsView.swift --file ../project-b/mac/App/Presentation/Views/SettingsView.swift
+    Spell out what each attached file is (repo + path + role) before asking for comparisons so the model knows exactly what it is reading.
+
+
+Examples:
+  # Quick API run with two files
+  oracle --prompt "Summarize the risk register" --file docs/risk-register.md docs/risk-matrix.md
+
+  # Browser run (no API key) + globbed TypeScript sources, excluding tests
+  oracle --engine browser --prompt "Review the TS data layer" \
+    --file "src/**/*.ts" --file "!src/**/*.test.ts"
+
+  # Build, print, and copy a markdown bundle (semi-manual)
+  oracle --render --copy -p "Review the TS data layer" --file "src/**/*.ts" --file "!src/**/*.test.ts"
+

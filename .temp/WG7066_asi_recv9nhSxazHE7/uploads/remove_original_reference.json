@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recv9nhSxazHE7": {
+        "fldr9B4JZT": [
+          {
+            "file_token": "KHImbvHP8omKILxN6dOcE62fnVg",
+            "name": "WG7066_clean_no_logo.png",
+            "size": 1166429
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

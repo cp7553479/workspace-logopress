@@ -1,0 +1,171 @@
+`_record_id` is metadata for record operations, not a table field.
+
+- `_record_id`: recuYsACVIzGFb
+- `产品编号`: LP3166
+- `Rush_Time`: 5:days
+- `Q5`: 1000
+- `UD1`: K/Z
+- `Origin`: China
+- `Option_Values`: 
+- `Q1`: 50
+- `Product_Name`: 3in1 Leakproof Gym Cycling Keep Cool Misting Water Bottle
+- `QUR_Flag`: 
+- `Imprint_Location`: Centered on Front or as you request
+- `Theme`: Anniversary Sustainable Health & Fitness Sports Corporate
+- `P10`: 
+- `备注`: ["塑料杯"]
+- `FOB Points`: Casper, WY 82601 USA
+- `产品类型`: Drinkware
+- `Product_Color`: OTHER=Custom Color
+- `Option_Name`: 
+- `Size_Group`: Dimension
+- `Q4`: 500
+- `产品名称`: 3in1 Leakproof Gym Cycling Misting Keep cool Water Bottle
+- `P8`: 6.06635382857142
+- `1688价(元)`: 24
+- `重量(箱子+产品)公斤`: 11
+- `箱子尺寸 长(cm)`: 43
+- `货代大货起订量标准`: 44
+- `Imprint_Size`: 2" x 2" or custom size
+- `Product_Type`: 
+- `D2`: R
+- `Base_Price_Name`: 
+- `Shape`: 
+- `Base_Price_Criteria_...`: 
+- `Upcharge_Criteria_1`: 
+- `Upcharge_Type`: 
+- `Base_Price_Criteria_...`: 
+- `Upcharge_Criteria_2`: 
+- `Production_Time`: 8:days
+- `XID`: 
+- `Description`: Stay cool and hydrated with our 3in1 Leakproof Gym Cycling Misting Keep Cool Water Bottle, crafted from high-quality plastic for durability and portability. This versatile bottle features a leakproof design to prevent spills, a misting function for instant refreshment during intense workouts or cycling, and double-wall insulation to keep drinks ice cold for up to 5 hours. Ergonomically designed for easy carrying, it's perfect for gym sessions, cycling, camping, football games, and sustainable daily use. Ideal for promotional events, business gifts, or anniversary and Christmas presents, this customizable bottle supports logo printing and bulk orders. Lightweight and reusable, it fits seamlessly into active lifestyles, ensuring you stay hydrated and cool wherever your day takes you. Rush service available for quick delivery.
+- `Upcharge_Name`: 
+- `WG产品编号`: WG3157
+- `Category`: Bottles-Insulated Beverage Holders-General
+- `运输风险提示`: 
+- `Q8`: 10000
+- `产品关键词`: Unique Custom Best High,
+Quaility Luxury Most Popular,
+Durable Stock Portable,
+Wholesale Promotional Branded,
+Printed Logo Customized Bulk,
+Customizable Nice Blank,
+Amazon 3in1 Leakproof Gym,
+Cycling Misting Keep Cool,
+Water Bottle Insulated,
+Bottles Awala Awalah Awola,
+Owala 32oz Pink With Straw 32,
+Oz Brumate Ello Hydroflask 24,
+Leak Proof Zulu Era 30 Metal,
+Stanley National Parks,
+Tumblers Owola Termos Para,
+Agua Fria Lululemon Reusable,
+Simply Modern Stainless Steel,
+Tumbler Manna Owalla Botellas,
+Larq Sports Odwalla No Flask,
+Handle Thermoflask,
+Waterbottles Kids Cup Reduce,
+Iron Klean Kanteen Spill,
+Iceflow Bittle Dishwasher,
+Safe Clear Flip Top That Stay,
+Cold Highest Rated Owa Free,
+Sip White 40oz Owals Owalsa,
+Owla Owlalife Hydro Aesthetic,
+Preppy Sm Lids Travel,
+Lightweight Oala Ounce Miir,
+Without Boot 40 Fits In
+- `产品尺寸 高(cm)`: 25
+- `商品负责人`: [{"id":"ou_5ad9230482a1bb972728bc07618ae587","name":"文森-练物-超级管理员"}]
+- `Same_Day_Service`: N
+- `Item_Weight`: 
+- `Tradename`: 
+- `record_id`: recuYsACVIzGFb
+- `产品重量(kg)`: 
+- `Personalization`: Y
+- `货代大货参考定价基准（30%毛利）`: 6.66
+- `Imprint_Color`: Standard Colors
+- `Summary`: 3in1 Leakproof Gym Cycling Misting Water Bottle: Insulated, leakproof, misting function, keeps cold 5h. Ideal for gym, cycling, camping, promotional events. Customizable, lightweight, reusable.
+- `D6`: R
+- `箱子尺寸 宽(cm)`: 43
+- `主题`: Anniversary
+Sustainable
+Camping
+Christmas
+Football
+- `Q7`: 5000
+- `Product_Number`: LP3166
+- `P5`: 6.40337348571428
+- `P6`: 6.26856562285714
+- `Upcharge_Level`: 
+- `分类`: Cups-General/Bottles-General
+- `UP1`: 
+- `Can_order_only_one`: 
+- `件数/箱`: 50
+- `父记录`: 
+- `Service_Charge`: Optional
+- `产品尺寸 长(cm)`: 7.5
+- `P9`: 
+- `Shipping_Weight`: 24.25:lbs
+- `Q2`: 100
+- `Product_Sample`: Y
+- `商品主图`: [{"file_token":"Dey9bZruEoHIkQxZreEcLPxsn4b","name":"LP3166_hero_oracle_chatgpt.png","size":1049134}]
+- `Less_Than_Min`: Y
+- `Req_for_order`: 
+- `P7`: 6.20116169142857
+- `D5`: R
+- `Additional_Location`: 
+- `产品颜色`: custom color
+- `产品尺寸 宽(cm)`: 7.5
+- `SEO_FLG`: 
+- `Shipping_Dimensions`: Length:16.93:in;Width:16.93:in;Height:22.05:in
+- `Linename`: 
+- `Safety_Warnings`: 
+- `印刷方式`: Full color/Silkscreen/Unimprinted/
+- `D3`: R
+- `参考图片`: [{"file_token":"FnqnbsFpxoIqYIxWFDycB5senXd","name":"cleaned_reference_gemini_direct.jpg","size":406696}]
+- `Shipping_Items`: 50:per Case
+- `D7`: R
+- `产品材质`: Plastic
+- `Mark`: ["有询单"]
+- `UQ1`: 1
+- `D9`: R
+- `Q9`: 
+- `Distributor_View_Onl...`: N
+- `D8`: R
+- `Imprint_Method`: Full Color=Full Color Silkscreen=Silkscreen
+- `Option_Additional_In...`: 
+- `Prod_Image`: 
+- `Material`: PLASTIC
+- `完整描述`: Our water bottle is made of high quality materials, lightweight, dust proof, leak proof and reusable to ensure your drinking water is healthy. Ergonomically designed, the lightweight and portable design is perfect for carrying around, and belongs to your healthy lifestyle! It's hot and sweats a good bit while doing sports, so grab some ice cold water to drink and mist your face with our double wall insulated mist n sip water bottle rather then getting soaked by pouring it on your head. By adding ice cubes to the insulated water bottle, it can keed ice cold for 5 hours, you can enjoy your exercise with it. Whether you're cycling through mountain trails, working out in the gym, or looking for a distinctive business gift to impress clients, this water bottle is the top choice.
+- `id`: 3264
+- `P3`: 7.14481673142857
+- `Rush_Service`: Y
+- `Packaging`: Box Poly Bag Other Custom
+- `产品简称`: 
+- `Price_Type`: Net
+- `选品`: 
+- `D10`: R
+- `P1`: 7.41
+- `Q6`: 2000
+- `简要说明`: During those intense rides or workouts, a simple spray can bring instant refreshment. Rush service is availble.
+- `Price_Includes`: 1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs
+- `Currency`: USD
+- `来源(1688)`: https://detail.1688.com/offer/543578379635.html?spm=a2639h.29135425.offerlist.i5&source=action%23offerItem%3Borigin%23espweb.asicentral.com
+- `Additional_Color`: 
+- `D4`: R
+- `Product_URL`: 
+- `箱子尺寸 高(cm)`: 56
+- `D1`: R
+- `Q10`: 
+- `Size_Values`: Length:2.95:in;Width:2.95:in;Height:9.84:in
+- `P2`: 7.27962459428571
+- `Option_Type`: 
+- `Q3`: 200
+- `P4`: 7.0774128
+- `Sold_Unimprinted`: Y
+- `Artwork`: Virtual Proof:FREE
+- `白底图`: [{"file_token":"SJsPbAMQZoPe5txnzhCcU1cgnHg","name":"white_background_final.jpg","size":259297}]
+- `Keywords`: 
+
+Meta: count=1; has_more=false; ignored_fields=2
+Ignored fields: {"id":"flddlselbP","name":"转ESP模板","reason":"UNSUPPORTED: not_support field cannot be read through OpenAPI."}, {"id":"fldgjurf2j","name":"流程","reason":"UNSUPPORTED: not_support field cannot be read through OpenAPI."}

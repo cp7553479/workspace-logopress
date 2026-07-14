@@ -1,0 +1,32 @@
+{
+  "product_number": "LP2999",
+  "record_id": "recuYsACVIbm5I",
+  "local_output_path": ".temp/LP2999_hero_regen/outputs/lp2999_hero_oracle_chatgpt.png",
+  "selected_logo": "LOGO-WT.png",
+  "generation_route": "Oracle ChatGPT browser, requested 5.5 Medium, output saved by Oracle",
+  "uploaded_new_hero_token": "GbqLb2p9qozBcfx1zPgcmbYynNc",
+  "removed_old_hero_token": "PQC2bFBfpoQwVsx8JzYcThtUnOc",
+  "preserved_non_hero_main_image_tokens": [
+    "WbbTb1CVvowdR8xPSBRc2lqlnUf",
+    "EL3XbsMqeoPYeDx7GnPcDhzNngh",
+    "LhT8bHPCKoGBGtxwqATcLXhhn2d",
+    "UDvmbslWsorILKxlVeucVo3znnh"
+  ],
+  "retained_reference_token": "D7KrbYbjjoB3EXxED7yc5TTFngg",
+  "retained_white_background_token": "AuLHb1R8boh9BXxsoQTcUToKnMb",
+  "rejected_attempts_or_route_failures": [],
+  "checks": {
+    "new_hero_present": true,
+    "old_hero_absent": true,
+    "non_hero_tokens_present": true,
+    "reference_token_unchanged": true,
+    "white_background_token_unchanged": true
+  },
+  "readback_file": ".temp/LP2999_hero_regen/uploads/readback_final.json",
+  "source_files": {
+    "initial_readback": ".temp/LP2999_hero_regen/uploads/readback_initial.json",
+    "prompt": ".temp/LP2999_hero_regen/outputs/lp2999_hero_prompt.txt",
+    "upload_response": ".temp/LP2999_hero_regen/uploads/upload_hero_response.json",
+    "remove_response": ".temp/LP2999_hero_regen/uploads/remove_old_hero_response.json"
+  }
+}

@@ -1,0 +1,16 @@
+🧿 oracle 0.14.0 — AI confidence monitored, citations required.
+Using named browser profile default: /Users/vincent/.oracle/browser-profile
+Session: lp3516-scene-lifestyle
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session lp3516-scene-lifestyle
+Launching browser mode (gpt-5.5) with ~249 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Browser control: launch visible Chrome; may focus/control the browser UI.
+[browser] Browser guidance: Manual-login mode may show the persistent Oracle Chrome profile for sign-in or automation.
+[browser] Browser guidance: Use --browser-hide-window, --browser-attach-running, or --remote-chrome to reduce desktop disruption.
+[browser] Acquired ChatGPT browser slot bfd38653 (3 max).
+[browser] Released ChatGPT browser slot bfd38653.
+ERROR: Chrome window closed before oracle finished. Please keep it open until completion.
+Chrome disconnected before a ChatGPT conversation was created; marking session error.

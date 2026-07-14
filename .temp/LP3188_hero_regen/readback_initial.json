@@ -1,0 +1,64 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3188",
+        [
+          {
+            "file_token": "GiijbQqXUoIJhxxeNhtcX9Afnof",
+            "name": "LP3188_clean_reference.png",
+            "size": 1550286
+          }
+        ],
+        [
+          {
+            "file_token": "RolSbKFXCoCkSLxlyeOc6nkYngd",
+            "name": "LP3188_white_background.jpg",
+            "size": 468019
+          }
+        ],
+        [
+          {
+            "file_token": "F1ulbtZ3gonqkNxtxBlcJVeInxe",
+            "name": "LP3188_asi_main_hero.jpg",
+            "size": 672878
+          }
+        ],
+        "Windproof Warm Ski Bike Cycling Neck Warmer Winter Face Mask Balaclava",
+        "Our Windproof Warm Ski Bike Cycling Neck Warmer Winter Face Mask is designed to provide ultimate protection for men and women during cold weather outdoor activities. Crafted with high-quality polyester, it covers your head, neck, and entire face except the eyes, shielding you from wind and cold. The bottom features a drawstring adjustment for customizable tightness, and a back neck slit design allows easy pulling up. Soft and comfortable, it offers a snug, warm fit. Perfect for skiing, snowboarding, motorcycling, running, biking, trekking, mountain climbing, airsoft paintball, hunting, tactical training, and more. Ideal for travel, bicycling, Christmas, anniversaries, and sustainable outdoor gear needs. Available for wholesale, promotional, and bulk orders with customizable options, including printed logos.",
+        "POLYESTER"
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fld21plSU3",
+      "flddjjhYcZ",
+      "fldus4D5q3"
+    ],
+    "fields": [
+      "产品编号",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "Product_Name",
+      "Description",
+      "Material"
+    ],
+    "has_more": false,
+    "ignored_fields": [
+      {
+        "id": "Product_Colors",
+        "name": "Product_Colors",
+        "reason": "NOT_FOUND: selected field does not exist in this table."
+      }
+    ],
+    "record_id_list": [
+      "recuYsACVIE192"
+    ]
+  }
+}

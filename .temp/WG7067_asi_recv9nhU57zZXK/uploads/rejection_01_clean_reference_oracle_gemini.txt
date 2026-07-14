@@ -1,0 +1,1 @@
+Rejected Oracle/Gemini cleanup output: removed source watermark/URL but added an extra sparkle-like mark at bottom-right, violating no extra marks/watermarks. Path: outputs/WG7067_clean_no_logo.png

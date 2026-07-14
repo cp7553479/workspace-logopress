@@ -1,0 +1,598 @@
+{
+  "type": "hero_regen",
+  "created_at": "2026-06-23T12:26+08:00",
+  "products": [
+    {
+      "pn": "LP3276",
+      "rid": "recuYsACVIydom"
+    },
+    {
+      "pn": "LP3273",
+      "rid": "recuYsACVILy3b"
+    },
+    {
+      "pn": "LP3258",
+      "rid": "recuYsACVIt4Py"
+    },
+    {
+      "pn": "LP3240",
+      "rid": "recuYsACVIH4Aq"
+    },
+    {
+      "pn": "LP3229",
+      "rid": "recuYsACVIvAOI"
+    },
+    {
+      "pn": "LP3217",
+      "rid": "recuYsACVIUO4i"
+    },
+    {
+      "pn": "LP3215",
+      "rid": "recuYsACVILcTO"
+    },
+    {
+      "pn": "LP3202",
+      "rid": "recuYsACVInTaO"
+    },
+    {
+      "pn": "LP2566",
+      "rid": "recuYsACgfrEQl"
+    },
+    {
+      "pn": "LP3199",
+      "rid": "recuYsACVIHfSH"
+    },
+    {
+      "pn": "LP3188",
+      "rid": "recuYsACVIE192"
+    },
+    {
+      "pn": "LP3166",
+      "rid": "recuYsACVIzGFb"
+    },
+    {
+      "pn": "LP3151",
+      "rid": "recuYsACVIWP5P"
+    },
+    {
+      "pn": "LP3123",
+      "rid": "recuYsACVI6tID"
+    },
+    {
+      "pn": "LP3105",
+      "rid": "recuYsACVIpU8x"
+    },
+    {
+      "pn": "LP5502",
+      "rid": "recuYsBlcDpKN3"
+    },
+    {
+      "pn": "LP3070",
+      "rid": "recuYsACVIDm7w"
+    },
+    {
+      "pn": "LP3015",
+      "rid": "recuYsACVI4KDr"
+    },
+    {
+      "pn": "LP2999",
+      "rid": "recuYsACVIbm5I"
+    },
+    {
+      "pn": "LP2996",
+      "rid": "recuYsACVI67WY"
+    },
+    {
+      "pn": "LP2994",
+      "rid": "recuYsACVI4xsE"
+    }
+  ],
+  "current_index": 21,
+  "running_count": 0,
+  "completed": [
+    {
+      "pn": "LP3276",
+      "rid": "recuYsACVIydom",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T04:43:13.945Z",
+      "workspace": ".temp/LP3276_hero_regen",
+      "output": ".temp/LP3276_hero_regen/outputs/LP3276_asi_hero_oracle_gpt55_medium.png",
+      "upload_token": "I12RbzJaboGFBAxnnwEcgn2Ln3f",
+      "old_token_removed": "LUz5b5hmgokEQ8xDMJ2czjhdnRh",
+      "final_readback": ".temp/LP3276_hero_regen/uploads/final_readback.json",
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3273",
+      "rid": "recuYsACVILy3b",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T04:54:11.787Z",
+      "workspace": ".temp/LP3273_hero_regen",
+      "output": ".temp/LP3273_hero_regen/outputs/LP3273_asi_hero_regen.png",
+      "upload_token": "Bn6nb47jyo3GQaxZxSfcTOQOnjc",
+      "old_token_removed": "QKzwbdyAHoyl0QxcWGpcZAZVnvb",
+      "preserved_tokens": [
+        "I3EtbK9zcoifeyxgxxwcebUqnob"
+      ],
+      "final_readback": ".temp/LP3273_hero_regen/evidence/record_after.json",
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3258",
+      "rid": "recuYsACVIt4Py",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T05:04:32.364Z",
+      "workspace": ".temp/LP3258_hero_regen",
+      "output": ".temp/LP3258_hero_regen/outputs/LP3258_hero_main_oracle_chatgpt_LOGO-WT.png",
+      "upload_token": "A1oTbIVYIoiHcexc8uIcpEKCngg",
+      "old_token_removed": "TV97bAy7koWgiwxAbLVc3GYmnYg",
+      "preserved_tokens": [
+        "GYfXb78bmoY7rNxLbKRcNKu9nmd"
+      ],
+      "final_readback": ".temp/LP3258_hero_regen/uploads/readback_after_replace.json",
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3240",
+      "rid": "recuYsACVIH4Aq",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T05:13:58.896Z",
+      "workspace": ".temp/LP3240_hero_regen",
+      "output": ".temp/LP3240_hero_regen/outputs/LP3240_hero_main_oracle_chatgpt_LOGO-WT.png",
+      "upload_token": "JRylbjFwPoVMzdxAKqOcLdVinKd",
+      "old_token_removed": "WGu1bV4bVosfOfxTNDycOfh1nhd",
+      "preserved_tokens": [],
+      "reference_token_retained": "OJXqblXdmodRj2xcPeic1J81nNc",
+      "white_background_token_retained": "MmR3bW2qloR9jKxXCwNcpLtZnPf",
+      "final_readback": ".temp/LP3240_hero_regen/uploads/final_readback.json",
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3229",
+      "rid": "recuYsACVIvAOI",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T05:24:59.515Z",
+      "workspace": ".temp/LP3229_hero_regen",
+      "output": ".temp/LP3229_hero_regen/outputs/LP3229_hero_main_oracle_chatgpt_LOGO-WT.png",
+      "upload_token": "PJXIbXVgSoEHclxVgHAcKpdgnqe",
+      "old_token_removed": "PuifbprCQoLoBoxJkm0cV9RVnEg",
+      "preserved_tokens": [
+        "UIcub1aUJo0Gw0xQjhscHjpEntg"
+      ],
+      "reference_token_retained": "F2HsbkxrYoBPh5xW7bhcw3yXnzl",
+      "white_background_token_retained": "IV3nbVpG7okAgJxtodkc6h7snlb",
+      "final_readback": ".temp/LP3229_hero_regen/uploads/verification_summary.md",
+      "parent_verified": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3217",
+      "rid": "recuYsACVIUO4i",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T13:42:31+0800",
+      "workspace": ".temp/LP3217_hero_regen",
+      "output": ".temp/LP3217_hero_regen/outputs/LP3217_hero_main_oracle_gemini_retry_LOGO-WT.png",
+      "upload_token": "IKLWboHlgoO7j5x8Q9QcUojEnhc",
+      "old_token_removed": "BCFZbi3iNoBkvMxUUkRcRxD7nPc",
+      "preserved_tokens": [
+        "T8oUbLMtZoGgidxT4pTcqUa9n7d",
+        "X970bEmL9oai4wxiJ8QcZzYqnfc"
+      ],
+      "reference_token_retained": "MP0JbOfU4odGTlxTRKHcCQdCnMZ",
+      "white_background_token_retained": "UtYnbxCvioOVhkxs3XYct0sOnLd",
+      "final_readback": ".temp/LP3217_hero_regen/parent_live_readback_20260623_1342.json",
+      "parent_verified": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3215",
+      "rid": "recuYsACVILcTO",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T14:13:00+0800",
+      "workspace": ".temp/LP3215_hero_regen",
+      "output": ".temp/LP3215_hero_regen/outputs/LP3215_asi_hero_oracle_chatgpt_regen.png",
+      "upload_token": "PqBIbngLfoZUZbxeRRNcdDUJnhe",
+      "old_token_removed": "JuiqbKOlpofabmxR60ccqGQKnFe",
+      "preserved_tokens": [
+        "KnqDbFIj2oBsyKxZ1jCcPHNankc",
+        "N0ZSbDZZko7C9jx8Vc2c4tNBnti",
+        "GydGb0ZvrogvaxxpwS4cH74qnCg"
+      ],
+      "reference_token_retained": "JmrObqlGIoNZKOxpg00cQoZVnm4",
+      "white_background_token_retained": "DI1CbExDMoueHlxlcmncOOzHnG9",
+      "final_readback": ".temp/LP3215_hero_regen/uploads/final_readback.json",
+      "parent_verified": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3202",
+      "rid": "recuYsACVInTaO",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T14:21:49+0800",
+      "workspace": ".temp/LP3202_hero_regen",
+      "output": ".temp/LP3202_hero_regen/outputs/LP3202_asi_hero_regen_oracle_chatgpt.png",
+      "upload_token": "Sm7Mbpv3QoJfuExpHdNczjnGnLb",
+      "old_token_removed": "C7o5bvo7doxp7OxY6j4cGfgRn9c",
+      "preserved_tokens": [
+        "VfEsbEHZJoWNATxStq6cOnQIngd",
+        "NNXIbXMXVoCY5bxoKvDcLxHonbc"
+      ],
+      "reference_token_retained": "RLYbbwuHjopiFZx6sDicBKwHnCh",
+      "white_background_token_retained": "RYSYbmzXAobfs2xKOh4cGe6ynnd",
+      "final_readback": ".temp/LP3202_hero_regen/parent_live_readback_20260623_1421.json",
+      "parent_verified": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP2566",
+      "rid": "recuYsACgfrEQl",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T14:33:05+0800",
+      "workspace": ".temp/LP2566_hero_regen",
+      "output": ".temp/LP2566_hero_regen/outputs/LP2566_hero_main_oracle_chatgpt_LOGO-BK.png",
+      "upload_token": "A0EvbZsbyoDlTJxUyvVc2Mv4n7c",
+      "old_token_removed": "Y19UbkAVAoTLLvxNPMucg0fOn7g",
+      "preserved_tokens": [
+        "TAXibBI1OoaxSDxnY4QcQ3ranHc",
+        "EwPgbp7taokX2jxMtpecAX3KnHh"
+      ],
+      "reference_token_retained": "WqWcbaqpro4f1lxzeS3cV4Vtnjc",
+      "white_background_token_retained": "Lwe6bfXjyop5Plxy9tOcOUhln4f",
+      "final_readback": ".temp/LP2566_hero_regen/uploads/final_readback.txt",
+      "parent_verified": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3199",
+      "rid": "recuYsACVIHfSH",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T14:47:52+0800",
+      "workspace": ".temp/LP3199_hero_regen",
+      "output": ".temp/LP3199_hero_regen/outputs/LP3199_hero_oracle_chatgpt.png",
+      "upload_token": "ZoWtbjoUUogS6XxkitccOL12nVe",
+      "old_token_removed": "CHKSbqu64oGZYfxGTO9cqAOUnuf",
+      "preserved_tokens": [
+        "UEdXblkjOoaNt0xs0SvcJPDkn5f"
+      ],
+      "reference_token_retained": "Asn5bwp4soZ0yjx7WhgcRFf3nah",
+      "white_background_token_retained": "YkinbdSnzoPuZoxvIlGc5cxRnab",
+      "final_readback": ".temp/LP3199_hero_regen/parent_live_readback_20260623_1444.json",
+      "parent_verified": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3188",
+      "rid": "recuYsACVIE192",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T14:58:00+0800",
+      "workspace": ".temp/LP3188_hero_regen",
+      "output": ".temp/LP3188_hero_regen/outputs/LP3188_asi_main_hero_regen.png",
+      "upload_token": "CLUgbaJn4owAUKxD1YIc4qzanlb",
+      "old_token_removed": "F1ulbtZ3gonqkNxtxBlcJVeInxe",
+      "preserved_tokens": [],
+      "reference_token_retained": "GiijbQqXUoIJhxxeNhtcX9Afnof",
+      "white_background_token_retained": "RolSbKFXCoCkSLxlyeOc6nkYngd",
+      "final_readback": ".temp/LP3188_hero_regen/parent_live_readback_20260623_1458.json",
+      "verification_file": ".temp/LP3188_hero_regen/verification_summary.json",
+      "parent_verified": true,
+      "delivery_status": "sent_feishu",
+      "delivery_note": "Parent verified and attempted visible send with image, but current session file changed while embedded prompt lock was released. Retry later.",
+      "sent_to_user": true,
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3166",
+      "rid": "recuYsACVIzGFb",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T15:11:38+0800",
+      "workspace": ".temp/LP3166_hero_regen",
+      "output": ".temp/LP3166_hero_regen/outputs/LP3166_hero_oracle_chatgpt.png",
+      "upload_token": "Dey9bZruEoHIkQxZreEcLPxsn4b",
+      "old_token_removed": "PS02bKFs2oGb0fxu1yPc9E4JnFb",
+      "preserved_tokens": [],
+      "reference_token_retained": "FnqnbsFpxoIqYIxWFDycB5senXd",
+      "white_background_token_retained": "SJsPbAMQZoPe5txnzhCcU1cgnHg",
+      "final_readback": ".temp/LP3166_hero_regen/uploads/verification_readback.txt",
+      "verification_file": ".temp/LP3166_hero_regen/uploads/verification_summary.txt",
+      "parent_verified": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3151",
+      "rid": "recuYsACVIWP5P",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T15:18:00+0800",
+      "workspace": ".temp/LP3151_hero_regen",
+      "output": ".temp/LP3151_hero_regen/outputs/hero_logo_oracle_chatgpt.png",
+      "selected_logo": "LOGO-WT.png",
+      "generation_route": "Oracle ChatGPT browser route, model requested 5.5 Medium",
+      "upload_token": "U4ovbd8oUoE4F9xqhe1cDUiYnTg",
+      "old_token_removed": "WHxxb8lI8oGG8MxgIUzcyIoJnbh",
+      "preserved_tokens": [
+        "BsHWbwX9HoCF9sxFabWcjTTwnZe",
+        "NHjfb64r6o4Y4PxKGbjcFUUznlf",
+        "SOrWbYkUsooAWSxH0X8cEmMUnrd",
+        "XXoxbe9wHoKjZyxkcbgcKwfNnfb",
+        "Gzo7b6WoOoVntMxP2oRcTET1nPg"
+      ],
+      "reference_token_retained": "VUdlbTWMrostZ4xWekjcxEv8nMh",
+      "white_background_token_retained": "Rj6DbpojgoAQRWxaKE9c571vnVg",
+      "final_readback": ".temp/LP3151_hero_regen/uploads/readback_after_hero_regen.json",
+      "verification_file": ".temp/LP3151_hero_regen/uploads/verification_summary.json",
+      "parent_verified": true,
+      "delivery_status": "sent_feishu",
+      "delivery_note": "Parent verified and attempted visible send with image, but current session file changed while embedded prompt lock was released. Retry later.",
+      "sent_to_user": true,
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3123",
+      "rid": "recuYsACVI6tID",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T15:32:00+0800",
+      "workspace": ".temp/LP3123_hero_regen",
+      "output": ".temp/LP3123_hero_regen/outputs/asi_hero_LP3123_oracle_chatgpt.png",
+      "selected_logo": "LOGO-WT.png",
+      "generation_route": "Oracle ChatGPT browser route, requested 5.5 Medium; saved from gpt-5.5 browser route",
+      "upload_token": "QNbhblLPhoPkWIxAQtlcv8JSndd",
+      "old_token_removed": "ZtsDbFR7YorrcXxVR0DcczMmn2f",
+      "preserved_tokens": [
+        "LZKbbOBKPoCAH9xoR30crKT5nJg",
+        "CsZsbclb5o4sy2xWCMFcck2Snac",
+        "PILwbDGMBovqFkxFTc3cyUCbnXf"
+      ],
+      "reference_token_retained": "Hk6wbhlewoFVlKxCNoHcs3p4nS5",
+      "white_background_token_retained": "DjShbIzTjo6iinx84YJcsbe5nrg",
+      "final_readback": ".temp/LP3123_hero_regen/uploads/record_after.json",
+      "verification_file": ".temp/LP3123_hero_regen/uploads/verification_summary.md",
+      "parent_verified": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP5502",
+      "rid": "recuYsBlcDpKN3",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T15:47:43+0800",
+      "workspace": ".temp/LP5502_hero_regen",
+      "output": ".temp/LP5502_hero_regen/outputs/LP5502_hero_main_oracle_gemini.png",
+      "upload_token": "BZAhbuSm9oIWmhx5Sf7cze4unrb",
+      "old_token_removed": "SFzNbThZooENGkx5rRzcmcOZnSc",
+      "preserved_tokens": [
+        "NDjkbxq6UoSkE5xzaLvckw3CnCd",
+        "GxSvb5lBfojlYuxY5nRczQ1dnQc",
+        "CrGNbk9d0o8GO1xRSMocZWXHnAg",
+        "By8jbbbfpodIWdx7lfXcOexmnbb",
+        "PULCblMNgowud0xgK58cjBgkn8N"
+      ],
+      "reference_token_retained": "WagUbwNb0ovzxKxK5pZc1kTbn2c",
+      "white_background_token_retained": "VfUfbbUGyofYh6xQ20sc3idfnug",
+      "final_readback": ".temp/LP5502_hero_regen/uploads/verification_record_readback.json",
+      "verification_file": ".temp/LP5502_hero_regen/uploads/verification_summary.json",
+      "parent_verified": true,
+      "delivered": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3070",
+      "rid": "recuYsACVIDm7w",
+      "product_number": "LP3070",
+      "record_id": "recuYsACVIDm7w",
+      "child_session": "agent:global-trading-product:subagent:c8f05229-b408-43e6-bd89-7328d78331d0",
+      "run_id": "87012afc-c9e2-44d7-90b0-96301b363dc9",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3070_hero_regen_20260623_1544.md",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T16:00:00+0800",
+      "workspace": ".temp/LP3070_hero_regen",
+      "output": ".temp/LP3070_hero_regen/outputs/LP3070_asi_hero_regen_gemini.png",
+      "generation_route": "Oracle ChatGPT attempted first but failed at image fetch; Oracle Gemini succeeded.",
+      "upload_token": "QpnKba8MAoPmihx0NScczAaBneg",
+      "old_token_removed": "Ez7xboKaVoXZvGxVvcK4Innd",
+      "preserved_tokens": [
+        "TlFmbM6vtolfBexrbB2clGkKnq6"
+      ],
+      "reference_token_retained": "BNJlbTwuwoPkwcxS1LicwFoMngb",
+      "white_background_token_retained": "VR4FbTukNoI4nsxUrgic5iqXngd",
+      "final_readback": ".temp/LP3070_hero_regen/uploads/readback_after.json",
+      "verification_file": ".temp/LP3070_hero_regen/uploads/verification_LP3070_hero_regen.json",
+      "parent_verified": true,
+      "delivered": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3105",
+      "rid": "recuYsACVIpU8x",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T08:12:48.760Z",
+      "workspace": ".temp/LP3105_hero_regen",
+      "output": ".temp/LP3105_hero_regen/outputs/hero_main_oracle_gpt_regen.png",
+      "selected_logo": "LOGO-BK.png",
+      "generation_route": "Oracle ChatGPT browser route, model requested 5.5 Medium; accepted first attempt",
+      "upload_token": "UwLpbSThxor6GHxa45BcUjSVnwb",
+      "old_token_removed": "ZYKFbfojwoAwI2xhakwcBRcMnqb",
+      "preserved_tokens": [
+        "ZAGdb4qMbo6kxOxBu2ec5fiSnHh",
+        "WFBBbEtb1oVko8xf2GycQln2nid",
+        "EdOtb6bXVoQ9a2xjoTGcueKNn9b",
+        "F2hlbyFW4oErJDxDyOTciltVnve"
+      ],
+      "reference_token_retained": "K8kYbImSSoKikixXN6mcKku2n3e",
+      "white_background_token_retained": "XhlPbKzzDolkgOxkgydc9bqlnXf",
+      "final_readback": ".temp/LP3105_hero_regen/uploads/verification.json",
+      "verification_file": ".temp/LP3105_hero_regen/uploads/verification.json",
+      "parent_verified": true,
+      "delivered": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3015",
+      "rid": "recuYsACVI4KDr",
+      "product_number": "LP3015",
+      "record_id": "recuYsACVI4KDr",
+      "child_session": "agent:global-trading-product:subagent:3b1ee23b-5628-49e7-91d0-23ef58c75782",
+      "run_id": "5644d95b-a5cd-46e9-9ec0-ed4dbb987dd2",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3015_hero_regen_20260623_1613.md",
+      "status": "hero_regen_completed_uploaded_verified",
+      "completed_at": "2026-06-23T16:21:00+0800",
+      "workspace": ".temp/LP3015_hero_regen",
+      "output": ".temp/LP3015_hero_regen/outputs/LP3015_asi_hero_regen_oracle_chatgpt.png",
+      "selected_logo": "LOGO-BK.png",
+      "generation_route": "Oracle ChatGPT browser route, requested model 5.5 Medium; accepted first attempt",
+      "upload_token": "FeXmbMmnJoj9pxxAe5mcYI9mn3c",
+      "old_token_removed": "Mn0zbHoCyop8Ngxb5czck4trnrc",
+      "preserved_tokens": [],
+      "reference_token_retained": "L9KRb2nTvotbPuxPFx7cGNB1nxE",
+      "white_background_token_retained": "KuR6b0UveoakOHxMyVLcdv21nHo",
+      "final_readback": ".temp/LP3015_hero_regen/readbacks/parent_live_readback_20260623_1622.json",
+      "verification_file": ".temp/LP3015_hero_regen/readbacks/verification_20260623_hero_regen.md",
+      "parent_verified": true,
+      "delivered": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP2999",
+      "rid": "recuYsACVIbm5I",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T17:25:04+0800",
+      "workspace": ".temp/LP2999_hero_regen",
+      "output": ".temp/LP2999_hero_regen/outputs/lp2999_hero_oracle_chatgpt.png",
+      "selected_logo": "LOGO-WT.png",
+      "generation_route": "Oracle ChatGPT browser, requested 5.5 Medium",
+      "upload_token": "GbqLb2p9qozBcfx1zPgcmbYynNc",
+      "old_token_removed": "PQC2bFBfpoQwVsx8JzYcThtUnOc",
+      "preserved_tokens": [
+        "WbbTb1CVvowdR8xPSBRc2lqlnUf",
+        "EL3XbsMqeoPYeDx7GnPcDhzNngh",
+        "LhT8bHPCKoGBGtxwqATcLXhhn2d",
+        "UDvmbslWsorILKxlVeucVo3znnh"
+      ],
+      "reference_token_retained": "D7KrbYbjjoB3EXxED7yc5TTFngg",
+      "white_background_token_retained": "AuLHb1R8boh9BXxsoQTcUToKnMb",
+      "final_readback": ".temp/LP2999_hero_regen/parent_live_readback_20260623_1721.json",
+      "verification_file": ".temp/LP2999_hero_regen/uploads/verification_lp2999_hero_regen.json",
+      "parent_verified": true,
+      "delivered": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP2996",
+      "rid": "recuYsACVI67WY",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T17:35:00+0800",
+      "workspace": ".temp/LP2996_hero_regen",
+      "output": ".temp/LP2996_hero_regen/outputs/LP2996_hero_main_attempt01_chatgpt.png",
+      "upload_token": "SQEPbkhKcoTAHex4L2icsBF1nSc",
+      "old_token_removed": "SFogbRgH3ooRmbxlq95cLiahnkf",
+      "preserved_tokens": [
+        "FvfJbcjUKo9kM4xBN5mcZXK6nHb",
+        "MOB4bKHa6okN53xKZB5cWhHHnHg",
+        "WdYpblbGWoWQ4RxPsNnccgRenyf",
+        "OGA1bdSiIofAe4xurHOc04u3nxb",
+        "Ur1zb96Zeo0TB7xCsPncRYNZn8g"
+      ],
+      "reference_token_retained": "VOQwbodHUomdsAxr4ABcJ6MYnbf",
+      "white_background_token_retained": "G6BCbuWHKoHH7Nx200schypfn2e",
+      "final_readback": ".temp/LP2996_hero_regen/parent_live_readback_20260623_1753.json",
+      "parent_verified": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP2994",
+      "rid": "recuYsACVI4xsE",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T18:02:49+0800",
+      "workspace": ".temp/LP2994_hero_regen",
+      "output": ".temp/LP2994_hero_regen/outputs/LP2994_hero_main_oracle_gemini_LOGO-BK.png",
+      "upload_token": "PGdrbLSP2oKAXJxW6jXc7Qhon2e",
+      "old_token_removed": "LRjjbZ4zqoYf4XxLJ9LcFXtLntd",
+      "preserved_tokens": [
+        "IcvBbUzk8oUM8MxIDtkcogusn7e",
+        "B0TIbtDV5oimqyxcKLRcjm1OnDh",
+        "JDxlbxvxwoQ0KZxRTG9cDNw7n0f",
+        "QG17bRLvhozmDmxoK2UcvtKGnqe",
+        "KvwmbUJceo3tPPxgOE2cWksVn3g"
+      ],
+      "reference_token_retained": "RX4KbDWBnosANpxC3kVcIOX9nWh",
+      "white_background_token_retained": "BRB8bDVwvoct4Zx15mFcwP8Fnkh",
+      "final_readback": ".temp/LP2994_hero_regen/readback_final_api.json",
+      "verification_file": ".temp/LP2994_hero_regen/verification_summary.md",
+      "parent_verified": true,
+      "delivered": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    }
+  ],
+  "skipped": [],
+  "started_at": "2026-06-23T07:36:19.588Z",
+  "last_verified_at": "2026-06-23T18:21:00+0800",
+  "last_handoff": ".temp/asi_has_inquiry_manifest/handoff_LP2996_hero_regen_20260623_1725.md",
+  "last_failure": {
+    "pn": "LP3215",
+    "rid": "recuYsACVILcTO",
+    "status": "failed_retry_spawned",
+    "failed_at": "2026-06-23T05:58:24.176Z",
+    "failed_child_session": "agent:global-trading-product:subagent:7e5e165b-fb06-4dc8-a6ba-e560b9becf26",
+    "failed_run_id": "ec90ed55-3224-4149-ab13-cc1e75fe73fe",
+    "reason": "Previous worker stream disconnected before completion; local workspace contains references/prompt and one aborted Oracle route, but no output image/upload/readback.",
+    "retry_child_session": "agent:global-trading-product:subagent:3c407480-506b-4087-a003-762ee559fd8b",
+    "retry_run_id": "76a9274a-7779-4e09-82d9-71fd1db9a828",
+    "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3215_hero_regen_20260623_1342.md"
+  },
+  "failures": [
+    {
+      "pn": "LP3215",
+      "rid": "recuYsACVILcTO",
+      "status": "failed_retry_spawned",
+      "failed_at": "2026-06-23T05:58:24.176Z",
+      "failed_child_session": "agent:global-trading-product:subagent:7e5e165b-fb06-4dc8-a6ba-e560b9becf26",
+      "failed_run_id": "ec90ed55-3224-4149-ab13-cc1e75fe73fe",
+      "reason": "Previous worker stream disconnected before completion; local workspace contains references/prompt and one aborted Oracle route, but no output image/upload/readback.",
+      "retry_child_session": "agent:global-trading-product:subagent:3c407480-506b-4087-a003-762ee559fd8b",
+      "retry_run_id": "76a9274a-7779-4e09-82d9-71fd1db9a828",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3215_hero_regen_20260623_1342.md"
+    }
+  ],
+  "current_product": null,
+  "current_started_at": null,
+  "current_child_session": null,
+  "current_run_id": null,
+  "running": [],
+  "updated_at": "2026-06-24T22:21:00+0800",
+  "last_parent_check": "2026-06-24T22:21:00+0800"
+}

@@ -1,0 +1,84 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3514",
+        "Large-capacity Grocery Food Insulated Bag with 4 Cup Holders",
+        null,
+        "This large-capacity food insulation bag with cup holder makes your life more convenient and comfortable.Rush service is provided.",
+        "Bags \u0026 Luggage",
+        "black/red",
+        "Non-Woven Fabric",
+        58,
+        35,
+        38,
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "CrwfbEbOwohoJWxHS67casykn6b",
+            "name": "6656400441759575154270.jpeg",
+            "size": 489356
+          }
+        ],
+        null,
+        null,
+        "recuYsANVGcI2m"
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fld8ifVx8f",
+      "fldVQEfx44",
+      "fldwtQtwf5",
+      "fld6YFlAS8",
+      "fldoQQU5d4",
+      "flds2DArkf",
+      "fldmImxGsM",
+      "fldoThqxSN",
+      "fldFAy8Xes",
+      "fldsExhPlC",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fldfwWSmG4"
+    ],
+    "fields": [
+      "产品编号",
+      "产品名称",
+      "产品简称",
+      "简要说明",
+      "产品类型",
+      "产品颜色",
+      "产品材质",
+      "产品尺寸 长(cm)",
+      "产品尺寸 宽(cm)",
+      "产品尺寸 高(cm)",
+      "Mark",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "record_id"
+    ],
+    "has_more": false,
+    "query_context": {
+      "field_scope": "selected_fields",
+      "record_scope": "all_records",
+      "search_scope": "fldHb6xDKX(产品编号)"
+    },
+    "record_id_list": [
+      "recuYsANVGcI2m"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

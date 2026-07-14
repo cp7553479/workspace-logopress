@@ -1,0 +1,1 @@
+Rejected Oracle Gemini lifestyle output: generated visible text labels despite prompt requiring no headline text and no labels. Prior Oracle ChatGPT lifestyle route failed with fetch failed, see oracle_chatgpt_lifestyle.log. Fallback to Codex image generation is allowed for this lifestyle image under recovery instructions; image CLI remains prohibited.

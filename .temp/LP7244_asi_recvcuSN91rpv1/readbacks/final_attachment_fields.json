@@ -1,0 +1,65 @@
+{
+  "产品编号": "LP7244",
+  "参考图片": [
+    {
+      "file_token": "MokvbhMXNo6wHExTYswcHyZRnxg",
+      "name": "clean_no_logo_oracle_chatgpt.png",
+      "size": 1368084,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=MokvbhMXNo6wHExTYswcHyZRnxg&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/MokvbhMXNo6wHExTYswcHyZRnxg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+    }
+  ],
+  "白底图": [
+    {
+      "file_token": "AXIubcnf2oN2K3xMKvgc0PYlnzc",
+      "name": "white_background_oracle_gemini.png",
+      "size": 1058781,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=AXIubcnf2oN2K3xMKvgc0PYlnzc&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/AXIubcnf2oN2K3xMKvgc0PYlnzc/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+    }
+  ],
+  "商品主图": [
+    {
+      "file_token": "UJ7EbzgGgouivlxUikDc1joKn6C",
+      "name": "hero_retry_oracle_chatgpt.png",
+      "size": 1486636,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=UJ7EbzgGgouivlxUikDc1joKn6C&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/UJ7EbzgGgouivlxUikDc1joKn6C/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+    },
+    {
+      "file_token": "YoU9bVMKborNH0x17oSci7oLn5g",
+      "name": "lifestyle_scene_oracle_chatgpt.png",
+      "size": 2235482,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=YoU9bVMKborNH0x17oSci7oLn5g&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/YoU9bVMKborNH0x17oSci7oLn5g/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+    },
+    {
+      "file_token": "MWVrb5zgRorKU0xuM3XcttZPn4f",
+      "name": "sku_chart_oracle_gemini.png",
+      "size": 1109596,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=MWVrb5zgRorKU0xuM3XcttZPn4f&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/MWVrb5zgRorKU0xuM3XcttZPn4f/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+    },
+    {
+      "file_token": "JJBAb2eOfoUUDjxdmYwchV7an8g",
+      "name": "material_detail_oracle_chatgpt.png",
+      "size": 1408540,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=JJBAb2eOfoUUDjxdmYwchV7an8g&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/JJBAb2eOfoUUDjxdmYwchV7an8g/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+    },
+    {
+      "file_token": "OXyAbya6MofSUrxxhi3cqMtGnDf",
+      "name": "dimension_retry_oracle_chatgpt.png",
+      "size": 1065351,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=OXyAbya6MofSUrxxhi3cqMtGnDf&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/OXyAbya6MofSUrxxhi3cqMtGnDf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+    }
+  ]
+}

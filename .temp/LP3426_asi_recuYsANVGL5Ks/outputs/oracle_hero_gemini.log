@@ -1,0 +1,20 @@
+🧿 oracle 0.14.0 — Remembers your paths, forgets your past runs.
+Using Gemini web client for browser automation
+Browser model strategy is ignored for Gemini web runs.
+Session: lp3426-hero-logo-gemini
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session lp3426-hero-logo-gemini
+Launching browser mode (gemini-3.5-flash) with ~381 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Model selection evidence: requested=gemini-3.5-flash; resolved=(unavailable); status=unavailable; strategy=current; verified=no.
+Answer:
+http://googleusercontent.com/image_generation_content/292
+
+
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/LP3426_asi_recuYsANVGL5Ks/outputs/LP3426_hero_logo_oracle_gemini.png*
+
+40.9s · gemini-3.5-flash[browser] · ↑381 ↓15 ↻0 Δ396
+files=5

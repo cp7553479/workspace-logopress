@@ -1,0 +1,13 @@
+Oracle route log:
+clean_no_logo: Oracle ChatGPT 5.5 Medium accepted, output outputs/clean_no_logo_oracle_chatgpt.png
+white_background: Oracle Gemini 3.5 Flash attempt completed, pending visual acceptance
+white_background: Oracle Gemini 3.5 Flash accepted, output outputs/white_background_oracle_gemini.png
+lifestyle_scene: Oracle ChatGPT 5.5 Medium accepted, output outputs/lifestyle_scene_oracle_chatgpt.png
+selling_point: Oracle Gemini 3.5 Flash rejected, reason: incorrect SKU/color label in generated text and incomplete/duplicated color strip, output outputs/selling_point_oracle_gemini.png
+selling_point: Codex gpt-image-2 fallback blocked before output, reason: TypeError fetch failed; no rapid retry per generation-failure rule
+sku_chart: Oracle Gemini 3.5 Flash accepted, output outputs/sku_chart_oracle_gemini.png
+material_detail: Oracle ChatGPT 5.5 Medium accepted, output outputs/material_detail_oracle_chatgpt.png
+dimension: Oracle Gemini 3.5 Flash rejected, reason: horizontal/vertical measurement labels were swapped; output outputs/dimension_oracle_gemini.png
+dimension: Oracle ChatGPT 5.5 Medium accepted, output outputs/dimension_retry_oracle_chatgpt.png
+hero: Oracle Gemini 3.5 Flash rejected, reason: required visible YOUR LOGO wording missing from logo imprint; output outputs/hero_oracle_gemini.png
+hero: Oracle ChatGPT 5.5 Medium accepted, output outputs/hero_retry_oracle_chatgpt.png

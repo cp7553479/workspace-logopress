@@ -1,0 +1,37 @@
+{
+  "request_id": "2c610edc-6df6-41d4-a63b-6266bc9a6a36",
+  "session_id": "d0bda335-90ad-4c0a-989e-e14431f04945",
+  "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "imageModel": "gpt-image-2",
+  "image_count": 1,
+  "imageCount": 1,
+  "images": [
+    {
+      "path": "/Users/vincent/.openclaw/workspace-logopress/.temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_size_chart.png",
+      "decodedPath": "/Users/vincent/.openclaw/workspace-logopress/.temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_size_chart.png",
+      "bytes": 1424956,
+      "sha256": "f2e03cccbac8da9aa7a54d94d844b44165b5c138c1e8f2442fd8e6414b134977",
+      "call_id": "ig_091dacecca618d7b016a3b9c941c948191b2df687a7f263a7b",
+      "status": "generating",
+      "partial": false,
+      "revised_prompt": "Create a 1:1 Amazon-style ecommerce size chart infographic on a pure white / very light clean background. Use the provided product references exactly: long woven polyester resistance bands with soft fabric edges, visible woven knit texture, pastel colors matching the references, no logos. Show one long straight pink fabric band laid vertically or horizontally and one rolled band beside it, identical in shape, thickness, proportions, texture, and color style to the reference product. Add simple professional dimension arrows/guide lines. English dimension labels only: \"Length 78.74 inch\" along the long straight band and \"Width 1.18 inch\" across the band width. Do not add any other text, claims, icons, QR codes, watermarks, logos, manufacturer/supplier/platform info, contact info, URLs, prices, or unsupported dimensions. Clean product photography style, sharp woven texture, soft shadows, centered composition, 1:1 square."
+    }
+  ],
+  "seen_event_types": [
+    "response.created",
+    "response.in_progress",
+    "response.output_item.added",
+    "response.image_generation_call.in_progress",
+    "response.image_generation_call.generating",
+    "keepalive",
+    "response.image_generation_call.partial_image",
+    "response.output_item.done",
+    "response.content_part.added",
+    "response.output_text.done",
+    "response.content_part.done",
+    "response.completed"
+  ],
+  "timed_out": false
+}

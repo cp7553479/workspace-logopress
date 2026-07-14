@@ -1,0 +1,172 @@
+`_record_id` is metadata for record operations, not a table field.
+
+- `_record_id`: recv9nhVyeHz3p
+- `产品编号`: WG7056
+- `Rush_Time`: 
+- `Q5`: 2000
+- `UD1`: K/Z
+- `Origin`: 
+- `Option_Values`: 
+- `Q1`: 100
+- `Product_Name`: 
+- `QUR_Flag`: 
+- `Imprint_Location`: 
+- `Theme`: 
+- `P10`: 
+- `备注`: 高腰提臀健身裤
+- `FOB Points`: Casper, WY 82601 USA
+- `产品类型`: apparel & Outerwear
+- `Product_Color`: 
+- `Option_Name`: 
+- `Size_Group`: 
+- `Q4`: 1000
+- `产品名称`: Yoga gym cycling women high waist seamless workout shorts
+- `P8`: 5.5
+- `1688价(元)`: 25
+- `重量(箱子+产品)公斤`: 35
+- `箱子尺寸 长(cm)`: 70
+- `货代大货起订量标准`: 78
+- `Imprint_Size`: 
+- `Product_Type`: 
+- `D2`: R
+- `Base_Price_Name`: 
+- `Shape`: 
+- `Base_Price_Criteria_...`: 
+- `Upcharge_Criteria_1`: 
+- `Upcharge_Type`: 
+- `Base_Price_Criteria_...`: 
+- `Upcharge_Criteria_2`: 
+- `Production_Time`: 
+- `XID`: 
+- `Description`: 
+- `Upcharge_Name`: 
+- `WG产品编号`: WG7056
+- `Category`: 
+- `运输风险提示`: 
+- `Q8`: 20000
+- `产品关键词`: Unique Custom Best High,
+Quaility Luxury Most Popular,
+Durable Stock Portable,
+Wholesale Promotional Branded,
+Printed Logo Customized Bulk,
+Customizable Nice Blank,
+Amazon Yoga Gym Cycling Women,
+Waist Seamless Workout Shorts,
+For Women's Clothing Womens,
+Sets Biker Crz Athletic,
+Fitness Running Halara Short,
+Aurola Tummy Control Clothes,
+Lululemon Black Woman Set,
+Waisted Spandex Bike Sweat,
+Booty Ropa Deportiva Para,
+Mujer Work Out Compression,
+Yeoreo Butt Lifting Comfy,
+Clearance Professional Active,
+Wear Essentials Oqq Leggings,
+Cute Exercise Womans Gymshark,
+Sunzel Basketball Scrunch,
+Equipment Yogalicious Pack,
+Sport Biking Czy Long No,
+Front Seam Deals Soccer,
+Colorfulkoala Sports Dupe,
+Lulu Dupes Big And Tall,
+Selling Gear Nike Pros Plus,
+Size People Pantalones Cortos,
+Comfortable Works Of Qqq,
+Aerie Bottoms Bbfira Nvgtn
+- `产品尺寸 高(cm)`: 33
+- `商品负责人`: [{"id":"ou_5ad9230482a1bb972728bc07618ae587","name":"文森-练物-超级管理员"}]
+- `Same_Day_Service`: 
+- `Item_Weight`: 
+- `Tradename`: 
+- `record_id`: recv9nhVyeHz3p
+- `产品重量(kg)`: 
+- `Personalization`: 
+- `货代大货参考定价基准（30%毛利）`: 6.1
+- `Imprint_Color`: 
+- `Summary`: 
+- `D6`: R
+- `箱子尺寸 宽(cm)`: 50
+- `主题`: Beauty
+Health & Fitness
+Sports
+Valentine's Day
+Wedding
+- `Q7`: 10000
+- `Product_Number`: WG7056
+- `P5`: 5.8
+- `P6`: 5.68
+- `Upcharge_Level`: 
+- `分类`: SHORTS/
+CLOTHING
+- `UP1`: 
+- `Can_order_only_one`: 
+- `件数/箱`: 180
+- `父记录`: 
+- `Service_Charge`: Optional
+- `产品尺寸 长(cm)`: 54
+- `P9`: 
+- `Shipping_Weight`: 
+- `Q2`: 200
+- `Product_Sample`: 
+- `商品主图`: 
+- `Less_Than_Min`: 
+- `Req_for_order`: 
+- `P7`: 5.62
+- `D5`: R
+- `Additional_Location`: 
+- `产品颜色`: Black/Blue/Orange/Pink/Dark Green/Dark Pink/Brown/Green/Gray/Light Pink/White/Red/Dark Brown/Purple/Burgundy
+- `产品尺寸 宽(cm)`: 64
+- `SEO_FLG`: 
+- `Shipping_Dimensions`: 
+- `Linename`: 
+- `Safety_Warnings`: 
+- `印刷方式`: Full color/Silkscreen/Unimprinted/
+- `D3`: R
+- `参考图片`: [{"file_token":"Sl6xbadLKoFLGExbKFycPzacnMe","name":"WG7056_clean_no_logo.png","size":2331198}]
+- `Shipping_Items`: 
+- `D7`: R
+- `产品材质`: Nylon
+- `Mark`: ["有询单"]
+- `UQ1`: 1
+- `D9`: R
+- `Q9`: 
+- `Distributor_View_Onl...`: 
+- `D8`: R
+- `Imprint_Method`: 
+- `Option_Additional_In...`: 
+- `Prod_Image`: 
+- `Material`: 
+- `完整描述`: Flattering fit with the subtle glute contour and scrunch bum seam. Impact shorts with the scrunch effect without the intensity of a scrunch, these shorts hug the curves in all the right places. The subtle, thick fabric ensures comfort and ease with your every movement. It's also squat-proof and lightweight, which enables you to do every exercise in the gym. Sweat-wicking, the moisture-wicking fabric keeps me dry no matter how intense the workoutno more dreaded thighs sticking together. In warmer weather, these workout basic booty shorts pair well with a fitted tank or sports bra. For cooler studios, a matching cropped top can be added. The workout leggings are suitable for yoga, running, gym, cycling, and so on.
+- `id`: 7138
+- `P3`: 6.47
+- `Rush_Service`: 
+- `Packaging`: 
+- `产品简称`: 
+- `Price_Type`: 
+- `选品`: 
+- `D10`: R
+- `P1`: 6.72
+- `Q6`: 5000
+- `简要说明`: Stay cool and comfortable with breathable fabric that supports every move during intense workouts. Rush service is available.
+- `Price_Includes`: 
+- `Currency`: 
+- `来源(1688)`: https://detail.1688.com/offer/739568233506.html?fromkv=cbuPcPlugin:imageSearchDrawerCard&spm=a2639h.29135425.offerlist.i0&source=action%23offerItem%3Borigin%23www.chinagoods.com&amug_biz=oneself&amug_fl_src=awakeId_982
+- `Additional_Color`: 
+- `D4`: R
+- `Product_URL`: 
+- `箱子尺寸 高(cm)`: 32
+- `D1`: R
+- `Q10`: 
+- `Size_Values`: 
+- `P2`: 6.6
+- `Option_Type`: 
+- `Q3`: 500
+- `P4`: 6.41
+- `Sold_Unimprinted`: 
+- `Artwork`: 
+- `白底图`: [{"file_token":"WXCUbTkWyoF79YxL6wPc3ZgpnCf","name":"WG7056_white_background.png","size":888176}]
+- `Keywords`: 
+
+Meta: count=1; has_more=false; ignored_fields=2
+Ignored fields: {"id":"flddlselbP","name":"转ESP模板","reason":"UNSUPPORTED: not_support field cannot be read through OpenAPI."}, {"id":"fldgjurf2j","name":"流程","reason":"UNSUPPORTED: not_support field cannot be read through OpenAPI."}

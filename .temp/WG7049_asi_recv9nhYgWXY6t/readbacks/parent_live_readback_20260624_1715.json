@@ -1,0 +1,68 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        [
+          {
+            "file_token": "Jma4b4HWRot0yHxObGscWtrQnjh",
+            "name": "WG7049_clean_no_logo.png",
+            "size": 2303402
+          }
+        ],
+        [
+          {
+            "file_token": "TmcHb6bWyo6KKwxoEj6clw9Fn4d",
+            "name": "WG7049_white_background.png",
+            "size": 2304804
+          }
+        ],
+        [
+          {
+            "file_token": "XC3nbTG2GoR5cSxlY7Tc10Gjnth",
+            "name": "WG7049_lifestyle_scene.png",
+            "size": 2217907
+          },
+          {
+            "file_token": "XPbfbbXSuosrG3xLJJkcNivnntb",
+            "name": "WG7049_selling_point.png",
+            "size": 2268577
+          },
+          {
+            "file_token": "SsHLbq8IwoL3QnxUd7zcKB8lnWb",
+            "name": "WG7049_size_chart.png",
+            "size": 1424956
+          },
+          {
+            "file_token": "Ru2WbzIvVoBj46x7BVVcdCBHn1g",
+            "name": "WG7049_sku_chart.png",
+            "size": 2133049
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recv9nhYgWXY6t"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "0.25",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": [
+          {
+            "text": "Virtual Proof:FREE",
+            "type": "text"
+          }
+        ],
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": [
+          "optNATviKo",
+          "optMwXCvG9"
+        ],
+        "Currency": [
+          {
+            "text": "USD",
+            "type": "text"
+          }
+        ],
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": [
+          {
+            "text": "Our 14 oz Disposable Kraft Paper Charcuterie Cups are crafted from high-quality, durable kraft paper with an internal lining to prevent moisture absorption, ensuring sturdiness even with greasy or saucy foods. Designed for easy handling, they’re perfect for serving appetizers, veggies, desserts, or popcorn at parties, weddings, baby showers, outdoor picnics, Christmas, anniversaries, grand openings, or company picnics. The disposable design makes cleanup effortless, letting you focus on enjoying the event. These eco-friendly cups offer a stylish, practical serving solution for both casual and formal occasions. Customizable with logos for wholesale or promotional needs, they’re available in various sizes—contact customer service for details. Rush service is also offered to meet tight deadlines.",
+            "type": "text"
+          }
+        ],
+        "Distributor_View_Only": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": [
+          {
+            "text": "Standard Colors",
+            "type": "text"
+          }
+        ],
+        "Imprint_Location": [
+          {
+            "text": "Centered on Front or as you request",
+            "type": "text"
+          }
+        ],
+        "Imprint_Method": [
+          "opt117377868",
+          "opt1785801388"
+        ],
+        "Imprint_Size": [
+          {
+            "text": "2\" x 2\" or custom size",
+            "type": "text"
+          }
+        ],
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": [
+          "optWzxPpH2"
+        ],
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": [
+          {
+            "text": "China",
+            "type": "text"
+          }
+        ],
+        "P1": "0.13",
+        "P10": null,
+        "P2": "0.12",
+        "P3": "0.11",
+        "P4": "0.1",
+        "P5": "0.0884151428571428",
+        "P6": "0.08",
+        "P7": "0.07",
+        "P8": "0.06",
+        "P9": null,
+        "Packaging": [
+          "optp7Y2PWQ",
+          "optkUxW5wQ",
+          "optvoSJKKO",
+          "optOtKqStI"
+        ],
+        "Personalization": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Price_Includes": [
+          {
+            "text": "1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs",
+            "type": "text"
+          }
+        ],
+        "Price_Type": [
+          {
+            "text": "Net",
+            "type": "text"
+          }
+        ],
+        "Prod_Image": null,
+        "Product_Color": [
+          "optJJm50l6",
+          "optkisYscS",
+          "optWlC5v2l",
+          "optpUMKzJ4",
+          "optQ7IAyQX",
+          "optwup3G8e",
+          "optshg4LSF",
+          "optyoZVhWo",
+          "optaS7rtmP"
+        ],
+        "Product_Name": [
+          {
+            "text": "14 oz Disposable Paper Popcorn Boxes Kraft Charcuterie Cups",
+            "type": "text"
+          }
+        ],
+        "Product_Number": [
+          {
+            "text": "LP3199",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": [
+          {
+            "text": "8:days",
+            "type": "text"
+          }
+        ],
+        "Q1": "1000",
+        "Q10": null,
+        "Q2": "2000",
+        "Q3": "5000",
+        "Q4": "10000",
+        "Q5": "20000",
+        "Q6": "50000",
+        "Q7": "80000",
+        "Q8": "100000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Rush_Time": [
+          {
+            "text": "5:days",
+            "type": "text"
+          }
+        ],
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": [
+          {
+            "text": "Length:15.75:in;Width:12.6:in;Height:15.75:in",
+            "type": "text"
+          }
+        ],
+        "Shipping_Items": [
+          {
+            "text": "1000:per Case",
+            "type": "text"
+          }
+        ],
+        "Shipping_Weight": [
+          {
+            "text": "17.64:lbs",
+            "type": "text"
+          }
+        ],
+        "Size_Group": [
+          {
+            "text": "Dimension",
+            "type": "text"
+          }
+        ],
+        "Size_Values": [
+          {
+            "text": "Length:3.27:in;Width:2.36:in;Height:4.65:in",
+            "type": "text"
+          }
+        ],
+        "Sold_Unimprinted": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Summary": [
+          {
+            "text": "14 oz Disposable Kraft Paper Charcuterie Cups: durable, moisture-resistant, ideal for parties/Events. Eco-friendly, customizable, with rush service available.",
+            "type": "text"
+          }
+        ],
+        "Theme": [
+          "optRqRtuCw",
+          "opt2SPbBTR",
+          "optoVVUCXF",
+          "optdHVqftR",
+          "optSawrdTu"
+        ],
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG3191",
+        "XID": null,
+        "id": "3296",
+        "record_id": [
+          {
+            "text": "recuYsACVIHfSH",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary;Grand Opening;Company Picnic;Christmas;Eco \u0026 Environmentally Friendly",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Charcuterie Cups With,\r\nSticks Lids Black Halloween,\r\nWhite Pink Mini Clear Paper,\r\nCup Plastic Individual,\r\nAppetizer For Parties Serving,\r\nAppetizers Small Disposable,\r\nVeggies Catering 50ct 5 Oz,\r\nDessert Shooter Spoons And -,\r\nToflen Pla Salad Dressing,\r\nBottle Set Shrimp Forks,\r\nSquare Brown Kraft Board Dome,\r\nFavor Wooden Lid Little Fork,\r\nBags Whaline 50 Sets Blue,\r\nStanley Christmas Heart,\r\nShaped Plasti Long,\r\nCrackerspopcorn Boxes Popcorn,\r\nBox Party Giant Prop Football,\r\nLarge Purple Movie Carnival,\r\nHello Kitty Night Pastel Red,\r\nGreen Orange Servings Unicorn,\r\nGift Graduation Yellow,\r\nSuperhero Reusable Gold Pop,\r\nSecret Microwave Theater,\r\nButter 6-count Ready To",
+        "产品名称": "14 oz Disposable Paper Popcorn Boxes Kraft Charcuterie Cups",
+        "产品尺寸 宽(cm)": "6",
+        "产品尺寸 长(cm)": "8.3",
+        "产品尺寸 高(cm)": "11.8",
+        "产品材质": "Paper",
+        "产品简称": null,
+        "产品类型": "Kitchen \u0026 Dining",
+        "产品编号": "LP3199",
+        "产品重量(kg)": null,
+        "产品颜色": "Brown; Black; White; Green; Orange; Pink; Light Blue; Blue; Yellow.",
+        "件数/箱": "1000",
+        "分类": "Cups-Paper;Party Favors-General",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "Asn5bwp4soZ0yjx7WhgcRFf3nah",
+            "name": "reference_cleaned_codex_retry.png",
+            "size": 1408218,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=Asn5bwp4soZ0yjx7WhgcRFf3nah\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4872%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/Asn5bwp4soZ0yjx7WhgcRFf3nah/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4872%7D%7D"
+          }
+        ],
+        "商品主图": [
+          {
+            "file_token": "CHKSbqu64oGZYfxGTO9cqAOUnuf",
+            "name": "main_hero_codex.png",
+            "size": 1510517,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=CHKSbqu64oGZYfxGTO9cqAOUnuf\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4872%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/CHKSbqu64oGZYfxGTO9cqAOUnuf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4872%7D%7D"
+          },
+          {
+            "file_token": "UEdXblkjOoaNt0xs0SvcJPDkn5f",
+            "name": "main_lifestyle_codex.png",
+            "size": 2134490,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=UEdXblkjOoaNt0xs0SvcJPDkn5f\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4872%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/UEdXblkjOoaNt0xs0SvcJPDkn5f/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4872%7D%7D"
+          }
+        ],
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "[]",
+        "完整描述": "Our Charcuterie Cup is crafted from high-quality kraft paper, ensuring a strong and reliable build that maintains sturdiness even when handling greasy or saucy foods. The internal lining prevents moisture absorption, keeping the cups intact and providing a clean and hassle-free experience for your guests or customers. Each 14oz cup is designed for easy handling, making it practical for both casual and formal events. Perfect for any celebration, our Charcuterie Cups Set is versatile for baby showers, weddings, birthday parties, or outdoor picnics. Their easy disposal also makes cleanup effortless, allowing you to focus on enjoying the event. This set ensures your event is both organized and attractive. Other sizes are available, please consult our customer service for details.",
+        "来源(1688)": "https://detail.1688.com/offer/729880725964.html?spm=a2639h.29135425.offerlist.i2\u0026source=action%23offerItem%3Borigin%23espweb.asicentral.com",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": [
+          {
+            "file_token": "YkinbdSnzoPuZoxvIlGc5cxRnab",
+            "name": "white_background_codex.png",
+            "size": 1620682,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=YkinbdSnzoPuZoxvIlGc5cxRnab\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4872%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/YkinbdSnzoPuZoxvIlGc5cxRnab/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4872%7D%7D"
+          }
+        ],
+        "简要说明": "This sturdy kraft paper cup is used to serve food, offering a stylish serving solution for any event. Rush service is available.",
+        "箱子尺寸 宽(cm)": "32",
+        "箱子尺寸 长(cm)": "40",
+        "箱子尺寸 高(cm)": "40",
+        "货代大货参考定价基准（30%毛利）": 0.1,
+        "货代大货起订量标准": 1758,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "8"
+      },
+      "id": "recuYsACVIHfSH",
+      "record_id": "recuYsACVIHfSH"
+    }
+  }
+}

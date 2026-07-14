@@ -1,0 +1,3 @@
+Rejected output: outputs/WG7072_sku_color_chart.png
+Reason: SKU chart contains duplicate Grey and shows eight product tiles instead of exactly seven supported colors. ASI SKU rules require no repeated SKU and no extra SKU.
+Action: Regenerate with stricter prompt requiring exactly seven tiles, one per supported color.

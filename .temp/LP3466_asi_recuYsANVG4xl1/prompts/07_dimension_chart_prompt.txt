@@ -1,0 +1,5 @@
+Image type: Amazon-style ecommerce dimension chart image.
+
+Use the provided clean product reference and white-background product image as the product source. Create a clear 1:1 dimension chart for the kitchen meat press on a white or very light background. Use the real product appearance from the reference and show dimension callouts only. The verified size is 16 cm x 16 cm x 6 cm, converted to inches: Width 6.30 inch, Depth 6.30 inch, Height 2.36 inch. Display only these dimension labels in English: "Width 6.30 inch", "Depth 6.30 inch", "Height 2.36 inch". Keep the layout clean, accurate, and easy to read.
+
+Dimension accuracy and legibility are the priority. Do not include marketing text. Do not add unsupported product features, colors, accessories, packaging, food, hands, or props. No logo or imprint on the product for this dimension image. Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English. Do not invent unsupported details. Ratio 1:1.

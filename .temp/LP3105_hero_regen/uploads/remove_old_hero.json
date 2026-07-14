@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsACVIpU8x": {
+        "fldn5dP24T": [
+          {
+            "file_token": "ZAGdb4qMbo6kxOxBu2ec5fiSnHh",
+            "name": "lifestyle_oracle_gpt.png",
+            "size": 2551599
+          },
+          {
+            "file_token": "WFBBbEtb1oVko8xf2GycQln2nid",
+            "name": "selling_point_oracle_gemini.png",
+            "size": 1648772
+          },
+          {
+            "file_token": "EdOtb6bXVoQ9a2xjoTGcueKNn9b",
+            "name": "material_detail_oracle_gpt.png",
+            "size": 3060100
+          },
+          {
+            "file_token": "F2hlbyFW4oErJDxDyOTciltVnve",
+            "name": "sku_color_oracle_gpt.png",
+            "size": 2146673
+          },
+          {
+            "file_token": "UwLpbSThxor6GHxa45BcUjSVnwb",
+            "name": "hero_main_oracle_gpt_regen.png",
+            "size": 2364782
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+LP3166 hero regen verification
+New hero token expected: Dey9bZruEoHIkQxZreEcLPxsn4b
+Old hero token expected absent: PS02bKFs2oGb0fxu1yPc9E4JnFb
+Reference token expected retained: FnqnbsFpxoIqYIxWFDycB5senXd
+White-background token expected retained: SJsPbAMQZoPe5txnzhCcU1cgnHg
+
+- `商品主图`: [{"file_token":"Dey9bZruEoHIkQxZreEcLPxsn4b","name":"LP3166_hero_oracle_chatgpt.png","size":1049134}]
+- `参考图片`: [{"file_token":"FnqnbsFpxoIqYIxWFDycB5senXd","name":"cleaned_reference_gemini_direct.jpg","size":406696}]
+- `白底图`: [{"file_token":"SJsPbAMQZoPe5txnzhCcU1cgnHg","name":"white_background_final.jpg","size":259297}]

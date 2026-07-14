@@ -1,0 +1,9 @@
+Create an ecommerce SKU color chart image for women's high-waist seamless workout shorts.
+
+Use the attached product reference images as the source for product shape, texture, stitch details, and garment construction. Show the same shorts in these nine verified color options only: Black, Blue, Orange, Pink, Dark Green, Dark Pink, Brown, Green, Gray.
+
+Composition: clean 3x3 product grid, no visible grid lines, balanced spacing, each tile showing the shorts in the same consistent angle and scale, with a small English color label under each product. Keep the product details consistent across colors: high waistband, seamless ribbed fabric texture, scrunch/glute contour seam, short leg length, stitched edges.
+
+Visual style: professional, beautiful, high-converting Amazon-style ecommerce SKU chart design, clean premium layout, strong visual hierarchy, attractive lighting, polished commercial poster design, modern typography.
+
+Hard constraints: Product must be 100% identical to reference in shape, texture, seams, and construction; only color changes according to the verified SKU names above. No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English. Do not invent unsupported colors or designs. Ratio 1:1.

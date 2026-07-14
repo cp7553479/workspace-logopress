@@ -1,0 +1,30 @@
+[2026-06-24T05:40:08.543Z] cli.command
+{
+  "command": "fetch",
+  "args": {
+    "urls": [
+      "https://www.xiantao.gov.cn/bmxxgk/srsj/zfxxgk/zc/zfwj/202112/t20211222_3927077.shtml"
+    ],
+    "waitUntil": "load",
+    "screenshot": false
+  }
+}
+
+[2026-06-24T05:40:08.544Z] http.request
+{
+  "url": "https://r.jina.ai/http://www.xiantao.gov.cn/bmxxgk/srsj/zfxxgk/zc/zfwj/202112/t20211222_3927077.shtml",
+  "method": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "Authorization": "Bearer j****"
+  },
+  "body": null
+}
+
+[2026-06-24T05:40:16.410Z] http.response
+{
+  "url": "https://r.jina.ai/http://www.xiantao.gov.cn/bmxxgk/srsj/zfxxgk/zc/zfwj/202112/t20211222_3927077.shtml",
+  "statusCode": 200,
+  "body": "{\"code\":200,\"status\":20000,\"data\":{\"title\":\"关于发布劳动合同示范文本的说明-仙桃市人民政府\",\"description\":\"\",\"url\":\"http://www.xiantao.gov.cn/bmxxgk/srsj/zfxxgk/zc/zfwj/202112/t20211222_3927077.shtml\",\"content\":\"索 引 号：011378025/2021-69550 信息类别：劳动、人事、监察\\n发布机构：仙桃市人力资源和社会保障局 发文日期：2022-10-20\\n标 题：关于发布劳动合同示范文本的说明\\n文 号：无 效力状态：有效\\n\\n关于发布劳动合同示范文本的说明\\n\\n![Image 1](http://www.xiantao.gov.cn/material/2020/images/19xts_xl_icon1.png)发布时间：2022-10-20 15:19 _![Image 2](http://www.xiantao.gov.cn/material/2020/images/19xts\\\\_xl\\\\_line.png)_![Image 3](http://www.xiantao.gov.cn/material/2020/images/19xts_xl_icon2.png)来源：仙桃市人力资源和社会保障局\\n\\n分享到：[](http://www.xiantao.gov.cn/bmxxgk/srsj/zfxxgk/zc/zfwj/202112/t20211222_3927077.shtml# \\\"分享到QQ空间\\\")[](http://www.xiantao.gov.cn/bmxxgk/srsj/zfxxgk/zc/zfwj/202112/t20211222_3927077.shtml# \\\"分享到微信\\\")\\n\\n![Image 4](http://www.xiantao.gov.cn/material/2020/images/19xts_xl_icon3.png)![Image 5](http://www.xiantao.gov.cn/material/2020/images/19xts_xl_icon31.png)![Image 6](http://www.xiantao.gov.cn/material/2020/images/19xts_xl_icon4.png)\\n\\n为更好地为用人单位和劳动者签订劳动合同提供指导服务，现将根据《中华人民共和国劳动合同法》等法律法规和政策规定编制的《劳动合同（通用）》和《劳动合同（劳务派遣）》（见附件）示范文本予以公布，供用人单位和劳动者签订劳动合同时参考。\\n\\n仙桃市人力资源和社会保障局\\n\\n20 22 年 10月2 0 日\\n\\n附件：\\n\\n[附件1：劳务派遣通用样本.doc](https://www.xiantao.gov.cn/bmxxgk/srsj/zfxxgk/zc/zfwj/202112/P020211222582217120732.doc)\\n\\n[附件2：劳动合同通用样本.doc](https://www.xiantao.gov.cn/bmxxgk/srsj/zfxxgk/zc/zfwj/202112/P020211222582217900498.doc)\\n\\n扫一扫在手机上查看当前页面\\n\\n![Image 7](http://www.xiantao.gov.cn/material/2020/images/19xts_xl_icon13.png)打印![Image 8](http://www.xiantao.gov.cn/material/2020/images/19xts_xl_icon14.png)关闭\",\"metadata\":{\"viewport\":\"width=device-width, initial-scale=1.0, maximum-scale=1.0\",\"format-detection\":\"telephone=no;email=no\",\"applicable-device\":\"pc,mobile\",\"apple-mobile-web-app-capable\":\"yes\",\"apple-mobile-web-app-status-bar-style\":\"black\",\"renderer\":\"webkit\",\"force-rendering\":\"webkit\",\"SiteName\":\"仙桃市人民政府门户网站\",\"SiteDomain\":\"www.xiantao.gov.cn\",\"SiteIDCode\":\"4290040001\",\"ColumnName\":\"其他主动公开文件\",\"ColumnDescription\":\"其他主动公开文件,主要用于仙桃市人民政府其他主动公开文件等信息的发布\",\"ColumnKeywords\":\"仙桃市人民政府,其他主动公开文件\",\"ColumnType\":\"其他主动公开文件\",\"ArticleTitle\":\"关于发布劳动合同示范文本的说明\",\"PubDate\":\"2022-10-20 15:19\",\"ContentSource\":\"仙桃市人力资源和社会保障局\",\"Keywords\":\"仙桃市人民政府,\",\"Author\":\"仙桃人社局张加文\",\"Url\":\"https://www.xiantao.gov.cn/bmxxgk/srsj/zfxxgk/zc/zfwj/202112/t20211222_3927077.shtml\"},\"external\":{\"icon\":{\"https://www.xiantao.gov.cn/material/images/ico.png\":{}}},\"httpStatus\":200,\"httpStatusText\":\"OK\",\"usage\":{\"tokens\":749}},\"meta\":{\"usage\":{\"tokens\":749}}}"
+}
+

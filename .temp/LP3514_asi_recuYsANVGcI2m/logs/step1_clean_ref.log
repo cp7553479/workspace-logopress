@@ -1,0 +1,7 @@
+Step 1: Clean no-logo reference generation
+Route: Oracle ChatGPT (gpt-5.5 browser)
+Session: generate-a-clean-product-reference
+Duration: 1m44s
+Output: outputs/LP3514_clean_no_logo.png (1254x1254, 1.5MB)
+Prompt: Generate a clean product reference image of this insulated grocery bag with 4 cup holders. Remove any existing logo, sample logo, brand mark, imprint, manufacturer/platform mark, QR code, watermark, contact information, and URL from the product while preserving the exact real product structure, color, material, proportions, accessories, and SKU details. The product is a large-capacity foldable insulated grocery food bag made of non-woven fabric exterior with aluminum foil insulation interior, featuring 4 front cup holders. Available in black and red colors. Professional product photography with clean neutral background. Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English. Do not invent unsupported details. Ratio 1:1.
+Status: SUCCESS

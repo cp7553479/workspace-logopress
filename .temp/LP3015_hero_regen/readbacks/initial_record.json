@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3015",
+        [
+          {
+            "file_token": "L9KRb2nTvotbPuxPFx7cGNB1nxE",
+            "name": "LP3015_clean_reference_oracle_chatgpt.png",
+            "size": 1832298
+          }
+        ],
+        [
+          {
+            "file_token": "KuR6b0UveoakOHxMyVLcdv21nHo",
+            "name": "LP3015_white_background_oracle_gemini.png",
+            "size": 984789
+          }
+        ],
+        [
+          {
+            "file_token": "Mn0zbHoCyop8Ngxb5czck4trnrc",
+            "name": "LP3015_asi_hero_oracle_chatgpt.png",
+            "size": 1407120
+          }
+        ],
+        "Adult Stress Relief Kid School Supplies Maze Ballpoint Pen"
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fld8ifVx8f"
+    ],
+    "fields": [
+      "产品编号",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "产品名称"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsACVI4KDr"
+    ]
+  }
+}

@@ -1,0 +1,2180 @@
+{
+  "base_token": "SF9ibzjI4a0YFJsDZtKcLvtbnfh",
+  "table_id": "tbl3KNB7zP8EQ1d0",
+  "last_heartbeat_check": "2026-06-25T15:56:00+0800",
+  "last_heartbeat_notes": "LP7252 previous worker failed/inactive after uploading clean reference and white background; spawned recovery worker with mandatory asi-product-image-generator handoff to inspect existing outputs, generate missing hero, upload 商品主图, and read back.",
+  "restored_at": "2026-06-22 14:59 GMT+0800",
+  "restore_note": "Queue manifest directory was missing during heartbeat; restored minimal state from live Base checks, LP3346 final report, and current dispatch.",
+  "running_count": 1,
+  "running": [
+    {
+      "product_number": "LP7252",
+      "record_id": "recvcuSPFvlHGa",
+      "child_session": "agent:global-trading-product:subagent:d300f8d0-a98c-4e16-be2d-bca6e88400fa",
+      "run_id": "ae40682d-ed6b-4e0d-8a07-4f10fd55ec78",
+      "previous_child_session": "agent:global-trading-product:subagent:5b074b24-b042-40c6-9b2d-0badd97e0082",
+      "previous_run_id": "9e06f5a5-b19f-4b88-87dd-5f23efa0f53c",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP7252_recovery_20260625_1554.md",
+      "started_at": "2026-06-25T15:56:00+0800",
+      "last_parent_check": "2026-06-25T15:56:00+0800",
+      "status": "asi_worker_recovery_running",
+      "workspace": ".temp/LP7252_asi_recvcuSPFvlHGa",
+      "required_skill": "asi-product-image-generator",
+      "livecheck": ".temp/asi_has_inquiry_manifest/live_record_LP7252_heartbeat_20260625_1551.json",
+      "recovery_reason": "previous worker failed/inactive before 商品主图 upload; Base has clean reference and white background but 商品主图 is empty"
+    }
+  ],
+  "blocked": [],
+  "completed": [
+    {
+      "product_number": "LP7260",
+      "record_id": "recvcuSRzhTNq0",
+      "child_session": "agent:global-trading-product:subagent:52a8ce90-8200-4f5c-9c1b-c38c920d843f",
+      "run_id": "74932b55-f319-4979-9aa7-9112bfb964d7",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP7260_recovery_20260625_1420.md",
+      "started_at": "2026-06-25T14:20:00+0800",
+      "completed_at": "2026-06-25T14:44:45+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP7260_asi_recvcuSRzhTNq0",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6cf8bd300c94b1a8f79daa0cf15",
+      "delivery_extra_message_ids": [
+        "om_x100b6cf8baaef85cb274dc1f407bc63",
+        "om_x100b6cf8ba06ac90b25a7552354069b",
+        "om_x100b6cf8bbe1c88cb2764db37f06fb8",
+        "om_x100b6cf8b8880c84b109dd16a2ae70f",
+        "om_x100b6cf8b865a4bcb28831266681d15",
+        "om_x100b6cf8b9c1a050b49b4f15845d3ab"
+      ],
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 6,
+      "final_readback": ".temp/LP7260_asi_recvcuSRzhTNq0/readbacks/record_after_main_images_raw.json",
+      "final_status": "Parent verified recovery worker done status, final report, local PNG outputs/dimensions, active process check, and final Base readback: 参考图片=1 clean image, 白底图=1 image, 商品主图=6 images. Final images were delivered to Feishu by parent.",
+      "output_paths": [
+        ".temp/LP7260_asi_recvcuSRzhTNq0/outputs/white_background_oracle_gemini.png",
+        ".temp/LP7260_asi_recvcuSRzhTNq0/outputs/LP7260_lifestyle_scene_oracle_chatgpt.png",
+        ".temp/LP7260_asi_recvcuSRzhTNq0/outputs/LP7260_selling_point_capacity_retry_oracle_chatgpt.png",
+        ".temp/LP7260_asi_recvcuSRzhTNq0/outputs/LP7260_dimension_chart_oracle_gemini.png",
+        ".temp/LP7260_asi_recvcuSRzhTNq0/outputs/LP7260_material_detail_oracle_chatgpt.png",
+        ".temp/LP7260_asi_recvcuSRzhTNq0/outputs/LP7260_sku_chart_oracle_gemini.png",
+        ".temp/LP7260_asi_recvcuSRzhTNq0/outputs/LP7260_hero_main_oracle_chatgpt_LOGO-BK.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "WzEHbO1yso8Ty2xNHJic7gcinQd",
+        "white_background": "D4eGbpSK8oJ4b1xTtv4cEbfhn6m",
+        "lifestyle_scene": "JUFJbLvxzoMr5kxazx9cPUWVn2C",
+        "selling_point": "QHgnb6329o86Cwx5VGGcdxTLnIg",
+        "dimension": "Kcdgb2FKPooU2txYllcc9jBtn9g",
+        "material_detail": "BLT7bZmJroJgIQxYWHzcaO7rnGf",
+        "sku_chart": "MbBLbKtYVoQrecxRTddcdG7CnFb",
+        "hero_main": "HmDBbxco7oVWE9x2u1mcG71Wnbc"
+      },
+      "rejected_or_skipped_notes": [
+        "Rejected LP7260_selling_point_capacity_oracle_gemini.png because it opened the bag and invented unsupported interior pockets/contents, with messy readable prop text.",
+        "No final image types skipped."
+      ]
+    },
+    {
+      "product_number": "LP7263",
+      "record_id": "recvcuSTO0D3wZ",
+      "child_session": "agent:global-trading-product:subagent:0ef7aa84-6691-4cc6-95be-b77f073b88e2",
+      "run_id": "516016ba-38ae-49da-a08f-a140bffc8b49",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP7263_20260625_1304.md",
+      "started_at": "2026-06-25T13:06:00+0800",
+      "last_parent_check": "2026-06-25T13:06:00+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP7263_asi_recvcuSTO0D3wZ",
+      "required_skill": "asi-product-image-generator",
+      "livecheck": ".temp/asi_has_inquiry_manifest/livecheck_LP7263_20260625_1304.json",
+      "completed_at": "2026-06-25T14:02:00+0800",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6cf80cbd80a8b0430f20dcfd853",
+      "delivery_extra_message_ids": [
+        "om_x100b6cf80d7510b4b2646efa301180b",
+        "om_x100b6cf80ad21094b3f2afb81dda66d",
+        "om_x100b6cf80a4d24b8b2296d3cfe654c8",
+        "om_x100b6cf80a2df934b179f1580c235b6",
+        "om_x100b6cf80b8a7c80b3ce489ea490976",
+        "om_x100b6cf80b6604b0b2165d7fcf5291a"
+      ],
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 6,
+      "final_readback": ".temp/LP7263_asi_recvcuSTO0D3wZ/uploads/final-readback.json",
+      "final_status": "Parent verified child done status, final report, local PNG outputs/dimensions, active process check, route log, and final Base readback: 参考图片=1 clean image, 白底图=1 image, 商品主图=6 images. Final images were delivered to Feishu by parent.",
+      "output_paths": [
+        ".temp/LP7263_asi_recvcuSTO0D3wZ/outputs/LP7263_white_background.png",
+        ".temp/LP7263_asi_recvcuSTO0D3wZ/outputs/LP7263_hero_main.png",
+        ".temp/LP7263_asi_recvcuSTO0D3wZ/outputs/LP7263_lifestyle_scene.png",
+        ".temp/LP7263_asi_recvcuSTO0D3wZ/outputs/LP7263_selling_point.png",
+        ".temp/LP7263_asi_recvcuSTO0D3wZ/outputs/LP7263_dimension.png",
+        ".temp/LP7263_asi_recvcuSTO0D3wZ/outputs/LP7263_material_detail.png",
+        ".temp/LP7263_asi_recvcuSTO0D3wZ/outputs/LP7263_sku_colors.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "THhEbNQtXoCkuWxSUQ8chfSynNf",
+        "white_background": "GAxmbLjnZonvHyxQpP3czxB0ngb",
+        "hero_main": "GtKIbu2kaopAnlx3jyecC8s7ndN",
+        "lifestyle_scene": "ODT2bXSAOouDgkxfgb7ct7BdnGb",
+        "selling_point": "Vsu6bM7jZoPeLAxGXRucOZrYnOf",
+        "dimension": "WanZbsCUaoJTwRx84QucFsdsnlb",
+        "material_detail": "ZDNxbVx0vo7PEPxkOxQcc5kPnYd",
+        "sku_colors": "MUsIbrE6Wo1NEaxrVMLc8rHLnLg"
+      },
+      "rejected_or_skipped_notes": [
+        "No image types skipped; generated white background plus hero, lifestyle scene, selling point, dimension, material/detail, and SKU colors.",
+        "Oracle ChatGPT SKU attempt hung over 15 minutes with repeated no-thinking-status waits; worker terminated only that Oracle node process and completed SKU with Oracle Gemini.",
+        "Image CLI was not used."
+      ]
+    },
+    {
+      "product_number": "LP7270",
+      "record_id": "recvcuSUP2Feni",
+      "child_session": "agent:global-trading-product:subagent:92efd1a9-4a40-4f95-a76f-ccc0e172a604",
+      "run_id": "0dc09116-90e6-49f3-b25a-c58a0f6378a2",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP7270_20260625_1225.md",
+      "started_at": "2026-06-25T12:29:18+0800",
+      "completed_at": "2026-06-25T13:06:00+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP7270_asi_recvcuSUP2Feni",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6cff260cb4a0b12bb80f0a81a24",
+      "delivery_extra_message_ids": [
+        "om_x100b6cff24cf80a4b3e628d7e8b07ec",
+        "om_x100b6cff24ae34a8b14017cd0e98f77",
+        "om_x100b6cff240f98b0b1a6634be3bb37d",
+        "om_x100b6cff25d404a0b29615cea7a2e94",
+        "om_x100b6cff25bf04a0b20c45a32c671d8",
+        "om_x100b6cff251f9ca8b15ccc38bdc3de2"
+      ],
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 6,
+      "final_readback": ".temp/LP7270_asi_recvcuSUP2Feni/uploads/final_readback.txt",
+      "final_status": "Parent verified child done status, final report, local PNG outputs/dimensions, active process check, and final readback: 参考图片=1 clean image, 白底图=1 image, 商品主图=6 images. Final images were delivered to Feishu by parent.",
+      "output_paths": [
+        ".temp/LP7270_asi_recvcuSUP2Feni/outputs/LP7270_white_background.png",
+        ".temp/LP7270_asi_recvcuSUP2Feni/outputs/LP7270_hero_main.png",
+        ".temp/LP7270_asi_recvcuSUP2Feni/outputs/LP7270_lifestyle_scene.png",
+        ".temp/LP7270_asi_recvcuSUP2Feni/outputs/LP7270_selling_point.png",
+        ".temp/LP7270_asi_recvcuSUP2Feni/outputs/LP7270_dimension.png",
+        ".temp/LP7270_asi_recvcuSUP2Feni/outputs/LP7270_material_detail_v2.png",
+        ".temp/LP7270_asi_recvcuSUP2Feni/outputs/LP7270_sku_chart_codex.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "RqQ0bZccxoYCnrxemoacdgDGnmb",
+        "white_background": "F3cDbUqCeorjhgxgAxJcHClTn4u",
+        "hero_main": "FFAobyu9ho2TBOxOR0vcqjMgnyf",
+        "lifestyle_scene": "UKeablHA9o7281xCbMZcMfUrnvc",
+        "selling_point": "PgEWbuaoNouxeyx4vlScjyT4n79",
+        "dimension": "OGX3bxIKKoNhDKxDGZhc85vGnyd",
+        "material_detail": "RaWQb6h44oX40fxHfnlcUEyNnof",
+        "sku_chart": "MMDbbbG8VoTmdxxzPB4cI3fEnJh"
+      },
+      "rejected_or_skipped_notes": [
+        "Rejected LP7270_material_detail.png because it included unsupported internal gears / planetary gear system claims.",
+        "Rejected LP7270_sku_chart.png because it generated 12 items, misspelled labels, and wrong single-star structure.",
+        "Oracle ChatGPT SKU retry was blocked by fetch failure; Codex gpt-image-2 fallback was used after Oracle Gemini rejection and Oracle ChatGPT blockage."
+      ]
+    },
+    {
+      "product_number": "LP3446",
+      "record_id": "recuYsANVGMApc",
+      "child_session": "agent:global-trading-product:subagent:962e3c55-1f56-45ba-996e-500d53a61380",
+      "run_id": "9548d916-af60-464f-96ea-ee56ecda338b",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3446_20260625_1137.md",
+      "started_at": "2026-06-25T11:38:20+0800",
+      "completed_at": "2026-06-25T12:29:18+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3446_asi_recuYsANVGMApc",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu_by_parent_before_progress_update",
+      "delivery_message_id": "sent_by_parent_before_progress_update",
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 5,
+      "final_readback": ".temp/LP3446_asi_recuYsANVGMApc/logs/record_final_readback.json",
+      "final_status": "Parent verified child done status, final report, local PNG outputs/dimensions, active process check, and final readback: 参考图片=1 clean image, 白底图=1 image, 商品主图=5 images. Final images were delivered to Feishu by parent. SKU chart skipped because only one reliable color/SKU is supported.",
+      "output_paths": [
+        ".temp/LP3446_asi_recuYsANVGMApc/outputs/LP3446_white_background.png",
+        ".temp/LP3446_asi_recuYsANVGMApc/outputs/LP3446_scene.png",
+        ".temp/LP3446_asi_recuYsANVGMApc/outputs/LP3446_selling_point.png",
+        ".temp/LP3446_asi_recuYsANVGMApc/outputs/LP3446_dimension.png",
+        ".temp/LP3446_asi_recuYsANVGMApc/outputs/LP3446_material_detail.png",
+        ".temp/LP3446_asi_recuYsANVGMApc/outputs/LP3446_hero.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "QD3jbrYepoqbPixfjXBcm1wxnIm",
+        "white_background": "WXZ6bpAtCopUKnxs7KxcuHTdnBd",
+        "scene": "A13LbnyhHoQ0lix38RWcSx0unTe",
+        "selling_point": "XjStbUuKEoBcLlxIi2rcH9CrnKf",
+        "dimension": "U7NqbwebQomNOIx8Gvbc5LWxnde",
+        "material_detail": "EdHhb4Pj8oW3Orx0JJJc6X2Nngd",
+        "hero_main": "USIXb0llsoIUO7xyTKpcW6KXn3d"
+      },
+      "rejected_or_skipped_notes": [
+        "SKU chart skipped because only one reliable confirmed color/SKU is supported: silver.",
+        "Oracle Gemini route failed before generation with No inspectable targets.",
+        "One Oracle scene command was rejected before model execution due to invalid slug length; reran successfully."
+      ]
+    },
+    {
+      "product_number": "LP3445",
+      "record_id": "recuYsANVGfr3v",
+      "child_session": "agent:global-trading-product:subagent:d8b712be-c885-4abf-8a56-246758469826",
+      "run_id": "dc51bf01-b107-46aa-bbf2-20c70b420e11",
+      "previous_child_session": "agent:global-trading-product:subagent:539fb053-2728-475d-8fcb-fb126ed55650",
+      "previous_run_id": "25cb11f4-d263-4b0d-aa38-52e0a8e6711c",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3445_20260625_1053.md",
+      "started_at": "2026-06-25T10:54:00+0800",
+      "completed_at": "2026-06-25T11:38:20+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3445_asi_recuYsANVGfr3v",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6cfe69d0c4acb2fa98bd7f8c4c2",
+      "delivery_extra_message_ids": [
+        "om_x100b6cfe665858e0b2956054baf5850",
+        "om_x100b6cfe67c50c8cb135bbfea7b283c",
+        "om_x100b6cfe67a3b918b1f0612e5cf97d3",
+        "om_x100b6cfe67111ce8b14f2e80f3ed0a8",
+        "om_x100b6cfe648fb0bcb24698b35c06fea"
+      ],
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 5,
+      "final_readback": ".temp/LP3445_asi_recuYsANVGfr3v/readbacks/record_after_main_images_upload_projected.json",
+      "final_status": "Parent verified resume subagent done status, final report, local PNG outputs/dimensions, active process check, and readback: 参考图片=1 clean image, 白底图=1 image, 商品主图=5 images. Final images were delivered to Feishu by parent. SKU chart skipped because only one reliable color/SKU is supported.",
+      "output_paths": [
+        ".temp/LP3445_asi_recuYsANVGfr3v/outputs/LP3445_white_background.png",
+        ".temp/LP3445_asi_recuYsANVGfr3v/outputs/LP3445_scene.png",
+        ".temp/LP3445_asi_recuYsANVGfr3v/outputs/LP3445_selling_point.png",
+        ".temp/LP3445_asi_recuYsANVGfr3v/outputs/LP3445_dimension.png",
+        ".temp/LP3445_asi_recuYsANVGfr3v/outputs/LP3445_material_detail.png",
+        ".temp/LP3445_asi_recuYsANVGfr3v/outputs/LP3445_hero_main_v2.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "NVlXbvmkToMj6lxr8rTckE8JnLd",
+        "white_background": "XC7MbikesoXTzjxayh1cMsuenre",
+        "scene": "OqpObmk2Po6a28xjRAhccZtvn5R",
+        "selling_point": "DkaAboQaHo4P5exXOhtckxs7nCd",
+        "dimension": "DLfAbVkgnoqw8AxUpjrcbgt6nBc",
+        "material_detail": "ZqmnbE52ioAEh7xhVytcQ8qNn6d",
+        "hero_main": "EQGdbDsOGoZreFxxGdAcvyQGnXa"
+      },
+      "rejected_or_skipped_notes": [
+        "SKU image skipped because only one reliable confirmed color/SKU is supported: Silver/Bright Silver.",
+        "Rejected LP3445_hero_main.png because Gemini added extra callout text/icon, violating hero no-extra-text rule.",
+        "Original LP3445 worker failed; recovery/resume subagent completed the product and parent verified evidence."
+      ]
+    },
+    {
+      "product_number": "LP3444",
+      "record_id": "recuYsANVGejGE",
+      "child_session": "agent:global-trading-product:subagent:b71d0360-2dc5-4592-b582-c944424a4c44",
+      "run_id": "6a01d5a9-a0c5-408f-b964-b10b42f3c2f5",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3444_20260625_0813.md",
+      "started_at": "2026-06-25T08:13:41+0800",
+      "completed_at": "2026-06-25T10:54:00+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3444_asi_recuYsANVGejGE",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "sent_by_parent_before_progress_update",
+      "clean_reference_count": 1,
+      "white_background_count": 2,
+      "main_image_count": 6,
+      "final_readback": ".temp/LP3444_asi_recuYsANVGejGE/uploads/final_readback_summary.json",
+      "final_status": "Parent verified child final report, local PNG dimensions, active subagent/process state, and final Base readback: 参考图片=1 clean image, 白底图=2 images, 商品主图=6 images. Final images were delivered to Feishu by parent before this progress update.",
+      "output_paths": [
+        ".temp/LP3444_asi_recuYsANVGejGE/outputs/LP3444_white_clear.png",
+        ".temp/LP3444_asi_recuYsANVGejGE/outputs/LP3444_white_brown.png",
+        ".temp/LP3444_asi_recuYsANVGejGE/outputs/LP3444_scene_party_v2.png",
+        ".temp/LP3444_asi_recuYsANVGejGE/outputs/LP3444_selling_point_v2.png",
+        ".temp/LP3444_asi_recuYsANVGejGE/outputs/LP3444_dimension.png",
+        ".temp/LP3444_asi_recuYsANVGejGE/outputs/LP3444_material_detail.png",
+        ".temp/LP3444_asi_recuYsANVGejGE/outputs/LP3444_sku_chart.png",
+        ".temp/LP3444_asi_recuYsANVGejGE/outputs/LP3444_hero_main_LOGO-BK.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "FCRAbE5flofCdNxIYhOcihaZn2g",
+        "white_clear": "TUyRb1SqaopaldxelWYcQEfmnXV",
+        "white_brown": "IQqib1pxcof9HfxWwmmc2qJentR",
+        "scene_party": "SIX2bpnU0oADlzxFg7TcQurRnje",
+        "selling_point": "NNVabXjZSovqQtx1q64cXkBOnsb",
+        "dimension": "YB0NbBF5toPPOJxoVtscaoE6nod",
+        "material_detail": "YGHbb2BZuoDhKuxpOWUcvrDenEc",
+        "sku_chart": "GbRebkKego0Tn1xoXyAcKqlxnSf",
+        "hero_main": "Z6Uhb1no5oTISYxtMIVcMb61nJh"
+      },
+      "rejected_or_skipped_notes": [
+        "Rejected LP3444_scene_party.png for a small sparkle/watermark-like mark; accepted LP3444_scene_party_v2.png.",
+        "Rejected LP3444_selling_point.png for a small sparkle/watermark-like mark; accepted LP3444_selling_point_v2.png.",
+        "First dimension preflight command was blocked by Oracle slug validation; no image was generated for that attempt."
+      ]
+    },
+    {
+      "product_number": "LP3441",
+      "record_id": "recuYsANVG9ZBS",
+      "child_session": "agent:global-trading-product:subagent:062baa6d-11e5-432d-b3f4-a8d9035edd41",
+      "run_id": "6396cfb6-6f7b-4c7c-a0fb-3f309646bfa2",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3441_20260625_0727.md",
+      "started_at": "2026-06-25T07:27:51+0800",
+      "last_parent_check": "2026-06-25T07:27:51+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3441_asi_recuYsANVG9ZBS",
+      "required_skill": "asi-product-image-generator",
+      "livecheck": ".temp/asi_has_inquiry_manifest/livecheck_LP3441_20260625_0724.json",
+      "completed_at": "2026-06-25T08:12:44+0800",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6cf3536104a0b3f7286eabeb971",
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 6,
+      "final_readback": ".temp/LP3441_asi_recuYsANVG9ZBS/uploads/final_readback.txt",
+      "final_status": "Parent verified child done status, local PNG outputs/dimensions, active process check, and final readback: 参考图片=1 clean image, 白底图=1 image, 商品主图=6 images. Final images were delivered to Feishu by parent.",
+      "output_paths": [
+        ".temp/LP3441_asi_recuYsANVG9ZBS/outputs/LP3441_white_background_oracle_gemini.png",
+        ".temp/LP3441_asi_recuYsANVG9ZBS/outputs/LP3441_hero_main_oracle_chatgpt.png",
+        ".temp/LP3441_asi_recuYsANVG9ZBS/outputs/LP3441_lifestyle_codex.png",
+        ".temp/LP3441_asi_recuYsANVG9ZBS/outputs/LP3441_selling_point_codex.png",
+        ".temp/LP3441_asi_recuYsANVG9ZBS/outputs/LP3441_material_detail_codex.png",
+        ".temp/LP3441_asi_recuYsANVG9ZBS/outputs/LP3441_size_chart_oracle_chatgpt.png",
+        ".temp/LP3441_asi_recuYsANVG9ZBS/outputs/LP3441_sku_chart_oracle_gemini.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "C42fbAIf0o3Sn9xqto8cQWulnDd",
+        "white_background": "JGG6bdN5zoLq9fxz3atcr3GRnse",
+        "hero_main": "PNNEbsqq7oDChpxv841c4dA6nMn",
+        "lifestyle": "IwTebTKLdoY8IHxpTU8cOMBAnkh",
+        "selling_point": "WegSblLaiop09bxc89NctzuInqc",
+        "material_detail": "WfERbIRO5o15bnxDEtRcCNdGnpg",
+        "size_chart": "VlDMbzgALoBdwtxSdhmcLUSMnnf",
+        "sku_chart": "Q5hdb378OoSBF6xzMDpca4EvnDb"
+      },
+      "rejected_or_skipped_notes": [
+        "Lifestyle Oracle ChatGPT failed with fetch error; Oracle Gemini lifestyle rejected for visible branded/manufacturer bottle labels; accepted Codex fallback.",
+        "Material Oracle Gemini rejected for awkward/low-quality paragraph text; Oracle ChatGPT upload timed out; accepted Codex fallback.",
+        "Selling-point Oracle ChatGPT upload timed out; Oracle Gemini rejected for product-structure drift; accepted Codex fallback."
+      ]
+    },
+    {
+      "product_number": "LP3440",
+      "record_id": "recuYsANVGf0pF",
+      "child_session": "agent:global-trading-product:subagent:b23b7189-1a04-48a3-86ec-b1bd141bc13e",
+      "run_id": "1d20fbed-2be6-4fd6-92ea-e96b780859e7",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3440_20260625_0648.md",
+      "started_at": "2026-06-25T06:49:15+0800",
+      "completed_at": "2026-06-25T07:27:51+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3440_asi_recuYsANVGf0pF",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6cf23900b8a0b3f437d4c93c80b",
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 5,
+      "final_readback": ".temp/LP3440_asi_recuYsANVGf0pF/final_readback.json",
+      "final_status": "Parent verified child done status, final report, local PNG outputs/dimensions, active process check, and final readback: 参考图片=1 clean image, 白底图=1 image, 商品主图=5 images. Final images were delivered to Feishu by parent. Standalone SKU-only grid skipped because accepted material/SKU poster covers all nine reliable color variants.",
+      "output_paths": [
+        ".temp/LP3440_asi_recuYsANVGf0pF/outputs/LP3440_white_background_oracle_gemini.png",
+        ".temp/LP3440_asi_recuYsANVGf0pF/outputs/LP3440_hero_oracle_chatgpt_retry.png",
+        ".temp/LP3440_asi_recuYsANVGf0pF/outputs/LP3440_scene_oracle_chatgpt.png",
+        ".temp/LP3440_asi_recuYsANVGf0pF/outputs/LP3440_selling_point_oracle_chatgpt_retry.png",
+        ".temp/LP3440_asi_recuYsANVGf0pF/outputs/LP3440_dimension_oracle_gemini.png",
+        ".temp/LP3440_asi_recuYsANVGf0pF/outputs/LP3440_material_sku_oracle_chatgpt.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "QrT7bnPX8oDp2TxV8XrcrGFCnSh",
+        "white_background": "FcEsbNDg5oAgNfxqyCgc4IBwnff",
+        "scene": "I40YbAtgGo98WVxBedFcK54rnGh",
+        "selling_point": "FtKIb29rEovs4uxWTH0cRBBynGd",
+        "dimensions": "A6lfbRpHWoUxbJxZAYEcl8Ubnks",
+        "material_sku": "ZpNxbDlnuoxvgWx5ReMc64uZnzf",
+        "hero_main": "GnDQbm4rPoSRd0xb2mJcJvaxnHY"
+      },
+      "rejected_or_skipped_notes": [
+        "Standalone SKU-only grid skipped because accepted material/SKU poster covers all nine reliable color variants.",
+        "Rejected Gemini selling-point draft due duplicated headline/decorative mark.",
+        "Rejected Gemini hero draft due missing one blue variant/decorative mark."
+      ]
+    },
+    {
+      "product_number": "LP3431",
+      "record_id": "recuYsANVG6gmK",
+      "child_session": "agent:global-trading-product:subagent:cac0fe14-890f-4be6-bb1b-acb2bffb9e6a",
+      "run_id": "29e6d804-e481-42ea-8e04-f2552ce4d0cf",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3431_20260625_0615.md",
+      "started_at": "2026-06-25T06:16:01+0800",
+      "completed_at": "2026-06-25T06:49:15+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3431_asi_recuYsANVG6gmK",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6cf1a743fca0b1d0913051d7b7e",
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 5,
+      "final_readback": ".temp/LP3431_asi_recuYsANVG6gmK/final_readback.json",
+      "final_status": "Parent verified child done status, final report, local PNG outputs/dimensions, active process check, and final readback: 参考图片=1 clean image, 白底图=1 image, 商品主图=5 images. Final images were delivered to Feishu by parent. SKU chart skipped because only silver is confirmed in the record.",
+      "output_paths": [
+        ".temp/LP3431_asi_recuYsANVG6gmK/outputs/LP3431_white_background.png",
+        ".temp/LP3431_asi_recuYsANVG6gmK/outputs/LP3431_hero_main.png",
+        ".temp/LP3431_asi_recuYsANVG6gmK/outputs/LP3431_lifestyle_scene.png",
+        ".temp/LP3431_asi_recuYsANVG6gmK/outputs/LP3431_selling_point.png",
+        ".temp/LP3431_asi_recuYsANVG6gmK/outputs/LP3431_size_diagram.png",
+        ".temp/LP3431_asi_recuYsANVG6gmK/outputs/LP3431_material_detail.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "KxsDbW5BXozwGDxpdeHcmeijnde",
+        "white_background": "OYZwbL2kSo2B6yxxTwCc50IPnHe",
+        "hero_main": "IjUPbpDSMovHYKxIZuwcZa3unHc",
+        "lifestyle_scene": "HWdYbsY3poWBm5xIYVEcMkHqnvg",
+        "selling_point": "SktHb2IlLopxKcxUKvgcFLOnneo",
+        "size_diagram": "R4anbPwtooDDwzxTQbEcmWYxnWe",
+        "material_detail": "JGbTbNxNtoo7Egx6TcycqNJlnzm"
+      },
+      "rejected_or_skipped_notes": [
+        "SKU chart skipped because record confirms only silver; visible gold in source was not confirmed as a valid SKU.",
+        "White background Oracle routes failed with fetch errors; Codex fallback succeeded after recorded evidence.",
+        "Lifestyle Oracle output rejected for watermark-like corner mark; hero Oracle output rejected for product-structure drift and weak logo fidelity."
+      ]
+    },
+    {
+      "product_number": "LP3426",
+      "record_id": "recuYsANVGL5Ks",
+      "child_session": "agent:global-trading-product:subagent:d4c65cfe-8ecb-401e-b3e0-d3fa8a83883b",
+      "run_id": "fb404a83-e8fe-416f-baae-7350bb51ddd6",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3426_20260625_0538.md",
+      "started_at": "2026-06-25T05:42:57+0800",
+      "completed_at": "2026-06-25T06:16:01+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3426_asi_recuYsANVGL5Ks",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6cf1269e5ca8b2c70cf887b43fd",
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 6,
+      "final_readback": ".temp/LP3426_asi_recuYsANVGL5Ks/readback_final.json",
+      "final_status": "Parent verified child done status, final report, local PNG outputs/dimensions, active process check, and fresh Base readback: 参考图片=1 clean image, 白底图=1 image, 商品主图=6 images. Final images were delivered to Feishu by parent.",
+      "output_paths": [
+        ".temp/LP3426_asi_recuYsANVGL5Ks/outputs/LP3426_white_background_oracle_gemini.png",
+        ".temp/LP3426_asi_recuYsANVGL5Ks/outputs/LP3426_scene_golf_use_oracle_gemini.png",
+        ".temp/LP3426_asi_recuYsANVGL5Ks/outputs/LP3426_selling_points_v2_oracle_gemini.png",
+        ".temp/LP3426_asi_recuYsANVGL5Ks/outputs/LP3426_dimensions_oracle_gemini.png",
+        ".temp/LP3426_asi_recuYsANVGL5Ks/outputs/LP3426_sku_chart_codex.png",
+        ".temp/LP3426_asi_recuYsANVGL5Ks/outputs/LP3426_material_detail_oracle_gemini.png",
+        ".temp/LP3426_asi_recuYsANVGL5Ks/outputs/LP3426_hero_logo_codex.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "XH7ubqB9aoMeaPxkuEKc3V17nPh",
+        "white_background": "Jd3RblZmLo5dClxNvRtcAdACnig",
+        "scene": "PHarb24Nuo9MaFxzj7vc5RWZnRg",
+        "selling_point": "V319b6649ohG03xcI8ccfQ9cnQf",
+        "dimensions": "Ob7TbxYdEoQmN0xrxbXci0WRnIh",
+        "sku_chart": "FOKHbW5YMosvSPxLHD3cIp83ncc",
+        "material_detail": "FVaIbupqaoJ2SmxdtrTcVrIMnK1",
+        "hero_main": "XYeXbo1YOolC4IxksNjcid7qnmc"
+      },
+      "rejected_or_skipped_notes": [
+        "Rejected first selling-points image for unsupported added wording/claim; accepted retry uploaded.",
+        "Rejected Oracle Gemini hero for unsupported product-structure change; accepted Codex fallback uploaded after Oracle route evidence.",
+        "Oracle ChatGPT image output blocked by preview fetch failure; Oracle Gemini SKU failed with fetch error, so Codex fallback was used for SKU and hero after recorded evidence."
+      ]
+    },
+    {
+      "product_number": "LP3424",
+      "record_id": "recuYsANVGVhac",
+      "child_session": "agent:global-trading-product:subagent:d9ede1b8-d6bd-4298-9d4a-b38f62050bae",
+      "run_id": "21bb8b42-c1a3-403e-82b7-317122f6ba2c",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3424_20260625_0443.md",
+      "started_at": "2026-06-25T04:43:00+0800",
+      "completed_at": "2026-06-25T05:42:57+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3424_asi_recuYsANVGVhac",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6cf099b210a0b3fdf00181d5e81",
+      "clean_reference_count": 1,
+      "white_background_count": 3,
+      "main_image_count": 6,
+      "final_readback": ".temp/LP3424_asi_recuYsANVGVhac/uploads/parent_live_readback_20260625_0532.json",
+      "final_status": "Parent verified subagent done status, local PNG outputs/dimensions, route logs, final worker report, active process check, and fresh Base readback: 参考图片=1 clean image, 白底图=3 images, 商品主图=6 images. Final images were delivered to Feishu by parent.",
+      "output_paths": [
+        ".temp/LP3424_asi_recuYsANVGVhac/outputs/LP3424_white_black.png",
+        ".temp/LP3424_asi_recuYsANVGVhac/outputs/LP3424_white_green.png",
+        ".temp/LP3424_asi_recuYsANVGVhac/outputs/LP3424_white_blue.png",
+        ".temp/LP3424_asi_recuYsANVGVhac/outputs/LP3424_01_lifestyle.png",
+        ".temp/LP3424_asi_recuYsANVGVhac/outputs/LP3424_02_selling_point.png",
+        ".temp/LP3424_asi_recuYsANVGVhac/outputs/LP3424_03_size_dimensions.png",
+        ".temp/LP3424_asi_recuYsANVGVhac/outputs/LP3424_04_material_detail.png",
+        ".temp/LP3424_asi_recuYsANVGVhac/outputs/LP3424_05_sku_colors.png",
+        ".temp/LP3424_asi_recuYsANVGVhac/outputs/LP3424_06_hero_main.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "ZgM3bS3E9oLdffxavXBcCb4Rndb",
+        "white_black": "C35PbtIMfoRNHexytL6cCECFn2M",
+        "white_green": "OHW9b1MzKoSW3Xxa7PCck0awnmo",
+        "white_blue": "MXojbyXIkoI5zhxXdvjcZYGGnWf",
+        "lifestyle": "Y1iKbBmhTowUnGxGTlHcr4pdnig",
+        "selling_point": "W7uCbLIo2oFpOPxwqqhc5pSAn1g",
+        "dimensions": "DEZgb6hzJoDJq9xr1nDcw5DtnFh",
+        "material_detail": "UqxybT3Xbo4xwIxe2cqcHxcwnjd",
+        "sku_colors": "YEP7badoNoxxOtx1D78caUv5nFh",
+        "hero_main": "EVkZbOGzpobdZRxaeUccOLibnte"
+      },
+      "rejected_or_skipped_notes": [
+        "Rejected size image with incorrect 9.30 inch height; accepted retry used reliable 6.30 inch height.",
+        "Rejected SKU image with subtle decorative mark; accepted retry uploaded.",
+        "No separate thickness/depth dimension generated because source height/thickness field is 0 cm and unsupported."
+      ]
+    },
+    {
+      "product_number": "LP3417",
+      "record_id": "recuYsANVGuQs2",
+      "child_session": "agent:global-trading-product:subagent:2fb195df-d8f1-4392-b8f7-ce343e9cd043",
+      "run_id": "1396641b-3063-4eec-aa81-bea2df7724ce",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3417_20260625_0401.md",
+      "started_at": "2026-06-25T04:01:00+0800",
+      "completed_at": "2026-06-25T04:43:00+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3417_asi_recuYsANVGuQs2",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6cf051f4f0a8b251c867fba5122",
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 7,
+      "final_readback": ".temp/LP3417_asi_recuYsANVGuQs2/uploads/parent_live_readback_20260625_0443.json",
+      "final_status": "Parent verified subagent done status, local PNG outputs, recent file mtimes, active process check, visual QC, and fresh Base readback: 参考图片=1 clean image, 白底图=1 image, 商品主图=7 images. Final images were delivered to Feishu by parent.",
+      "output_paths": [
+        ".temp/LP3417_asi_recuYsANVGuQs2/outputs/LP3417_white_background_retry.png",
+        ".temp/LP3417_asi_recuYsANVGuQs2/outputs/LP3417_lifestyle_travel.png",
+        ".temp/LP3417_asi_recuYsANVGuQs2/outputs/LP3417_selling_point_hygiene.png",
+        ".temp/LP3417_asi_recuYsANVGuQs2/outputs/LP3417_dimensions.png",
+        ".temp/LP3417_asi_recuYsANVGuQs2/outputs/LP3417_material_detail.png",
+        ".temp/LP3417_asi_recuYsANVGuQs2/outputs/LP3417_sku_chart_01.png",
+        ".temp/LP3417_asi_recuYsANVGuQs2/outputs/LP3417_sku_chart_02.png",
+        ".temp/LP3417_asi_recuYsANVGuQs2/outputs/LP3417_hero_main.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "NeGNbw2q6o3mt9xM7yEcFtGInFb",
+        "white_background": "OLEVbl392oP2JJxccnQcDW6UnA7",
+        "lifestyle": "JfjfbSlYZo2uCJxf8r7cXhcRnch",
+        "selling_point": "BA0tbme2YokzGnxYPyccDYFEnyg",
+        "dimensions": "BP72bSVFios6v4xxcegcg3EOn9e",
+        "material_detail": "Xwh2bITTuoExA8xTEozcl2bCnUf",
+        "sku_chart_01": "SXZ3bme3noBhnix4dPGcnxL0njd",
+        "sku_chart_02": "U8HMb3tgJohXH2xC6XPcN7oOnDg",
+        "hero_main": "Tao3b0cc5oNMItxGcgwcBRKRn7g"
+      },
+      "rejected_or_skipped_notes": [
+        "Rejected first white-background image due product-fidelity drift; accepted retry uploaded.",
+        "ChatGPT artifact fetch failed for material-detail and SKU chart 01; both regenerated successfully through Oracle/Gemini."
+      ]
+    },
+    {
+      "product_number": "LP3404",
+      "record_id": "recuYsANVG2AT7",
+      "child_session": "agent:global-trading-product:subagent:5c9f4ea5-50da-4d03-b5b5-88ed3f8b01f2",
+      "run_id": "6dd55038-2d39-45b9-a3ea-3682b37fcb4c",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3404_20260625_0328.md",
+      "started_at": "2026-06-25T03:31:25+0800",
+      "completed_at": "2026-06-25T04:01:00+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3404_asi_recuYsANVG2AT7",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 6,
+      "final_readback": ".temp/LP3404_asi_recuYsANVG2AT7/uploads/parent_live_readback_20260625_0401.json",
+      "final_status": "Parent verified subagent completion text, local PNG outputs, upload/readback status file, active process check, and fresh Base readback: 参考图片=1 clean image, 白底图=1 image, 商品主图=6 images. Final images were delivered to Feishu by parent.",
+      "output_paths": [
+        ".temp/LP3404_asi_recuYsANVG2AT7/outputs/LP3404_03_lifestyle_oracle_gemini.png",
+        ".temp/LP3404_asi_recuYsANVG2AT7/outputs/LP3404_04_selling_point_oracle_chatgpt.png",
+        ".temp/LP3404_asi_recuYsANVG2AT7/outputs/LP3404_05_size_chart_oracle_gemini.png",
+        ".temp/LP3404_asi_recuYsANVG2AT7/outputs/LP3404_06_material_detail_oracle_chatgpt.png",
+        ".temp/LP3404_asi_recuYsANVG2AT7/outputs/LP3404_07_sku_chart_oracle_gemini.png",
+        ".temp/LP3404_asi_recuYsANVG2AT7/outputs/LP3404_08_hero_main_oracle_chatgpt_LOGO-BK.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "BBGEbCLkeo10FYxrVg6cllvtn7f",
+        "white_background": "CobVbCf9ooERhdxar8GcJTbmnee",
+        "lifestyle": "PtAXbzD1Hoyy24xQ7uHcTUAPnsc",
+        "selling_point": "W6Ifb8eGeonOvyxyCldcw1O0nHe",
+        "size_chart": "JI2Pba0XFoy0HbxaWlHc9kv8nee",
+        "material_detail": "HpCsbjtLLo30GhxwW0tclR9Anmd",
+        "sku_chart": "UBlBbdg2cob3vDx58XBc2BVKnFe",
+        "hero_main": "BVfnbJmPMoQ19DxYafucnNOUnGb"
+      },
+      "rejected_or_skipped_notes": [
+        "Rejected first white-background generation because it added extra headline text and feature icons; accepted retry was uploaded."
+      ]
+    },
+    {
+      "product_number": "LP3402",
+      "record_id": "recuYsANVG6WnI",
+      "child_session": "agent:global-trading-product:subagent:227f248a-ec0b-4bbd-ba92-13cbadac7870",
+      "run_id": "d0b7ed33-31be-4d89-b3b4-cd3eda053a4b",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3402_20260625_0120.md",
+      "started_at": "2026-06-25T02:54:22+0800",
+      "completed_at": "2026-06-25T03:31:25+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3402_asi_recuYsANVG6WnI",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 6,
+      "final_readback": ".temp/LP3402_asi_recuYsANVG6WnI/uploads/final_readback_after_material_replacement.json",
+      "final_status": "Parent verified child result, local PNG outputs, upload/remove logs, active process check, and fresh Base readback. Reference has one cleaned image, white background has one image, and 商品主图 has six images with replacement material image token UuGvbVamEoyHFrxalWyc9tVhnsg; old material token FB6tbNCHxoIlr9xd2wdcmaYSn4e is absent. Final images were already delivered to Feishu by parent.",
+      "output_paths": [
+        ".temp/LP3402_asi_recuYsANVG6WnI/outputs/LP3402_hero.png",
+        ".temp/LP3402_asi_recuYsANVG6WnI/outputs/LP3402_lifestyle.png",
+        ".temp/LP3402_asi_recuYsANVG6WnI/outputs/LP3402_selling_point.png",
+        ".temp/LP3402_asi_recuYsANVG6WnI/outputs/LP3402_dimension.png",
+        ".temp/LP3402_asi_recuYsANVG6WnI/outputs/LP3402_material_replacement.png",
+        ".temp/LP3402_asi_recuYsANVG6WnI/outputs/LP3402_sku.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "X7tKbmOEWooVNfxUi5Dc8N5mnef",
+        "white_background": "TacWbzD49ow3tWxRW9ocyrocnYg",
+        "hero": "NW9Ibf51FoOkyhx2B4yckKp4nyc",
+        "lifestyle": "ZNvPb5bTVoTqLjx3DEHcF0jbnGb",
+        "selling_point": "D9m6btepAoIAOzxI00UcTLpMnah",
+        "dimension": "CNemb0o9WoKV2dxF8wpc0oS2nVc",
+        "sku": "B1wQbwmE9okGjyxo7LkcbI1wnDa",
+        "material_replacement": "UuGvbVamEoyHFrxalWyc9tVhnsg"
+      },
+      "replaced_tokens": {
+        "old_material": "FB6tbNCHxoIlr9xd2wdcmaYSn4e"
+      },
+      "rejected_or_skipped_notes": [
+        "Original material image was replaced after parent QC found bad English small text; replacement passed parent readback and count verification."
+      ]
+    },
+    {
+      "product_number": "LP3389",
+      "record_id": "recuYsANVGFeyD",
+      "child_session": "agent:global-trading-product:subagent:03d30882-86dd-4d9c-8f2c-a5fffa4b3bda",
+      "run_id": "cb935c64-2b2c-41e0-b70c-56885e84a5d1",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3389_20260625_0036.md",
+      "started_at": "2026-06-25T00:36:00+0800",
+      "completed_at": "2026-06-25T01:19:14+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3389_asi_recuYsANVGFeyD",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "clean_reference_count": 1,
+      "white_background_count": 2,
+      "main_image_count": 5,
+      "final_readback": ".temp/asi_has_inquiry_manifest/livecheck_LP3389_20260625_0119.json",
+      "final_status": "Parent verified subagent done status, local PNG outputs, upload JSON logs, fresh Base readback, and visible Feishu delivery history: 参考图片=1 clean token VBsxbW5QGorphzxp2DXcKYWQn3e, 白底图=2 tokens HRuQbFGucochJdxBJ8Ncyh3pnCh/JepBbzCw7omSAaxeX0Cc3qfsnCc, 商品主图=5 tokens ILxobstrMoE4QqxbacXcnUfVnng/AebkbejVXoHakdx3jn8cZt3Mnbf/Oe6rbaMD1o66sTxCq5Tc9u6Wn2e/VtqubeTULo87lzx46aHcBlKBnBb/FgiabKHC6oQzEjxxziIcYQpSn0e. Final images were already delivered to Feishu by parent.",
+      "output_paths": [
+        ".temp/LP3389_asi_recuYsANVGFeyD/outputs/LP3389_03_lifestyle_scene_codex.png",
+        ".temp/LP3389_asi_recuYsANVGFeyD/outputs/LP3389_04_selling_point_codex.png",
+        ".temp/LP3389_asi_recuYsANVGFeyD/outputs/LP3389_05_dimension_codex.png",
+        ".temp/LP3389_asi_recuYsANVGFeyD/outputs/LP3389_06_material_detail_codex.png",
+        ".temp/LP3389_asi_recuYsANVGFeyD/outputs/LP3389_08_hero_main_codex_LOGO-WT.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "VBsxbW5QGorphzxp2DXcKYWQn3e",
+        "white_background_main": "HRuQbFGucochJdxBJ8Ncyh3pnCh",
+        "white_background_all_colors": "JepBbzCw7omSAaxeX0Cc3qfsnCc",
+        "lifestyle_scene": "ILxobstrMoE4QqxbacXcnUfVnng",
+        "selling_point": "AebkbejVXoHakdx3jn8cZt3Mnbf",
+        "dimension": "Oe6rbaMD1o66sTxCq5Tc9u6Wn2e",
+        "material_detail": "VtqubeTULo87lzx46aHcBlKBnBb",
+        "hero_main": "FgiabKHC6oQzEjxxziIcYQpSn0e"
+      },
+      "skipped_or_rejected_notes": [
+        "SKU chart final image skipped after Codex SKU generation ended with TypeError: terminated; worker followed abnormal failure rule and did not immediately retry.",
+        "Oracle Gemini scene output rejected due visible watermark-like/star artifact.",
+        "Oracle ChatGPT attempts for four-color white reference and scene failed at attachment upload timeout; accepted final ASI images used Codex gpt-image-2 after Oracle failure/rejection evidence was recorded."
+      ]
+    },
+    {
+      "product_number": "LP3384",
+      "record_id": "recuYsANVGsmIM",
+      "child_session": "agent:global-trading-product:subagent:74d968eb-789b-450b-93bf-e3e1c9e3d051",
+      "run_id": "a0963b94-cd7a-4196-a27e-42f3abf0f9be",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3384_20260624_2344.md",
+      "started_at": "2026-06-24T23:44:00+0800",
+      "completed_at": "2026-06-25T00:36:00+0800",
+      "status": "asi_images_completed_uploaded_verified_delivered_parent_recovered_child_failed_status",
+      "workspace": ".temp/LP3384_asi_recuYsANVGsmIM",
+      "required_skill": "asi-product-image-generator",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 8,
+      "final_readback": ".temp/asi_has_inquiry_manifest/livecheck_LP3384_20260625_0036.json",
+      "final_status": "Parent found child session status failed, but verified local PNG outputs, upload_log.txt, and fresh Base readback: 参考图片=1 clean token FwKZbUvJXo5bi9xYd6PcZyJhnDe, 白底图=1 token RJ4HbH7P5o92mxxHkcDc9GWLnYc, 商品主图=8 tokens N8e2bHz8tosEI6xULIScKRi2nHh/VtbBb7StLoKzIzxQXQRcPUGwnJd/OTdgblkkAoR97fxklBzcXQ5PnJc/BhGtbHDObouWm9xqKVVcEMNFnEb/Mqy2bkVMzoT07NxIpfscm8x0nrb/Jpr6bJvuxoPz3Txey3ocapaJnxe/VwtQbgs19okTJPxJTaScjQMsnsf/KNEeb6MkAowFQxxcA6Ycl7jWndb. Final images were already delivered to Feishu by parent.",
+      "output_paths": [
+        ".temp/LP3384_asi_recuYsANVGsmIM/outputs/LP3384_hero.png",
+        ".temp/LP3384_asi_recuYsANVGsmIM/outputs/LP3384_lifestyle_scene_oracle_chatgpt.png",
+        ".temp/LP3384_asi_recuYsANVGsmIM/outputs/LP3384_lifestyle_scene_oracle_gemini_v2.png",
+        ".temp/LP3384_asi_recuYsANVGsmIM/outputs/LP3384_selling_point_01.png",
+        ".temp/LP3384_asi_recuYsANVGsmIM/outputs/LP3384_size_chart.png",
+        ".temp/LP3384_asi_recuYsANVGsmIM/outputs/LP3384_material_detail_oracle_gemini.png",
+        ".temp/LP3384_asi_recuYsANVGsmIM/outputs/LP3384_sku_sheet_01_oracle_chatgpt.png",
+        ".temp/LP3384_asi_recuYsANVGsmIM/outputs/LP3384_sku_sheet_02_oracle_gemini.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "FwKZbUvJXo5bi9xYd6PcZyJhnDe",
+        "white_background": "RJ4HbH7P5o92mxxHkcDc9GWLnYc",
+        "hero_main": "N8e2bHz8tosEI6xULIScKRi2nHh",
+        "lifestyle_scene_chatgpt": "VtbBb7StLoKzIzxQXQRcPUGwnJd",
+        "lifestyle_scene_gemini": "OTdgblkkAoR97fxklBzcXQ5PnJc",
+        "selling_point": "BhGtbHDObouWm9xqKVVcEMNFnEb",
+        "size_chart": "Mqy2bkVMzoT07NxIpfscm8x0nrb",
+        "material_detail": "Jpr6bJvuxoPz3Txey3ocapaJnxe",
+        "sku_sheet_1": "VwtQbgs19okTJPxJTaScjQMsnsf",
+        "sku_sheet_2": "KNEeb6MkAowFQxxcA6Ycl7jWndb"
+      }
+    },
+    {
+      "product_number": "LP3367",
+      "record_id": "recuYsANVGtu68",
+      "child_session": "agent:global-trading-product:subagent:a03ca66e-4aaf-4a37-876e-4b69c5c03e38",
+      "run_id": "3a182456-7438-4d6a-9687-9caa657aa75b",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3367_20260624_225536.md",
+      "started_at": "2026-06-24T22:55:36+0800",
+      "status": "asi_worker_completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3367_asi_recuYsANVGtu68",
+      "required_skill": "asi-product-image-generator",
+      "completed_at": "2026-06-24T23:38:11+0800",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 6,
+      "final_status": "Parent verified subagent done status, local output files, acceptance notes, and live Base readback: 参考图片=1 clean token AN5Ib3bcoo2AOUx8qwUc7F1MnLN, 白底图=1 token UduGb9ctNoNZsXxBdXJcBA8gnkf, 商品主图=6 tokens ARq9bPS5soRUPQxNGGFcuHB8nnh/BDFUbEawkokLzPx1iOIctc7lnYd/PKadbfciRoStYqxKPQ9cGVYvnub/DvNsbmXbmo52mlxKLzlcLHzPnWd/QqiFbcj3uousKdxKA33csQRqnTg/XZdrbCaORoz8vUxbsfEcj1kfnXg. Final images were delivered to Feishu in the parent conversation.",
+      "final_readback": ".temp/LP3367_asi_recuYsANVGtu68/uploads/final_readback.json",
+      "accepted_files": [
+        {
+          "role": "clean_reference",
+          "path": ".temp/LP3367_asi_recuYsANVGtu68/outputs/LP3367_clean_no_logo_oracle_chatgpt.png",
+          "token": "AN5Ib3bcoo2AOUx8qwUc7F1MnLN"
+        },
+        {
+          "role": "white_background",
+          "path": ".temp/LP3367_asi_recuYsANVGtu68/outputs/LP3367_white_background_oracle_gemini.png",
+          "token": "UduGb9ctNoNZsXxBdXJcBA8gnkf"
+        },
+        {
+          "role": "scene",
+          "path": ".temp/LP3367_asi_recuYsANVGtu68/outputs/LP3367_scene_oracle_chatgpt.png",
+          "token": "ARq9bPS5soRUPQxNGGFcuHB8nnh"
+        },
+        {
+          "role": "selling_point",
+          "path": ".temp/LP3367_asi_recuYsANVGtu68/outputs/LP3367_selling_point_retry_oracle_chatgpt.png",
+          "token": "BDFUbEawkokLzPx1iOIctc7lnYd"
+        },
+        {
+          "role": "sku_chart",
+          "path": ".temp/LP3367_asi_recuYsANVGtu68/outputs/LP3367_sku_chart_retry_oracle_chatgpt.png",
+          "token": "PKadbfciRoStYqxKPQ9cGVYvnub"
+        },
+        {
+          "role": "size_diagram",
+          "path": ".temp/LP3367_asi_recuYsANVGtu68/outputs/LP3367_size_diagram_retry_oracle_chatgpt.png",
+          "token": "DvNsbmXbmo52mlxKLzlcLHzPnWd"
+        },
+        {
+          "role": "material_detail",
+          "path": ".temp/LP3367_asi_recuYsANVGtu68/outputs/LP3367_material_detail_oracle_gemini.png",
+          "token": "QqiFbcj3uousKdxKA33csQRqnTg"
+        },
+        {
+          "role": "hero_main",
+          "path": ".temp/LP3367_asi_recuYsANVGtu68/outputs/LP3367_hero_main_oracle_chatgpt_LOGO-WT.png",
+          "token": "XZdrbCaORoz8vUxbsfEcj1kfnXg"
+        }
+      ],
+      "rejected_or_skipped_notes": [
+        "Rejected LP3367_selling_point_oracle_gemini.png because product styles were invented/changed.",
+        "Rejected LP3367_sku_chart_oracle_gemini.png because style details were altered and unsupported colored lenses were added.",
+        "Rejected LP3367_size_diagram_oracle_gemini.png because Height 4.33 inch was missing.",
+        "No image types skipped."
+      ],
+      "delivery_status": "sent_feishu"
+    },
+    {
+      "product_number": "LP3188",
+      "record_id": "recuYsACVIE192",
+      "child_session": "agent:global-trading-product:subagent:ea7693de-188c-4d6c-b656-468387a3c5b3",
+      "run_id": "df1f8275-7795-46c8-ba5f-0a4b5180014c",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3188_hero_regen_20260623_1446.md",
+      "started_at": "2026-06-23T14:48:33+0800",
+      "completed_at": "2026-06-23T14:58:00+0800",
+      "status": "hero_regen_completed_uploaded_verified",
+      "workspace": ".temp/LP3188_hero_regen",
+      "output": ".temp/LP3188_hero_regen/outputs/LP3188_asi_main_hero_regen.png",
+      "upload_token": "CLUgbaJn4owAUKxD1YIc4qzanlb",
+      "old_token_removed": "F1ulbtZ3gonqkNxtxBlcJVeInxe",
+      "reference_token_retained": "GiijbQqXUoIJhxxeNhtcX9Afnof",
+      "white_background_token_retained": "RolSbKFXCoCkSLxlyeOc6nkYngd",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "final_readback": ".temp/LP3188_hero_regen/parent_live_readback_20260623_1458.json",
+      "final_status": "Parent verified local PNG dimensions, child verification summary, and live Base readback; 商品主图 contains the new hero token, old hero token is absent, and 参考图片/白底图 are unchanged.",
+      "delivery_status": "sent_feishu",
+      "delivery_note": "Parent verified and attempted visible send with image, but current session file changed while embedded prompt lock was released. Retry later.",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "product_number": "LP3199",
+      "record_id": "recuYsACVIHfSH",
+      "status": "hero_regen_completed_uploaded_verified",
+      "workspace": ".temp/LP3199_hero_regen",
+      "output": ".temp/LP3199_hero_regen/outputs/LP3199_hero_oracle_chatgpt.png",
+      "upload_token": "ZoWtbjoUUogS6XxkitccOL12nVe",
+      "old_token_removed": "CHKSbqu64oGZYfxGTO9cqAOUnuf",
+      "preserved_tokens": [
+        "UEdXblkjOoaNt0xs0SvcJPDkn5f"
+      ],
+      "final_readback": ".temp/LP3199_hero_regen/parent_live_readback_20260623_1444.json",
+      "parent_verified": true,
+      "completed_at": "2026-06-23T14:47:52+0800",
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "product_number": "LP3202",
+      "record_id": "recuYsACVInTaO",
+      "child_session": "agent:global-trading-product:subagent:877fc30b-6f3c-429e-8e2b-6c28fc84b6c6",
+      "run_id": "077adabd-82c7-4fb6-8c3a-4a67bbb671e5",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3202_hero_regen_20260623_1413.md",
+      "started_at": "2026-06-23T14:13:30+0800",
+      "completed_at": "2026-06-23T14:21:49+0800",
+      "status": "hero_regen_completed_uploaded_verified",
+      "workspace": ".temp/LP3202_hero_regen",
+      "output": ".temp/LP3202_hero_regen/outputs/LP3202_asi_hero_regen_oracle_chatgpt.png",
+      "upload_token": "Sm7Mbpv3QoJfuExpHdNczjnGnLb",
+      "old_token_removed": "C7o5bvo7doxp7OxY6j4cGfgRn9c",
+      "preserved_tokens": [
+        "VfEsbEHZJoWNATxStq6cOnQIngd",
+        "NNXIbXMXVoCY5bxoKvDcLxHonbc"
+      ],
+      "reference_token_retained": "RLYbbwuHjopiFZx6sDicBKwHnCh",
+      "white_background_token_retained": "RYSYbmzXAobfs2xKOh4cGe6ynnd",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "final_status": "Parent verified local PNG dimensions and live Base readback; 商品主图 contains two preserved non-hero tokens plus new hero token, and old hero token is absent.",
+      "final_readback": ".temp/LP3202_hero_regen/parent_live_readback_20260623_1421.json",
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "product_number": "LP3215",
+      "record_id": "recuYsACVILcTO",
+      "child_session": "agent:global-trading-product:subagent:3c407480-506b-4087-a003-762ee559fd8b",
+      "run_id": "76a9274a-7779-4e09-82d9-71fd1db9a828",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3215_hero_regen_20260623_1342.md",
+      "started_at": "2026-06-23T05:58:24.176Z",
+      "completed_at": "2026-06-23T14:13:00+0800",
+      "status": "hero_regen_completed_uploaded_verified",
+      "workspace": ".temp/LP3215_hero_regen",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "output": ".temp/LP3215_hero_regen/outputs/LP3215_asi_hero_oracle_chatgpt_regen.png",
+      "upload_token": "PqBIbngLfoZUZbxeRRNcdDUJnhe",
+      "old_token_removed": "JuiqbKOlpofabmxR60ccqGQKnFe",
+      "preserved_tokens": [
+        "KnqDbFIj2oBsyKxZ1jCcPHNankc",
+        "N0ZSbDZZko7C9jx8Vc2c4tNBnti",
+        "GydGb0ZvrogvaxxpwS4cH74qnCg"
+      ],
+      "final_readback": ".temp/LP3215_hero_regen/uploads/final_readback.json",
+      "final_status": "Parent live-read verified 商品主图 retains non-hero tokens KnqDbFIj2oBsyKxZ1jCcPHNankc, N0ZSbDZZko7C9jx8Vc2c4tNBnti, and GydGb0ZvrogvaxxpwS4cH74qnCg; includes new hero token PqBIbngLfoZUZbxeRRNcdDUJnhe; no longer includes old hero token JuiqbKOlpofabmxR60ccqGQKnFe; 参考图片 and 白底图 unchanged.",
+      "delivery_status": "sent_feishu",
+      "delivery_note": "Parent verified and attempted visible send with image, but OpenClaw session file changed while embedded prompt lock was released. Retry later.",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "product_number": "LP3217",
+      "record_id": "recuYsACVIUO4i",
+      "child_session": "agent:global-trading-product:subagent:95a6ca89-3c1a-4ad5-b342-1276af2a3ef2",
+      "run_id": "3f3bc335-fbf5-4a13-9f72-5e20a8671048",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3217_hero_regen_20260623_1323.md",
+      "started_at": "2026-06-23T05:25:31.072Z",
+      "completed_at": "2026-06-23T13:42:31+0800",
+      "status": "hero_regen_completed_uploaded_verified",
+      "workspace": ".temp/LP3217_hero_regen",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "output": ".temp/LP3217_hero_regen/outputs/LP3217_hero_main_oracle_gemini_retry_LOGO-WT.png",
+      "upload_token": "IKLWboHlgoO7j5x8Q9QcUojEnhc",
+      "old_token_removed": "BCFZbi3iNoBkvMxUUkRcRxD7nPc",
+      "preserved_tokens": [
+        "T8oUbLMtZoGgidxT4pTcqUa9n7d",
+        "X970bEmL9oai4wxiJ8QcZzYqnfc"
+      ],
+      "final_readback": ".temp/LP3217_hero_regen/parent_live_readback_20260623_1342.json",
+      "final_status": "Parent live-read verified 商品主图 retains non-hero tokens T8oUbLMtZoGgidxT4pTcqUa9n7d and X970bEmL9oai4wxiJ8QcZzYqnfc, includes new hero token IKLWboHlgoO7j5x8Q9QcUojEnhc, and no longer includes old hero token BCFZbi3iNoBkvMxUUkRcRxD7nPc; 参考图片 and 白底图 unchanged.",
+      "delivery_status": "sent_feishu",
+      "delivery_note": "Parent verified and attempted visible send with image, but OpenClaw session write lock changed during embedded prompt release. Retry later.",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "product_number": "LP3229",
+      "record_id": "recuYsACVIvAOI",
+      "child_session": "agent:global-trading-product:subagent:89bcbb8f-57ac-450d-bf7b-a6b048543b9c",
+      "run_id": "8a7f6b1b-8aa9-49c2-a73b-9fed6d0736d4",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3229_hero_regen_20260623_1313.md",
+      "started_at": "2026-06-23T05:14:48.801Z",
+      "completed_at": "2026-06-23T05:24:59.515Z",
+      "status": "hero_regen_completed_uploaded_verified",
+      "workspace": ".temp/LP3229_hero_regen",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "output": ".temp/LP3229_hero_regen/outputs/LP3229_hero_main_oracle_chatgpt_LOGO-WT.png",
+      "upload_token": "PJXIbXVgSoEHclxVgHAcKpdgnqe",
+      "old_token_removed": "PuifbprCQoLoBoxJkm0cV9RVnEg",
+      "preserved_tokens": [
+        "UIcub1aUJo0Gw0xQjhscHjpEntg"
+      ],
+      "final_readback": ".temp/LP3229_hero_regen/uploads/verification_summary.md",
+      "final_status": "Parent live-read verified 商品主图 retains non-hero token UIcub1aUJo0Gw0xQjhscHjpEntg and new hero token PJXIbXVgSoEHclxVgHAcKpdgnqe; old hero token removed; 参考图片 and 白底图 unchanged.",
+      "delivery_status": "sent_feishu",
+      "delivery_note": "Parent verified and attempted visible send with image twice, but OpenClaw session write lock changed during embedded prompt release. Retry later.",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "product_number": "LP3240",
+      "record_id": "recuYsACVIH4Aq",
+      "child_session": "agent:global-trading-product:subagent:7e452c4d-5a7f-4244-94c6-dc42a1ce6b7c",
+      "run_id": "bf696712-0a97-4925-8536-aa220f07010c",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3240_hero_regen_20260623_1306.md",
+      "started_at": "2026-06-23T05:05:03.869Z",
+      "completed_at": "2026-06-23T05:13:58.896Z",
+      "status": "hero_regen_completed_uploaded_verified",
+      "workspace": ".temp/LP3240_hero_regen",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 1,
+      "final_status": "Hero-only regen completed; parent live-read verified 商品主图 only has new token JRylbjFwPoVMzdxAKqOcLdVinKd, with 参考图片 and 白底图 retained.",
+      "final_readback": ".temp/LP3240_hero_regen/uploads/final_readback.json",
+      "accepted_files": [
+        {
+          "role": "hero_main",
+          "path": ".temp/LP3240_hero_regen/outputs/LP3240_hero_main_oracle_chatgpt_LOGO-WT.png"
+        }
+      ],
+      "uploaded_tokens": {
+        "main_hero": "JRylbjFwPoVMzdxAKqOcLdVinKd"
+      },
+      "rejected_or_skipped_notes": [
+        "Hero regen only; full ASI套图 was not regenerated."
+      ],
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "product_number": "LP3258",
+      "record_id": "recuYsACVIt4Py",
+      "status": "hero_regen_completed_uploaded_verified",
+      "completed_at": "2026-06-23T05:04:32.364Z",
+      "workspace": ".temp/LP3258_hero_regen",
+      "accepted_files": [
+        {
+          "role": "hero_main_regen",
+          "path": ".temp/LP3258_hero_regen/outputs/LP3258_hero_main_oracle_chatgpt_LOGO-WT.png"
+        }
+      ],
+      "uploaded_tokens": {
+        "main_hero": "A1oTbIVYIoiHcexc8uIcpEKCngg"
+      },
+      "final_readback": ".temp/LP3258_hero_regen/uploads/readback_after_replace.json",
+      "final_status": "Parent verified new hero token present, old hero removed, existing non-hero token preserved, and reference/white-background tokens retained.",
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "product_number": "LP3273",
+      "record_id": "recuYsACVILy3b",
+      "status": "hero_regen_completed_uploaded_verified",
+      "completed_at": "2026-06-23T04:54:11.787Z",
+      "workspace": ".temp/LP3273_hero_regen",
+      "accepted_files": [
+        {
+          "role": "hero_main_regen",
+          "path": ".temp/LP3273_hero_regen/outputs/LP3273_asi_hero_regen.png"
+        }
+      ],
+      "uploaded_tokens": {
+        "main_hero": "Bn6nb47jyo3GQaxZxSfcTOQOnjc"
+      },
+      "final_readback": ".temp/LP3273_hero_regen/evidence/record_after.json",
+      "final_status": "Parent verified new hero token present, old hero removed, and existing detail token preserved.",
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "product_number": "WG7107",
+      "record_id": "recv9nhHK7waQX",
+      "child_session": "agent:global-trading-product:subagent:62b0cf39-5ce8-441c-b309-0c389d6de1e8",
+      "run_id": "3bcef866-fbcc-4580-9e7d-b0f987f8fdaf",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7107_20260622_2059.md",
+      "started_at": "2026-06-22 21:00 GMT+0800",
+      "completed_at": "2026-06-22 21:29 GMT+0800",
+      "status": "partial_uploaded_verified_delivered_with_blocked_hero",
+      "workspace": ".temp/WG7107_asi_recv9nhHK7waQX",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 3,
+      "final_status": "Subagent completed accepted images; parent verified fresh Base readback 参考图片=1, 白底图=1, 商品主图=3 and no active WG7107 generation/upload process. Hero was rejected/blocked; material/process and separate selling-point images were skipped for insufficient distinct evidence.",
+      "final_readback": ".temp/WG7107_asi_recv9nhHK7waQX/logs/parent-heartbeat-readback-20260622-2326.json",
+      "accepted_files": [
+        {
+          "role": "clean_reference",
+          "path": ".temp/WG7107_asi_recv9nhHK7waQX/outputs/WG7107_clean_no_logo.png"
+        },
+        {
+          "role": "white_background",
+          "path": ".temp/WG7107_asi_recv9nhHK7waQX/outputs/WG7107_white_background.png"
+        },
+        {
+          "role": "lifestyle_scene",
+          "path": ".temp/WG7107_asi_recv9nhHK7waQX/outputs/WG7107_scene_camping.png"
+        },
+        {
+          "role": "dimension",
+          "path": ".temp/WG7107_asi_recv9nhHK7waQX/outputs/WG7107_dimension.png"
+        },
+        {
+          "role": "sku_chart",
+          "path": ".temp/WG7107_asi_recv9nhHK7waQX/outputs/WG7107_sku_colors.png"
+        }
+      ],
+      "rejected_or_skipped_notes": [
+        "Hero output was rejected because it omitted the verified Silver SKU in the bottom color row.",
+        "Hero remained blocked after Oracle Gemini failed QA, Oracle ChatGPT retry timed out waiting for browser login/session, Codex fallback failed with rejected refresh token, and local image CLI lacked required reference-image input support.",
+        "Material/process image skipped because available evidence only supports generic plastic material and no distinct material/process detail.",
+        "Separate selling-point image skipped because the accepted lifestyle scene already carries the supported bright 360-degree light / solar + USB rechargeable benefit."
+      ]
+    },
+    {
+      "product_number": "LP3365",
+      "record_id": "recuYsANVGjV2K",
+      "child_session": "agent:global-trading-product:subagent:f10b6e80-7e4c-4d8b-81a5-cd452fe317da",
+      "run_id": "4765670b-cbd6-4ba7-9e7f-3c851d4ee35c",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3365_retry_20260622_1951.md",
+      "started_at": "2026-06-22 19:51 GMT+0800",
+      "completed_at": "2026-06-22 20:20 GMT+0800",
+      "status": "completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3365_asi_recuYsANVGjV2K",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 6,
+      "final_status": "Retry worker completed the remaining ASI image types; parent verified final readback counts 参考图片=1, 白底图=1, 商品主图=6.",
+      "final_readback": ".temp/LP3365_asi_recuYsANVGjV2K/uploads/final_readback_retry.json",
+      "accepted_files": [
+        {
+          "role": "dimension",
+          "path": ".temp/LP3365_asi_recuYsANVGjV2K/outputs/LP3365_dimension_oracle_chatgpt.png"
+        },
+        {
+          "role": "material_detail",
+          "path": ".temp/LP3365_asi_recuYsANVGjV2K/outputs/LP3365_material_detail_oracle_chatgpt.png"
+        },
+        {
+          "role": "selling_point",
+          "path": ".temp/LP3365_asi_recuYsANVGjV2K/outputs/LP3365_selling_point_oracle_chatgpt.png"
+        },
+        {
+          "role": "lifestyle_scene",
+          "path": ".temp/LP3365_asi_recuYsANVGjV2K/outputs/LP3365_lifestyle_oracle_chatgpt.png"
+        },
+        {
+          "role": "hero_main",
+          "path": ".temp/LP3365_asi_recuYsANVGjV2K/outputs/LP3365_hero_oracle_chatgpt_LOGO-WT.png"
+        }
+      ],
+      "uploaded_tokens": {
+        "main_dimension": "JQlebGfBHo72ngxv562cIK3znfd",
+        "main_material_detail": "NRtgbQoCRoU6rdxQLlRcfYWAnMe",
+        "main_selling_point": "JXhUb3aKtoUf42xv1xccwK6Ende",
+        "main_lifestyle": "EUqcbQPEWoAvPnxE1m9cVlnNnCd",
+        "main_hero": "VZGYbQooIopVf1xVgaCcrvFFnDe"
+      },
+      "rejected_or_skipped_notes": [
+        "Did not regenerate clean reference, white-background image, or existing SKU chart because live readback showed they were already present and clean.",
+        "Oracle Gemini remained blocked by image limit; Oracle ChatGPT successfully generated all five accepted retry outputs.",
+        "Prior Codex image route blocker remained TypeError: fetch failed."
+      ],
+      "retry_of": {
+        "child_session": "agent:global-trading-product:subagent:1388e093-af63-4c39-8a84-04e56084a6a5",
+        "run_id": "05641006-2f34-4061-b442-75366c1c0ff7",
+        "status": "partial_uploaded_verified_pending_retry"
+      }
+    },
+    {
+      "product_number": "LP3365",
+      "record_id": "recuYsANVGjV2K",
+      "child_session": "agent:global-trading-product:subagent:1388e093-af63-4c39-8a84-04e56084a6a5",
+      "run_id": "05641006-2f34-4061-b442-75366c1c0ff7",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3365_recovery_20260622_1803.md",
+      "started_at": "2026-06-22 18:03 GMT+0800",
+      "completed_at": "2026-06-22 18:22 GMT+0800",
+      "status": "partial_uploaded_verified_pending_retry",
+      "workspace": ".temp/LP3365_asi_recuYsANVGjV2K",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 1,
+      "final_status": "Recovery completed as far as available reference-capable generation routes allowed; parent live-read confirmed 参考图片=1, 白底图=1, 商品主图=1.",
+      "final_readback": ".temp/LP3365_asi_recuYsANVGjV2K/uploads/final_readback.json",
+      "accepted_files": [
+        {
+          "role": "clean_reference",
+          "path": ".temp/LP3365_asi_recuYsANVGjV2K/outputs/LP3365_clean_no_logo.png"
+        },
+        {
+          "role": "sku_chart",
+          "path": ".temp/LP3365_asi_recuYsANVGjV2K/outputs/LP3365_sku_chart.png"
+        }
+      ],
+      "uploaded_tokens": {
+        "reference": "XOcbb6HfAoFW0exW8GXccHG1nyh",
+        "white_background": "BDALbpTjvodLAZx66Abc4DE9nlb",
+        "main_sku_chart": "EV32bsQY2ozmIexiN9Xcz7fpnqc"
+      },
+      "rejected_or_skipped_notes": [
+        "Dimension, material/detail, selling point, lifestyle, and hero prompts were prepared but not generated because all available reference-capable routes became blocked.",
+        "Oracle ChatGPT failed before creating a conversation because the Chrome window closed.",
+        "Oracle Gemini generated the SKU chart, then hit the image-generation limit.",
+        "Codex image route failed during auth refresh with TypeError: fetch failed.",
+        "Local image CLI cannot satisfy the ASI reference-image requirement in the installed version.",
+        "Hero remains blocked because it requires reference-capable generation with the LogoPress logo file."
+      ],
+      "recovery_of": {
+        "child_session": "agent:global-trading-product:subagent:607438cf-a0f0-41bc-b057-5c8c6b646cc1",
+        "run_id": "3b3b4f92-3c54-4d93-8782-8c897586c98b",
+        "status": "timeout",
+        "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3365_20260622_1711.md",
+        "last_local_output": ".temp/LP3365_asi_recuYsANVGjV2K/outputs/LP3365_clean_no_logo.png",
+        "recovery_reason": "Original worker inactive/timeout; no upload/readback files and no Base uploads."
+      }
+    },
+    {
+      "product_number": "LP3356",
+      "record_id": "recuYsANVGWzxk",
+      "child_session": "agent:global-trading-product:subagent:5dba6b20-fd25-434b-9da1-d9e1713415ae",
+      "run_id": "abdd1d1c-a1cc-4621-8a53-ab5d6ff6d820",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3356_20260622_1625.md",
+      "started_at": "2026-06-22 16:25 GMT+0800",
+      "completed_at": "2026-06-22 17:06 GMT+0800",
+      "status": "completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3356_asi_recuYsANVGWzxk",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 5,
+      "final_status": "subagent status done plus .temp/LP3356_asi_recuYsANVGWzxk/uploads/final_counts.json and readback_final.json",
+      "final_readback": ".temp/LP3356_asi_recuYsANVGWzxk/uploads/readback_final.json",
+      "accepted_files": [
+        {
+          "role": "clean_reference",
+          "path": ".temp/LP3356_asi_recuYsANVGWzxk/outputs/LP3356_clean_no_logo_gemini.png"
+        },
+        {
+          "role": "white_background",
+          "path": ".temp/LP3356_asi_recuYsANVGWzxk/outputs/LP3356_white_background_gemini.png"
+        },
+        {
+          "role": "sku_chart",
+          "path": ".temp/LP3356_asi_recuYsANVGWzxk/outputs/LP3356_sku_chart_gemini_v2.png"
+        },
+        {
+          "role": "dimension",
+          "path": ".temp/LP3356_asi_recuYsANVGWzxk/outputs/LP3356_dimension_gemini.png"
+        },
+        {
+          "role": "material_detail",
+          "path": ".temp/LP3356_asi_recuYsANVGWzxk/outputs/LP3356_material_detail_gemini_v2.png"
+        },
+        {
+          "role": "selling_point",
+          "path": ".temp/LP3356_asi_recuYsANVGWzxk/outputs/LP3356_selling_points_gemini_v2.png"
+        },
+        {
+          "role": "hero_main",
+          "path": ".temp/LP3356_asi_recuYsANVGWzxk/outputs/LP3356_hero_main_gemini_v2.png"
+        }
+      ],
+      "rejected_or_skipped_notes": [
+        "Lifestyle scene skipped because three candidates contained a right-lower decorative mark or abnormal element.",
+        "First SKU/material/selling/hero candidates were superseded by cleaner v2 outputs."
+      ]
+    },
+    {
+      "product_number": "LP3351",
+      "record_id": "recuYsANVGRWik",
+      "child_session": "agent:global-trading-product:subagent:c20bcc78-0464-4073-8e36-00869898e9a9",
+      "run_id": "02615160-1f76-489e-96d0-1c9962600973",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3351_20260622_1546.md",
+      "started_at": "2026-06-22 15:46 GMT+0800",
+      "completed_at": "2026-06-22 16:21 GMT+0800",
+      "status": "completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3351_asi_recuYsANVGRWik",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 6,
+      "final_status": "subagent final message and .temp/LP3351_asi_recuYsANVGRWik/uploads/record_final_readback.json",
+      "final_readback": ".temp/LP3351_asi_recuYsANVGRWik/uploads/record_final_readback.json",
+      "accepted_files": [
+        {
+          "role": "clean_reference",
+          "path": ".temp/LP3351_asi_recuYsANVGRWik/outputs/LP3351_clean_no_logo_chatgpt.png"
+        },
+        {
+          "role": "white_background",
+          "path": ".temp/LP3351_asi_recuYsANVGRWik/outputs/LP3351_white_background_gemini.png"
+        },
+        {
+          "role": "lifestyle_scene",
+          "path": ".temp/LP3351_asi_recuYsANVGRWik/outputs/LP3351_lifestyle_chatgpt.png"
+        },
+        {
+          "role": "selling_point",
+          "path": ".temp/LP3351_asi_recuYsANVGRWik/outputs/LP3351_selling_point_gemini_retry.png"
+        },
+        {
+          "role": "material_detail",
+          "path": ".temp/LP3351_asi_recuYsANVGRWik/outputs/LP3351_material_detail_gemini_retry.png"
+        },
+        {
+          "role": "dimension",
+          "path": ".temp/LP3351_asi_recuYsANVGRWik/outputs/LP3351_dimension_gemini.png"
+        },
+        {
+          "role": "sku_chart",
+          "path": ".temp/LP3351_asi_recuYsANVGRWik/outputs/LP3351_sku_chart_gemini.png"
+        },
+        {
+          "role": "hero_main",
+          "path": ".temp/LP3351_asi_recuYsANVGRWik/outputs/LP3351_hero_gemini.png"
+        }
+      ],
+      "rejected_or_skipped_notes": [
+        "Selling point Gemini output rejected because it introduced an AirTag/Apple-like platform reference/icon.",
+        "Material/detail Gemini output rejected because it introduced a platform-like tracker icon and malformed label.",
+        "No supported ASI image types were skipped."
+      ]
+    },
+    {
+      "product_number": "LP3194",
+      "record_id": "recuYsACVIu7H1",
+      "child_session": "agent:global-trading-product:subagent:1758b3ef-a005-4978-a8f4-4c2a6288a828",
+      "run_id": "ea46530d-de2c-4a62-9f99-1e0925efd808",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3194_20260622_1459.md",
+      "started_at": "2026-06-22 14:59 GMT+0800",
+      "completed_at": "2026-06-22 15:39 GMT+0800",
+      "status": "completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3194_asi_recuYsACVIu7H1",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 5,
+      "final_status": "subagent final message and .temp/LP3194_asi_recuYsACVIu7H1/uploads/raw-record-final.json",
+      "final_readback": ".temp/LP3194_asi_recuYsACVIu7H1/uploads/raw-record-final.json",
+      "accepted_files": [
+        {
+          "role": "clean_reference",
+          "path": ".temp/LP3194_asi_recuYsACVIu7H1/outputs/LP3194_clean_no_logo_oracle_chatgpt.png"
+        },
+        {
+          "role": "white_background",
+          "path": ".temp/LP3194_asi_recuYsACVIu7H1/outputs/LP3194_white_background_oracle_gemini.png"
+        },
+        {
+          "role": "lifestyle_scene",
+          "path": ".temp/LP3194_asi_recuYsACVIu7H1/outputs/LP3194_scene_oracle_chatgpt.png"
+        },
+        {
+          "role": "selling_point",
+          "path": ".temp/LP3194_asi_recuYsACVIu7H1/outputs/LP3194_selling_point_oracle_chatgpt_retry.png"
+        },
+        {
+          "role": "dimension",
+          "path": ".temp/LP3194_asi_recuYsACVIu7H1/outputs/LP3194_dimensions_oracle_gemini.png"
+        },
+        {
+          "role": "material_detail",
+          "path": ".temp/LP3194_asi_recuYsACVIu7H1/outputs/LP3194_material_detail_oracle_chatgpt.png"
+        },
+        {
+          "role": "hero_main",
+          "path": ".temp/LP3194_asi_recuYsACVIu7H1/outputs/LP3194_hero_main_oracle_chatgpt_retry.png"
+        }
+      ],
+      "rejected_or_skipped_notes": [
+        "Selling point Gemini output rejected due to a decorative/platform-like mark in the lower-right corner.",
+        "Hero main Gemini output rejected because it added prohibited headline text.",
+        "SKU image skipped because only one reliable product style/colorway was evidenced."
+      ]
+    },
+    {
+      "product_number": "LP3346",
+      "record_id": "recuYsANVGZx9n",
+      "child_session": "agent:global-trading-product:subagent:e46a44b6-ba3e-4e59-aa2d-16f6b3a10884",
+      "run_id": "c9669794-d175-4e77-bb11-b2fa5c3a5608",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3346_20260622_1354.md",
+      "started_at": "2026-06-22 13:54 GMT+0800",
+      "completed_at": "2026-06-22 14:48 GMT+0800",
+      "status": "completed_uploaded_verified_delivered",
+      "workspace": ".temp/LP3346_asi_recuYsANVGZx9n",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 7,
+      "final_status": ".temp/LP3346_asi_recuYsANVGZx9n/final_report.md",
+      "final_readback": ".temp/LP3346_asi_recuYsANVGZx9n/uploads/07_final_readback.json",
+      "accepted_files": [
+        {
+          "role": "clean_reference",
+          "path": ".temp/LP3346_asi_recuYsANVGZx9n/outputs/LP3346_clean_no_logo_oracle_chatgpt.png"
+        },
+        {
+          "role": "white_background",
+          "path": ".temp/LP3346_asi_recuYsANVGZx9n/outputs/LP3346_white_background_oracle_chatgpt_retry.png"
+        },
+        {
+          "role": "lifestyle_scene",
+          "path": ".temp/LP3346_asi_recuYsANVGZx9n/outputs/LP3346_lifestyle_scene_oracle_chatgpt_retry.png"
+        },
+        {
+          "role": "selling_point",
+          "path": ".temp/LP3346_asi_recuYsANVGZx9n/outputs/LP3346_selling_point_oracle_gemini.png"
+        },
+        {
+          "role": "dimension",
+          "path": ".temp/LP3346_asi_recuYsANVGZx9n/outputs/LP3346_dimension_oracle_chatgpt.png"
+        },
+        {
+          "role": "material_detail",
+          "path": ".temp/LP3346_asi_recuYsANVGZx9n/outputs/LP3346_material_detail_oracle_gemini.png"
+        },
+        {
+          "role": "sku_chart_1",
+          "path": ".temp/LP3346_asi_recuYsANVGZx9n/outputs/LP3346_sku_chart_01_oracle_chatgpt.png"
+        },
+        {
+          "role": "sku_chart_2",
+          "path": ".temp/LP3346_asi_recuYsANVGZx9n/outputs/LP3346_sku_chart_02_oracle_gemini.png"
+        },
+        {
+          "role": "hero_main",
+          "path": ".temp/LP3346_asi_recuYsANVGZx9n/outputs/LP3346_hero_main_oracle_chatgpt.png"
+        }
+      ],
+      "rejected_or_skipped_notes": [
+        "First white-background output retained a bottom thumbnail strip and was rejected.",
+        "First lifestyle output added unsupported 'Hand-Painted' claim and was rejected.",
+        "Oracle ChatGPT/Gemini were sufficient; Codex/image fallback was not needed."
+      ]
+    },
+    {
+      "product_number": "LP2566",
+      "record_id": "recuYsACgfrEQl",
+      "child_session": "agent:global-trading-product:subagent:54a44ea1-612e-4561-9553-21e6f57caeda",
+      "run_id": "fac63dd7-50b2-4d90-82fe-05252c4e9142",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP2566_hero_regen_20260623_1422.md",
+      "started_at": "2026-06-23T14:22:30+0800",
+      "completed_at": "2026-06-23T14:33:05+0800",
+      "status": "hero_regen_completed_uploaded_verified",
+      "workspace": ".temp/LP2566_hero_regen",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "final_status": "Hero-only regen completed; parent live-read verified new hero token uploaded, old hero token removed, non-hero main images preserved, reference/white background unchanged.",
+      "final_readback": ".temp/LP2566_hero_regen/uploads/final_readback.txt",
+      "accepted_files": [
+        {
+          "role": "hero_main",
+          "path": ".temp/LP2566_hero_regen/outputs/LP2566_hero_main_oracle_chatgpt_LOGO-BK.png"
+        }
+      ],
+      "uploaded_tokens": {
+        "main_hero": "A0EvbZsbyoDlTJxUyvVc2Mv4n7c"
+      },
+      "removed_tokens": [
+        "Y19UbkAVAoTLLvxNPMucg0fOn7g"
+      ],
+      "preserved_tokens": [
+        "TAXibBI1OoaxSDxnY4QcQ3ranHc",
+        "EwPgbp7taokX2jxMtpecAX3KnHh"
+      ],
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "product_number": "LP3123",
+      "record_id": "recuYsACVI6tID",
+      "child_session": "agent:global-trading-product:subagent:53f848c8-a61d-4309-955a-dad5ce08d4a8",
+      "run_id": "802d39af-e8ad-4324-b0b7-7c1bf1617dc1",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3123_hero_regen_20260623_1520.md",
+      "started_at": "2026-06-23T15:22:00+0800",
+      "completed_at": "2026-06-23T15:32:00+0800",
+      "status": "hero_regen_completed_uploaded_verified",
+      "workspace": ".temp/LP3123_hero_regen",
+      "verified_by_parent": true,
+      "output": ".temp/LP3123_hero_regen/outputs/asi_hero_LP3123_oracle_chatgpt.png",
+      "upload_token": "QNbhblLPhoPkWIxAQtlcv8JSndd",
+      "old_token_removed": "ZtsDbFR7YorrcXxVR0DcczMmn2f",
+      "final_readback": ".temp/LP3123_hero_regen/uploads/record_after.json",
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3070",
+      "rid": "recuYsACVIDm7w",
+      "product_number": "LP3070",
+      "record_id": "recuYsACVIDm7w",
+      "child_session": "agent:global-trading-product:subagent:c8f05229-b408-43e6-bd89-7328d78331d0",
+      "run_id": "87012afc-c9e2-44d7-90b0-96301b363dc9",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3070_hero_regen_20260623_1544.md",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T16:00:00+0800",
+      "workspace": ".temp/LP3070_hero_regen",
+      "output": ".temp/LP3070_hero_regen/outputs/LP3070_asi_hero_regen_gemini.png",
+      "generation_route": "Oracle ChatGPT attempted first but failed at image fetch; Oracle Gemini succeeded.",
+      "upload_token": "QpnKba8MAoPmihx0NScczAaBneg",
+      "old_token_removed": "Ez7xboKaVoXZvGxVvcK4Innd",
+      "preserved_tokens": [
+        "TlFmbM6vtolfBexrbB2clGkKnq6"
+      ],
+      "reference_token_retained": "BNJlbTwuwoPkwcxS1LicwFoMngb",
+      "white_background_token_retained": "VR4FbTukNoI4nsxUrgic5iqXngd",
+      "final_readback": ".temp/LP3070_hero_regen/uploads/readback_after.json",
+      "verification_file": ".temp/LP3070_hero_regen/uploads/verification_LP3070_hero_regen.json",
+      "parent_verified": true,
+      "delivered": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3105",
+      "rid": "recuYsACVIpU8x",
+      "status": "completed_uploaded_verified",
+      "completed_at": "2026-06-23T08:12:48.760Z",
+      "workspace": ".temp/LP3105_hero_regen",
+      "output": ".temp/LP3105_hero_regen/outputs/hero_main_oracle_gpt_regen.png",
+      "selected_logo": "LOGO-BK.png",
+      "generation_route": "Oracle ChatGPT browser route, model requested 5.5 Medium; accepted first attempt",
+      "upload_token": "UwLpbSThxor6GHxa45BcUjSVnwb",
+      "old_token_removed": "ZYKFbfojwoAwI2xhakwcBRcMnqb",
+      "preserved_tokens": [
+        "ZAGdb4qMbo6kxOxBu2ec5fiSnHh",
+        "WFBBbEtb1oVko8xf2GycQln2nid",
+        "EdOtb6bXVoQ9a2xjoTGcueKNn9b",
+        "F2hlbyFW4oErJDxDyOTciltVnve"
+      ],
+      "reference_token_retained": "K8kYbImSSoKikixXN6mcKku2n3e",
+      "white_background_token_retained": "XhlPbKzzDolkgOxkgydc9bqlnXf",
+      "final_readback": ".temp/LP3105_hero_regen/uploads/verification.json",
+      "verification_file": ".temp/LP3105_hero_regen/uploads/verification.json",
+      "parent_verified": true,
+      "delivered": true,
+      "product_number": "LP3105",
+      "record_id": "recuYsACVIpU8x",
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "pn": "LP3015",
+      "rid": "recuYsACVI4KDr",
+      "product_number": "LP3015",
+      "record_id": "recuYsACVI4KDr",
+      "child_session": "agent:global-trading-product:subagent:3b1ee23b-5628-49e7-91d0-23ef58c75782",
+      "run_id": "5644d95b-a5cd-46e9-9ec0-ed4dbb987dd2",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3015_hero_regen_20260623_1613.md",
+      "status": "hero_regen_completed_uploaded_verified",
+      "completed_at": "2026-06-23T16:21:00+0800",
+      "workspace": ".temp/LP3015_hero_regen",
+      "output": ".temp/LP3015_hero_regen/outputs/LP3015_asi_hero_regen_oracle_chatgpt.png",
+      "selected_logo": "LOGO-BK.png",
+      "generation_route": "Oracle ChatGPT browser route, requested model 5.5 Medium; accepted first attempt",
+      "upload_token": "FeXmbMmnJoj9pxxAe5mcYI9mn3c",
+      "old_token_removed": "Mn0zbHoCyop8Ngxb5czck4trnrc",
+      "preserved_tokens": [],
+      "reference_token_retained": "L9KRb2nTvotbPuxPFx7cGNB1nxE",
+      "white_background_token_retained": "KuR6b0UveoakOHxMyVLcdv21nHo",
+      "final_readback": ".temp/LP3015_hero_regen/readbacks/parent_live_readback_20260623_1622.json",
+      "verification_file": ".temp/LP3015_hero_regen/readbacks/verification_20260623_hero_regen.md",
+      "parent_verified": true,
+      "delivered": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "product_number": "LP2999",
+      "record_id": "recuYsACVIbm5I",
+      "child_session": "agent:global-trading-product:subagent:d5f84ae7-0d2a-4741-84f4-e838e87d12b7",
+      "run_id": "362f5dbd-c63b-4c27-ab0b-638091f245f9",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP2999_hero_regen_20260623_1622.md",
+      "started_at": "2026-06-23T16:25:30+0800",
+      "completed_at": "2026-06-23T17:25:04+0800",
+      "status": "hero_regen_completed_uploaded_verified",
+      "workspace": ".temp/LP2999_hero_regen",
+      "output": ".temp/LP2999_hero_regen/outputs/lp2999_hero_oracle_chatgpt.png",
+      "selected_logo": "LOGO-WT.png",
+      "generation_route": "Oracle ChatGPT browser, requested 5.5 Medium",
+      "upload_token": "GbqLb2p9qozBcfx1zPgcmbYynNc",
+      "old_token_removed": "PQC2bFBfpoQwVsx8JzYcThtUnOc",
+      "preserved_tokens": [
+        "WbbTb1CVvowdR8xPSBRc2lqlnUf",
+        "EL3XbsMqeoPYeDx7GnPcDhzNngh",
+        "LhT8bHPCKoGBGtxwqATcLXhhn2d",
+        "UDvmbslWsorILKxlVeucVo3znnh"
+      ],
+      "reference_token_retained": "D7KrbYbjjoB3EXxED7yc5TTFngg",
+      "white_background_token_retained": "AuLHb1R8boh9BXxsoQTcUToKnMb",
+      "final_readback": ".temp/LP2999_hero_regen/parent_live_readback_20260623_1721.json",
+      "verification_file": ".temp/LP2999_hero_regen/uploads/verification_lp2999_hero_regen.json",
+      "parent_verified": true,
+      "delivered": true,
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084",
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu"
+    },
+    {
+      "product_number": "LP2996",
+      "pn": "LP2996",
+      "record_id": "recuYsACVI67WY",
+      "child_session": "agent:global-trading-product:subagent:cbf0a9c1-e145-44e6-b7cd-d51ef30b0fc6",
+      "run_id": "412de9e7-cca9-4956-9acb-1a202d87bd89",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP2996_hero_regen_20260623_1725.md",
+      "started_at": "2026-06-23T17:26:00+0800",
+      "completed_at": "2026-06-23T17:35:00+0800",
+      "status": "hero_regen_completed_uploaded_verified",
+      "workspace": ".temp/LP2996_hero_regen",
+      "output": ".temp/LP2996_hero_regen/outputs/LP2996_hero_main_attempt01_chatgpt.png",
+      "upload_token": "SQEPbkhKcoTAHex4L2icsBF1nSc",
+      "old_token_removed": "SFogbRgH3ooRmbxlq95cLiahnkf",
+      "preserved_tokens": [
+        "FvfJbcjUKo9kM4xBN5mcZXK6nHb",
+        "MOB4bKHa6okN53xKZB5cWhHHnHg",
+        "WdYpblbGWoWQ4RxPsNnccgRenyf",
+        "OGA1bdSiIofAe4xurHOc04u3nxb",
+        "Ur1zb96Zeo0TB7xCsPncRYNZn8g"
+      ],
+      "reference_token_retained": "VOQwbodHUomdsAxr4ABcJ6MYnbf",
+      "white_background_token_retained": "G6BCbuWHKoHH7Nx200schypfn2e",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "final_readback": ".temp/LP2996_hero_regen/parent_live_readback_20260623_1753.json",
+      "final_status": "Parent verified local PNG dimensions, child verification summary, and fresh Base readback; 商品主图 contains five preserved non-hero tokens plus new hero token, old hero token is absent, and 参考图片/白底图 are unchanged.",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084",
+      "delivery_status": "sent_feishu"
+    },
+    {
+      "product_number": "LP2994",
+      "pn": "LP2994",
+      "record_id": "recuYsACVI4xsE",
+      "rid": "recuYsACVI4xsE",
+      "child_session": "agent:global-trading-product:subagent:5da1dc42-e004-4149-a03c-ca21826b31f6",
+      "run_id": "092d1d5b-6bc8-443c-b7d6-8343ea117f28",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP2994_hero_regen_20260623_1754.md",
+      "started_at": "2026-06-23T17:55:00+0800",
+      "completed_at": "2026-06-23T18:02:49+0800",
+      "status": "hero_regen_completed_uploaded_verified",
+      "workspace": ".temp/LP2994_hero_regen",
+      "output": ".temp/LP2994_hero_regen/outputs/LP2994_hero_main_oracle_gemini_LOGO-BK.png",
+      "selected_logo": "LOGO-BK.png",
+      "generation_route": "Oracle Gemini after initial Oracle command-shape failure; accepted image generated and visually checked.",
+      "upload_token": "PGdrbLSP2oKAXJxW6jXc7Qhon2e",
+      "old_token_removed": "LRjjbZ4zqoYf4XxLJ9LcFXtLntd",
+      "preserved_tokens": [
+        "IcvBbUzk8oUM8MxIDtkcogusn7e",
+        "B0TIbtDV5oimqyxcKLRcjm1OnDh",
+        "JDxlbxvxwoQ0KZxRTG9cDNw7n0f",
+        "QG17bRLvhozmDmxoK2UcvtKGnqe",
+        "KvwmbUJceo3tPPxgOE2cWksVn3g"
+      ],
+      "reference_token_retained": "RX4KbDWBnosANpxC3kVcIOX9nWh",
+      "white_background_token_retained": "BRB8bDVwvoct4Zx15mFcwP8Fnkh",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "final_readback": ".temp/LP2994_hero_regen/readback_final_api.json",
+      "verification_file": ".temp/LP2994_hero_regen/verification_summary.md",
+      "final_status": "Parent verified local PNG dimensions, child verification summary, and fresh Base readback; 商品主图 contains five preserved non-hero tokens plus new hero token, old hero token is absent, and 参考图片/白底图 are unchanged.",
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c9feb5948a0b26670057cea084"
+    },
+    {
+      "product_number": "WG7100",
+      "pn": "WG7100",
+      "record_id": "recv9nhLt0D5Lt",
+      "rid": "recv9nhLt0D5Lt",
+      "child_session": "agent:global-trading-product:subagent:58acde8d-1936-4b9e-b2af-d575c657a22d",
+      "run_id": "0d9c145e-a346-49b3-addc-eb68fc1861fc",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7100_20260623_1821.md",
+      "started_at": "2026-06-23T18:21:00+0800",
+      "completed_at": "2026-06-23T18:53:00+0800",
+      "status": "asi_images_completed_uploaded_verified",
+      "workspace": ".temp/WG7100_asi_recv9nhLt0D5Lt",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 4,
+      "final_readback": ".temp/WG7100_asi_recv9nhLt0D5Lt/final_readback.json",
+      "accepted_files": [
+        {
+          "role": "white_background",
+          "path": ".temp/WG7100_asi_recv9nhLt0D5Lt/outputs/WG7100_white_background.png"
+        },
+        {
+          "role": "lifestyle_scene",
+          "path": ".temp/WG7100_asi_recv9nhLt0D5Lt/outputs/WG7100_lifestyle_scene.png"
+        },
+        {
+          "role": "selling_point",
+          "path": ".temp/WG7100_asi_recv9nhLt0D5Lt/outputs/WG7100_selling_point_retry_chatgpt.png"
+        },
+        {
+          "role": "dimension",
+          "path": ".temp/WG7100_asi_recv9nhLt0D5Lt/outputs/WG7100_dimension_chart.png"
+        },
+        {
+          "role": "hero_main",
+          "path": ".temp/WG7100_asi_recv9nhLt0D5Lt/outputs/WG7100_hero_main.png"
+        }
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "BVdxbBzf5oT957xJ6mZcwj7wnIh",
+        "white_background": "Ac2kb69Qso87hwxXzyOcxoKTnne",
+        "main_images": [
+          "Wf2Yb8GITozWuFxC7tucSA2knoh",
+          "Z0TYb3nxqodgdExLHGTcDLT9nDb",
+          "MxZpbhcH0o1MSixSgpUc2y8fntc",
+          "LXCIbb3qco07f5xdgsRc6g6ynic"
+        ]
+      },
+      "delivery_message_id": "om_x100b6c921346f134b34fd5fe456295b",
+      "rejected_or_skipped_notes": [
+        "Initial selling point rejected for unsupported claims/elements and misspelled label; retry accepted.",
+        "Material/detail skipped after Oracle Gemini no-image, Oracle ChatGPT fetch-failed image handle, Codex fetch failed, and local image CLI lacking usable reference-image input.",
+        "SKU skipped because only one reliable SKU/color is supported: Silver."
+      ],
+      "final_status": "Parent verified local image files and fresh Base readback; cleaned reference, white-background image, and four 商品主图 tokens are present."
+    },
+    {
+      "product_number": "WG7090",
+      "pn": "WG7090",
+      "record_id": "recv9nhKXHviX2",
+      "rid": "recv9nhKXHviX2",
+      "child_session": "agent:global-trading-product:subagent:f42e89a6-6961-4070-8d37-85e5d82da163",
+      "run_id": "4c4eb9a8-ed07-403d-8ce7-942e7aaca792",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7090_20260623_1853.md",
+      "started_at": "2026-06-23T18:53:00+0800",
+      "completed_at": "2026-06-23T19:19:21+0800",
+      "status": "asi_images_completed_uploaded_verified",
+      "workspace": ".temp/WG7090_asi_recv9nhKXHviX2",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 5,
+      "final_readback": ".temp/WG7090_asi_recv9nhKXHviX2/uploads/06_final_readback.json",
+      "accepted_files": [
+        {
+          "role": "white_background",
+          "path": ".temp/WG7090_asi_recv9nhKXHviX2/outputs/WG7090_white_background.png"
+        },
+        {
+          "role": "hero_main",
+          "path": ".temp/WG7090_asi_recv9nhKXHviX2/outputs/WG7090_hero_logo.png"
+        },
+        {
+          "role": "lifestyle_scene",
+          "path": ".temp/WG7090_asi_recv9nhKXHviX2/outputs/WG7090_scene_home_office.png"
+        },
+        {
+          "role": "selling_point",
+          "path": ".temp/WG7090_asi_recv9nhKXHviX2/outputs/WG7090_selling_point.png"
+        },
+        {
+          "role": "dimension",
+          "path": ".temp/WG7090_asi_recv9nhKXHviX2/outputs/WG7090_dimension.png"
+        },
+        {
+          "role": "material_detail",
+          "path": ".temp/WG7090_asi_recv9nhKXHviX2/outputs/WG7090_material_detail.png"
+        }
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "W6kDb6uh4oHefcx7y8LcVLzMn4c",
+        "white_background": "CJd2bFO3YoAlJSxmD4HcWGnXnIc",
+        "main_images": [
+          "Ex5FbIAB5oknbhx6m0ycXXwYn1b",
+          "ERvRb1jppodsTwx8gwvcs7LKnMc",
+          "RNbQb7l7do63DLxB58gc1VepnEf",
+          "DIwDbR6IfoBKBMxm6SkcaxKmnCg",
+          "DubLbI4h8ogqDbxi1ljcXzC0nce"
+        ]
+      },
+      "rejected_or_skipped_notes": [
+        "SKU image skipped because only one confirmed color/style exists: white."
+      ],
+      "final_status": "Parent verified child completion, local PNG dimensions, final readback, and prior Feishu delivery of accepted images."
+    },
+    {
+      "product_number": "WG7084",
+      "record_id": "recv9nhPfrxdck",
+      "child_session": "agent:global-trading-product:subagent:894936c3-1065-42b2-b4cb-0eba9d4678c8",
+      "run_id": "388b6070-6441-4bcd-b8c4-399c3d305a98",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7084_20260623_1951.md",
+      "live_check": ".temp/asi_has_inquiry_manifest/livecheck_WG7084_20260623_1951.json",
+      "started_at": "2026-06-23T19:51:00+0800",
+      "last_parent_check": "2026-06-23T19:51:00+0800",
+      "status": "asi_images_completed_uploaded_verified",
+      "workspace": ".temp/WG7084_asi_recv9nhPfrxdck",
+      "completed_at": "2026-06-23T20:43:23+0800",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "output_paths": [
+        ".temp/WG7084_asi_recv9nhPfrxdck/outputs/WG7084_white_background.png",
+        ".temp/WG7084_asi_recv9nhPfrxdck/outputs/WG7084_hero_main.png",
+        ".temp/WG7084_asi_recv9nhPfrxdck/outputs/WG7084_lifestyle_scene.png",
+        ".temp/WG7084_asi_recv9nhPfrxdck/outputs/WG7084_selling_point.png",
+        ".temp/WG7084_asi_recv9nhPfrxdck/outputs/WG7084_dimension_diagram.png",
+        ".temp/WG7084_asi_recv9nhPfrxdck/outputs/WG7084_material_detail.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "Dgthbg38aoJxFGxbYLzca4NLn2b",
+        "white_background": "KaEjba3AionsInxn3eIcfDkpnyM",
+        "hero_main": "SvaKbAFACov2TQxZaB0cFDYBnGe",
+        "lifestyle_scene": "OTM6b2zccoi40Hx3aL9czA12nMf",
+        "selling_point": "QsEebfpUIoJNHyxRXPicbgFmnLo",
+        "dimension_diagram": "SviLbKSx6opj4zxW9s3cFJyqnLc",
+        "material_detail": "SP5ab1ZLto6JSAxEo2yciRikn9f"
+      },
+      "final_readback": ".temp/WG7084_asi_recv9nhPfrxdck/uploads/readback_after_main_upload.json",
+      "final_status": "Parent verified WG7084 child completion, local outputs, and live candidate readback; reference, white background, and 5 商品主图 images are present. SKU skipped because only brown is reliable."
+    },
+    {
+      "product_number": "WG7082",
+      "record_id": "recv9nhPfrWSvE",
+      "child_session": "agent:global-trading-product:subagent:cbabac59-445b-4e69-84b9-883e60d4ed0b",
+      "run_id": "2549253d-b36e-4fc5-ba67-f58e3f2146e8",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7082_20260623_2041.md",
+      "started_at": "2026-06-23T20:43:57+0800",
+      "completed_at": "2026-06-23T21:25:53+0800",
+      "status": "asi_images_completed_uploaded_verified",
+      "workspace": ".temp/WG7082_asi_recv9nhPfrWSvE",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "reference_token": "EYoQbeIaao11s2xFLbscS4cNnDc",
+      "white_background_token": "V5aYbaL3pokNOhx4YARcbjoCn1g",
+      "main_image_tokens": [
+        "TmOlb1EdQoEbvvxNrNTcJDLhnXe",
+        "Nma6bRvdsoNnpuxKzZTcWPcsnkb",
+        "MODBbtyREoz6UVxWWZMco65Lnof",
+        "Inu0bs12Vo1IpfxF2yIcf0JEnFb",
+        "MECIbPZdiohT0PxzpAachoa3nze"
+      ],
+      "output_paths": [
+        ".temp/WG7082_asi_recv9nhPfrWSvE/outputs/WG7082_white_background.png",
+        ".temp/WG7082_asi_recv9nhPfrWSvE/outputs/WG7082_hero_main.png",
+        ".temp/WG7082_asi_recv9nhPfrWSvE/outputs/WG7082_scene_kitchen.png",
+        ".temp/WG7082_asi_recv9nhPfrWSvE/outputs/WG7082_selling_point.png",
+        ".temp/WG7082_asi_recv9nhPfrWSvE/outputs/WG7082_dimensions.png",
+        ".temp/WG7082_asi_recv9nhPfrWSvE/outputs/WG7082_material_detail.png"
+      ],
+      "final_readback": ".temp/WG7082_asi_recv9nhPfrWSvE/readbacks/record_final_raw.json",
+      "final_status": "Parent verified child completion, local output files, acceptance notes, and final readback: cleaned 参考图片, 白底图, and five 商品主图 tokens are present. SKU image skipped because only one reliable silver SKU is available."
+    },
+    {
+      "product_number": "WG7072",
+      "record_id": "recv9nhRcFS61O",
+      "child_session": "agent:global-trading-product:subagent:688460d9-550d-400c-b5fc-2bb39b4ee1cf",
+      "run_id": "a3e63f13-afc0-4afd-986c-6abcd628be9a",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7072_20260623_2125.md",
+      "started_at": "2026-06-23T21:25:53+0800",
+      "completed_at": "2026-06-23T22:11:12+0800",
+      "status": "asi_images_completed_uploaded_verified_delivered",
+      "workspace": ".temp/WG7072_asi_recv9nhRcFS61O",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 6,
+      "final_readback": ".temp/WG7072_asi_recv9nhRcFS61O/readbacks/record_final.json",
+      "final_status": "Parent verified child session done, local final report/readback, and accepted output files. Visible delivery for WG7072 images was already sent in the source channel.",
+      "accepted_files": [
+        {
+          "role": "clean_reference",
+          "path": ".temp/WG7072_asi_recv9nhRcFS61O/outputs/WG7072_clean_no_logo.png"
+        },
+        {
+          "role": "white_background",
+          "path": ".temp/WG7072_asi_recv9nhRcFS61O/outputs/WG7072_white_background.png"
+        },
+        {
+          "role": "lifestyle_scene",
+          "path": ".temp/WG7072_asi_recv9nhRcFS61O/outputs/WG7072_scene_gym_lifestyle_gemini_api.png"
+        },
+        {
+          "role": "selling_point",
+          "path": ".temp/WG7072_asi_recv9nhRcFS61O/outputs/WG7072_selling_point_magnetic_pockets.png"
+        },
+        {
+          "role": "dimension",
+          "path": ".temp/WG7072_asi_recv9nhRcFS61O/outputs/WG7072_dimension_diagram.png"
+        },
+        {
+          "role": "material_detail",
+          "path": ".temp/WG7072_asi_recv9nhRcFS61O/outputs/WG7072_material_detail.png"
+        },
+        {
+          "role": "sku_chart",
+          "path": ".temp/WG7072_asi_recv9nhRcFS61O/outputs/WG7072_sku_color_chart_v3.png"
+        },
+        {
+          "role": "hero_main",
+          "path": ".temp/WG7072_asi_recv9nhRcFS61O/outputs/WG7072_hero_main.png"
+        }
+      ],
+      "uploaded_tokens": {
+        "reference": "A6Rcb3GTGo7CVFxVm0KcWTJJnWh",
+        "white_background": "IspjbQPuVoV6XOxK7rgcrojvnFb",
+        "main_scene": "DlzebdoQ9okfZrxZxLjcAPObnLh",
+        "main_selling_point": "GteVbyNl3ogeoix2RPUciOpSnuf",
+        "main_dimension": "MeKlbIOZEo4Q2PxNMIXcvvb0nLh",
+        "main_material_detail": "BCFrbMSyFoMFO3xzhW4cRpyvnWg",
+        "main_sku": "P4LAbuLyxoWup7xGYdHcXzEAn6c",
+        "main_hero": "Xjl8bBwSeooMPZxrddoc7hp0nlf"
+      },
+      "rejected_or_skipped_notes": [
+        "No image types skipped; worker reported scene, selling point, dimension, material/detail, SKU, and hero completed."
+      ]
+    },
+    {
+      "product_number": "WG7067",
+      "record_id": "recv9nhU57zZXK",
+      "child_session": "agent:global-trading-product:subagent:9861bc24-490b-43a4-a288-b287485a4e8f",
+      "run_id": "1ebf3eb0-75ab-4b75-b33d-09e197273bae",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7067_parent_reject_fix_white_material_20260624_1233.md",
+      "started_at": "2026-06-24T12:33:00+0800",
+      "completed_at": "2026-06-24T12:46:17+0800",
+      "status": "asi_images_parent_reject_correction_completed_uploaded_verified",
+      "workspace": ".temp/WG7067_asi_recv9nhU57zZXK",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "outputs": {
+        "white_background": ".temp/WG7067_asi_recv9nhU57zZXK/outputs/WG7067_white_background_replacement_oracle_gemini.png",
+        "material_detail": ".temp/WG7067_asi_recv9nhU57zZXK/outputs/WG7067_material_detail_replacement_oracle_chatgpt.png"
+      },
+      "uploaded_tokens": {
+        "white_background": "VVwkbHDEYoHckexSn80c2An2nVd",
+        "material_detail": "U5N2bZOR1oYWhqxKJvgcOeYLndg"
+      },
+      "removed_rejected_tokens": [
+        "BOMvbv13Wovj9WxWtMrcUQ1Cndf",
+        "BZY8bhlK6o8xYtxJNSLcKcEdnnd"
+      ],
+      "final_readback": ".temp/WG7067_asi_recv9nhU57zZXK/uploads/parent_live_readback_20260624_1323.json",
+      "final_status": "Parent verified worker completion, local replacement outputs, and fresh Base readback: 白底图 contains only new token VVwkbHDEYoHckexSn80c2An2nVd; 商品主图 preserves four accepted images and includes new material token U5N2bZOR1oYWhqxKJvgcOeYLndg; rejected tokens are absent.",
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c82fbb6e4a8b10c3d5d42025aa"
+    },
+    {
+      "product_number": "WG7066",
+      "record_id": "recv9nhSxazHE7",
+      "child_session": "agent:global-trading-product:subagent:5572be17-f5c3-45e1-a530-00902eb537d0",
+      "run_id": "dd3ccfc1-0fe6-4987-9e1f-0c963f126324",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7066_20260624_1323.md",
+      "started_at": "2026-06-24T13:23:00+0800",
+      "completed_at": "2026-06-24T14:28:25+0800",
+      "status": "asi_images_completed_uploaded_verified",
+      "workspace": ".temp/WG7066_asi_recv9nhSxazHE7",
+      "output_paths": [
+        ".temp/WG7066_asi_recv9nhSxazHE7/outputs/WG7066_white_background.png",
+        ".temp/WG7066_asi_recv9nhSxazHE7/outputs/WG7066_hero_main.png",
+        ".temp/WG7066_asi_recv9nhSxazHE7/outputs/WG7066_lifestyle_training.png",
+        ".temp/WG7066_asi_recv9nhSxazHE7/outputs/WG7066_selling_points.png",
+        ".temp/WG7066_asi_recv9nhSxazHE7/outputs/WG7066_material_detail_v2.png",
+        ".temp/WG7066_asi_recv9nhSxazHE7/outputs/WG7066_sku_chart.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "KHImbvHP8omKILxN6dOcE62fnVg",
+        "white_background": "Opf8bAA9foh5oMxEJXScB67kn1e",
+        "hero_main": "AOeqbfH0Ao1gLHxpnLrcGLERn8d",
+        "lifestyle_training": "H0xzbZgbTo1L9mxKmSjcIxlonOe",
+        "selling_points": "XpMdbQCwXoVDAEx5pWvc2Qh9nub",
+        "material_detail": "HTuQb37huoLLf7xVoX8clMEHnjX",
+        "sku_chart": "OdJIbmlPfop6tcxqzyLckml8nyb"
+      },
+      "final_readback": ".temp/WG7066_asi_recv9nhSxazHE7/readbacks/parent_live_readback_20260624_1421.json",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "final_status": "Parent verified local PNG dimensions, worker final report, and live Base readback; 参考图片 has only clean reference, 白底图 has one uploaded image, and 商品主图 has all five accepted ASI images.",
+      "delivery_message_id": "om_x100b6c83df2120acb25d2580e96f9d4"
+    },
+    {
+      "product_number": "WG7056",
+      "record_id": "recv9nhVyeHz3p",
+      "child_session": "agent:global-trading-product:subagent:2cd5f03c-e578-47ba-ba61-cca5e69629ea",
+      "run_id": "088053a1-7ce8-4326-a467-74ecdf5f3568",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7056_recovery_20260624_150610.md",
+      "started_at": "2026-06-24T15:06:10+0800",
+      "completed_at": "2026-06-24T15:51:00+0800",
+      "status": "asi_images_completed_uploaded_verified_delivered",
+      "workspace": ".temp/WG7056_asi_recv9nhVyeHz3p",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c8c82f59ca4b3be52fd2fa7bbb",
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 7,
+      "final_readback": ".temp/WG7056_asi_recv9nhVyeHz3p/readbacks/record_after_product_images_upload.json",
+      "final_status": "Parent verified recovery worker completion, local outputs, summary, and final Base readback. 参考图片 has clean reference token Sl6xbadLKoFLGExbKFycPzacnMe, 白底图 has token WXCUbTkWyoF79YxL6wPc3ZgpnCf, and 商品主图 has seven uploaded images. Delivered all seven images to Feishu.",
+      "output_paths": [
+        ".temp/WG7056_asi_recv9nhVyeHz3p/outputs/WG7056_hero_main_logo.png",
+        ".temp/WG7056_asi_recv9nhVyeHz3p/outputs/WG7056_lifestyle_gym_yoga_textless.png",
+        ".temp/WG7056_asi_recv9nhVyeHz3p/outputs/WG7056_selling_point_breathable.png",
+        ".temp/WG7056_asi_recv9nhVyeHz3p/outputs/WG7056_material_detail_nylon.png",
+        ".temp/WG7056_asi_recv9nhVyeHz3p/outputs/WG7056_sku_sheet_01_codex.png",
+        ".temp/WG7056_asi_recv9nhVyeHz3p/outputs/WG7056_sku_sheet_02.png",
+        ".temp/WG7056_asi_recv9nhVyeHz3p/outputs/WG7056_dimension_inches.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "Sl6xbadLKoFLGExbKFycPzacnMe",
+        "white_background": "WXCUbTkWyoF79YxL6wPc3ZgpnCf",
+        "hero_main": "I65IbssIZo3f2CxGhozclOIBnNe",
+        "lifestyle": "FVBUbwxEkoRPgmx4yTBcOfZXnV3",
+        "selling_point": "PvVgbnFV5o89aHxsvPjc40MJnUh",
+        "material_detail": "KREybTfbJoWorWxZf50cmHyTn7e",
+        "sku_sheet_1": "Xn06bvfWvo98kOxehedckdp9nCh",
+        "sku_sheet_2": "ITiXb6LadoLV8exG667cWMDcnzb",
+        "dimension": "YffIbpCXIoEzn6xvlgmcmfy1nXg"
+      },
+      "rejected_or_skipped_notes": [
+        "No final image types skipped; SKU sheet 1 used non-image-CLI Codex fallback after Oracle ChatGPT fetch failure and Oracle Gemini rejected marked outputs."
+      ]
+    },
+    {
+      "product_number": "WG7054",
+      "record_id": "recv9nhVyeBoXO",
+      "child_session": "agent:global-trading-product:subagent:df93e4f5-9759-4477-b6cc-cca8969d16f5",
+      "run_id": "97b169b2-4957-4e34-9e48-de296bcf8d08",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7054_20260624_1551.md",
+      "started_at": "2026-06-24T15:51:00+0800",
+      "completed_at": "2026-06-24T16:36:00+0800",
+      "status": "asi_images_completed_uploaded_verified_delivered",
+      "workspace": ".temp/WG7054_asi_recv9nhVyeBoXO",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c8d3ec828a0b27e0711e007d65",
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 7,
+      "final_readback": ".temp/WG7054_asi_recv9nhVyeBoXO/readbacks/record_final_fields.json",
+      "final_status": "Parent verified worker completion, local PNG files, final report, and live Base readback; reference has one cleaned image, white background has one uploaded image, and 商品主图 has seven accepted images. Delivered all seven images to Feishu.",
+      "output_paths": [
+        ".temp/WG7054_asi_recv9nhVyeBoXO/outputs/WG7054_hero_logo.png",
+        ".temp/WG7054_asi_recv9nhVyeBoXO/outputs/WG7054_lifestyle.png",
+        ".temp/WG7054_asi_recv9nhVyeBoXO/outputs/WG7054_feature_back_zipper.png",
+        ".temp/WG7054_asi_recv9nhVyeBoXO/outputs/WG7054_material_detail.png",
+        ".temp/WG7054_asi_recv9nhVyeBoXO/outputs/WG7054_dimensions.png",
+        ".temp/WG7054_asi_recv9nhVyeBoXO/outputs/WG7054_sku_sheet_01.png",
+        ".temp/WG7054_asi_recv9nhVyeBoXO/outputs/WG7054_sku_sheet_02.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "YomUbDAPao5rmjx84NRcb5TfnPf",
+        "white_background": "LdBfbRaX3o26FMxzZw8cXdUan4e",
+        "hero_main": "PnJ4bNOInoKvGhxRDpicSGyfnGh",
+        "lifestyle": "IfQMbM3kmoI2bzxfE0acrh0YnCg",
+        "selling_point": "RDYJbw3WhoSp4hx8G9ZcjvDun9f",
+        "material_detail": "E7kEbNlMloaXL2xhSg1c9k1mn3q",
+        "dimensions": "TpahbuLpyoS4oRxI0Ftc4ds1n4g",
+        "sku_sheet_1": "T6fCbOkI4oSBK0xqfJMc3FnVnBT",
+        "sku_sheet_2": "JIIbbPTy2omaSdx7nHock0HSnqv"
+      },
+      "rejected_or_skipped_notes": [
+        "No planned image types skipped."
+      ]
+    },
+    {
+      "product_number": "WG7049",
+      "record_id": "recv9nhYgWXY6t",
+      "child_session": "agent:global-trading-product:subagent:55852d9d-4e98-4717-aacd-41d7fb2d1ea2",
+      "run_id": "a12f0a22-4e99-4216-8a3f-c91f7e5383a1",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7049_20260624_1636.md",
+      "started_at": "2026-06-24T16:36:00+0800",
+      "completed_at": "2026-06-24T17:19:00+0800",
+      "status": "partial_uploaded_verified_delivered_with_skipped_hero_material",
+      "workspace": ".temp/WG7049_asi_recv9nhYgWXY6t",
+      "verified_by_parent": true,
+      "sent_to_user": true,
+      "delivery_status": "sent_feishu",
+      "delivery_message_id": "om_x100b6c8e4748d088b2f34b9eeca4586",
+      "clean_reference_count": 1,
+      "white_background_count": 1,
+      "main_image_count": 4,
+      "final_readback": ".temp/WG7049_asi_recv9nhYgWXY6t/readbacks/parent_live_readback_20260624_1715.json",
+      "final_status": "Parent verified child completion, local PNG files, evidence summary, and fresh Base readback; reference has one cleaned image, white background has one image, and 商品主图 has four accepted images. Delivered white-background plus four accepted main images to Feishu. Material/detail and hero were skipped after abnormal generation failures.",
+      "output_paths": [
+        ".temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_white_background.png",
+        ".temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_lifestyle_scene.png",
+        ".temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_selling_point.png",
+        ".temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_size_chart.png",
+        ".temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_sku_chart.png"
+      ],
+      "uploaded_tokens": {
+        "clean_reference": "Jma4b4HWRot0yHxObGscWtrQnjh",
+        "white_background": "TmcHb6bWyo6KKwxoEj6clw9Fn4d",
+        "lifestyle_scene": "XC3nbTG2GoR5cSxlY7Tc10Gjnth",
+        "selling_point": "XPbfbbXSuosrG3xLJJkcNivnntb",
+        "size_chart": "SsHLbq8IwoL3QnxUd7zcKB8lnWb",
+        "sku_chart": "Ru2WbzIvVoBj46x7BVVcdCBHn1g"
+      },
+      "rejected_or_skipped_notes": [
+        "Material/detail image skipped after Codex generation failed with TypeError: fetch failed; no output file.",
+        "Hero main image skipped after Codex generation failed with TypeError: terminated after request acceptance/image generation start; no output file.",
+        "No rapid retry was performed after abnormal generation failures per ASI skill rule."
+      ]
+    }
+  ],
+  "last_blocker_notified_at": "2026-06-24T10:51:00+0800",
+  "last_blocker": null,
+  "phase": "hero_regen",
+  "hero_regen_queue": ".temp/asi_has_inquiry_manifest/hero_regen_queue.json",
+  "hero_regen_status": "21/21 completed; no running hero regen worker and no pending delivery",
+  "last_parent_check": "2026-06-25T14:52:00+0800",
+  "failures": [
+    {
+      "product_number": "LP3215",
+      "record_id": "recuYsACVILcTO",
+      "status": "hero_regen_failed_retry_spawned",
+      "failed_at": "2026-06-23T05:58:24.176Z",
+      "child_session": "agent:global-trading-product:subagent:7e5e165b-fb06-4dc8-a6ba-e560b9becf26",
+      "run_id": "ec90ed55-3224-4149-ab13-cc1e75fe73fe",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3215_hero_regen_20260623_1342.md",
+      "reason": "Previous worker stream disconnected before completion; local workspace contains references/prompt and one aborted Oracle route, but no output image/upload/readback.",
+      "retry_child_session": "agent:global-trading-product:subagent:3c407480-506b-4087-a003-762ee559fd8b",
+      "retry_run_id": "76a9274a-7779-4e09-82d9-71fd1db9a828"
+    },
+    {
+      "product_number": "WG7056",
+      "record_id": "recv9nhVyeHz3p",
+      "status": "asi_worker_failed_recovery_spawned",
+      "failed_at": "2026-06-24T15:06:10+0800",
+      "child_session": "agent:global-trading-product:subagent:6f054f8e-a9cc-4a16-b5f3-f68455d73df5",
+      "run_id": "a1d98952-e3fe-45ae-b9cb-c9bba8878251",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7056_20260624_1427.md",
+      "workspace": ".temp/WG7056_asi_recv9nhVyeHz3p",
+      "reason": "Parent heartbeat live-check found the child session status failed. Local evidence shows clean reference and white background were generated/uploaded/read back, but 商品主图 remained empty and the lifestyle generation route failed with fetch failed.",
+      "recovery_child_session": "agent:global-trading-product:subagent:2cd5f03c-e578-47ba-ba61-cca5e69629ea",
+      "recovery_run_id": "088053a1-7ce8-4326-a467-74ecdf5f3568",
+      "recovery_handoff": ".temp/asi_has_inquiry_manifest/handoff_WG7056_recovery_20260624_150610.md"
+    },
+    {
+      "product_number": "LP7260",
+      "record_id": "recvcuSRzhTNq0",
+      "status": "asi_worker_failed_recovery_spawned",
+      "failed_at": "2026-06-25T14:20:00+0800",
+      "child_session": "agent:global-trading-product:subagent:30a69785-db4e-4ff6-ac7a-3cf733a5f517",
+      "run_id": "4e96d0d5-0dbe-4469-adc7-60e7d48502a0",
+      "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP7260_20260625_1402.md",
+      "workspace": ".temp/LP7260_asi_recvcuSRzhTNq0",
+      "reason": "Parent received failed completion event: subagent run lost active execution context. Parent live/readback verification found clean reference and white background already generated/uploaded/read back, but 商品主图 remains empty.",
+      "recovery_child_session": "agent:global-trading-product:subagent:52a8ce90-8200-4f5c-9c1b-c38c920d843f",
+      "recovery_run_id": "74932b55-f319-4979-9aa7-9112bfb964d7",
+      "recovery_handoff": ".temp/asi_has_inquiry_manifest/handoff_LP7260_recovery_20260625_1420.md"
+    }
+  ],
+  "hero_regen_last_completed": {
+    "pn": "LP3015",
+    "rid": "recuYsACVI4KDr",
+    "product_number": "LP3015",
+    "record_id": "recuYsACVI4KDr",
+    "child_session": "agent:global-trading-product:subagent:3b1ee23b-5628-49e7-91d0-23ef58c75782",
+    "run_id": "5644d95b-a5cd-46e9-9ec0-ed4dbb987dd2",
+    "handoff": ".temp/asi_has_inquiry_manifest/handoff_LP3015_hero_regen_20260623_1613.md",
+    "status": "hero_regen_completed_uploaded_verified",
+    "completed_at": "2026-06-23T16:21:00+0800",
+    "workspace": ".temp/LP3015_hero_regen",
+    "output": ".temp/LP3015_hero_regen/outputs/LP3015_asi_hero_regen_oracle_chatgpt.png",
+    "selected_logo": "LOGO-BK.png",
+    "generation_route": "Oracle ChatGPT browser route, requested model 5.5 Medium; accepted first attempt",
+    "upload_token": "FeXmbMmnJoj9pxxAe5mcYI9mn3c",
+    "old_token_removed": "Mn0zbHoCyop8Ngxb5czck4trnrc",
+    "preserved_tokens": [],
+    "reference_token_retained": "L9KRb2nTvotbPuxPFx7cGNB1nxE",
+    "white_background_token_retained": "KuR6b0UveoakOHxMyVLcdv21nHo",
+    "final_readback": ".temp/LP3015_hero_regen/readbacks/parent_live_readback_20260623_1622.json",
+    "verification_file": ".temp/LP3015_hero_regen/readbacks/verification_20260623_hero_regen.md",
+    "parent_verified": true,
+    "delivered": true
+  },
+  "current_product": "LP7252",
+  "current_started_at": "2026-06-25T14:52:00+0800",
+  "current_child_session": "agent:global-trading-product:subagent:5b074b24-b042-40c6-9b2d-0badd97e0082",
+  "current_run_id": "9e06f5a5-b19f-4b88-87dd-5f23efa0f53c",
+  "last_handoff": ".temp/asi_has_inquiry_manifest/handoff_LP7252_20260625_1450.md",
+  "updated_at": "2026-06-25T14:52:00+0800"
+}

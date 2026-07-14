@@ -1,0 +1,17 @@
+white_background: Oracle Gemini gemini-3.5-flash succeeded; output outputs/LP3441_white_background_oracle_gemini.png
+clean_no_logo: Oracle ChatGPT 5.5 Medium succeeded; output outputs/LP3441_clean_no_logo_oracle_chatgpt.png
+lifestyle: Oracle ChatGPT 5.5 Medium failed, no image saved; error fetch failed. Retrying with Oracle Gemini.
+lifestyle: Oracle Gemini gemini-3.5-flash succeeded; output outputs/LP3441_lifestyle_oracle_gemini.png
+lifestyle: Oracle Gemini output rejected because branded/manufacturer bottle labels are visible in background. Switching to Codex non-image-CLI after Oracle ChatGPT failed and Oracle Gemini rejected.
+lifestyle: Codex gpt-image-2 succeeded after Oracle routes failed/rejected; output outputs/LP3441_lifestyle_codex.png
+material_detail: Oracle Gemini gemini-3.5-flash succeeded; output outputs/LP3441_material_detail_oracle_gemini.png
+material_detail: Oracle Gemini output rejected because paragraph text is awkward/low-quality. Retrying with Oracle ChatGPT using stricter labels-only prompt.
+material_detail: Oracle ChatGPT failed due attachment upload timeout. Switching to Codex after Oracle Gemini rejected and Oracle ChatGPT failed.
+material_detail: Codex gpt-image-2 succeeded after Oracle routes failed/rejected; output outputs/LP3441_material_detail_codex.png
+size_chart: Oracle ChatGPT 5.5 Medium succeeded; output outputs/LP3441_size_chart_oracle_chatgpt.png
+sku_chart: Oracle Gemini gemini-3.5-flash succeeded; output outputs/LP3441_sku_chart_oracle_gemini.png
+selling_point: Oracle ChatGPT failed due attachment upload timeout. Retrying with Oracle Gemini.
+selling_point: Oracle Gemini gemini-3.5-flash succeeded; output outputs/LP3441_selling_point_oracle_gemini.png
+selling_point: Oracle Gemini output rejected because it changed product structure into a double-handle/cutaway mug. Switching to Codex after Oracle ChatGPT failed and Oracle Gemini rejected.
+selling_point: Codex gpt-image-2 succeeded after Oracle routes failed/rejected; output outputs/LP3441_selling_point_codex.png
+hero_main: Oracle ChatGPT 5.5 Medium succeeded; output outputs/LP3441_hero_main_oracle_chatgpt.png

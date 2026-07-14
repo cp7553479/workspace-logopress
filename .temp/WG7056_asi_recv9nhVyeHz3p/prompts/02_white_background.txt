@@ -1,0 +1,17 @@
+Create a professional white-background ecommerce product image from the attached clean reference image.
+
+Subject: women's high-waist seamless workout shorts, bright pink nylon activewear, matching the attached reference product exactly.
+
+Composition:
+- Show the shorts as the main product on a pure white background, centered, clean, premium, and suitable for an Amazon-style product listing.
+- Use professional studio lighting, natural soft shadows, crisp textile detail, and a realistic product shape.
+- The product should be clearly visible as apparel shorts, with high waistband, seamless ribbed fabric texture, scrunch/glute contour seam, short leg length, and stitching preserved from the reference.
+- It may be displayed on a subtle mannequin/body crop only if needed to preserve the true worn shape, but no face and no distracting body details.
+
+Hard constraints:
+- Product must be 100% identical to reference in all details (shape, texture, parts). Preserve the exact real product structure, color, material, rib texture, stitching, proportions, and fit.
+- Remove any logo, sample logo, brand mark, imprint, QR code, watermark, manufacturer/platform mark, contact information, URL, readable tattoo/text, or extra label.
+- No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. No extra logos. Do not invent unsupported details.
+- Ratio 1:1.
+
+Output a complete square 1:1 white-background product image.

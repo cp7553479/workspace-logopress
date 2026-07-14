@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsANVGtu68": {
+        "fldn5dP24T": [
+          {
+            "file_token": "ARq9bPS5soRUPQxNGGFcuHB8nnh",
+            "name": "LP3367_scene_oracle_chatgpt.png",
+            "size": 2843589
+          },
+          {
+            "file_token": "BDFUbEawkokLzPx1iOIctc7lnYd",
+            "name": "LP3367_selling_point_retry_oracle_chatgpt.png",
+            "size": 2029738
+          },
+          {
+            "file_token": "PKadbfciRoStYqxKPQ9cGVYvnub",
+            "name": "LP3367_sku_chart_retry_oracle_chatgpt.png",
+            "size": 1772734
+          },
+          {
+            "file_token": "DvNsbmXbmo52mlxKLzlcLHzPnWd",
+            "name": "LP3367_size_diagram_retry_oracle_chatgpt.png",
+            "size": 1255102
+          },
+          {
+            "file_token": "QqiFbcj3uousKdxKA33csQRqnTg",
+            "name": "LP3367_material_detail_oracle_gemini.png",
+            "size": 1361781
+          },
+          {
+            "file_token": "XZdrbCaORoz8vUxbsfEcj1kfnXg",
+            "name": "LP3367_hero_main_oracle_chatgpt_LOGO-WT.png",
+            "size": 2137367
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

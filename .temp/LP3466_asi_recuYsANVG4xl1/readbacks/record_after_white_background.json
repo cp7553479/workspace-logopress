@@ -1,0 +1,407 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "20",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": [
+          {
+            "text": "Virtual Proof:FREE",
+            "type": "text"
+          }
+        ],
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": [
+          "opt8McqYYq",
+          "opthzw4qus"
+        ],
+        "Currency": [
+          {
+            "text": "USD",
+            "type": "text"
+          }
+        ],
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": [
+          {
+            "text": "Meet your go-to multi-purpose professional kitchen tool: the Heavy-Duty Cast Iron Meat Press, designed for grill and griddle enthusiasts. Made with high-quality, durable metal, this burger smasher ensures even pressing for perfect patties—crispy outside, tender inside—by squeezing out excess fat and moisture. Its heat-resistant wooden handle offers a comfortable, burn-free grip, ideal for daily cooking, family gatherings, outdoor camping, company picnics, or holiday barbecues. Compact and portable, it fits easily in kitchen storage and works seamlessly with Blackstone, Camp Chef, Pitboss, and Weber grills. Perfect for hamburgers, steaks, bacon, eggs, and deli meats, this versatile tool elevates your cooking game. Customizable with logos for wholesale or promotional needs, it’s a must-have for home chefs and food lovers alike.",
+            "type": "text"
+          }
+        ],
+        "Distributor_View_Only": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": [
+          {
+            "text": "Standard Colors",
+            "type": "text"
+          }
+        ],
+        "Imprint_Location": [
+          {
+            "text": "Centered on Front or as you request",
+            "type": "text"
+          }
+        ],
+        "Imprint_Method": null,
+        "Imprint_Size": [
+          {
+            "text": "1\" x 1\" or custom size",
+            "type": "text"
+          }
+        ],
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": [
+          "opt0QLDNHS"
+        ],
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": [
+          {
+            "text": "China",
+            "type": "text"
+          }
+        ],
+        "P1": "6.66",
+        "P10": null,
+        "P2": "6.53480228571428",
+        "P3": "6.41378742857143",
+        "P4": "6.35328",
+        "P5": "5.74820571428571",
+        "P6": "5.62719085714285",
+        "P7": "5.56668342857142",
+        "P8": "5.44566857142857",
+        "P9": null,
+        "Packaging": [
+          "optp7Y2PWQ",
+          "optkUxW5wQ",
+          "optvoSJKKO",
+          "optOtKqStI"
+        ],
+        "Personalization": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Price_Includes": [
+          {
+            "text": "1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs",
+            "type": "text"
+          }
+        ],
+        "Price_Type": [
+          {
+            "text": "Net",
+            "type": "text"
+          }
+        ],
+        "Prod_Image": null,
+        "Product_Color": [
+          "optUg4ABIw",
+          "opthShgio0"
+        ],
+        "Product_Name": [
+          {
+            "text": "Kitchen Meat Press with Wooden Handle for Grill and Griddle",
+            "type": "text"
+          }
+        ],
+        "Product_Number": [
+          {
+            "text": "LP3466",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": [
+          {
+            "text": "8:days",
+            "type": "text"
+          }
+        ],
+        "Q1": "50",
+        "Q10": null,
+        "Q2": "100",
+        "Q3": "200",
+        "Q4": "500",
+        "Q5": "1000",
+        "Q6": "2000",
+        "Q7": "5000",
+        "Q8": "10000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Rush_Time": [
+          {
+            "text": "5:days",
+            "type": "text"
+          }
+        ],
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": [
+          {
+            "text": "Length:17.32:in;Width:14.17:in;Height:20.47:in",
+            "type": "text"
+          }
+        ],
+        "Shipping_Items": [
+          {
+            "text": "36:per Case",
+            "type": "text"
+          }
+        ],
+        "Shipping_Weight": [
+          {
+            "text": "28.66:lbs",
+            "type": "text"
+          }
+        ],
+        "Size_Group": [
+          {
+            "text": "Dimension",
+            "type": "text"
+          }
+        ],
+        "Size_Values": [
+          {
+            "text": "Length:6.3:in;Width:6.3:in;Height:2.36:in",
+            "type": "text"
+          }
+        ],
+        "Sold_Unimprinted": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Summary": [
+          {
+            "text": "Heavy-Duty Cast Iron Meat Press for Grills/Griddles: Evenly presses patties, removes excess fat, heat-resistant wood handle. Ideal for home/camping/holidays. Customizable.",
+            "type": "text"
+          }
+        ],
+        "Theme": [
+          "optRqRtuCw",
+          "opt69lj8Up",
+          "opt9FOPnZv",
+          "optoVVUCXF",
+          "optG5rXtYo"
+        ],
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG3530",
+        "XID": null,
+        "id": "3554",
+        "record_id": [
+          {
+            "text": "recuYsANVG4xl1",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary/Food/Camping/Company Picnic/Holidays",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Hamburger Smasher Tool,\r\nUse For Grill And Griddle,\r\nCooking Smash Meat Press With,\r\nWooden Handle Bacon,\r\nHamburgers Eggs Heavy-duty,\r\nCast Iron Burger Steak Wood,\r\nBlackstone Camp Chef Pitboss,\r\nWeber Grills Deli Mold Meats,\r\nLunch Stainless Steel Weight,\r\nMaker Ham Cooker Quick Pin,\r\nTenderizer Pie Cevapcici,\r\nManual Sausage Stuffer Filler,\r\nHand Op Garlic Chopper,\r\nElectric Mini Food Processor,\r\nOnion Nuts Ginger Weighted,\r\nPatty Making Burgers Sandwich,\r\nMultifunctional Vegetable,\r\nCutter Lever Patties Madax,\r\nLunchmeat Dumpling Machine,\r\n1pc Pasta Kitchen Tools Dump,\r\nMaddox Home Made Homemade,\r\nCanister Held,\r\nBagsmeatmeathamburger,\r\nTupperware Set 6 Inch Papers",
+        "产品名称": "Multi-purpose practical professional kitchen tool meat press",
+        "产品尺寸 宽(cm)": "16",
+        "产品尺寸 长(cm)": "16",
+        "产品尺寸 高(cm)": "6",
+        "产品材质": "Metal",
+        "产品简称": null,
+        "产品类型": "Kitchen \u0026 Dining",
+        "产品编号": "LP3466",
+        "产品重量(kg)": null,
+        "产品颜色": "black/silver",
+        "件数/箱": "36",
+        "分类": "Tools-Kitchen-Meat Grinders/Tools-Kitchen-Sets",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/Laser Engraving",
+        "参考图片": [
+          {
+            "file_token": "OvbQbMtS5oDPVYxyZeZcnwQXnAh",
+            "name": "LP3466_clean_no_logo_reference.png",
+            "size": 876440,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=OvbQbMtS5oDPVYxyZeZcnwQXnAh\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5154%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/OvbQbMtS5oDPVYxyZeZcnwQXnAh/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5154%7D%7D"
+          }
+        ],
+        "商品主图": null,
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "[\"烧烤用具\"]",
+        "完整描述": "Our meat press is made of high-quality materials, sturdy and durable. It is well designed and easy to operate. The meat press can press the patties evenly to make perfect patties that are crispy on the outside and tender on the inside. It can effectively squeeze out excess fat and moisture in the patties, making the patties firmer and more delicious. Equipped with a heat-resistant handle, it is comfortable to hold and prevents burns. The meat press is moderate in size and does not take up too much space, making it easy to store and store. It is suitable for grilling various foods such as hamburgers, barbecues, sandwiches, steaks, etc. Whether it is a family gathering, an outdoor picnic or daily cooking, the meat press can bring you a delicious experience.",
+        "来源(1688)": "https://detail.1688.com/offer/737935058658.html?spm=a2639h.29135425.offerlist.i1\u0026source=action%23offerItem%3Borigin%23espweb.asicentral.com",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": [
+          {
+            "file_token": "ES7LbM43Lox7hFxUEARcIbhkneg",
+            "name": "LP3466_white_background.png",
+            "size": 1977788,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=ES7LbM43Lox7hFxUEARcIbhkneg\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5154%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/ES7LbM43Lox7hFxUEARcIbhkneg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5154%7D%7D"
+          }
+        ],
+        "简要说明": "Our meat press forms perfect patties, crispy outside \u0026 tender inside, by evenly pressing out excess fat.Rush service is available.",
+        "箱子尺寸 宽(cm)": "36",
+        "箱子尺寸 长(cm)": "44",
+        "箱子尺寸 高(cm)": "52",
+        "货代大货参考定价基准（30%毛利）": 6.03,
+        "货代大货起订量标准": 40,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "13"
+      },
+      "id": "recuYsANVG4xl1",
+      "record_id": "recuYsANVG4xl1"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

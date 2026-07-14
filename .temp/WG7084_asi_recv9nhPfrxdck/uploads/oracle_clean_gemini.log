@@ -1,0 +1,20 @@
+🧿 oracle 0.14.0 — Token-aware, omen-ready.
+Using Gemini web client for browser automation
+Browser model strategy is ignored for Gemini web runs.
+Session: wg7084-clean-gemini
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session wg7084-clean-gemini
+Launching browser mode (gemini-3.5-flash) with ~197 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Model selection evidence: requested=gemini-3.5-flash; resolved=(unavailable); status=unavailable; strategy=current; verified=no.
+Answer:
+http://googleusercontent.com/image_generation_content/289
+
+
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/WG7084_asi_recv9nhPfrxdck/outputs/WG7084_clean_no_logo.png*
+
+30.9s · gemini-3.5-flash[browser] · ↑197 ↓15 ↻0 Δ212
+files=1

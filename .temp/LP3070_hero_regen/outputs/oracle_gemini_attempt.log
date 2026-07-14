@@ -1,0 +1,20 @@
+🧿 oracle 0.14.0 — Because vibes aren't a deliverable.
+Using Gemini web client for browser automation
+Browser model strategy is ignored for Gemini web runs.
+Session: create-one-asi-hero-main-3
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session create-one-asi-hero-main-3
+Launching browser mode (gemini-3.5-flash) with ~550 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Model selection evidence: requested=Gemini 3.5 Flash; resolved=(unavailable); status=unavailable; strategy=current; verified=no.
+Answer:
+http://googleusercontent.com/image_generation_content/279
+
+
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/LP3070_hero_regen/outputs/LP3070_asi_hero_regen_gemini.png*
+
+43.9s · gemini-3.5-flash[browser] · ↑550 ↓15 ↻0 Δ565
+files=3

@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recv9nhLt0D5Lt": {
+        "fldr9B4JZT": [
+          {
+            "file_token": "LkOybtn4yoM0RXxPeIccTYvSnqf",
+            "name": "-14479993301769406136393.png",
+            "size": 1479693
+          },
+          {
+            "file_token": "BVdxbBzf5oT957xJ6mZcwj7wnIh",
+            "name": "WG7100_clean_no_logo.png",
+            "size": 1977839
+          }
+        ]
+      }
+    }
+  }
+}

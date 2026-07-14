@@ -1,0 +1,246 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "22",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": null,
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": null,
+        "Currency": null,
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": null,
+        "Distributor_View_Only": null,
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": null,
+        "Imprint_Location": null,
+        "Imprint_Method": null,
+        "Imprint_Size": null,
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": null,
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": null,
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": null,
+        "P1": "6.53",
+        "P10": null,
+        "P2": "6.41",
+        "P3": "6.29",
+        "P4": "6.23",
+        "P5": "5.64",
+        "P6": "5.52",
+        "P7": "5.46",
+        "P8": "5.34",
+        "P9": null,
+        "Packaging": null,
+        "Personalization": null,
+        "Price_Includes": null,
+        "Price_Type": null,
+        "Prod_Image": null,
+        "Product_Color": null,
+        "Product_Name": null,
+        "Product_Number": [
+          {
+            "text": "WG7100",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": null,
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": null,
+        "Q1": "100",
+        "Q10": null,
+        "Q2": "200",
+        "Q3": "500",
+        "Q4": "1000",
+        "Q5": "2000",
+        "Q6": "5000",
+        "Q7": "10000",
+        "Q8": "20000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": null,
+        "Rush_Time": null,
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": null,
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": null,
+        "Shipping_Items": null,
+        "Shipping_Weight": null,
+        "Size_Group": null,
+        "Size_Values": null,
+        "Sold_Unimprinted": null,
+        "Summary": null,
+        "Theme": null,
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG7100",
+        "XID": null,
+        "id": "7102",
+        "record_id": [
+          {
+            "text": "recv9nhLt0D5Lt",
+            "type": "text"
+          }
+        ],
+        "主题": "Camping\nBeach\nWestern\nWedding\nThanksgiving",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Compact Gifts Whiskey,\r\nCocktail Crystal Clear Ice,\r\nCube Maker Trump - 2\",\r\nStainless Steel Design For,\r\nCocktails Bourbon 2 Pack With,\r\nTong Box Berlinzo Freezer,\r\nLarge Metal True Cubes,\r\nStanley Cup Accessories Tray,\r\nTrays Souper Silicone Pebble,\r\nReusable Apartment Must Haves,\r\nCrushed Highland Cow Lid Mold,\r\nMolds Small Mini Round Super,\r\nBall Godzilla Cream Pop,\r\nNugget Only Rv Essentials,\r\nBowl Bucket Freezers Sphere,\r\nIcemaker And Bin Big Home New,\r\nContainer Makers Countertop,\r\nCircle Under 10 Dollars,\r\nSquare Soup Plastic Freeze,\r\nHolders Block Sticks $10 Bins,\r\nCoffee Old Fashioned Water,\r\nBottle Bar Holder Tiny Rose,\r\nMachine House Necessities,\r\nStorage I E Oxo Fruit Fridge",
+        "产品名称": "Compact gifts whiskey cocktail trump clear ice cube maker",
+        "产品尺寸 宽(cm)": "8.5",
+        "产品尺寸 长(cm)": "8.5",
+        "产品尺寸 高(cm)": "9.3",
+        "产品材质": "Stainless Steel",
+        "产品简称": null,
+        "产品类型": "Kitchen \u0026 Dining",
+        "产品编号": "WG7100",
+        "产品重量(kg)": null,
+        "产品颜色": "Silver",
+        "件数/箱": "60",
+        "分类": "ICE CUBE TRAYS/\nICE CUBES",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/Laser Engraved",
+        "参考图片": [
+          {
+            "file_token": "LkOybtn4yoM0RXxPeIccTYvSnqf",
+            "name": "-14479993301769406136393.png",
+            "size": 1479693,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=LkOybtn4yoM0RXxPeIccTYvSnqf\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4896%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/LkOybtn4yoM0RXxPeIccTYvSnqf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4896%7D%7D"
+          }
+        ],
+        "商品主图": null,
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "新奇特冰格-硅胶冰格真空304不锈钢创意制冰模具",
+        "完整描述": "Enjoy purer drinks with our unique stainless steel ice cube maker. We use 304 stainless steel vacuum cups as insulation material. The metal brushed polishing process gives the cup body a more sophisticated appearance, enhancing your bar's aesthetic. The ice maker features upgraded high-toughness and safer siliconedesigned to make pure, safe ice just for you. Searching for a unique gift? Host with confidence and style at any event, from casual evenings to large banquets. Our ice molds for whiskey are the ultimate choice for cocktail enthusiasts and whiskey lovers. This clear ice cube maker not only enhances the aesthetic of any drink but also caters to those who appreciate the craft behind a perfectly chilled beverage. Price is for one item only.",
+        "来源(1688)": "https://detail.1688.com/offer/927121727472.html?spm=a26352.b28411319.offerlist.12.53cf1e62toNMEk",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": null,
+        "简要说明": "Experience crystal, bubble-free ice that elevates the look and taste of every whiskey or cocktail. Rush service is available.",
+        "箱子尺寸 宽(cm)": "31",
+        "箱子尺寸 长(cm)": "50",
+        "箱子尺寸 高(cm)": "46.5",
+        "货代大货参考定价基准（30%毛利）": 6.11,
+        "货代大货起订量标准": 48,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "19"
+      },
+      "id": "recv9nhLt0D5Lt",
+      "record_id": "recv9nhLt0D5Lt"
+    }
+  }
+}

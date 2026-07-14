@@ -1,0 +1,96 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3384",
+        [
+          {
+            "file_token": "FwKZbUvJXo5bi9xYd6PcZyJhnDe",
+            "name": "LP3384_clean_no_logo_oracle_chatgpt.png",
+            "size": 1412779
+          }
+        ],
+        [
+          {
+            "file_token": "RJ4HbH7P5o92mxxHkcDc9GWLnYc",
+            "name": "LP3384_white_background_oracle_gemini.png",
+            "size": 975073
+          }
+        ],
+        [
+          {
+            "file_token": "N8e2bHz8tosEI6xULIScKRi2nHh",
+            "name": "LP3384_hero.png",
+            "size": 1181601
+          },
+          {
+            "file_token": "VtbBb7StLoKzIzxQXQRcPUGwnJd",
+            "name": "LP3384_lifestyle_scene_oracle_chatgpt.png",
+            "size": 2487536
+          },
+          {
+            "file_token": "OTdgblkkAoR97fxklBzcXQ5PnJc",
+            "name": "LP3384_lifestyle_scene_oracle_gemini_v2.png",
+            "size": 1464212
+          },
+          {
+            "file_token": "BhGtbHDObouWm9xqKVVcEMNFnEb",
+            "name": "LP3384_selling_point_01.png",
+            "size": 1288875
+          },
+          {
+            "file_token": "Mqy2bkVMzoT07NxIpfscm8x0nrb",
+            "name": "LP3384_size_chart.png",
+            "size": 1451811
+          },
+          {
+            "file_token": "Jpr6bJvuxoPz3Txey3ocapaJnxe",
+            "name": "LP3384_material_detail_oracle_gemini.png",
+            "size": 1148507
+          },
+          {
+            "file_token": "VwtQbgs19okTJPxJTaScjQMsnsf",
+            "name": "LP3384_sku_sheet_01_oracle_chatgpt.png",
+            "size": 1631780
+          },
+          {
+            "file_token": "KNEeb6MkAowFQxxcA6Ycl7jWndb",
+            "name": "LP3384_sku_sheet_02_oracle_gemini.png",
+            "size": 1020556
+          }
+        ],
+        [
+          "有询单"
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fldsExhPlC"
+    ],
+    "fields": [
+      "产品编号",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "Mark"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsANVGsmIM"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

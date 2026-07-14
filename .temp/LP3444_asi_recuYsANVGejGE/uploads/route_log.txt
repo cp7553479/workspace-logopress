@@ -1,0 +1,11 @@
+cleanup: Oracle ChatGPT browser, model requested 5.5 Medium/current, success, output LP3444_clean_no_logo.png; model selection resolved unavailable but run completed via gpt-5.5 browser.
+white_clear: Oracle Gemini browser, model requested gemini-3.5-flash, success, output LP3444_white_clear.png; model selection resolved unavailable but run completed via gemini-3.5-flash browser.
+white_brown: Oracle ChatGPT browser, model requested 5.5 Medium/current, success, output LP3444_white_brown.png; model selection resolved unavailable but run completed via gpt-5.5 browser.
+scene_party: Oracle Gemini browser, model requested gemini-3.5-flash, success, output LP3444_scene_party.png; model selection resolved unavailable but run completed via gemini-3.5-flash browser.
+scene_party_v2: Oracle ChatGPT browser, model requested 5.5 Medium/current, success, output LP3444_scene_party_v2.png; model selection resolved unavailable but run completed via gpt-5.5 browser.
+selling_point: Oracle Gemini browser, model requested gemini-3.5-flash, success, output LP3444_selling_point.png; model selection resolved unavailable but run completed via gemini-3.5-flash browser.
+selling_point_v2: Oracle ChatGPT browser, model requested 5.5 Medium/current, success, output LP3444_selling_point_v2.png; model selection resolved unavailable but run completed via gpt-5.5 browser.
+dimension: Oracle Gemini browser, model requested gemini-3.5-flash, success, output LP3444_dimension.png; model selection resolved unavailable but run completed via gemini-3.5-flash browser.
+material_detail: Oracle ChatGPT browser, model requested 5.5 Medium/current, success, output LP3444_material_detail.png; model selection resolved unavailable but run completed via gpt-5.5 browser.
+sku_chart: Oracle Gemini browser, model requested gemini-3.5-flash, success, output LP3444_sku_chart.png; model selection resolved unavailable but run completed via gemini-3.5-flash browser.
+hero_main: Oracle ChatGPT browser, model requested 5.5 Medium/current, success, output LP3444_hero_main_LOGO-BK.png with LOGO-BK.png reference; model selection resolved unavailable but run completed via gpt-5.5 browser.

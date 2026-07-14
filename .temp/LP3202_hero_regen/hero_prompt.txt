@@ -1,0 +1,11 @@
+Create one professional, beautiful, high-converting Amazon-style ecommerce hero image in a 1:1 square ratio for LP3202, a 5-color highlighter pen set with a portable ABS case.
+
+Use the attached cleaned_no_logo.png and white_background.png as the exact product reference. Preserve the real product structure, proportions, material, transparent gray handle, blue case body, and the five visible highlighter tips inside the case. Do not change the product into a different stationery item.
+
+Use LOGO-BK.png logo file and print it naturally on the printable front area of the main blue case in the hero image. The logo/imprint must include the visible words "YOUR LOGO" as shown in the logo file. If the product in the reference image has any logo, sample imprint, brand mark, watermark, QR code, manufacturer mark, platform mark, URL, or contact information, replace it with the logo from LOGO-BK.png, or with plain text "YOUR LOGO" without any extra graphic mark; do not show any original product logo pattern.
+
+Composition: clean premium white ecommerce layout, polished commercial studio lighting, strong visual hierarchy, balanced spacing. The main product should occupy about 80% of the image, with a large front-facing product as the dominant focus. Add a neat bottom row of six small product SKU thumbnails showing the verified case colors only: black, white, orange, pink, blue, and yellow. The bottom SKU thumbnails must show all six colors, without labels, without duplicates, and without inventing additional colors. Optional small circular inset images may show close-up marker tips or a simple usage detail, but do not use any dimension diagram.
+
+No Chinese characters. No price, currency symbols, discounts, sales text, QR codes, watermarks, supplier information, manufacturer names, websites, contact information, extra badges, extra titles, labels, size numbers, dimension lines, or promotional claims. Except for the logo/imprint text "YOUR LOGO" on the product, do not include any other text.
+
+The final image must look like a premium ASI/Amazon main product image, not a collage screenshot, not a casual photo, and not a low-quality mockup.

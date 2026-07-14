@@ -1,0 +1,7 @@
+Create a material and craftsmanship Amazon-style ecommerce poster image for a wooden desktop business card holder.
+
+Use the attached clean reference image as the only product source. The product geometry must match the reference exactly: a rectangular wooden block base with rounded front corners, FOUR vertical gold-tone wire posts inserted into the wood, and the same bent angular wire rails/holders as the reference. Do not simplify the wire into a single U-shape. Do not change the number of posts, wire bends, base shape, proportions, or color variants. Preserve the natural light wood and dark brown wood variants, visible wood grain, polished gold-tone metal wire, realistic shadows, and material texture.
+
+Design a professional, beautiful, high-converting Amazon-style ecommerce material/detail image with a clean premium layout, strong visual hierarchy, attractive lighting, polished commercial poster design, modern typography, balanced spacing, and close-up detail emphasis. Show the product plus close-up detail callouts of the wood grain and polished metal wire. Use short English text only: "Natural Wood Grain", "Polished Metal Wire", and "Compact Desktop Display". No other marketing claims.
+
+Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. No logo is required for this image. Do not invent unsupported details. Ratio 1:1.

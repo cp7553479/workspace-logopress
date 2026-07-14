@@ -1,0 +1,62 @@
+{
+  "product_number": "LP3105",
+  "new_hero_token": "UwLpbSThxor6GHxa45BcUjSVnwb",
+  "old_hero_token": "ZYKFbfojwoAwI2xhakwcBRcMnqb",
+  "reference_token_expected": "K8kYbImSSoKikixXN6mcKku2n3e",
+  "white_background_token_expected": "XhlPbKzzDolkgOxkgydc9bqlnXf",
+  "preserved_non_hero_tokens_expected": [
+    "ZAGdb4qMbo6kxOxBu2ec5fiSnHh",
+    "WFBBbEtb1oVko8xf2GycQln2nid",
+    "EdOtb6bXVoQ9a2xjoTGcueKNn9b",
+    "F2hlbyFW4oErJDxDyOTciltVnve"
+  ],
+  "readback": {
+    "reference_tokens": [
+      "K8kYbImSSoKikixXN6mcKku2n3e"
+    ],
+    "white_background_tokens": [
+      "XhlPbKzzDolkgOxkgydc9bqlnXf"
+    ],
+    "main_image_tokens": [
+      "ZAGdb4qMbo6kxOxBu2ec5fiSnHh",
+      "WFBBbEtb1oVko8xf2GycQln2nid",
+      "EdOtb6bXVoQ9a2xjoTGcueKNn9b",
+      "F2hlbyFW4oErJDxDyOTciltVnve",
+      "UwLpbSThxor6GHxa45BcUjSVnwb"
+    ],
+    "main_image_attachments": [
+      {
+        "file_token": "ZAGdb4qMbo6kxOxBu2ec5fiSnHh",
+        "name": "lifestyle_oracle_gpt.png",
+        "size": 2551599
+      },
+      {
+        "file_token": "WFBBbEtb1oVko8xf2GycQln2nid",
+        "name": "selling_point_oracle_gemini.png",
+        "size": 1648772
+      },
+      {
+        "file_token": "EdOtb6bXVoQ9a2xjoTGcueKNn9b",
+        "name": "material_detail_oracle_gpt.png",
+        "size": 3060100
+      },
+      {
+        "file_token": "F2hlbyFW4oErJDxDyOTciltVnve",
+        "name": "sku_color_oracle_gpt.png",
+        "size": 2146673
+      },
+      {
+        "file_token": "UwLpbSThxor6GHxa45BcUjSVnwb",
+        "name": "hero_main_oracle_gpt_regen.png",
+        "size": 2364782
+      }
+    ]
+  },
+  "checks": {
+    "new_hero_present": true,
+    "old_hero_absent": true,
+    "all_non_hero_preserved": true,
+    "reference_unchanged": true,
+    "white_background_unchanged": true
+  }
+}

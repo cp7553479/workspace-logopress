@@ -1,0 +1,9 @@
+clean_no_logo: Oracle ChatGPT browser, model request 5.5 Medium (resolved gpt-5.5 browser), source original_reference.jpeg, output outputs/LP7263_clean_no_logo.png
+white_background: Oracle Gemini browser, requested gemini-3.5-flash, source LP7263_clean_no_logo.png, output outputs/LP7263_white_background.png
+lifestyle_scene: Oracle ChatGPT browser, requested 5.5 Medium/resolved gpt-5.5, refs clean+white, output outputs/LP7263_lifestyle_scene.png
+selling_point: Oracle Gemini browser, requested gemini-3.5-flash, refs clean+white, output outputs/LP7263_selling_point.png
+dimension: Oracle ChatGPT browser, requested 5.5 Medium/resolved gpt-5.5, ref white background, output outputs/LP7263_dimension.png
+material_detail: Oracle Gemini browser, requested gemini-3.5-flash, refs clean+white, output outputs/LP7263_material_detail.png
+sku_colors_chatgpt: Oracle ChatGPT browser blocked/hung >15 minutes with repeated no-thinking-status waits; process 50120 terminated before fallback to Oracle Gemini.
+sku_colors: Oracle Gemini browser, requested gemini-3.5-flash after ChatGPT hang, refs clean+white, output outputs/LP7263_sku_colors.png
+hero_main: Oracle ChatGPT browser, requested 5.5 Medium/resolved gpt-5.5, refs clean+white+material+sku+LOGO-BK, output outputs/LP7263_hero_main.png

@@ -1,0 +1,1 @@
+Rejected LP3525_05_dimension_chart_oracle_gemini.png: dimensions labels were swapped; Length 12.8 inch appeared on vertical arrow and Width 9.88 inch appeared on horizontal arrow. Retrying through Oracle ChatGPT with stricter axis instructions.

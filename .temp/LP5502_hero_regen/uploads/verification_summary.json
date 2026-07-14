@@ -1,0 +1,21 @@
+{
+  "new_hero_present": true,
+  "old_hero_absent": true,
+  "non_hero_preserved": true,
+  "reference_unchanged": true,
+  "white_background_unchanged": true,
+  "main_tokens": [
+    "NDjkbxq6UoSkE5xzaLvckw3CnCd",
+    "GxSvb5lBfojlYuxY5nRczQ1dnQc",
+    "CrGNbk9d0o8GO1xRSMocZWXHnAg",
+    "By8jbbbfpodIWdx7lfXcOexmnbb",
+    "PULCblMNgowud0xgK58cjBgkn8N",
+    "BZAhbuSm9oIWmhx5Sf7cze4unrb"
+  ],
+  "reference_tokens": [
+    "WagUbwNb0ovzxKxK5pZc1kTbn2c"
+  ],
+  "white_background_tokens": [
+    "VfUfbbUGyofYh6xQ20sc3idfnug"
+  ]
+}

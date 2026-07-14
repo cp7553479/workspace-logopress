@@ -1,0 +1,9 @@
+## LP3424 clean no-logo reference
+
+Route policy: Oracle first. Attempt 1 uses Oracle Gemini browser route.
+
+Output target: outputs/LP3424_clean_no_logo.png
+
+Prompt:
+
+Create a clean no-logo product reference image from the attached source image. Preserve the exact real product design: the same square golf pouch bag, black nylon quilted texture, zipper positions, zipper pulls, mesh lower pocket, top clip and hook, proportions, front-facing angle, lighting, and white background. Remove every visible logo, sample logo, brand mark, imprint, manufacturer or platform mark, QR code, watermark, contact information, website URL, and unwanted printed text from the product and from the detail callouts. Specifically remove the "YOUR LOGO" sample imprint from the front pocket and remove any small "360" text from the hook callout while keeping the hook shape intact. Keep the blue and green color variants visible only if they already appear in the source image; do not invent new colors or styles. Do not add any text, labels, prices, badges, QR codes, watermarks, supplier information, manufacturer information, platform marks, contact information, or URLs. The final image must be a professional, beautiful, high-converting Amazon-style ecommerce product reference image with clean premium layout, strong visual hierarchy, attractive lighting, polished commercial poster design, and modern typography only where existing non-logo visual detail requires it; preferably no added text. Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English. Do not invent unsupported details. Ratio 1:1.

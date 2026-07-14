@@ -1,0 +1,3 @@
+Rejected WG7067_lifestyle_scene.png from Oracle Gemini.
+
+Reason: the bottom-right corner contains an extra sparkle/generated-image decorative mark. ASI workflow forbids extra decorative marks, badges, watermarks, and generated-image marks.

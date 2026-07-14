@@ -1,0 +1,10 @@
+codex-imagen: attached 2 reference image(s)
+codex-imagen: POST https://chatgpt.com/backend-api/codex/responses
+codex-imagen: model gpt-5.5
+codex-imagen: image model gpt-image-2
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:15845:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async requestImage (file:///Users/vincent/.openclaw/skills/generate-image/scripts/codex-imagen.mjs:2429:22)
+    at async requestImageWithRetries (file:///Users/vincent/.openclaw/skills/generate-image/scripts/codex-imagen.mjs:2509:22)
+    at async main (file:///Users/vincent/.openclaw/skills/generate-image/scripts/codex-imagen.mjs:2653:16)

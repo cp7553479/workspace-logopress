@@ -1,0 +1,474 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "1.2",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": [
+          {
+            "text": "Virtual Proof:FREE",
+            "type": "text"
+          }
+        ],
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": [
+          "opteYcXAGJ",
+          "optYPqktVq"
+        ],
+        "Currency": [
+          {
+            "text": "USD",
+            "type": "text"
+          }
+        ],
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": [
+          {
+            "text": "Our Portable Travel Plastic Protector Toothbrush Head Cover Cap is crafted from high-quality, durable plastic, designed to be lightweight, transparent, and washable. Each cover withstands daily use, maintaining clarity and functionality while adding style to bathroom essentials. It provides a hygienic barrier, protecting bristles from dust, bacteria, and contaminants. Measuring 1.77x1.77x1.06 inches, it fits most manual and electric toothbrushes, suitable for home, camping, school, travel, gym, and work. The breathable design with air holes keeps the toothbrush clean and safe on the go. Ideal for promotional events, wholesale, or bulk orders, these customizable covers can be branded with logos, making them perfect for businesses, travel enthusiasts, kids, and adults. Protect your toothbrush in style wherever life takes you.",
+            "type": "text"
+          }
+        ],
+        "Distributor_View_Only": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": [
+          {
+            "text": "Standard Colors",
+            "type": "text"
+          }
+        ],
+        "Imprint_Location": [
+          {
+            "text": "Centered on Front or as you request",
+            "type": "text"
+          }
+        ],
+        "Imprint_Method": [
+          "opt117377868",
+          "opt1785801388"
+        ],
+        "Imprint_Size": [
+          {
+            "text": "1\" x 1\" or custom size",
+            "type": "text"
+          }
+        ],
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": [
+          "opt1RD2XxY"
+        ],
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": [
+          {
+            "text": "China",
+            "type": "text"
+          }
+        ],
+        "P1": "0.38",
+        "P10": null,
+        "P2": "0.36",
+        "P3": "0.34",
+        "P4": "0.33075",
+        "P5": "0.31",
+        "P6": "0.3",
+        "P7": "0.2898",
+        "P8": "0.2835",
+        "P9": null,
+        "Packaging": [
+          "optp7Y2PWQ",
+          "optvoSJKKO",
+          "optOtKqStI"
+        ],
+        "Personalization": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Price_Includes": [
+          {
+            "text": "1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs",
+            "type": "text"
+          }
+        ],
+        "Price_Type": [
+          {
+            "text": "Net",
+            "type": "text"
+          }
+        ],
+        "Prod_Image": null,
+        "Product_Color": [
+          "optyoZVhWo",
+          "optpUMKzJ4",
+          "optd9k2xkR",
+          "optQ7IAyQX",
+          "optBDtLEW8",
+          "optjnKKQUW",
+          "optwup3G8e",
+          "optGu8rV7F",
+          "optyGaHfbp",
+          "optaS7rtmP"
+        ],
+        "Product_Name": [
+          {
+            "text": "Portable Travel Plastic Protector Toothbrush Head Cover Cap",
+            "type": "text"
+          }
+        ],
+        "Product_Number": [
+          {
+            "text": "LP3417",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": [
+          {
+            "text": "8:days",
+            "type": "text"
+          }
+        ],
+        "Q1": "300",
+        "Q10": null,
+        "Q2": "500",
+        "Q3": "1000",
+        "Q4": "2000",
+        "Q5": "5000",
+        "Q6": "10000",
+        "Q7": "20000",
+        "Q8": "50000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Rush_Time": [
+          {
+            "text": "5:days",
+            "type": "text"
+          }
+        ],
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": [
+          {
+            "text": "Length:20.47:in;Width:17.32:in;Height:12.6:in",
+            "type": "text"
+          }
+        ],
+        "Shipping_Items": [
+          {
+            "text": "1000:per Case",
+            "type": "text"
+          }
+        ],
+        "Shipping_Weight": [
+          {
+            "text": "33.07:lbs",
+            "type": "text"
+          }
+        ],
+        "Size_Group": [
+          {
+            "text": "Dimension",
+            "type": "text"
+          }
+        ],
+        "Size_Values": [
+          {
+            "text": "Length:1.77:in;Width:1.77:in;Height:1.06:in",
+            "type": "text"
+          }
+        ],
+        "Sold_Unimprinted": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Summary": [
+          {
+            "text": "Portable Travel Plastic Toothbrush Head Cover: Durable, lightweight, transparent, washable. Fits most toothbrushes. Ideal for travel, home, gym. Hygienic protection with breathable design.",
+            "type": "text"
+          }
+        ],
+        "Theme": [
+          "optRqRtuCw",
+          "optfO15YCd",
+          "optdHVqftR",
+          "opt2SPbBTR",
+          "optQQF8hG1"
+        ],
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG3462",
+        "XID": null,
+        "id": "3508",
+        "record_id": [
+          {
+            "text": "recuYsANVGuQs2",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary;Safety;Christmas;Grand Opening;Travel",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Tooth Brush Cover Cap,\r\nToothbrush Covers Case,\r\nHolders Travel Holder,\r\nSteripods Caps Steripod With,\r\nHead Antibacterial Electric,\r\nFor Traveling Set Protector,\r\nDental Pod Pods Estuche Para,\r\nCepillo De Dientes Guru Nanda,\r\nCepillos Toothbrushes Oral B,\r\nSpiderman 4 Pack Cases Clip,\r\nBlack Denture Sanitizer,\r\nBrushing And Porta Viaje,\r\nContainers Dr Tungs Labels,\r\nBroken Container Mspan,\r\nPlastic Silicone Bad Teeth,\r\nHeads Size Kids Lumineux Uv,\r\nFinger Adults Steri,\r\nProtectors Toothpaste,\r\nCleaning Mini Sonicare Needs,\r\nSmall Portacepillos 8 Covered,\r\nBathrooms Gum Sanitizing Box,\r\nFinds Anti-bacterial,\r\nBreathable Bag Air Holes,\r\nClip-on Brushes Cobertores",
+        "产品名称": "Portable Travel Plastic Protector Toothbrush Head Cover Cap",
+        "产品尺寸 宽(cm)": "4.5",
+        "产品尺寸 长(cm)": "4.5",
+        "产品尺寸 高(cm)": "2.7",
+        "产品材质": "Plastic",
+        "产品简称": null,
+        "产品类型": "Home \u0026 Garden",
+        "产品编号": "LP3417",
+        "产品重量(kg)": null,
+        "产品颜色": "blue; green; red; orange; purple; clear; pink; grey; light green; yellow",
+        "件数/箱": "1000",
+        "分类": "Cases-Toothbrush;Covers-General",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "NeGNbw2q6o3mt9xM7yEcFtGInFb",
+            "name": "LP3417_clean_no_logo.png",
+            "size": 1279948,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=NeGNbw2q6o3mt9xM7yEcFtGInFb\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/NeGNbw2q6o3mt9xM7yEcFtGInFb/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D"
+          }
+        ],
+        "商品主图": [
+          {
+            "file_token": "JfjfbSlYZo2uCJxf8r7cXhcRnch",
+            "name": "LP3417_lifestyle_travel.png",
+            "size": 1460443,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=JfjfbSlYZo2uCJxf8r7cXhcRnch\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/JfjfbSlYZo2uCJxf8r7cXhcRnch/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D"
+          },
+          {
+            "file_token": "BA0tbme2YokzGnxYPyccDYFEnyg",
+            "name": "LP3417_selling_point_hygiene.png",
+            "size": 1901923,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=BA0tbme2YokzGnxYPyccDYFEnyg\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/BA0tbme2YokzGnxYPyccDYFEnyg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D"
+          },
+          {
+            "file_token": "BP72bSVFios6v4xxcegcg3EOn9e",
+            "name": "LP3417_dimensions.png",
+            "size": 913181,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=BP72bSVFios6v4xxcegcg3EOn9e\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/BP72bSVFios6v4xxcegcg3EOn9e/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D"
+          },
+          {
+            "file_token": "Xwh2bITTuoExA8xTEozcl2bCnUf",
+            "name": "LP3417_material_detail.png",
+            "size": 1065797,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=Xwh2bITTuoExA8xTEozcl2bCnUf\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/Xwh2bITTuoExA8xTEozcl2bCnUf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D"
+          },
+          {
+            "file_token": "SXZ3bme3noBhnix4dPGcnxL0njd",
+            "name": "LP3417_sku_chart_01.png",
+            "size": 1125801,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=SXZ3bme3noBhnix4dPGcnxL0njd\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/SXZ3bme3noBhnix4dPGcnxL0njd/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D"
+          },
+          {
+            "file_token": "U8HMb3tgJohXH2xC6XPcN7oOnDg",
+            "name": "LP3417_sku_chart_02.png",
+            "size": 1262619,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=U8HMb3tgJohXH2xC6XPcN7oOnDg\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/U8HMb3tgJohXH2xC6XPcN7oOnDg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D"
+          },
+          {
+            "file_token": "Tao3b0cc5oNMItxGcgwcBRKRn7g",
+            "name": "LP3417_hero_main.png",
+            "size": 1558978,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=Tao3b0cc5oNMItxGcgwcBRKRn7g\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/Tao3b0cc5oNMItxGcgwcBRKRn7g/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D"
+          }
+        ],
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "[]",
+        "完整描述": "Our travel toothbrush head covers are made of high-quality, durable plastic and are designed to be lightweight, transparent, and washable. Each cover is carefully crafted to withstand daily use while maintaining its clarity and functionality. Not only do they protect your toothbrush, but they also add a touch of style to your bathroom essentials. They are easy to use and provide a hygienic barrier between your toothbrush and the environment, protecting the bristles from dust, bacteria, and other contaminants. Each cover measures 1.77x 1.77 x 1.06 inches and fits most manual and electric toothbrushes. They are suitable for a variety of environments, including home, camping, school, travel, gym, and work. The breathable box allows you to keep your toothbrush clean and safe wherever you go.",
+        "来源(1688)": "https://detail.1688.com/offer/805902674237.html?spm=a2639h.29135425.offerlist.i0\u0026source=action%23offerItem%3Borigin%23espweb.asicentral.com",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": [
+          {
+            "file_token": "OLEVbl392oP2JJxccnQcDW6UnA7",
+            "name": "LP3417_white_background_retry.png",
+            "size": 1283552,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=OLEVbl392oP2JJxccnQcDW6UnA7\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/OLEVbl392oP2JJxccnQcDW6UnA7/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5022%7D%7D"
+          }
+        ],
+        "简要说明": "These durable travel toothbrush head covers are designed to keep your toothbrush protected on the go. Rush service is available.",
+        "箱子尺寸 宽(cm)": "44",
+        "箱子尺寸 长(cm)": "52",
+        "箱子尺寸 高(cm)": "32",
+        "货代大货参考定价基准（30%毛利）": 0.33,
+        "货代大货起订量标准": 1000,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "15"
+      },
+      "id": "recuYsANVGuQs2",
+      "record_id": "recuYsANVGuQs2"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

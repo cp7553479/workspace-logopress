@@ -1,0 +1,9 @@
+Rejected output: outputs/WG7072_scene_gym_lifestyle_v2.png
+Reason:
+- Still includes a decorative star-like mark at lower right, violating no watermark / no extra mark constraints.
+- Changes the product magnetic strip into exposed round discs, which is not consistent with the clean product reference.
+
+Route decision:
+- Oracle ChatGPT image route is blocked by fetch/download failures, documented in logs/01_clean_no_logo_oracle_chatgpt_failure.txt and logs/02_white_background_oracle_chatgpt_failure.txt.
+- Oracle Gemini generated two rejected scene images.
+- Codex image generation fallback is allowed for this scene image.

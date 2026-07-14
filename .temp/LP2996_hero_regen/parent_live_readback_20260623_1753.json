@@ -1,0 +1,73 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP2996",
+        [
+          {
+            "file_token": "VOQwbodHUomdsAxr4ABcJ6MYnbf",
+            "name": "LP2996_clean_reference.png",
+            "size": 2044899
+          }
+        ],
+        [
+          {
+            "file_token": "G6BCbuWHKoHH7Nx200schypfn2e",
+            "name": "LP2996_white_bg.png",
+            "size": 1274945
+          }
+        ],
+        [
+          {
+            "file_token": "FvfJbcjUKo9kM4xBN5mcZXK6nHb",
+            "name": "LP2996_sku_chart.png",
+            "size": 957092
+          },
+          {
+            "file_token": "MOB4bKHa6okN53xKZB5cWhHHnHg",
+            "name": "LP2996_dimension.png",
+            "size": 921054
+          },
+          {
+            "file_token": "WdYpblbGWoWQ4RxPsNnccgRenyf",
+            "name": "LP2996_material_detail.png",
+            "size": 2154567
+          },
+          {
+            "file_token": "OGA1bdSiIofAe4xurHOc04u3nxb",
+            "name": "LP2996_selling_point.png",
+            "size": 2764316
+          },
+          {
+            "file_token": "Ur1zb96Zeo0TB7xCsPncRYNZn8g",
+            "name": "LP2996_lifestyle_scene.png",
+            "size": 2454632
+          },
+          {
+            "file_token": "SQEPbkhKcoTAHex4L2icsBF1nSc",
+            "name": "LP2996_hero_main_attempt01_chatgpt.png",
+            "size": 1892273
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "产品编号",
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsACVI67WY"
+    ]
+  }
+}

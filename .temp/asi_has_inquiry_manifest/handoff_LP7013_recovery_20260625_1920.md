@@ -1,0 +1,39 @@
+# ASI LP7013 Recovery Handoff
+
+You are assigned exactly one ASI product-image recovery job for `商品表`.
+
+Mandatory governing workflow:
+- You must read and use `/Users/vincent/.openclaw/workspace-logopress/skills/asi-product-image-generator/SKILL.md` before acting.
+- You must follow `.temp/asi_has_inquiry_manifest/worker_instructions.md`.
+- Treat the `asi-product-image-generator` skill as the governing ASI套图/image workflow for image type decisions, acceptance/rejection, prompt constraints, upload/readback, and final reporting.
+
+Product:
+- 产品编号: `LP7013`
+- record_id: `recv6hAEbSH3qc`
+- Base token: `SF9ibzjI4a0YFJsDZtKcLvtbnfh`
+- Table ID: `tbl3KNB7zP8EQ1d0`
+- Workspace: `.temp/LP7013_asi_recv6hAEbSH3qc`
+
+Why recovery is needed:
+- Previous child session `agent:global-trading-product:subagent:d62f4a54-6578-439f-ab8d-bbba79d9cd26` / run `04f372f9-3875-450c-beed-5fa9abdb121f` timed out.
+- Parent live-check found no active subagent.
+- Local workspace contains completed reference/white-background and 4 uploaded main images, but no final report or complete final readback.
+- Latest parent readback `.temp/asi_has_inquiry_manifest/live_record_LP7013_parent_raw_20260625_191922.json` shows:
+  - `参考图片`: `LP7013_01_clean_no_logo_oracle_chatgpt.png`
+  - `白底图`: `LP7013_02_white_background_oracle_gemini.png`
+  - `商品主图`: 4 images already uploaded: SKU chart, dimension, material detail, lifestyle retry.
+- The previous hero retry route disconnected:
+  - `.temp/LP7013_asi_recv6hAEbSH3qc/rejections/07b_hero_main_retry_oracle_chatgpt.log`
+  - `.temp/LP7013_asi_recv6hAEbSH3qc/rejections/07b_hero_main_retry_oracle_chatgpt_harvest.log`
+
+Do exactly this:
+1. Re-open the workspace and verify existing files/readbacks/uploads.
+2. Do not remove the 4 already-uploaded accepted `商品主图` images unless you find concrete evidence they are invalid.
+3. Generate or recover only the missing valid hero main image for LP7013, using current product references and ASI skill rules.
+4. Use Oracle first. Within Oracle, prefer ChatGPT recovery/reattach/harvest if possible; otherwise use Oracle Gemini. Use non-image-CLI Codex image generation only if Oracle ChatGPT and Gemini are both blocked or rejected with concrete evidence. Do not use image CLI.
+5. Upload the accepted hero to `商品主图`, preserving existing accepted main-image attachments.
+6. Perform a fresh `lark-cli base +record-get --format json` readback and save it in the workspace/readbacks.
+7. Final answer must include product number, record id, accepted output path(s), upload token(s), final readback path, skipped/rejected notes, and whether the parent should send the hero image only or all final images.
+
+Parent delivery:
+- Native subagents cannot reliably send Feishu messages. Return absolute/local output paths for the parent to send.

@@ -1,0 +1,304 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "11",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": null,
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": null,
+        "Currency": null,
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": null,
+        "Distributor_View_Only": null,
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": null,
+        "Imprint_Location": null,
+        "Imprint_Method": null,
+        "Imprint_Size": null,
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": null,
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": null,
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": null,
+        "P1": "2.904",
+        "P10": null,
+        "P2": "2.8512",
+        "P3": "2.7984",
+        "P4": "2.772",
+        "P5": "2.508",
+        "P6": "2.4552",
+        "P7": "2.4288",
+        "P8": "2.376",
+        "P9": null,
+        "Packaging": null,
+        "Personalization": null,
+        "Price_Includes": null,
+        "Price_Type": null,
+        "Prod_Image": null,
+        "Product_Color": null,
+        "Product_Name": null,
+        "Product_Number": [
+          {
+            "text": "LP7244",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": null,
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": null,
+        "Q1": "200",
+        "Q10": null,
+        "Q2": "500",
+        "Q3": "1000",
+        "Q4": "2000",
+        "Q5": "5000",
+        "Q6": "10000",
+        "Q7": "20000",
+        "Q8": "50000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": null,
+        "Rush_Time": null,
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": null,
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": null,
+        "Shipping_Items": null,
+        "Shipping_Weight": null,
+        "Size_Group": null,
+        "Size_Values": null,
+        "Sold_Unimprinted": null,
+        "Summary": null,
+        "Theme": null,
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG8574",
+        "XID": null,
+        "id": "7321",
+        "record_id": [
+          {
+            "text": "recvcuSN91rpv1",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary,Medical,Education,Employee Recognition,Non-Profit",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Nurse Badge Reel,\r\nMedical Assistant Accessories,\r\nCna For Work Buddy Nursing,\r\nGifts Mini Sharpie School,\r\nSupplies Essentials Student,\r\nPink Hello Kitty Pediatric,\r\nPen Light Set Reels Keychain,\r\nNurses Emt Healthcare Pens,\r\nPct Lpn And Highlighters Lord,\r\nHave Mrsa Respiratory Lights,\r\nCute Lanyard Disney Clip Icu,\r\nTherapist New Grad Oncology,\r\nBuddies Sharpies Registered,\r\nShaker Patient Care,\r\nTechnician Lvn Bag Badges,\r\nMust Haves Cart Rn Night,\r\nShift Radiology Tech Bundle,\r\nHospital Gift Retractable,\r\nHolder In The Making Clinical,\r\nSonography Spongebob Physical,\r\nTherapy Desk Er Labor,\r\nDelivery Pediatrics,\r\nPhlebotomy Ot Card Permanent,\r\nMarkers Cma Stuff",
+        "产品名称": "6 pcs nurse pen set with LED flashlight scissors markers",
+        "产品尺寸 宽(cm)": "12",
+        "产品尺寸 长(cm)": "18",
+        "产品尺寸 高(cm)": "0",
+        "产品材质": "ABS",
+        "产品简称": null,
+        "产品类型": "Writing Instruments",
+        "产品编号": "LP7244",
+        "产品重量(kg)": null,
+        "产品颜色": "Black, pink, purple, blue, green, silver, orange, red",
+        "件数/箱": "300",
+        "分类": "Pens-Ballpoint-With Light,PEN \u0026 PENCIL SETS",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "MokvbhMXNo6wHExTYswcHyZRnxg",
+            "name": "clean_no_logo_oracle_chatgpt.png",
+            "size": 1368084,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=MokvbhMXNo6wHExTYswcHyZRnxg\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/MokvbhMXNo6wHExTYswcHyZRnxg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+          }
+        ],
+        "商品主图": [
+          {
+            "file_token": "UJ7EbzgGgouivlxUikDc1joKn6C",
+            "name": "hero_retry_oracle_chatgpt.png",
+            "size": 1486636,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=UJ7EbzgGgouivlxUikDc1joKn6C\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/UJ7EbzgGgouivlxUikDc1joKn6C/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+          },
+          {
+            "file_token": "YoU9bVMKborNH0x17oSci7oLn5g",
+            "name": "lifestyle_scene_oracle_chatgpt.png",
+            "size": 2235482,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=YoU9bVMKborNH0x17oSci7oLn5g\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/YoU9bVMKborNH0x17oSci7oLn5g/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+          },
+          {
+            "file_token": "MWVrb5zgRorKU0xuM3XcttZPn4f",
+            "name": "sku_chart_oracle_gemini.png",
+            "size": 1109596,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=MWVrb5zgRorKU0xuM3XcttZPn4f\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/MWVrb5zgRorKU0xuM3XcttZPn4f/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+          },
+          {
+            "file_token": "JJBAb2eOfoUUDjxdmYwchV7an8g",
+            "name": "material_detail_oracle_chatgpt.png",
+            "size": 1408540,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=JJBAb2eOfoUUDjxdmYwchV7an8g\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/JJBAb2eOfoUUDjxdmYwchV7an8g/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+          },
+          {
+            "file_token": "OXyAbya6MofSUrxxhi3cqMtGnDf",
+            "name": "dimension_retry_oracle_chatgpt.png",
+            "size": 1065351,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=OXyAbya6MofSUrxxhi3cqMtGnDf\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/OXyAbya6MofSUrxxhi3cqMtGnDf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+          }
+        ],
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "护士节-带手电筒可折叠剪刀6件套圆珠笔套装",
+        "完整描述": "Our nurse pen set includes 1 permanent marker pen, 1 pen light for nurses, 1 extendable ballpoint pen, 1 keychain clip, 1 foldable scissors, and an LED flashlight keychain. The compact design aids with portability and precision, catering to the diverse needs of any professional. With the keychain clip provided, you can attach the pens to your work lanyard or belt loop, ensuring your essentials never go missing. The sturdy alloy material of the keychain clip additionally ensures secure attachment. This set of nurse pens serves as an ideal gift for various occasions like birthdays, parties, and holidays. They are versatile and can also be applied for prize boxes. Show your support to your loved ones who are professionals with this thoughtful gift.",
+        "来源(1688)": "https://detail.1688.com/offer/839657695691.html?spm=a26352.b28411319/2508.0.0",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": [
+          {
+            "file_token": "AXIubcnf2oN2K3xMKvgc0PYlnzc",
+            "name": "white_background_oracle_gemini.png",
+            "size": 1058781,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=AXIubcnf2oN2K3xMKvgc0PYlnzc\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/AXIubcnf2oN2K3xMKvgc0PYlnzc/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5119%7D%7D"
+          }
+        ],
+        "简要说明": "Celebrate Nurses Day with this all-in-one portable pen set, perfect for gifting and professional use. Rush service is available.",
+        "箱子尺寸 宽(cm)": "36",
+        "箱子尺寸 长(cm)": "43",
+        "箱子尺寸 高(cm)": "31",
+        "货代大货参考定价基准（30%毛利）": 2.62,
+        "货代大货起订量标准": 205,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "22"
+      },
+      "id": "recvcuSN91rpv1",
+      "record_id": "recvcuSN91rpv1"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsANVGfr3v": {
+        "fldr9B4JZT": [
+          {
+            "file_token": "Sb9ibK6H4oIIdexEByyc4wsMnth",
+            "name": "20238887211759574950488.jpeg",
+            "size": 114276
+          },
+          {
+            "file_token": "NVlXbvmkToMj6lxr8rTckE8JnLd",
+            "name": "LP3445_clean_no_logo.png",
+            "size": 1105061
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

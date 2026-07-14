@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "downloaded": [
+      {
+        "content_type": "image/png",
+        "field_id": "fldr9B4JZT",
+        "file_token": "BNJlbTwuwoPkwcxS1LicwFoMngb",
+        "name": "clean_reference_chatgpt.png",
+        "record_id": "recuYsACVIDm7w",
+        "saved_path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP3070_hero_regen/references/reference_BNJlbTwuwoPkwcxS1LicwFoMngb.png",
+        "size": 2005371,
+        "size_bytes": 2005371
+      }
+    ]
+  }
+}

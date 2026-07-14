@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "downloaded": [
+      {
+        "content_type": "image/png",
+        "field_id": "fldr9B4JZT",
+        "file_token": "CFRsbCAiro2GtexivMdc7liBnPh",
+        "name": "LP3273_reference_clean.png",
+        "record_id": "recuYsACVILy3b",
+        "saved_path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP3273_hero_regen/references/clean_reference.png",
+        "size": 1301652,
+        "size_bytes": 1301652
+      }
+    ]
+  }
+}

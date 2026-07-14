@@ -1,0 +1,20 @@
+🧿 oracle 0.14.0 — Pride Month: more color on the streets, less red in CI.
+Using Gemini web client for browser automation
+Browser model strategy is ignored for Gemini web runs.
+Session: wg7067-scene-strict
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session wg7067-scene-strict
+Launching browser mode (gemini-3.5-flash) with ~273 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Model selection evidence: requested=gemini-3.5-flash; resolved=(unavailable); status=unavailable; strategy=current; verified=no.
+Answer:
+http://googleusercontent.com/image_generation_content/292
+
+
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/WG7067_asi_recv9nhU57zZXK/outputs/WG7067_lifestyle_scene_strict.png*
+
+40.6s · gemini-3.5-flash[browser] · ↑273 ↓15 ↻0 Δ288
+files=2

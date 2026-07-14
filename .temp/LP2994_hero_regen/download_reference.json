@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "downloaded": [
+      {
+        "content_type": "image/jpeg",
+        "field_id": "fldr9B4JZT",
+        "file_token": "RX4KbDWBnosANpxC3kVcIOX9nWh",
+        "name": "2507902661759573795220.jpeg",
+        "record_id": "recuYsACVI4xsE",
+        "saved_path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP2994_hero_regen/references/reference_RX4KbDWBnosANpxC3kVcIOX9nWh.png",
+        "size": 133102,
+        "size_bytes": 133102
+      }
+    ]
+  }
+}

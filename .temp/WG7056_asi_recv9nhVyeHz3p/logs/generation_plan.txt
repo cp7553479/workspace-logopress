@@ -1,0 +1,5 @@
+Plan:
+1 clean no-logo reference: done/uploaded/read back
+2 white background: done/uploaded/read back
+3 generate ASI suite: lifestyle, selling point, material detail, SKU sheets, hero
+4 upload accepted suite images to 商品主图 and read back

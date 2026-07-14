@@ -1,0 +1,7 @@
+Create a white-background ecommerce product image for the exact product in the reference image: a silver / bright silver stainless steel double-wall party camp beer drinking cup with a hammered wavy texture.
+
+Use the reference image as the strict product source. Product must be 100% identical to reference in all details: cup silhouette, tapered shape, rounded rim, stainless steel brushed texture, hammered wavy surface pattern, proportions, color, material, and shadows. Do not redesign the product and do not add handles, lids, straws, accessories, liquid, condensation, props, packaging, or extra variants.
+
+Output a professional, beautiful, high-converting Amazon-style ecommerce image with a pure white background, clean premium layout, attractive studio lighting, natural soft shadow, balanced spacing, and polished commercial product photography. The product should be centered and large, with enough white margin for a marketplace main image.
+
+Remove any existing logo, sample logo, brand mark, imprint, manufacturer/platform mark, QR code, watermark, contact information, and URL from the product. No QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no extra logos, no price info. No Chinese. Do not invent unsupported details. Ratio 1:1.

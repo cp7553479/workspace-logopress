@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuLidwV8VIp7": {
+        "fldn5dP24T": [
+          {
+            "file_token": "RFMAbxPOYoQJsZxpeDccXsGUnFb",
+            "name": "01.jpg",
+            "size": 640645
+          },
+          {
+            "file_token": "WEoJbtKIfoK41IxWsmXclWiDnvh",
+            "name": "02.jpg",
+            "size": 252904
+          },
+          {
+            "file_token": "AUqqbtHifo7C7Cxi67CcgIbenKc",
+            "name": "03.jpg",
+            "size": 410656
+          },
+          {
+            "file_token": "TpvVbM3QaoCXc9xjjdnc6BLen9d",
+            "name": "04.jpg",
+            "size": 445431
+          },
+          {
+            "file_token": "ChETbObufoveVvx7uy4cZidYnje",
+            "name": "05.jpg",
+            "size": 539046
+          },
+          {
+            "file_token": "GClvbFlvjoaa7axrMvach6IunSb",
+            "name": "LP0022_dimension_infographic.png",
+            "size": 993890
+          },
+          {
+            "file_token": "ROjqbWOJioiuTAx1ipLcb43unpc",
+            "name": "LP0022_material_detail_retry.png",
+            "size": 1269933
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

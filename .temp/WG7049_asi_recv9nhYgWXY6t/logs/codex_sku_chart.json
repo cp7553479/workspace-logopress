@@ -1,0 +1,37 @@
+{
+  "request_id": "f5ac8d6a-d628-46d9-a2ee-c19772fde1b9",
+  "session_id": "d0e35c91-e3d0-49a3-9eea-d99048d3bf7d",
+  "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "imageModel": "gpt-image-2",
+  "image_count": 1,
+  "imageCount": 1,
+  "images": [
+    {
+      "path": "/Users/vincent/.openclaw/workspace-logopress/.temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_sku_chart.png",
+      "decodedPath": "/Users/vincent/.openclaw/workspace-logopress/.temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_sku_chart.png",
+      "bytes": 2133049,
+      "sha256": "d00d1c29a2cde299835836df0e9539a46e9c842c121d1af1a8250d980843fe4d",
+      "call_id": "ig_0a292bba47129bfa016a3b9d67a968819b996e76a4a0fb77ae",
+      "status": "generating",
+      "partial": false,
+      "revised_prompt": "Create a 1:1 square professional Amazon-style ecommerce SKU color chart poster on a pure white background for a long woven polyester resistance band. Use the attached product references as the exact guide for the product: a wide flat woven fabric resistance band rolled into a neat coil with a short curved outer tail, soft fabric edges, thick textile strap, detailed knitted/woven texture, subtle stitching-like edge ridges, rounded roll, commercial product photography lighting and soft shadows. \n\nDesign a clean premium 9-item layout with balanced spacing and no visible grid lines: three rows by three columns, each item showing the same rolled band shape and proportions, identical perspective and texture, only the fabric color changes. Supported colors exactly: Light Pink, Light Purple, Dark Purple, Green, Pink, Purple, Light Gray, Dark Gray, Black. Do not add any other colors.\n\nPlace a small English color label below each product in a consistent position, modern clean sans-serif typography, dark gray text. Labels must read exactly: Light Pink, Light Purple, Dark Purple, Green, Pink, Purple, Light Gray, Dark Gray, Black. \n\nPremium polished commercial poster design, attractive soft studio lighting, crisp fabric texture, realistic soft shadows, high-converting ecommerce SKU chart. No logo on products. No Chinese text, no QR codes, no watermarks, no manufacturer/supplier/platform marks, no contact info, no website URLs, no price information. Product must remain identical in shape, woven texture, soft fabric edges, thickness, and proportions to reference; change only color. Ratio 1:1."
+    }
+  ],
+  "seen_event_types": [
+    "response.created",
+    "response.in_progress",
+    "response.output_item.added",
+    "response.image_generation_call.in_progress",
+    "response.image_generation_call.generating",
+    "keepalive",
+    "response.image_generation_call.partial_image",
+    "response.output_item.done",
+    "response.content_part.added",
+    "response.output_text.done",
+    "response.content_part.done",
+    "response.completed"
+  ],
+  "timed_out": false
+}

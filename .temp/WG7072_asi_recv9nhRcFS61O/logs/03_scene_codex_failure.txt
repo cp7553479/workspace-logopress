@@ -1,0 +1,10 @@
+Route: Codex image generation
+Task: Generate accepted scene image after Oracle ChatGPT blocked and Oracle Gemini scene outputs rejected
+Input references:
+- outputs/WG7072_clean_no_logo.png
+- outputs/WG7072_white_background.png
+Intended output: outputs/WG7072_scene_gym_lifestyle_codex.png
+Result: blocked
+Evidence:
+codex-imagen exited with:
+"Error: Refresh token was rejected. Sign in again with Codex or OpenClaw OAuth."

@@ -1,0 +1,5 @@
+Error: Refresh token was rejected. Sign in again with Codex or OpenClaw OAuth.
+    at refreshAuthUnlocked (file:///Users/vincent/.openclaw/skills/generate-image/scripts/codex-imagen.mjs:1657:11)
+    at async prepareAuthAtPath (file:///Users/vincent/.openclaw/skills/generate-image/scripts/codex-imagen.mjs:1794:17)
+    at async prepareAuth (file:///Users/vincent/.openclaw/skills/generate-image/scripts/codex-imagen.mjs:1811:24)
+    at async main (file:///Users/vincent/.openclaw/skills/generate-image/scripts/codex-imagen.mjs:2611:27)

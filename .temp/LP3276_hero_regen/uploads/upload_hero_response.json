@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsACVIydom": {
+        "fldn5dP24T": [
+          {
+            "file_token": "LUz5b5hmgokEQ8xDMJ2czjhdnRh",
+            "name": "asi_hero_main_oracle_gemini35_flash_retry.png",
+            "size": 1096081
+          },
+          {
+            "file_token": "I12RbzJaboGFBAxnnwEcgn2Ln3f",
+            "name": "LP3276_asi_hero_oracle_gpt55_medium.png",
+            "size": 1685537
+          }
+        ]
+      }
+    }
+  }
+}

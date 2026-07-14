@@ -1,0 +1,1 @@
+Rejected LP3523_lifestyle_scene.png from Oracle Gemini retry: visible star-like watermark/mark at bottom right; violates no watermarks rule. ChatGPT attempt failed with file fetch failed/no images generated. Switching this image to Codex route is permitted by worker route policy.

@@ -1,0 +1,398 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "28",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": [
+          {
+            "text": "Virtual Proof:FREE",
+            "type": "text"
+          }
+        ],
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": [
+          "opthEQPmIm",
+          "optJgh8YQx"
+        ],
+        "Currency": [
+          {
+            "text": "USD",
+            "type": "text"
+          }
+        ],
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": [
+          {
+            "text": "Introducing our premium 304 Stainless Steel Double-Layer Cold-Resistant Beer Barrel, ideal for beer enthusiasts and outdoor gatherings. Crafted from durable 304 stainless steel, it resists rust and ensures long-lasting use. The double-layer insulation keeps beer cold for extended periods, perfect for hot days, picnics, camping, or backyard barbecues. Portable and lightweight, it’s easy to transport, while the sleek design adds style to parties or entertainment. Eco-friendly and sustainable, it’s easy to clean—rinse with water or mild detergent. Great for homebrewers, travelers, anniversary, or collegiate events. Customizable options make it a top promotional item or personalized gift for dad, friends, or beer lovers. Trust its insulating power to keep stouts, bourbons, or root beers icy cold, ensuring refreshing sips. A must-have for those valuing quality, portability, and style in beverage accessories.",
+            "type": "text"
+          }
+        ],
+        "Distributor_View_Only": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": [
+          {
+            "text": "Standard Colors",
+            "type": "text"
+          }
+        ],
+        "Imprint_Location": [
+          {
+            "text": "Centered on Front or as you request",
+            "type": "text"
+          }
+        ],
+        "Imprint_Method": [
+          "opt117377868",
+          "opt1785801388"
+        ],
+        "Imprint_Size": [
+          {
+            "text": "1\" x 1\" or custom size",
+            "type": "text"
+          }
+        ],
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": [
+          "optsf93hMn"
+        ],
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": [
+          {
+            "text": "China",
+            "type": "text"
+          }
+        ],
+        "P1": "9.67",
+        "P10": null,
+        "P2": "9.49531062857143",
+        "P3": "9.31947154285714",
+        "P4": "9.23155199999999",
+        "P5": "8.35235657142857",
+        "P6": "8.17651748571428",
+        "P7": "8.08859794285714",
+        "P8": "7.91275885714285",
+        "P9": null,
+        "Packaging": [
+          "optp7Y2PWQ",
+          "optkUxW5wQ",
+          "optvoSJKKO",
+          "optOtKqStI"
+        ],
+        "Personalization": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Price_Includes": [
+          {
+            "text": "1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs",
+            "type": "text"
+          }
+        ],
+        "Price_Type": [
+          {
+            "text": "Net",
+            "type": "text"
+          }
+        ],
+        "Prod_Image": null,
+        "Product_Color": [
+          "optR6sL2vt"
+        ],
+        "Product_Name": [
+          {
+            "text": "304 Stainless Steel Double-Layer Cold-Resistant Beer Barrel",
+            "type": "text"
+          }
+        ],
+        "Product_Number": [
+          {
+            "text": "LP3446",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": [
+          {
+            "text": "8:days",
+            "type": "text"
+          }
+        ],
+        "Q1": "50",
+        "Q10": null,
+        "Q2": "100",
+        "Q3": "200",
+        "Q4": "500",
+        "Q5": "1000",
+        "Q6": "2000",
+        "Q7": "5000",
+        "Q8": "10000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Rush_Time": [
+          {
+            "text": "5:days",
+            "type": "text"
+          }
+        ],
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": [
+          {
+            "text": "Length:22.83:in;Width:18.9:in;Height:10.24:in",
+            "type": "text"
+          }
+        ],
+        "Shipping_Items": [
+          {
+            "text": "20:per Case",
+            "type": "text"
+          }
+        ],
+        "Shipping_Weight": [
+          {
+            "text": "17.64:lbs",
+            "type": "text"
+          }
+        ],
+        "Size_Group": [
+          {
+            "text": "Dimension",
+            "type": "text"
+          }
+        ],
+        "Size_Values": [
+          {
+            "text": "Length:1.77:in;Width:3.46:in;Height:8.86:in",
+            "type": "text"
+          }
+        ],
+        "Sold_Unimprinted": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Summary": [
+          {
+            "text": "Premium 304 Stainless Steel Double-Layer Cold-Resistant Beer Barrel: durable, insulated, portable for picnics/camping. Customizable, eco-friendly, keeps beer cold—ideal for beer lovers, gifts, events.",
+            "type": "text"
+          }
+        ],
+        "Theme": [
+          "optRqRtuCw",
+          "optQQF8hG1",
+          "optJA5J9m0"
+        ],
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG3503",
+        "XID": null,
+        "id": "3535",
+        "record_id": [
+          {
+            "text": "recuYsANVGMApc",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary\nCollegiate\nSustainable\nTravel\nEntertainment",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Root Beer Barrels Hard,\r\nCandy Dads Sugar Free Dad's,\r\nBarrel Polka Dispenser Syrup,\r\nBourbon Stout 5lb Dad A\u0026w,\r\nBottle Opener Bottles Koozie,\r\nCaps Costume Cooler For Home,\r\nBrewing And Can With Kong,\r\nKoozies Chiller Sticks,\r\nPlastic Capper Keychain Mini,\r\nBrush Magnetic 12 Oz Labels,\r\nFake Empty Golf Tees Lime,\r\nSqueezer Glass Clear Cans,\r\nFridge 22 Insulator Keeper,\r\nBeverage Dog Toy Easy Cap,\r\nDrying Rack Coozie Coolers,\r\nFiller Holder Stainless Steel,\r\nEz Refrigerator Tree Yeti,\r\nCoozies Magnet Hanger Wall,\r\nMount 6 Pack Caddy Savers,\r\nStopper Insulated Storage,\r\nPersonalized Sleeves Puzzle,\r\nCovers Sleeve Wooden Openers,\r\nThermos Carrier 22oz Chillers,\r\nAutomatic Pirate \u0026 Wine Thor",
+        "产品名称": "304 stainless steel double-layer cold-resistant beer barrel",
+        "产品尺寸 宽(cm)": "8.8",
+        "产品尺寸 长(cm)": "4.5",
+        "产品尺寸 高(cm)": "22.5",
+        "产品材质": "Stainless Steel",
+        "产品简称": null,
+        "产品类型": "Kitchen \u0026 Dining",
+        "产品编号": "LP3446",
+        "产品重量(kg)": null,
+        "产品颜色": "silver",
+        "件数/箱": "20",
+        "分类": "WINE ACCESSORIES\nGlasses-Drinking-Beer Jars",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "QD3jbrYepoqbPixfjXBcm1wxnIm",
+            "name": "LP3446_clean_no_logo.png",
+            "size": 1323011,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=QD3jbrYepoqbPixfjXBcm1wxnIm\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5077%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/QD3jbrYepoqbPixfjXBcm1wxnIm/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5077%7D%7D"
+          }
+        ],
+        "商品主图": null,
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "[\"酒杯/酒具\"]",
+        "完整描述": "Our 304 Stainless Steel Beer Bottle is the perfect companion for beer lovers. This high-quality beer bottle is made of durable 304 stainless steel to ensure long-lasting use. The double-wall insulated design keeps your beer colder for longer, so you can enjoy a refreshing drink even on hot days. Whether you take it to a picnic, party, or camping, you can trust that this beer bottle will keep your beer safe and sound. The stylish design of this beer bottle makes it a great addition to any party. The stainless steel construction is easy to clean and maintain. Simply rinse it with water or use a mild detergent to keep it looking like new. Whether you are a home brewer or just enjoy an ice-cold beer occasionally, our beer bottle is a must-have. Buy it today and enjoy your favorite beer.",
+        "来源(1688)": "https://detail.1688.com/offer/547768242840.html?spm=a26352.b28411319.offerlist.18.77991e62SW0Lzt",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": null,
+        "简要说明": "Our beer flask is a durable and stylish choice for beer lovers to enjoy a great drinking experience.Rush service is available.",
+        "箱子尺寸 宽(cm)": "48",
+        "箱子尺寸 长(cm)": "58",
+        "箱子尺寸 高(cm)": "26",
+        "货代大货参考定价基准（30%毛利）": 8.8,
+        "货代大货起订量标准": 25,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "8"
+      },
+      "id": "recuYsANVGMApc",
+      "record_id": "recuYsANVGMApc"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Create a clean no-logo reference image for the same product shown in the attached reference image.
+
+Use the attached product reference as the only product source. Preserve the exact real product structure, shape, proportions, tapered squeeze-bottle body, cap design, silicone texture, soft rounded form, color family, and four supported color/SKU variants. Remove every visible logo, sample logo, placeholder mark, brand word, embossed brand text, decorative icon, imprint, manufacturer/platform mark, QR code, watermark, contact information, and website URL from the product and from the image.
+
+The result should be a professional clean product reference image on a plain light background, suitable for later ecommerce image generation. Do not add any new text, logo, label, decoration, accessories, unsupported colors, or unsupported product details. Product must be 100% identical to reference in all details except the removed marks. No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. Ratio 1:1.

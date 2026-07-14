@@ -1,0 +1,493 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "13",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": [
+          {
+            "text": "Virtual Proof:FREE",
+            "type": "text"
+          }
+        ],
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": [
+          "optLHPLhTm"
+        ],
+        "Currency": [
+          {
+            "text": "USD",
+            "type": "text"
+          }
+        ],
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": [
+          {
+            "text": "Elevate your professional workspace with our elegant wooden desk business card holder. Crafted from high-quality wood, this holder is designed to keep your business cards neatly organized and easily accessible. Its sleek and minimalist design complements any office decor, making it a perfect addition to your desk. The smooth finish and durable construction ensure longevity, while the compact size saves valuable desk space. Ideal for professionals who value both functionality and style.",
+            "type": "text"
+          }
+        ],
+        "Distributor_View_Only": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": [
+          {
+            "text": "Standard Colors",
+            "type": "text"
+          }
+        ],
+        "Imprint_Location": [
+          {
+            "text": "Centered on Front or as you request",
+            "type": "text"
+          }
+        ],
+        "Imprint_Method": [
+          "opt117377868",
+          "opt1785801388",
+          "opt1354727636"
+        ],
+        "Imprint_Size": [
+          {
+            "text": "1.2\"x0.4\" , custom size",
+            "type": "text"
+          }
+        ],
+        "Item_Weight": [
+          {
+            "text": "0.31:lbs",
+            "type": "text"
+          }
+        ],
+        "Keywords": [
+          {
+            "text": "Business Card Holder,Card Stand,Corporate Gift,Desk Organizer,Executive Gift,Minimalist Design,Networking Essential,Office Accessories,Professional Display,Wooden Desk Organizer,Wooden Office Supplies,Workspace Decor",
+            "type": "text"
+          }
+        ],
+        "Less_Than_Min": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": [
+          "optNh5hchB"
+        ],
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": [
+          {
+            "text": "China",
+            "type": "text"
+          }
+        ],
+        "P1": "3.63",
+        "P10": null,
+        "P2": "3.57",
+        "P3": "3.5",
+        "P4": "3.47",
+        "P5": "3.13",
+        "P6": "3.07",
+        "P7": "3.03",
+        "P8": "2.95",
+        "P9": null,
+        "Packaging": [
+          "optp7Y2PWQ",
+          "optkUxW5wQ",
+          "optOtKqStI"
+        ],
+        "Personalization": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Price_Includes": [
+          {
+            "text": "1 color 1 side 1 location printing. Free shipping for orders over 33 lbs",
+            "type": "text"
+          }
+        ],
+        "Price_Type": [
+          {
+            "text": "Net",
+            "type": "text"
+          }
+        ],
+        "Prod_Image": [
+          {
+            "text": "https://media.asicdn.com/images/orig/334340000/334345328.jpg,https://media.asicdn.com/images/orig/334340000/334345317.jpg,https://media.asicdn.com/images/orig/334340000/334345318.jpg,https://media.asicdn.com/images/orig/334340000/334345319.jpg,https://media.asicdn.com/images/orig/334340000/334345320.jpg",
+            "type": "text"
+          }
+        ],
+        "Product_Color": [
+          "optKda3oW1",
+          "optJhWaazB"
+        ],
+        "Product_Name": [
+          {
+            "text": "Elegant Wooden Business Card Holder",
+            "type": "text"
+          }
+        ],
+        "Product_Number": [
+          {
+            "text": "LP0029",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Product_Type": "School, Office, \u0026 Craft Supplies",
+        "Product_URL": null,
+        "Production_Time": [
+          {
+            "text": "8",
+            "type": "text"
+          }
+        ],
+        "Q1": "50",
+        "Q10": null,
+        "Q2": "100",
+        "Q3": "200",
+        "Q4": "500",
+        "Q5": "1000",
+        "Q6": "2000",
+        "Q7": "5000",
+        "Q8": "10000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Rush_Time": [
+          {
+            "text": "5:",
+            "type": "text"
+          }
+        ],
+        "SEO_FLG": [
+          "opt4PRyYLd"
+        ],
+        "Safety_Warnings": null,
+        "Same_Day_Service": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "Service_Charge": [
+          {
+            "text": "Required",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": [
+          {
+            "text": "Length:17.32:in;Width:15.75:in;Height:13.39:in",
+            "type": "text"
+          }
+        ],
+        "Shipping_Items": [
+          {
+            "text": "130:per Case",
+            "type": "text"
+          }
+        ],
+        "Shipping_Weight": [
+          {
+            "text": "39.68:lbs",
+            "type": "text"
+          }
+        ],
+        "Size_Group": [
+          {
+            "text": "Dimension",
+            "type": "text"
+          }
+        ],
+        "Size_Values": [
+          {
+            "text": "Length:4.33:in;Width:1.81:in;Height:0.79:in",
+            "type": "text"
+          }
+        ],
+        "Sold_Unimprinted": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Summary": [
+          {
+            "text": "Elevate your professional workspace with our elegant wooden desk business card holder.",
+            "type": "text"
+          }
+        ],
+        "Theme": [
+          "optRqRtuCw",
+          "opt2SPbBTR",
+          "optSawrdTu",
+          "optGpXDOag",
+          "optyqwgguj"
+        ],
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": "IMMD:Full Color",
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": [
+          {
+            "text": "Per Order",
+            "type": "text"
+          }
+        ],
+        "Upcharge_Name": "Full Color",
+        "Upcharge_Type": "Set-up Charge",
+        "WG产品编号": "WG5089",
+        "XID": [
+          {
+            "text": "LP0029",
+            "type": "text"
+          }
+        ],
+        "id": "26",
+        "record_id": [
+          {
+            "text": "recuLkSwkhXWL7",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary;Grand Opening;Eco \u0026 Environmentally Friendly;Wedding;Corporate",
+        "产品关键词": "Unique Custom Best High, Quaility Luxury Most Popular, Durable Stock Portable, Wholesale Promotional Branded, Printed Logo Customized Bulk, Customizable Nice Blank, Amazon Business Card Holder, Desk Case For Women Cards, Holders Men Organizer Acrylic, Leather Gold Vertical Wallet, Book Metal Square Clear, Display Purse Magnetic Pink, Pocket Cute Holder' Wall, Mount Plastic Multiple Wood, Black Personalized Wooden, Dumbbell Multi Car Small, Desktop Rolodex Slim Travel, Slots Purple Maxgear Self, Adhesive 4 Tier Large Mens, Office Accessories Organizers, And Aesthetic Decor Funny, Home Womens Fun Rose Top Set, Girly Nurse Supplies With Me, Disney Western Labelspurple W, White Bling Boho Blue Dark, Green Drawer Stapler, Accessory Kit Red Mickey, Mouse Work Sets Hello Kitty, Cow Mesh Cool Kate Spade, Turquoise Marble Matching",
+        "产品名称": "Office Supplies Wooden Desk Business Card Holder Display",
+        "产品尺寸 宽(cm)": "4.6",
+        "产品尺寸 长(cm)": "11",
+        "产品尺寸 高(cm)": "2",
+        "产品材质": "Wood",
+        "产品简称": "木质名片架",
+        "产品类型": "School, Office,\u0026Craft Supplies",
+        "产品编号": "LP0029",
+        "产品重量(kg)": "0.14",
+        "产品颜色": "natural; dark brown",
+        "件数/箱": "130",
+        "分类": "BUSINESS CARD HOLDERS; CASES \u0026 HOLDERS",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/Laser Engraved",
+        "参考图片": [
+          {
+            "file_token": "OWpobrCIro66iLxu8IVc2pzenxf",
+            "name": "LP0029_clean_no_logo_oracle_chatgpt.png",
+            "size": 1518819,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=OWpobrCIro66iLxu8IVc2pzenxf\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/OWpobrCIro66iLxu8IVc2pzenxf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D"
+          }
+        ],
+        "商品主图": [
+          {
+            "file_token": "ZWxWbnnPYo3ogux1RRIc7ZFPnGd",
+            "name": "01.jpg",
+            "size": 408095,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=ZWxWbnnPYo3ogux1RRIc7ZFPnGd\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D",
+            "type": "image/jpeg",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/ZWxWbnnPYo3ogux1RRIc7ZFPnGd/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D"
+          },
+          {
+            "file_token": "EikobpQ9WoXQJuxpIHVcpSTYnha",
+            "name": "02.jpg",
+            "size": 433321,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=EikobpQ9WoXQJuxpIHVcpSTYnha\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D",
+            "type": "image/jpeg",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/EikobpQ9WoXQJuxpIHVcpSTYnha/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D"
+          },
+          {
+            "file_token": "CClMbRElzorfbKxIWqkcZqSJnhd",
+            "name": "03.jpg",
+            "size": 688917,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=CClMbRElzorfbKxIWqkcZqSJnhd\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D",
+            "type": "image/jpeg",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/CClMbRElzorfbKxIWqkcZqSJnhd/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D"
+          },
+          {
+            "file_token": "EE0CbIwyDo1Iq2xweRJcp1wbnRd",
+            "name": "04.jpg",
+            "size": 320900,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=EE0CbIwyDo1Iq2xweRJcp1wbnRd\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D",
+            "type": "image/jpeg",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/EE0CbIwyDo1Iq2xweRJcp1wbnRd/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D"
+          },
+          {
+            "file_token": "UCvRbbhfMoE1x5xwSxycUpg9nGb",
+            "name": "05.jpg",
+            "size": 356147,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=UCvRbbhfMoE1x5xwSxycUpg9nGb\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D",
+            "type": "image/jpeg",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/UCvRbbhfMoE1x5xwSxycUpg9nGb/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D"
+          },
+          {
+            "file_token": "FXDAbJujeo41GOxR62UcdBNcnNg",
+            "name": "LP0029_material_detail_oracle_chatgpt.png",
+            "size": 1728671,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=FXDAbJujeo41GOxR62UcdBNcnNg\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/FXDAbJujeo41GOxR62UcdBNcnNg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D"
+          }
+        ],
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "【0226-调整箱规】1688跨境商机榜-木制卡片架",
+        "完整描述": "Are you tired of disorganized business cards cluttering your workspace and lacking a stylish solution to keep them safe and visible? Look no further than this exquisite business card holder, crafted with perfect wood. This holders large capacity can store multi cards, keeping your desk tidy and your cards easily accessible. Whether in an office, business meeting, or trade show, its unique design adds a touch of low-key luxury, making it the centerpiece of any workspace. Its not just functionalits a statement of taste and elegance. Plus, with friendly customer service ready to assist, you can enjoy a seamless experience. Elevate your workspace and impress your colleagues with this timeless accessory that combines practicality with sophistication.",
+        "来源(1688)": "https://detail.1688.com/offer/732160016376.html?spm=a2637j.29539915.inner-rank-detail",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": [
+          {
+            "file_token": "Ikc4bWFzzoFIzixCY4KcGRGTn8b",
+            "name": "LP0029_white_natural_oracle_gemini.png",
+            "size": 908255,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=Ikc4bWFzzoFIzixCY4KcGRGTn8b\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/Ikc4bWFzzoFIzixCY4KcGRGTn8b/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D"
+          },
+          {
+            "file_token": "GM9zblCHao8tp4xhBxdcMo8LnPh",
+            "name": "LP0029_white_dark_brown_oracle_chatgpt.png",
+            "size": 1405816,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=GM9zblCHao8tp4xhBxdcMo8LnPh\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/GM9zblCHao8tp4xhBxdcMo8LnPh/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D"
+          }
+        ],
+        "简要说明": "This wood business card holder organizes and displays multiple cards for a tidy, elegant workspace. Rush service is available.",
+        "箱子尺寸 宽(cm)": "40",
+        "箱子尺寸 长(cm)": "44",
+        "箱子尺寸 高(cm)": "34",
+        "货代大货参考定价基准（30%毛利）": 3.36,
+        "货代大货起订量标准": 109,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "18"
+      },
+      "id": "recuLkSwkhXWL7",
+      "record_id": "recuLkSwkhXWL7"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

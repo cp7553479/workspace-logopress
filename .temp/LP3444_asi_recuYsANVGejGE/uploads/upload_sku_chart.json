@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsANVGejGE": {
+        "fldn5dP24T": [
+          {
+            "file_token": "SIX2bpnU0oADlzxFg7TcQurRnje",
+            "name": "LP3444_scene_party_v2.png",
+            "size": 2219436
+          },
+          {
+            "file_token": "NNVabXjZSovqQtx1q64cXkBOnsb",
+            "name": "LP3444_selling_point_v2.png",
+            "size": 2060632
+          },
+          {
+            "file_token": "YB0NbBF5toPPOJxoVtscaoE6nod",
+            "name": "LP3444_dimension.png",
+            "size": 735517
+          },
+          {
+            "file_token": "YGHbb2BZuoDhKuxpOWUcvrDenEc",
+            "name": "LP3444_material_detail.png",
+            "size": 2199724
+          },
+          {
+            "file_token": "GbRebkKego0Tn1xoXyAcKqlxnSf",
+            "name": "LP3444_sku_chart.png",
+            "size": 1013476
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

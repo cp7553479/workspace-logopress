@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsANVGFeyD": {
+        "fldzPbQJ2z": [
+          {
+            "file_token": "HRuQbFGucochJdxBJ8Ncyh3pnCh",
+            "name": "LP3389_01_white_background_oracle_gemini.png",
+            "size": 543698
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

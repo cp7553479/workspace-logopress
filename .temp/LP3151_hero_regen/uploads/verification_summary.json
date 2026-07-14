@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "product": "LP3151",
+  "main_tokens": [
+    "BsHWbwX9HoCF9sxFabWcjTTwnZe",
+    "NHjfb64r6o4Y4PxKGbjcFUUznlf",
+    "SOrWbYkUsooAWSxH0X8cEmMUnrd",
+    "XXoxbe9wHoKjZyxkcbgcKwfNnfb",
+    "Gzo7b6WoOoVntMxP2oRcTET1nPg",
+    "U4ovbd8oUoE4F9xqhe1cDUiYnTg"
+  ],
+  "reference_tokens": [
+    "VUdlbTWMrostZ4xWekjcxEv8nMh"
+  ],
+  "white_background_tokens": [
+    "Rj6DbpojgoAQRWxaKE9c571vnVg"
+  ],
+  "checks": {
+    "new_hero_present": true,
+    "old_hero_absent": true,
+    "non_hero_preserved": true,
+    "reference_unchanged": true,
+    "white_background_unchanged": true
+  }
+}

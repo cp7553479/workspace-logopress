@@ -1,0 +1,584 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "WG7107",
+        "recv9nhHK7waQX",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "YqSPb0pCIoJpGjxQxfScWoPvnTg",
+            "name": "WG7107_clean_no_logo.png",
+            "size": 1028556
+          }
+        ],
+        [
+          {
+            "file_token": "LJltbGGCwosks1xE5HUch9NFnNg",
+            "name": "WG7107_white_background.png",
+            "size": 748712
+          }
+        ],
+        [
+          {
+            "file_token": "E8oQbisB5oXXngxpGiwcN7yMn3u",
+            "name": "WG7107_scene_camping.png",
+            "size": 2044334
+          },
+          {
+            "file_token": "ItVqbP2vcoS6AGx990FcrmVMnUh",
+            "name": "WG7107_dimension.png",
+            "size": 873565
+          },
+          {
+            "file_token": "WUh3bFYvxoqJYDxAzTQcvG4Pnrh",
+            "name": "WG7107_sku_colors.png",
+            "size": 1183304
+          }
+        ]
+      ],
+      [
+        "WG7090",
+        "recv9nhKXHviX2",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "W6kDb6uh4oHefcx7y8LcVLzMn4c",
+            "name": "WG7090_clean_no_logo.png",
+            "size": 1015862
+          }
+        ],
+        [
+          {
+            "file_token": "CJd2bFO3YoAlJSxmD4HcWGnXnIc",
+            "name": "WG7090_white_background.png",
+            "size": 509238
+          }
+        ],
+        [
+          {
+            "file_token": "Ex5FbIAB5oknbhx6m0ycXXwYn1b",
+            "name": "WG7090_hero_logo.png",
+            "size": 1305819
+          },
+          {
+            "file_token": "ERvRb1jppodsTwx8gwvcs7LKnMc",
+            "name": "WG7090_scene_home_office.png",
+            "size": 1905841
+          },
+          {
+            "file_token": "RNbQb7l7do63DLxB58gc1VepnEf",
+            "name": "WG7090_selling_point.png",
+            "size": 851515
+          },
+          {
+            "file_token": "DIwDbR6IfoBKBMxm6SkcaxKmnCg",
+            "name": "WG7090_dimension.png",
+            "size": 1010188
+          },
+          {
+            "file_token": "DubLbI4h8ogqDbxi1ljcXzC0nce",
+            "name": "WG7090_material_detail.png",
+            "size": 740881
+          }
+        ]
+      ],
+      [
+        "WG7100",
+        "recv9nhLt0D5Lt",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "BVdxbBzf5oT957xJ6mZcwj7wnIh",
+            "name": "WG7100_clean_no_logo.png",
+            "size": 1977839
+          }
+        ],
+        [
+          {
+            "file_token": "Ac2kb69Qso87hwxXzyOcxoKTnne",
+            "name": "WG7100_white_background.png",
+            "size": 660697
+          }
+        ],
+        [
+          {
+            "file_token": "Wf2Yb8GITozWuFxC7tucSA2knoh",
+            "name": "WG7100_lifestyle_scene.png",
+            "size": 2217231
+          },
+          {
+            "file_token": "Z0TYb3nxqodgdExLHGTcDLT9nDb",
+            "name": "WG7100_selling_point_retry_chatgpt.png",
+            "size": 2144613
+          },
+          {
+            "file_token": "MxZpbhcH0o1MSixSgpUc2y8fntc",
+            "name": "WG7100_dimension_chart.png",
+            "size": 687314
+          },
+          {
+            "file_token": "LXCIbb3qco07f5xdgsRc6g6ynic",
+            "name": "WG7100_hero_main.png",
+            "size": 1868736
+          }
+        ]
+      ],
+      [
+        "WG7082",
+        "recv9nhPfrWSvE",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "EYoQbeIaao11s2xFLbscS4cNnDc",
+            "name": "WG7082_clean_no_logo.png",
+            "size": 1119160
+          }
+        ],
+        [
+          {
+            "file_token": "V5aYbaL3pokNOhx4YARcbjoCn1g",
+            "name": "WG7082_white_background.png",
+            "size": 712753
+          }
+        ],
+        [
+          {
+            "file_token": "TmOlb1EdQoEbvvxNrNTcJDLhnXe",
+            "name": "WG7082_hero_main.png",
+            "size": 1364238
+          },
+          {
+            "file_token": "Nma6bRvdsoNnpuxKzZTcWPcsnkb",
+            "name": "WG7082_scene_kitchen.png",
+            "size": 1680403
+          },
+          {
+            "file_token": "MODBbtyREoz6UVxWWZMco65Lnof",
+            "name": "WG7082_selling_point.png",
+            "size": 726497
+          },
+          {
+            "file_token": "Inu0bs12Vo1IpfxF2yIcf0JEnFb",
+            "name": "WG7082_dimensions.png",
+            "size": 630275
+          },
+          {
+            "file_token": "MECIbPZdiohT0PxzpAachoa3nze",
+            "name": "WG7082_material_detail.png",
+            "size": 1381909
+          }
+        ]
+      ],
+      [
+        "WG7084",
+        "recv9nhPfrxdck",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "Dgthbg38aoJxFGxbYLzca4NLn2b",
+            "name": "WG7084_clean_no_logo.png",
+            "size": 1831700
+          }
+        ],
+        [
+          {
+            "file_token": "KaEjba3AionsInxn3eIcfDkpnyM",
+            "name": "WG7084_white_background.png",
+            "size": 1875041
+          }
+        ],
+        [
+          {
+            "file_token": "SvaKbAFACov2TQxZaB0cFDYBnGe",
+            "name": "WG7084_hero_main.png",
+            "size": 2219423
+          },
+          {
+            "file_token": "OTM6b2zccoi40Hx3aL9czA12nMf",
+            "name": "WG7084_lifestyle_scene.png",
+            "size": 2331670
+          },
+          {
+            "file_token": "QsEebfpUIoJNHyxRXPicbgFmnLo",
+            "name": "WG7084_selling_point.png",
+            "size": 2229949
+          },
+          {
+            "file_token": "SviLbKSx6opj4zxW9s3cFJyqnLc",
+            "name": "WG7084_dimension_diagram.png",
+            "size": 1702352
+          },
+          {
+            "file_token": "SP5ab1ZLto6JSAxEo2yciRikn9f",
+            "name": "WG7084_material_detail.png",
+            "size": 2342310
+          }
+        ]
+      ],
+      [
+        "WG7072",
+        "recv9nhRcFS61O",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "A6Rcb3GTGo7CVFxVm0KcWTJJnWh",
+            "name": "WG7072_clean_no_logo.png",
+            "size": 813024
+          }
+        ],
+        [
+          {
+            "file_token": "IspjbQPuVoV6XOxK7rgcrojvnFb",
+            "name": "WG7072_white_background.png",
+            "size": 847957
+          }
+        ],
+        [
+          {
+            "file_token": "DlzebdoQ9okfZrxZxLjcAPObnLh",
+            "name": "WG7072_scene_gym_lifestyle_gemini_api.png",
+            "size": 702571
+          },
+          {
+            "file_token": "GteVbyNl3ogeoix2RPUciOpSnuf",
+            "name": "WG7072_selling_point_magnetic_pockets.png",
+            "size": 541590
+          },
+          {
+            "file_token": "MeKlbIOZEo4Q2PxNMIXcvvb0nLh",
+            "name": "WG7072_dimension_diagram.png",
+            "size": 461254
+          },
+          {
+            "file_token": "BCFrbMSyFoMFO3xzhW4cRpyvnWg",
+            "name": "WG7072_material_detail.png",
+            "size": 653036
+          },
+          {
+            "file_token": "P4LAbuLyxoWup7xGYdHcXzEAn6c",
+            "name": "WG7072_sku_color_chart_v3.png",
+            "size": 446828
+          },
+          {
+            "file_token": "Xjl8bBwSeooMPZxrddoc7hp0nlf",
+            "name": "WG7072_hero_main.png",
+            "size": 728826
+          }
+        ]
+      ],
+      [
+        "WG7066",
+        "recv9nhSxazHE7",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "KHImbvHP8omKILxN6dOcE62fnVg",
+            "name": "WG7066_clean_no_logo.png",
+            "size": 1166429
+          }
+        ],
+        [
+          {
+            "file_token": "Opf8bAA9foh5oMxEJXScB67kn1e",
+            "name": "WG7066_white_background.png",
+            "size": 752068
+          }
+        ],
+        [
+          {
+            "file_token": "AOeqbfH0Ao1gLHxpnLrcGLERn8d",
+            "name": "WG7066_hero_main.png",
+            "size": 1058937
+          },
+          {
+            "file_token": "H0xzbZgbTo1L9mxKmSjcIxlonOe",
+            "name": "WG7066_lifestyle_training.png",
+            "size": 1757754
+          },
+          {
+            "file_token": "XpMdbQCwXoVDAEx5pWvc2Qh9nub",
+            "name": "WG7066_selling_points.png",
+            "size": 1237955
+          },
+          {
+            "file_token": "HTuQb37huoLLf7xVoX8clMEHnjX",
+            "name": "WG7066_material_detail_v2.png",
+            "size": 1104633
+          },
+          {
+            "file_token": "OdJIbmlPfop6tcxqzyLckml8nyb",
+            "name": "WG7066_sku_chart.png",
+            "size": 1181859
+          }
+        ]
+      ],
+      [
+        "WG7067",
+        "recv9nhU57zZXK",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "H5PnbcgwVodSLtxIFsCcUoYZnTd",
+            "name": "WG7067_clean_no_logo_retry_no_sparkle.png",
+            "size": 2427170
+          }
+        ],
+        [
+          {
+            "file_token": "VVwkbHDEYoHckexSn80c2An2nVd",
+            "name": "WG7067_white_background_replacement_oracle_gemini.png",
+            "size": 574694
+          }
+        ],
+        [
+          {
+            "file_token": "IkiCbssr9ozqaAxQzVrcGyQhnaf",
+            "name": "WG7067_hero_main.png",
+            "size": 2125234
+          },
+          {
+            "file_token": "Jjiyb2A9ZoOupux0gY0cLOiLnw3",
+            "name": "WG7067_lifestyle_scene_chatgpt.png",
+            "size": 2220293
+          },
+          {
+            "file_token": "NWCmb3DiMoVuRaxEHoqcx13Pnfh",
+            "name": "WG7067_selling_point_gemini.png",
+            "size": 1579727
+          },
+          {
+            "file_token": "KgVhbT36QohTedxwIYZcNARqnPc",
+            "name": "WG7067_dimensions.png",
+            "size": 328740
+          },
+          {
+            "file_token": "U5N2bZOR1oYWhqxKJvgcOeYLndg",
+            "name": "WG7067_material_detail_replacement_oracle_chatgpt.png",
+            "size": 2048500
+          }
+        ]
+      ],
+      [
+        "WG7056",
+        "recv9nhVyeHz3p",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "Sl6xbadLKoFLGExbKFycPzacnMe",
+            "name": "WG7056_clean_no_logo.png",
+            "size": 2331198
+          }
+        ],
+        [
+          {
+            "file_token": "WXCUbTkWyoF79YxL6wPc3ZgpnCf",
+            "name": "WG7056_white_background.png",
+            "size": 888176
+          }
+        ],
+        [
+          {
+            "file_token": "I65IbssIZo3f2CxGhozclOIBnNe",
+            "name": "WG7056_hero_main_logo.png",
+            "size": 1271749
+          },
+          {
+            "file_token": "FVBUbwxEkoRPgmx4yTBcOfZXnV3",
+            "name": "WG7056_lifestyle_gym_yoga_textless.png",
+            "size": 1439620
+          },
+          {
+            "file_token": "PvVgbnFV5o89aHxsvPjc40MJnUh",
+            "name": "WG7056_selling_point_breathable.png",
+            "size": 2341100
+          },
+          {
+            "file_token": "KREybTfbJoWorWxZf50cmHyTn7e",
+            "name": "WG7056_material_detail_nylon.png",
+            "size": 1291693
+          },
+          {
+            "file_token": "Xn06bvfWvo98kOxehedckdp9nCh",
+            "name": "WG7056_sku_sheet_01_codex.png",
+            "size": 1515800
+          },
+          {
+            "file_token": "ITiXb6LadoLV8exG667cWMDcnzb",
+            "name": "WG7056_sku_sheet_02.png",
+            "size": 1420831
+          },
+          {
+            "file_token": "YffIbpCXIoEzn6xvlgmcmfy1nXg",
+            "name": "WG7056_dimension_inches.png",
+            "size": 979006
+          }
+        ]
+      ],
+      [
+        "WG7054",
+        "recv9nhVyeBoXO",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "YomUbDAPao5rmjx84NRcb5TfnPf",
+            "name": "WG7054_clean_no_logo.png",
+            "size": 1618739
+          }
+        ],
+        [
+          {
+            "file_token": "LdBfbRaX3o26FMxzZw8cXdUan4e",
+            "name": "WG7054_white_background.png",
+            "size": 589230
+          }
+        ],
+        [
+          {
+            "file_token": "PnJ4bNOInoKvGhxRDpicSGyfnGh",
+            "name": "WG7054_hero_logo.png",
+            "size": 1359022
+          },
+          {
+            "file_token": "IfQMbM3kmoI2bzxfE0acrh0YnCg",
+            "name": "WG7054_lifestyle.png",
+            "size": 1743213
+          },
+          {
+            "file_token": "RDYJbw3WhoSp4hx8G9ZcjvDun9f",
+            "name": "WG7054_feature_back_zipper.png",
+            "size": 1200222
+          },
+          {
+            "file_token": "E7kEbNlMloaXL2xhSg1c9k1mn3q",
+            "name": "WG7054_material_detail.png",
+            "size": 2200766
+          },
+          {
+            "file_token": "TpahbuLpyoS4oRxI0Ftc4ds1n4g",
+            "name": "WG7054_dimensions.png",
+            "size": 665003
+          },
+          {
+            "file_token": "T6fCbOkI4oSBK0xqfJMc3FnVnBT",
+            "name": "WG7054_sku_sheet_01.png",
+            "size": 1176109
+          },
+          {
+            "file_token": "JIIbbPTy2omaSdx7nHock0HSnqv",
+            "name": "WG7054_sku_sheet_02.png",
+            "size": 609666
+          }
+        ]
+      ],
+      [
+        "WG7049",
+        "recv9nhYgWXY6t",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "Jma4b4HWRot0yHxObGscWtrQnjh",
+            "name": "WG7049_clean_no_logo.png",
+            "size": 2303402
+          }
+        ],
+        [
+          {
+            "file_token": "TmcHb6bWyo6KKwxoEj6clw9Fn4d",
+            "name": "WG7049_white_background.png",
+            "size": 2304804
+          }
+        ],
+        [
+          {
+            "file_token": "XC3nbTG2GoR5cSxlY7Tc10Gjnth",
+            "name": "WG7049_lifestyle_scene.png",
+            "size": 2217907
+          },
+          {
+            "file_token": "XPbfbbXSuosrG3xLJJkcNivnntb",
+            "name": "WG7049_selling_point.png",
+            "size": 2268577
+          },
+          {
+            "file_token": "SsHLbq8IwoL3QnxUd7zcKB8lnWb",
+            "name": "WG7049_size_chart.png",
+            "size": 1424956
+          },
+          {
+            "file_token": "Ru2WbzIvVoBj46x7BVVcdCBHn1g",
+            "name": "WG7049_sku_chart.png",
+            "size": 2133049
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldfwWSmG4",
+      "fldsExhPlC",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "产品编号",
+      "record_id",
+      "Mark",
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "query_context": {
+      "field_scope": "selected_fields",
+      "record_scope": "filtered_records",
+      "search_scope": "fldHb6xDKX(产品编号)"
+    },
+    "record_id_list": [
+      "recv9nhHK7waQX",
+      "recv9nhKXHviX2",
+      "recv9nhLt0D5Lt",
+      "recv9nhPfrWSvE",
+      "recv9nhPfrxdck",
+      "recv9nhRcFS61O",
+      "recv9nhSxazHE7",
+      "recv9nhU57zZXK",
+      "recv9nhVyeHz3p",
+      "recv9nhVyeBoXO",
+      "recv9nhYgWXY6t"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

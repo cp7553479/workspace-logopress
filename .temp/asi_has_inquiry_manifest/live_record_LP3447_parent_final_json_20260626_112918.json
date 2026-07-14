@@ -1,0 +1,89 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3447",
+        "Transparent Color Profile Office A4 Plastic Clipboard",
+        [
+          {
+            "file_token": "V43Ubpl6ao8dbzxaq5UclUnunbh",
+            "name": "LP3447_clean_no_logo.png",
+            "size": 1421568
+          }
+        ],
+        [
+          {
+            "file_token": "LjpxbMInQozrhMxc45kcDqgXnJz",
+            "name": "LP3447_white_background.png",
+            "size": 995967
+          }
+        ],
+        [
+          {
+            "file_token": "PF8Nbpn5ToSIuhxUx5CcNzOXnod",
+            "name": "LP3447_lifestyle_scene.png",
+            "size": 1278566
+          },
+          {
+            "file_token": "EYVTbZzf1okdn4xgBY5cwhIXnmG",
+            "name": "LP3447_selling_point_v2.png",
+            "size": 1943489
+          },
+          {
+            "file_token": "TWcYbpiq6oKMSuxldL3cjjn2n7d",
+            "name": "LP3447_dimension_infographic.png",
+            "size": 739143
+          },
+          {
+            "file_token": "QvtUb57bMolRdhxW77RcDaf0n2d",
+            "name": "LP3447_material_detail.png",
+            "size": 1756728
+          },
+          {
+            "file_token": "LTpHbNTbjoQOdSxQ5PUcwitYnfh",
+            "name": "LP3447_sku_chart.png",
+            "size": 1217389
+          },
+          {
+            "file_token": "J1mmbpP1SoFRRfxSYYwcXkzanbf",
+            "name": "LP3447_hero_main_v3.png",
+            "size": 1537295
+          }
+        ],
+        [
+          "有询单"
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fld8ifVx8f",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fldsExhPlC"
+    ],
+    "fields": [
+      "产品编号",
+      "产品名称",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "Mark"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsANVGGM5X"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

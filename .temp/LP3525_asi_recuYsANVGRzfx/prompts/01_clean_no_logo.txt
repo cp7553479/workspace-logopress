@@ -1,0 +1,7 @@
+Image edit task: create a clean no-logo product reference image from the attached product collage.
+
+Use the attached reference image as the only source of truth. Preserve the exact A4 multifunctional business contract office document folder structure, proportions, gray PU leather look, open-folder layout, pockets, stitched edges, card slots, ID window, center spine, metal clipboard clip, bottom color/SKU evidence, and circular detail callouts as much as possible.
+
+Remove any existing logo, sample logo, brand mark, imprint, platform/manufacturer mark, QR code, watermark, contact information, website URL, and the words "YOUR LOGO" from the product and from the image. The top-right closed-folder sample should become a clean blank product sample with no logo or text. Do not add any new logo, brand, text, QR code, watermark, supplier information, contact information, website URL, price info, or unsupported product details.
+
+Output a professional clean ecommerce reference image, 1:1 square ratio, white background, realistic product materials and shadows. Product must be 100% identical to reference in all details (shape, texture, parts). All text in English if any unavoidable product text remains, but ideally no visible text. Do not invent unsupported details. Ratio 1:1.

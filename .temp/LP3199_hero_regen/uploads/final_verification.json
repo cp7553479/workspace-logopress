@@ -1,0 +1,32 @@
+{
+  "product": "LP3199",
+  "main_tokens": [
+    {
+      "token": "UEdXblkjOoaNt0xs0SvcJPDkn5f",
+      "name": "main_lifestyle_codex.png"
+    },
+    {
+      "token": "ZoWtbjoUUogS6XxkitccOL12nVe",
+      "name": "LP3199_hero_oracle_chatgpt.png"
+    }
+  ],
+  "reference_tokens": [
+    {
+      "token": "Asn5bwp4soZ0yjx7WhgcRFf3nah",
+      "name": "reference_cleaned_codex_retry.png"
+    }
+  ],
+  "white_tokens": [
+    {
+      "token": "YkinbdSnzoPuZoxvIlGc5cxRnab",
+      "name": "white_background_codex.png"
+    }
+  ],
+  "verification": {
+    "new_hero_present": true,
+    "old_hero_absent": true,
+    "preserved_main_present": true,
+    "reference_retained": true,
+    "white_retained": true
+  }
+}

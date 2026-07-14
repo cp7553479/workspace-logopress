@@ -1,0 +1,37 @@
+{
+  "request_id": "6b6769e7-64a1-4c39-9086-4631199ca026",
+  "session_id": "66c0ad52-cf6e-47db-b2e4-b1ba6feb825e",
+  "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "imageModel": "gpt-image-2",
+  "image_count": 1,
+  "imageCount": 1,
+  "images": [
+    {
+      "path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP3431_asi_recuYsANVG6gmK/outputs/LP3431_lifestyle_scene.png",
+      "decodedPath": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP3431_asi_recuYsANVG6gmK/outputs/LP3431_lifestyle_scene.png",
+      "bytes": 2229271,
+      "sha256": "1f8fa9697553d4c57f7d6291b0ca655ed182fbc35368b63f5632fd44e9ee7ae1",
+      "call_id": "ig_0c1f9de19a0ac32c016a3c5aceebc48191848b34569ebf089a",
+      "status": "generating",
+      "partial": false,
+      "revised_prompt": "Create a 1:1 Amazon-style lifestyle ecommerce product poster using the provided reference image as the exact source for the product: a silver stainless steel multifunctional foldable golf knife/keychain tool. Place the product on a clean, realistic golf green beside a white golf ball and a wooden tee. Premium outdoor golf-course atmosphere, attractive natural sunlight, shallow depth of field with soft blurred fairway/background, polished commercial composition, clean premium layout, strong visual hierarchy, product as clear hero subject.\n\nThe product must match the reference exactly: silver brushed stainless steel body, black brush end, three black slots on the handle, visible keychain ring and chain, foldable knife blade, divot fork/prong tool, layered foldable tools, no logo. Preserve its shape, texture, proportions, parts, and orientation as faithfully as possible. Do not include a gold variant.\n\nNo visible text despite modern poster styling. No Chinese, QR codes, watermarks, manufacturer info, supplier info, platform marks, contact info, website URLs, price info. Absolutely no watermark-like symbols, sparkle marks, signature marks, corner icons, decorative generated marks, or extra graphic symbols anywhere. Clean realistic commercial product photography, high-converting Amazon ecommerce image."
+    }
+  ],
+  "seen_event_types": [
+    "response.created",
+    "response.in_progress",
+    "response.output_item.added",
+    "response.image_generation_call.in_progress",
+    "response.image_generation_call.generating",
+    "keepalive",
+    "response.image_generation_call.partial_image",
+    "response.output_item.done",
+    "response.content_part.added",
+    "response.output_text.done",
+    "response.content_part.done",
+    "response.completed"
+  ],
+  "timed_out": false
+}

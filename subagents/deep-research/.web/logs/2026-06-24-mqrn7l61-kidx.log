@@ -1,0 +1,30 @@
+[2026-06-24T05:38:42.793Z] cli.command
+{
+  "command": "fetch",
+  "args": {
+    "urls": [
+      "http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3685/site/picture/old/P020151218774460254122.doc"
+    ],
+    "waitUntil": "load",
+    "screenshot": false
+  }
+}
+
+[2026-06-24T05:38:42.794Z] http.request
+{
+  "url": "https://r.jina.ai/http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3685/site/picture/old/P020151218774460254122.doc",
+  "method": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "Authorization": "Bearer j****"
+  },
+  "body": null
+}
+
+[2026-06-24T05:38:45.612Z] http.response
+{
+  "url": "https://r.jina.ai/http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3685/site/picture/old/P020151218774460254122.doc",
+  "statusCode": 200,
+  "body": "{\"code\":200,\"status\":20000,\"data\":{\"title\":\"403 Forbidden\",\"description\":\"\",\"url\":\"http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3685/site/picture/old/P020151218774460254122.doc\",\"content\":\"# 403 Forbidden\\n\\n* * *\",\"warning\":\"Target URL returned error 403: Forbidden\\nThis page maybe not yet fully loaded, consider explicitly specify a timeout.\",\"metadata\":{},\"external\":{},\"httpStatus\":403,\"httpStatusText\":\"Forbidden\",\"usage\":{\"tokens\":8}},\"meta\":{\"usage\":{\"tokens\":8}}}"
+}
+

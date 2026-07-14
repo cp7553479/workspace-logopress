@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsACVIUO4i": {
+        "fldn5dP24T": [
+          {
+            "file_token": "T8oUbLMtZoGgidxT4pTcqUa9n7d",
+            "name": "LP3217_asi_detail.png",
+            "size": 1157160
+          },
+          {
+            "file_token": "X970bEmL9oai4wxiJ8QcZzYqnfc",
+            "name": "LP3217_asi_lifestyle_chatgpt_retry.png",
+            "size": 1626825
+          },
+          {
+            "file_token": "IKLWboHlgoO7j5x8Q9QcUojEnhc",
+            "name": "LP3217_hero_main_oracle_gemini_retry_LOGO-WT.png",
+            "size": 816119
+          }
+        ]
+      }
+    }
+  }
+}

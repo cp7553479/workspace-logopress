@@ -1,0 +1,37 @@
+{
+  "request_id": "890ed834-2f5f-4bf6-aad4-187789fddbb8",
+  "session_id": "b207cea6-76a8-4144-b0a2-26fd1d969015",
+  "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "imageModel": "gpt-image-2",
+  "image_count": 1,
+  "imageCount": 1,
+  "images": [
+    {
+      "path": "/Users/vincent/.openclaw/workspace-logopress/.temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_clean_no_logo_codex.png",
+      "decodedPath": "/Users/vincent/.openclaw/workspace-logopress/.temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_clean_no_logo_codex.png",
+      "bytes": 2303402,
+      "sha256": "f6ebf533d1c48072f81201a9345cf90eb04d4b5a0242ba688c948a178acc8a30",
+      "call_id": "ig_04caac298d5948ec016a3b99af93f48191b2fd9b38fb0fdb9b",
+      "status": "generating",
+      "partial": false,
+      "revised_prompt": "Create a square 1:1 clean premium studio product reference image on a pure white background. Show only fabric resistance band products: three rolled loop bands stacked vertically or arranged neatly, matching the source colors and construction—top mint/teal green, middle soft pink, bottom purple/lavender—each as a thick woven polyester fabric band rolled into a tight spiral with visible ribbed woven texture, soft fabric edges, realistic thickness and proportions. Add one straight light-pink long fabric band segment beside them if helpful to show the product form, lying or standing neatly, with the same flat woven texture and thickness. Remove the person completely. Remove all labels, patches, logos, text, words, brand marks, imprints, QR codes, watermarks, contact info, website URLs, manufacturer/platform marks, and any markings. No text anywhere. Preserve realistic product shape, rolled-band structure, colors, soft fabric material, and studio lighting. Balanced spacing, attractive e-commerce product photography, sharp focus, no shadows except subtle natural studio shadow."
+    }
+  ],
+  "seen_event_types": [
+    "response.created",
+    "response.in_progress",
+    "response.output_item.added",
+    "response.image_generation_call.in_progress",
+    "response.image_generation_call.generating",
+    "keepalive",
+    "response.image_generation_call.partial_image",
+    "response.output_item.done",
+    "response.content_part.added",
+    "response.output_text.done",
+    "response.content_part.done",
+    "response.completed"
+  ],
+  "timed_out": false
+}

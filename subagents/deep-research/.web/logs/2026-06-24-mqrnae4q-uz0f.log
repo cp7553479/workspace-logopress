@@ -1,0 +1,30 @@
+[2026-06-24T05:40:53.642Z] cli.command
+{
+  "command": "fetch",
+  "args": {
+    "urls": [
+      "https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/staff.html"
+    ],
+    "waitUntil": "load",
+    "screenshot": false
+  }
+}
+
+[2026-06-24T05:40:53.643Z] http.request
+{
+  "url": "https://r.jina.ai/http://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/staff.html",
+  "method": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "Authorization": "Bearer j****"
+  },
+  "body": null
+}
+
+[2026-06-24T05:41:05.886Z] http.response
+{
+  "url": "https://r.jina.ai/http://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/staff.html",
+  "statusCode": 200,
+  "body": "{\"code\":200,\"status\":20000,\"data\":{\"title\":\"三. 员工操作 · 杭州人社网签电子劳动合同服务平台\",\"description\":\"\",\"url\":\"http://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/staff.html\",\"content\":\"## 员工操作\\n\\n## 一、手机端操作\\n\\n点击下载：[员工操作手册](https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/file/%E6%9D%AD%E5%B7%9E%E4%BA%BA%E7%A4%BE%E7%BD%91%E7%AD%BE%E7%94%B5%E5%AD%90%E5%8A%B3%E5%8A%A8%E5%90%88%E5%90%8C%E5%91%98%E5%B7%A5%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.pdf)\\n\\n可在支付宝、微信里搜索“杭云签”，或在浙里办APP的“个人主体专区-》人社服务专区-》各地特色-》杭州市-》网签劳动合同”目录下进入手机端。\\n\\n网签电子劳动合同平台提供手机端服务，员工可以使用手机端进行合同签署和入职信息填报等操作。 所有手机端操作均可使用微信、支付宝和浙里办APP，相关页面与操作在不同APP上是基本一致的。\\n\\n## 二、录入员工个人信息\\n\\n操作流程如下： 1）登录浙里办/支付宝/微信APP，点击右上角扫码功能，直接识别企业HR发送的二维码进入页面（对应的二维码需对应的APP扫码操作），或点击邀请短信中的链接地址，根据页面提示使用APP打开（目前已支持快捷打开支付宝，后续将继续开发微信和浙里办）； 2）填写个人信息填报模板上必填的内容，员工个人信息填报模板由企业设置，需采集的信息亦由企业设置； 3）信息填写完成后，进行提交时进行人脸认证，认证成功完成入职申请上报。\\n\\n![Image 1](https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/img_staff/2_1_1.png)![Image 2](https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/img_staff/2_1_2.png)\\n\\n信息录入（图以浙里办为例）\\n## 三、电子劳动合同查阅\\n\\n合同生效后，员工可登陆手机端进行查阅自己签署的合同，操作流程如下：\\n\\n1）登录浙里办/支付宝/微信APP，进入杭云签。\\n\\n2）点击“我的合同”，可对员工本人签署的所有状态的合同进行查阅，包括我的合同、待我签、已完成、已作废和已过期。\\n\\n![Image 3](https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/img_staff/3_2.png)![Image 4](https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/img_staff/3_3.png)\\n\\n合同查阅（图以浙里办为例）\\n## 四、电子劳动合同签署\\n\\n合同发起签约后，需员工和企业双方在有效期内完成签署，该合同才算完成签署，并正式生效。\\n\\n签署可分为三种：\\n\\n1）员工自行在手机端-“我的合同”处，找到需要签署的合同进行签署；\\n\\n2）员工通过企业方发送的短信链接/二维码，直接进入合同签署页进行签署；\\n\\n3）员工可以登录网签电子劳动合同平台，在PC端-“我的合同”处进行签署。\\n\\n![Image 5](https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/img_staff/4_1.png)![Image 6](https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/img_staff/4_2.png)\\n\\n手机端签署入口（图以浙里办为例）\\n此处以第二种方式为示例，签署操作流程如下：\\n\\n1）员工点击企业发送的签署链接进行访问，可以在网页上直接签署，或点击“支付宝快捷签署”打开支付宝进行签署（后续微信跟浙里办也会开放）\\n\\n2）仔细阅读劳动合同所有条款内容，确认无误后点击“签署”，可选择手写签名或默认签章（个人签章实际支持类型由企业设置的合同模板决定）；\\n\\n3）将签名拖至乙方签字处，点击“签署”，通过人脸识别后完成签署。\\n\\n![Image 7](https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/img_staff/4_3.png)![Image 8](https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/img_staff/4_4.png)\\n\\n快捷签署、手写签章（图以支付宝为例）\\n![Image 9](https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/img_staff/4_5.png)![Image 10](https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/img_staff/4_6.png)\\n\\n手机签署、人脸认证（图以支付宝为例）\\n\\n## No results matching \\\"\\\"\",\"metadata\":{\"lang\":\"zh-hans\",\"description\":\"\",\"generator\":\"GitBook 3.2.3\",\"identifier\":\" \",\"HandheldFriendly\":\"true\",\"viewport\":\"width=device-width, initial-scale=1, user-scalable=no\",\"apple-mobile-web-app-capable\":\"yes\",\"apple-mobile-web-app-status-bar-style\":\"black\"},\"external\":{\"apple-touch-icon-precomposed\":{\"https://dzht.hzrs.hangzhou.gov.cn/docs/_book/gitbook/images/apple-touch-icon-precomposed-152.png\":{\"sizes\":\"152x152\"}},\"icon\":{\"https://dzht.hzrs.hangzhou.gov.cn/docs/_book/gitbook/images/favicon.ico\":{\"type\":\"image/x-icon\"}},\"next\":{\"https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/staff.html\":{}},\"prev\":{\"https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/enterprise.html\":{}}},\"httpStatus\":200,\"httpStatusText\":\"OK\",\"usage\":{\"tokens\":1408}},\"meta\":{\"usage\":{\"tokens\":1408}}}"
+}
+

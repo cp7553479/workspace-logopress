@@ -1,0 +1,88 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP2994",
+        "Portable Fishing Home Travel Collapsible Foldable Bucket",
+        null,
+        "Our portable folding bucket is made of safe materials, perfect for storing food. Rush service is availble.",
+        "custom color",
+        "Polypropylene",
+        [
+          {
+            "file_token": "RX4KbDWBnosANpxC3kVcIOX9nWh",
+            "name": "2507902661759573795220.jpeg",
+            "size": 133102
+          }
+        ],
+        [
+          {
+            "file_token": "BRB8bDVwvoct4Zx15mFcwP8Fnkh",
+            "name": "white_background_oracle_gemini.png",
+            "size": 665053
+          }
+        ],
+        [
+          {
+            "file_token": "IcvBbUzk8oUM8MxIDtkcogusn7e",
+            "name": "lifestyle_fishing_codex.png",
+            "size": 2209820
+          },
+          {
+            "file_token": "B0TIbtDV5oimqyxcKLRcjm1OnDh",
+            "name": "selling_point_foldable_codex.png",
+            "size": 1354626
+          },
+          {
+            "file_token": "JDxlbxvxwoQ0KZxRTG9cDNw7n0f",
+            "name": "size_dimensions_codex.png",
+            "size": 1113198
+          },
+          {
+            "file_token": "QG17bRLvhozmDmxoK2UcvtKGnqe",
+            "name": "material_detail_codex.png",
+            "size": 1606374
+          },
+          {
+            "file_token": "KvwmbUJceo3tPPxgOE2cWksVn3g",
+            "name": "sku_colors_codex.png",
+            "size": 914179
+          },
+          {
+            "file_token": "LRjjbZ4zqoYf4XxLJ9LcFXtLntd",
+            "name": "hero_main_LOGO-BK_codex.png",
+            "size": 1434522
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fld8ifVx8f",
+      "fldVQEfx44",
+      "fldwtQtwf5",
+      "fldoQQU5d4",
+      "flds2DArkf",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "产品编号",
+      "产品名称",
+      "产品简称",
+      "简要说明",
+      "产品颜色",
+      "产品材质",
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsACVI4xsE"
+    ]
+  }
+}

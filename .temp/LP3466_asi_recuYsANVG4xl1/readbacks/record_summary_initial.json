@@ -1,0 +1,52 @@
+{
+  "record_id": "recuYsANVG4xl1",
+  "fields": {
+    "Product_Number": [
+      {
+        "text": "LP3466",
+        "type": "text"
+      }
+    ],
+    "Product_Name": [
+      {
+        "text": "Kitchen Meat Press with Wooden Handle for Grill and Griddle",
+        "type": "text"
+      }
+    ],
+    "产品编号": "LP3466",
+    "产品名称": "Multi-purpose practical professional kitchen tool meat press",
+    "产品颜色": "black/silver",
+    "Product_Color": [
+      "optUg4ABIw",
+      "opthShgio0"
+    ],
+    "产品材质": "Metal",
+    "Material": [
+      "opt0QLDNHS"
+    ],
+    "产品尺寸 长(cm)": "16",
+    "产品尺寸 宽(cm)": "16",
+    "产品尺寸 高(cm)": "6",
+    "参考图片": [
+      {
+        "file_token": "C3cpb9YIGoDqlgxXHXGcIS7lnJf",
+        "name": "5661327631759575004954.jpeg",
+        "size": 538797,
+        "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=C3cpb9YIGoDqlgxXHXGcIS7lnJf&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D",
+        "type": "image/jpeg",
+        "url": "https://open.feishu.cn/open-apis/drive/v1/medias/C3cpb9YIGoDqlgxXHXGcIS7lnJf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5151%7D%7D"
+      }
+    ],
+    "白底图": null,
+    "商品主图": null,
+    "Description": [
+      {
+        "text": "Meet your go-to multi-purpose professional kitchen tool: the Heavy-Duty Cast Iron Meat Press, designed for grill and griddle enthusiasts. Made with high-quality, durable metal, this burger smasher ensures even pressing for perfect patties—crispy outside, tender inside—by squeezing out excess fat and moisture. Its heat-resistant wooden handle offers a comfortable, burn-free grip, ideal for daily cooking, family gatherings, outdoor camping, company picnics, or holiday barbecues. Compact and portable, it fits easily in kitchen storage and works seamlessly with Blackstone, Camp Chef, Pitboss, and Weber grills. Perfect for hamburgers, steaks, bacon, eggs, and deli meats, this versatile tool elevates your cooking game. Customizable with logos for wholesale or promotional needs, it’s a must-have for home chefs and food lovers alike.",
+        "type": "text"
+      }
+    ],
+    "Mark": [
+      "有询单"
+    ]
+  }
+}

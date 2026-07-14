@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3123",
+        [
+          {
+            "file_token": "ZtsDbFR7YorrcXxVR0DcczMmn2f",
+            "name": "asi_hero_regen.png",
+            "size": 1136941
+          },
+          {
+            "file_token": "LZKbbOBKPoCAH9xoR30crKT5nJg",
+            "name": "asi_contents_layout.png",
+            "size": 1221484
+          },
+          {
+            "file_token": "CsZsbclb5o4sy2xWCMFcck2Snac",
+            "name": "asi_lifestyle_car_travel.png",
+            "size": 2613907
+          },
+          {
+            "file_token": "PILwbDGMBovqFkxFTc3cyUCbnXf",
+            "name": "asi_detail_texture_zipper.png",
+            "size": 1765122
+          }
+        ],
+        [
+          {
+            "file_token": "Hk6wbhlewoFVlKxCNoHcs3p4nS5",
+            "name": "cleaned_reference.png",
+            "size": 1771692
+          }
+        ],
+        [
+          {
+            "file_token": "DjShbIzTjo6iinx84YJcsbe5nrg",
+            "name": "white_background_retry.png",
+            "size": 1901180
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldn5dP24T",
+      "fldr9B4JZT",
+      "fldzPbQJ2z"
+    ],
+    "fields": [
+      "产品编号",
+      "商品主图",
+      "参考图片",
+      "白底图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsACVI6tID"
+    ]
+  }
+}

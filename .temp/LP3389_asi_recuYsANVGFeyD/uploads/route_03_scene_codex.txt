@@ -1,0 +1,2 @@
+Route: Codex gpt-image-2 after Oracle ChatGPT attachment timeout and Oracle Gemini output rejection for watermark-like artifact.
+Result: success, accepted lifestyle scene path .temp/LP3389_asi_recuYsANVGFeyD/outputs/LP3389_03_lifestyle_scene_codex.png

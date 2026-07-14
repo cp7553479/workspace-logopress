@@ -1,0 +1,5 @@
+Rejected LP7013_07_hero_main_oracle_gemini_LOGO-WT.png.
+Reasons:
+- The ID-card area contains readable personal-information field labels ("NAME", "ADDRESS"), violating the no contact/personal-information rule.
+- The logo graphic was distorted into an unsupported "LP" style instead of following the provided LogoPress logo reference or plain "YOUR LOGO" fallback.
+Next action: regenerate with Oracle ChatGPT, showing the main product from the solid back side so the logo is printed on the blank printable back panel and no ID-card text is visible.

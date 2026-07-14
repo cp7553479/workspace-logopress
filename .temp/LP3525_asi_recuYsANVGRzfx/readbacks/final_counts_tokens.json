@@ -1,0 +1,75 @@
+{
+  "reference_count": 1,
+  "white_count": 1,
+  "main_count": 6,
+  "reference": [
+    {
+      "file_token": "IOyHbZAUtocm97xtVY2cPPbXnt3",
+      "name": "LP3525_01_clean_no_logo_oracle_chatgpt.png",
+      "size": 1562498,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=IOyHbZAUtocm97xtVY2cPPbXnt3&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/IOyHbZAUtocm97xtVY2cPPbXnt3/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D"
+    }
+  ],
+  "white": [
+    {
+      "file_token": "Y4SbbBeGQoABXCxeIRMcnaHknoh",
+      "name": "LP3525_02_white_background_oracle_gemini.png",
+      "size": 946740,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=Y4SbbBeGQoABXCxeIRMcnaHknoh&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/Y4SbbBeGQoABXCxeIRMcnaHknoh/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D"
+    }
+  ],
+  "main": [
+    {
+      "file_token": "Qa1sbLiVio9O43xUtRCchUGOnxg",
+      "name": "LP3525_03_lifestyle_office_oracle_chatgpt.png",
+      "size": 1931799,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=Qa1sbLiVio9O43xUtRCchUGOnxg&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/Qa1sbLiVio9O43xUtRCchUGOnxg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D"
+    },
+    {
+      "file_token": "G5IcbZaecoA9FdxtZIRc9KvFnDg",
+      "name": "LP3525_04_selling_point_organizer_oracle_chatgpt.png",
+      "size": 1725749,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=G5IcbZaecoA9FdxtZIRc9KvFnDg&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/G5IcbZaecoA9FdxtZIRc9KvFnDg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D"
+    },
+    {
+      "file_token": "LxnBbBxRKoJ6M8xxD4icYD9Jnik",
+      "name": "LP3525_05b_dimension_chart_oracle_chatgpt.png",
+      "size": 1403301,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=LxnBbBxRKoJ6M8xxD4icYD9Jnik&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/LxnBbBxRKoJ6M8xxD4icYD9Jnik/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D"
+    },
+    {
+      "file_token": "Ub9ZbSjqbovooGxjiT6cqyXTnNg",
+      "name": "LP3525_06_material_detail_oracle_gemini.png",
+      "size": 1114944,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=Ub9ZbSjqbovooGxjiT6cqyXTnNg&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/Ub9ZbSjqbovooGxjiT6cqyXTnNg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D"
+    },
+    {
+      "file_token": "B0z4bAoUZoWgRtxUNJLc9Y1an4g",
+      "name": "LP3525_07_sku_chart_oracle_chatgpt.png",
+      "size": 1483509,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=B0z4bAoUZoWgRtxUNJLc9Y1an4g&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/B0z4bAoUZoWgRtxUNJLc9Y1an4g/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D"
+    },
+    {
+      "file_token": "NfVpbIx5AofHdSxCUdGcf1E8nhf",
+      "name": "LP3525_08b_hero_main_oracle_chatgpt_LOGO-BK.png",
+      "size": 1805118,
+      "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=NfVpbIx5AofHdSxCUdGcf1E8nhf&extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D",
+      "type": "image/png",
+      "url": "https://open.feishu.cn/open-apis/drive/v1/medias/NfVpbIx5AofHdSxCUdGcf1E8nhf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5222%7D%7D"
+    }
+  ]
+}

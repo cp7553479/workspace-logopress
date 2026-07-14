@@ -1,0 +1,68 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3070",
+        "Pu leather self-adhesive phone wallet card holder kickstand",
+        null,
+        "Our versatile slim PU leather phone card holder is easy to install and perfect for minimalist carrying. Rush service is available.",
+        "black; brown; grey; red; dark blue",
+        "Polyurethane (PUR or PU)",
+        [
+          {
+            "file_token": "BNJlbTwuwoPkwcxS1LicwFoMngb",
+            "name": "clean_reference_chatgpt.png",
+            "size": 2005371
+          }
+        ],
+        [
+          {
+            "file_token": "VR4FbTukNoI4nsxUrgic5iqXngd",
+            "name": "white_background_gemini.png",
+            "size": 965496
+          }
+        ],
+        [
+          {
+            "file_token": "Ez7xboKaVoXZvGxVvquckK4Innd",
+            "name": "asi_hero_chatgpt.png",
+            "size": 1844682
+          },
+          {
+            "file_token": "TlFmbM6vtolfBexrbB2clGkKnq6",
+            "name": "asi_function_detail_gemini.png",
+            "size": 1035905
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fld8ifVx8f",
+      "fldVQEfx44",
+      "fldwtQtwf5",
+      "fldoQQU5d4",
+      "flds2DArkf",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "产品编号",
+      "产品名称",
+      "产品简称",
+      "简要说明",
+      "产品颜色",
+      "产品材质",
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsACVIDm7w"
+    ]
+  }
+}

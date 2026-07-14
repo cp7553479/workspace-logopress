@@ -1,0 +1,32 @@
+[2026-06-24T05:39:16.601Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "site:hzrs.hangzhou.gov.cn 劳动合同 示范文本",
+    "limit": "10",
+    "vendor": []
+  }
+}
+
+[2026-06-24T05:39:16.601Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "site:hzrs.hangzhou.gov.cn 劳动合同 示范文本",
+    "max_results": 10,
+    "include_answer": false
+  }
+}
+
+[2026-06-24T05:39:18.234Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"劳动合同 示范文本\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[],\"response_time\":0.53,\"request_id\":\"cba50fad-c4b7-410c-a293-efb99ef0486c\"}"
+}
+

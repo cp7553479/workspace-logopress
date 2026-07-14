@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recv9nhRcFS61O": {
+        "fldn5dP24T": [
+          {
+            "file_token": "DlzebdoQ9okfZrxZxLjcAPObnLh",
+            "name": "WG7072_scene_gym_lifestyle_gemini_api.png",
+            "size": 702571
+          },
+          {
+            "file_token": "GteVbyNl3ogeoix2RPUciOpSnuf",
+            "name": "WG7072_selling_point_magnetic_pockets.png",
+            "size": 541590
+          },
+          {
+            "file_token": "MeKlbIOZEo4Q2PxNMIXcvvb0nLh",
+            "name": "WG7072_dimension_diagram.png",
+            "size": 461254
+          }
+        ]
+      }
+    }
+  }
+}

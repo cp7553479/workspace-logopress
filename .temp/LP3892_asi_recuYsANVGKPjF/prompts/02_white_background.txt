@@ -1,0 +1,5 @@
+Create a pure white-background ecommerce product image using the attached clean product reference. Output a professional Amazon-style main product photo, ratio 1:1.
+
+The product must be 100% identical to the reference in all details: wooden cross keychain, rounded cross shape, polished natural wood texture, visible thickness, metal split key ring, short connector chain, and realistic medium brown / dark brown wood tones supported by the reference. Present the product clearly on a pure white background with professional studio lighting, crisp edges, realistic soft shadow, and enough negative space for ecommerce listing use.
+
+No logo on the product, no imprint, no extra graphics, no extra text. Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English if any text is unavoidable, but prefer no text. Do not invent unsupported details. Ratio 1:1.
