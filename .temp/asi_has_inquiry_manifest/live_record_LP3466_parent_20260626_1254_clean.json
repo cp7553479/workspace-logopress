@@ -1,0 +1,64 @@
+{
+  "data": [
+    [
+      "LP3466",
+      "Multi-purpose practical professional kitchen tool meat press",
+      null,
+      "Our meat press forms perfect patties, crispy outside \u0026 tender inside, by evenly pressing out excess fat.Rush service is available.",
+      "Kitchen \u0026 Dining",
+      "black/silver",
+      "Metal",
+      16,
+      16,
+      6,
+      [
+        {
+          "file_token": "C3cpb9YIGoDqlgxXHXGcIS7lnJf",
+          "name": "5661327631759575004954.jpeg",
+          "size": 538797
+        }
+      ],
+      null,
+      null,
+      [
+        "有询单"
+      ]
+    ]
+  ],
+  "field_id_list": [
+    "fldHb6xDKX",
+    "fld8ifVx8f",
+    "fldVQEfx44",
+    "fldwtQtwf5",
+    "fld6YFlAS8",
+    "fldoQQU5d4",
+    "flds2DArkf",
+    "fldmImxGsM",
+    "fldoThqxSN",
+    "fldFAy8Xes",
+    "fldr9B4JZT",
+    "fldzPbQJ2z",
+    "fldn5dP24T",
+    "fldsExhPlC"
+  ],
+  "fields": [
+    "产品编号",
+    "产品名称",
+    "产品简称",
+    "简要说明",
+    "产品类型",
+    "产品颜色",
+    "产品材质",
+    "产品尺寸 长(cm)",
+    "产品尺寸 宽(cm)",
+    "产品尺寸 高(cm)",
+    "参考图片",
+    "白底图",
+    "商品主图",
+    "Mark"
+  ],
+  "has_more": false,
+  "record_id_list": [
+    "recuYsANVG4xl1"
+  ]
+}

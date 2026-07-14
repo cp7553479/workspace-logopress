@@ -1,0 +1,9 @@
+Route: Oracle ChatGPT
+Model: gpt-5.5
+Task: Generate clean no-logo reference image
+Input reference: references/15792376931769406171029.png
+Intended output: outputs/WG7072_clean_no_logo.png
+Result: blocked
+Evidence:
+Oracle reported no images generated. It found a ChatGPT preview artifact, but downloading failed:
+"No images generated. Response text: Thinking / Generating a more detailed image -- hang tight. / Preview / file_00000000b03871f59cd91b379c7dce43: fetch failed"

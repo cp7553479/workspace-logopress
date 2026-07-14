@@ -1,0 +1,5 @@
+Dimension ecommerce image for the same silicone travel squeeze bottle.
+
+Use the attached clean product reference and white-background product image as the only product sources. Create a clean white-background dimension diagram centered on the product, with clear English dimension labels only. Use these exact dimensions and do not invent or alter any value: Length 1.97 inch, Width 1.97 inch, Height 3.7 inch. The product must be 100% identical to the reference in shape, silicone texture, cap, and proportions. Default no logo.
+
+Use a simple professional ecommerce dimension layout. Text is allowed only for the exact dimension labels: "Length 1.97 inch", "Width 1.97 inch", "Height 3.7 inch". No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. Ratio 1:1.

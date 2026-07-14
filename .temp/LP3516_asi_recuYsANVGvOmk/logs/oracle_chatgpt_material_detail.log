@@ -1,0 +1,16 @@
+🧿 oracle 0.14.0 — Detours gone; clarity walks in.
+Using named browser profile default: /Users/vincent/.oracle/browser-profile
+Session: lp3516-material-detail
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session lp3516-material-detail
+Launching browser mode (gpt-5.5) with ~227 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Browser control: launch visible Chrome; may focus/control the browser UI.
+[browser] Browser guidance: Manual-login mode may show the persistent Oracle Chrome profile for sign-in or automation.
+[browser] Browser guidance: Use --browser-hide-window, --browser-attach-running, or --remote-chrome to reduce desktop disruption.
+[browser] Acquired ChatGPT browser slot 9caec195 (3 max).
+[browser] Released ChatGPT browser slot 9caec195.
+ERROR: Attachments did not finish uploading before timeout.
+User error (browser-automation): Attachments did not finish uploading before timeout.

@@ -1,0 +1,2 @@
+Route: Codex gpt-image-2 after Oracle routes blocked/rejected for final ASI images.
+Result: success, generated hero path .temp/LP3389_asi_recuYsANVGFeyD/outputs/LP3389_08_hero_main_codex_LOGO-WT.png; pending visual acceptance.

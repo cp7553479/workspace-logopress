@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "downloaded": [
+      {
+        "content_type": "image/jpeg",
+        "field_id": "fldzPbQJ2z",
+        "file_token": "SJsPbAMQZoPe5txnzhCcU1cgnHg",
+        "name": "white_background_final.jpg",
+        "record_id": "recuYsACVIzGFb",
+        "saved_path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP3166_hero_regen/references/white_background_final.jpg",
+        "size": 259297,
+        "size_bytes": 259297
+      }
+    ]
+  }
+}

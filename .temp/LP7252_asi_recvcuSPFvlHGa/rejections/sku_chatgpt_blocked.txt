@@ -1,0 +1,5 @@
+Image type: SKU chart
+Route: Oracle ChatGPT, model 5.5 Medium
+Output requested: outputs/sku_chatgpt.png
+Result: blocked before image output
+Evidence: The browser run stayed in "Waiting for ChatGPT response" / "Waiting for ChatGPT generated image response" for more than 7 minutes with no thinking status and no saved output; the Oracle process was terminated to prevent an indefinite blocking session.

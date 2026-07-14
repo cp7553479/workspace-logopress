@@ -1,0 +1,32 @@
+[2026-06-26T02:29:57.124Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon plastic clipboard listing images color transparent A4 clipboard product infographic",
+    "limit": "5",
+    "vendor": []
+  }
+}
+
+[2026-06-26T02:29:57.125Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon plastic clipboard listing images color transparent A4 clipboard product infographic",
+    "max_results": 5,
+    "include_answer": false
+  }
+}
+
+[2026-06-26T02:29:59.197Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon plastic clipboard listing images color transparent A4 clipboard product infographic\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/Clipboards-HERKKA-Standard-Transparent-Classroom/dp/B0BG75N6H3\",\"title\":\"Clipboards, HERKKA 25 Pack Plastic Clipboards Low Profile Clip ...\",\"content\":\"Color. Assorted Transparent Color · Material. Plastic, Metal (clip) · Brand. HERKKA · Sheet Size. A4 · Product Dimensions. 12.5\\\"L x 9\\\"W · Item Weight. 4.99 Kilograms.\",\"score\":0.6989468,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Clipboards-Assorted-Transparent-Supplies-Students/dp/B0FH5NQDKC\",\"title\":\"Plastic Clipboards, 6 Assorted Colors Transparent Clip Boards, A4 ...\",\"content\":\"Colorful Transparent Design: Includes 6 vibrant translucent colors – perfect for color-coding and easy visibility of documents. Great for teachers, students\",\"score\":0.67140645,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Clipboards-HERKKA-Standard-Transparent-Classroom/dp/B0BG78BDRQ\",\"title\":\"Amazon.com : Clipboards, HERKKA 15 Pack Upgrade Plastic ...\",\"content\":\"15 Pack Upgrade Plastic Clipboards Low Profile Clip Standard A4 Letter Size, Assorted Transparent Color, for Classroom and Office Use\",\"score\":0.63452125,\"raw_content\":null},{\"url\":\"https://www.amazon.co.za/Clipboards-form-holders/b?ie=UTF8&node=28000840031\",\"title\":\"Clipboards & Form Holders: Office Products - Amazon.co.za\",\"content\":\"Clipboards, HERKKA 25 Pack Plastic Office Clipboards, Assorted Transparent Color Plastic Clipboards, Low Profile Clip Standard A4 Letter Size. R 759.19R75919.\",\"score\":0.6255073,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Clipboards/b?ie=UTF8&node=1069770\",\"title\":\"Clipboards | Shop Amazon.com\",\"content\":\"Dynta Plastic Clipboards A4/Letter Size 8.5x11 Clear Colored Clip Boards Hanging Hard Board for Outdoors Indoors Painting Note-Taking Writing Pads Document\",\"score\":0.55767727,\"raw_content\":null}],\"response_time\":0.96,\"request_id\":\"20640ef6-0a1e-420f-bde5-3a0283fc2eff\"}"
+}
+

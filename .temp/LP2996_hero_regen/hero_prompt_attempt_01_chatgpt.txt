@@ -1,0 +1,17 @@
+Create a square 1:1 ASI/Amazon-style ecommerce hero main image for a picnic crossbody double-layer insulated lunch cooler bag, using the attached product reference images as the exact source of truth.
+
+Professional, beautiful, high-converting Amazon-style ecommerce image, clean premium layout, strong visual hierarchy, attractive lighting, polished commercial poster design, modern typography only if any text is unavoidable. The image should feel like a polished North American promotional product listing main image.
+
+Product must be 100% identical to the reference in all details: rectangular double-layer cooler lunch bag structure, rounded top compartment, front pocket, black zipper tracks, silver zipper pulls, black trim, black adjustable shoulder strap, side clips, Oxford fabric texture, stitching, proportions, and soft insulated bag material. Do not redesign the product, do not add unsupported pockets, handles, hardware, accessories, food, dimensions, or structural features.
+
+Hero composition requirements:
+- Use the white-background product reference to keep all six confirmed colorways accurate: black, blue, red, orange, pink, and wine red.
+- Main product should occupy about 80% of the image and be the largest object on the left/center, ideally using the blue or light-colored bag so the black logo is readable.
+- Show all six confirmed colorways as small product thumbnails or a clean bottom color strip along the bottom: black, blue, red, orange, pink, wine red. Do not omit any color. Do not invent any other color.
+- Optional right-side circular insets may show true details from the reference such as strap clip, fabric texture, zipper/lining, or open insulated interior. Do not use dimension diagrams or size labels.
+- Keep the background pure white or very light neutral ecommerce white with subtle natural shadows.
+
+Logo requirement:
+Use LOGO-BK.png logo file and print it on the printable area of the main product in the hero image. The logo is a LogoPress sample logo and must include the words "YOUR LOGO" on the product imprint area. If the product in the reference image has a logo, replace it with the logo from the logo image file, or with plain text "YOUR LOGO" without any graphic mark; do not show the product's original logo pattern from the reference image. The logo must look naturally printed on the front printable fabric area, not pasted on afterward.
+
+No extra headline, no marketing copy, no product number, no record ID, no internal IDs, no price, no currency, no discount, no QR code, no watermark, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs. No Chinese text. All visible text must be English and limited to the LogoPress sample logo text if it appears. Do not invent unsupported details. Ratio 1:1.

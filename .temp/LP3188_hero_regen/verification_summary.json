@@ -1,0 +1,25 @@
+{
+  "product_number": "LP3188",
+  "reference_tokens": [
+    "GiijbQqXUoIJhxxeNhtcX9Afnof"
+  ],
+  "white_background_tokens": [
+    "RolSbKFXCoCkSLxlyeOc6nkYngd"
+  ],
+  "main_image_tokens": [
+    "CLUgbaJn4owAUKxD1YIc4qzanlb"
+  ],
+  "main_images": [
+    {
+      "file_token": "CLUgbaJn4owAUKxD1YIc4qzanlb",
+      "name": "LP3188_asi_main_hero_regen.png",
+      "size": 978754
+    }
+  ],
+  "checks": {
+    "new_hero_present": true,
+    "old_hero_absent": true,
+    "reference_retained": true,
+    "white_background_retained": true
+  }
+}

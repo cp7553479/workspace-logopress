@@ -1,0 +1,11 @@
+Create one professional, beautiful, high-converting Amazon-style ecommerce HERO / MAIN image for product LP3215.
+
+Use the attached product images as references. The product is a versatile car interior dust removal cleaning soft brush made of black polypropylene with soft bristles. Preserve the real product structure, black color, material, proportions, compact shape, bristle texture, and ergonomic handle. Do not invent extra colors, extra SKUs, extra accessories, sizes, or functions.
+
+Output a square 1:1 image. Use a clean premium white ecommerce layout. The main product should occupy about 80% of the image, with the product large and clear on the left/center. You may include up to three small circular right-side inset images only if they are derived from the attached lifestyle/detail references and help show use, rinsing, or bristle detail; keep all insets small and clean. Do not use any size chart, dimension lines, SKU color strip, price, discount, QR code, watermark, manufacturer mark, supplier mark, platform mark, URL, contact information, or Chinese text.
+
+This is a single verified SKU/color product: black only. Do not show a bottom row of multiple colors and do not create extra color variants.
+
+Use LOGO-WT.png logo file and print it naturally on the printable area of the main product in the hero image. The imprint must clearly show the LogoPress logo reference or plain text "YOUR LOGO" on the product. If the product in any reference image has a logo, brand mark, sample logo, imprint, or original pattern, replace it with the logo from LOGO-WT.png or with plain text "YOUR LOGO" without any graphic mark; do not show the product's original logo pattern from the reference image. The only text allowed in the image is the logo/imprint text on the product itself.
+
+Make the image look like a polished commercial ASI/Amazon main listing image with balanced spacing, attractive lighting, strong visual hierarchy, crisp product edges, realistic shadows, and a clean premium layout. Do not alter the true product design.

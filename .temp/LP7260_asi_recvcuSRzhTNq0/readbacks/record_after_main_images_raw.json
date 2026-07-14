@@ -1,0 +1,312 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "14",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": null,
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": null,
+        "Currency": null,
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": null,
+        "Distributor_View_Only": null,
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": null,
+        "Imprint_Location": null,
+        "Imprint_Method": null,
+        "Imprint_Size": null,
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": null,
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": null,
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": null,
+        "P1": "3.97885714285714",
+        "P10": null,
+        "P2": "3.90651428571428",
+        "P3": "3.83417142857142",
+        "P4": "3.798",
+        "P5": "3.43628571428571",
+        "P6": "3.36394285714285",
+        "P7": "3.32777142857142",
+        "P8": "3.25542857142857",
+        "P9": null,
+        "Packaging": null,
+        "Personalization": null,
+        "Price_Includes": null,
+        "Price_Type": null,
+        "Prod_Image": null,
+        "Product_Color": null,
+        "Product_Name": null,
+        "Product_Number": [
+          {
+            "text": "LP7260",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": null,
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": null,
+        "Q1": "100",
+        "Q10": null,
+        "Q2": "200",
+        "Q3": "500",
+        "Q4": "1000",
+        "Q5": "2000",
+        "Q6": "5000",
+        "Q7": "10000",
+        "Q8": "20000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": null,
+        "Rush_Time": null,
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": null,
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": null,
+        "Shipping_Items": null,
+        "Shipping_Weight": null,
+        "Size_Group": null,
+        "Size_Values": null,
+        "Sold_Unimprinted": null,
+        "Summary": null,
+        "Theme": null,
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG8534",
+        "XID": null,
+        "id": "7337",
+        "record_id": [
+          {
+            "text": "recvcuSRzhTNq0",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary,Mother's Day,Wedding,Love,Collegiate",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Bag Makeup For Travel,\r\nSmall Bags Toiletry Pouch,\r\nCosmetic Purse Women Up Make,\r\nOrganizer Case Toiletries,\r\nPouches Large Cute Bagsmart,\r\nTraveling Pink Cases,\r\nAccessories Makeuo Hygiene,\r\nEssentials Brush Eachy \u0026 Vera,\r\nQuilted Care Skincare Skin,\r\nCosmetiqueras Vanity Smart,\r\nPersonalized Para Parallel,\r\nSaie Cosmetiquera Set,\r\nNecessaire Mini Maquillaje,\r\nWomens Compartments With,\r\nCalpak Organization Bradley",
+        "产品名称": "Portable travel toiletry organizer puffy quilted makeup bag",
+        "产品尺寸 宽(cm)": "16.5",
+        "产品尺寸 长(cm)": "26.5",
+        "产品尺寸 高(cm)": "5.5",
+        "产品材质": "Cotton",
+        "产品简称": null,
+        "产品类型": "Bags \u0026 Luggage",
+        "产品编号": "LP7260",
+        "产品重量(kg)": null,
+        "产品颜色": "white,black,pink,light brown,brown,blue,dark pink,green",
+        "件数/箱": "100",
+        "分类": "COSMETIC BAGS,Bags-General",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "WzEHbO1yso8Ty2xNHJic7gcinQd",
+            "name": "clean_no_logo_reference_oracle_chatgpt.png",
+            "size": 1388882,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=WzEHbO1yso8Ty2xNHJic7gcinQd\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/WzEHbO1yso8Ty2xNHJic7gcinQd/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D"
+          }
+        ],
+        "商品主图": [
+          {
+            "file_token": "JUFJbLvxzoMr5kxazx9cPUWVn2C",
+            "name": "LP7260_lifestyle_scene_oracle_chatgpt.png",
+            "size": 1950988,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=JUFJbLvxzoMr5kxazx9cPUWVn2C\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/JUFJbLvxzoMr5kxazx9cPUWVn2C/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D"
+          },
+          {
+            "file_token": "QHgnb6329o86Cwx5VGGcdxTLnIg",
+            "name": "LP7260_selling_point_capacity_retry_oracle_chatgpt.png",
+            "size": 2054391,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=QHgnb6329o86Cwx5VGGcdxTLnIg\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/QHgnb6329o86Cwx5VGGcdxTLnIg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D"
+          },
+          {
+            "file_token": "Kcdgb2FKPooU2txYllcc9jBtn9g",
+            "name": "LP7260_dimension_chart_oracle_gemini.png",
+            "size": 801199,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=Kcdgb2FKPooU2txYllcc9jBtn9g\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/Kcdgb2FKPooU2txYllcc9jBtn9g/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D"
+          },
+          {
+            "file_token": "BLT7bZmJroJgIQxYWHzcaO7rnGf",
+            "name": "LP7260_material_detail_oracle_chatgpt.png",
+            "size": 2110613,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=BLT7bZmJroJgIQxYWHzcaO7rnGf\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/BLT7bZmJroJgIQxYWHzcaO7rnGf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D"
+          },
+          {
+            "file_token": "MbBLbKtYVoQrecxRTddcdG7CnFb",
+            "name": "LP7260_sku_chart_oracle_gemini.png",
+            "size": 727591,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=MbBLbKtYVoQrecxRTddcdG7CnFb\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/MbBLbKtYVoQrecxRTddcdG7CnFb/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D"
+          },
+          {
+            "file_token": "HmDBbxco7oVWE9x2u1mcG71Wnbc",
+            "name": "LP7260_hero_main_oracle_chatgpt_LOGO-BK.png",
+            "size": 1844119,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=HmDBbxco7oVWE9x2u1mcG71Wnbc\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/HmDBbxco7oVWE9x2u1mcG71Wnbc/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D"
+          }
+        ],
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "Etsy-化妆包信封腋下包",
+        "完整描述": "This cosmetic bag features a trendy puffy quilted design, blending stylish aesthetics with practical storage for all your cosmetics and toiletries. It boasts a spacious main compartment that offers ample room to organize makeup, brushes, skincare products and daily beauty essentials. With a compact build and smooth top zipper closure, it's incredibly convenient to carry - easily slipping into your purse, travel luggage, gym bag or tote for on-the-go use, no messy spills or lost items. Ultra-versatile for all scenarios, it works perfectly as a travel toiletry bag, an everyday makeup organizer for home and outings, or even a chic clutch for special occasions, matching any style effortlessly. A fantastic gift choice for occasions such as birthdays, Mother's Day, or Valentine's Day.",
+        "来源(1688)": "https://detail.1688.com/offer/798029135011.html?fromkv=cbuPcPlugin:imageSearchDrawerCard\u0026spm=a2639h.29135425.offerlist.i0\u0026source=action%23offerItem%3Borigin%23www.etsy.com\u0026amug_biz=oneself\u0026amug_fl_src=awakeId_982",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": [
+          {
+            "file_token": "D4eGbpSK8oJ4b1xTtv4cEbfhn6m",
+            "name": "white_background_oracle_gemini.png",
+            "size": 819564,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=D4eGbpSK8oJ4b1xTtv4cEbfhn6m\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/D4eGbpSK8oJ4b1xTtv4cEbfhn6m/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5106%7D%7D"
+          }
+        ],
+        "简要说明": "This puffy quilted cosmetic bag offers stylish, spill-proof organization for your essentials on the go. Rush service is available.",
+        "箱子尺寸 宽(cm)": "40",
+        "箱子尺寸 长(cm)": "50",
+        "箱子尺寸 高(cm)": "40",
+        "货代大货参考定价基准（30%毛利）": 3.54,
+        "货代大货起订量标准": 113,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "10"
+      },
+      "id": "recvcuSRzhTNq0",
+      "record_id": "recvcuSRzhTNq0"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

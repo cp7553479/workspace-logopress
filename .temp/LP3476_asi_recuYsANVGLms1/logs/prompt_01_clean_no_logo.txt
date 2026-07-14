@@ -1,0 +1,7 @@
+Create a clean no-logo product reference image from the attached reference image.
+
+Keep the product 100% identical to the reference in all product details: a lightweight golf stand bag with blue nylon body, black base and black hardware, white side panel, cord detail, handle, shoulder strap, top opening, pocket, zippers, and fold-out stand legs. Preserve the same real product structure, proportions, material texture, color, angle, lighting, shadows, detail callouts, and the visible color/SKU variants shown in the reference image.
+
+Remove all visible logo artwork and sample imprint from the product, including the "YOUR LOGO" text and the graphic mark on the blue bag. Do not replace it with any new logo or text. The cleaned product area should look like plain blue nylon fabric while preserving texture and natural shading.
+
+No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English if any text remains. Do not invent unsupported details. Ratio 1:1.

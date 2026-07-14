@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recvcuSN91rpv1": {
+        "fldn5dP24T": [
+          {
+            "file_token": "UJ7EbzgGgouivlxUikDc1joKn6C",
+            "name": "hero_retry_oracle_chatgpt.png",
+            "size": 1486636
+          },
+          {
+            "file_token": "YoU9bVMKborNH0x17oSci7oLn5g",
+            "name": "lifestyle_scene_oracle_chatgpt.png",
+            "size": 2235482
+          },
+          {
+            "file_token": "MWVrb5zgRorKU0xuM3XcttZPn4f",
+            "name": "sku_chart_oracle_gemini.png",
+            "size": 1109596
+          },
+          {
+            "file_token": "JJBAb2eOfoUUDjxdmYwchV7an8g",
+            "name": "material_detail_oracle_chatgpt.png",
+            "size": 1408540
+          },
+          {
+            "file_token": "OXyAbya6MofSUrxxhi3cqMtGnDf",
+            "name": "dimension_retry_oracle_chatgpt.png",
+            "size": 1065351
+          },
+          {
+            "file_token": "EiMCbrbdNoPV0dxfPxachwICnCb",
+            "name": "selling_point_retry_oracle_chatgpt.2.png",
+            "size": 1518251
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

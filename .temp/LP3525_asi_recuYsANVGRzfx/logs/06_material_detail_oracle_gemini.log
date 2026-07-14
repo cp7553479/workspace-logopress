@@ -1,0 +1,20 @@
+🧿 oracle 0.14.0 — Quiet prompt, thunderous answers.
+Using named browser profile default: /Users/vincent/.oracle/browser-profile
+Using Gemini web client for browser automation
+Session: create-a-profession-material-and
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session create-a-profession-material-and
+Launching browser mode (gemini-3.5-flash) with ~254 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Model selection evidence: requested=gemini-3.5-flash; resolved=(unavailable); status=unavailable; strategy=select; verified=no.
+Answer:
+http://googleusercontent.com/image_generation_content/295
+
+
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/LP3525_asi_recuYsANVGRzfx/outputs/LP3525_06_material_detail_oracle_gemini.png*
+
+37.1s · gemini-3.5-flash[browser] · ↑254 ↓15 ↻0 Δ269
+files=2

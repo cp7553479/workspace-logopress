@@ -1,0 +1,5 @@
+Image type: hero main image
+Route: Oracle Gemini, model gemini-3.5-flash
+Output: outputs/hero_gemini.png
+Result: rejected after visual review
+Reason: The generated image changes the product into a different cylindrical clip-on flashlight shape, loses the flat silicone nurse-light structure from the reference, adds unsupported button/lens details, and contains tiny unreadable extra labels on the bottom SKU products.

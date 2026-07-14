@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP7010",
+        [
+          {
+            "file_token": "STjpbaVI3ocjJaxGfHXcFsoVnJh",
+            "name": "clean_no_logo_reference.png",
+            "size": 1786484
+          }
+        ],
+        [
+          {
+            "file_token": "RIsybK3TroxnTwxX9OecwylBnue",
+            "name": "white_background.png",
+            "size": 1003190
+          }
+        ],
+        [
+          {
+            "file_token": "BOjJbXjuCoZhvcxmMO7cPNbvnif",
+            "name": "lifestyle_scene.png",
+            "size": 2013085
+          },
+          {
+            "file_token": "Ecu9bXgbDoarnRxdkdPcV4SfnQd",
+            "name": "selling_point.png",
+            "size": 1073475
+          },
+          {
+            "file_token": "NrDUbJAkaoKhDcxaqAdcqVKgnaf",
+            "name": "dimensions.png",
+            "size": 1673436
+          },
+          {
+            "file_token": "OWILbfoXPospJ1xfkgOcUcClnOb",
+            "name": "material_detail.png",
+            "size": 1052408
+          },
+          {
+            "file_token": "FhSLbxNqgoKNcexRuQccAISWnTd",
+            "name": "hero_main.png",
+            "size": 1886121
+          }
+        ],
+        [
+          "有询单"
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fldsExhPlC"
+    ],
+    "fields": [
+      "产品编号",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "Mark"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recv6hAEbSKu4Q"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

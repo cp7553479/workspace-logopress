@@ -1,0 +1,10 @@
+Accepted LP7013_07c_hero_main_oracle_chatgpt_LOGO-WT.png.
+
+Acceptance checks:
+- Generated through Oracle ChatGPT browser route with current product references and LOGO-WT.png.
+- Square 1:1 output, 1254 x 1254.
+- Main product is a black PU leather luggage tag shown from the solid blank back side.
+- No front ID-card window on the main product and no readable personal-information labels.
+- Logo imprint includes the supplied LOGO-WT visual mark and "YOUR LOGO" text.
+- Includes all ten supported color variants at the bottom: Yellow, Light Blue, Purple, Black, Gray, Pink, Brown, Dark Blue, Beige, Red.
+- No price, QR code, watermark, supplier/manufacturer/platform/contact/URL text, Chinese text, or dimension markings.

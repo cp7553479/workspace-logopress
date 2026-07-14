@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsANVGejGE": {
+        "fldn5dP24T": [
+          {
+            "file_token": "SIX2bpnU0oADlzxFg7TcQurRnje",
+            "name": "LP3444_scene_party_v2.png",
+            "size": 2219436
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

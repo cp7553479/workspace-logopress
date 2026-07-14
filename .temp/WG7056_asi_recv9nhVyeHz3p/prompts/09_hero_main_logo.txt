@@ -1,0 +1,13 @@
+Create the final hero main ecommerce image for women's high-waist seamless workout shorts.
+
+Use the attached product reference images as the source of truth for the shorts. The product must match the reference exactly: nylon seamless activewear shorts, high waistband, ribbed fabric texture, scrunch/glute contour seam, short leg length, stitched edges, and compression fit.
+
+Hero composition: 1:1 Amazon-style main image with a clean premium white background. The main product takes about 80% of the image. Show the bright pink shorts large on the left/center as the dominant product hero. Add up to three small circular detail/lifestyle insets on the right only if they are clean and relevant; do not include size diagrams, dimension arrows, text callouts, color labels, or extra text in those insets.
+
+Logo rule: Use LOGO-WT.png logo file and print it naturally on the printable area of the main product in the hero image. The logo is a LogoPress logo demonstration and must include the words "YOUR LOGO". If the product in the reference image has a logo, replace it with the logo from the logo image file, or with plain text "YOUR LOGO" without any graphic mark; do not show the product's original logo pattern from the reference image. Do not add any other text.
+
+SKU strip: The product has these fifteen reliable color options from the product record and accepted SKU references: Black, Blue, Orange, Pink, Dark Green, Dark Pink, Brown, Green, Gray, Light Pink, White, Red, Dark Brown, Purple, Burgundy. Show all fifteen colors as small clean product thumbnails or color swatches along the bottom in a neat strip. Do not omit, duplicate, rename, or add colors. Do not add color labels or other text to the SKU strip.
+
+Visual style: professional, beautiful, high-converting Amazon-style ecommerce image, clean premium layout, strong visual hierarchy, attractive lighting, polished commercial poster design, modern typography. Keep the hero polished, commercial, and high-end.
+
+Hard constraints: Product must be 100% identical to reference in all details (shape, texture, parts). When a logo is required, follow the specified logo file. No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English except the logo words "YOUR LOGO". Do not invent unsupported details. Ratio 1:1.

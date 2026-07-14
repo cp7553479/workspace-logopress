@@ -1,0 +1,451 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "4",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": [
+          {
+            "text": "Virtual Proof:FREE",
+            "type": "text"
+          }
+        ],
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": [
+          "optEYMsQkL",
+          "optUeZSXS1"
+        ],
+        "Currency": [
+          {
+            "text": "USD",
+            "type": "text"
+          }
+        ],
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": [
+          {
+            "text": "This reusable travel tumbler carrier holder pouch is crafted from high-quality neoprene, offering durability and eco-friendliness for environmentally conscious users. It provides excellent insulation, keeping both hot and cold beverages at optimal temperatures, making it ideal for iced coffee in summer or warm drinks in winter. The versatile design fits various cup sizes snugly, ensuring a secure and comfortable grip. Its lightweight and portable nature makes it perfect for home, office, or on-the-go use like travel, camping, or classroom settings. With a sleek, modern style, it adds a touch of flair to your drink. Suitable for promotional purposes, it can be customized with logos, making it a great wholesale or bulk branded item. Compatible with popular bottle types, this neoprene sleeve is a practical and sustainable accessory for anyone needing to keep their drinks at the right temperature while on the move. Rush service is available for quick fulfillment.",
+            "type": "text"
+          }
+        ],
+        "Distributor_View_Only": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": [
+          {
+            "text": "Standard Colors",
+            "type": "text"
+          }
+        ],
+        "Imprint_Location": [
+          {
+            "text": "Centered on Front or as you request",
+            "type": "text"
+          }
+        ],
+        "Imprint_Method": null,
+        "Imprint_Size": [
+          {
+            "text": "2\" x 2\" or custom size",
+            "type": "text"
+          }
+        ],
+        "Item_Weight": null,
+        "Keywords": [
+          {
+            "text": "Insulated Sleeve,Reusable Holder,Thermal Protection,Beverage Insulator,Drink Cover,Cup Protector,Heat Retention,Cold Retention,Temperature Control,Eco-Friendly Accessory,Sustainable Product,Durable Material,Versatile Fit,Snug Grip,Secure Hold,Modern Design,Sleek Style,Home Use,Office Accessory,Travel Essential,Daily Companion,Summer Drink,Winter Warmth,Hot Beverage,Cold Drink,Iced Coffee,Tea Time,On-The-Go,Gift Idea,Practical Solution",
+            "type": "text"
+          }
+        ],
+        "Less_Than_Min": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": [
+          "optoYfLULy"
+        ],
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": [
+          {
+            "text": "China",
+            "type": "text"
+          }
+        ],
+        "P1": "1.39",
+        "P10": null,
+        "P2": "1.36934619428571",
+        "P3": "1.34398793142857",
+        "P4": "1.3313088",
+        "P5": "1.20451748571428",
+        "P6": "1.17915922285714",
+        "P7": "1.16648009142857",
+        "P8": "1.14112182857142",
+        "P9": null,
+        "Packaging": [
+          "optp7Y2PWQ",
+          "optkUxW5wQ",
+          "optvoSJKKO",
+          "optOtKqStI"
+        ],
+        "Personalization": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Price_Includes": [
+          {
+            "text": "1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs",
+            "type": "text"
+          }
+        ],
+        "Price_Type": [
+          {
+            "text": "Net",
+            "type": "text"
+          }
+        ],
+        "Prod_Image": null,
+        "Product_Color": [
+          "optEcmnFvK"
+        ],
+        "Product_Name": [
+          {
+            "text": "Reusable Neoprene Tumbler Sleeve with Insulation for Hot \u0026 Cold Drinks",
+            "type": "text"
+          }
+        ],
+        "Product_Number": [
+          {
+            "text": "LP3440",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": [
+          {
+            "text": "8:days",
+            "type": "text"
+          }
+        ],
+        "Q1": "100",
+        "Q10": null,
+        "Q2": "200",
+        "Q3": "500",
+        "Q4": "1000",
+        "Q5": "2000",
+        "Q6": "5000",
+        "Q7": "10000",
+        "Q8": "20000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Rush_Time": [
+          {
+            "text": "5:days",
+            "type": "text"
+          }
+        ],
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": [
+          {
+            "text": "Length:20.47:in;Width:12.6:in;Height:12.6:in",
+            "type": "text"
+          }
+        ],
+        "Shipping_Items": [
+          {
+            "text": "100:per Case",
+            "type": "text"
+          }
+        ],
+        "Shipping_Weight": [
+          {
+            "text": "17.64:lbs",
+            "type": "text"
+          }
+        ],
+        "Size_Group": [
+          {
+            "text": "Dimension",
+            "type": "text"
+          }
+        ],
+        "Size_Values": [
+          {
+            "text": "Length:7.28:in;Width:2.76:in;Height:2.76:in",
+            "type": "text"
+          }
+        ],
+        "Sold_Unimprinted": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Summary": [
+          {
+            "text": "High-quality neoprene reusable tumbler sleeve with insulation for hot/cold drinks, fits various sizes, ideal for travel/camping, customizable for promotions.",
+            "type": "text"
+          }
+        ],
+        "Theme": [
+          "optRqRtuCw",
+          "optxUNprOg",
+          "optQQF8hG1",
+          "optSawrdTu"
+        ],
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG3497",
+        "XID": null,
+        "id": "3529",
+        "record_id": [
+          {
+            "text": "recuYsANVGf0pF",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary\nSustainable\nTravel\nEntertainment\nChristmas",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Reusable Coffee Drink,\r\nCover Insulation Cup Sleeve,\r\nHolder Water Bottle Cirkul,\r\nKoozies 16.9 Oz Insulator,\r\nSleeves For Cold Drinks Glass,\r\nNeoprene Cooler Cozy Koozie,\r\nInsulated Bottles Coozie,\r\nCovers Plastic 16 20 Soda,\r\nSilicone Protector With,\r\nAccessories Chill 22,\r\nClassroom Strap Camping Wraps,\r\nHolders 32 22oz Desk Small 12,\r\n64 Hydroflask Traveling Vinyl,\r\nTravel Walking Baby 18 18oz,\r\nCompatible Cirkuwater 280ml,\r\n30oz Circular Black Boot 32oz,\r\nOz. A All Bikini Blue Botl,\r\nSok Bottom Carrying Cooling,\r\n18x12 Insulating Zipper,\r\nProtective Bottlecober Bucket,\r\nCiomfleire 2pcs Circle And,\r\nLid Blue. Sleev Rubber One,\r\nPink Handle Bottlesleeve,\r\nCirkup Base Buckle Funup",
+        "产品名称": "Reusable travel tumbler carrier holder pouch neoprene sleeve",
+        "产品尺寸 宽(cm)": "7",
+        "产品尺寸 长(cm)": "18.5",
+        "产品尺寸 高(cm)": "7",
+        "产品材质": "Neoprene",
+        "产品简称": null,
+        "产品类型": "Party Supplies",
+        "产品编号": "LP3440",
+        "产品重量(kg)": null,
+        "产品颜色": "custom color",
+        "件数/箱": "100",
+        "分类": "Holders-Beverage Container-Sleeve Type/Covers-General",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "QrT7bnPX8oDp2TxV8XrcrGFCnSh",
+            "name": "LP3440_clean_no_logo_oracle_chatgpt.png",
+            "size": 1740266,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=QrT7bnPX8oDp2TxV8XrcrGFCnSh\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/QrT7bnPX8oDp2TxV8XrcrGFCnSh/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D"
+          }
+        ],
+        "商品主图": [
+          {
+            "file_token": "I40YbAtgGo98WVxBedFcK54rnGh",
+            "name": "LP3440_scene_oracle_chatgpt.png",
+            "size": 2377225,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=I40YbAtgGo98WVxBedFcK54rnGh\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/I40YbAtgGo98WVxBedFcK54rnGh/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D"
+          },
+          {
+            "file_token": "FtKIb29rEovs4uxWTH0cRBBynGd",
+            "name": "LP3440_selling_point_oracle_chatgpt_retry.png",
+            "size": 1979497,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=FtKIb29rEovs4uxWTH0cRBBynGd\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/FtKIb29rEovs4uxWTH0cRBBynGd/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D"
+          },
+          {
+            "file_token": "A6lfbRpHWoUxbJxZAYEcl8Ubnks",
+            "name": "LP3440_dimension_oracle_gemini.png",
+            "size": 898313,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=A6lfbRpHWoUxbJxZAYEcl8Ubnks\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/A6lfbRpHWoUxbJxZAYEcl8Ubnks/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D"
+          },
+          {
+            "file_token": "ZpNxbDlnuoxvgWx5ReMc64uZnzf",
+            "name": "LP3440_material_sku_oracle_chatgpt.png",
+            "size": 2254146,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=ZpNxbDlnuoxvgWx5ReMc64uZnzf\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/ZpNxbDlnuoxvgWx5ReMc64uZnzf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D"
+          },
+          {
+            "file_token": "GnDQbm4rPoSRd0xb2mJcJvaxnHY",
+            "name": "LP3440_hero_oracle_chatgpt_retry.png",
+            "size": 2032715,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=GnDQbm4rPoSRd0xb2mJcJvaxnHY\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/GnDQbm4rPoSRd0xb2mJcJvaxnHY/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D"
+          }
+        ],
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "[\"杯子配件\"]",
+        "完整描述": "Made from high quality neoprene material, this cup sleeve is designed to be reusable, making it an eco - friendly choice for the environmentally conscious consumers. Whether you're a fan of iced coffee on a hot summer day or prefer to keep your hot drinks warm during the chilly winter months, this cup sleeve has got you covered. It provides excellent insulation for both hot and cold beverages, ensuring that your drink stays at the perfect temperature for longer. The cup sleeve is specifically designed to fit a wide variety of cup sizes, making it extremely versatile. It snugly wraps around your cup, providing a comfortable and secure grip. With its sleek and modern design, it adds a touch of style to your drink. It's perfect for use at home, in the office, or on the go.",
+        "来源(1688)": "https://detail.1688.com/offer/811164537515.html?spm=a2639h.29135425.offerlist.i10\u0026source=action%23offerItem%3Borigin%23espweb.asicentral.com",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": [
+          {
+            "file_token": "FcEsbNDg5oAgNfxqyCgc4IBwnff",
+            "name": "LP3440_white_background_oracle_gemini.png",
+            "size": 1076544,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=FcEsbNDg5oAgNfxqyCgc4IBwnff\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/FcEsbNDg5oAgNfxqyCgc4IBwnff/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5052%7D%7D"
+          }
+        ],
+        "简要说明": "Lightweight design makes it extremely portable, enabling you to carry it with ease anywhere. Rush service is availble.",
+        "箱子尺寸 宽(cm)": "32",
+        "箱子尺寸 长(cm)": "52",
+        "箱子尺寸 高(cm)": "32",
+        "货代大货参考定价基准（30%毛利）": 1.27,
+        "货代大货起订量标准": 170,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "8"
+      },
+      "id": "recuYsANVGf0pF",
+      "record_id": "recuYsANVGf0pF"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

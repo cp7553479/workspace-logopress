@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recv9nhU57zZXK": {
+        "fldzPbQJ2z": [
+          {
+            "file_token": "BOMvbv13Wovj9WxWtMrcUQ1Cndf",
+            "name": "WG7067_white_background_strict.png",
+            "size": 1444196
+          },
+          {
+            "file_token": "VVwkbHDEYoHckexSn80c2An2nVd",
+            "name": "WG7067_white_background_replacement_oracle_gemini.png",
+            "size": 574694
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+Create a selling-point ecommerce poster image for women's high-waist seamless workout shorts.
+
+Use the attached product reference images as the only source of truth for the shorts. The product must match the reference exactly: bright pink nylon seamless activewear shorts, high waistband, ribbed fabric texture, scrunch/glute contour seam, short leg length, stitched edges, and compression fit.
+
+Main benefit to communicate: breathable nylon fabric supports movement and helps keep the wearer cool and comfortable during intense workouts.
+
+Composition: a polished Amazon-style product infographic/poster with the shorts as the visual hero, clean athletic background accents, subtle breathable fabric airflow cues, and close product visibility. Use modern English typography only for short benefit copy, such as "Breathable Comfort" and "Moves With You". Do not add unsupported icons, certifications, prices, discount claims, or brand names.
+
+Visual style: professional, beautiful, high-converting Amazon-style ecommerce image, clean premium layout, strong visual hierarchy, attractive lighting, polished commercial poster design, modern typography.
+
+Hard constraints: Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English. Do not invent unsupported details. Ratio 1:1.

@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recvcuSUP2Feni": {
+        "fldn5dP24T": [
+          {
+            "file_token": "FFAobyu9ho2TBOxOR0vcqjMgnyf",
+            "name": "LP7270_hero_main.png",
+            "size": 2091216
+          },
+          {
+            "file_token": "UKeablHA9o7281xCbMZcMfUrnvc",
+            "name": "LP7270_lifestyle_scene.png",
+            "size": 2137288
+          },
+          {
+            "file_token": "PgEWbuaoNouxeyx4vlScjyT4n79",
+            "name": "LP7270_selling_point.png",
+            "size": 1344957
+          },
+          {
+            "file_token": "OGX3bxIKKoNhDKxDGZhc85vGnyd",
+            "name": "LP7270_dimension.png",
+            "size": 1463176
+          },
+          {
+            "file_token": "RaWQb6h44oX40fxHfnlcUEyNnof",
+            "name": "LP7270_material_detail_v2.png",
+            "size": 1973082
+          },
+          {
+            "file_token": "MMDbbbG8VoTmdxxzPB4cI3fEnJh",
+            "name": "LP7270_sku_chart_codex.png",
+            "size": 1393736
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

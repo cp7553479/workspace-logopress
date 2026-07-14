@@ -1,0 +1,13 @@
+Create a 1:1 hero main ecommerce image for the exact product in the reference images: a silver / bright silver stainless steel double-wall party camp beer drinking cup with a hammered wavy texture.
+
+Use the clean product reference, white-background reference, and supporting generated images as strict source images. Product must be 100% identical to reference in all details: tapered cup shape, rounded rim, brushed stainless steel surface, hammered wavy texture, silver color, proportions, and material. Do not add a handle, lid, straw, packaging, alternate color, or extra SKU.
+
+Hero layout requirements: the main product should occupy about 80% of the image, placed in the largest left/center area on a clean white premium ecommerce background. Add the LogoPress logo from LOGO-BK.png naturally printed on the printable upper front area of the main product. Use LOGO-BK.png logo file and print it on the printable area of the main product in the hero image. The visible logo text "YOUR LOGO" must be present as part of the LogoPress logo demonstration.
+
+If the product in the reference image has a logo, replace it with the logo from the logo image file, or with plain text "YOUR LOGO" without any graphic mark; do not show the product's original logo pattern from the reference image. Do not keep, duplicate, or combine any sample logo from the source product.
+
+Important: do not add any text anywhere except the "YOUR LOGO" logo demonstration printed on the cup. Do not add labels, callout words, icons, badges, snowflake icons, feature text, title text, dimension lines, dimension numbers, SKU color charts, or captions. If using small circular inset images on the right side, they must be image-only with no text and no icons; it is also acceptable to use no inset images.
+
+No extra headline or marketing copy. Professional, beautiful, high-converting Amazon-style ecommerce image, clean premium layout, strong visual hierarchy, attractive lighting, polished commercial poster design, balanced spacing.
+
+No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. Do not invent unsupported details. Ratio 1:1.

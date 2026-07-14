@@ -1,0 +1,5 @@
+Generate a pure white-background ecommerce main product photo.
+
+Use the attached clean no-logo reference image as the only source of product truth. Show the silver stainless steel double-layer wine chiller / ice bucket clearly on a pure white background with professional studio lighting, realistic brushed metal reflections, soft natural shadow, and a premium Amazon-style product photography angle. Preserve the exact cylindrical shape, open top, double-wall stainless steel material, proportions, and visible inner structure. Do not include a logo, sample imprint, extra accessories, dimensions, labels, or marketing text.
+
+Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English if any text is unavoidable, but preferably no text. Do not invent unsupported details. Ratio 1:1.

@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "downloaded": [
+      {
+        "content_type": "image/png",
+        "field_id": "fldr9B4JZT",
+        "file_token": "K8kYbImSSoKikixXN6mcKku2n3e",
+        "name": "cleaned_reference_oracle_gpt.png",
+        "record_id": "recuYsACVIpU8x",
+        "saved_path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP3105_hero_regen/references/clean_reference.png",
+        "size": 2085270,
+        "size_bytes": 2085270
+      }
+    ]
+  }
+}

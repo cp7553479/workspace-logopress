@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP2999",
+        "7 inch rectangular DIY couple memorial wooden photo frame",
+        [
+          {
+            "file_token": "D7KrbYbjjoB3EXxED7yc5TTFngg",
+            "name": "clean_reference.png",
+            "size": 977433
+          }
+        ],
+        [
+          {
+            "file_token": "AuLHb1R8boh9BXxsoQTcUToKnMb",
+            "name": "lp2999_white_background.png",
+            "size": 695826
+          }
+        ],
+        [
+          {
+            "file_token": "WbbTb1CVvowdR8xPSBRc2lqlnUf",
+            "name": "lp2999_scene.png",
+            "size": 1783250
+          },
+          {
+            "file_token": "EL3XbsMqeoPYeDx7GnPcDhzNngh",
+            "name": "lp2999_selling_point_v2.png",
+            "size": 1519610
+          },
+          {
+            "file_token": "LhT8bHPCKoGBGtxwqATcLXhhn2d",
+            "name": "lp2999_dimensions.png",
+            "size": 617311
+          },
+          {
+            "file_token": "UDvmbslWsorILKxlVeucVo3znnh",
+            "name": "lp2999_material_detail.png",
+            "size": 1521276
+          },
+          {
+            "file_token": "GbqLb2p9qozBcfx1zPgcmbYynNc",
+            "name": "lp2999_hero_oracle_chatgpt.png",
+            "size": 1265565
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fld8ifVx8f",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "产品编号",
+      "产品名称",
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsACVIbm5I"
+    ]
+  }
+}

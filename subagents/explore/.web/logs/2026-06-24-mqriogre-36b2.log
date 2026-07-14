@@ -1,0 +1,30 @@
+[2026-06-24T03:31:52.154Z] cli.command
+{
+  "command": "fetch",
+  "args": {
+    "urls": [
+      "https://www.tianqi.com/hangzhou/7/"
+    ],
+    "waitUntil": "load",
+    "screenshot": false
+  }
+}
+
+[2026-06-24T03:31:52.154Z] http.request
+{
+  "url": "https://r.jina.ai/http://www.tianqi.com/hangzhou/7/",
+  "method": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "Authorization": "Bearer j****"
+  },
+  "body": null
+}
+
+[2026-06-24T03:32:00.974Z] http.response
+{
+  "url": "https://r.jina.ai/http://www.tianqi.com/hangzhou/7/",
+  "statusCode": 200,
+  "body": "{\"code\":200,\"status\":20000,\"data\":{\"title\":\"杭州天气预报7天\",\"description\":\"杭州天气网为您提供杭州一周天气预报查询，杭州未来一周天气，杭州天气预报一周，杭州7天天气查询，及时了解杭州天气预报并且为用户提供生活指数、健康指数、旅游攻略、交通出行、空气质量指数,助您放心出行旅游。\",\"url\":\"http://www.tianqi.com/hangzhou/7/\",\"content\":\"*   [![Image 1](http://picview.iituku.com/content/20250930/Ez0LZlwI5M8iu4KGQk849yPQ.jpg)### 广东国庆天气先热后雨 5-6日风雨来袭 未来几天，广东受副热带高压控制，天气以晴热为主。具体来看，9月30日，西部市县多云间有雷阵雨，其余地区晴到多云，局部有雷阵雨。10月1日至4日，全省大部分市县晴到多云，局部地区可能有雷阵雨，白天气温较高。 2025-09-30](https://www.tianqi.com/news/343346.html \\\"广东国庆天气先热后雨 5-6日风雨来袭\\\")\\n*   [![Image 2](http://picview.iituku.com/content/20250928/Zg03ThGcQ6ALqcka8G95k1B6.jpg)### 台风“博罗依”逼近海南南部 强风雨天气持续至29日 未来两天，台风影响将持续。陆地方面，28日全市阴天有暴雨到大暴雨、局部特大暴雨；29日转为多云间阴天，有中雨到大雨、局部暴雨。28日至29日，内陆地区阵风9～10级，沿海地区阵风11～12级。 2025-09-28](https://www.tianqi.com/news/343340.html \\\"台风“博罗依”逼近海南南部 强风雨天气持续至29日\\\")\\n*   [![Image 3](http://content.pic.tianqistatic.com/content/toutiao/img/202509/11/084bfeac8a737d8e.jpg)### 上海外滩酒店江景大床房 国庆旅游提前预约 上海外滩璞硯酒店外滩江景大床房1晚，过期可退，不约可退，提前1天预约，有效期到2025/12/30日离店，部分日期可能不适用。 2026-06-24](https://t.ctrip.cn/BlN93i3 \\\"上海外滩酒店江景大床房 国庆旅游提前预约\\\")\\n*   [![Image 4](http://picview.iituku.com/content/20250926/ePBrkrEh72KGfrlxaUDNzEev.jpg)### 台风“博罗依”将进入南海 海南白天各地均有雷阵雨天气 根据最新气象数据，“博罗依”将于27日凌晨正式进入南海东部海域，随后向西北方向移动，强度持续增强。气象部门预测，该台风最强可能达到台风级，需重点监测其是否会登陆或掠过海南岛，沿海居民及游客需提高警惕。 2025-09-26](https://www.tianqi.com/news/343335.html \\\"台风“博罗依”将进入南海 海南白天各地均有雷阵雨天气\\\")\\n*   [![Image 5](http://picview.iituku.com/content/20250922/8BrmDqSekJTB0cZiC5yMfA4u.jpg)### 台风“桦加沙”携强风雨来袭 华南华东将迎极端天气 今天起，超强台风“桦加沙”将开始影响我国，今起四天（9月22日至25日），华南、华东多地将陆续迎来强风雨天气。同时，华西至黄淮地区降雨持续，四川、陕西、河南、山东将先后出现暴雨，公众需提前做好防御准备。 2025-09-22](https://www.tianqi.com/news/343321.html \\\"台风“桦加沙”携强风雨来袭 华南华东将迎极端天气\\\")\\n*   [![Image 6](http://content.pic.tianqistatic.com/content/toutiao/img/202509/11/352fd2ce33b5b3be.jpg)### 沈阳+长春+长白山+哈尔滨7日游怎么玩？ 沈阳+长春+长白山+哈尔滨7日6晚跟团游，【仙境长白·穿越旅拍】老有意思，旅行团满15人升级陆地头等舱+20人封顶，『朝鲜族尚宫娘娘&沈阳故宫满清风“嬛嬛”体验装，区间动车衔接，温泉泡汤+营地火锅+漂流+船游+UTV+射箭等项目。 2026-06-24](https://t.ctrip.cn/9YUosHn \\\"沈阳+长春+长白山+哈尔滨7日游怎么玩？\\\")\\n*   [![Image 7](http://picview.iituku.com/content/20250918/T8eWMBeu8hFViQs7FcH9buUe.jpg)### 台风“米娜”生成在即 广东将迎强风雨天气需警惕 广东今日天气呈现明显分化。中北部市县以晴到多云为主，最高气温维持在34～36℃，天气炎热；南部市县则受热带系统影响，雷阵雨增多，局部地区雨势较大，需注意防范短时强降水带来的影响。 2025-09-18](https://www.tianqi.com/news/343316.html \\\"台风“米娜”生成在即 广东将迎强风雨天气需警惕\\\")\\n*   [![Image 8](http://picview.iituku.com/content/20250916/kT0NxEHtHkOv6nVblntepSp4.jpg)### 北京今天以多云天气为主 阵风6至7级 北京今日（9月16日）以多云天气为主，早晨至白天风力明显增大。根据气象部门监测，今天白天北风三四级，阵风可达六七级，山区还可能出现短时阵雨。受此影响，白天最高气温预计26℃左右，夜间气温将快速下降至15℃。 2025-09-16](https://www.tianqi.com/news/343311.html \\\"北京今天以多云天气为主 阵风6至7级\\\")\\n*   [![Image 9](http://content.pic.tianqistatic.com/content/toutiao/img/202509/11/352fd2ce33b5b3be.jpg)### 沈阳+长春+长白山+哈尔滨7日游怎么玩？ 沈阳+长春+长白山+哈尔滨7日6晚跟团游，【仙境长白·穿越旅拍】老有意思，旅行团满15人升级陆地头等舱+20人封顶，『朝鲜族尚宫娘娘&沈阳故宫满清风“嬛嬛”体验装，区间动车衔接，温泉泡汤+营地火锅+漂流+船游+UTV+射箭等项目。 2026-06-24](https://t.ctrip.cn/9YUosHn \\\"沈阳+长春+长白山+哈尔滨7日游怎么玩？\\\")\\n*   [![Image 10](http://picview.iituku.com/content/20250905/5Twn5to4ULF3W7oKXZNWaw3n.jpg)### 四川陕西河南湖北等多地将遇较强降水 部分区域有大暴雨并伴强对流天气 9 月 5 日至 6 日，四川盆地、陕西中南部等多地有中到大雨（局地暴雨，陕西中南部等有大暴雨），部分地区伴短时强降水、雷暴大风或冰雹。政府需部署防汛防对流，公众少外出避危险，户外作业暂停，农户护作物。 2025-09-05](https://www.tianqi.com/news/343293.html \\\"四川陕西河南湖北等多地将遇较强降水 部分区域有大暴雨并伴强对流天气\\\")\\n*   [![Image 11](http://picview.iituku.com/content/20250905/1HPViOaWXYSNdrUbbYLSOpBt.jpg)### 天气蓝色预警来袭 多区域将遇雷暴大风、冰雹及短时强降水 9 月 5 日 10 时中央气象台续发强对流蓝色预警，5 日 14 时至 6 日 14 时（主要影响 5 日午后至夜间），多区域有 8 级以上雷暴大风或冰雹（部分 10 级以上）及短时强降水（局地超 80 毫米），政府需备防雹，公众少外出，还需防护农业、水上作业及排查排水。 2025-09-05](https://www.tianqi.com/news/343291.html \\\"天气蓝色预警来袭 多区域将遇雷暴大风、冰雹及短时强降水\\\")\\n*   [![Image 12](http://content.pic.tianqistatic.com/content/toutiao/img/202509/11/084bfeac8a737d8e.jpg)### 上海外滩酒店江景大床房 国庆旅游提前预约 上海外滩璞硯酒店外滩江景大床房1晚，过期可退，不约可退，提前1天预约，有效期到2025/12/30日离店，部分日期可能不适用。 2026-06-24](https://t.ctrip.cn/BlN93i3 \\\"上海外滩酒店江景大床房 国庆旅游提前预约\\\")\\n*   [![Image 13](http://picview.iituku.com/content/20250826/Riz2QeQNYSmWJBmA9tKOwZ8I.jpg)### 未来三天天气预报 多区域有强降雨 部分海域风力较大 8 月 26 日 - 29 日国内多区域有强降雨，26 日内蒙古河套等有大暴雨，北部湾有大风；27 日京津冀等有暴雨或大暴雨，多海域有大风；28 日辽宁东部等有暴雨，局地大暴雨，需防地质灾害与内涝，公众避风雨时段外出。 2025-08-26](https://www.tianqi.com/news/343248.html \\\"未来三天天气预报 多区域有强降雨 部分海域风力较大\\\")\\n*   [![Image 14](http://picview.iituku.com/content/20250820/YlgSboIpatkID1ZN6sMAx3bw.jpg)### 今明两天河北大部降雨连连 局地有大暴雨并伴强对流天气 今明两天河北大部降雨连连，石家庄、保定等多地部分区域有大暴雨，伴雷电、短时强降水等强对流天气。保定等局地昨遇大暴雨，山区需防地质灾害，城市防内涝，公众应减少外出，关注预警保安全。 2025-08-20](https://www.tianqi.com/news/343227.html \\\"今明两天河北大部降雨连连 局地有大暴雨并伴强对流天气\\\")\\n*   [![Image 15](http://content.pic.tianqistatic.com/content/toutiao/img/202509/11/352fd2ce33b5b3be.jpg)### 沈阳+长春+长白山+哈尔滨7日游怎么玩？ 沈阳+长春+长白山+哈尔滨7日6晚跟团游，【仙境长白·穿越旅拍】老有意思，旅行团满15人升级陆地头等舱+20人封顶，『朝鲜族尚宫娘娘&沈阳故宫满清风“嬛嬛”体验装，区间动车衔接，温泉泡汤+营地火锅+漂流+船游+UTV+射箭等项目。 2026-06-24](https://t.ctrip.cn/9YUosHn \\\"沈阳+长春+长白山+哈尔滨7日游怎么玩？\\\")\",\"publishedTime\":\"2026-06-24T10:19:34+08:00\",\"metadata\":{\"lang\":\"en\",\"keywords\":\"杭州一周天气预报,杭州天气预报一周,浙江杭州天气预报一周,杭州未来一周天气,杭州天气预报7天,杭州未来7天天气预报,杭州天气预报查询一周\",\"description\":\"杭州天气网为您提供杭州一周天气预报查询，杭州未来一周天气，杭州天气预报一周，杭州7天天气查询，及时了解杭州天气预报并且为用户提供生活指数、健康指数、旅游攻略、交通出行、空气质量指数,助您放心出行旅游。\"},\"external\":{\"canonical\":{\"https://www.tianqi.com/hangzhou/7/\":{}}},\"httpStatus\":200,\"httpStatusText\":\"OK\",\"usage\":{\"tokens\":3818}},\"meta\":{\"usage\":{\"tokens\":3818}}}"
+}
+

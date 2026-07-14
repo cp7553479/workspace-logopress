@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "downloaded": [
+      {
+        "content_type": "image/png",
+        "field_id": "fldzPbQJ2z",
+        "file_token": "VR4FbTukNoI4nsxUrgic5iqXngd",
+        "name": "white_background_gemini.png",
+        "record_id": "recuYsACVIDm7w",
+        "saved_path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP3070_hero_regen/references/white_VR4FbTukNoI4nsxUrgic5iqXngd.png",
+        "size": 965496,
+        "size_bytes": 965496
+      }
+    ]
+  }
+}

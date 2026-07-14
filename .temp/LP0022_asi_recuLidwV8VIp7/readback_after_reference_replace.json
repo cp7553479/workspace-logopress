@@ -1,0 +1,468 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "3",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": [
+          {
+            "text": "Virtual Proof:FREE",
+            "type": "text"
+          }
+        ],
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": [
+          "optMrX19vO"
+        ],
+        "Currency": [
+          {
+            "text": "USD",
+            "type": "text"
+          }
+        ],
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": [
+          {
+            "text": "Enhance school safety and organization with our durable PVC Hall Pass Lanyards. Designed for daily use, these lanyards are made from high-quality, unbreakable PVC material, ensuring longevity and reliability. Perfect for students and staff, they come in various colors to match your school's branding or to differentiate between departments. Each lanyard features a clear sleeve to securely hold hall passes or ID cards, making them an essential tool for any educational institution.",
+            "type": "text"
+          }
+        ],
+        "Distributor_View_Only": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": [
+          {
+            "text": "Standard Colors",
+            "type": "text"
+          }
+        ],
+        "Imprint_Location": [
+          {
+            "text": "Centered on Front or as you request",
+            "type": "text"
+          }
+        ],
+        "Imprint_Method": [
+          "opt117377868",
+          "opt1785801388"
+        ],
+        "Imprint_Size": [
+          {
+            "text": "3\"x2\" , custom size",
+            "type": "text"
+          }
+        ],
+        "Item_Weight": [
+          {
+            "text": "0.07:lbs",
+            "type": "text"
+          }
+        ],
+        "Keywords": [
+          {
+            "text": "Educational Accessories,Hall Pass Lanyards,PVC Lanyards,Safety Lanyards,School Supplies,Student ID Holders,Unbreakable Lanyards",
+            "type": "text"
+          }
+        ],
+        "Less_Than_Min": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": [
+          "optyOyosdX"
+        ],
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": [
+          {
+            "text": "China",
+            "type": "text"
+          }
+        ],
+        "P1": "0.82",
+        "P10": null,
+        "P2": "0.81",
+        "P3": "0.8",
+        "P4": "0.75",
+        "P5": "0.71",
+        "P6": "0.7",
+        "P7": "0.69",
+        "P8": "0.66",
+        "P9": null,
+        "Packaging": [
+          "optp7Y2PWQ",
+          "optkUxW5wQ",
+          "optvoSJKKO",
+          "optOtKqStI"
+        ],
+        "Personalization": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Price_Includes": [
+          {
+            "text": "1 color 1 side 1 location printing. Free shipping for orders over 33 lbs",
+            "type": "text"
+          }
+        ],
+        "Price_Type": [
+          {
+            "text": "Net",
+            "type": "text"
+          }
+        ],
+        "Prod_Image": [
+          {
+            "text": "https://media.asicdn.com/images/orig/334080000/334082773.jpg,https://media.asicdn.com/images/orig/334080000/334082761.jpg,https://media.asicdn.com/images/orig/334080000/334082774.jpg,https://media.asicdn.com/images/orig/334080000/334082787.jpg,https://media.asicdn.com/images/orig/334080000/334082797.jpg",
+            "type": "text"
+          }
+        ],
+        "Product_Color": [
+          "optp97Ebxr",
+          "opt5C8a7VB"
+        ],
+        "Product_Name": [
+          {
+            "text": "Durable PVC Hall Pass Lanyards for Schools",
+            "type": "text"
+          }
+        ],
+        "Product_Number": [
+          {
+            "text": "LP0022",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Product_Type": "Lanyards, Badges, \u0026 Badge Holders",
+        "Product_URL": null,
+        "Production_Time": [
+          {
+            "text": "8",
+            "type": "text"
+          }
+        ],
+        "Q1": "200",
+        "Q10": null,
+        "Q2": "500",
+        "Q3": "1000",
+        "Q4": "2000",
+        "Q5": "5000",
+        "Q6": "10000",
+        "Q7": "20000",
+        "Q8": "50000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Rush_Time": [
+          {
+            "text": "5:",
+            "type": "text"
+          }
+        ],
+        "SEO_FLG": [
+          "opt4PRyYLd"
+        ],
+        "Safety_Warnings": null,
+        "Same_Day_Service": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "Service_Charge": [
+          {
+            "text": "Required",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": [
+          {
+            "text": "Length:10.24:in;Width:7.87:in;Height:5.51:in",
+            "type": "text"
+          }
+        ],
+        "Shipping_Items": [
+          {
+            "text": "100:per Case",
+            "type": "text"
+          }
+        ],
+        "Shipping_Weight": [
+          {
+            "text": "6.61:lbs",
+            "type": "text"
+          }
+        ],
+        "Size_Group": [
+          {
+            "text": "Dimension",
+            "type": "text"
+          }
+        ],
+        "Size_Values": [
+          {
+            "text": "Length:3.39:in;Width:2.13:in",
+            "type": "text"
+          }
+        ],
+        "Sold_Unimprinted": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Summary": [
+          {
+            "text": "Enhance school safety and organization with our durable PVC Hall Pass Lanyards.",
+            "type": "text"
+          }
+        ],
+        "Theme": [
+          "opthxaO1PD",
+          "optyqwgguj",
+          "opt2SPbBTR",
+          "optqLj6gg8",
+          "optRqRtuCw"
+        ],
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": "IMMD:Full Color",
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": [
+          {
+            "text": "Per Order",
+            "type": "text"
+          }
+        ],
+        "Upcharge_Name": "Full Color",
+        "Upcharge_Type": "Set-up Charge",
+        "WG产品编号": "WG5264",
+        "XID": [
+          {
+            "text": "LP0022",
+            "type": "text"
+          }
+        ],
+        "id": "19",
+        "record_id": [
+          {
+            "text": "recuLidwV8VIp7",
+            "type": "text"
+          }
+        ],
+        "主题": "Academic,Corporate,Grand Opening,Collegiate,Anniversary",
+        "产品关键词": "Unique Custom Best High, Quaility Luxury Most Popular, Durable Stock Portable, Wholesale Promotional Branded, Printed Logo Customized Bulk, Customizable Nice Blank, Amazon Hall Pass Passes For, Classrooms Bathroom Kids In, The Uni Easy Passing U School, Middle Lanyards Id Badges, Badge Holder Holders, Retractable With Lanyard, Women Cute Breakaway Beaded, Clip Plastic Black Clear, Horizontal Break Away And, Keys Disney Teacher Work Pink, Leather Printer Scrunchie, Blue Gold Womens Heavy Duty, Reel Purple Hard Nurse Hole, Punch Cards Red Tactical, Clips Pearl Vertical Neck, Hello Kitty Green Coach Long, Kate Spade Maker Adjustable, Machine Extra Case Rainbow, Pretty Sleeve Name Avery, Magnetic 5395 Adhesive 5392, Insert Refills Magnets 5390, Personalized Tag Labels, Inserts Office Supplies Desk, Rubber Bands Clearance Sale",
+        "产品名称": "Office School Supplies Unbreakable PVC Hall Pass Lanyards",
+        "产品尺寸 宽(cm)": "5.4",
+        "产品尺寸 长(cm)": "8.6",
+        "产品尺寸 高(cm)": "0",
+        "产品材质": "PVC",
+        "产品简称": "耐用通行证挂绳",
+        "产品类型": "Lanyard,Badges,\u0026 Badge Holders",
+        "产品编号": "LP0022",
+        "产品重量(kg)": "0.03",
+        "产品颜色": "blue; assorted colors",
+        "件数/箱": "100",
+        "分类": "TAGS; LANYARDS",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "BJ9JbTo1mo0mOwxYXSNcpQ3xnmm",
+            "name": "LP0022_clean_no_logo.png",
+            "size": 746532,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=BJ9JbTo1mo0mOwxYXSNcpQ3xnmm\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5142%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/BJ9JbTo1mo0mOwxYXSNcpQ3xnmm/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5142%7D%7D"
+          }
+        ],
+        "商品主图": [
+          {
+            "file_token": "RFMAbxPOYoQJsZxpeDccXsGUnFb",
+            "name": "01.jpg",
+            "size": 640645,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=RFMAbxPOYoQJsZxpeDccXsGUnFb\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5142%7D%7D",
+            "type": "image/jpeg",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/RFMAbxPOYoQJsZxpeDccXsGUnFb/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5142%7D%7D"
+          },
+          {
+            "file_token": "WEoJbtKIfoK41IxWsmXclWiDnvh",
+            "name": "02.jpg",
+            "size": 252904,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=WEoJbtKIfoK41IxWsmXclWiDnvh\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5142%7D%7D",
+            "type": "image/jpeg",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/WEoJbtKIfoK41IxWsmXclWiDnvh/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5142%7D%7D"
+          },
+          {
+            "file_token": "AUqqbtHifo7C7Cxi67CcgIbenKc",
+            "name": "03.jpg",
+            "size": 410656,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=AUqqbtHifo7C7Cxi67CcgIbenKc\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5142%7D%7D",
+            "type": "image/jpeg",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/AUqqbtHifo7C7Cxi67CcgIbenKc/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5142%7D%7D"
+          },
+          {
+            "file_token": "TpvVbM3QaoCXc9xjjdnc6BLen9d",
+            "name": "04.jpg",
+            "size": 445431,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=TpvVbM3QaoCXc9xjjdnc6BLen9d\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5142%7D%7D",
+            "type": "image/jpeg",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/TpvVbM3QaoCXc9xjjdnc6BLen9d/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5142%7D%7D"
+          },
+          {
+            "file_token": "ChETbObufoveVvx7uy4cZidYnje",
+            "name": "05.jpg",
+            "size": 539046,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=ChETbObufoveVvx7uy4cZidYnje\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5142%7D%7D",
+            "type": "image/jpeg",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/ChETbObufoveVvx7uy4cZidYnje/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5142%7D%7D"
+          }
+        ],
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "PVC证卡工作证定制【统一内容的/单独人像需要单独收费】",
+        "完整描述": "In today's fast-paced world, businesses, schools, and events need reliable identification solutions that are both functional and customizable. That's where our pvc card customization service comes in. Whether you need employee id badges, school hall passes, event credentials, or access cards, our durable pvc cards offer the perfect solution. Measuring 3.39x2.13 inches, these cards are fully customizable in size, content, and design. We can print high-resolution images, text, and even integrate access control features for secure entry. The accompanying lanyards can also be tailored to match your brand. From corporate offices to school campuses, our pvc cards ensure seamless identification and security. They're a versatile tool that enhances organization and boosts professionalism.",
+        "来源(1688)": "https://detail.1688.com/offer/709963994703.html?spm=a26352.13672862.offerlist.357.11881e62pzIv85\u0026cosite=-\u0026tracelog=p4p\u0026_p_isad=1\u0026clickid=64eb0cb8f6044f51ba7e88802ca1e801\u0026sessionid=7548339633439472ba4cdceb671cebb8",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": null,
+        "简要说明": "These pvc cards offer fully customizable designs and sizes for businesses, schools, and various events. Rush service is available.",
+        "箱子尺寸 宽(cm)": "20",
+        "箱子尺寸 长(cm)": "26",
+        "箱子尺寸 高(cm)": "14",
+        "货代大货参考定价基准（30%毛利）": 0.77,
+        "货代大货起订量标准": 500,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "3"
+      },
+      "id": "recuLidwV8VIp7",
+      "record_id": "recuLidwV8VIp7"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

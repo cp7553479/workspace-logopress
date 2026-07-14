@@ -1,0 +1,401 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "112",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": [
+          {
+            "text": "Virtual Proof:FREE",
+            "type": "text"
+          }
+        ],
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": [
+          "optNgF1Reb",
+          "opt496128517"
+        ],
+        "Currency": [
+          {
+            "text": "USD",
+            "type": "text"
+          }
+        ],
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": [
+          {
+            "text": "Durable Portable Lightweight Golf Stand Bag with Strap – Perfect for Golf Enthusiasts on the Go! Crafted from high-quality, lightweight nylon, this golf stand bag offers exceptional durability and portability, ideal for both men and women. Designed to accommodate several clubs, it’s perfect for a day at the course or focused practice at the driving range, letting you carry 4-5 clubs comfortably without back or shoulder strain. Features include a valuables pocket to safely store essentials like your wallet, phone, and keys, plus a built-in handle and adjustable shoulder strap for easy transportation. Whether you’re heading to the driving range, traveling, or enjoying a casual game, this versatile stand bag combines functionality with convenience. Great for promotional events, corporate gifts, or personal use, it’s suitable for occasions like anniversaries, Christmas, grand openings, and sports events. Add your custom logo for branded giveaways or wholesale orders – a practical and stylish choice for golfers seeking reliability and ease.",
+            "type": "text"
+          }
+        ],
+        "Distributor_View_Only": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": [
+          {
+            "text": "Standard Colors",
+            "type": "text"
+          }
+        ],
+        "Imprint_Location": [
+          {
+            "text": "Centered on Front or as you request",
+            "type": "text"
+          }
+        ],
+        "Imprint_Method": [
+          "opt117377868",
+          "opt1785801388"
+        ],
+        "Imprint_Size": [
+          {
+            "text": "2\" x 1\" or custom size",
+            "type": "text"
+          }
+        ],
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": [
+          "optvpgu1s7"
+        ],
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": [
+          {
+            "text": "China",
+            "type": "text"
+          }
+        ],
+        "P1": "49.35",
+        "P10": null,
+        "P2": "48.64",
+        "P3": "47.92",
+        "P4": "47.56",
+        "P5": "43.99",
+        "P6": "43.27",
+        "P7": "42.91",
+        "P8": "42.2",
+        "P9": null,
+        "Packaging": [
+          "optp7Y2PWQ",
+          "optkUxW5wQ",
+          "optOtKqStI"
+        ],
+        "Personalization": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Price_Includes": [
+          {
+            "text": "1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs",
+            "type": "text"
+          }
+        ],
+        "Price_Type": [
+          {
+            "text": "Net",
+            "type": "text"
+          }
+        ],
+        "Prod_Image": null,
+        "Product_Color": [
+          "opti6GWoWA",
+          "optyoZVhWo",
+          "optkisYscS",
+          "optd9k2xkR",
+          "optGu8rV7F",
+          "optGHOVX45"
+        ],
+        "Product_Name": [
+          {
+            "text": "Durable Portable Lightweight Golf Stand Bag with Strap",
+            "type": "text"
+          }
+        ],
+        "Product_Number": [
+          {
+            "text": "LP3476",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": [
+          {
+            "text": "8:days",
+            "type": "text"
+          }
+        ],
+        "Q1": "50",
+        "Q10": null,
+        "Q2": "100",
+        "Q3": "200",
+        "Q4": "500",
+        "Q5": "1000",
+        "Q6": "2000",
+        "Q7": "5000",
+        "Q8": "10000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Rush_Time": [
+          {
+            "text": "5:days",
+            "type": "text"
+          }
+        ],
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": [
+          {
+            "text": "Length:35.04:in;Width:19.29:in;Height:13.78:in",
+            "type": "text"
+          }
+        ],
+        "Shipping_Items": [
+          {
+            "text": "10:per Case",
+            "type": "text"
+          }
+        ],
+        "Shipping_Weight": [
+          {
+            "text": "30.86:lbs",
+            "type": "text"
+          }
+        ],
+        "Size_Group": [
+          {
+            "text": "Dimension",
+            "type": "text"
+          }
+        ],
+        "Size_Values": [
+          {
+            "text": "Length:34:in;Width:6:in;Height:0:in",
+            "type": "text"
+          }
+        ],
+        "Sold_Unimprinted": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Summary": [
+          {
+            "text": "Durable Portable Lightweight Golf Stand Bag with Strap – Nylon, Valuables Pocket, Shoulder Strap. Ideal for Driving Range, Sports Events, Promotions. Customizable.",
+            "type": "text"
+          }
+        ],
+        "Theme": [
+          "opt6kQrx6h",
+          "optJ6Nlbrf"
+        ],
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG3542",
+        "XID": null,
+        "id": "3566",
+        "record_id": [
+          {
+            "text": "recuYsANVGLms1",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary;Sports;Christmas;Grand Opening;Golf",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Golf Bag Bags For Men,\r\nTravel Disc Airlines Towels,\r\nClearance Sunday Callaway Ask,\r\nEcho Ogio Titleist Cart Sun,\r\nMountain Organizer Shoe Stand,\r\nWomens Taylormade Mens Case,\r\nAccessories Mizuno Ping Club,\r\nGhost Women Vessel Nike,\r\nStorage Small Cobra Ball Push,\r\nCarts Impact Cooler Hard,\r\nStrap Glove Support Pole Boy,\r\nLightweight Rack Garage Tee,\r\nKids Leather Cover On Taylor,\r\nMade Holder Par 3 Founders A,\r\nFew Clubs T-lock Shag Camo,\r\nAttachment Towel Rain Pxg,\r\nLadies 14 Way Cleaner With,\r\nCarry Orlimar Pitch \u0026 Putt,\r\nMoonlite Basket Carrying,\r\nWilson Staff Feather N,\r\nDivider Attachable 4.5 Ls,\r\n14-way 2017 Hyper Lite 5,\r\nStanding Women's Full Length,\r\nAnd Dividers Only Hoofer",
+        "产品名称": "Durable Portable Lightweight Golf Stand Bag with Strap",
+        "产品尺寸 宽(cm)": "15.24",
+        "产品尺寸 长(cm)": "86.36",
+        "产品尺寸 高(cm)": "0",
+        "产品材质": "Nylon",
+        "产品简称": null,
+        "产品类型": "Sports,Fitness,\u0026Outdoors",
+        "产品编号": "LP3476",
+        "产品重量(kg)": null,
+        "产品颜色": "Dark blue; blue; black; red; gray; camouflage",
+        "件数/箱": "10",
+        "分类": "GOLF BAGS;Golf Accessories-General",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "SGLGbyBjXoLJH2xNB7PcKlJenRb",
+            "name": "1626791341759575038309.jpeg",
+            "size": 83167,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=SGLGbyBjXoLJH2xNB7PcKlJenRb\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5160%7D%7D",
+            "type": "image/jpeg",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/SGLGbyBjXoLJH2xNB7PcKlJenRb/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5160%7D%7D"
+          }
+        ],
+        "商品主图": null,
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "[\"高尔夫用品及配件\"]",
+        "完整描述": "Made from high-quality, lightweight nylon material, this golf stand bag ensures maximum portability and comfort. This stand bag can easily accommodate several clubs, perfect for a day at the course. The included valuables pocket keeps your essentials safe and secure, protecting items such as your wallet, phone and keys. This bag is perfect for the driving range, easy to carry, you only need to carry 4-5 clubs for a focused practice, reducing your burden and avoiding back and shoulder strain. Equipped with a built-in handle and shoulder strap for easy transportation, you can easily carry it wherever you go to play golf. Our golf bag is the perfect companion for a few hours on the driving range, providing a practical and portable solution for your practice.",
+        "来源(1688)": "https://detail.1688.com/offer/770223510080.html?spm=a2639h.29135425.offerlist.i9\u0026source=action%23offerItem%3Borigin%23espweb.asicentral.com",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": null,
+        "简要说明": "This golf stand bag can store multi clubs and values easily, perfect for practice at the driving range. Rush service is available.",
+        "箱子尺寸 宽(cm)": "49",
+        "箱子尺寸 长(cm)": "89",
+        "箱子尺寸 高(cm)": "35",
+        "货代大货参考定价基准（30%毛利）": 35.84,
+        "货代大货起订量标准": 6,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "14"
+      },
+      "id": "recuYsANVGLms1",
+      "record_id": "recuYsANVGLms1"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

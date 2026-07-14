@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "WG7107",
+        [
+          {
+            "file_token": "YqSPb0pCIoJpGjxQxfScWoPvnTg",
+            "name": "WG7107_clean_no_logo.png",
+            "size": 1028556
+          }
+        ],
+        [
+          {
+            "file_token": "LJltbGGCwosks1xE5HUch9NFnNg",
+            "name": "WG7107_white_background.png",
+            "size": 748712
+          }
+        ],
+        [
+          {
+            "file_token": "E8oQbisB5oXXngxpGiwcN7yMn3u",
+            "name": "WG7107_scene_camping.png",
+            "size": 2044334
+          },
+          {
+            "file_token": "ItVqbP2vcoS6AGx990FcrmVMnUh",
+            "name": "WG7107_dimension.png",
+            "size": 873565
+          },
+          {
+            "file_token": "WUh3bFYvxoqJYDxAzTQcvG4Pnrh",
+            "name": "WG7107_sku_colors.png",
+            "size": 1183304
+          }
+        ],
+        [
+          "有询单"
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fldsExhPlC"
+    ],
+    "fields": [
+      "产品编号",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "Mark"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recv9nhHK7waQX"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "recv9nhVyeHz3p",
+        "WG7056",
+        "Yoga gym cycling women high waist seamless workout shorts",
+        null,
+        "Stay cool and comfortable with breathable fabric that supports every move during intense workouts. Rush service is available.",
+        "apparel \u0026 Outerwear",
+        "Black/Blue/Orange/Pink/Dark Green/Dark Pink/Brown/Green/Gray/Light Pink/White/Red/Dark Brown/Purple/Burgundy",
+        "Nylon",
+        54,
+        64,
+        33,
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "DNXGb0oU6oemJmxf1SUcqlXQnJd",
+            "name": "-16675992291769406202069.png",
+            "size": 790772
+          }
+        ],
+        null,
+        null
+      ]
+    ],
+    "field_id_list": [
+      "fldfwWSmG4",
+      "fldHb6xDKX",
+      "fld8ifVx8f",
+      "fldVQEfx44",
+      "fldwtQtwf5",
+      "fld6YFlAS8",
+      "fldoQQU5d4",
+      "flds2DArkf",
+      "fldmImxGsM",
+      "fldoThqxSN",
+      "fldFAy8Xes",
+      "fldsExhPlC",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "record_id",
+      "产品编号",
+      "产品名称",
+      "产品简称",
+      "简要说明",
+      "产品类型",
+      "产品颜色",
+      "产品材质",
+      "产品尺寸 长(cm)",
+      "产品尺寸 宽(cm)",
+      "产品尺寸 高(cm)",
+      "Mark",
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "query_context": {
+      "field_scope": "selected_fields",
+      "record_scope": "filtered_records",
+      "search_scope": "fldHb6xDKX(产品编号)"
+    },
+    "record_id_list": [
+      "recv9nhVyeHz3p"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

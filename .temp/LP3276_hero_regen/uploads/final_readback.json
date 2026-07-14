@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3276",
+        [
+          {
+            "file_token": "I12RbzJaboGFBAxnnwEcgn2Ln3f",
+            "name": "LP3276_asi_hero_oracle_gpt55_medium.png",
+            "size": 1685537
+          }
+        ],
+        [
+          {
+            "file_token": "UakwbWMR8oMGvWx0T5dcRGcvnkb",
+            "name": "reference_cleaned_oracle_gpt55_medium.png",
+            "size": 1558956
+          }
+        ],
+        [
+          {
+            "file_token": "FTDWbryk6oAgHxxSCjBcuxpWnbb",
+            "name": "white_background_oracle_gemini35_flash.png",
+            "size": 1002327
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldn5dP24T",
+      "fldr9B4JZT",
+      "fldzPbQJ2z"
+    ],
+    "fields": [
+      "产品编号",
+      "商品主图",
+      "参考图片",
+      "白底图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsACVIydom"
+    ]
+  }
+}

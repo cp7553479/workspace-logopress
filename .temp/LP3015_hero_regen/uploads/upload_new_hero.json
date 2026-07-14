@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsACVI4KDr": {
+        "fldn5dP24T": [
+          {
+            "file_token": "Mn0zbHoCyop8Ngxb5czck4trnrc",
+            "name": "LP3015_asi_hero_oracle_chatgpt.png",
+            "size": 1407120
+          },
+          {
+            "file_token": "FeXmbMmnJoj9pxxAe5mcYI9mn3c",
+            "name": "LP3015_asi_hero_regen_oracle_chatgpt.png",
+            "size": 1302639
+          }
+        ]
+      }
+    }
+  }
+}

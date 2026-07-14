@@ -1,0 +1,434 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "1.8",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": [
+          {
+            "text": "Virtual Proof:FREE",
+            "type": "text"
+          }
+        ],
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": [
+          "optKcwwrLd",
+          "optHGG4yM7"
+        ],
+        "Currency": [
+          {
+            "text": "USD",
+            "type": "text"
+          }
+        ],
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": [
+          {
+            "text": "Introducing our Versatile Car Interior Dust Removal Cleaning Soft Brush, a must-have automotive accessory for keeping your vehicle spotless. Crafted with high-quality soft materials, the brush head effectively cleans various stains without scratching leather seats, dashboards, center consoles, carpets, or delicate surfaces. Its ergonomic handle ensures a comfortable grip and easy operation, while the compact design allows you to reach tight corners like door panels, air conditioning outlets, sunroofs, and seat gaps. Ideal for removing dust, food residues, and dirt, this multi-functional tool also works great for home use—perfect for sofa crevices, keyboards, and other small spaces. Made with durable polypropylene and featuring soft bristles, it’s lightweight, portable, and built to last. Whether for personal use or promotional gifting (great for anniversaries, Christmas, or birthdays), this cleaning brush combines practicality with sustainability, making it an essential helper for deep surface cleaning. Keep your car interior looking brand new and enjoy a more comfortable driving experience with this reliable, easy-to-use tool.",
+            "type": "text"
+          }
+        ],
+        "Distributor_View_Only": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": [
+          {
+            "text": "Standard Colors",
+            "type": "text"
+          }
+        ],
+        "Imprint_Location": [
+          {
+            "text": "Centered on Front or as you request",
+            "type": "text"
+          }
+        ],
+        "Imprint_Method": [
+          "opt117377868",
+          "opt1785801388"
+        ],
+        "Imprint_Size": [
+          {
+            "text": "1\" x 1\" or custom size",
+            "type": "text"
+          }
+        ],
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": [
+          "optgdJ9q3a"
+        ],
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": [
+          {
+            "text": "China",
+            "type": "text"
+          }
+        ],
+        "P1": "0.65",
+        "P10": null,
+        "P2": "0.64",
+        "P3": "0.52",
+        "P4": "0.51",
+        "P5": "0.47",
+        "P6": "0.46",
+        "P7": "0.45",
+        "P8": "0.44",
+        "P9": null,
+        "Packaging": [
+          "optp7Y2PWQ",
+          "optkUxW5wQ",
+          "optvoSJKKO",
+          "optOtKqStI"
+        ],
+        "Personalization": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Price_Includes": [
+          {
+            "text": "1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs",
+            "type": "text"
+          }
+        ],
+        "Price_Type": [
+          {
+            "text": "Net",
+            "type": "text"
+          }
+        ],
+        "Prod_Image": null,
+        "Product_Color": [
+          "optkisYscS"
+        ],
+        "Product_Name": [
+          {
+            "text": "Versatile car interior dust removal cleaning soft brush",
+            "type": "text"
+          }
+        ],
+        "Product_Number": [
+          {
+            "text": "LP3215",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": [
+          {
+            "text": "8:days",
+            "type": "text"
+          }
+        ],
+        "Q1": "200",
+        "Q10": null,
+        "Q2": "500",
+        "Q3": "1000",
+        "Q4": "2000",
+        "Q5": "5000",
+        "Q6": "10000",
+        "Q7": "20000",
+        "Q8": "50000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Rush_Time": [
+          {
+            "text": "5:days",
+            "type": "text"
+          }
+        ],
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": [
+          {
+            "text": "Length:20.47:in;Width:18.11:in;Height:21.26:in",
+            "type": "text"
+          }
+        ],
+        "Shipping_Items": [
+          {
+            "text": "1000:per Case",
+            "type": "text"
+          }
+        ],
+        "Shipping_Weight": [
+          {
+            "text": "44.09:lbs",
+            "type": "text"
+          }
+        ],
+        "Size_Group": [
+          {
+            "text": "Dimension",
+            "type": "text"
+          }
+        ],
+        "Size_Values": [
+          {
+            "text": "Length:3.94:in;Width:1.97:in;Height:0:in",
+            "type": "text"
+          }
+        ],
+        "Sold_Unimprinted": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Summary": [
+          {
+            "text": "Versatile Car Interior Dust Removal Cleaning Soft Brush - Gentle on surfaces, ergonomic handle, reaches tight corners. Ideal for cars/home, durable \u0026 portable. Perfect promotional gift.",
+            "type": "text"
+          }
+        ],
+        "Theme": [
+          "optRqRtuCw",
+          "optxUNprOg",
+          "optVmR71ug",
+          "optdHVqftR",
+          "optgb4KHJ0"
+        ],
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG3216",
+        "XID": null,
+        "id": "3313",
+        "record_id": [
+          {
+            "text": "recuYsACVILcTO",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary/Sustainable/Automotive/Christmas/Birthday",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Ultra Soft Detail,\r\nBrushes For Cleaning Car,\r\nHiware 4 Pcs Drill Brush,\r\nDetailing Kit With Extend,\r\nAttachment Sof Interior,\r\nBristlecar Tool Hard,\r\nMulti-function Small Long,\r\nHandle Retractable Elbow Gap,\r\nSeat Carpet Dashboard Center,\r\nConsole Door Panel Sunroof,\r\nAir Conditioning Outlet,\r\nSpecial Environmentally,\r\nFriendly Quality Microfiber,\r\nNylon Pig Bristle Silicone,\r\nSet Wireless Electric Manual,\r\nScrubbing Cleaner Artifact,\r\nEssential Good Helper Deep,\r\nSurface And Combination,\r\nRetail Brand Newoil Film,\r\nWindows Drain Dredge Scrub,\r\nRim Wheel Glass Oil Leather,\r\nExterior Cars Snow Tire Rurah,\r\nMultifunction New Kit/set.,\r\nPower Scrubber Kit. Idea",
+        "产品名称": "Versatile car interior dust removal cleaning soft brush",
+        "产品尺寸 宽(cm)": "5",
+        "产品尺寸 长(cm)": "10",
+        "产品尺寸 高(cm)": "0",
+        "产品材质": "Polypropylene",
+        "产品简称": null,
+        "产品类型": "Automotive Accessories",
+        "产品编号": "LP3215",
+        "产品重量(kg)": null,
+        "产品颜色": "black",
+        "件数/箱": "1000",
+        "分类": "BRUSHES/AUTO ACCESSORIES",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "JmrObqlGIoNZKOxpg00cQoZVnm4",
+            "name": "ref_cleaned_oracle_gemini.png",
+            "size": 605745,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=JmrObqlGIoNZKOxpg00cQoZVnm4\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4868%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/JmrObqlGIoNZKOxpg00cQoZVnm4/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4868%7D%7D"
+          }
+        ],
+        "商品主图": [
+          {
+            "file_token": "KnqDbFIj2oBsyKxZ1jCcPHNankc",
+            "name": "asi_lifestyle_oracle_chatgpt.png",
+            "size": 2087529,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=KnqDbFIj2oBsyKxZ1jCcPHNankc\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4868%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/KnqDbFIj2oBsyKxZ1jCcPHNankc/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4868%7D%7D"
+          },
+          {
+            "file_token": "N0ZSbDZZko7C9jx8Vc2c4tNBnti",
+            "name": "asi_rinse_oracle_chatgpt_retry.png",
+            "size": 1898326,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=N0ZSbDZZko7C9jx8Vc2c4tNBnti\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4868%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/N0ZSbDZZko7C9jx8Vc2c4tNBnti/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4868%7D%7D"
+          },
+          {
+            "file_token": "GydGb0ZvrogvaxxpwS4cH74qnCg",
+            "name": "asi_bristle_detail_oracle_chatgpt_retry.png",
+            "size": 1900025,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=GydGb0ZvrogvaxxpwS4cH74qnCg\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4868%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/GydGb0ZvrogvaxxpwS4cH74qnCg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4868%7D%7D"
+          },
+          {
+            "file_token": "PqBIbngLfoZUZbxeRRNcdDUJnhe",
+            "name": "LP3215_asi_hero_oracle_chatgpt_regen.png",
+            "size": 1798052,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=PqBIbngLfoZUZbxeRRNcdDUJnhe\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4868%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/PqBIbngLfoZUZbxeRRNcdDUJnhe/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4868%7D%7D"
+          }
+        ],
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "[]",
+        "完整描述": "The brush head of our car interior cleaning brush is made of high-quality soft material, which can effectively clean various stains without causing any scratches to the car interior. Whether it is leather seats, dashboards, center consoles or carpets, they can be easily handled. The handle design is ergonomic, comfortable to hold and easy to operate. The cleaning brush can reach every corner of the car interior, and can remove various dirt such as dust, stains, food residues, etc., making your car interior look brand new. This cleaning brush is not only suitable for car interiors, but also can be used to clean some small corners at home, such as sofa gaps, keyboards, etc., which is very practical. Small and portable, keep your car clean and tidy at all times.",
+        "来源(1688)": "https://detail.1688.com/offer/803616223992.html?spm=a2639h.29135425.offerlist.i0\u0026source=action%23offerItem%3Borigin%23espweb.asicentral.com",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": [
+          {
+            "file_token": "DI1CbExDMoueHlxlcmncOOzHnG9",
+            "name": "white_background_oracle_chatgpt.png",
+            "size": 1180475,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=DI1CbExDMoueHlxlcmncOOzHnG9\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4868%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/DI1CbExDMoueHlxlcmncOOzHnG9/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4868%7D%7D"
+          }
+        ],
+        "简要说明": "This small and practical car interior cleaning brush brings you a more comfortable driving experience.Rush service is provided.",
+        "箱子尺寸 宽(cm)": "46",
+        "箱子尺寸 长(cm)": "52",
+        "箱子尺寸 高(cm)": "54",
+        "货代大货参考定价基准（30%毛利）": 0.48,
+        "货代大货起订量标准": 697,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "20"
+      },
+      "id": "recuYsACVILcTO",
+      "record_id": "recuYsACVILcTO"
+    }
+  }
+}

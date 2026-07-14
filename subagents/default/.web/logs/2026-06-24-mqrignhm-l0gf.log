@@ -1,0 +1,30 @@
+[2026-06-24T03:25:47.626Z] cli.command
+{
+  "command": "fetch",
+  "args": {
+    "urls": [
+      "https://agent.qq.com/doc/cli-setup.md"
+    ],
+    "waitUntil": "load",
+    "screenshot": false
+  }
+}
+
+[2026-06-24T03:25:47.626Z] http.request
+{
+  "url": "https://r.jina.ai/http://agent.qq.com/doc/cli-setup.md",
+  "method": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "Authorization": "Bearer j****"
+  },
+  "body": null
+}
+
+[2026-06-24T03:25:49.942Z] http.response
+{
+  "url": "https://r.jina.ai/http://agent.qq.com/doc/cli-setup.md",
+  "statusCode": 200,
+  "body": "{\"code\":200,\"status\":20000,\"data\":{\"title\":\"\",\"description\":\"\",\"url\":\"http://agent.qq.com/doc/cli-setup.md\",\"content\":\"# agently-cli\\n\\nAgently CLI — Agent 原生邮箱\\n\\n## 快速开始（AI Agent）\\n\\n**第 1 步 — 安装/更新 CLI**\\n\\n```bash\\nnpm install -g @tencent-qqmail/agently-cli\\n```\\n\\n**第 2 步 — 安装/更新 skill**\\n\\nnpx skills add Tencent/AgentlyMail -g -y\\n\\n**第 3 步 — OAuth授权**\\n\\n**交互式长命令**：必须后台运行命令（background+pty），从 stdout/stderr 提取它输出的原始授权 URL 并发送给用户。**必须包含文案提示**：`请点击或复制以下链接在浏览器中完成授权：`。用户在浏览器中完成授权后，命令会自动退出。\\n\\n**URL 提取规则**：必须将 URL exactly as returned by the CLI 转发给用户，并把它视为不可修改的 opaque string；不要做 URL encode/decode，不要补 `%20`、空格或标点，不要重新拼接 query，不要改写成 Markdown link text，建议用只包含原始 URL 的代码块单独输出。\\n\\n```bash\\nagently-cli auth login\\n```\\n\\n执行此命令注意：\\n- **必须**先安装/更新 CLI\\n- 失败或超时时**不要重试**，直接将错误信息反馈给用户。\\n\\n**第 4 步 — 验证**\\n```bash\\nagently-cli +me\\n```\\n\\n验证完成后，**只输出以下一句话，不要输出任何额外内容**：\\n\\n> 邮箱地址 xxx 已授权成功，可以用它来收发邮件了\\n\\n其中 `xxx` 替换为 `+me` 返回的实际邮箱地址。授权失败则输出失败信息\\n\\n## 管理端\\n\\n访问url：agent.qq.com\",\"httpStatus\":200,\"httpStatusText\":\"OK\",\"usage\":{\"tokens\":464}},\"meta\":{\"usage\":{\"tokens\":464}}}"
+}
+

@@ -1,0 +1,246 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "14",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": null,
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": null,
+        "Currency": null,
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": null,
+        "Distributor_View_Only": null,
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": null,
+        "Imprint_Location": null,
+        "Imprint_Method": null,
+        "Imprint_Size": null,
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": null,
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": null,
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": null,
+        "P1": "5.87",
+        "P10": null,
+        "P2": "5.78",
+        "P3": "5.69",
+        "P4": "5.65",
+        "P5": "5.21",
+        "P6": "5.12",
+        "P7": "5.07",
+        "P8": "4.98",
+        "P9": null,
+        "Packaging": null,
+        "Personalization": null,
+        "Price_Includes": null,
+        "Price_Type": null,
+        "Prod_Image": null,
+        "Product_Color": null,
+        "Product_Name": null,
+        "Product_Number": [
+          {
+            "text": "WG7067",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": null,
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": null,
+        "Q1": "200",
+        "Q10": null,
+        "Q2": "500",
+        "Q3": "1000",
+        "Q4": "2000",
+        "Q5": "5000",
+        "Q6": "10000",
+        "Q7": "20000",
+        "Q8": "50000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": null,
+        "Rush_Time": null,
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": null,
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": null,
+        "Shipping_Items": null,
+        "Shipping_Weight": null,
+        "Size_Group": null,
+        "Size_Values": null,
+        "Sold_Unimprinted": null,
+        "Summary": null,
+        "Theme": null,
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG7067",
+        "XID": null,
+        "id": "7133",
+        "record_id": [
+          {
+            "text": "recv9nhU57zZXK",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary,Wedding,Sustainable,Eco \u0026 Environmentally Friendly,Halloween",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Rolling Pin Sourdough,\r\nBread Baking Supplies Wedding,\r\nRegistry Must Haves Pizza,\r\nRolls Rollers Wood Roller,\r\nPins For Kitchen With,\r\nThickness Rings Dough Making,\r\nTools Bakery Essentials Pie,\r\nWeights Crust Accessories,\r\nClay French Reposteria Marble,\r\nHome Bakers Small Bake Gifts,\r\nRodillo Para Masa Utensils,\r\nFarberware Ideas Silicone,\r\nMats Adjustable Pasta Wooden,\r\nMini Stuff Accesorios Large,\r\nDocker Holder Machine Pastry,\r\nFondant Cookie Acrylic,\r\nCooking Stainless Steel,\r\nEmbossed Tortilla Stick Items,\r\nPottery Cute Kit Tool Grape,\r\nLeaves Chakla Belan Set Roll,\r\nChapati Pioneer Woman,\r\nUtensilios De Repostera Y,\r\nPasteleria Guides Kids Dubai,\r\nChocolate Jk Adams Slab",
+        "产品名称": "Kitchen baking supplies cookie wood embossed rolling pin",
+        "产品尺寸 宽(cm)": "5",
+        "产品尺寸 长(cm)": "43",
+        "产品尺寸 高(cm)": "5",
+        "产品材质": "Wood",
+        "产品简称": null,
+        "产品类型": "Kitchen \u0026 Dining",
+        "产品编号": "WG7067",
+        "产品重量(kg)": null,
+        "产品颜色": "natural",
+        "件数/箱": "100",
+        "分类": "TOOLS-KITCHEN;\nCOOKWARE \u0026 BAKEWARE",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/Laser Engraved",
+        "参考图片": [
+          {
+            "file_token": "UT6obeDDnoUUCQxISe4cj4DRnuf",
+            "name": "19408368391769406193554.png",
+            "size": 1677242,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=UT6obeDDnoUUCQxISe4cj4DRnuf\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4928%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/UT6obeDDnoUUCQxISe4cj4DRnuf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4928%7D%7D"
+          }
+        ],
+        "商品主图": null,
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "【运费需调整】etsy-印花图案擀面杖（43*5cm）（200个起定制图案）",
+        "完整描述": "This festival-themed rolling pin is a delightful addition to any kitchen, especially during the festive season. Measuring 16.9\" in length and 2\" in diameter, it features charming patterns deeply engraved into durable hardwood. The natural wood construction ensures safety and eco-friendliness. Each piece is unique, with variations in texture, color, and occasional knots that highlight its natural beauty. The rolling pin's comfortable, easy-grip handles make it a joy to use, providing smooth rolling for pasta, cookie dough, pastry, pizza, and more. Its smooth, non-stick surface ensures dough doesn't cling, making cleanup a breeze. With customizable patterns, this rolling pin brings joy and love to the holidays, such as christmas, halloween and more. Please contact us for details.",
+        "来源(1688)": "https://detail.1688.com/offer/683732731224.html?fromkv=cbuPcPlugin:imageSearchDrawerCard\u0026spm=a2639h.29135425.offerlist.i0\u0026source=action%23offerItem%3Borigin%23www.etsy.com\u0026amug_biz=oneself\u0026amug_fl_src=awakeId_982",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": null,
+        "简要说明": "Our embossing baking rolling pin with design is a perfect kitchen utensil, great for party or festivals.Rush service is available.",
+        "箱子尺寸 宽(cm)": "48",
+        "箱子尺寸 长(cm)": "48",
+        "箱子尺寸 高(cm)": "34",
+        "货代大货参考定价基准（30%毛利）": 4.75,
+        "货代大货起订量标准": 41,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "37"
+      },
+      "id": "recv9nhU57zZXK",
+      "record_id": "recv9nhU57zZXK"
+    }
+  }
+}

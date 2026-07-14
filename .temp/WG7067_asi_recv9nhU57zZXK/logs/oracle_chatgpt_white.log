@@ -1,0 +1,16 @@
+🧿 oracle 0.14.0 — Ships facts, not vibes.
+Using named browser profile default: /Users/vincent/.oracle/browser-profile
+Session: white-background-ecommerce-product-image-49
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session white-background-ecommerce-product-image-49
+Launching browser mode (gpt-5.5) with ~259 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Browser control: launch visible Chrome; may focus/control the browser UI.
+[browser] Browser guidance: Manual-login mode may show the persistent Oracle Chrome profile for sign-in or automation.
+[browser] Browser guidance: Use --browser-hide-window, --browser-attach-running, or --remote-chrome to reduce desktop disruption.
+[browser] Acquired ChatGPT browser slot 9c52e83f (3 max).
+[browser] Released ChatGPT browser slot 9c52e83f.
+ERROR: Manual login mode timed out waiting for ChatGPT session. Browser mode is using Oracle's private Chrome profile at /Users/vincent/.oracle/browser-profile, not your normal Chrome profile. Run first-time setup, sign in there, then retry: oracle --engine browser --browser-manual-login --browser-keep-browser --browser-manual-login-profile-dir "/Users/vincent/.oracle/browser-profile" -p "HI"
+User error (browser-automation): Manual login mode timed out waiting for ChatGPT session. Browser mode is using Oracle's private Chrome profile at /Users/vincent/.oracle/browser-profile, not your normal Chrome profile. Run first-time setup, sign in there, then retry: oracle --engine browser --browser-manual-login --browser-keep-browser --browser-manual-login-profile-dir "/Users/vincent/.oracle/browser-profile" -p "HI"

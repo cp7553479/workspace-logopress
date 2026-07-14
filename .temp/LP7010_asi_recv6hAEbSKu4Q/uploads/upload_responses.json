@@ -1,0 +1,50 @@
+{
+  "product_number": "LP7010",
+  "record_id": "recv6hAEbSKu4Q",
+  "reference_cleanup": {
+    "original_reference_removed_token": "E8EDbI7zKosApPx0fONcleK9nPd",
+    "clean_reference_uploaded_token": "STjpbaVI3ocjJaxGfHXcFsoVnJh",
+    "field": "参考图片",
+    "accepted_file": "outputs/clean_no_logo_reference.png"
+  },
+  "white_background_upload": {
+    "field": "白底图",
+    "accepted_file": "outputs/white_background.png",
+    "file_token": "RIsybK3TroxnTwxX9OecwylBnue",
+    "size": 1003190
+  },
+  "main_image_upload": {
+    "field": "商品主图",
+    "files": [
+      {
+        "name": "lifestyle_scene.png",
+        "file_token": "BOjJbXjuCoZhvcxmMO7cPNbvnif",
+        "size": 2013085
+      },
+      {
+        "name": "selling_point.png",
+        "file_token": "Ecu9bXgbDoarnRxdkdPcV4SfnQd",
+        "size": 1073475
+      },
+      {
+        "name": "dimensions.png",
+        "file_token": "NrDUbJAkaoKhDcxaqAdcqVKgnaf",
+        "size": 1673436
+      },
+      {
+        "name": "material_detail.png",
+        "file_token": "OWILbfoXPospJ1xfkgOcUcClnOb",
+        "size": 1052408
+      },
+      {
+        "name": "hero_main.png",
+        "file_token": "FhSLbxNqgoKNcexRuQccAISWnTd",
+        "size": 1886121
+      }
+    ]
+  },
+  "notes": [
+    "The first hero Oracle run reported Chrome disconnected after saving hero_main.png; the saved image was inspected and accepted.",
+    "The dimension run first failed before generation because the Oracle slug had too few words; it was rerun with a valid slug and accepted."
+  ]
+}

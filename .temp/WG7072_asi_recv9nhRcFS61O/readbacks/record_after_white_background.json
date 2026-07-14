@@ -1,0 +1,255 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "28.5",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": null,
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": null,
+        "Currency": null,
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": null,
+        "Distributor_View_Only": null,
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": null,
+        "Imprint_Location": null,
+        "Imprint_Method": null,
+        "Imprint_Size": null,
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": null,
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": null,
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": null,
+        "P1": "8.32369371428571",
+        "P10": null,
+        "P2": "8.17235382857143",
+        "P3": "8.02101394285714",
+        "P4": "7.945344",
+        "P5": "7.18864457142857",
+        "P6": "7.03730468571428",
+        "P7": "6.96163474285714",
+        "P8": "6.81029485714285",
+        "P9": null,
+        "Packaging": null,
+        "Personalization": null,
+        "Price_Includes": null,
+        "Price_Type": null,
+        "Prod_Image": null,
+        "Product_Color": null,
+        "Product_Name": null,
+        "Product_Number": [
+          {
+            "text": "WG7072",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": null,
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": null,
+        "Q1": "50",
+        "Q10": null,
+        "Q2": "100",
+        "Q3": "200",
+        "Q4": "500",
+        "Q5": "1000",
+        "Q6": "2000",
+        "Q7": "5000",
+        "Q8": "10000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": null,
+        "Rush_Time": null,
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": null,
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": null,
+        "Shipping_Items": null,
+        "Shipping_Weight": null,
+        "Size_Group": null,
+        "Size_Values": null,
+        "Sold_Unimprinted": null,
+        "Summary": null,
+        "Theme": null,
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG7072",
+        "XID": null,
+        "id": "7121",
+        "record_id": [
+          {
+            "text": "recv9nhRcFS61O",
+            "type": "text"
+          }
+        ],
+        "主题": "Sports  \nHealth \u0026 Fitness  \nCamping  \nBirthday\nGym",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Magnetic Phone Pouch,\r\nGym Bag Water Bottle Carrier,\r\nHolder Owala Bogg 24 Oz 32oz,\r\nYeti Brita Simple Modern,\r\nThermoflask With Strap Awala,\r\nDrink Hydration Pack,\r\nAccessories Travelon Cooler,\r\nNo Squeeze Freesip Stanley,\r\nJug 16 Pouches Hiking Hot,\r\nHydroflask Lid Sling Black,\r\nBoot Shoulder For Men,\r\nBackpack Hydro Flask 32 Mens,\r\nSway 40 Fanny Rambler 20,\r\nMolle Neoprene 30oz Cup,\r\nWalking Storage Purse 24oz,\r\nBags Sport Crossbody Blue,\r\nWomen 30 Waterbottle Alice,\r\nTote Accesorios Para Koozies,\r\nSpill Proof Sleeve Pocket,\r\nWanderfull Hydrobag - Covers,\r\nTraveling Iron 64 Caddy,\r\nHandle Tumbler Belt Bike And,\r\nCombo Top Bow Insulated Clip,\r\nOn Botella Straps Carrying",
+        "产品名称": "Magnetic phone pouch gym bag water bottle carrier holder",
+        "产品尺寸 宽(cm)": "14.96",
+        "产品尺寸 长(cm)": "9.98",
+        "产品尺寸 高(cm)": "28",
+        "产品材质": "Rubber",
+        "产品简称": "手机袋",
+        "产品类型": "Bags \u0026 Luggage",
+        "产品编号": "WG7072",
+        "产品重量(kg)": null,
+        "产品颜色": "Black/beige/pink/dark pink/grey/blue/white",
+        "件数/箱": "60",
+        "分类": "BAGS /\nBEVERAGE HOLDERS",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "A6Rcb3GTGo7CVFxVm0KcWTJJnWh",
+            "name": "WG7072_clean_no_logo.png",
+            "size": 813024,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=A6Rcb3GTGo7CVFxVm0KcWTJJnWh\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4922%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/A6Rcb3GTGo7CVFxVm0KcWTJJnWh/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4922%7D%7D"
+          }
+        ],
+        "商品主图": null,
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "杯套拓展-磁吸健身水壶包【黑色款看这个商家：https://detail.1688.com/offer/980410600348.html?fromkv=cbuPcPlugin:imageSearchDrawerCard\u0026spm=a2639h.29135425.offerlist.i5\u0026source=action%23offerItem%3Borigin%23detail.1688.com\u0026amug_biz=oneself\u0026amug_fl_src=awakeId_982】",
+        "完整描述": "Equipped with 6 powerful built-in magnets, our magnetic gym bag securely attaches to any metal surface, ensuring your bottle and personal items stay firmly in place (water bottle not included). Featuring a central compartment for your water bottle and two side pockets for gym essentials like phone, keys, wallet, or headphones, our gym magnetic water bottle bag holder enhances convenience during your workout sessions. Gym magnetic bag bottle holder comes in a range of color options to match your style and personality, adding excitement to your gym accessories. Comes with a handle and adjustable shoulder strap for easy carrying. Magnetic gym water bottle sleeve bag holder is suitable for the gym, basketball, outdoor activities, travel, walking the dog, and more.",
+        "来源(1688)": "https://detail.1688.com/offer/893010840469.html?spm=a26352.b28411319.offerlist.1.3df81e62hJMPzI\u0026cosite=-\u0026tracelog=p4p\u0026_p_isad=1\u0026clickid=df00b705cafc49b1878615a6cb723442\u0026sessionid=e2d481cae9dd64ea42ba2c55a8e1e707",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": [
+          {
+            "file_token": "IspjbQPuVoV6XOxK7rgcrojvnFb",
+            "name": "WG7072_white_background.png",
+            "size": 847957,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=IspjbQPuVoV6XOxK7rgcrojvnFb\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4922%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/IspjbQPuVoV6XOxK7rgcrojvnFb/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4922%7D%7D"
+          }
+        ],
+        "简要说明": "This water bottle carrier holder features strong magnetic attachment to keep your bottle accessible. Rush service is available.",
+        "箱子尺寸 宽(cm)": "41.5",
+        "箱子尺寸 长(cm)": "57",
+        "箱子尺寸 高(cm)": "48",
+        "货代大货参考定价基准（30%毛利）": 7.44,
+        "货代大货起订量标准": 48,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "19"
+      },
+      "id": "recv9nhRcFS61O",
+      "record_id": "recv9nhRcFS61O"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsANVGIk7w": {
+        "fldn5dP24T": [
+          {
+            "file_token": "S3zabKJV5oF0bUxe3RmcBz7VnQh",
+            "name": "LP3523_hero_with_logo.png",
+            "size": 1282438
+          },
+          {
+            "file_token": "YZxEbSsnRoBgm7xSFzjcqG9an8c",
+            "name": "LP3523_lifestyle_scene_codex.png",
+            "size": 2139002
+          },
+          {
+            "file_token": "Boqcb1igVodb7FxwNORc8S2Rnde",
+            "name": "LP3523_material_detail.png",
+            "size": 1475492
+          },
+          {
+            "file_token": "DXSxbhV5FooMMnx5T4dcjBcXnSg",
+            "name": "LP3523_dimension.png",
+            "size": 716810
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

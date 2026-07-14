@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsANVGL5Ks": {
+        "fldn5dP24T": [
+          {
+            "file_token": "PHarb24Nuo9MaFxzj7vc5RWZnRg",
+            "name": "LP3426_scene_golf_use_oracle_gemini.png",
+            "size": 1331190
+          },
+          {
+            "file_token": "V319b6649ohG03xcI8ccfQ9cnQf",
+            "name": "LP3426_selling_points_v2_oracle_gemini.png",
+            "size": 751204
+          },
+          {
+            "file_token": "Ob7TbxYdEoQmN0xrxbXci0WRnIh",
+            "name": "LP3426_dimensions_oracle_gemini.png",
+            "size": 473695
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

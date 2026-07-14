@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsACVILy3b": {
+        "fldn5dP24T": [
+          {
+            "file_token": "QKzwbdyAHoyl0QxcWGpcZAZVnvb",
+            "name": "LP3273_asi_hero.png",
+            "size": 1419469
+          },
+          {
+            "file_token": "I3EtbK9zcoifeyxgxxwcebUqnob",
+            "name": "LP3273_asi_detail.png",
+            "size": 995498
+          },
+          {
+            "file_token": "Bn6nb47jyo3GQaxZxSfcTOQOnjc",
+            "name": "LP3273_asi_hero_regen.png",
+            "size": 1336437
+          }
+        ]
+      }
+    }
+  }
+}

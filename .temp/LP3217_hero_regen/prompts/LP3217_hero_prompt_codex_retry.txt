@@ -1,0 +1,17 @@
+Generate a single square 1:1 ASI ecommerce hero/main image for product LP3217. This is a retractable laptop keyboard cleaning brush with an ABS handle, soft black bristles, a side slider, and black end caps. Use the attached reference images only to preserve the exact real product structure, proportions, materials, bristle shape, side slider, black end caps, colors, and SKU evidence.
+
+Create a professional, beautiful, high-converting Amazon-style ecommerce hero image with a clean premium layout, strong visual hierarchy, balanced spacing, attractive lighting, polished commercial poster design, and a white or very light premium background. This is only one hero image, not a full image set.
+
+Composition:
+- Main product: show one large brush on the left, extended, with a clean front-facing printable handle area. The main product should be the largest element and carry most of the visual emphasis.
+- Logo: use the attached logo reference file named LOGO-WT.png as a visual reference only. Do not render the words "LOGO-WT.png" anywhere in the image. On the printable area of the main product, print only a clean custom-logo placeholder that visibly includes the exact words "YOUR LOGO". A simple logo mark from the supplied logo reference may appear with it, but the file name must not appear.
+- If any reference product contains a logo, sample logo, imprint, brand mark, manufacturer/platform mark, watermark, QR code, contact information, or URL, replace it with the "YOUR LOGO" placeholder only.
+- Bottom SKU row: show all five verified colors exactly once and in this order if possible: grey, black, medium blue, light blue, red. Do not omit any of these five colors. Do not invent any extra colors.
+- Optional right side: include up to two small circular insets based on the attached detail/lifestyle references: one use-scene inset cleaning a laptop screen or keyboard, and one close-up detail inset of the soft bristles/retractable slider.
+
+Hard constraints:
+- 1:1 aspect ratio.
+- No Chinese characters.
+- No prices, currency symbols, discounts, QR codes, watermarks, manufacturer names, supplier names, platform logos, contact information, URLs, dimensions, dimension lines, captions, labels, or promotional claims.
+- Do not show "LOGO-WT.png" or any file name as visible text.
+- Do not change the real product design, colors, material, accessories, or retractable brush structure.

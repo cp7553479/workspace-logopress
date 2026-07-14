@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "downloaded": [
+      {
+        "content_type": "image/png",
+        "field_id": "fldn5dP24T",
+        "file_token": "IcvBbUzk8oUM8MxIDtkcogusn7e",
+        "name": "lifestyle_fishing_codex.png",
+        "record_id": "recuYsACVI4xsE",
+        "saved_path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP2994_hero_regen/references/lifestyle_fishing_codex.png",
+        "size": 2209820,
+        "size_bytes": 2209820
+      },
+      {
+        "content_type": "image/png",
+        "field_id": "fldn5dP24T",
+        "file_token": "B0TIbtDV5oimqyxcKLRcjm1OnDh",
+        "name": "selling_point_foldable_codex.png",
+        "record_id": "recuYsACVI4xsE",
+        "saved_path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP2994_hero_regen/references/selling_point_foldable_codex.png",
+        "size": 1354626,
+        "size_bytes": 1354626
+      },
+      {
+        "content_type": "image/png",
+        "field_id": "fldn5dP24T",
+        "file_token": "QG17bRLvhozmDmxoK2UcvtKGnqe",
+        "name": "material_detail_codex.png",
+        "record_id": "recuYsACVI4xsE",
+        "saved_path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP2994_hero_regen/references/material_detail_codex.png",
+        "size": 1606374,
+        "size_bytes": 1606374
+      }
+    ]
+  }
+}

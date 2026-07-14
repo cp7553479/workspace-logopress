@@ -1,0 +1,37 @@
+{
+  "request_id": "57246ef0-3119-4f1a-8f9d-13858cdbc3b1",
+  "session_id": "bc7526d0-b7cc-4239-a1f9-f07877d2d74c",
+  "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "imageModel": "gpt-image-2",
+  "image_count": 1,
+  "imageCount": 1,
+  "images": [
+    {
+      "path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP3431_asi_recuYsANVG6gmK/outputs/LP3431_hero_main.png",
+      "decodedPath": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP3431_asi_recuYsANVG6gmK/outputs/LP3431_hero_main.png",
+      "bytes": 1262438,
+      "sha256": "0dc8601ca541d50885dcaa1e7e6f458ce7bf17a855ff367d2550a5b755839bb8",
+      "call_id": "ig_04b781cc0f0363a7016a3c5c87f1348191a1b15809ffffbc50",
+      "status": "generating",
+      "partial": false,
+      "revised_prompt": "Create a 1:1 Amazon-style ecommerce hero image on a pure clean white background. Use the provided clean white-background silver multifunctional foldable golf knife references as the exact product reference and the provided LOGO-BK.png as the logo source.\n\nMain composition: a large left-side/center hero product occupying about 80% of the image, angled diagonally like the reference. The product must be a silver brushed stainless-steel multifunctional foldable golf knife/keychain tool, identical in structure to the reference: rounded silver handle with brushed metal texture, three vertical black slots on the handle, black cleaning brush protruding from one end, visible layered folding tools along the side, chain and round key ring on the right, open folding knife blade, and upper tool must be a two-prong golf divot fork/prong tool exactly like the reference, not a bottle opener, hook, corkscrew, or other shape. Preserve black brush end, black slots, keychain, folding knife blade, and fork/prong tool accurately. Do not show gold or any other color variants.\n\nLogo requirement: print the provided black LogoPress sample logo onto the printable area of the silver handle, scaled and perspective-warped naturally with the product surface. The imprint must clearly include the words “YOUR LOGO” on the product. If the graphic mark is too complex, use the supplied logo mark plus text, but ensure the words YOUR LOGO are legible. Do not include any other brand names, distorted letters, original logo patterns, manufacturer marks, or extra text.\n\nAdd up to three small circular detail insets on the right side only, with thin subtle outlines and soft shadows, showing supported close-up details only: black cleaning brush, two-prong foldable divot fork, and keychain carry. The inset contents must match the same product exactly. No dimension diagrams, no SKU charts, no labels, no callout text.\n\nStyle: professional premium commercial poster design, polished realistic product photography, attractive studio lighting, soft natural shadows, strong visual hierarchy, crisp edges, high-converting ecommerce look, modern and clean. White background with subtle shadows only. No visible text beyond the YOUR LOGO imprint on the product. No Chinese, no QR codes, no watermarks, no platform marks, no contact info, no URLs, no price info."
+    }
+  ],
+  "seen_event_types": [
+    "response.created",
+    "response.in_progress",
+    "response.output_item.added",
+    "response.image_generation_call.in_progress",
+    "response.image_generation_call.generating",
+    "keepalive",
+    "response.image_generation_call.partial_image",
+    "response.output_item.done",
+    "response.content_part.added",
+    "response.output_text.done",
+    "response.content_part.done",
+    "response.completed"
+  ],
+  "timed_out": false
+}

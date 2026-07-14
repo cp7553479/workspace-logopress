@@ -1,0 +1,172 @@
+`_record_id` is metadata for record operations, not a table field.
+
+- `_record_id`: recuYsANVG9ZBS
+- `产品编号`: LP3441
+- `Rush_Time`: 5:days
+- `Q5`: 1000
+- `UD1`: K/Z
+- `Origin`: China
+- `Option_Values`: 
+- `Q1`: 50
+- `Product_Name`: 18oz party bar stainless steel moscow mule copper mugs
+- `QUR_Flag`: 
+- `Imprint_Location`: Centered on Front or as you request
+- `Theme`: Anniversary Entertainment
+- `P10`: 
+- `备注`: ["不锈钢杯", "马克杯", "酒杯/酒具"]
+- `FOB Points`: Casper, WY 82601 USA
+- `产品类型`: Drinkware
+- `Product_Color`: MEDIUM BLACK SILVER METAL GOLD METAL=Rose Gold
+- `Option_Name`: 
+- `Size_Group`: Dimension
+- `Q4`: 500
+- `产品名称`: 18oz party bar stainless steel moscow mule copper mugs
+- `P8`: 3.98
+- `1688价(元)`: 15
+- `重量(箱子+产品)公斤`: 12
+- `箱子尺寸 长(cm)`: 56
+- `货代大货起订量标准`: 58
+- `Imprint_Size`: 1" x 1" or custom size
+- `Product_Type`: 
+- `D2`: R
+- `Base_Price_Name`: 
+- `Shape`: 
+- `Base_Price_Criteria_...`: 
+- `Upcharge_Criteria_1`: 
+- `Upcharge_Type`: 
+- `Base_Price_Criteria_...`: 
+- `Upcharge_Criteria_2`: 
+- `Production_Time`: 8:days
+- `XID`: 
+- `Description`: Elevate your drinking experience with our 18oz party bar stainless steel Moscow Mule copper mugs, crafted from high-quality 304 stainless steel with a stunning copper-plated hammered finish. These durable mugs blend functionality with style, featuring a comfortable handle for easy grip and double-walled insulation to keep beverages hot or cold. Perfect for home bars, parties, or special occasions like anniversaries, they’re ideal for sipping cocktails, wine, or cold drinks. The portable design makes them great for travel or entertainment events, while the customizable surface allows for printed logos, bulk orders, and personalized branding—ideal for wholesale, promotional purposes, or as branded gifts. Whether you’re hosting a gathering or looking for a unique present, these mugs combine luxury, durability, and practicality to enhance every sip.
+- `Upcharge_Name`: 
+- `WG产品编号`: WG3498
+- `Category`: BAR ACCESSORIES COPPER PRODUCTS
+- `运输风险提示`: 
+- `Q8`: 10000
+- `产品关键词`: Unique Custom Best High,
+Quaility Luxury Most Popular,
+Durable Stock Portable,
+Wholesale Promotional Branded,
+Printed Logo Customized Bulk,
+Customizable Nice Blank,
+Amazon 18oz Party Bar,
+Stainless Steel Moscow Mule,
+Copper Mugs Coffee Mug Travel,
+Contigo Ember Insulated,
+Warmer Stanley 2 With Lid,
+Yeti Glass Set Of 4 Holder,
+Brumate Large 6 For Desk Tea,
+Ceramic Self Stirring,
+Sublimation Beer Clear Fellow,
+Double Walled Mineral Crystal,
+Tree Cute Gaming Heated Spill,
+Proof Leak Cat Hot And Cold,
+Heart Cups & Saucers Le,
+Creuset Corkcicle Infuser,
+Rtic Hello Kitty Handle Hydro,
+Flask Funny Soup Latte,
+Valentines Ello Zojirushi 20,
+Oz Coffe Organizer Heating,
+Cricut Press Snoopy Thermal,
+Pot Lined White Women Trump,
+Rack Personalized Harry,
+Potter Cup Accessories,
+Measuring Plastic K Espresso,
+Reeses Peanut Butter Sippy
+- `产品尺寸 高(cm)`: 10
+- `商品负责人`: [{"id":"ou_5ad9230482a1bb972728bc07618ae587","name":"文森-练物-超级管理员"}]
+- `Same_Day_Service`: N
+- `Item_Weight`: 
+- `Tradename`: 
+- `record_id`: recuYsANVG9ZBS
+- `产品重量(kg)`: 
+- `Personalization`: Y
+- `货代大货参考定价基准（30%毛利）`: 4.4
+- `Imprint_Color`: Standard Colors
+- `Summary`: 18oz stainless steel Moscow Mule copper mugs with copper-plated hammered finish, double-walled insulation, comfortable handle—ideal for parties, travel, gifts; customizable for branding, wholesale, and promotions.
+- `D6`: R
+- `箱子尺寸 宽(cm)`: 25
+- `主题`: Anniversary
+Collegiate
+Sustainable
+Travel
+Entertainment
+- `Q7`: 5000
+- `Product_Number`: LP3441
+- `P5`: 4.2
+- `P6`: 4.11
+- `Upcharge_Level`: 
+- `分类`: Cups-General
+WINE GLASSES
+- `UP1`: 
+- `Can_order_only_one`: 
+- `件数/箱`: 50
+- `父记录`: 
+- `Service_Charge`: Optional
+- `产品尺寸 长(cm)`: 8.8
+- `P9`: 
+- `Shipping_Weight`: 26.46:lbs
+- `Q2`: 100
+- `Product_Sample`: Y
+- `商品主图`: [{"file_token":"PNNEbsqq7oDChpxv841c4dA6nMn","name":"LP3441_hero_main_oracle_chatgpt.png","size":1438403},{"file_token":"IwTebTKLdoY8IHxpTU8cOMBAnkh","name":"LP3441_lifestyle_codex.png","size":2279622},{"file_token":"WegSblLaiop09bxc89NctzuInqc","name":"LP3441_selling_point_codex.png","size":1568426},{"file_token":"WfERbIRO5o15bnxDEtRcCNdGnpg","name":"LP3441_material_detail_codex.png","size":1854272},{"file_token":"VlDMbzgALoBdwtxSdhmcLUSMnnf","name":"LP3441_size_chart_oracle_chatgpt.png","size":1234152},{"file_token":"Q5hdb378OoSBF6xzMDpca4EvnDb","name":"LP3441_sku_chart_oracle_gemini.png","size":614434}]
+- `Less_Than_Min`: Y
+- `Req_for_order`: 
+- `P7`: 4.07
+- `D5`: R
+- `Additional_Location`: 
+- `产品颜色`: Black, silver, rose gold
+- `产品尺寸 宽(cm)`: 8.8
+- `SEO_FLG`: 
+- `Shipping_Dimensions`: Length:22.05:in;Width:9.84:in;Height:22.05:in
+- `Linename`: 
+- `Safety_Warnings`: 
+- `印刷方式`: Full color/Silkscreen/Unimprinted/
+- `D3`: R
+- `参考图片`: [{"file_token":"C42fbAIf0o3Sn9xqto8cQWulnDd","name":"LP3441_clean_no_logo_oracle_chatgpt.png","size":1227769}]
+- `Shipping_Items`: 50:per Case
+- `D7`: R
+- `产品材质`: Stainless Steel
+- `Mark`: ["有询单"]
+- `UQ1`: 1
+- `D9`: R
+- `Q9`: 
+- `Distributor_View_Onl...`: N
+- `D8`: R
+- `Imprint_Method`: Full Color=Full Color Silkscreen=Silkscreen
+- `Option_Additional_In...`: 
+- `Prod_Image`: 
+- `Material`: STAINLESS STEEL
+- `完整描述`: Elevate your drinking experience with our stylish and unique moscow mule copper mugs, crafted from high-quality 304 stainless steel with a stunning copper-plated hammered finish. This elegant glass is not just a practical choice for enjoying your favorite beveragesit's a beautiful piece of art. The hammered texture adds a rustic charm, while the copper plating brings a touch of sophistication. Whether you're sipping a refreshing cocktail, a glass of wine, or a cold drink, this mug enhances every sip. Designed with a comfortable handle, it's easy to hold and enjoy. Perfect for home, bar, or special occasions, this mug makes a great gift for anyone who appreciates quality and style. Treat yourself or a loved one to this moscow mule copper mugs and make every drink a special occasion.
+- `id`: 3530
+- `P3`: 4.69
+- `Rush_Service`: Y
+- `Packaging`: Box Poly Bag Other Custom
+- `产品简称`: 
+- `Price_Type`: Net
+- `选品`: 
+- `D10`: R
+- `P1`: 5.87
+- `Q6`: 2000
+- `简要说明`: Enjoy the elegance of drinking with our moscow mule copper mugs, which also make great gift ideas.Rush service is available.
+- `Price_Includes`: 1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs
+- `Currency`: USD
+- `来源(1688)`: https://detail.1688.com/offer/630717802620.html?spm=a2639h.29135425.offerlist.i0&source=action%23offerItem%3Borigin%23espweb.asicentral.com
+- `Additional_Color`: 
+- `D4`: R
+- `Product_URL`: 
+- `箱子尺寸 高(cm)`: 56
+- `D1`: R
+- `Q10`: 
+- `Size_Values`: Length:3.46:in;Width:3.46:in;Height:3.94:in
+- `P2`: 4.78
+- `Option_Type`: 
+- `Q3`: 200
+- `P4`: 4.65
+- `Sold_Unimprinted`: Y
+- `Artwork`: Virtual Proof:FREE
+- `白底图`: [{"file_token":"JGG6bdN5zoLq9fxz3atcr3GRnse","name":"LP3441_white_background_oracle_gemini.png","size":559860}]
+- `Keywords`: 
+
+Meta: count=1; has_more=false; ignored_fields=2
+Ignored fields: {"id":"flddlselbP","name":"转ESP模板","reason":"UNSUPPORTED: not_support field cannot be read through OpenAPI."}, {"id":"fldgjurf2j","name":"流程","reason":"UNSUPPORTED: not_support field cannot be read through OpenAPI."}

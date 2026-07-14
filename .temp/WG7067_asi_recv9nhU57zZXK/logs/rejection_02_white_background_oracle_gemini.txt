@@ -1,0 +1,3 @@
+Rejected WG7067_white_background.png from Oracle Gemini.
+
+Reason: the generated image simplified the reference into one rolling pin and did not preserve the complete multi-rolling-pin reference arrangement and all visible engraving pattern variants. It is not accepted as a faithful white-background product image for this ASI workflow.

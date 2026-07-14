@@ -1,0 +1,37 @@
+{
+  "request_id": "9c45ca74-255e-46f5-945c-32365ea94d8e",
+  "session_id": "89a5d38a-5ffe-4544-a1b0-d59f46aba569",
+  "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "imageModel": "gpt-image-2",
+  "image_count": 1,
+  "imageCount": 1,
+  "images": [
+    {
+      "path": "/Users/vincent/.openclaw/workspace-logopress/.temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_lifestyle_scene.png",
+      "decodedPath": "/Users/vincent/.openclaw/workspace-logopress/.temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_lifestyle_scene.png",
+      "bytes": 2217907,
+      "sha256": "e9dae544a8d8fa6905073c6051e353710f517480064335513fc4086e78981853",
+      "call_id": "ig_0a892ac84786ccba016a3b9bbaf3808191a7461a2622ab93fb",
+      "status": "generating",
+      "partial": false,
+      "revised_prompt": "Create a square 1:1 professional Amazon-style ecommerce lifestyle poster for a long woven polyester resistance band set, using the attached product references as exact product references. Scene: bright modern home gym / yoga / Pilates setting with soft natural window light, clean white and light neutral background, polished commercial photography. An athletic adult is exercising/stretching with ONE long pink fabric resistance band, the band looped/held naturally during a yoga or Pilates stretching pose. The long band must match the reference exactly: pastel pink woven polyester fabric, flat wide band, thick soft textile edges, visible woven knit texture, no logo, no markings.\n\nForeground: neatly display three rolled bands identical to the reference: top mint/turquoise roll, middle pastel pink roll, bottom purple roll, with same cylindrical coiled shape, curled outer flap, woven texture, soft fabric edge, thickness, proportions, and colors. Add one upright long pink band display if composition allows, matching reference. Strong visual hierarchy: lifestyle user in background/midground, product rolls sharp and prominent in foreground. Premium clean layout, attractive lighting, crisp shadows, high-end ecommerce poster design.\n\nModern typography in English only, minimal and tasteful: small concise benefit words such as “Home Training”, “Yoga”, “Stretching”, “Pilates”. No other text. No Chinese, no QR codes, no watermarks, no manufacturer/supplier/platform marks, no contact info, no URL, no price. Ensure product remains 100% identical to reference in shape, woven texture, soft fabric edges, thickness, proportions, and colors."
+    }
+  ],
+  "seen_event_types": [
+    "response.created",
+    "response.in_progress",
+    "response.output_item.added",
+    "response.image_generation_call.in_progress",
+    "response.image_generation_call.generating",
+    "keepalive",
+    "response.image_generation_call.partial_image",
+    "response.output_item.done",
+    "response.content_part.added",
+    "response.output_text.done",
+    "response.content_part.done",
+    "response.completed"
+  ],
+  "timed_out": false
+}

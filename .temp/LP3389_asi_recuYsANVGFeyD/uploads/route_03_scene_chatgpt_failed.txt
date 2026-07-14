@@ -1,0 +1,2 @@
+Route: Oracle ChatGPT / model requested 5.5 Medium / session lifestyle-ecommerce-scene-image-use-4
+Result: failed before generation: Attachments did not finish uploading before timeout.

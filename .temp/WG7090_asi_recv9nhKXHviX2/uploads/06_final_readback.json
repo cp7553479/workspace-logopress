@@ -1,0 +1,296 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "35",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": null,
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": null,
+        "Currency": null,
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": null,
+        "Distributor_View_Only": null,
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": null,
+        "Imprint_Location": null,
+        "Imprint_Method": null,
+        "Imprint_Size": null,
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": null,
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": null,
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": null,
+        "P1": "25.01",
+        "P10": null,
+        "P2": "24.68",
+        "P3": "24.35",
+        "P4": "24.19",
+        "P5": "22.55",
+        "P6": "22.23",
+        "P7": "22.06",
+        "P8": "21.73",
+        "P9": null,
+        "Packaging": null,
+        "Personalization": null,
+        "Price_Includes": null,
+        "Price_Type": null,
+        "Prod_Image": null,
+        "Product_Color": null,
+        "Product_Name": null,
+        "Product_Number": [
+          {
+            "text": "WG7090",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": null,
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": null,
+        "Q1": "50",
+        "Q10": null,
+        "Q2": "100",
+        "Q3": "200",
+        "Q4": "500",
+        "Q5": "1000",
+        "Q6": "2000",
+        "Q7": "5000",
+        "Q8": "10000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": null,
+        "Rush_Time": null,
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": null,
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": null,
+        "Shipping_Items": null,
+        "Shipping_Weight": null,
+        "Size_Group": null,
+        "Size_Values": null,
+        "Sold_Unimprinted": null,
+        "Summary": null,
+        "Theme": null,
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG7090",
+        "XID": null,
+        "id": "7101",
+        "record_id": [
+          {
+            "text": "recv9nhKXHviX2",
+            "type": "text"
+          }
+        ],
+        "主题": "Christmas/Sports/Thanksgiving/Holidays/Health \u0026 Fitness",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Exerciser Exercise,\r\nEquipment Pedal For Desk Leg,\r\nMachine Bike Arm Foot Under,\r\nSitting While Elliptical,\r\nSeniors Mini Workout Electric,\r\nStepper Stationary Home,\r\nSteppers Peddler Knee As At,\r\nSlide Cardio Seen Hand Cheat,\r\nTv Office And Muscle Sit On,\r\nPedals With Tray Casa Homgim,\r\nRehab Upper Fit Loss,\r\nRehabilitation Legs Exerties,\r\nShoulder Bikes Push Senior,\r\nFlexible Buttocks Device Butt,\r\nWomen Cycle Anti Ejercicios,\r\nMinimalist Ankle Recumbent A,\r\nMano Ejercitador The Aser,\r\nTrainer Countertop Small De,\r\nBody Down Adductor Fitly,\r\nFitness Ellipse Up Atm Elipse,\r\nMassage Seated Gifts,\r\nExcersing Weight En Upwalker,\r\nMakina Standwalker Underdesk,\r\nSwinging Stair Abdomen",
+        "产品名称": "Home fitness limb trainer pedal equipment exercise bike",
+        "产品尺寸 宽(cm)": "48",
+        "产品尺寸 长(cm)": "36",
+        "产品尺寸 高(cm)": "23.5",
+        "产品材质": "Metal",
+        "产品简称": null,
+        "产品类型": "Sports,Fitness,\u0026Outdoors",
+        "产品编号": "WG7090",
+        "产品重量(kg)": null,
+        "产品颜色": "white",
+        "件数/箱": "10",
+        "分类": "SPORTS EQUIPMENT \u0026 ACCESS./BICYCLE ACCESSORIES",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "W6kDb6uh4oHefcx7y8LcVLzMn4c",
+            "name": "WG7090_clean_no_logo.png",
+            "size": 1015862,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=W6kDb6uh4oHefcx7y8LcVLzMn4c\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/W6kDb6uh4oHefcx7y8LcVLzMn4c/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D"
+          }
+        ],
+        "商品主图": [
+          {
+            "file_token": "Ex5FbIAB5oknbhx6m0ycXXwYn1b",
+            "name": "WG7090_hero_logo.png",
+            "size": 1305819,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=Ex5FbIAB5oknbhx6m0ycXXwYn1b\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/Ex5FbIAB5oknbhx6m0ycXXwYn1b/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D"
+          },
+          {
+            "file_token": "ERvRb1jppodsTwx8gwvcs7LKnMc",
+            "name": "WG7090_scene_home_office.png",
+            "size": 1905841,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=ERvRb1jppodsTwx8gwvcs7LKnMc\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/ERvRb1jppodsTwx8gwvcs7LKnMc/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D"
+          },
+          {
+            "file_token": "RNbQb7l7do63DLxB58gc1VepnEf",
+            "name": "WG7090_selling_point.png",
+            "size": 851515,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=RNbQb7l7do63DLxB58gc1VepnEf\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/RNbQb7l7do63DLxB58gc1VepnEf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D"
+          },
+          {
+            "file_token": "DIwDbR6IfoBKBMxm6SkcaxKmnCg",
+            "name": "WG7090_dimension.png",
+            "size": 1010188,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=DIwDbR6IfoBKBMxm6SkcaxKmnCg\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/DIwDbR6IfoBKBMxm6SkcaxKmnCg/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D"
+          },
+          {
+            "file_token": "DubLbI4h8ogqDbxi1ljcXzC0nce",
+            "name": "WG7090_material_detail.png",
+            "size": 740881,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=DubLbI4h8ogqDbxi1ljcXzC0nce\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/DubLbI4h8ogqDbxi1ljcXzC0nce/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D"
+          }
+        ],
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "Temu爆款-迷你健身车腿部训练器（简易款，另有其他款式可供选择，有需要请直接联系客服）",
+        "完整描述": "Our mini exercise peddler is designed as a compact, lightweight under-desk cycle, crafted for versatile use. Equipped with an anti-slip mat at the bottom, it ensures stability and protects user safety during workouts.This folding exerciser peddler functions as both a limb trainer and mini arm bike, offering quiet operationperfect for use at home or work without disrupting others. It simulates various terrains, including roads, hills, and mountains, delivering a full-body workout that rivals jogging, running, or hiking, maximizing results in minimal time.Whether youre aiming to stay active indoors, boost fitness, or add movement to a sedentary routine, this mini exercise bike fits seamlessly into daily life, blending convenience with effective training.",
+        "来源(1688)": "https://detail.1688.com/offer/42471560617.html?fromkv=cbuPcPlugin:imageSearchDrawerCard\u0026spm=a2639h.29135425.offerlist.i6\u0026source=action%23offerItem%3Borigin%23detail.1688.com\u0026amug_biz=oneself\u0026amug_fl_src=awakeId_982",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": [
+          {
+            "file_token": "CJd2bFO3YoAlJSxmD4HcWGnXnIc",
+            "name": "WG7090_white_background.png",
+            "size": 509238,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=CJd2bFO3YoAlJSxmD4HcWGnXnIc\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/CJd2bFO3YoAlJSxmD4HcWGnXnIc/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4907%7D%7D"
+          }
+        ],
+        "简要说明": "This compact under-desk peddler bike trains quietly, fits anywhere, boosts fitnessjoy in every pedal.Rush service is available.",
+        "箱子尺寸 宽(cm)": "42",
+        "箱子尺寸 长(cm)": "52",
+        "箱子尺寸 高(cm)": "30",
+        "货代大货参考定价基准（30%毛利）": 18.88,
+        "货代大货起订量标准": 7,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "23"
+      },
+      "id": "recv9nhKXHviX2",
+      "record_id": "recv9nhKXHviX2"
+    }
+  }
+}

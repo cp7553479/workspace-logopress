@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsACVIbm5I": {
+        "fldn5dP24T": [
+          {
+            "file_token": "WbbTb1CVvowdR8xPSBRc2lqlnUf",
+            "name": "lp2999_scene.png",
+            "size": 1783250
+          },
+          {
+            "file_token": "EL3XbsMqeoPYeDx7GnPcDhzNngh",
+            "name": "lp2999_selling_point_v2.png",
+            "size": 1519610
+          },
+          {
+            "file_token": "LhT8bHPCKoGBGtxwqATcLXhhn2d",
+            "name": "lp2999_dimensions.png",
+            "size": 617311
+          },
+          {
+            "file_token": "UDvmbslWsorILKxlVeucVo3znnh",
+            "name": "lp2999_material_detail.png",
+            "size": 1521276
+          },
+          {
+            "file_token": "PQC2bFBfpoQwVsx8JzYcThtUnOc",
+            "name": "lp2999_hero.png",
+            "size": 638805
+          },
+          {
+            "file_token": "GbqLb2p9qozBcfx1zPgcmbYynNc",
+            "name": "lp2999_hero_oracle_chatgpt.png",
+            "size": 1265565
+          }
+        ]
+      }
+    }
+  }
+}

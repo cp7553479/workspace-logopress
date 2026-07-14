@@ -1,0 +1,21 @@
+🧿 oracle 0.14.0 — Vibes quarantined; facts admitted.
+Using named browser profile default: /Users/vincent/.oracle/browser-profile
+Using Gemini web client for browser automation
+Browser model strategy is ignored for Gemini web runs.
+Session: clipboard-hero-final
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session clipboard-hero-final
+Launching browser mode (gemini-3.5-flash) with ~393 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Model selection evidence: requested=gemini-3.5-flash; resolved=(unavailable); status=unavailable; strategy=current; verified=no.
+Answer:
+http://googleusercontent.com/image_generation_content/295
+
+
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/LP3447_asi_recuYsANVGGM5X/outputs/LP3447_hero_main_v2.png*
+
+45.0s · gemini-3.5-flash[browser] · ↑393 ↓15 ↻0 Δ408
+files=7

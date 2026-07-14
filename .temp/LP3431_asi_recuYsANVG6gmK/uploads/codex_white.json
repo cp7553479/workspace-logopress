@@ -1,0 +1,36 @@
+{
+  "request_id": "485b9edd-8e54-4f9e-bbac-294231f32ec9",
+  "session_id": "5dd8f41c-84b1-4d38-a0d7-a0b009658f05",
+  "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "imageModel": "gpt-image-2",
+  "image_count": 1,
+  "imageCount": 1,
+  "images": [
+    {
+      "path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP3431_asi_recuYsANVG6gmK/outputs/LP3431_white_background.png",
+      "decodedPath": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP3431_asi_recuYsANVG6gmK/outputs/LP3431_white_background.png",
+      "bytes": 1135609,
+      "sha256": "c39b183227ca2f3cef3e96ad135fcf9e2cb43eb2b3130fc33ba79901ecb42bce",
+      "call_id": "ig_0ae2af4a67547889016a3c5982bf088191a0783cbb1c178759",
+      "status": "generating",
+      "partial": false,
+      "revised_prompt": "Professional Amazon-style white-background ecommerce main product image. Use the provided reference image as the only product source. Show the silver stainless steel multifunctional foldable golf knife at a premium studio product angle on a pure white background with a soft natural shadow, professional studio lighting, sharp focus, and clean commercial presentation. Preserve the exact real product structure, proportions, silver stainless steel material, black brush end, black slots, folding knife blade, fork/prong tool, keychain, and all visible parts. No gold variant. No logo, brand mark, imprint, decorative artwork, QR code, watermark, manufacturer information, supplier information, platform marks, contact information, website URL, price info, packaging, hands, people, or props. The image should contain no visible text. Do not invent unsupported details. Square 1:1 composition."
+    }
+  ],
+  "seen_event_types": [
+    "response.created",
+    "response.in_progress",
+    "response.output_item.added",
+    "response.image_generation_call.in_progress",
+    "response.image_generation_call.generating",
+    "response.image_generation_call.partial_image",
+    "response.output_item.done",
+    "response.content_part.added",
+    "response.output_text.done",
+    "response.content_part.done",
+    "response.completed"
+  ],
+  "timed_out": false
+}

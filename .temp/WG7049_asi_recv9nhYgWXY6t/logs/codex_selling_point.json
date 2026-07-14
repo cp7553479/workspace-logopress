@@ -1,0 +1,37 @@
+{
+  "request_id": "97565e13-697f-4019-a9e5-f1d1f09404ad",
+  "session_id": "c87ca586-e526-422b-88d1-afa565988588",
+  "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "imageModel": "gpt-image-2",
+  "image_count": 1,
+  "imageCount": 1,
+  "images": [
+    {
+      "path": "/Users/vincent/.openclaw/workspace-logopress/.temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_selling_point.png",
+      "decodedPath": "/Users/vincent/.openclaw/workspace-logopress/.temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_selling_point.png",
+      "bytes": 2268577,
+      "sha256": "6bb13d040ec949f0991a81f46fa6d5e0de0aa5dc83a3ca1deda928789c7eab44",
+      "call_id": "ig_0ed4f69b9fd6d138016a3b9c3aa3d48191a45a347225b793ef",
+      "status": "generating",
+      "partial": false,
+      "revised_prompt": "Create a 1:1 professional Amazon-style ecommerce selling-point poster for a three-level long woven polyester resistance band set, using the attached reference product exactly. White/very light studio background with premium clean layout and attractive soft commercial lighting. Center-left hero product: three rolled fabric resistance bands stacked vertically, identical to reference in every real product detail: top teal green roll, middle pink roll, bottom purple roll; wide long woven polyester bands, soft fabric edges, thick elastic textile, visible woven texture, rounded rolled structure with spiral face, same proportions and colors, no logo or markings. Include a tasteful fitness layout with subtle minimal accents, maybe faint geometric shapes and soft shadows, but keep product dominant and realistic. On the right, include a vertical pink band strip matching the reference, woven texture visible, cleanly lit. Modern typography with strong hierarchy and concise English callouts only: main headline \"3 Resistance Levels\" and three smaller callouts \"Stretch\" \"Train\" \"Recover\". Use clean sans-serif fonts, premium pastel palette matching bands, high-converting ecommerce design. No prices, discounts, product numbers, QR codes, URLs, contact info, supplier/manufacturer marks, logos, Chinese, watermarks, platform marks. Do not add unsupported product claims or extra accessories. Ratio 1:1."
+    }
+  ],
+  "seen_event_types": [
+    "response.created",
+    "response.in_progress",
+    "response.output_item.added",
+    "response.image_generation_call.in_progress",
+    "response.image_generation_call.generating",
+    "keepalive",
+    "response.image_generation_call.partial_image",
+    "response.output_item.done",
+    "response.content_part.added",
+    "response.output_text.done",
+    "response.content_part.done",
+    "response.completed"
+  ],
+  "timed_out": false
+}

@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recv9nhLt0D5Lt": {
+        "fldn5dP24T": [
+          {
+            "file_token": "Wf2Yb8GITozWuFxC7tucSA2knoh",
+            "name": "WG7100_lifestyle_scene.png",
+            "size": 2217231
+          },
+          {
+            "file_token": "Z0TYb3nxqodgdExLHGTcDLT9nDb",
+            "name": "WG7100_selling_point_retry_chatgpt.png",
+            "size": 2144613
+          },
+          {
+            "file_token": "MxZpbhcH0o1MSixSgpUc2y8fntc",
+            "name": "WG7100_dimension_chart.png",
+            "size": 687314
+          },
+          {
+            "file_token": "LXCIbb3qco07f5xdgsRc6g6ynic",
+            "name": "WG7100_hero_main.png",
+            "size": 1868736
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3404",
+        [
+          {
+            "file_token": "BBGEbCLkeo10FYxrVg6cllvtn7f",
+            "name": "LP3404_01_clean_no_logo_oracle_chatgpt.png",
+            "size": 1079851
+          }
+        ],
+        [
+          {
+            "file_token": "CobVbCf9ooERhdxar8GcJTbmnee",
+            "name": "LP3404_02_white_background_retry_oracle_chatgpt.png",
+            "size": 1033785
+          }
+        ],
+        [
+          {
+            "file_token": "PtAXbzD1Hoyy24xQ7uHcTUAPnsc",
+            "name": "LP3404_03_lifestyle_oracle_gemini.png",
+            "size": 1621746
+          },
+          {
+            "file_token": "W6Ifb8eGeonOvyxyCldcw1O0nHe",
+            "name": "LP3404_04_selling_point_oracle_chatgpt.png",
+            "size": 1522287
+          },
+          {
+            "file_token": "JI2Pba0XFoy0HbxaWlHc9kv8nee",
+            "name": "LP3404_05_size_chart_oracle_gemini.png",
+            "size": 699194
+          },
+          {
+            "file_token": "HpCsbjtLLo30GhxwW0tclR9Anmd",
+            "name": "LP3404_06_material_detail_oracle_chatgpt.png",
+            "size": 1590722
+          },
+          {
+            "file_token": "UBlBbdg2cob3vDx58XBc2BVKnFe",
+            "name": "LP3404_07_sku_chart_oracle_gemini.png",
+            "size": 633326
+          },
+          {
+            "file_token": "BVfnbJmPMoQ19DxYafucnNOUnGb",
+            "name": "LP3404_08_hero_main_oracle_chatgpt_LOGO-BK.png",
+            "size": 1281130
+          }
+        ],
+        [
+          "有询单"
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fldsExhPlC"
+    ],
+    "fields": [
+      "产品编号",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "Mark"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsANVG2AT7"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

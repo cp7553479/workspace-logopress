@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsANVGuQs2": {
+        "fldn5dP24T": [
+          {
+            "file_token": "JfjfbSlYZo2uCJxf8r7cXhcRnch",
+            "name": "LP3417_lifestyle_travel.png",
+            "size": 1460443
+          },
+          {
+            "file_token": "BA0tbme2YokzGnxYPyccDYFEnyg",
+            "name": "LP3417_selling_point_hygiene.png",
+            "size": 1901923
+          },
+          {
+            "file_token": "BP72bSVFios6v4xxcegcg3EOn9e",
+            "name": "LP3417_dimensions.png",
+            "size": 913181
+          },
+          {
+            "file_token": "Xwh2bITTuoExA8xTEozcl2bCnUf",
+            "name": "LP3417_material_detail.png",
+            "size": 1065797
+          },
+          {
+            "file_token": "SXZ3bme3noBhnix4dPGcnxL0njd",
+            "name": "LP3417_sku_chart_01.png",
+            "size": 1125801
+          },
+          {
+            "file_token": "U8HMb3tgJohXH2xC6XPcN7oOnDg",
+            "name": "LP3417_sku_chart_02.png",
+            "size": 1262619
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

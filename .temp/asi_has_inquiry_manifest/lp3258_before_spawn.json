@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3258",
+        "LP3258",
+        "Vintage Zippered Leather Pencil Pouch for School \u0026 Office",
+        "MEDIUM BROWN DARK BROWN MEDIUM BLACK DARK GREEN MEDIUM BLUE=Navy Blue MEDIUM RED=Burgundy",
+        [
+          {
+            "file_token": "GYfXb78bmoY7rNxLbKRcNKu9nmd",
+            "name": "white_background.png",
+            "size": 1115386
+          },
+          {
+            "file_token": "TV97bAy7koWgiwxAbLVc3GYmnYg",
+            "name": "asi_hero_main.png",
+            "size": 1508662
+          }
+        ],
+        [
+          {
+            "file_token": "HnpPb9izEoK6n2xERjucUfswnNf",
+            "name": "cleaned_reference.png",
+            "size": 1424622
+          }
+        ],
+        [
+          {
+            "file_token": "YFSVbMOd0oqXgBx2b4fcPBPWnXb",
+            "name": "white_background.png",
+            "size": 1115386
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldI24m9eT",
+      "fld21plSU3",
+      "fld79bHuho",
+      "fldn5dP24T",
+      "fldr9B4JZT",
+      "fldzPbQJ2z"
+    ],
+    "fields": [
+      "产品编号",
+      "Product_Number",
+      "Product_Name",
+      "Product_Color",
+      "商品主图",
+      "参考图片",
+      "白底图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsACVIt4Py"
+    ]
+  }
+}

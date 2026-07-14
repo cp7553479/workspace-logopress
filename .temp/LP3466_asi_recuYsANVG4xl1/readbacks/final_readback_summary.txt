@@ -1,0 +1,12 @@
+产品编号: LP3466
+参考图片 count: 1
+  LP3466_clean_no_logo_reference.png	OvbQbMtS5oDPVYxyZeZcnwQXnAh	876440
+白底图 count: 1
+  LP3466_white_background.png	ES7LbM43Lox7hFxUEARcIbhkneg	1977788
+商品主图 count: 6
+  LP3466_lifestyle_griddle.png	BAUobwMNUoqnUbxPra9cqj9BnGb	1750237
+  LP3466_selling_point_even_pressing.png	NkbOb93a9oeZzGxPZZIctkvpnMb	1862714
+  LP3466_material_detail.png	VVjkbMx8XoWKIgx5mPCcS7nPnrb	1911031
+  LP3466_sku_chart.png	QLHUbrfkToJ76YxfDGEcW1fOnYb	1301618
+  LP3466_dimension_chart.png	RF7PbfeUEoTcErxVgKfcjRzfnNc	1421910
+  LP3466_hero_logo.png	JfMkbpsgIoaUrJxUMhwcWTV6nMg	1324873

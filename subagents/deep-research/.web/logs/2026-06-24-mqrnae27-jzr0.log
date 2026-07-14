@@ -1,0 +1,30 @@
+[2026-06-24T05:40:53.551Z] cli.command
+{
+  "command": "fetch",
+  "args": {
+    "urls": [
+      "https://dzht.hrss.hangzhou.gov.cn/docs/_book"
+    ],
+    "waitUntil": "load",
+    "screenshot": false
+  }
+}
+
+[2026-06-24T05:40:53.551Z] http.request
+{
+  "url": "https://r.jina.ai/http://dzht.hrss.hangzhou.gov.cn/docs/_book",
+  "method": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "Authorization": "Bearer j****"
+  },
+  "body": null
+}
+
+[2026-06-24T05:40:59.500Z] http.response
+{
+  "url": "https://r.jina.ai/http://dzht.hrss.hangzhou.gov.cn/docs/_book",
+  "statusCode": 200,
+  "body": "{\"code\":200,\"status\":20000,\"data\":{\"title\":\"\",\"description\":\"\",\"url\":\"http://dzht.hrss.hangzhou.gov.cn/docs/_book\",\"content\":\"![Image 1](https://error.websaas.cn/img/422s.png)\\n\\n站点不存在\\n\\n可能的原因有：\\n\\n一、你请求的站点域名或端口未接入云防护；\\n\\n二、你请求的站点域名或端口配置有误；\\n\\n三、您请求的站点域名或端口已被删除。\\n\\n我是网站管理员，我要处理此异常\",\"warning\":\"Target URL returned error 422: Unprocessable Entity\\nThis page maybe not yet fully loaded, consider explicitly specify a timeout.\",\"metadata\":{\"viewport\":\"width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no\"},\"external\":{},\"httpStatus\":422,\"httpStatusText\":\"\",\"usage\":{\"tokens\":100}},\"meta\":{\"usage\":{\"tokens\":100}}}"
+}
+

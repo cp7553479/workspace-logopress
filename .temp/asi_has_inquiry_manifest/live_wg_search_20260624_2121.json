@@ -1,0 +1,427 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "WG7165",
+        "recv9nhAlzUwOO",
+        null,
+        [
+          {
+            "file_token": "Jp7UbtgwIohMEtxGf98cy02Wn3e",
+            "name": "-5615943071769406104031.png",
+            "size": 717964
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7114",
+        "recv9nhG82hOb2",
+        null,
+        [
+          {
+            "file_token": "SO0Sbktk5o9U4FxK7h4c06Sincf",
+            "name": "16406122301769406107150.png",
+            "size": 624317
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7113",
+        "recv9nhG82g43Q",
+        null,
+        [
+          {
+            "file_token": "QBzAbSs5ioVwTxxhD3qcBb2ynob",
+            "name": "-15436166731769406108902.png",
+            "size": 427366
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7107",
+        "recv9nhHK7waQX",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "YqSPb0pCIoJpGjxQxfScWoPvnTg",
+            "name": "WG7107_clean_no_logo.png",
+            "size": 1028556
+          }
+        ],
+        [
+          {
+            "file_token": "LJltbGGCwosks1xE5HUch9NFnNg",
+            "name": "WG7107_white_background.png",
+            "size": 748712
+          }
+        ],
+        [
+          {
+            "file_token": "E8oQbisB5oXXngxpGiwcN7yMn3u",
+            "name": "WG7107_scene_camping.png",
+            "size": 2044334
+          },
+          {
+            "file_token": "ItVqbP2vcoS6AGx990FcrmVMnUh",
+            "name": "WG7107_dimension.png",
+            "size": 873565
+          },
+          {
+            "file_token": "WUh3bFYvxoqJYDxAzTQcvG4Pnrh",
+            "name": "WG7107_sku_colors.png",
+            "size": 1183304
+          }
+        ]
+      ],
+      [
+        "WG7105",
+        "recv9nhHK7wOl8",
+        null,
+        [
+          {
+            "file_token": "A3kSbUnmfo0Vbwxv6vdc4J18nkd",
+            "name": "-6404197571769406111768.png",
+            "size": 410208
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7103",
+        "recv9nhHK7Il2z",
+        null,
+        [
+          {
+            "file_token": "MUdibGyXZoxHdpxbH6BcIiMLnlk",
+            "name": "20258369051769406113798.png",
+            "size": 582276
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7102",
+        "recv9nhHK7xJBI",
+        null,
+        [
+          {
+            "file_token": "Se6rb4a29o556zxCdT0cwaVcn5d",
+            "name": "17824164631769406115391.png",
+            "size": 419701
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7101",
+        "recv9nhHK7Ul6l",
+        null,
+        [
+          {
+            "file_token": "FcZJbC3acoCAmYxdhmHcDe06ndH",
+            "name": "-1406446131769406117006.png",
+            "size": 406934
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7112",
+        "recv9nhIln5MZs",
+        null,
+        [
+          {
+            "file_token": "OMlQbGFAuozV0kxCsuZc813Mnmg",
+            "name": "-1051431581769406118899.png",
+            "size": 500824
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7111",
+        "recv9nhIlnn5dr",
+        null,
+        [
+          {
+            "file_token": "PfJ0bpZf4oFN8cxLoSecSqI4nHd",
+            "name": "6787124631769406120497.png",
+            "size": 935586
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7110",
+        "recv9nhIlnI8PH",
+        null,
+        [
+          {
+            "file_token": "WgKBbO8X0ons6MxJTsycReGSnTh",
+            "name": "-1033553951769406122217.png",
+            "size": 428399
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7109",
+        "recv9nhIlniOZZ",
+        null,
+        [
+          {
+            "file_token": "FyAebUEuaoOTs7xBqgacfVzxnrf",
+            "name": "-5502754611769406124154.png",
+            "size": 804611
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7108",
+        "recv9nhIln3VMo",
+        null,
+        [
+          {
+            "file_token": "Hfs0bFdYsoxsg3xfkIjcVJFJnrg",
+            "name": "-5226861201769406125939.png",
+            "size": 774030
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7093",
+        "recv9nhKXHe2kx",
+        null,
+        [
+          {
+            "file_token": "ZQHEbBiu5oWQ7RxeCALc1aCznEf",
+            "name": "-8296777531769406127772.png",
+            "size": 349811
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7092",
+        "recv9nhKXHXP9C",
+        null,
+        [
+          {
+            "file_token": "Tyypb0slkopi8kx61yNc90SunQe",
+            "name": "-15721005191769406129605.png",
+            "size": 1039661
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7091",
+        "recv9nhKXHr9dm",
+        null,
+        [
+          {
+            "file_token": "JpS4bByYmofVzHx3eVzcIKzOnBd",
+            "name": "17553521331769406132276.png",
+            "size": 412125
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7090",
+        "recv9nhKXHviX2",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "W6kDb6uh4oHefcx7y8LcVLzMn4c",
+            "name": "WG7090_clean_no_logo.png",
+            "size": 1015862
+          }
+        ],
+        [
+          {
+            "file_token": "CJd2bFO3YoAlJSxmD4HcWGnXnIc",
+            "name": "WG7090_white_background.png",
+            "size": 509238
+          }
+        ],
+        [
+          {
+            "file_token": "Ex5FbIAB5oknbhx6m0ycXXwYn1b",
+            "name": "WG7090_hero_logo.png",
+            "size": 1305819
+          },
+          {
+            "file_token": "ERvRb1jppodsTwx8gwvcs7LKnMc",
+            "name": "WG7090_scene_home_office.png",
+            "size": 1905841
+          },
+          {
+            "file_token": "RNbQb7l7do63DLxB58gc1VepnEf",
+            "name": "WG7090_selling_point.png",
+            "size": 851515
+          },
+          {
+            "file_token": "DIwDbR6IfoBKBMxm6SkcaxKmnCg",
+            "name": "WG7090_dimension.png",
+            "size": 1010188
+          },
+          {
+            "file_token": "DubLbI4h8ogqDbxi1ljcXzC0nce",
+            "name": "WG7090_material_detail.png",
+            "size": 740881
+          }
+        ]
+      ],
+      [
+        "WG7100",
+        "recv9nhLt0D5Lt",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "BVdxbBzf5oT957xJ6mZcwj7wnIh",
+            "name": "WG7100_clean_no_logo.png",
+            "size": 1977839
+          }
+        ],
+        [
+          {
+            "file_token": "Ac2kb69Qso87hwxXzyOcxoKTnne",
+            "name": "WG7100_white_background.png",
+            "size": 660697
+          }
+        ],
+        [
+          {
+            "file_token": "Wf2Yb8GITozWuFxC7tucSA2knoh",
+            "name": "WG7100_lifestyle_scene.png",
+            "size": 2217231
+          },
+          {
+            "file_token": "Z0TYb3nxqodgdExLHGTcDLT9nDb",
+            "name": "WG7100_selling_point_retry_chatgpt.png",
+            "size": 2144613
+          },
+          {
+            "file_token": "MxZpbhcH0o1MSixSgpUc2y8fntc",
+            "name": "WG7100_dimension_chart.png",
+            "size": 687314
+          },
+          {
+            "file_token": "LXCIbb3qco07f5xdgsRc6g6ynic",
+            "name": "WG7100_hero_main.png",
+            "size": 1868736
+          }
+        ]
+      ],
+      [
+        "WG7097",
+        "recv9nhLt0CcVq",
+        null,
+        [
+          {
+            "file_token": "X0rPbsRnDoBe66x9KTjcKg4OnX4",
+            "name": "3458042781769406138103.png",
+            "size": 753889
+          }
+        ],
+        null,
+        null
+      ],
+      [
+        "WG7096",
+        "recv9nhLt0YjbF",
+        null,
+        [
+          {
+            "file_token": "QPfybLfoeo7fRgx4TdOciGZAnBe",
+            "name": "4987939691769406139562.png",
+            "size": 271538
+          }
+        ],
+        null,
+        null
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldfwWSmG4",
+      "fldsExhPlC",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "产品编号",
+      "record_id",
+      "Mark",
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": true,
+    "query_context": {
+      "field_scope": "selected_fields",
+      "record_scope": "all_records",
+      "search_scope": "fldHb6xDKX(产品编号)"
+    },
+    "record_id_list": [
+      "recv9nhAlzUwOO",
+      "recv9nhG82hOb2",
+      "recv9nhG82g43Q",
+      "recv9nhHK7waQX",
+      "recv9nhHK7wOl8",
+      "recv9nhHK7Il2z",
+      "recv9nhHK7xJBI",
+      "recv9nhHK7Ul6l",
+      "recv9nhIln5MZs",
+      "recv9nhIlnn5dr",
+      "recv9nhIlnI8PH",
+      "recv9nhIlniOZZ",
+      "recv9nhIln3VMo",
+      "recv9nhKXHe2kx",
+      "recv9nhKXHXP9C",
+      "recv9nhKXHr9dm",
+      "recv9nhKXHviX2",
+      "recv9nhLt0D5Lt",
+      "recv9nhLt0CcVq",
+      "recv9nhLt0YjbF"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

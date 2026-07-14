@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "field": {
+      "description": "标准颜色选项",
+      "expression": "bitable::$table[tbl1f731h82T86ag].FILTER(CurrentValue.$column[fldHb6xDKX]=bitable::$table[tbl3KNB7zP8EQ1d0].$field[fldI24m9eT]).$column[fld79bHuho].LISTCOMBINE()",
+      "id": "fld79bHuho",
+      "name": "Product_Color",
+      "type": "formula"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

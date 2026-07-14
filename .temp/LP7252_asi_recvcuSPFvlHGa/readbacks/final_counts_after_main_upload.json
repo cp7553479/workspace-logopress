@@ -1,0 +1,23 @@
+{
+  "record_id": "recvcuSPFvlHGa",
+  "fields": {
+    "product_number": "LP7252",
+    "reference_count": 1,
+    "white_background_count": 1,
+    "main_image_count": 6,
+    "reference_names": [
+      "clean_reference_chatgpt.png"
+    ],
+    "white_background_names": [
+      "white_background_codex.png"
+    ],
+    "main_image_names": [
+      "hero_codex.png",
+      "lifestyle_chatgpt.png",
+      "selling_point_chatgpt.png",
+      "dimension_chatgpt.png",
+      "material_chatgpt.png",
+      "sku_codex.png"
+    ]
+  }
+}

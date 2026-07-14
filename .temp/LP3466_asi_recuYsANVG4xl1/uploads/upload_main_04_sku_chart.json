@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsANVG4xl1": {
+        "fldn5dP24T": [
+          {
+            "file_token": "BAUobwMNUoqnUbxPra9cqj9BnGb",
+            "name": "LP3466_lifestyle_griddle.png",
+            "size": 1750237
+          },
+          {
+            "file_token": "NkbOb93a9oeZzGxPZZIctkvpnMb",
+            "name": "LP3466_selling_point_even_pressing.png",
+            "size": 1862714
+          },
+          {
+            "file_token": "VVjkbMx8XoWKIgx5mPCcS7nPnrb",
+            "name": "LP3466_material_detail.png",
+            "size": 1911031
+          },
+          {
+            "file_token": "QLHUbrfkToJ76YxfDGEcW1fOnYb",
+            "name": "LP3466_sku_chart.png",
+            "size": 1301618
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

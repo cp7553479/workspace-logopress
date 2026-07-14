@@ -1,0 +1,246 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "35",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": null,
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": null,
+        "Currency": null,
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": null,
+        "Distributor_View_Only": null,
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": null,
+        "Imprint_Location": null,
+        "Imprint_Method": null,
+        "Imprint_Size": null,
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": null,
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": null,
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": null,
+        "P1": "13.2",
+        "P10": null,
+        "P2": "12.98",
+        "P3": "12.76",
+        "P4": "12.65",
+        "P5": "11.54",
+        "P6": "11.32",
+        "P7": "11.21",
+        "P8": "10.98",
+        "P9": null,
+        "Packaging": null,
+        "Personalization": null,
+        "Price_Includes": null,
+        "Price_Type": null,
+        "Prod_Image": null,
+        "Product_Color": null,
+        "Product_Name": null,
+        "Product_Number": [
+          {
+            "text": "WG7084",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": null,
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": null,
+        "Q1": "50",
+        "Q10": null,
+        "Q2": "100",
+        "Q3": "200",
+        "Q4": "500",
+        "Q5": "1000",
+        "Q6": "2000",
+        "Q7": "5000",
+        "Q8": "10000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": null,
+        "Rush_Time": null,
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": null,
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": null,
+        "Shipping_Items": null,
+        "Shipping_Weight": null,
+        "Size_Group": null,
+        "Size_Values": null,
+        "Sold_Unimprinted": null,
+        "Summary": null,
+        "Theme": null,
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG7084",
+        "XID": null,
+        "id": "7119",
+        "record_id": [
+          {
+            "text": "recv9nhPfrxdck",
+            "type": "text"
+          }
+        ],
+        "主题": "Aromatherapy \u0026 Relaxation/Travel/Birthday/Mother's Day/Anniversary",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon 6-piece Body And,\r\nSkincare Set Womens Beauty,\r\nTravel Basket Spa Gift Bath,\r\nAccessories Includes Face,\r\nMassage Roller Hair Brush,\r\nExfoliation Tools Decorative,\r\nWooden Tray Rose Gifts For,\r\nWomen Pink Sets Clearance \u0026,\r\nShower Anniversary Self Care,\r\nEos Lotion Baskets Bubble,\r\nWorks Butter Relaxation,\r\nL'occitane Package By Earth,\r\nSmall Soap Glory Kit Fresh,\r\nCozy Perfume Burts Bees Inis,\r\nMothers Day Dove Wash,\r\nCrabtree Evelyn Products,\r\nMother's Nurses' Thanksgiving,\r\nChristmas Loccitane Adults,\r\nBirthday 10pcs Lily With Comb,\r\nTowel Tie Luxetique Tahiti,\r\nIsland 15pcs Bombs Essential,\r\nOil Hand Cream Salt Tote Bag,\r\nLuxuries Lizush Cards Bags,\r\nEucalyptus Wome Experience",
+        "产品名称": "6-piece travel body skincare spa gift set beauty tote bag",
+        "产品尺寸 宽(cm)": "20",
+        "产品尺寸 长(cm)": "25.5",
+        "产品尺寸 高(cm)": "10",
+        "产品材质": "Canvas",
+        "产品简称": null,
+        "产品类型": "Health, Beauty \u0026 Wellness",
+        "产品编号": "WG7084",
+        "产品重量(kg)": null,
+        "产品颜色": "brown",
+        "件数/箱": "36",
+        "分类": "BATHROOM ACCESSORIES/GIFT SETS",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "Dgthbg38aoJxFGxbYLzca4NLn2b",
+            "name": "WG7084_clean_no_logo.png",
+            "size": 1831700,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=Dgthbg38aoJxFGxbYLzca4NLn2b\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4909%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/Dgthbg38aoJxFGxbYLzca4NLn2b/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A4909%7D%7D"
+          }
+        ],
+        "商品主图": null,
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "【价格需调整】沐浴礼品套装-两个链接的款式都放下",
+        "完整描述": "Our 6-IN-1 beauty kit combines premium skincare accessories for face and body care, designed to help you unwind at home or on the go. Each gentle tool in this travel-friendly set is lightweight and compact, fitting seamlessly into suitcases or overnight bagsensuring luxury skincare during trips, weekends away, or daily routines. Crafted for durability even with consistent use, the kit includes functional facial tools and efficient body-care essentials to simplify your pampering routine. Housed in an elegant tote bag, it makes a perfect gift for birthdays, Mothers Day, Valentines Day, anniversaries, or Christmassharing the joy of self-care with loved ones. Available in different set combinations to suit your needscontact our customer service for details.",
+        "来源(1688)": "https://detail.1688.com/offer/906067992364.html",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": null,
+        "简要说明": "This beauty kit with different skin care tools and elegant tote elevates self-care at home or on the go.Rush service is available.",
+        "箱子尺寸 宽(cm)": "52",
+        "箱子尺寸 长(cm)": "62",
+        "箱子尺寸 高(cm)": "52",
+        "货代大货参考定价基准（30%毛利）": 11.11,
+        "货代大货起订量标准": 20,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "14"
+      },
+      "id": "recv9nhPfrxdck",
+      "record_id": "recv9nhPfrxdck"
+    }
+  }
+}

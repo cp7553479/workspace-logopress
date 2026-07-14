@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recvcuSTO0D3wZ": {
+        "fldzPbQJ2z": [
+          {
+            "file_token": "GAxmbLjnZonvHyxQpP3czxB0ngb",
+            "name": "LP7263_white_background.png",
+            "size": 584155
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record": {
+      "fields": {
+        "1688价(元)": "21",
+        "Additional_Color": null,
+        "Additional_Location": null,
+        "Artwork": [
+          {
+            "text": "Virtual Proof:FREE",
+            "type": "text"
+          }
+        ],
+        "Base_Price_Criteria_1": null,
+        "Base_Price_Criteria_2": null,
+        "Base_Price_Name": null,
+        "Can_order_only_one": null,
+        "Category": [
+          "opt53429868",
+          "optB3FBALH"
+        ],
+        "Currency": [
+          {
+            "text": "USD",
+            "type": "text"
+          }
+        ],
+        "D1": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D10": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D2": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D3": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D4": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D5": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D6": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D7": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D8": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "D9": [
+          {
+            "text": "R",
+            "type": "text"
+          }
+        ],
+        "Description": [
+          {
+            "text": "Say goodbye to lukewarm lunches, wilted groceries, and soggy food deliveries! Our Large Insulated Cooler Bag with Zippered closure is designed to revolutionize food transport for delivery services, catering, and everyday use. Crafted from high-quality polyester, this durable, portable tote features a refined dual-slider zipper for secure closure and reinforced 'no tear' handles to withstand heavy loads. The spacious interior (22x14x13 inches) easily accommodates multiple meal containers, grocery bags with chilled dairy and meats, or catering supplies, keeping frozen items frozen and hot items hot for hours. Its collapsible design saves storage space, while the leak-proof construction ensures mess-free transport. Ideal for Doordash, Grubhub, catering businesses, camping, travel, beach trips, and sustainable grocery shopping. Customizable with printed logos, this wholesale promotional bag is perfect for branded giveaways, bulk orders, or personal use. Make every delivery a success and every outing convenient with this reliable, insulated cooler bag.",
+            "type": "text"
+          }
+        ],
+        "Distributor_View_Only": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "FOB Points": [
+          {
+            "text": "Casper, WY 82601 USA",
+            "type": "text"
+          }
+        ],
+        "Imprint_Color": [
+          {
+            "text": "Standard Colors",
+            "type": "text"
+          }
+        ],
+        "Imprint_Location": [
+          {
+            "text": "Centered on Front or as you request",
+            "type": "text"
+          }
+        ],
+        "Imprint_Method": [
+          "opt117377868",
+          "opt1785801388"
+        ],
+        "Imprint_Size": [
+          {
+            "text": "4\" x 4\" or custom size",
+            "type": "text"
+          }
+        ],
+        "Item_Weight": null,
+        "Keywords": null,
+        "Less_Than_Min": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Linename": null,
+        "Mark": [
+          "有询单"
+        ],
+        "Material": [
+          "optmHMU9h4"
+        ],
+        "Option_Additional_Info": null,
+        "Option_Name": null,
+        "Option_Type": null,
+        "Option_Values": null,
+        "Origin": [
+          {
+            "text": "China",
+            "type": "text"
+          }
+        ],
+        "P1": "11.06",
+        "P10": null,
+        "P2": "10.89",
+        "P3": "10.73",
+        "P4": "10.64",
+        "P5": "9.82",
+        "P6": "9.66",
+        "P7": "9.57",
+        "P8": "9.41",
+        "P9": null,
+        "Packaging": [
+          "optp7Y2PWQ",
+          "optkUxW5wQ",
+          "optvoSJKKO",
+          "optOtKqStI"
+        ],
+        "Personalization": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Price_Includes": [
+          {
+            "text": "1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs",
+            "type": "text"
+          }
+        ],
+        "Price_Type": [
+          {
+            "text": "Net",
+            "type": "text"
+          }
+        ],
+        "Prod_Image": null,
+        "Product_Color": [
+          "optkisYscS",
+          "optGu8rV7F",
+          "optd9k2xkR"
+        ],
+        "Product_Name": [
+          {
+            "text": "Large Insulated Cooler Bag with Zippered Closure for Food Delivery",
+            "type": "text"
+          }
+        ],
+        "Product_Number": [
+          {
+            "text": "LP3515",
+            "type": "text"
+          }
+        ],
+        "Product_Sample": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Product_Type": null,
+        "Product_URL": null,
+        "Production_Time": [
+          {
+            "text": "8:days",
+            "type": "text"
+          }
+        ],
+        "Q1": "50",
+        "Q10": null,
+        "Q2": "100",
+        "Q3": "200",
+        "Q4": "500",
+        "Q5": "1000",
+        "Q6": "2000",
+        "Q7": "5000",
+        "Q8": "10000",
+        "Q9": null,
+        "QUR_Flag": null,
+        "Req_for_order": null,
+        "Rush_Service": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Rush_Time": [
+          {
+            "text": "5:days",
+            "type": "text"
+          }
+        ],
+        "SEO_FLG": null,
+        "Safety_Warnings": null,
+        "Same_Day_Service": [
+          {
+            "text": "N",
+            "type": "text"
+          }
+        ],
+        "Service_Charge": [
+          {
+            "text": "Optional",
+            "type": "text"
+          }
+        ],
+        "Shape": null,
+        "Shipping_Dimensions": [
+          {
+            "text": "Length:18.9:in;Width:18.9:in;Height:16.54:in",
+            "type": "text"
+          }
+        ],
+        "Shipping_Items": [
+          {
+            "text": "20:per Case",
+            "type": "text"
+          }
+        ],
+        "Shipping_Weight": [
+          {
+            "text": "35.27:lbs",
+            "type": "text"
+          }
+        ],
+        "Size_Group": [
+          {
+            "text": "Dimension",
+            "type": "text"
+          }
+        ],
+        "Size_Values": [
+          {
+            "text": "Length:22.44:in;Width:13.78:in;Height:14.57:in",
+            "type": "text"
+          }
+        ],
+        "Sold_Unimprinted": [
+          {
+            "text": "Y",
+            "type": "text"
+          }
+        ],
+        "Summary": [
+          {
+            "text": "Large Insulated Cooler Bag with Zipper: 22x14x13, durable polyester, leak-proof, collapsible. Keeps food hot/cold for hours. Ideal for delivery, catering, camping, travel. Customizable with logos.",
+            "type": "text"
+          }
+        ],
+        "Theme": [
+          "optRqRtuCw",
+          "optxUNprOg",
+          "optQQF8hG1",
+          "opt69lj8Up",
+          "optFmjDZMw"
+        ],
+        "Tradename": null,
+        "UD1": [
+          {
+            "text": "K/Z",
+            "type": "text"
+          }
+        ],
+        "UP1": null,
+        "UQ1": 1,
+        "Upcharge_Criteria_1": null,
+        "Upcharge_Criteria_2": null,
+        "Upcharge_Level": null,
+        "Upcharge_Name": null,
+        "Upcharge_Type": null,
+        "WG产品编号": "WG3592",
+        "XID": null,
+        "id": "3609",
+        "record_id": [
+          {
+            "text": "recuYsANVGttp5",
+            "type": "text"
+          }
+        ],
+        "主题": "Anniversary\nSustainable\nCamping\nTravel\nBeach",
+        "产品关键词": "Unique Custom Best High,\r\nQuaility Luxury Most Popular,\r\nDurable Stock Portable,\r\nWholesale Promotional Branded,\r\nPrinted Logo Customized Bulk,\r\nCustomizable Nice Blank,\r\nAmazon Large For Food,\r\nDelivery Insulated Cooler Bag,\r\nWith Zippered Catering,\r\nDoordash 22x14x13 Bags,\r\nCollapsible Titan Styrofoam,\r\nDrink Travel Hieleras Para,\r\nTrabajo Cambro Warmer Box,\r\nCamping Coolers Disposable,\r\nPizza Bogg Rotomolded Soft,\r\nLeak Proof Backpack Today,\r\nParty Storage Warmers Drawer,\r\nTote Container Golf Bolsa De,\r\nPlaymate Hot Supplies Beach,\r\nGrubhub Free Prime Members,\r\nInflatable Arctic Zone Deep,\r\nFreeze Breastmilk Cold Cake,\r\nWarming Transport Yeti 22 W X,\r\n14 L 13 D Big Bodaon Xxxl,\r\nSeparate Cooling Dasher,\r\nFolding Grocery Xl Wheels And,\r\nHandle Lunch Bike Termica,\r\nComida Caliente Car,\r\nCommercial Carriers Heat,\r\nHeating Containers To Keep",
+        "产品名称": "Large For Food Delivery Insulated Cooler Bag with Zippered",
+        "产品尺寸 宽(cm)": "35",
+        "产品尺寸 长(cm)": "57",
+        "产品尺寸 高(cm)": "37",
+        "产品材质": "Polyester",
+        "产品简称": null,
+        "产品类型": "Bags \u0026 Luggage",
+        "产品编号": "LP3515",
+        "产品重量(kg)": null,
+        "产品颜色": "Black/Gray/Red",
+        "件数/箱": "20",
+        "分类": "COOLERS/Bags-Lunch",
+        "印刷方式": "Full color/Silkscreen/Unimprinted/",
+        "参考图片": [
+          {
+            "file_token": "N0Ylbyfh9oGsIoxlv4Kc7LUAndh",
+            "name": "LP3515_clean_no_logo.png",
+            "size": 1263808,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=N0Ylbyfh9oGsIoxlv4Kc7LUAndh\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/N0Ylbyfh9oGsIoxlv4Kc7LUAndh/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D"
+          }
+        ],
+        "商品主图": [
+          {
+            "file_token": "GBH0b7eyuolK3Ux3Iv1cFP2Dnbd",
+            "name": "LP3515_hero_main.png",
+            "size": 2118638,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=GBH0b7eyuolK3Ux3Iv1cFP2Dnbd\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/GBH0b7eyuolK3Ux3Iv1cFP2Dnbd/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D"
+          },
+          {
+            "file_token": "BmoMbjYIioMd5LxvWVAcxRClnjb",
+            "name": "LP3515_scene_delivery_retry_chatgpt.png",
+            "size": 2208094,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=BmoMbjYIioMd5LxvWVAcxRClnjb\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/BmoMbjYIioMd5LxvWVAcxRClnjb/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D"
+          },
+          {
+            "file_token": "PMxtbhOISoz4LaxjAcJcmmrjnbh",
+            "name": "LP3515_selling_point_insulated.png",
+            "size": 1560073,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=PMxtbhOISoz4LaxjAcJcmmrjnbh\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/PMxtbhOISoz4LaxjAcJcmmrjnbh/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D"
+          },
+          {
+            "file_token": "SVrxbYEqloq5LbxfPk6cceJ3nSh",
+            "name": "LP3515_dimension.png",
+            "size": 1704021,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=SVrxbYEqloq5LbxfPk6cceJ3nSh\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/SVrxbYEqloq5LbxfPk6cceJ3nSh/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D"
+          },
+          {
+            "file_token": "AvVhbsTtLogAv5x0m2icUc2Znld",
+            "name": "LP3515_material_detail.png",
+            "size": 1295473,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=AvVhbsTtLogAv5x0m2icUc2Znld\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/AvVhbsTtLogAv5x0m2icUc2Znld/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D"
+          }
+        ],
+        "商品负责人": [
+          {
+            "avatar_url": "https://s1-imfile.feishucdn.com/static-resource/v1/v3_00ev_aba2075d-3c22-4852-8a6b-30351da54b2g~?image_size=72x72\u0026cut_type=default-face\u0026quality=\u0026format=jpeg\u0026sticker_format=.webp",
+            "email": "",
+            "en_name": "文森-练物-超级管理员",
+            "id": "ou_5ad9230482a1bb972728bc07618ae587",
+            "name": "文森-练物-超级管理员"
+          }
+        ],
+        "备注": "[\"保温包/野餐包/野餐篮\", \"高性价比手提袋/手提包\"]",
+        "完整描述": "Say goodbye to lukewarm lunches, wilted groceries, and soggy food deliveries! Our Insulated Cooler Bag with Zippered closure is here to revolutionize the way you transport perishables. Our zippered top tote carriers are made of virgin fabric and feature a refined dual slider zipper and reinforced \"no tear\" handles, making it strong enough to handle all your carrying needs. Its spacious interior can accommodate multiple meal containers, grocery bags filled with chilled dairy and meats. The durable exterior withstands the rigors of daily use, from being tossed in the back of a delivery vehicle to being lugged around busy supermarkets. Our insulated carrier is perfect for grocery shopping, catering, food delivery services. Keep frozen items frozen and hot items hot for hours on the go.",
+        "来源(1688)": "https://detail.1688.com/offer/832219822758.html?spm=a2639h.29135425.offerlist.i4\u0026source=action%23offerItem%3Borigin%23www.amazon.com",
+        "父记录": [
+          {
+            "record_ids": null,
+            "table_id": "tbl3KNB7zP8EQ1d0",
+            "text": null,
+            "text_arr": [],
+            "type": "text"
+          }
+        ],
+        "白底图": [
+          {
+            "file_token": "IY2GbDIrwogk1YxFEdpcMGJinhf",
+            "name": "LP3515_white_background.png",
+            "size": 2231326,
+            "tmp_url": "https://open.feishu.cn/open-apis/drive/v1/medias/batch_get_tmp_download_url?file_tokens=IY2GbDIrwogk1YxFEdpcMGJinhf\u0026extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D",
+            "type": "image/png",
+            "url": "https://open.feishu.cn/open-apis/drive/v1/medias/IY2GbDIrwogk1YxFEdpcMGJinhf/download?extra=%7B%22bitablePerm%22%3A%7B%22tableId%22%3A%22tbl3KNB7zP8EQ1d0%22%2C%22rev%22%3A5201%7D%7D"
+          }
+        ],
+        "简要说明": "Make every food delivery a success story and every grocery shopping trip a breeze. Rush service is availble.",
+        "箱子尺寸 宽(cm)": "48",
+        "箱子尺寸 长(cm)": "48",
+        "箱子尺寸 高(cm)": "42",
+        "货代大货参考定价基准（30%毛利）": 8.4,
+        "货代大货起订量标准": 19,
+        "运输风险提示": null,
+        "选品": null,
+        "重量(箱子+产品)公斤": "16"
+      },
+      "id": "recuYsANVGttp5",
+      "record_id": "recuYsANVGttp5"
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

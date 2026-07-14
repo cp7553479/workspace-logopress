@@ -1,0 +1,21 @@
+🧿 oracle 0.14.0 — Debugger by day, oracle by night.
+Session: wg7067-white-background
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session wg7067-white-background
+Launching browser mode (gpt-5.5-pro) with ~219 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Browser control: launch visible Chrome; may focus/control the browser UI.
+[browser] Browser guidance: Manual-login mode may show the persistent Oracle Chrome profile for sign-in or automation.
+[browser] Browser guidance: Use --browser-hide-window, --browser-attach-running, or --remote-chrome to reduce desktop disruption.
+[browser] Acquired ChatGPT browser slot 4dbc36f5 (3 max).
+[browser] Waiting for ChatGPT generated image response.
+[browser] No assistant download buttons found for button fallback.
+[browser] Released ChatGPT browser slot 4dbc36f5.
+ERROR: No images generated. Response text:
+Selecting rolling pin for image generation
+file_00000000373071faa0f1ee4c76080f36: fetch failed
+User error (browser-automation): No images generated. Response text:
+Selecting rolling pin for image generation
+file_00000000373071faa0f1ee4c76080f36: fetch failed

@@ -1,0 +1,5 @@
+codex-imagen: attached 2 reference image(s)
+codex-imagen: POST https://chatgpt.com/backend-api/codex/responses
+codex-imagen: model gpt-5.5
+codex-imagen: image model gpt-image-2
+TypeError: fetch failed

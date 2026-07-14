@@ -1,0 +1,19 @@
+🧿 oracle 0.14.0 — We refactor the model's hubris before it hits prod.
+Using Gemini web client for browser automation
+Session: wg7056-lifestyle-gemini-textless
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session wg7056-lifestyle-gemini-textless
+Launching browser mode (gemini-3.5-flash) with ~296 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Model selection evidence: requested=gemini-3.5-flash; resolved=(unavailable); status=unavailable; strategy=select; verified=no.
+Answer:
+http://googleusercontent.com/image_generation_content/292
+
+
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/WG7056_asi_recv9nhVyeHz3p/outputs/WG7056_lifestyle_gym_yoga_textless.png*
+
+37.0s · gemini-3.5-flash[browser] · ↑296 ↓15 ↻0 Δ311
+files=2

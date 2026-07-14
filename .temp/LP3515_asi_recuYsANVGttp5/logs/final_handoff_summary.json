@@ -1,0 +1,110 @@
+{
+  "clean_reference_upload": {
+    "ok": true,
+    "identity": "user",
+    "data": {
+      "attachments": {
+        "recuYsANVGttp5": {
+          "fldr9B4JZT": [
+            {
+              "file_token": "Vt17bDtH7oprudxEafncutDOn8g",
+              "name": "-15745142611759575157392.jpeg",
+              "size": 136019
+            },
+            {
+              "file_token": "N0Ylbyfh9oGsIoxlv4Kc7LUAndh",
+              "name": "LP3515_clean_no_logo.png",
+              "size": 1263808
+            }
+          ]
+        }
+      }
+    },
+    "_notice": {
+      "update": {
+        "command": "lark-cli update",
+        "current": "1.0.56",
+        "latest": "1.0.58",
+        "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+      }
+    }
+  },
+  "white_upload": {
+    "ok": true,
+    "identity": "user",
+    "data": {
+      "attachments": {
+        "recuYsANVGttp5": {
+          "fldzPbQJ2z": [
+            {
+              "file_token": "IY2GbDIrwogk1YxFEdpcMGJinhf",
+              "name": "LP3515_white_background.png",
+              "size": 2231326
+            }
+          ]
+        }
+      }
+    },
+    "_notice": {
+      "update": {
+        "command": "lark-cli update",
+        "current": "1.0.56",
+        "latest": "1.0.58",
+        "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+      }
+    }
+  },
+  "final_readback": {
+    "refs_count": 1,
+    "refs": [
+      {
+        "file_token": "N0Ylbyfh9oGsIoxlv4Kc7LUAndh",
+        "name": "LP3515_clean_no_logo.png",
+        "type": "image/png",
+        "size": 1263808
+      }
+    ],
+    "white_count": 1,
+    "white": [
+      {
+        "file_token": "IY2GbDIrwogk1YxFEdpcMGJinhf",
+        "name": "LP3515_white_background.png",
+        "type": "image/png",
+        "size": 2231326
+      }
+    ],
+    "main_count": 5,
+    "main": [
+      {
+        "file_token": "GBH0b7eyuolK3Ux3Iv1cFP2Dnbd",
+        "name": "LP3515_hero_main.png",
+        "type": "image/png",
+        "size": 2118638
+      },
+      {
+        "file_token": "BmoMbjYIioMd5LxvWVAcxRClnjb",
+        "name": "LP3515_scene_delivery_retry_chatgpt.png",
+        "type": "image/png",
+        "size": 2208094
+      },
+      {
+        "file_token": "PMxtbhOISoz4LaxjAcJcmmrjnbh",
+        "name": "LP3515_selling_point_insulated.png",
+        "type": "image/png",
+        "size": 1560073
+      },
+      {
+        "file_token": "SVrxbYEqloq5LbxfPk6cceJ3nSh",
+        "name": "LP3515_dimension.png",
+        "type": "image/png",
+        "size": 1704021
+      },
+      {
+        "file_token": "AvVhbsTtLogAv5x0m2icUc2Znld",
+        "name": "LP3515_material_detail.png",
+        "type": "image/png",
+        "size": 1295473
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+scene_party attempt 1 rejected: Oracle Gemini output LP3444_scene_party.png includes a small sparkle/watermark-like mark in lower right, which violates no-watermark rule.
+selling_point attempt 1 rejected: Oracle Gemini output LP3444_selling_point.png includes a small sparkle/watermark-like mark in lower right, violating no-watermark rule.
+dimension preflight blocked: Oracle rejected slug LP3444-dimension as not 3-5 words; no image generation occurred.

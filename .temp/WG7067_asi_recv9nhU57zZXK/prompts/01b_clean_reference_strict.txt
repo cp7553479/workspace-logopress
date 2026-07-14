@@ -1,0 +1,7 @@
+Edit the attached product photo into a clean product reference photo.
+
+Keep the exact same embossed wooden rolling pins, the same natural wood material, the same engraved cylinder patterns, handles, proportions, arrangement, perspective, lighting, shadows, and pale blue background. Remove only the supplier/platform/manufacturer markings: remove the large Chinese watermark text, remove the website URL, remove any factory name, contact information, QR code, platform mark, or watermark.
+
+Do not add anything new. Do not add a sparkle icon, magic icon, corner logo, signature, watermark, badge, decorative symbol, extra text, or any generated-image mark. The bottom-right corner and all corners must be plain background only.
+
+Do not remove the brown engraved decorative patterns on the rolling pins; those are product details. No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. Ratio 1:1.

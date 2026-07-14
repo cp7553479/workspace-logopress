@@ -1,0 +1,37 @@
+{
+  "request_id": "e3015546-d719-4401-a400-6ea9fcbf0305",
+  "session_id": "5eab15e3-fd86-4f3b-86be-a4fac69268b7",
+  "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "imageModel": "gpt-image-2",
+  "image_count": 1,
+  "imageCount": 1,
+  "images": [
+    {
+      "path": "/Users/vincent/.openclaw/workspace-logopress/.temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_white_background.png",
+      "decodedPath": "/Users/vincent/.openclaw/workspace-logopress/.temp/WG7049_asi_recv9nhYgWXY6t/outputs/WG7049_white_background.png",
+      "bytes": 2304804,
+      "sha256": "2020a6701e5580ead2d57345799f352f06d8efafcbf6b495ac07df232563d31b",
+      "call_id": "ig_0098d349f61e262d016a3b9b0d8bcc8196b6629810c4afa818",
+      "status": "generating",
+      "partial": false,
+      "revised_prompt": "Create a square 1:1 professional ecommerce product photo on a pure white studio background, using the attached reference as the exact product reference. Show only a long woven polyester resistance band set: three rolled fabric bands stacked vertically on the left in mint green, pink, and purple, plus one straight upright pink band view on the right to show the long band shape. Preserve the real woven texture, soft fabric edges, thickness, rolled-band spiral structure, proportions, spacing, and colors exactly as the reference. Clean no-logo product-only image, sharp focus, attractive soft studio lighting, subtle natural shadows, balanced composition. No logo, no labels, no text, no person, no extra props, no Chinese, no QR codes, no watermarks, no manufacturer or supplier information, no platform marks, no contact information, no website URLs, no price info. Do not invent unsupported details."
+    }
+  ],
+  "seen_event_types": [
+    "response.created",
+    "response.in_progress",
+    "response.output_item.added",
+    "response.image_generation_call.in_progress",
+    "response.image_generation_call.generating",
+    "keepalive",
+    "response.image_generation_call.partial_image",
+    "response.output_item.done",
+    "response.content_part.added",
+    "response.output_text.done",
+    "response.content_part.done",
+    "response.completed"
+  ],
+  "timed_out": false
+}

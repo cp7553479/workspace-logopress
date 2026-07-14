@@ -1,0 +1,7 @@
+Create a professional, beautiful, high-converting Amazon-style ecommerce lifestyle image for the attached natural wood embossed rolling pin.
+
+Use the reference product exactly: Product must be 100% identical to reference in all details (shape, texture, parts, engraved cylinder pattern, handles, natural wood color, proportions). Place the rolling pin in a warm, realistic home baking scene on a clean kitchen countertop with cookie dough or pastry nearby, showing how the embossed pattern is used for baking. The composition should be clean premium layout, strong visual hierarchy, balanced spacing, attractive lighting, polished commercial poster design, modern premium ecommerce styling. No marketing text is required.
+
+Hard corner rule: all four corners must be plain scene/background only. Do not add a sparkle icon, magic icon, star mark, corner badge, generated-image mark, watermark, signature, decorative symbol, logo, or any extra mark anywhere in the image.
+
+Do not change product structure, color, material, engraving style, handles, or scale. No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English if any, but preferably no text. Do not invent unsupported accessories attached to the product. Ratio 1:1. Save as a PNG.

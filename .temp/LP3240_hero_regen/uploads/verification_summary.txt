@@ -1,0 +1,7 @@
+LP3240 hero regen verification
+local_output=/Users/vincent/.openclaw/workspace-logopress/.temp/LP3240_hero_regen/outputs/LP3240_hero_main_oracle_chatgpt_LOGO-WT.png
+upload_token=JRylbjFwPoVMzdxAKqOcLdVinKd
+old_hero_removed=WGu1bV4bVosfOfxTNDycOfh1nhd
+reference_token_retained=OJXqblXdmodRj2xcPeic1J81nNc
+white_background_token_retained=MmR3bW2qloR9jKxXCwNcpLtZnPf
+generation_route=Oracle ChatGPT browser, requested model gpt-5.5-Medium

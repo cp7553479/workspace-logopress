@@ -1,0 +1,32 @@
+[2026-06-26T07:19:39.232Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon golf stand bag product listing image examples",
+    "limit": "3",
+    "vendor": []
+  }
+}
+
+[2026-06-26T07:19:39.233Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon golf stand bag product listing image examples",
+    "max_results": 3,
+    "include_answer": false
+  }
+}
+
+[2026-06-26T07:19:41.656Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon golf stand bag product listing image examples\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://us.amazon.com/gp/new-releases/sporting-goods/2515136011\",\"title\":\"The best-selling new & future releases in Golf Stand Bags\",\"content\":\"Linkslite Ultra Lightweight Waterproof Golf Stand Bag with Rain Cover | 5‑Way or 14‑Way Full‑Length Divider | 6 Pockets with Magnetic Access | Dual X‑Strap\",\"score\":0.5942929,\"raw_content\":null},{\"url\":\"https://photography.robintek.com/elevating-your-amazon-listings-with-stunning-product-photography-the-dash-discs-success-story\",\"title\":\"Stunning Product Photography for Dash Discs Amazon Listing\",\"content\":\"Dash Discs needed three disc golf bags photographed against a pristine white background, capturing a range of angles to showcase both the bags' exteriors and\",\"score\":0.5455042,\"raw_content\":null},{\"url\":\"https://www.youtube.com/watch?v=__lXVuKpk2M\",\"title\":\"TOP 5: Best Golf Bags on Amazon - YouTube\",\"content\":\"TOP 5: Best Golf Bags on Amazon 5. Sun Mountain Golf Stand Bag - – https://geni.us/7GBfrh (Amazon) 4. OGIO Convoy SE Stand Bag\",\"score\":0.4836734,\"raw_content\":null}],\"response_time\":1.08,\"request_id\":\"9d27bba1-fc14-4618-adcd-f723a085678c\"}"
+}
+

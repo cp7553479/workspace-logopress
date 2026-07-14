@@ -1,0 +1,5 @@
+Create a clean ecommerce dimension diagram image.
+
+Use the attached white-background product image as the source of truth. Show the same gray Oxford-fabric cooler bag centered on a white background with simple measurement arrows. Use only these exact dimensions converted from the product record: Height 9.06 inch, Length 7.48 inch, Width 6.93 inch. Label the vertical measurement "Height 9.06 inch", the front horizontal measurement "Length 7.48 inch", and the side depth measurement "Width 6.93 inch". Do not add marketing text.
+
+The product must stay 100% identical to the reference in shape, fabric texture, straps, buckle, handle, zipper, and proportions. Clean, precise, readable dimension layout. No logo on the product. No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. Do not invent any extra dimensions or features. Ratio 1:1.

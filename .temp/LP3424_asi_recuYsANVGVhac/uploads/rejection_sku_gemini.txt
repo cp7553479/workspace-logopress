@@ -1,0 +1,1 @@
+Rejected first SKU image: showed correct Black/Green/Blue variants but had a subtle decorative mark at bottom right; regenerate without decorative marks or watermarks.

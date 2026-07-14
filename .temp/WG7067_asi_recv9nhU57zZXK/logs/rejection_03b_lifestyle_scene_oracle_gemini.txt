@@ -1,0 +1,3 @@
+Rejected WG7067_lifestyle_scene_strict.png from Oracle Gemini.
+
+Reason: despite explicit "plain corners / no sparkle" instructions, the bottom-right corner still contains an extra sparkle/generated-image decorative mark. This violates the ASI workflow prohibition on extra marks.

@@ -1,4 +1,0 @@
-[global-trading-product/sessions/global-trading-product/2ee1a1e5-046c-4877-96e0-cfa577f29cec.jsonl#L6] Assistant: [assistant turn failed before producing content]
-[global-trading-product/sessions/global-trading-product/2ee1a1e5-046c-4877-96e0-cfa577f29cec.jsonl#L7] Assistant: [assistant turn failed before producing content]
-[global-trading-product/sessions/global-trading-product/2ee1a1e5-046c-4877-96e0-cfa577f29cec.jsonl#L8] Assistant: [assistant turn failed before producing content]
-[global-trading-product/sessions/global-trading-product/2ee1a1e5-046c-4877-96e0-cfa577f29cec.jsonl#L9] Assistant: [assistant turn failed before producing content]

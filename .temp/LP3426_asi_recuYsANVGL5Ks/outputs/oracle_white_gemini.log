@@ -1,0 +1,20 @@
+🧿 oracle 0.14.0 — Clarity, with a hint of smoke.
+Using Gemini web client for browser automation
+Browser model strategy is ignored for Gemini web runs.
+Session: lp3426-white-gemini
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session lp3426-white-gemini
+Launching browser mode (gemini-3.5-flash) with ~234 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Model selection evidence: requested=gemini-3.5-flash; resolved=(unavailable); status=unavailable; strategy=current; verified=no.
+Answer:
+http://googleusercontent.com/image_generation_content/292
+
+
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/LP3426_asi_recuYsANVGL5Ks/outputs/LP3426_white_background_oracle_gemini.png*
+
+31.6s · gemini-3.5-flash[browser] · ↑234 ↓15 ↻0 Δ249
+files=1

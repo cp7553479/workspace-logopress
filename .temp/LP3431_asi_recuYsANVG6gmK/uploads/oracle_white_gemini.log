@@ -1,0 +1,13 @@
+🧿 oracle 0.14.0 — We refactor the model's hubris before it hits prod.
+Using named browser profile default: /Users/vincent/.oracle/browser-profile
+Using Gemini web client for browser automation
+Browser model strategy is ignored for Gemini web runs.
+Session: lp3431-white-background
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session lp3431-white-background
+Launching browser mode (gemini-3.5-flash) with ~213 tokens.
+This run can take up to an hour (usually ~10 minutes).
+ERROR: fetch failed
+User error (browser-automation): fetch failed

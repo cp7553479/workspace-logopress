@@ -1,0 +1,167 @@
+`_record_id` is metadata for record operations, not a table field.
+
+- `_record_id`: recuYsACVIvAOI
+- `产品编号`: LP3229
+- `Rush_Time`: 5:days
+- `Q5`: 1000
+- `UD1`: K/Z
+- `Origin`: China
+- `Option_Values`: 
+- `Q1`: 50
+- `Product_Name`: Multifunctional Portable Moisture-Proof Cotton Outdoor Blanket
+- `QUR_Flag`: 
+- `Imprint_Location`: Centered on Front or as you request
+- `Theme`: Anniversary Camping Company Picnic Christmas Birthday
+- `P10`: 
+- `备注`: ["吊床/帐篷/天幕/地垫/床垫", "【冬季用品】", "登山类用品"]
+- `FOB Points`: Casper, WY 82601 USA
+- `产品类型`: Home & Garden
+- `Product_Color`: MEDIUM GREEN MEDIUM GRAY MEDIUM BLACK MEDIUM BLUE
+- `Option_Name`: 
+- `Size_Group`: Dimension
+- `Q4`: 500
+- `产品名称`: Multifunctional portable moisture-proof outdoor blanket
+- `P8`: 18.52
+- `1688价(元)`: 78
+- `重量(箱子+产品)公斤`: 22
+- `箱子尺寸 长(cm)`: 60
+- `货代大货起订量标准`: 18
+- `Imprint_Size`: 3" x 3" or custom size
+- `Product_Type`: 
+- `D2`: R
+- `Base_Price_Name`: 
+- `Shape`: 
+- `Base_Price_Criteria_...`: 
+- `Upcharge_Criteria_1`: 
+- `Upcharge_Type`: 
+- `Base_Price_Criteria_...`: 
+- `Upcharge_Criteria_2`: 
+- `Production_Time`: 8:days
+- `XID`: 
+- `Description`: 多功能便携防潮户外毯采用优质材料制成，具备卓越的防水防潮性能。在露营、野餐或户外旅行时，能有效阻隔地面潮气，为您提供干爽舒适的休息环境。适度厚度既不会给行李增加过多负担，又能提供足够的舒适度。其多用途设计，可当作毯子在寒冷夜晚为您保暖，也能铺在地上作为野餐垫使用。它轻盈便携，随时随地都能展开使用。无论是在山区、海边还是公园，都能成为您的贴心伴侣，也是送给家人和朋友的贴心实用礼物。这款多功能、便携且舒适的户外毯让您的旅行舒适愉快，支持加急服务。材质为棉质，属于毯子/地垫类别，适用于周年纪念、露营、公司野餐、圣诞节、生日等场合。
+- `Upcharge_Name`: 
+- `WG产品编号`: WG3231
+- `Category`: BLANKETS PICNIC BASKETS & KITS
+- `运输风险提示`: 
+- `Q8`: 10000
+- `产品关键词`: Unique Custom Best High,
+Quaility Luxury Most Popular,
+Durable Stock Portable,
+Wholesale Promotional Branded,
+Printed Logo Customized Bulk,
+Customizable Nice Blank,
+Amazon Camping Blanket,
+Outdoor Rumpl Waterproof Camp,
+Blankets Packable For,
+Sleeping Down Travel Compact,
+Essentials Backpacking Quilt,
+Water Proof Wise Owl,
+Lightweight Puffy Ultralight,
+Hammock Cold Weather Puffer,
+Top Hiking National Park,
+Queen Hotkoko Throw Warm King,
+Blankey Outside Picnic Tent,
+2-person Puff Gravel Size,
+Rumple & Outdoors Car Sand,
+Summer Outfitters Fleece,
+Kammok Mountain Nanoloft,
+Alptrek Adventure Thermal,
+Stadium Beach Quilted,
+Traveling Goose Layover Under,
+Quilts Hammocks Gear Kitchen,
+Kelty Large Parks Winter,
+Cobijas Para Puffle Wearable,
+Sports Primaloft With Pouch,
+Sack Small Big Co Bed Adults,
+Woobie And Throws Sunset
+- `产品尺寸 高(cm)`: 6
+- `商品负责人`: [{"id":"ou_5ad9230482a1bb972728bc07618ae587","name":"文森-练物-超级管理员"}]
+- `Same_Day_Service`: N
+- `Item_Weight`: 
+- `Tradename`: 
+- `record_id`: recuYsACVIvAOI
+- `产品重量(kg)`: 
+- `Personalization`: Y
+- `货代大货参考定价基准（30%毛利）`: 20.41
+- `Imprint_Color`: Standard Colors
+- `Summary`: 多功能便携防潮户外毯，优质棉质，防水防潮，轻盈便携，多场景适用，可保暖可作野餐垫，贴心实用礼物，支持加急。
+- `D6`: R
+- `箱子尺寸 宽(cm)`: 36
+- `主题`: Anniversary/Camping/Company Picnic/Christmas/Birthday
+- `Q7`: 5000
+- `Product_Number`: LP3229
+- `P5`: 19.55
+- `P6`: 19.14
+- `Upcharge_Level`: 
+- `分类`: BLANKETS/PLACE MATS
+- `UP1`: 
+- `Can_order_only_one`: 
+- `件数/箱`: 25
+- `父记录`: 
+- `Service_Charge`: Optional
+- `产品尺寸 长(cm)`: 37
+- `P9`: 
+- `Shipping_Weight`: 48.50:lbs
+- `Q2`: 100
+- `Product_Sample`: Y
+- `商品主图`: [{"file_token":"UIcub1aUJo0Gw0xQjhscHjpEntg","name":"asi_function_display_replacement.png","size":1473783},{"file_token":"PJXIbXVgSoEHclxVgHAcKpdgnqe","name":"LP3229_hero_main_oracle_chatgpt_LOGO-WT.png","size":1913941}]
+- `Less_Than_Min`: Y
+- `Req_for_order`: 
+- `P7`: 18.93
+- `D5`: R
+- `Additional_Location`: 
+- `产品颜色`: green/gray/black/blue
+- `产品尺寸 宽(cm)`: 23
+- `SEO_FLG`: 
+- `Shipping_Dimensions`: Length:23.62:in;Width:14.17:in;Height:22.83:in
+- `Linename`: 
+- `Safety_Warnings`: 
+- `印刷方式`: Full color/Silkscreen/Unimprinted/
+- `D3`: R
+- `参考图片`: [{"file_token":"F2HsbkxrYoBPh5xW7bhcw3yXnzl","name":"cleaned_reference.png","size":1602531}]
+- `Shipping_Items`: 25:per Case
+- `D7`: R
+- `产品材质`: Cotton
+- `Mark`: ["有询单"]
+- `UQ1`: 1
+- `D9`: R
+- `Q9`: 
+- `Distributor_View_Onl...`: N
+- `D8`: R
+- `Imprint_Method`: Full Color=Full Color Silkscreen=Silkscreen
+- `Option_Additional_In...`: 
+- `Prod_Image`: 
+- `Material`: COTTON
+- `完整描述`: Our travel blanket moisture-proof mat is made of high-quality materials and has excellent waterproof and moisture-proof performance. It can effectively block ground moisture and provide you with a dry and comfortable resting environment when camping, picnicking or traveling outdoors. The moderate thickness will not add too much burden to your luggage, but can provide sufficient comfort. Multi-purpose design, it can be used as a blanket to keep you warm on a cold night, or it can be spread on the ground as a picnic mat. It is light and easy to carry, and you can unfold it anytime and anywhere. Whether it is in the mountains, at the seaside or in the park, it can be your intimate companion. It is also a thoughtful and practical gift for family and friends.
+- `id`: 3327
+- `P3`: 22.81
+- `Rush_Service`: Y
+- `Packaging`: Box Poly Bag Other Custom
+- `产品简称`: 
+- `Price_Type`: Net
+- `选品`: 
+- `D10`: R
+- `P1`: 25.64
+- `Q6`: 2000
+- `简要说明`: This versatile, portable and comfortable outdoor blanket makes your travel comfortable and pleasant.Rush service is available.
+- `Price_Includes`: 1 color, 1 side, 1 location printing. Free shipping for orders over 33 lbs
+- `Currency`: USD
+- `来源(1688)`: https://detail.1688.com/offer/672038122978.html?spm=a2639h.29135425.offerlist.i0&source=action%23offerItem%3Borigin%23espweb.asicentral.com
+- `Additional_Color`: 
+- `D4`: R
+- `Product_URL`: 
+- `箱子尺寸 高(cm)`: 58
+- `D1`: R
+- `Q10`: 
+- `Size_Values`: Length:14.57:in;Width:9.06:in;Height:2.36:in
+- `P2`: 23.23
+- `Option_Type`: 
+- `Q3`: 200
+- `P4`: 21.61
+- `Sold_Unimprinted`: Y
+- `Artwork`: Virtual Proof:FREE
+- `白底图`: [{"file_token":"IV3nbVpG7okAgJxtodkc6h7snlb","name":"white_background.png","size":1003796}]
+- `Keywords`: 
+
+Meta: count=1; has_more=false; ignored_fields=2
+Ignored fields: {"id":"flddlselbP","name":"转ESP模板","reason":"UNSUPPORTED: not_support field cannot be read through OpenAPI."}, {"id":"fldgjurf2j","name":"流程","reason":"UNSUPPORTED: not_support field cannot be read through OpenAPI."}

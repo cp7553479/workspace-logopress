@@ -1,0 +1,5 @@
+Image type: white background
+Route: Oracle ChatGPT, model 5.5 Medium
+Output: outputs/white_background_chatgpt.png
+Result: rejected after visual review
+Reason: The rightmost light green SKU is cropped at the image edge, so the product lineup is not fully visible and is not acceptable as a final white-background product image.

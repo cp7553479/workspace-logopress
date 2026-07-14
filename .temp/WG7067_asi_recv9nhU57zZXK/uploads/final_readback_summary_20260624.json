@@ -1,0 +1,37 @@
+{
+  "record_id": "recv9nhU57zZXK",
+  "ref": [
+    {
+      "file_token": "H5PnbcgwVodSLtxIFsCcUoYZnTd",
+      "name": "WG7067_clean_no_logo_retry_no_sparkle.png"
+    }
+  ],
+  "white": [
+    {
+      "file_token": "BOMvbv13Wovj9WxWtMrcUQ1Cndf",
+      "name": "WG7067_white_background_strict.png"
+    }
+  ],
+  "main": [
+    {
+      "file_token": "IkiCbssr9ozqaAxQzVrcGyQhnaf",
+      "name": "WG7067_hero_main.png"
+    },
+    {
+      "file_token": "Jjiyb2A9ZoOupux0gY0cLOiLnw3",
+      "name": "WG7067_lifestyle_scene_chatgpt.png"
+    },
+    {
+      "file_token": "NWCmb3DiMoVuRaxEHoqcx13Pnfh",
+      "name": "WG7067_selling_point_gemini.png"
+    },
+    {
+      "file_token": "KgVhbT36QohTedxwIYZcNARqnPc",
+      "name": "WG7067_dimensions.png"
+    },
+    {
+      "file_token": "BZY8bhlK6o8xYtxJNSLcKcEdnnd",
+      "name": "WG7067_material_detail.png"
+    }
+  ]
+}

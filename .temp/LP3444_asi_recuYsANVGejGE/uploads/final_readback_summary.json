@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "record_id": "recuYsANVGejGE",
+  "product_no": "LP3444",
+  "Product_Number": [
+    {
+      "text": "LP3444",
+      "type": "text"
+    }
+  ],
+  "ref_count": 1,
+  "white_count": 2,
+  "main_count": 6,
+  "ref": [
+    {
+      "name": "LP3444_clean_no_logo.png",
+      "file_token": "FCRAbE5flofCdNxIYhOcihaZn2g",
+      "size": 1567169,
+      "type": "image/png"
+    }
+  ],
+  "white": [
+    {
+      "name": "LP3444_white_clear.png",
+      "file_token": "TUyRb1SqaopaldxelWYcQEfmnXV",
+      "size": 683067,
+      "type": "image/png"
+    },
+    {
+      "name": "LP3444_white_brown.png",
+      "file_token": "IQqib1pxcof9HfxWwmmc2qJentR",
+      "size": 1530172,
+      "type": "image/png"
+    }
+  ],
+  "main": [
+    {
+      "name": "LP3444_scene_party_v2.png",
+      "file_token": "SIX2bpnU0oADlzxFg7TcQurRnje",
+      "size": 2219436,
+      "type": "image/png"
+    },
+    {
+      "name": "LP3444_selling_point_v2.png",
+      "file_token": "NNVabXjZSovqQtx1q64cXkBOnsb",
+      "size": 2060632,
+      "type": "image/png"
+    },
+    {
+      "name": "LP3444_dimension.png",
+      "file_token": "YB0NbBF5toPPOJxoVtscaoE6nod",
+      "size": 735517,
+      "type": "image/png"
+    },
+    {
+      "name": "LP3444_material_detail.png",
+      "file_token": "YGHbb2BZuoDhKuxpOWUcvrDenEc",
+      "size": 2199724,
+      "type": "image/png"
+    },
+    {
+      "name": "LP3444_sku_chart.png",
+      "file_token": "GbRebkKego0Tn1xoXyAcKqlxnSf",
+      "size": 1013476,
+      "type": "image/png"
+    },
+    {
+      "name": "LP3444_hero_main_LOGO-BK.png",
+      "file_token": "Z6Uhb1no5oTISYxtMIVcMb61nJh",
+      "size": 1934327,
+      "type": "image/png"
+    }
+  ],
+  "dimensions": {
+    "length_cm": "7.2",
+    "width_cm": "6",
+    "height_cm": "12.6"
+  },
+  "colors": "Clear/Brown",
+  "material": "Polycarbonate (PC)"
+}

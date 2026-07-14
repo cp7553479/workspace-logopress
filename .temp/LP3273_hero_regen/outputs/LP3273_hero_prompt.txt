@@ -1,0 +1,19 @@
+Create a professional, beautiful, high-converting Amazon-style ecommerce hero/main image for LP3273, a high-quality stainless steel portable double-sided makeup mirror.
+
+Use the attached white_background.png and clean_reference.png as strict product references. Preserve the exact real product structure: round compact double-sided folding makeup mirror, hinged lid, regular and magnified mirror surfaces, small front push button, polished stainless steel rim, compact portable proportions. Do not invent new accessories, lights, handles, stands, packaging, text labels, or extra features.
+
+Image format and layout:
+- Square 1:1 ratio.
+- Clean pure white or very light premium ecommerce background.
+- Main hero product occupies about 80% of the image and is the largest object.
+- Main product should be rose gold, shown clearly as a premium polished compact mirror, preferably closed or mostly closed so the printable front area is visible.
+- Use LOGO-BK.png logo file and print it naturally on the printable front area of the main product in the hero image.
+- The imprint must clearly include the English text "YOUR LOGO" on the product. Do not show any other brand, sample logo, manufacturer mark, watermark, QR code, website, contact information, price, currency symbol, discount, or promotional text.
+- If the product in the reference image has any logo or imprint, replace it with the logo from LOGO-BK.png, or with plain text "YOUR LOGO" without any graphic mark; do not show the product's original logo pattern from the reference image.
+- Show all verified color SKUs in a neat bottom row: silver, rose gold, and gold. The bottom row must include exactly these three color variants, no missing colors and no extra colors.
+- Do not use dimension lines, size numbers, callout text, badges, labels, captions, or Chinese characters.
+
+Visual quality:
+- Clean premium layout, strong visual hierarchy, balanced spacing, attractive lighting, polished commercial poster design, modern ecommerce styling.
+- Product metal should look realistic, reflective, high-quality, and not plastic.
+- The final image must be a complete generated image based on the references, not a collage, not a screenshot, not a low-quality cutout, and not a simple copy of the reference.

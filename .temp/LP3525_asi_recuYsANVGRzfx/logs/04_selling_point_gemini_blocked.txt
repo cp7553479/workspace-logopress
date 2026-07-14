@@ -1,0 +1,1 @@
+Rejected/blocked selling-point attempt: Oracle Gemini failed with browser-automation fetch failed before producing an image. Next route: Oracle ChatGPT.

@@ -1,0 +1,7 @@
+Create a professional ecommerce SKU color chart for an A4 multifunctional business contract office document folder.
+
+Use the attached clean product reference and white-background product image as the source of truth. Generate a clean premium 1:1 SKU chart showing only visually supported product color variants from the record and reference evidence: Gray/Silver, Blue, Brown, and Black. Do not include red, pink, burgundy, or any unsupported colors. Use a neat row or grid layout with each folder shown in the same open product angle, consistent lighting, and matching scale.
+
+Use short English labels under each variant: "Gray/Silver", "Blue", "Brown", "Black". Do not show grid lines. Style: professional, beautiful, high-converting Amazon-style ecommerce SKU chart design, clean premium layout, balanced spacing, modern English typography.
+
+No logo, no sample logo, no brand mark, no imprint, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. Product must be 100% identical to reference in all details (shape, texture, parts). Do not invent unsupported details. Ratio 1:1.

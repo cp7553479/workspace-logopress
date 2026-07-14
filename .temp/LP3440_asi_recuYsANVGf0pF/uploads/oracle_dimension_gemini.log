@@ -1,0 +1,20 @@
+🧿 oracle 0.14.0 — Short incantation, long provenance.
+Using named browser profile default: /Users/vincent/.oracle/browser-profile
+Using Gemini web client for browser automation
+Session: lp3440-dimension-gemini
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session lp3440-dimension-gemini
+Launching browser mode (gemini-3.5-flash) with ~307 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Model selection evidence: requested=gemini-3.5-flash; resolved=(unavailable); status=unavailable; strategy=select; verified=no.
+Answer:
+http://googleusercontent.com/image_generation_content/292
+
+
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/LP3440_asi_recuYsANVGf0pF/outputs/LP3440_dimension_oracle_gemini.png*
+
+29.3s · gemini-3.5-flash[browser] · ↑307 ↓15 ↻0 Δ322
+files=1

@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsANVGf0pF": {
+        "fldn5dP24T": [
+          {
+            "file_token": "I40YbAtgGo98WVxBedFcK54rnGh",
+            "name": "LP3440_scene_oracle_chatgpt.png",
+            "size": 2377225
+          },
+          {
+            "file_token": "FtKIb29rEovs4uxWTH0cRBBynGd",
+            "name": "LP3440_selling_point_oracle_chatgpt_retry.png",
+            "size": 1979497
+          }
+        ]
+      }
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

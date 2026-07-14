@@ -1,0 +1,11 @@
+Create ONE ASI ecommerce hero/main image for a 10oz stainless steel insulated wine tumbler with clear sliding lid.
+
+Use the attached product reference images to keep the tumbler 100% identical: straight cylindrical body, rounded bottom, matte stainless steel finish, clear smoky transparent lid with sliding sip cover, exact proportions and lid structure. The main large product should be the Sky Blue color.
+
+Use LOGO-WT.png logo file and print it naturally on the printable front area of the main Sky Blue tumbler in the hero image. The visible logo/imprint must include the exact plain English words "YOUR LOGO" as the customization sample for LogoPress. If the product in the reference image has any logo, replace it with the logo from the logo image file, or with plain text "YOUR LOGO" without any other graphic mark; do not show the product's original logo pattern from the reference image.
+
+Composition: square 1:1 Amazon-style ecommerce main image on a clean white background. The main Sky Blue tumbler should be large, centered slightly above the bottom color row, occupying about 75-80% of the image height. At the bottom, show a neat row of six small color SKU tumblers, all with the same lid and body shape, covering every verified color exactly once: Black, White, Gray, Red, Pink, Sky Blue. Do not add unsupported colors, do not omit any of these six colors, and do not duplicate colors. No right-side inset images, no dimension callouts, no labels under the color row.
+
+Visual style: professional, beautiful, high-converting Amazon-style ecommerce image, clean premium layout, strong visual hierarchy, attractive lighting, polished commercial poster design, modern typography quality but no extra typography. Balanced spacing, soft natural product shadows, premium catalog lighting, crisp edges.
+
+Hard constraints: Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All visible text must be English and limited to the product imprint "YOUR LOGO" only. Do not invent unsupported details. Ratio 1:1.

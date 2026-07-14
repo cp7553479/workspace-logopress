@@ -1,0 +1,5 @@
+Create a pure white-background ecommerce product photo from the attached reference image.
+
+The product is a natural wood embossed rolling pin for baking. Keep the product 100% identical to the reference in all details: same cylindrical engraved pattern, natural wood color, handles, proportions, surface texture, shadows, and realistic wood grain. Show one complete rolling pin cleanly centered on a pure white background with professional studio lighting, soft natural shadow, sharp focus, and Amazon-style product photography. The product should occupy most of the frame without cropping.
+
+Remove any existing logo, sample logo, brand mark, imprint, manufacturer/platform mark, QR code, watermark, contact information, and URL from the product and background. Do not add any new logo or decorative mark. No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English if any, but preferably no text. Do not invent unsupported details. Ratio 1:1. Save as a PNG.

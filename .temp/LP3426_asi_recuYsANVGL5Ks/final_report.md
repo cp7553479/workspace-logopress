@@ -1,0 +1,24 @@
+# LP3426 Final Worker Report
+
+- Product number: LP3426
+- Record ID: recuYsANVGL5Ks
+- Product workspace: `/Users/vincent/.openclaw/workspace-logopress/.temp/LP3426_asi_recuYsANVGL5Ks`
+- Initial reference downloaded: `references/original_reference.jpeg`
+- Clean reference generated: `outputs/LP3426_clean_no_logo_oracle_gemini.png`
+- White-background image generated: `outputs/LP3426_white_background_oracle_gemini.png`
+- Accepted ASI main images:
+  - `outputs/LP3426_scene_golf_use_oracle_gemini.png`
+  - `outputs/LP3426_selling_points_v2_oracle_gemini.png`
+  - `outputs/LP3426_dimensions_oracle_gemini.png`
+  - `outputs/LP3426_sku_chart_codex.png`
+  - `outputs/LP3426_material_detail_oracle_gemini.png`
+  - `outputs/LP3426_hero_logo_codex.png`
+- Rejected outputs:
+  - `outputs/LP3426_selling_points_oracle_gemini.png`: unsupported extra wording/claim.
+  - `outputs/LP3426_hero_logo_oracle_gemini.png`: changed product structure by adding unsupported sleeve/panel.
+- Final readback:
+  - `参考图片`: 1 clean file, token `XH7ubqB9aoMeaPxkuEKc3V17nPh`
+  - `白底图`: 1 file, token `Jd3RblZmLo5dClxNvRtcAdACnig`
+  - `商品主图`: 6 files, tokens `PHarb24Nuo9MaFxzj7vc5RWZnRg`, `V319b6649ohG03xcI8ccfQ9cnQf`, `Ob7TbxYdEoQmN0xrxbXci0WRnIh`, `FOKHbW5YMosvSPxLHD3cIp83ncc`, `FVaIbupqaoJ2SmxdtrTcVrIMnK1`, `XYeXbo1YOolC4IxksNjcid7qnmc`
+- Skipped image types: none; all supported planned ASI types were generated and accepted.
+- Blockers: no remaining blocker. Oracle ChatGPT image output was blocked by preview fetch failure; Oracle Gemini SKU failed with fetch error, so Codex fallback was used for SKU and hero after recorded Oracle route evidence.

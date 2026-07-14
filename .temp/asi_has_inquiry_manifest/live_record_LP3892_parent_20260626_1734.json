@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3892",
+        "Multipurpose Durable Wooden Crafts Baptism Cross Key Chains",
+        null,
+        "This exquisite and practical wooden cross keychain will bring warmth and convenience to your life.Rush service is available.",
+        "Key Chains",
+        "brown/dark brown",
+        "Wood",
+        6,
+        3.3,
+        1.2,
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "HhgWbESnoo5VNExwhdecuhYbnjb",
+            "name": "-21013648991759575133768.jpeg",
+            "size": 159017
+          }
+        ],
+        null,
+        null
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fld8ifVx8f",
+      "fldVQEfx44",
+      "fldwtQtwf5",
+      "fld6YFlAS8",
+      "fldoQQU5d4",
+      "flds2DArkf",
+      "fldmImxGsM",
+      "fldoThqxSN",
+      "fldFAy8Xes",
+      "fldsExhPlC",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T"
+    ],
+    "fields": [
+      "产品编号",
+      "产品名称",
+      "产品简称",
+      "简要说明",
+      "产品类型",
+      "产品颜色",
+      "产品材质",
+      "产品尺寸 长(cm)",
+      "产品尺寸 宽(cm)",
+      "产品尺寸 高(cm)",
+      "Mark",
+      "参考图片",
+      "白底图",
+      "商品主图"
+    ],
+    "has_more": false,
+    "query_context": {
+      "field_scope": "selected_fields",
+      "record_scope": "all_records",
+      "search_scope": "fldHb6xDKX(产品编号)"
+    },
+    "record_id_list": [
+      "recuYsANVGKPjF"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.58",
+      "message": "lark-cli 1.0.58 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

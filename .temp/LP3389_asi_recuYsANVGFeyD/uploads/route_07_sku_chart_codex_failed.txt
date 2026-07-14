@@ -1,0 +1,2 @@
+Route: Codex gpt-image-2 after Oracle routes blocked/rejected for final ASI images.
+Result: failed/blocked: Node fetch terminated during SKU chart generation. Per ASI abnormal failure rule, did not immediately retry same SKU chart.

@@ -1,0 +1,5 @@
+Create a square ecommerce dimension diagram image.
+
+Use the attached white-background product image as the exact product source. Show the black magnetic water bottle carrier pouch with the water bottle in a clean white-background layout. Add clear dimension guide lines and English labels only using these exact dimensions: Height 11.02 inch, Width 5.89 inch, Depth 3.93 inch. Do not add any other marketing text. Keep the product structure, strap, bottle, pockets, zipper, metal rings, magnetic strip panel, stitching, seams, and material identical to the reference. Do not add a logo.
+
+Clarity and accuracy are the top priority. Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English. Do not invent unsupported details. Ratio 1:1.

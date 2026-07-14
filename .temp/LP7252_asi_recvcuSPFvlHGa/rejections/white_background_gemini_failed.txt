@@ -1,0 +1,5 @@
+Image type: white background
+Route: Oracle Gemini, model gemini-3.5-flash
+Output requested: outputs/white_background_gemini.png
+Result: failed before image output
+Evidence: CLI exited code 1 with "ERROR: fetch failed" and "User error (browser-automation): fetch failed".

@@ -1,0 +1,2 @@
+Rejected LP7013_06_lifestyle_oracle_gemini.png.
+Reason: the generated product ID card area contains readable sample personal-name text ("M. Smith"), which violates the no contact/personal-information rule for the final ASI product images. The image also adds prominent marketing text despite the prompt requesting minimal/avoid text. Regenerate with a stricter prompt and Oracle ChatGPT route.

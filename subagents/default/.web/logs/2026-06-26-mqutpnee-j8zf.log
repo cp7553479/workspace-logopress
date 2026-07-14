@@ -1,0 +1,32 @@
+[2026-06-26T11:04:01.718Z] cli.command
+{
+  "command": "search",
+  "args": {
+    "text": "Amazon insulated food delivery bag listing image examples material zipper polyester",
+    "limit": "5",
+    "vendor": []
+  }
+}
+
+[2026-06-26T11:04:01.718Z] http.request
+{
+  "url": "https://api.tavily.com/search",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer t****",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "query": "Amazon insulated food delivery bag listing image examples material zipper polyester",
+    "max_results": 5,
+    "include_answer": false
+  }
+}
+
+[2026-06-26T11:04:03.786Z] http.response
+{
+  "url": "https://api.tavily.com/search",
+  "statusCode": 200,
+  "body": "{\"query\":\"Amazon insulated food delivery bag listing image examples material zipper polyester\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.amazon.com/Homevative-22x14x13-Insulated-Delivery-Reusable/dp/B076HYJW8N\",\"title\":\"Homevative XL Insulated Food & Grocery Delivery Bag - Amazon.com\",\"content\":\"Our food delivery bags are made with high grade nylon instead of cheap polyester. Paired with expertly stitched zippers, Dimensions 22\\\" x 14\\\" x 13\\\" Insulation\",\"score\":0.7327644,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Insulated-Thermal-Delivery-Personalized-Gradients/dp/B0DWMPT1B8\",\"title\":\"Insulated Cooler Bag with Zipper for Hot/Cold Food Leak Proof ...\",\"content\":\"Excellent materials and outstanding performance: TheInsulated Soft Sided Cooler Bagis made of Guchi nylon (polyester fiber) and 600D oxford cloth, and the inner\",\"score\":0.7325349,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Delivery-Resistant-Insulated-Carrying-Foldable/dp/B094CDSQR1\",\"title\":\"Amazon.com: MATEIN Insulated Food Delivery Bag, XXXL Thermal ...\",\"content\":\"Capacity: 68L · Weight: 3.78 pounds · Outer Material: 600D polyester fiber · Lining: grade aluminum foil · Color: Black · Built in Reinforcing Pad · Strong Thread.\",\"score\":0.7099254,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Best-Sellers-Commercial-Food-Dish-Transport/zgbs/industrial/5298299011\",\"title\":\"Best Commercial Food & Dish Transport - Amazon.com\",\"content\":\"Insulated Food Delivery Bag, Commercial Insulated Food Delivery Bag 39L, Heavy Duty Thermal Catering Tote with Zipper, Leakproof Hot & Cold Transport Bag for\",\"score\":0.6680367,\"raw_content\":null},{\"url\":\"https://www.amazon.com/Insulated-Styrofoam-Professional-Groceries-Restaurant/dp/B0D21Y161Y\",\"title\":\"XXXL Large Insulated Cooler Bag, Double Zipper Food Delivery ...\",\"content\":\"Double Zipper Food Delivery Bag, featuring insulation materials. With dimensions of 23\\\" W x 15\\\" H x 14\\\" D, thermal insulation cotton, and heat-resistant\",\"score\":0.5928793,\"raw_content\":null}],\"response_time\":0.97,\"request_id\":\"a9dc0924-efd8-4170-b66f-811f7bf0d9d9\"}"
+}
+

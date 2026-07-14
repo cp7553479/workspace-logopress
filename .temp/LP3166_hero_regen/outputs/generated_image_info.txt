@@ -1,0 +1,3 @@
+/Users/vincent/.openclaw/workspace-logopress/.temp/LP3166_hero_regen/outputs/LP3166_hero_oracle_chatgpt.png
+  pixelWidth: 1254
+  pixelHeight: 1254

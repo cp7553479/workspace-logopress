@@ -1,0 +1,59 @@
+{
+  "product_number": "LP7010",
+  "record_id": "recv6hAEbSKu4Q",
+  "readback_time_local": "2026-06-26 10:20 Asia/Shanghai",
+  "base_token": "SF9ibzjI4a0YFJsDZtKcLvtbnfh",
+  "table_id": "tbl3KNB7zP8EQ1d0",
+  "reference_images": [
+    {
+      "name": "clean_no_logo_reference.png",
+      "file_token": "STjpbaVI3ocjJaxGfHXcFsoVnJh",
+      "size": 1786484,
+      "type": "image/png"
+    }
+  ],
+  "white_background_images": [
+    {
+      "name": "white_background.png",
+      "file_token": "RIsybK3TroxnTwxX9OecwylBnue",
+      "size": 1003190,
+      "type": "image/png"
+    }
+  ],
+  "main_images": [
+    {
+      "name": "lifestyle_scene.png",
+      "file_token": "BOjJbXjuCoZhvcxmMO7cPNbvnif",
+      "size": 2013085,
+      "type": "image/png"
+    },
+    {
+      "name": "selling_point.png",
+      "file_token": "Ecu9bXgbDoarnRxdkdPcV4SfnQd",
+      "size": 1073475,
+      "type": "image/png"
+    },
+    {
+      "name": "dimensions.png",
+      "file_token": "NrDUbJAkaoKhDcxaqAdcqVKgnaf",
+      "size": 1673436,
+      "type": "image/png"
+    },
+    {
+      "name": "material_detail.png",
+      "file_token": "OWILbfoXPospJ1xfkgOcUcClnOb",
+      "size": 1052408,
+      "type": "image/png"
+    },
+    {
+      "name": "hero_main.png",
+      "file_token": "FhSLbxNqgoKNcexRuQccAISWnTd",
+      "size": 1886121,
+      "type": "image/png"
+    }
+  ],
+  "mark": [
+    "有询单"
+  ],
+  "status": "readback confirmed: 1 clean reference image, 1 white-background image, 5 main images"
+}

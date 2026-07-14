@@ -1,0 +1,7 @@
+Create a pure white background ecommerce product image from the provided clean reference image.
+
+Show the real kitchen meat press product family only: the black metal meat press and the silver metal meat press variants with light wooden cylindrical handles, raised grid ribs, metal brackets, screw ends, and the same proportions shown in the reference. Use a professional studio product-photo style on a pure white background with soft realistic shadows. Keep the product structure, metal texture, wooden handle texture, colors, proportions, and all visible parts 100% identical to the reference. Do not add any new colors, shapes, accessories, packaging, food, hands, utensils, or decorative props.
+
+No logo or imprint on the product. Remove any existing logo, sample logo, brand mark, manufacturer/platform mark, QR code, watermark, contact information, or URL. The image should be suitable as a white-background product reference for later Amazon-style ecommerce images.
+
+Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English only if any text is unavoidable, but prefer no text. Do not invent unsupported details. Ratio 1:1.

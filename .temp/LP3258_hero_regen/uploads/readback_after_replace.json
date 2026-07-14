@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        [
+          {
+            "file_token": "GYfXb78bmoY7rNxLbKRcNKu9nmd",
+            "name": "white_background.png",
+            "size": 1115386
+          },
+          {
+            "file_token": "A1oTbIVYIoiHcexc8uIcpEKCngg",
+            "name": "LP3258_hero_main_oracle_chatgpt_LOGO-WT.png",
+            "size": 1826110
+          }
+        ],
+        [
+          {
+            "file_token": "HnpPb9izEoK6n2xERjucUfswnNf",
+            "name": "cleaned_reference.png",
+            "size": 1424622
+          }
+        ],
+        [
+          {
+            "file_token": "YFSVbMOd0oqXgBx2b4fcPBPWnXb",
+            "name": "white_background.png",
+            "size": 1115386
+          }
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldn5dP24T",
+      "fldr9B4JZT",
+      "fldzPbQJ2z"
+    ],
+    "fields": [
+      "商品主图",
+      "参考图片",
+      "白底图"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsACVIt4Py"
+    ]
+  }
+}

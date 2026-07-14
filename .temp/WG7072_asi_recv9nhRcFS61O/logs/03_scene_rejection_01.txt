@@ -1,0 +1,3 @@
+Rejected output: outputs/WG7072_scene_gym_lifestyle.png
+Reason: Product and scene are acceptable, but a small decorative star-like mark appears at the lower right. This violates the no watermark / no extra mark constraint for ASI product images.
+Action: Regenerate via Oracle Gemini with stricter prompt wording forbidding any decorative icons, sparkles, symbols, signatures, or watermarks.

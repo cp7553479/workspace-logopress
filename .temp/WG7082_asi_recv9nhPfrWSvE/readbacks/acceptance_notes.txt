@@ -1,0 +1,8 @@
+Accepted generated images:
+- WG7082_scene_kitchen.png: lifestyle scene, English-only text, no prohibited marks/prices, product shape and material preserved.
+- WG7082_selling_point.png: selling-point poster, readable English text, supported claims only.
+- WG7082_material_detail.png: material/detail poster, readable English labels, supported brushed stainless/edge/handle details only.
+- WG7082_dimensions.png: dimension diagram with verified values only: Length 11.42 inch, Width 7.87 inch, Thickness 0.39 inch.
+- WG7082_hero_main.png: final hero, LOGO-BK.png reference used, YOUR LOGO visible, no extra marketing/dimension/SKU text.
+Skipped:
+- SKU image: skipped because record/reference provide only one reliable silver SKU and no reliable alternate color/style evidence.

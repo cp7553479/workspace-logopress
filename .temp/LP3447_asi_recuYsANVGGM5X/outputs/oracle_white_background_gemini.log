@@ -1,0 +1,21 @@
+🧿 oracle 0.14.0 — Single spell, multiple verdicts.
+Using named browser profile default: /Users/vincent/.oracle/browser-profile
+Using Gemini web client for browser automation
+Browser model strategy is ignored for Gemini web runs.
+Session: lp3447-white-bg
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session lp3447-white-bg
+Launching browser mode (gemini-3.5-flash) with ~230 tokens.
+This run can take up to an hour (usually ~10 minutes).
+[browser] Model selection evidence: requested=gemini-3.5-flash; resolved=(unavailable); status=unavailable; strategy=current; verified=no.
+Answer:
+http://googleusercontent.com/image_generation_content/295
+
+
+
+*Generated 1 image(s). Saved to: /Users/vincent/.openclaw/workspace-logopress/.temp/LP3447_asi_recuYsANVGGM5X/outputs/LP3447_white_background.png*
+
+42.9s · gemini-3.5-flash[browser] · ↑230 ↓15 ↻0 Δ245
+files=1

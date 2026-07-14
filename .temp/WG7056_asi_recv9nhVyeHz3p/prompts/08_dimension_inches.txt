@@ -1,0 +1,14 @@
+Create a dimension ecommerce image for women's high-waist seamless workout shorts.
+
+Use the attached white-background product reference image as the only visual source of truth for product shape, texture, seams, and garment construction. Show the same shorts cleanly on a white or very light studio background with accurate dimension callouts only.
+
+Reliable dimensions from the product record, converted from centimeters to inches:
+Length: 21.3 inch
+Width: 25.2 inch
+Height: 13.0 inch
+
+Composition: clear Amazon-style dimension diagram with the shorts centered and dimension arrows placed around the product. Text is limited to the dimension labels above. Do not add marketing copy, icons, certifications, logos, prices, or unsupported measurement names.
+
+Priority: clarity and accuracy of the dimension labels and product shape. Keep a clean premium layout, balanced spacing, attractive lighting, and polished commercial presentation.
+
+Hard constraints: Product must be 100% identical to reference in all details (shape, texture, parts). No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. All text in English. Do not invent unsupported details. Ratio 1:1.

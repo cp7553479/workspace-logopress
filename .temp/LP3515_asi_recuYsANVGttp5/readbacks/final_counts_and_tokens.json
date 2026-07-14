@@ -1,0 +1,53 @@
+{
+  "refs_count": 1,
+  "refs": [
+    {
+      "file_token": "N0Ylbyfh9oGsIoxlv4Kc7LUAndh",
+      "name": "LP3515_clean_no_logo.png",
+      "type": "image/png",
+      "size": 1263808
+    }
+  ],
+  "white_count": 1,
+  "white": [
+    {
+      "file_token": "IY2GbDIrwogk1YxFEdpcMGJinhf",
+      "name": "LP3515_white_background.png",
+      "type": "image/png",
+      "size": 2231326
+    }
+  ],
+  "main_count": 5,
+  "main": [
+    {
+      "file_token": "GBH0b7eyuolK3Ux3Iv1cFP2Dnbd",
+      "name": "LP3515_hero_main.png",
+      "type": "image/png",
+      "size": 2118638
+    },
+    {
+      "file_token": "BmoMbjYIioMd5LxvWVAcxRClnjb",
+      "name": "LP3515_scene_delivery_retry_chatgpt.png",
+      "type": "image/png",
+      "size": 2208094
+    },
+    {
+      "file_token": "PMxtbhOISoz4LaxjAcJcmmrjnbh",
+      "name": "LP3515_selling_point_insulated.png",
+      "type": "image/png",
+      "size": 1560073
+    },
+    {
+      "file_token": "SVrxbYEqloq5LbxfPk6cceJ3nSh",
+      "name": "LP3515_dimension.png",
+      "type": "image/png",
+      "size": 1704021
+    },
+    {
+      "file_token": "AvVhbsTtLogAv5x0m2icUc2Znld",
+      "name": "LP3515_material_detail.png",
+      "type": "image/png",
+      "size": 1295473
+    }
+  ]
+}

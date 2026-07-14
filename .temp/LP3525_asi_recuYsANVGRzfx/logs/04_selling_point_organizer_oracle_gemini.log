@@ -1,0 +1,12 @@
+🧿 oracle 0.14.0 — Signal first, sorcery second.
+Using named browser profile default: /Users/vincent/.oracle/browser-profile
+Using Gemini web client for browser automation
+Session: create-a-profession-amazon-style-45
+Mode: browser foreground
+Models: 1
+Detach: no
+Reattach: oracle session create-a-profession-amazon-style-45
+Launching browser mode (gemini-3.5-flash) with ~259 tokens.
+This run can take up to an hour (usually ~10 minutes).
+ERROR: fetch failed
+User error (browser-automation): fetch failed

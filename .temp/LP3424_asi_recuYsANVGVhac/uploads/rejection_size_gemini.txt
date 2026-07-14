@@ -1,0 +1,1 @@
+Rejected size image: Gemini output showed Height 9.30 inch; reliable height from 16 cm is 6.30 inch. File moved to rejected_LP3424_03_size_dimensions_wrong_height_9_30.png

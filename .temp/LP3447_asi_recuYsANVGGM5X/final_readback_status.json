@@ -1,0 +1,57 @@
+{
+  "product_number": "LP3447",
+  "record_id": "recuYsANVGGM5X",
+  "base_token": "SF9ibzjI4a0YFJsDZtKcLvtbnfh",
+  "table_id": "tbl3KNB7zP8EQ1d0",
+  "product_name": "Transparent Color Profile Office A4 Plastic Clipboard",
+  "reference_images": [
+    {
+      "name": "LP3447_clean_no_logo.png",
+      "file_token": "V43Ubpl6ao8dbzxaq5UclUnunbh",
+      "size": 1421568
+    }
+  ],
+  "white_background_images": [
+    {
+      "name": "LP3447_white_background.png",
+      "file_token": "LjpxbMInQozrhMxc45kcDqgXnJz",
+      "size": 995967
+    }
+  ],
+  "main_images": [
+    {
+      "name": "LP3447_lifestyle_scene.png",
+      "file_token": "PF8Nbpn5ToSIuhxUx5CcNzOXnod",
+      "size": 1278566
+    },
+    {
+      "name": "LP3447_selling_point_v2.png",
+      "file_token": "EYVTbZzf1okdn4xgBY5cwhIXnmG",
+      "size": 1943489
+    },
+    {
+      "name": "LP3447_dimension_infographic.png",
+      "file_token": "TWcYbpiq6oKMSuxldL3cjjn2n7d",
+      "size": 739143
+    },
+    {
+      "name": "LP3447_material_detail.png",
+      "file_token": "QvtUb57bMolRdhxW77RcDaf0n2d",
+      "size": 1756728
+    },
+    {
+      "name": "LP3447_sku_chart.png",
+      "file_token": "LTpHbNTbjoQOdSxQ5PUcwitYnfh",
+      "size": 1217389
+    },
+    {
+      "name": "LP3447_hero_main_v3.png",
+      "file_token": "J1mmbpP1SoFRRfxSYYwcXkzanbf",
+      "size": 1537295
+    }
+  ],
+  "mark": [
+    "有询单"
+  ],
+  "status": "readback confirmed: 1 clean reference image, 1 white-background image, 6 main images"
+}

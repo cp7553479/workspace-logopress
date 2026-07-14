@@ -1,0 +1,79 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP7252",
+        "Magnetic clip on flashlight nurse light for work emergency",
+        "护士工作灯",
+        "This clip-on light offers versatile magnetic attachment for hands-free illumination in the dark night. Rush service is available.",
+        "Sports, Fitness, \u0026 Outdoors",
+        "blue,pink,red,white,light green",
+        "Silicone",
+        16.5,
+        3.5,
+        1.3,
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "WE7GbDN3noBaq2xZPlncUhBEn6h",
+            "name": "-777444611772257669041.jpeg",
+            "size": 53510
+          }
+        ],
+        null,
+        null,
+        "recvcuSPFvlHGa"
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fld8ifVx8f",
+      "fldVQEfx44",
+      "fldwtQtwf5",
+      "fld6YFlAS8",
+      "fldoQQU5d4",
+      "flds2DArkf",
+      "fldmImxGsM",
+      "fldoThqxSN",
+      "fldFAy8Xes",
+      "fldsExhPlC",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fldfwWSmG4"
+    ],
+    "fields": [
+      "产品编号",
+      "产品名称",
+      "产品简称",
+      "简要说明",
+      "产品类型",
+      "产品颜色",
+      "产品材质",
+      "产品尺寸 长(cm)",
+      "产品尺寸 宽(cm)",
+      "产品尺寸 高(cm)",
+      "Mark",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "record_id"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recvcuSPFvlHGa"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

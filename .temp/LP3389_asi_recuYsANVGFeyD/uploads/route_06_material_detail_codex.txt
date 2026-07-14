@@ -1,0 +1,2 @@
+Route: Codex gpt-image-2 after Oracle routes blocked/rejected for final ASI images.
+Result: success, accepted material/detail path .temp/LP3389_asi_recuYsANVGFeyD/outputs/LP3389_06_material_detail_codex.png

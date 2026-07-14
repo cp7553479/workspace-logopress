@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "attachments": {
+      "recuYsACVILcTO": {
+        "fldn5dP24T": [
+          {
+            "file_token": "KnqDbFIj2oBsyKxZ1jCcPHNankc",
+            "name": "asi_lifestyle_oracle_chatgpt.png",
+            "size": 2087529
+          },
+          {
+            "file_token": "N0ZSbDZZko7C9jx8Vc2c4tNBnti",
+            "name": "asi_rinse_oracle_chatgpt_retry.png",
+            "size": 1898326
+          },
+          {
+            "file_token": "GydGb0ZvrogvaxxpwS4cH74qnCg",
+            "name": "asi_bristle_detail_oracle_chatgpt_retry.png",
+            "size": 1900025
+          },
+          {
+            "file_token": "PqBIbngLfoZUZbxeRRNcdDUJnhe",
+            "name": "LP3215_asi_hero_oracle_chatgpt_regen.png",
+            "size": 1798052
+          }
+        ]
+      }
+    }
+  }
+}

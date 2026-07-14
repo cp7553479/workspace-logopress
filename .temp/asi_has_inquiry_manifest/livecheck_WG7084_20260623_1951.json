@@ -1,0 +1,68 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "WG7084",
+        "6-piece travel body skincare spa gift set beauty tote bag",
+        null,
+        "This beauty kit with different skin care tools and elegant tote elevates self-care at home or on the go.Rush service is available.",
+        "Health, Beauty \u0026 Wellness",
+        "brown",
+        "Canvas",
+        25.5,
+        20,
+        10,
+        [
+          {
+            "file_token": "XBKrbMv4NodaazxWvzYcc45lnIf",
+            "name": "-4500860061769406166007.png",
+            "size": 1103833
+          }
+        ],
+        null,
+        null,
+        [
+          "有询单"
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fld8ifVx8f",
+      "fldVQEfx44",
+      "fldwtQtwf5",
+      "fld6YFlAS8",
+      "fldoQQU5d4",
+      "flds2DArkf",
+      "fldmImxGsM",
+      "fldoThqxSN",
+      "fldFAy8Xes",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fldsExhPlC"
+    ],
+    "fields": [
+      "产品编号",
+      "产品名称",
+      "产品简称",
+      "简要说明",
+      "产品类型",
+      "产品颜色",
+      "产品材质",
+      "产品尺寸 长(cm)",
+      "产品尺寸 宽(cm)",
+      "产品尺寸 高(cm)",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "Mark"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recv9nhPfrxdck"
+    ]
+  }
+}

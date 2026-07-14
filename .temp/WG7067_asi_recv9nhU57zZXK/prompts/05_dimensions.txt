@@ -1,0 +1,5 @@
+Create a clean Amazon-style ecommerce dimension infographic for the attached natural wood embossed rolling pin.
+
+Use a white-background product view of the rolling pin and keep the product 100% identical to the reference in all details: same shape, handles, engraved cylinder pattern, natural wood texture, proportions, and color. The layout must prioritize clear dimensions and product accuracy. Add simple dimension lines and English labels only. Use these exact dimensions: Length 16.9 inch, Diameter 2 inch. Do not add any other size values or marketing text.
+
+No Chinese, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. Do not invent unsupported details. Ratio 1:1. Save as a PNG.

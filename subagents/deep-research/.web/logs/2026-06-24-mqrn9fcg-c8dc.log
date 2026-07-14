@@ -1,0 +1,30 @@
+[2026-06-24T05:40:08.560Z] cli.command
+{
+  "command": "fetch",
+  "args": {
+    "urls": [
+      "https://zzrs.zhengzhou.gov.cn/tzgg/6188961.jhtml"
+    ],
+    "waitUntil": "load",
+    "screenshot": false
+  }
+}
+
+[2026-06-24T05:40:08.560Z] http.request
+{
+  "url": "https://r.jina.ai/http://zzrs.zhengzhou.gov.cn/tzgg/6188961.jhtml",
+  "method": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "Authorization": "Bearer j****"
+  },
+  "body": null
+}
+
+[2026-06-24T05:40:09.724Z] http.response
+{
+  "url": "https://r.jina.ai/http://zzrs.zhengzhou.gov.cn/tzgg/6188961.jhtml",
+  "statusCode": 200,
+  "body": "{\"code\":200,\"status\":20000,\"data\":{\"title\":\"关于下载使用劳动合同示范文本的提示 - 郑州市人力资源和社会保障局\",\"description\":\"\",\"url\":\"http://zzrs.zhengzhou.gov.cn/tzgg/6188961.jhtml\",\"content\":\"[郑州市人民政府](http://www.zhengzhou.gov.cn/)·[郑州市人大](http://www.zzrd.gov.cn/)·[郑州市政协](http://www.zzzxy.gov.cn/) ·[郑州政务服务网](https://zz.hnzwfw.gov.cn/)\\n\\n[繁體](javascript:;)\\n\\n[登录](javascript:login())\\n\\n_不再提示_\\n\\n无障碍\\n\\n适老版\\n\\n![Image 1: 郑州市人力资源社会保障局网站logo](http://zzrs.zhengzhou.gov.cn/r/cms/rsj/cn/images/logo.png)\\n\\n*   [首页](http://zzrs.zhengzhou.gov.cn/)\\n*   [政务信息](https://zzrs.zhengzhou.gov.cn/xwgz/index.jhtml)[新闻关注](https://zzrs.zhengzhou.gov.cn/xwgz/index.jhtml)[部门动态](https://zzrs.zhengzhou.gov.cn/bmdt/index.jhtml)[县区动态](https://zzrs.zhengzhou.gov.cn/xqdt/index.jhtml)\\n*   [机构概况](http://public.zhengzhou.gov.cn/?a=dir&p=D16&d=15&h=1)\\n*   [政务公开](http://public.zhengzhou.gov.cn/?d=15)\\n*   [政务服务](https://zz.hnzwfw.gov.cn/zzzw/item/deptInfo.do?deptUnid=001003008002016&deptName=%E5%B8%82%E4%BA%BA%E7%A4%BE%E5%B1%80&areaCode=410100000000&region=410100000000&creditCode=11410100553165075H)\\n*   [交流互动](http://zzrs.zhengzhou.gov.cn/maillist/index.jhtml)[领导信箱](http://zzrs.zhengzhou.gov.cn/maillist/index.jhtml)[民意征集](https://zzrs.zhengzhou.gov.cn/suggestion/index.jhtml)\\n*   [专题专栏](http://zzrs.zhengzhou.gov.cn/ztzl/index.jhtml)\\n*   [局属单位专区](https://zzrs.zhengzhou.gov.cn/jsdw.jhtml)\\n\\n_查询间隔10秒_\\n\\n[首页](http://zzrs.zhengzhou.gov.cn/)[政务公开](https://zzrs.zhengzhou.gov.cn/xxgk/index.jhtml)[通知公告](https://zzrs.zhengzhou.gov.cn/tzgg/index.jhtml)正文\\n\\n关于下载使用劳动合同示范文本的提示\\n\\n来源：郑州市人力资源和社会保障局 时间：2021-12-30 16:55:29 \\n\\n《劳动合同法》规定：用人单位招用劳动者，建立劳动关系，应当订立书面劳动合同。已建立劳动关系，未同时订立书面劳动合同的，应当自用工之日起一个月内订立书面劳动合同。\\n\\n为规范企业用工管理，保障用工双方合法权益，进一步提高全市各类用人单位劳动合同签订率，市人社局根据《劳动合同法》有关规定，制定了劳动合同示范文本（通用、劳动派遣）、简易劳动合同（建筑业、制造业、餐饮业、采掘业、非全日制）、集体合同参考文本，提供企业下载使用。\\n\\n附件1.劳动合同（通用）\\n\\n附件2.劳动合同（劳动派遣）\\n\\n附件3.简易劳动合同（建筑业、制造业、餐饮业、采掘业、非全日制）\\n\\n附件4.集体合同\\n\\n[附件_1：附件1.劳动合同（通用）.doc](http://zzrs.zhengzhou.gov.cn/attachment/%E9%99%84%E4%BB%B61.%E5%8A%B3%E5%8A%A8%E5%90%88%E5%90%8C%EF%BC%88%E9%80%9A%E7%94%A8%EF%BC%89.doc?_yFf-rV8a7gHMSri0G8lZrSOrfUOZAL0GAT_VMI6RqX9Z7-7JwY0LCG7LJu-4RRrLPB_xaQXyoeSv6f-gc45jovXIw==)\\n\\n[附件_2：附件2.劳动合同（劳动派遣）.doc](http://zzrs.zhengzhou.gov.cn/attachment/%E9%99%84%E4%BB%B62.%E5%8A%B3%E5%8A%A8%E5%90%88%E5%90%8C%EF%BC%88%E5%8A%B3%E5%8A%A8%E6%B4%BE%E9%81%A3%EF%BC%89.doc?HUPXEMdCb6XUEDUXydZvc534GfTjaRBw3E0HRbDXnK2BVu8GKMdrtLIkkGD4Z1cbZaovAl6zlntkdeAC4sDGse7Rcw==)\\n\\n[附件_3：附件3.简易劳动合同（建筑业、制造业、餐饮业、采掘业、非全日制）.doc](http://zzrs.zhengzhou.gov.cn/attachment/%E9%99%84%E4%BB%B63.%E7%AE%80%E6%98%93%E5%8A%B3%E5%8A%A8%E5%90%88%E5%90%8C%EF%BC%88%E5%BB%BA%E7%AD%91%E4%B8%9A%E3%80%81%E5%88%B6%E9%80%A0%E4%B8%9A%E3%80%81%E9%A4%90%E9%A5%AE%E4%B8%9A%E3%80%81%E9%87%87%E6%8E%98%E4%B8%9A%E3%80%81%E9%9D%9E%E5%85%A8%E6%97%A5%E5%88%B6%EF%BC%89.doc?Yp35DQZuSn1RuEWgfWxXD5fAWmijWIMTUJARfrj8eQHRWxAmxhhtg7Nz7js7LTQk-ALFZs4tiMVOJCfVRrC4uV_ugg==)\\n\\n[附件_4：附件4.集体合同.docx](http://zzrs.zhengzhou.gov.cn/attachment/%E9%99%84%E4%BB%B64.%E9%9B%86%E4%BD%93%E5%90%88%E5%90%8C.docx?JeZg1kPKwcJbcLwHNUaEHTqTGDN3yGvN4SuaCrXWIrbghpYiiIc0VKQSX07Erqc99k28avndnDgFtZ-dMbZbgd0h7zw=)\\n\\n打印此文 关闭窗口\\n\\n[![Image 2: 党政机关网站标识](http://zzrs.zhengzhou.gov.cn/r/cms/global/common/site_info/site_foot_conac_red.png)](https://bszs.conac.cn/sitename?method=show&id=11B019EDE03E775AE053012819AC4BE7)[网站地图](http://zzrs.zhengzhou.gov.cn/map.jhtml)\\n\\n主办单位：郑州市人力资源和社会保障局\\n\\n地址：河南省郑州市陇海西路360号 咨询电话：0371-12333\\n\\n网站标识码：4101000049[豫ICP备05002146号-5](https://beian.miit.gov.cn/)[![Image 3](http://zzrs.zhengzhou.gov.cn/r/cms/global/common/site_info/site_foot_beian.png) 豫公网安备 41010202002451号](https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41010202002451)[![Image 4: 政府网站找错](http://zzrs.zhengzhou.gov.cn/r/cms/global/common/site_info/site_foot_jiucuo.png)](https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=4101000049)\",\"metadata\":{\"SiteName\":\"郑州市人力资源和社会保障局\",\"SiteDomain\":\"zzrs.zhengzhou.gov.cn\",\"SiteIDCode\":\"4101000049\",\"ColumnName\":\"通知公告\",\"ColumnType\":\"政务公开\",\"ArticleTitle\":\"关于下载使用劳动合同示范文本的提示\",\"PubDate\":\"2021-12-30 16:55\",\"ContentSource\":\"郑州市人力资源和社会保障局\",\"Keywords\":\"\",\"Author\":\"\",\"Description\":\"\",\"Image\":\"\",\"Url\":\"https://zzrs.zhengzhou.gov.cn/tzgg/6188961.jhtml\",\"viewport\":\"width=device-width, initial-scale=1.0\",\"renderer\":\"webkit\"},\"external\":{},\"httpStatus\":200,\"httpStatusText\":\"OK\",\"usage\":{\"tokens\":2072}},\"meta\":{\"usage\":{\"tokens\":2072}}}"
+}
+

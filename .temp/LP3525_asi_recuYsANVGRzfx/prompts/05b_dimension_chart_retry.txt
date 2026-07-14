@@ -1,0 +1,12 @@
+Create a corrected ecommerce dimension chart for an A4 multifunctional business contract office document folder.
+
+Use the attached white-background product image as the source of truth. Show the same open gray/silver PU leather folder on a pure white background with exactly two dimension arrows:
+
+1. Horizontal arrow along the longest left-to-right side of the open folder: label exactly "Length 12.8 inch".
+2. Vertical arrow along the shorter top-to-bottom side of the open folder: label exactly "Width 9.88 inch".
+
+Do not swap the labels. Do not show height, depth, thickness, diagonal size, or any other measurement. Do not add marketing text or product titles.
+
+The product must remain exactly the same in structure, shape, pockets, stitched edges, center spine, and metal clipboard clip. Keep the chart clean and easy to read, with black dimension arrows outside or near the product edges.
+
+No logo, no sample logo, no brand mark, no imprint, no QR codes, no watermarks, no manufacturer information, no supplier information, no platform marks, no contact information, no website URLs, no price info. Product must be 100% identical to reference in all details (shape, texture, parts). All text in English. Do not invent unsupported details. Ratio 1:1.

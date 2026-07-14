@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "downloaded": [
+      {
+        "content_type": "image/png",
+        "field_id": "fldzPbQJ2z",
+        "file_token": "BRB8bDVwvoct4Zx15mFcwP8Fnkh",
+        "name": "white_background_oracle_gemini.png",
+        "record_id": "recuYsACVI4xsE",
+        "saved_path": "/Users/vincent/.openclaw/workspace-logopress/.temp/LP2994_hero_regen/references/white_BRB8bDVwvoct4Zx15mFcwP8Fnkh.png",
+        "size": 665053,
+        "size_bytes": 665053
+      }
+    ]
+  }
+}

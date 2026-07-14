@@ -1,0 +1,4 @@
+Rejected output: outputs/LP3445_hero_main.png
+Route: Oracle Gemini, gemini-3.5-flash
+Reason: Product and logo are generally usable, but the hero image contains extra visible callout text ("Hammered Grip Texture") and an icon outside the logo demonstration. The ASI hero rule says the hero image must not contain extra text, labels, dimension marks, or marketing copy except the logo demonstration on the product.
+Next action: Regenerate the hero image via Oracle ChatGPT with a stricter prompt forbidding all extra text, icons, and labels outside the product logo.

@@ -1,0 +1,76 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "LP3389",
+        "Outdoor Versatile Portable Durable Survival Fire Flint",
+        null,
+        "Our fire flint is a compact, durable, multi-functional survival kit, perfect for any outdoor scenarios. Rush service is available.",
+        "Sports,Fitness,\u0026Outdoors",
+        "black; dark green; orange; dark blue",
+        "Plastic",
+        11.4,
+        2.9,
+        0,
+        [
+          {
+            "file_token": "OjLKb9zlpoSdxlxkbHOc0UYTnbc",
+            "name": "-16180117751759574823055.jpeg",
+            "size": 65462
+          }
+        ],
+        null,
+        null,
+        [
+          "有询单"
+        ]
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fld8ifVx8f",
+      "fldVQEfx44",
+      "fldwtQtwf5",
+      "fld6YFlAS8",
+      "fldoQQU5d4",
+      "flds2DArkf",
+      "fldmImxGsM",
+      "fldoThqxSN",
+      "fldFAy8Xes",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fldsExhPlC"
+    ],
+    "fields": [
+      "产品编号",
+      "产品名称",
+      "产品简称",
+      "简要说明",
+      "产品类型",
+      "产品颜色",
+      "产品材质",
+      "产品尺寸 长(cm)",
+      "产品尺寸 宽(cm)",
+      "产品尺寸 高(cm)",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "Mark"
+    ],
+    "has_more": false,
+    "record_id_list": [
+      "recuYsANVGFeyD"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.57",
+      "message": "lark-cli 1.0.57 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

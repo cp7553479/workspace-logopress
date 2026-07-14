@@ -1,0 +1,64 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "WG7100",
+        [
+          "有询单"
+        ],
+        [
+          {
+            "file_token": "LkOybtn4yoM0RXxPeIccTYvSnqf",
+            "name": "-14479993301769406136393.png",
+            "size": 1479693
+          }
+        ],
+        null,
+        null,
+        "Compact gifts whiskey cocktail trump clear ice cube maker",
+        null,
+        "Experience crystal, bubble-free ice that elevates the look and taste of every whiskey or cocktail. Rush service is available.",
+        "Kitchen \u0026 Dining",
+        "Silver",
+        "Stainless Steel"
+      ]
+    ],
+    "field_id_list": [
+      "fldHb6xDKX",
+      "fldsExhPlC",
+      "fldr9B4JZT",
+      "fldzPbQJ2z",
+      "fldn5dP24T",
+      "fld8ifVx8f",
+      "fldVQEfx44",
+      "fldwtQtwf5",
+      "fld6YFlAS8",
+      "fldoQQU5d4",
+      "flds2DArkf"
+    ],
+    "fields": [
+      "产品编号",
+      "Mark",
+      "参考图片",
+      "白底图",
+      "商品主图",
+      "产品名称",
+      "产品简称",
+      "简要说明",
+      "产品类型",
+      "产品颜色",
+      "产品材质"
+    ],
+    "has_more": false,
+    "query_context": {
+      "field_scope": "selected_fields",
+      "record_scope": "all_records",
+      "search_scope": "fldHb6xDKX(产品编号)"
+    },
+    "record_id_list": [
+      "recv9nhLt0D5Lt"
+    ]
+  }
+}
