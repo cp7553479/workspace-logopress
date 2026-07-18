@@ -1,0 +1,82 @@
+lark-cli — Lark/Feishu CLI tool.
+
+USAGE:
+    lark-cli <command> [subcommand] [method] [options]
+    lark-cli api <method> <path> [--params <json>] [--data <json>]
+    lark-cli schema <service.resource.method>
+
+EXAMPLES:
+    # View upcoming events
+    lark-cli calendar +agenda
+
+    # List calendar events
+    lark-cli calendar events instance_view --params '{"calendar_id":"primary","start_time":"1700000000","end_time":"1700086400"}'
+
+    # Search users
+    lark-cli contact +search-user --query "John"
+
+    # Generic API call
+    lark-cli api GET /open-apis/calendar/v4/calendars
+
+AI AGENT SKILLS:
+    lark-cli pairs with AI agent skills (Claude Code, etc.) that
+    teach the agent Lark API patterns, best practices, and workflows.
+
+    Install all skills:
+        npx skills add larksuite/cli -g -y
+
+    Or pick specific domains:
+        npx skills add larksuite/cli -s lark-calendar -y
+        npx skills add larksuite/cli -s lark-im -y
+
+    Learn more: https://github.com/larksuite/cli#agent-skills
+
+COMMUNITY:
+    GitHub:     https://github.com/larksuite/cli
+    Issues:     https://github.com/larksuite/cli/issues
+    Docs:       https://open.feishu.cn/document/
+
+More help: lark-cli <command> --help
+
+Usage:
+  lark-cli [flags]
+  lark-cli [command]
+
+Available Commands:
+  api         Generic Lark API requests
+  approval    Approval instance, and task management
+  apps        Develop, deploy HTML, web pages and applications
+  attendance  attendance record query
+  auth        OAuth credentials and authorization management
+  base        Table, field, record, view, dashboard, workflow, form, role & permission management
+  calendar    Calendar, event, and attendee management
+  config      Global CLI configuration management
+  contact     Contacts operations
+  docs        Document and content operations
+  doctor      CLI health check: config, auth, and connectivity
+  drive       File, comment, permission, and upload management
+  event       Consume and manage real-time events
+  help        Help about any command
+  im          Message and group chat management
+  mail        Email, draft, folder, and contacts management
+  markdown    Drive-native Markdown file create, fetch, and overwrite
+  minutes     Minutes content and metadata retrieval
+  note        Meeting note detail and unified transcript retrieval
+  okr         Lark OKR objectives, key results, alignments, indicators, progresses
+  profile     Manage configuration profiles
+  schema      View API method parameters, types, and scopes
+  sheets      Spreadsheet operations
+  skills      Read embedded skill content (list / read)
+  slides      Create and manage presentations, read content, and add or remove slides
+  task        Task, task list, and subtask management
+  update      Update lark-cli to the latest version
+  vc          Video conference and meeting note management
+  whiteboard  Create and edit boards
+  wiki        Wiki space and node management
+
+Flags:
+  -h, --help             help for lark-cli
+      --profile string   use a specific profile
+  -v, --version          version for lark-cli
+
+Use "lark-cli [command] --help" for more information about a command.
