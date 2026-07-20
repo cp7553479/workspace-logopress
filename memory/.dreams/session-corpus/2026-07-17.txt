@@ -46,3 +46,24 @@
 [logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L405] Assistant: 已恢复两条并行任务： - LP0767：白底图已核验，继续生成场景、SKU 与最终首图。 - LP0768：从现有进度安全续跑完整 ASI 套图。 每张验收并回填后会直接发到飞书。
 [logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L407] Assistant: LP0767 与 LP0768 都在继续执行；当前场景图生成会话已接续监控，未重复生成。新图完成、回填并核验后会立即发送。
 [logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L409] Assistant: LP0767、LP0768 的恢复任务仍在运行中。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L429] Assistant: Heartbeat progressed; LP0768 and LP0784 are actively resuming. LP0767 was verified complete without duplicate work.
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L431] Assistant: LP0768 暂停：所有参考图均为双板夹，与三管卷发棒要求冲突，不能安全生成。 请确认是否允许按双板夹形态继续；或提供可靠的三管卷发棒参考图后再继续。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L433] Assistant: LP0784 正在修正首图：现有版本未完整显示 “LogoPress” 文本，未回填为完成状态。已启动一次合规重试，完成后会再核验。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L445] Assistant: Heartbeat recorded. LP0768 needs your confirmation due to the verified product-shape conflict; LP0784 recovery and candidate scan are in progress.
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L447] Assistant: 已启动下一批并行处理： - LP0769：迷你卷发棒 - LP0770：铜质二合一梳子 两条均已确认主图为空、参考图存在，且未发现重复处理证据。LP0768仍因商品形态冲突保持暂停，等待你的确认。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L449] Assistant: LP0769、LP0770仍是当前并行处理批次；LP0768继续因形态冲突暂停。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L451] Assistant: LP0769 已进入生成阶段：无标识参考图会话运行中，尚无可上传成品。LP0770仍在并行处理；LP0784继续进行首图修正核验。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L457] Assistant: LP0769 仍在生成无标识参考图；LP0770 已转入针对性重试，LP0784继续首图修正。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L458] User: Pre-compaction memory flush. Store durable memories only in memory/2026-07-17.md (create memory/ if needed). Treat workspace bootstrap/reference files such as MEMORY.md, DREAMS.md, SOUL.md, TOOLS.md, and AGENTS.md as read-only during this flush; never overwri
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L464] User: [message_id: om_x100b6a97e6bfdcacdeea7f7dfbd1175] 文森-练物-超级管理员: 使用oracle 启动 chatgpt 来生图时请使用Medium思考强度或者模型
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L465] Assistant: 已记录：后续通过 Oracle 启动 ChatGPT 生图时，统一使用 Medium 思考强度；若按模型档位选，则使用等效 Medium 模型。该约束已写入持续任务配置。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L489] Assistant: LP0770 已完成并回写商品表。图片发送仍受飞书图片资源权限缺失限制。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L491] Assistant: LP0769 已进入场景图重试：前置的无标识参考图和白底图均已核验回填；初版因背景文字不合格未上传。现正用 ChatGPT Medium 等效思考强度重试。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L529] Assistant: LP0762 的完成通知已记录；这是重复回执，当前任务队列无需调整。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L533] Assistant: LP0762 重复回执已忽略，当前执行不受影响。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L541] Assistant: LP0762 的重复回执已忽略，当前任务正常推进。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L547] Assistant: LP0771 已独立回读验收： - 清洁参考图 1 张 - 紫/粉/蓝白底图 3 张 - 商品主图 4 张：场景、尺寸、SKU、LogoPress 首图 LP0773、LP0774 正在处理，未新增并发任务。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L588] Assistant: LP0773 已因并发附件安全暂停，未覆盖任何已有图片。已复核队列并派发 LP0775 继续生成；LP0768 保持等待形态确认。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L590] Assistant: LP0775 的续作仍在处理中；LP0773 与 LP0768 继续保持安全暂停。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L592] Assistant: LP0774 已完成回填核验。LP0775 已启动恢复核验，LP0778 已作为第二个安全队列项开始处理。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L594] Assistant: LP0775 与 LP0778 的实际回填状态正在只读核对中；在确认前不会重复上传或覆盖附件。

@@ -1,0 +1,3 @@
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L646] Assistant: LP0778 的重复状态通知已忽略，仍保持安全暂停。LP0781 与 LP0782 正在处理中。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L650] Assistant: LP0781、LP0782 已按修正后的生图调用方式开始受控重试；两个任务均会在每次写入前回读，避免并发覆盖。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L652] Assistant: 已忽略过期重复通知；当前有效任务为 LP0785 与 LP0792。
