@@ -1,3 +1,27 @@
 [logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L646] Assistant: LP0778 的重复状态通知已忽略，仍保持安全暂停。LP0781 与 LP0782 正在处理中。
 [logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L650] Assistant: LP0781、LP0782 已按修正后的生图调用方式开始受控重试；两个任务均会在每次写入前回读，避免并发覆盖。
 [logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L652] Assistant: 已忽略过期重复通知；当前有效任务为 LP0785 与 LP0792。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L685] Assistant: LP0795 已完成回填核验：主图 3 张、白底图 1 张；首图含 `YOUR LOGO` 与 `LogoPress`。 当前已继续派发 LP0906、LP0907 两个独立生图任务，保持最大并行数 2。图片发送权限不足的问题仍会被记录并按原生飞书路径尝试发送。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L689] Assistant: 收到的是 LP0795 的重复完成通知；状态不变：LP0906 与 LP0907 正在并行处理。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L693] Assistant: 这是过期的重复状态通知，已忽略。当前以最新状态为准：LP0907 已因并发写入暂停，LP0909 已接替开始处理。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L729] Assistant: LP0906 已确认安全暂停：远端附件状态发生变化，未覆盖、上传、生成或发送任何图片。证据已保存。 LP0909 与 LP0792 仍在并行处理中。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L737] Assistant: LP0792 已在上传前检测到参考图版本变更，安全暂停，未写入任何附件。 LP0805 与新派的 LP0809 正在并行处理。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L741] Assistant: 已识别为 LP0792 的重复旧通知，当前不作任何重复处理。LP0805 与 LP0809 的恢复任务继续按实时基线执行。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L749] Assistant: 该通知为已处理的 LP0792 重复状态，已忽略。当前由 LP0819 与 LP0821 继续并行处理。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L755] Assistant: 该通知为重复旧状态，已忽略。LP0819 与 LP0821 仍按实时基线继续处理。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L782] Assistant: 已识别为 LP0821 的重复完成通知，未重复派单或写入。LP0817 与 LP0825 仍在并行处理中。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L786] Assistant: LP0817 已因参考图片回读异常安全暂停，未改动主图或发送图片。已启动 LP0825 受控重试与 LP0826，当前并行数为 2。 从 LogoPress ERP「商品表」持续筛选：商品主图为空、参考图片不为空的商品，派遣 subagent 指定商品生成 asi 套图，等待 subagent 返回结果，subagent 完成后，再从 LogoPress ERP「商品表」持续筛选：商品主图为空、参考图片不为空的商品，再继续派生 subagent 循环，直到所有的商品主图为空、参考图片不为空的商品都已经完
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L790] Assistant: LP0825 已因未知并发参考图写入安全暂停，未生成、上传、删除或发送任何图片。LP0826 已按最新基线重试，LP0828 已开始处理。 从 LogoPress ERP「商品表」持续筛选：商品主图为空、参考图片不为空的商品，派遣 subagent 指定商品生成 asi 套图，等待 subagent 返回结果，subagent 完成后，再从 LogoPress ERP「商品表」持续筛选：商品主图为空、参考图片不为空的商品，再继续派生 subagent 循环，直到所有的商品主图为空、参考图片不为空的商品都
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L794] Assistant: LP0823 已安全暂停：干净参考图和白底图已核验回填，但首图未通过视觉合规检查，因此没有写入商品主图或发送图片。LP0826 与 LP0828 已从实时远端基线恢复处理。 从 LogoPress ERP「商品表」持续筛选：商品主图为空、参考图片不为空的商品，派遣 subagent 指定商品生成 asi 套图，等待 subagent 返回结果，subagent 完成后，再从 LogoPress ERP「商品表」持续筛选：商品主图为空、参考图片不为空的商品，再继续派生 subagent 循环，直到所有的商
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L796] Assistant: LP0826 因参考图片在写入前被外部替换而安全暂停；LP0828 已完成前置回填并进入套图生成。当前并行处理 LP0828 与 LP0833。 从 LogoPress ERP「商品表」持续筛选：商品主图为空、参考图片不为空的商品，派遣 subagent 指定商品生成 asi 套图，等待 subagent 返回结果，subagent 完成后，再从 LogoPress ERP「商品表」持续筛选：商品主图为空、参考图片不为空的商品，再继续派生 subagent 循环，直到所有的商品主图为空、参考图片不为空的
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L800] Assistant: LP0828 的停止通知为重复投递，已忽略，未重复派单或写入。当前由 LP0833 与 LP0834 并行处理。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L826] Assistant: LP0825 已完成：6 张商品主图、无标识参考图与白底图均已回写并核验。 图片私信仍被飞书 `im:resource:upload` / `im:resource` 权限阻止，完整证据已记录。 LP0834 与 LP0835 已接替进入两路并行处理；LP0833 因并发写保护暂停，未覆盖任何内容。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L830] Assistant: LP0833 已由另一执行者补齐并核验白底图与首图；图片私信仍受飞书上传权限限制。 LP0834、LP0835 已按最新远端基线重新启动两路处理。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L834] Assistant: LP0834 已因检测到外部参考图变更安全暂停，未覆盖任何附件。 LP0835 与 LP0837 已按最新基线进入两路并行处理。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L838] Assistant: LP0835 已因外部替换 clean 参考图安全暂停；LP0834 又检测到外部新增白底图，同样未覆盖。 LP0826 已新增合规场景图，但其余套图仍待补齐。当前两路已转为 LP0837 与 LP0838。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L842] Assistant: LP0835 的重复停止通知已忽略，保持暂停状态。 远端核验显示 LP0837、LP0838 仍是原始基线，现已重新启动两路处理。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L848] Assistant: LP0837、LP0838 均在写入前出现外部新增参考图，已安全暂停，未覆盖 Base。 LP0840 与 LP0842 已按实时原始基线进入两路处理。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L852] Assistant: LP0837 已回填并核验干净参考图与白底图；发现远端修订后停止，未生成或上传商品主图、首图，也未发送图片。 LP0840、LP0842 的远端基线目前仍未变化，继续等待各自处理结果。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L856] Assistant: LP0835 已确认完成并回读核验： - 1 张无标识参考图 - 1 张白底图 - 6 张商品主图：场景、卖点、尺寸、细节、SKU、首图 首图包含 `YOUR LOGO` 与 `LogoPress`。图片私信仍受飞书 `im:resource:upload` / `im:resource` 权限限制。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L860] Assistant: LP0834 已回读确认完成： - 1 张无标识参考图 - 1 张白底图 - 4 张商品主图：场景、SKU、尺寸、首图 首图含 `YOUR LOGO`，并覆盖 5 个真实颜色 SKU。图片私信仍因飞书上传权限缺失而失败。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L891] Assistant: LP0838 已完成并独立回读核验：干净参考图、白底图及 4 张主图均已写入，首图包含 `YOUR LOGO` 与 `LogoPress`。 LP0840 因并发写入冲突已安全暂停，未覆盖任何数据。LP0842 仍在处理；已按实时队列补派 LP0839。图片直发权限仍缺少 `im:resource:upload` 与 `im:resource`。
