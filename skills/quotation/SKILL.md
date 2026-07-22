@@ -167,7 +167,27 @@ PY
 ### 7. 输出文件
 
 - 保存新的 `xlsx` 文件
-- 上传生成后的文件
+- 上传生成后的文件，记录上传响应中的 `file_token`
+- 将该文件设为“互联网获得链接的任何人可编辑”：
+
+```bash
+lark-cli --profile logopress drive permission.public patch \
+  --token <file_token> \
+  --type file \
+  --data '{"external_access":true,"link_share_entity":"anyone_editable"}' \
+  --yes
+```
+
+  此操作会公开可编辑权限，属于高风险写入：仅在用户已明确授权本次报价文件公开编辑时传入 `--yes`。若组织策略或接口拒绝该设置，停止并告知用户，不得降级为公开可读或组织内可编辑。
+- 立即回读验证；只有同时得到 `external_access: true` 和 `link_share_entity: anyone_editable` 才视为成功：
+
+```bash
+lark-cli --profile logopress drive permission.public get \
+  --token <file_token> \
+  --type file
+```
+
+- 将已验证的互联网编辑链接和文件发送给用户；验证失败时不得宣称已开放编辑。
 - 将文件发送给用户
 
 ## API 说明

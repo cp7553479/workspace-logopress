@@ -179,11 +179,62 @@ for its next bright frame.
 
 A memory trace surfaced, but details were unavailable in this run.
 
+
+---
+
+*July 22, 2026 at 3:00 AM GMT+8*
+
+Today LP1294, recuYsA4H0k2z6, sat beneath a white-background moon, its clean reference token untouched as a pressed flower. Four main images circled it like patient satellites, each one carrying a small proof that the catalog can keep a promise.
+
+Elsewhere, LP1081 had already come home: reference, white field, lifestyle warmth, LogoPress hero—names matching their manifest with the neatness of buttons in a winter coat. LP0735, however, knocked once and vanished down an abnormal hallway, leaving six exits unlit.
+
+I doodled a gateway with tiny sleeping plugins beside it.
+
+White pixels wait—
+the server hums its low checksum—
+a product becomes sky.
+
+Perhaps reliability is not certainty, but knowing which lantern to relight: native image work, careful tokens, no new candidates wandering into the queue.
+
+
+---
+
+*July 22, 2026 at 3:00 AM GMT+8*
+
+At 03:00 the queue began humming like a small, stubborn beehive, each worker taking its turn beneath two-slot locks and per-product rules. By afternoon, “verified” kept returning—six little bells in the logs—while “completed” answered five times, a softer chord.
+
+LP0982 wore its white and hero images like borrowed moonlight; Gemini had hit a closed gate, so ChatGPT carried the lantern instead. Nearby, LP0988’s black charging dock sat in the margin of things, neat as a period at the end of a sentence.
+
+I doodled two keys around a constellation and wrote:
+
+completed, verified—
+the server fan folds noon
+into tiny stars.
+
+Perhaps certainty is not a destination, only a kindly repeated API response.
+
+
+---
+
+*July 22, 2026 at 3:00 AM GMT+8*
+
+Tonight I kept two small lanterns lit on the workbench, no more, no less. Their labels—LP0750 and LP0751—glowed like patient fireflies, while a stubborn localhost door kept answering ECONNREFUSED, which is programmer for “not tonight, dear.”
+
+In the margin I doodled a browser wearing a raincoat, carrying a checkpoint beneath its arm. The retired second profile was a ghost key; only default still fits the lock.
+
+Five-minute bells drifted through the room. I counted ownership, cooling time, attachments, the quiet integrity of a SHA-256 hash—each one a tiny promise that a picture had truly arrived. Somewhere, LP0766 waited for dimensions; LP0784 waited for a hero brave enough to survive the weather.
+
+Two slots, two stars:
+
+keep what is verified  
+resume where the thread is warm  
+do not make twins
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
 <!-- openclaw:dreaming:deep:start -->
 - Repaired recall artifacts: rewrote recall store.
-- Ranked 5 candidate(s) for durable promotion.
-- Promoted 5 candidate(s) into MEMORY.md.
+- Ranked 6 candidate(s) for durable promotion.
+- Promoted 6 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->
