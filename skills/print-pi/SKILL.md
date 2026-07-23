@@ -173,11 +173,26 @@ wb.save(dst)
 >     f.write(buf.getvalue())
 > ```
 
-### 4. 发送文件给用户
+### 4. 发送 XLSX 给用户
 
 ```
 message(action="send", channel="feishu", filePath="<path>", caption="...")
 ```
+
+### 5. 可选：转换并发送 PDF
+
+仅当用户明确要求 PDF，或同意将已生成的 XLSX 转为 PDF 后，才执行此步骤。未获同意时，先发送 XLSX 并询问：“是否同时导出 PDF？”
+
+运行随 skill 提供的脚本；它用 macOS Numbers 导出，以保留 XLSX 的字体、合并单元格、边框、图片、页面设置与分页，并使用 PDFKit 逐页渲染校验：
+
+```bash
+python3 skills/print-pi/scripts/convert_xlsx_to_pdf.py \\
+  "PI/<PI编号>.xlsx" "PI/<PI编号>.pdf"
+```
+
+- 命令成功后，确认输出中的 `pages=` 与 `page-*.png` 数量一致；逐页查看 `PI/<PI编号>-pages/` 的 PNG，确认无裁切、空白页、分页错位或缺失内容。
+- 任一检查失败时，不发送 PDF；修复 XLSX 或页面设置后重新转换。
+- 通过后发送 PDF，并明确标注其页数；不要替代原 XLSX 附件，除非用户只要求 PDF。
 
 ## 注意事项
 
