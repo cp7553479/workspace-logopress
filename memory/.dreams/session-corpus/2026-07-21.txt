@@ -265,3 +265,27 @@
 [logopress/sessions/logopress/27f755b3-e4f1-448b-a29f-f22b50761bd8.jsonl#L35] Assistant: LP1272_lifestyle.png
 [logopress/sessions/logopress/27f755b3-e4f1-448b-a29f-f22b50761bd8.jsonl#L36] Assistant: LP1272_white_background.png
 [logopress/sessions/logopress/27f755b3-e4f1-448b-a29f-f22b50761bd8.jsonl#L37] Assistant: LP2518_hero_logopress.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L10885] Assistant: LP1038_clean_no_logo.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L10886] Assistant: LP1038_white_background_retry.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L10887] Assistant: LP1038_lifestyle_office.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L10930] Assistant: LP4372_clean_no_logo.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L10949] Assistant: LP4372_white_background.png, LP4372_hero_main_LOGO-WT.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L10956] Assistant: LP4372 已核验回填并交付：无 Logo 参考图、白底图和主图均已发送。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L10966] Assistant: LP2152_clean_no_logo.png, LP2152_white_background.png, LP2152_hero_main_LOGO-WT.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L10973] Assistant: LP2152 已核验完成并交付：无 Logo 参考图、白底图和主图均已发送。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11155] Assistant: LP1245_clean_no_logo.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11156] Assistant: LP1245_white_background.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11157] Assistant: LP1245_lifestyle.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11158] Assistant: LP1245_hero_logo.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11159] Assistant: LP1272_clean_no_logo.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11160] Assistant: LP1272_white_background.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11161] Assistant: LP1272_lifestyle.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11162] Assistant: LP1272_hero_main_LOGO-BK.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11676] Assistant: LP1335_lifestyle_downloaded.png, LP1335_hero_downloaded.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11677] Assistant: LP1335_hero_downloaded.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11678] Assistant: LP1335_clean_no_logo.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11679] Assistant: LP1335_white_background_codex.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11774] Assistant: 队列冲突提醒：LP2528 与 LP2529 在本调度已释放 worker 后，远端受保护附件发生了未归属变更。LP2528 现有新参考图和白底图；LP2529 现有新参考图、白底图及两张主图。为避免覆盖他人写入，我已停止对这两条记录的重试、上传和发送，并保留了冲突证据。
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11795] Assistant: LP2528_clean.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11796] Assistant: LP2528_white.png
+[logopress/sessions/logopress/99cea047-38ef-442a-8da0-65ae48b85356.jsonl#L11797] Assistant: LP2529_clean.png
