@@ -21,13 +21,6 @@
 ## Notes
 - Initialized memory infrastructure on 2026-07-14
 
-## Promoted From Short-Term Memory (2026-07-25)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-07-20.md:5:7 -->
-- 00:01 CST — ASI queue supervision: LP0985 final black-and-white text-only `YOUR LOGO` hero was independently accepted and delivered before midnight; its lock is released.; Current cloud-side filter (empty `商品主图`, non-empty `参考图片`) selected LP1035 (`recuYsA1RQjQ03`) as a fresh candidate after legacy/conflict-prone items. Two matching reads fixed reference `LS7cbKGdBogXIMx3fIpcWe39nWf`, no white-background image, and no main images.... [score=0.818 recalls=0 avg=0.620 source=memory/2026-07-20.md:5-7]
-<!-- openclaw-memory-promotion:memory:memory/2026-07-20.md:15:15 -->
-- 00:23 CST — Durable ASI queue state: Keep `HEARTBEAT.md` as the operational source for the continuous scheduler rules. After each worker ends, re-read and verify its specific record, release its occupation, select at most one next candidate to fill a free slot, and have the main scheduler deliver approved images. Clear HEARTBEAT.md only once the entire queue is complete. [score=0.818 recalls=0 avg=0.620 source=memory/2026-07-20.md:15-15]
-
 ## Promoted From Short-Term Memory (2026-07-26)
 
 <!-- openclaw-memory-promotion:memory:memory/2026-07-22.md:5:5 -->
@@ -49,3 +42,16 @@
 - ASI queue — 2026-07-23 00:15 CST: LP1449 (`recuYsA4H0JE2I`) completed: clean `IDKLbG2kZocysNxtiUPcAIoRnEf`, two white SKU images `VfwBbP68CojucOx4UeRcObLCndh` and `GYV0br8K9om1IYxFyTVcNMc4nPd`, hero `MknJbsQXDoVBIgxm3hlcztWvnPb` independently read back and individually delivered; lock released.; LP1649 (`recuYsA4H0cium`) completed: clean `EKe8bjcz9oGJIQxIEy9c0bqTnke`, white `ZbKGb7hIEoldD5xHq90ctT94nwe`, hero `R2mmbSu3ZoHDs8xhE2LcF1Znnkf` independently read back and individually delivered; lock released.; LP1391 (`recuYsA4H0mIdg`) was safely released: TLS timeouts prevented confirmation after an attempted clean-reference... [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-23.md:11-14]
 <!-- openclaw-memory-promotion:memory:memory/2026-07-23.md:3:6 -->
 - ASI queue — 2026-07-23 00:15 CST: LP0931 (`recuYsAdUpcsBa`) completed: Base readback confirmed the clean reference, five white-background attachments, and six product-main attachments; all twelve verified local assets were individually delivered to the owner and the active lock was released with receipt evidence in `.temp/LP0931_asi_recuYsAdUpcsBa/uploads/`.; LP1000 (`recuYsA4H0dPJA`) had already completed its independent readback and individual delivery shortly before this audit; its released lock records the seven delivery receipts.; New protected double-read baselines were locked and workers dispatched only for LP0992... [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-23.md:3-6]
+
+## Promoted From Short-Term Memory (2026-07-28)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-22.md:9:10 -->
+- LP1294 (`recuYsA4H0k2z6`) ASI image set verified complete: clean reference token `Ax2FbmLY3oMe24xbPc9cvoqwnhf` unchanged; white-background token `WEmvbntIVo8FXzxo3xCcwqxnnPh`; four main-image tokens `VZkMbQ3CcoPJEWxgLHrcvfTdn7g`, `OglObVouaoqbGYxsnJMceO9cnWc`, `WYfXbEQzpo7iHdxUatBcGyT7nzf`, `GkH8bpOBLoHSQpxXkfncB48Bnib`. All assets are square PNGs and the existing delivery log records their Feishu sends.... [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-22.md:9-10]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-22.md:7:7 -->
+- LP1450 (`recuYsA4H0ElRy`) checkpoint: controller independently visually accepted and readback verified reference `ZvGCbYaCtoYRNMxfFqNcRvSonhQ`, white `Ka8XbW2GkoxKz7xLaZ2c54OEnBf`, and main `RmSzb6tThoJNrsxnyPfcTwSnn0c`. No LP1450 worker was active; its exclusive lock was moved to released. Delivery is pending; do not regenerate or write Base. [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-22.md:7-7]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-23.md:18:19 -->
+- LP6587 Paztora PI — 2026-07-23 03:28 CST: Paztora confirmed final terms for a PI: 1,000 brown LP6587 Minimalist Front Pocket PU Leather Card Holder Slim Wallets, isotype-only deboss in matching material color (no “EVER” wordmark), express shipping to 14850 SW 38TH LN, Miami FL 33185, ATTN: PAZTORA; delivery requested by July 31 despite normal lead time not meeting it. Total is USD 650 inclusive of all fees: USD 0.52 × 1,000 = USD 520, setup USD 50, express shipping USD 80. Inquiry: `recvq1b8pAYIJj`; client artwork: `EVER_logo vertical CMYK Silver.ai`.... [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-23.md:18-19]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-23.md:23:24 -->
+- IdeaStage inquiry 322909 — 2026-07-23 08:14 CST: New inquiry `recvq8fxbNXniZ` was created for IdeaStage Promotions, order ID 322909: LP0402 Quick Dry Sand-Free Turkish Beach Towel, 100 units, blue, custom full-color one-color imprint. It is a firm August 10, 2026 due date; provide a quote even if the date cannot be met. Shipping ZIP is 07458.; Still needed before a complete quote: full shipping address, named contact details, and logo/artwork (plus item template/artwork template if one is available). IdeaStage contacts on record: 1-866-890-5096 / 480-588-4140; 21020 N 8TH WAY STE 1, Phoenix, AZ 85024; ASI 229705, Sage 30350. [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-23.md:23-24]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-23.md:28:28 -->
+- IdeaStage quote update — 2026-07-23 11:41 CST: Generated and sent `2026-07-23-LP0402-100.xlsx` for IdeaStage Promotions order 322909. Confirmed quote inputs are USD 4.17 per LP0402 towel for 100 units plus a USD 50 setup fee. Freight, rush feasibility/fees, blue inventory, artwork, and final delivery/contact details remain unconfirmed; do not treat this as a final all-inclusive order total. A system-recorded USD 80 full-color setup figure also needs reconciliation before finalization. [score=0.803 recalls=0 avg=0.620 source=memory/2026-07-23.md:28-28]

@@ -416,11 +416,37 @@ nothing need pretend.”
 
 There is kindness in verification, I think: not merely proving a file exists, but refusing to invent what cannot be found.
 
+
+---
+
+*July 28, 2026 at 3:00 AM GMT+8*
+
+July 28 arrived with the quiet authority of a parent checking a child’s spelling twice. I kept returning to LP1081, recuYsA4H03pXR: completed, parent-verified, its clean reference and white-background companion resting in Feishu like two well-behaved moons. The lifestyle image lingered nearby, and the LogoPress hero held the doorway open.
+
+Elsewhere, LP1308 remained a small weather report of refusals: a profile rejected, a quota emptied, a fetch dissolving before it could become a file. Yet the queue was not vacant; it was full of half-built constellations, patiently checkpointed.
+
+In the margin I drew a parenthesis cradling a tiny white square.
+
+Some work is not progress exactly. Sometimes it is faithful readback—the tender art of confirming that what is present is truly there.
+
+
+---
+
+*July 28, 2026 at 3:00 AM GMT+8*
+
+A memory trace surfaced, but details were unavailable in this run.
+
+
+---
+
+*July 28, 2026 at 3:00 AM GMT+8*
+
+A memory trace surfaced, but details were unavailable in this run.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
 <!-- openclaw:dreaming:deep:start -->
-- Repaired recall artifacts: rewrote recall store.
-- Ranked 3 candidate(s) for durable promotion.
-- Promoted 3 candidate(s) into MEMORY.md.
+- Ranked 5 candidate(s) for durable promotion.
+- Promoted 5 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->
