@@ -1,0 +1,5 @@
+[logopress/sessions/logopress/e847739b-30dc-48ca-ba50-82b83ec78a6b.jsonl#L663] Assistant: HEARTBEAT.md 不存在，无待处理任务。
+[logopress/sessions/logopress/e847739b-30dc-48ca-ba50-82b83ec78a6b.jsonl#L667] Assistant: HEARTBEAT.md 不存在，无待处理任务。
+[logopress/sessions/logopress/e847739b-30dc-48ca-ba50-82b83ec78a6b.jsonl#L671] Assistant: HEARTBEAT.md 不存在，无待处理任务。
+[logopress/sessions/logopress/e847739b-30dc-48ca-ba50-82b83ec78a6b.jsonl#L730] Assistant: [assistant turn failed before producing content]
+[logopress/sessions/logopress/e847739b-30dc-48ca-ba50-82b83ec78a6b.jsonl#L736] Assistant: HEARTBEAT_OK 指定的 `HEARTBEAT.md` 不存在，未发现仍在运行的 ASI/图片生成任务，无需继续处理或清理。
